@@ -1,3 +1,4 @@
+console.log('AI Tester v1.3.6.1 loaded');
 let tests = [];
 let currentTest = null;
 let currentQuestionIndex = 0;
