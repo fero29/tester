@@ -352,16 +352,42 @@ Analyzuj obrázok a vráť JSON:"""
                 'raw_response': ai_response[:200]  # Prvých 200 znakov pre užívateľa
             }), 400
 
-        # Namiesto výrezov pridať celý predspracovaný obrázok
-        # (výrezy podľa AI pozícií nefungujú dobre)
+        # Vytvoriť výrezy pre každú otázku
+        # Rozdelíme obrázok na rovnaké časti podľa počtu otázok
+        num_questions = len(result.get('questions', []))
 
-        # Konvertovať predspracovaný obrázok na base64
+        if num_questions > 0:
+            img_width, img_height = processed_pil.size
+            crop_height = img_height / num_questions
+
+            for idx, question in enumerate(result.get('questions', [])):
+                # Vypočítať pozície výrezu
+                top = int(idx * crop_height)
+                bottom = int((idx + 1) * crop_height)
+
+                # Pridať malý overlap pre kontext (5%)
+                overlap = int(0.05 * crop_height)
+                top = max(0, top - overlap)
+                bottom = min(img_height, bottom + overlap)
+
+                # Vytvoriť výrez
+                crop_box = (0, top, img_width, bottom)
+                cropped = processed_pil.crop(crop_box)
+
+                # Konvertovať na base64
+                buffer = io.BytesIO()
+                cropped.save(buffer, format='JPEG', quality=85)
+                buffer.seek(0)
+                crop_base64 = base64.b64encode(buffer.read()).decode('utf-8')
+
+                # Pridať výrez k otázke
+                question['cropImage'] = f'data:image/jpeg;base64,{crop_base64}'
+
+        # Pridať celý predspracovaný obrázok k výsledku
         buffer = io.BytesIO()
         processed_pil.save(buffer, format='JPEG', quality=90)
         buffer.seek(0)
         processed_base64 = base64.b64encode(buffer.read()).decode('utf-8')
-
-        # Pridať celý predspracovaný obrázok k výsledku
         result['processedImage'] = f'data:image/jpeg;base64,{processed_base64}'
 
         return jsonify({

@@ -953,6 +953,14 @@ function displayAIQuestions() {
                 <h4>Otázka ${qIndex + 1}</h4>
                 <button onclick="deleteQuestion(${qIndex})" class="btn-delete-small">🗑️</button>
             </div>
+            ${q.cropImage ? `
+                <div style="margin: 10px 0; padding: 10px; background: #f9f9f9; border-radius: 8px;">
+                    <label style="display: block; margin-bottom: 5px; font-weight: bold; color: #666;">📸 Výrez z predspracovanej fotky:</label>
+                    <img src="${q.cropImage}" style="max-width: 100%; border-radius: 4px; border: 2px solid #ddd; cursor: pointer;"
+                         onclick="window.open().document.write('<img src=\\'${q.cropImage}\\' style=\\'max-width:100%;height:auto\\'>')"
+                         title="Kliknite pre zväčšenie">
+                </div>
+            ` : ''}
             <label>Otázka:</label>
             <input type="text" class="ai-input" data-q="${qIndex}" data-field="question"
                    value="${escapeHtml(q.question)}" onchange="updateAIQuestion(${qIndex}, 'question', this.value)">
