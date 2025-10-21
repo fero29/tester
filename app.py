@@ -247,9 +247,14 @@ def ai_import():
         original_image_bytes = image_file.read()
         image_file.seek(0)
 
-        # Predspracovať obrázok
+        # Predspracovať obrázok pre AI
+        image_file.seek(0)
         processed_image = preprocess_image(image_file, advanced=advanced_preprocessing)
         image_data = base64.b64encode(processed_image.read()).decode('utf-8')
+
+        # Uložiť aj predspracovaný obrázok ako PIL Image pre výrezy
+        image_file.seek(0)
+        processed_pil = Image.open(preprocess_image(image_file, advanced=advanced_preprocessing))
 
         # Prompt pre OpenAI
         prompt = """Analyzuj tento obrázok a extrahuj z neho všetky otázky s možnými odpoveďami.
@@ -269,9 +274,6 @@ POSTUP:
    ✓ Text v rámčeku
    ✓ Slová "správna", "correct", "ano" pri odpovedi
 3. VŠETKY odpovede s vizuálnym označením pridaj do poľa "correct"
-4. Pre KAŽDÚ otázku urči jej približnú vertikálnu pozíciu v obrázku (v percentách):
-   - positionTop: kde začína otázka (0-100%, kde 0% je vrch obrázka)
-   - positionBottom: kde končia odpovede na otázku (0-100%)
 
 ⚠️ ČASTÁ CHYBA: Neuvádzaj len jednu správnu odpoveď ak vidíš viac zakrúžkovaných!
 
@@ -283,24 +285,22 @@ Vráť odpoveď v tomto PRESNOM JSON formáte:
     {
       "question": "Text otázky",
       "answers": ["odpoveď 1", "odpoveď 2", "odpoveď 3", "odpoveď 4"],
-      "correct": [0, 2],
-      "positionTop": 10,
-      "positionBottom": 35
+      "correct": [0, 2]
     }
   ]
 }
 
 FORMÁT:
 - "correct" je ARRAY indexov (0=prvá, 1=druhá, 2=tretia, 3=štvrtá)
-- "positionTop" a "positionBottom" sú čísla 0-100 (percentá výšky obrázka)
 - Answers musia byť presne 4 (ak je menej, doplň "")
 - Vráť IBA čistý JSON
 
 Analyzuj obrázok a vráť JSON:"""
 
         # Zavolať OpenAI Vision API
+        # Použiť detail: "high" pre lepšiu detekciu pozícií
         response = client.chat.completions.create(
-            model="gpt-4o",
+            model="gpt-4o",  # Najnovší model s najlepšou vision schopnosťou
             messages=[
                 {
                     "role": "user",
@@ -309,7 +309,8 @@ Analyzuj obrázok a vráť JSON:"""
                         {
                             "type": "image_url",
                             "image_url": {
-                                "url": f"data:image/jpeg;base64,{image_data}"
+                                "url": f"data:image/jpeg;base64,{image_data}",
+                                "detail": "high"  # Vysoké rozlíšenie pre presnejšiu detekciu
                             }
                         }
                     ]
@@ -351,35 +352,17 @@ Analyzuj obrázok a vráť JSON:"""
                 'raw_response': ai_response[:200]  # Prvých 200 znakov pre užívateľa
             }), 400
 
-        # Vytvoriť výrezy obrázka pre každú otázku
-        original_img = Image.open(io.BytesIO(original_image_bytes))
-        img_width, img_height = original_img.size
+        # Namiesto výrezov pridať celý predspracovaný obrázok
+        # (výrezy podľa AI pozícií nefungujú dobre)
 
-        for question in result.get('questions', []):
-            top_percent = question.get('positionTop', 0)
-            bottom_percent = question.get('positionBottom', 100)
+        # Konvertovať predspracovaný obrázok na base64
+        buffer = io.BytesIO()
+        processed_pil.save(buffer, format='JPEG', quality=90)
+        buffer.seek(0)
+        processed_base64 = base64.b64encode(buffer.read()).decode('utf-8')
 
-            # Vypočítať pixelové pozície
-            top_px = int((top_percent / 100) * img_height)
-            bottom_px = int((bottom_percent / 100) * img_height)
-
-            # Pridať malý padding (5% hore a dole)
-            padding = int(0.05 * img_height)
-            top_px = max(0, top_px - padding)
-            bottom_px = min(img_height, bottom_px + padding)
-
-            # Vytvoriť výrez
-            crop_box = (0, top_px, img_width, bottom_px)
-            cropped = original_img.crop(crop_box)
-
-            # Konvertovať na base64
-            buffer = io.BytesIO()
-            cropped.save(buffer, format='JPEG', quality=85)
-            buffer.seek(0)
-            crop_base64 = base64.b64encode(buffer.read()).decode('utf-8')
-
-            # Pridať výrez k otázke
-            question['cropImage'] = f'data:image/jpeg;base64,{crop_base64}'
+        # Pridať celý predspracovaný obrázok k výsledku
+        result['processedImage'] = f'data:image/jpeg;base64,{processed_base64}'
 
         return jsonify({
             'success': True,
