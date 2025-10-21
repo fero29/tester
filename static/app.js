@@ -742,6 +742,7 @@ function backToList() {
 // ============================================
 
 let aiImportedData = null;
+let originalImages = []; // Uložiť pôvodné fotky pre zobrazenie
 
 function showAIImportPage() {
     document.querySelector('.section').style.display = 'none';
@@ -756,26 +757,44 @@ function showAIImportPage() {
     document.getElementById('imagePreview').style.display = 'none';
     document.getElementById('processBtn').style.display = 'none';
     aiImportedData = null;
+    originalImages = [];
 }
 
-function previewImage(input) {
-    if (input.files && input.files[0]) {
-        const reader = new FileReader();
+function previewImages(input) {
+    if (input.files && input.files.length > 0) {
+        const container = document.getElementById('previewContainer');
+        container.innerHTML = '';
+        originalImages = [];
 
-        reader.onload = function(e) {
-            document.getElementById('previewImg').src = e.target.result;
-            document.getElementById('imagePreview').style.display = 'block';
-            document.getElementById('processBtn').style.display = 'inline-block';
-        };
+        Array.from(input.files).forEach((file, index) => {
+            const reader = new FileReader();
 
-        reader.readAsDataURL(input.files[0]);
+            reader.onload = function(e) {
+                originalImages.push(e.target.result);
+
+                const imgDiv = document.createElement('div');
+                imgDiv.style.cssText = 'position: relative;';
+                imgDiv.innerHTML = `
+                    <img src="${e.target.result}" style="max-width: 200px; max-height: 200px; border-radius: 8px; object-fit: cover;">
+                    <div style="position: absolute; top: 5px; right: 5px; background: rgba(0,0,0,0.7); color: white; padding: 3px 8px; border-radius: 4px; font-size: 12px;">
+                        ${index + 1}
+                    </div>
+                `;
+                container.appendChild(imgDiv);
+            };
+
+            reader.readAsDataURL(file);
+        });
+
+        document.getElementById('imagePreview').style.display = 'block';
+        document.getElementById('processBtn').style.display = 'inline-block';
     }
 }
 
-async function processImageWithAI() {
+async function processImagesWithAI() {
     const imageInput = document.getElementById('aiImageInput');
 
-    if (!imageInput.files || !imageInput.files[0]) {
+    if (!imageInput.files || imageInput.files.length === 0) {
         alert('Najprv nahrajte obrázok');
         return;
     }
@@ -785,33 +804,92 @@ async function processImageWithAI() {
     document.getElementById('aiStep2').style.display = 'block';
 
     try {
-        const formData = new FormData();
-        formData.append('image', imageInput.files[0]);
+        const allQuestions = [];
+        const totalImages = imageInput.files.length;
 
-        const response = await fetch('/api/ai-import', {
-            method: 'POST',
-            body: formData
-        });
+        // Spracovať všetky obrázky sekvenčne
+        for (let i = 0; i < imageInput.files.length; i++) {
+            const file = imageInput.files[i];
 
-        const result = await response.json();
+            // Update loading message
+            document.querySelector('.ai-processing p').textContent =
+                `AI analyzuje obrázok ${i + 1} / ${totalImages}...`;
 
-        if (result.success) {
-            aiImportedData = result.data;
-            displayAIQuestions();
+            const formData = new FormData();
+            formData.append('image', file);
 
-            // Skryť loading, zobraziť Step 3 a 4
-            document.getElementById('aiStep2').style.display = 'none';
-            document.getElementById('aiStep3').style.display = 'block';
-            document.getElementById('aiStep4').style.display = 'block';
-        } else {
-            throw new Error(result.error || 'Neznáma chyba');
+            const response = await fetch('/api/ai-import', {
+                method: 'POST',
+                body: formData
+            });
+
+            const result = await response.json();
+
+            if (result.success) {
+                // Pridať otázky z tohto obrázka
+                if (result.data.questions && result.data.questions.length > 0) {
+                    allQuestions.push(...result.data.questions);
+                }
+
+                // Použiť názov a popis z prvého obrázka
+                if (i === 0) {
+                    aiImportedData = {
+                        suggestedTitle: result.data.suggestedTitle,
+                        suggestedDescription: result.data.suggestedDescription,
+                        questions: []
+                    };
+                }
+            } else {
+                console.error(`Chyba pri spracovaní obrázka ${i + 1}:`, result.error);
+            }
         }
+
+        // Nastaviť všetky otázky
+        aiImportedData.questions = allQuestions;
+
+        if (allQuestions.length === 0) {
+            throw new Error('Žiadne otázky neboli rozpoznané');
+        }
+
+        displayAIQuestions();
+        displayOriginalImages(); // Zobraziť pôvodné fotky
+
+        // Skryť loading, zobraziť Step 3 a 4
+        document.getElementById('aiStep2').style.display = 'none';
+        document.getElementById('aiStep3').style.display = 'block';
+        document.getElementById('aiStep4').style.display = 'block';
+
     } catch (error) {
-        alert('Chyba pri spracovaní obrázku: ' + error.message);
+        alert('Chyba pri spracovaní obrázkov: ' + error.message);
         // Vrátiť sa na Step 1
         document.getElementById('aiStep2').style.display = 'none';
         document.getElementById('aiStep1').style.display = 'block';
     }
+}
+
+function displayOriginalImages() {
+    const container = document.getElementById('originalImagesPreview');
+    container.innerHTML = '';
+
+    originalImages.forEach((imgSrc, index) => {
+        const imgDiv = document.createElement('div');
+        imgDiv.style.cssText = 'position: relative; cursor: pointer;';
+        imgDiv.onclick = () => {
+            // Otvoriť v novom okne na zväčšenie
+            const newWindow = window.open();
+            newWindow.document.write(`<img src="${imgSrc}" style="max-width: 100%; height: auto;">`);
+        };
+        imgDiv.innerHTML = `
+            <img src="${imgSrc}" style="max-width: 300px; max-height: 300px; border-radius: 8px; object-fit: contain; border: 2px solid #ddd;">
+            <div style="position: absolute; top: 5px; left: 5px; background: rgba(0,0,0,0.7); color: white; padding: 3px 8px; border-radius: 4px; font-size: 12px;">
+                Fotka ${index + 1}
+            </div>
+            <div style="position: absolute; bottom: 5px; right: 5px; background: rgba(0,0,0,0.7); color: white; padding: 3px 8px; border-radius: 4px; font-size: 10px;">
+                Kliknite pre zväčšenie
+            </div>
+        `;
+        container.appendChild(imgDiv);
+    });
 }
 
 function displayAIQuestions() {

@@ -208,11 +208,12 @@
             <div id="aiStep1" class="ai-step">
                 <div class="ai-section">
                     <h3>1. Nahrajte fotografiu otázok</h3>
-                    <input type="file" id="aiImageInput" accept="image/*" onchange="previewImage(this)">
+                    <p class="ai-import-subtitle" style="font-size: 0.9em; color: #666;">💡 Môžete nahrať aj viac fotiek naraz</p>
+                    <input type="file" id="aiImageInput" accept="image/*" multiple onchange="previewImages(this)">
                     <div id="imagePreview" style="display: none; margin-top: 20px;">
-                        <img id="previewImg" style="max-width: 100%; max-height: 400px; border-radius: 8px;">
+                        <div id="previewContainer" style="display: flex; gap: 10px; flex-wrap: wrap;"></div>
                     </div>
-                    <button onclick="processImageWithAI()" id="processBtn" class="btn-primary" style="display: none; margin-top: 15px;">
+                    <button onclick="processImagesWithAI()" id="processBtn" class="btn-primary" style="display: none; margin-top: 15px;">
                         ✨ Spracovať s AI
                     </button>
                 </div>
@@ -240,6 +241,12 @@
                             <label>Popis:</label>
                             <input type="text" id="aiSuggestedDesc" class="ai-input">
                         </div>
+                    </div>
+
+                    <!-- Zobrazenie pôvodných fotiek -->
+                    <div id="originalImagesContainer" style="margin: 20px 0; padding: 15px; background: #f5f5f5; border-radius: 8px;">
+                        <h4 style="margin: 0 0 10px 0;">📷 Pôvodné fotky (pre porovnanie)</h4>
+                        <div id="originalImagesPreview" style="display: flex; gap: 10px; flex-wrap: wrap; max-height: 400px; overflow-y: auto;"></div>
                     </div>
 
                     <div id="aiQuestionsPreview" class="ai-questions-container"></div>
