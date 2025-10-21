@@ -4,9 +4,10 @@ services:
   web:
     build: .
     ports:
-      - "5000:5000"
+      - "80:5000"
     volumes:
       - .:/app
       - /home/fmasiar/tester/testy:/app/testy
     environment:
-      - FLASK_ENV=development
+      - FLASK_ENV=production
+    restart: always
