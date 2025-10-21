@@ -2,8 +2,17 @@ from flask import Flask, render_template, request, jsonify
 import json
 import os
 import glob
+import base64
+from openai import OpenAI
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv()
 
 app = Flask(__name__)
+
+# OpenAI client
+client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
 
 # Ukladanie testov v pamäti
 tests = []
@@ -114,6 +123,139 @@ def list_files():
         files = [os.path.basename(f) for f in json_files]
 
         return jsonify({'files': files, 'path': folder_path})
+    except Exception as e:
+        return jsonify({'error': str(e)}), 400
+
+@app.route('/api/ai-import', methods=['POST'])
+def ai_import():
+    """AI import otázok z obrázku pomocou OpenAI Vision API"""
+    try:
+        # Získať obrázok z requestu
+        if 'image' not in request.files:
+            return jsonify({'error': 'Žiadny obrázok'}), 400
+
+        image_file = request.files['image']
+        image_data = base64.b64encode(image_file.read()).decode('utf-8')
+
+        # Prompt pre OpenAI
+        prompt = """Analyzuj tento obrázok a extrahuj z neho všetky otázky s možnými odpoveďami.
+
+Vráť odpoveď v tomto PRESNOM JSON formáte:
+{
+  "suggestedTitle": "Navrhnutý názov testu (krátky, opisný)",
+  "suggestedDescription": "Krátky popis testu",
+  "questions": [
+    {
+      "question": "Text otázky",
+      "answers": ["odpoveď 1", "odpoveď 2", "odpoveď 3", "odpoveď 4"],
+      "correct": 0
+    }
+  ]
+}
+
+DÔLEŽITÉ:
+- "correct" je index správnej odpovede (0-based, takže 0 = prvá odpoveď, 1 = druhá atď.)
+- Ak je správna odpoveď označená (napr. podčiarknutá, zvýraznená), použi jej index
+- Ak nie je označená, použi 0 a užívateľ to opraví manuálne
+- Answers musia byť presne 4 (ak sú menej, doplň prázdne reťazce)
+- Vráť IBA čistý JSON, žiadny iný text
+
+Analyzuj obrázok a vráť JSON:"""
+
+        # Zavolať OpenAI Vision API
+        response = client.chat.completions.create(
+            model="gpt-4o",
+            messages=[
+                {
+                    "role": "user",
+                    "content": [
+                        {"type": "text", "text": prompt},
+                        {
+                            "type": "image_url",
+                            "image_url": {
+                                "url": f"data:image/jpeg;base64,{image_data}"
+                            }
+                        }
+                    ]
+                }
+            ],
+            max_tokens=4096,
+            temperature=0.1
+        )
+
+        # Extrahovať JSON odpoveď
+        ai_response = response.choices[0].message.content.strip()
+
+        # Pokúsiť sa parsovať JSON (ak AI pridalo markdown bloky, odstránime ich)
+        if ai_response.startswith('```'):
+            ai_response = ai_response.split('```')[1]
+            if ai_response.startswith('json'):
+                ai_response = ai_response[4:]
+
+        result = json.loads(ai_response.strip())
+
+        return jsonify({
+            'success': True,
+            'data': result
+        })
+
+    except Exception as e:
+        return jsonify({'error': str(e)}), 400
+
+@app.route('/api/save-test', methods=['POST'])
+def save_test():
+    """Uloží test do JSON súboru v priečinku testy/"""
+    try:
+        data = request.get_json()
+
+        test_name = data.get('testName')
+        test_data = data.get('testData')
+        mode = data.get('mode', 'new')  # 'new' alebo 'append'
+
+        if not test_name or not test_data:
+            return jsonify({'error': 'Chýbajúce údaje'}), 400
+
+        # Vytvorenie cesty k súboru
+        filename = f"{test_name}.json"
+        filepath = os.path.join(TESTS_DIR, filename)
+
+        if mode == 'append' and os.path.exists(filepath):
+            # Pridať k existujúcemu testu
+            with open(filepath, 'r', encoding='utf-8') as f:
+                existing_data = json.load(f)
+
+            # Ak je existujúci súbor array
+            if isinstance(existing_data, list):
+                # Nájsť test s rovnakým názvom
+                found = False
+                for test in existing_data:
+                    if test.get('title') == test_data.get('title'):
+                        test['questions'].extend(test_data['questions'])
+                        found = True
+                        break
+                if not found:
+                    existing_data.append(test_data)
+            else:
+                # Ak je objekt, pridať otázky
+                if existing_data.get('title') == test_data.get('title'):
+                    existing_data['questions'].extend(test_data['questions'])
+                else:
+                    # Vytvoriť array
+                    existing_data = [existing_data, test_data]
+
+            with open(filepath, 'w', encoding='utf-8') as f:
+                json.dump(existing_data, f, ensure_ascii=False, indent=2)
+        else:
+            # Vytvoriť nový test (ako array s jedným testom)
+            with open(filepath, 'w', encoding='utf-8') as f:
+                json.dump([test_data], f, ensure_ascii=False, indent=2)
+
+        return jsonify({
+            'success': True,
+            'filename': filename,
+            'filepath': filepath
+        })
+
     except Exception as e:
         return jsonify({'error': str(e)}), 400
 

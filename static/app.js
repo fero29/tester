@@ -697,6 +697,7 @@ function backToList() {
     document.getElementById('importPage').style.display = 'none';
     document.getElementById('examplePage').style.display = 'none';
     document.getElementById('helpPage').style.display = 'none';
+    document.getElementById('aiImportPage').style.display = 'none';
     document.querySelector('.section').style.display = 'block';
     currentTest = null;
     testMode = 'test';
@@ -709,4 +710,270 @@ function backToList() {
 
     // Obnoviť zoznam testov (odstrániť zlúčené testy)
     loadTests();
+}
+
+// ============================================
+// AI IMPORT FUNKCIE
+// ============================================
+
+let aiImportedData = null;
+
+function showAIImportPage() {
+    document.querySelector('.section').style.display = 'none';
+    document.getElementById('aiImportPage').style.display = 'block';
+
+    // Reset AI import workflow
+    document.getElementById('aiStep1').style.display = 'block';
+    document.getElementById('aiStep2').style.display = 'none';
+    document.getElementById('aiStep3').style.display = 'none';
+    document.getElementById('aiStep4').style.display = 'none';
+    document.getElementById('aiImageInput').value = '';
+    document.getElementById('imagePreview').style.display = 'none';
+    document.getElementById('processBtn').style.display = 'none';
+    aiImportedData = null;
+}
+
+function previewImage(input) {
+    if (input.files && input.files[0]) {
+        const reader = new FileReader();
+
+        reader.onload = function(e) {
+            document.getElementById('previewImg').src = e.target.result;
+            document.getElementById('imagePreview').style.display = 'block';
+            document.getElementById('processBtn').style.display = 'inline-block';
+        };
+
+        reader.readAsDataURL(input.files[0]);
+    }
+}
+
+async function processImageWithAI() {
+    const imageInput = document.getElementById('aiImageInput');
+
+    if (!imageInput.files || !imageInput.files[0]) {
+        alert('Najprv nahrajte obrázok');
+        return;
+    }
+
+    // Skryť Step 1, zobraziť Step 2 (loading)
+    document.getElementById('aiStep1').style.display = 'none';
+    document.getElementById('aiStep2').style.display = 'block';
+
+    try {
+        const formData = new FormData();
+        formData.append('image', imageInput.files[0]);
+
+        const response = await fetch('/api/ai-import', {
+            method: 'POST',
+            body: formData
+        });
+
+        const result = await response.json();
+
+        if (result.success) {
+            aiImportedData = result.data;
+            displayAIQuestions();
+
+            // Skryť loading, zobraziť Step 3 a 4
+            document.getElementById('aiStep2').style.display = 'none';
+            document.getElementById('aiStep3').style.display = 'block';
+            document.getElementById('aiStep4').style.display = 'block';
+        } else {
+            throw new Error(result.error || 'Neznáma chyba');
+        }
+    } catch (error) {
+        alert('Chyba pri spracovaní obrázku: ' + error.message);
+        // Vrátiť sa na Step 1
+        document.getElementById('aiStep2').style.display = 'none';
+        document.getElementById('aiStep1').style.display = 'block';
+    }
+}
+
+function displayAIQuestions() {
+    if (!aiImportedData) return;
+
+    // Naplniť navrhnuté údaje
+    document.getElementById('aiSuggestedTitle').value = aiImportedData.suggestedTitle || '';
+    document.getElementById('aiSuggestedDesc').value = aiImportedData.suggestedDescription || '';
+    document.getElementById('newTestFileName').value = aiImportedData.suggestedTitle || '';
+
+    // Zobraziť otázky
+    const container = document.getElementById('aiQuestionsPreview');
+    container.innerHTML = '';
+
+    aiImportedData.questions.forEach((q, qIndex) => {
+        const questionDiv = document.createElement('div');
+        questionDiv.className = 'ai-question-item';
+        questionDiv.innerHTML = `
+            <div class="ai-question-header">
+                <h4>Otázka ${qIndex + 1}</h4>
+                <button onclick="deleteQuestion(${qIndex})" class="btn-delete-small">🗑️</button>
+            </div>
+            <label>Otázka:</label>
+            <input type="text" class="ai-input" data-q="${qIndex}" data-field="question"
+                   value="${escapeHtml(q.question)}" onchange="updateAIQuestion(${qIndex}, 'question', this.value)">
+
+            <label>Odpovede:</label>
+            ${q.answers.map((ans, aIndex) => `
+                <div class="ai-answer-row">
+                    <input type="radio" name="correct_${qIndex}" value="${aIndex}"
+                           ${q.correct === aIndex ? 'checked' : ''}
+                           onchange="updateAIQuestion(${qIndex}, 'correct', ${aIndex})">
+                    <input type="text" class="ai-input ai-answer-input"
+                           value="${escapeHtml(ans)}"
+                           onchange="updateAIAnswer(${qIndex}, ${aIndex}, this.value)">
+                </div>
+            `).join('')}
+        `;
+        container.appendChild(questionDiv);
+    });
+
+    // Načítať existujúce testy pre append mode
+    loadExistingTestsForAppend();
+}
+
+function escapeHtml(text) {
+    const div = document.createElement('div');
+    div.textContent = text;
+    return div.innerHTML;
+}
+
+function updateAIQuestion(qIndex, field, value) {
+    if (aiImportedData && aiImportedData.questions[qIndex]) {
+        aiImportedData.questions[qIndex][field] = field === 'correct' ? parseInt(value) : value;
+    }
+}
+
+function updateAIAnswer(qIndex, aIndex, value) {
+    if (aiImportedData && aiImportedData.questions[qIndex]) {
+        aiImportedData.questions[qIndex].answers[aIndex] = value;
+    }
+}
+
+function deleteQuestion(qIndex) {
+    if (confirm('Naozaj chcete vymazať túto otázku?')) {
+        aiImportedData.questions.splice(qIndex, 1);
+        displayAIQuestions();
+    }
+}
+
+function addNewQuestion() {
+    if (!aiImportedData) return;
+
+    aiImportedData.questions.push({
+        question: 'Nová otázka',
+        answers: ['Odpoveď 1', 'Odpoveď 2', 'Odpoveď 3', 'Odpoveď 4'],
+        correct: 0
+    });
+
+    displayAIQuestions();
+}
+
+function updateSaveMode() {
+    const mode = document.querySelector('input[name="saveMode"]:checked').value;
+
+    if (mode === 'new') {
+        document.getElementById('newTestOptions').style.display = 'block';
+        document.getElementById('appendTestOptions').style.display = 'none';
+    } else {
+        document.getElementById('newTestOptions').style.display = 'none';
+        document.getElementById('appendTestOptions').style.display = 'block';
+    }
+}
+
+async function loadExistingTestsForAppend() {
+    try {
+        const response = await fetch('/api/list-files', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ folder: 'testy' })
+        });
+
+        const result = await response.json();
+
+        const select = document.getElementById('existingTestSelect');
+        select.innerHTML = '';
+
+        if (result.files && result.files.length > 0) {
+            result.files.forEach(file => {
+                const option = document.createElement('option');
+                option.value = file.replace('.json', '');
+                option.textContent = file;
+                select.appendChild(option);
+            });
+        } else {
+            const option = document.createElement('option');
+            option.textContent = 'Žiadne existujúce testy';
+            option.disabled = true;
+            select.appendChild(option);
+        }
+    } catch (error) {
+        console.error('Chyba pri načítaní existujúcich testov:', error);
+    }
+}
+
+async function saveAITest() {
+    if (!aiImportedData) {
+        alert('Žiadne údaje na uloženie');
+        return;
+    }
+
+    const mode = document.querySelector('input[name="saveMode"]:checked').value;
+    let testName;
+
+    if (mode === 'new') {
+        testName = document.getElementById('newTestFileName').value.trim();
+        if (!testName) {
+            alert('Zadajte názov súboru');
+            return;
+        }
+    } else {
+        testName = document.getElementById('existingTestSelect').value;
+        if (!testName) {
+            alert('Vyberte existujúci test');
+            return;
+        }
+    }
+
+    const title = document.getElementById('aiSuggestedTitle').value.trim();
+    const description = document.getElementById('aiSuggestedDesc').value.trim();
+
+    if (!title) {
+        alert('Zadajte názov testu');
+        return;
+    }
+
+    if (aiImportedData.questions.length === 0) {
+        alert('Test musí obsahovať aspoň jednu otázku');
+        return;
+    }
+
+    const testData = {
+        title: title,
+        description: description,
+        questions: aiImportedData.questions
+    };
+
+    try {
+        const response = await fetch('/api/save-test', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                testName: testName,
+                testData: testData,
+                mode: mode
+            })
+        });
+
+        const result = await response.json();
+
+        if (result.success) {
+            alert(`Test úspešne uložený do ${result.filename}!`);
+            backToList();
+        } else {
+            throw new Error(result.error || 'Neznáma chyba');
+        }
+    } catch (error) {
+        alert('Chyba pri ukladaní testu: ' + error.message);
+    }
 }

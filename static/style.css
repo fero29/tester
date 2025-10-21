@@ -800,3 +800,235 @@ button:hover {
     color: #333;
     border-color: #ddd;
 }
+
+/* ============================================
+   AI IMPORT STYLES
+   ============================================ */
+
+.btn-ai-import {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: none;
+}
+
+.btn-ai-import:hover {
+    background: linear-gradient(135deg, #5568d3 0%, #63408a 100%);
+    transform: translateY(-1px);
+}
+
+.ai-import-subtitle {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.ai-step {
+    margin-bottom: 30px;
+}
+
+.ai-section {
+    background: #f9f9f9;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.ai-section h3 {
+    margin-top: 0;
+    color: #667eea;
+    font-size: 18px;
+}
+
+.ai-processing {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.spinner {
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #667eea;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+    margin: 0 auto 20px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.ai-processing-detail {
+    color: #999;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.ai-suggestions {
+    margin-bottom: 25px;
+}
+
+.suggestion-row {
+    margin-bottom: 15px;
+}
+
+.suggestion-row label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #555;
+}
+
+.ai-input {
+    width: 100%;
+    padding: 10px 15px;
+    border: 2px solid #e0e0e0;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: border-color 0.3s;
+}
+
+.ai-input:focus {
+    outline: none;
+    border-color: #667eea;
+}
+
+.ai-questions-container {
+    max-height: 500px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+}
+
+.ai-question-item {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: 2px solid #e0e0e0;
+}
+
+.ai-question-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.ai-question-header h4 {
+    margin: 0;
+    color: #333;
+}
+
+.btn-delete-small {
+    background: #ff4444;
+    color: white;
+    border: none;
+    padding: 5px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn-delete-small:hover {
+    background: #cc0000;
+}
+
+.ai-answer-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+
+.ai-answer-row input[type="radio"] {
+    flex-shrink: 0;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+.ai-answer-input {
+    flex: 1;
+}
+
+.save-mode-selector {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.save-mode-selector label {
+    display: block;
+    padding: 12px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border: 2px solid #e0e0e0;
+    border-radius: 6px;
+    transition: all 0.3s;
+}
+
+.save-mode-selector label:hover {
+    background: #f5f5f5;
+}
+
+.save-mode-selector input[type="radio"] {
+    margin-right: 10px;
+}
+
+.save-mode-selector input[type="radio"]:checked + label,
+.save-mode-selector label:has(input[type="radio"]:checked) {
+    background: #e8eaf6;
+    border-color: #667eea;
+    font-weight: 600;
+}
+
+.save-options {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.save-options label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #555;
+}
+
+.btn-success {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn-success:hover {
+    background: #218838;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(40, 167, 69, 0.3);
+}
+
+#aiImageInput {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    border: 2px dashed #667eea;
+    border-radius: 8px;
+    background: white;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+#aiImageInput:hover {
+    border-color: #5568d3;
+    background: #f8f9ff;
+}

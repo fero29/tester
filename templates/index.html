@@ -17,6 +17,7 @@
                 <div>
                     <button onclick="showHelpPage()" class="btn-info btn-small">📖 Návod</button>
                     <button onclick="showImportPage()" class="btn-import btn-small">📁 Import testov</button>
+                    <button onclick="showAIImportPage()" class="btn-ai-import btn-small">🤖 AI Import</button>
                     <button onclick="startMultipleTests()" class="btn-multi" id="startMultiBtn" style="display: none;">
                         Spustiť vybrané testy
                     </button>
@@ -131,6 +132,88 @@
             <div class="import-section danger-section">
                 <h3>Vymazať testy</h3>
                 <button onclick="clearTests()" class="btn-danger">🗑️ Vymazať všetky testy</button>
+            </div>
+
+            <button onclick="backToList()" class="btn-secondary">← Späť na zoznam testov</button>
+        </div>
+
+        <!-- AI Import -->
+        <div id="aiImportPage" style="display: none;">
+            <h2>🤖 AI Import otázok</h2>
+            <p class="ai-import-subtitle">Nahrajte fotografiu otázok a AI ich automaticky rozpozná</p>
+
+            <!-- Step 1: Upload fotky -->
+            <div id="aiStep1" class="ai-step">
+                <div class="ai-section">
+                    <h3>1. Nahrajte fotografiu otázok</h3>
+                    <input type="file" id="aiImageInput" accept="image/*" onchange="previewImage(this)">
+                    <div id="imagePreview" style="display: none; margin-top: 20px;">
+                        <img id="previewImg" style="max-width: 100%; max-height: 400px; border-radius: 8px;">
+                    </div>
+                    <button onclick="processImageWithAI()" id="processBtn" class="btn-primary" style="display: none; margin-top: 15px;">
+                        ✨ Spracovať s AI
+                    </button>
+                </div>
+            </div>
+
+            <!-- Step 2: AI Processing -->
+            <div id="aiStep2" class="ai-step" style="display: none;">
+                <div class="ai-processing">
+                    <div class="spinner"></div>
+                    <p>AI analyzuje obrázok...</p>
+                    <p class="ai-processing-detail">Toto môže trvať 10-30 sekúnd</p>
+                </div>
+            </div>
+
+            <!-- Step 3: Náhľad a úprava otázok -->
+            <div id="aiStep3" class="ai-step" style="display: none;">
+                <div class="ai-section">
+                    <h3>2. Skontrolujte a upravte otázky</h3>
+                    <div class="ai-suggestions">
+                        <div class="suggestion-row">
+                            <label>Navrhnutý názov testu:</label>
+                            <input type="text" id="aiSuggestedTitle" class="ai-input">
+                        </div>
+                        <div class="suggestion-row">
+                            <label>Popis:</label>
+                            <input type="text" id="aiSuggestedDesc" class="ai-input">
+                        </div>
+                    </div>
+
+                    <div id="aiQuestionsPreview" class="ai-questions-container"></div>
+
+                    <button onclick="addNewQuestion()" class="btn-secondary">➕ Pridať otázku</button>
+                </div>
+            </div>
+
+            <!-- Step 4: Uloženie -->
+            <div id="aiStep4" class="ai-step" style="display: none;">
+                <div class="ai-section">
+                    <h3>3. Uložiť test</h3>
+
+                    <div class="save-mode-selector">
+                        <label>
+                            <input type="radio" name="saveMode" value="new" checked onchange="updateSaveMode()">
+                            Vytvoriť nový test
+                        </label>
+                        <label>
+                            <input type="radio" name="saveMode" value="append" onchange="updateSaveMode()">
+                            Pridať do existujúceho testu
+                        </label>
+                    </div>
+
+                    <div id="newTestOptions" class="save-options">
+                        <label>Názov súboru (bez .json):</label>
+                        <input type="text" id="newTestFileName" class="ai-input" placeholder="napr. Bio CAP 6">
+                    </div>
+
+                    <div id="appendTestOptions" class="save-options" style="display: none;">
+                        <label>Vybrať existujúci test:</label>
+                        <select id="existingTestSelect" class="ai-input"></select>
+                    </div>
+
+                    <button onclick="saveAITest()" class="btn-success">💾 Uložiť test</button>
+                </div>
             </div>
 
             <button onclick="backToList()" class="btn-secondary">← Späť na zoznam testov</button>
