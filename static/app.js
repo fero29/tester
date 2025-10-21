@@ -1,4 +1,4 @@
-console.log('AI Tester v1.3.9 loaded - no resize, full quality');
+console.log('AI Tester v1.3.10 loaded - auto resize merged images');
 let tests = [];
 let currentTest = null;
 let currentQuestionIndex = 0;
@@ -1051,7 +1051,7 @@ async function mergeImagesToCanvas(files, rotations) {
                             currentY += info.height + gap;
                         });
 
-                        // Konvertovať na blob
+                        // Konvertovať na blob bez zmenšovania
                         canvas.toBlob(
                             (blob) => {
                                 if (blob) {
@@ -1066,7 +1066,7 @@ async function mergeImagesToCanvas(files, rotations) {
                                 }
                             },
                             'image/jpeg',
-                            0.9
+                            0.95
                         );
                     }
                 };

@@ -10,7 +10,7 @@
     <div class="container">
         <div class="app-header">
             <h1 onclick="backToList()" style="cursor: pointer;" title="Späť na hlavnú stránku">AI Tester</h1>
-            <span class="version-badge" onclick="showVersionInfo()" style="cursor: pointer;" title="Kliknite pre info">v1.3.9</span>
+            <span class="version-badge" onclick="showVersionInfo()" style="cursor: pointer;" title="Kliknite pre info">v1.3.11</span>
         </div>
 
         <!-- Zoznam testov -->
@@ -32,7 +32,7 @@
 
         <!-- Verzia Info -->
         <div id="versionPage" style="display: none;">
-            <h2>ℹ️ AI Tester v1.3.9</h2>
+            <h2>ℹ️ AI Tester v1.3.11</h2>
 
             <div class="help-section">
                 <h3>🎯 Hlavné funkcie</h3>
@@ -51,7 +51,17 @@
             </div>
 
             <div class="help-section">
-                <h3>🆕 Novinky v1.3.9</h3>
+                <h3>🆕 Novinky v1.3.10</h3>
+                <ul>
+                    <li>📏 <strong>Automatické zmenšenie veľkých spojených fotiek</strong> - Pri spojení viacerých fotiek sa výsledok automaticky zmenší ak presahuje 3000px výšku</li>
+                    <li>⚡ <strong>Opravená chyba pri 5+ fotkách</strong> - Veľké spojené obrázky už nespôsobujú chybu pri spracovaní</li>
+                    <li>🎯 <strong>Zachovaný pomer strán</strong> - Pri zmenšení sa zachováva pôvodný pomer strán</li>
+                    <li>📊 <strong>Lepšia diagnostika</strong> - Console.log ukazuje či bol obrázok zmenšený a prečo</li>
+                </ul>
+            </div>
+
+            <div class="help-section">
+                <h3>Novinky v1.3.9</h3>
                 <ul>
                     <li>🖼️ <strong>Bez zmeny veľkosti fotiek</strong> - Fotky sa už nezmenšujú, zachováva sa pôvodná kvalita a rozlíšenie</li>
                     <li>✨ <strong>Vysoká kvalita JPEG (92%)</strong> - Len optimalizácia bez straty detailov</li>
@@ -592,6 +602,6 @@
         </div>
     </div>
 
-    <script src="{{ url_for('static', filename='app.js') }}?v=1.3.9"></script>
+    <script src="{{ url_for('static', filename='app.js') }}?v=1.3.11"></script>
 </body>
 </html>
