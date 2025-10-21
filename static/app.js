@@ -1,4 +1,4 @@
-console.log('AI Tester v1.3.8.1 loaded - fixed image merge rotation');
+console.log('AI Tester v1.3.9 loaded - no resize, full quality');
 let tests = [];
 let currentTest = null;
 let currentQuestionIndex = 0;
@@ -740,6 +740,8 @@ let aiImportedData = null;
 let originalImages = []; // Uložiť pôvodné fotky pre zobrazenie
 let imageRotations = []; // Rotácia pre každú fotku (0, 90, 180, 270)
 let compressedFiles = []; // Komprimované súbory na upload
+let aiProcessingTimer = null; // Interval pre časovač spracovania
+let aiProcessingStartTime = null; // Čas začiatku spracovania
 
 function showAIImportPage() {
     document.querySelector('.section').style.display = 'none';
@@ -822,47 +824,33 @@ function cancelAIImport() {
     }
 }
 
-// Komprimovať obrázok pred uploadom
-async function compressImage(file, maxWidth = 2000, maxHeight = 2000, quality = 0.8) {
+// Konvertovať obrázok na JPEG bez zmeny veľkosti (len optimalizácia)
+async function convertToJPEG(file, quality = 0.92) {
     return new Promise((resolve, reject) => {
         const reader = new FileReader();
         reader.onload = function(e) {
             const img = new Image();
             img.onload = function() {
-                // Vypočítať nové rozmery zachovajúc pomer strán
-                let width = img.width;
-                let height = img.height;
-
-                if (width > maxWidth || height > maxHeight) {
-                    if (width > height) {
-                        height = Math.round((height * maxWidth) / width);
-                        width = maxWidth;
-                    } else {
-                        width = Math.round((width * maxHeight) / height);
-                        height = maxHeight;
-                    }
-                }
-
-                // Vytvoriť canvas a zmeniť veľkosť
+                // Vytvoriť canvas s pôvodnou veľkosťou
                 const canvas = document.createElement('canvas');
-                canvas.width = width;
-                canvas.height = height;
+                canvas.width = img.width;
+                canvas.height = img.height;
 
                 const ctx = canvas.getContext('2d');
-                ctx.drawImage(img, 0, 0, width, height);
+                ctx.drawImage(img, 0, 0);
 
-                // Konvertovať na blob
+                // Konvertovať na JPEG s vysokou kvalitou
                 canvas.toBlob(
                     (blob) => {
                         if (blob) {
-                            const compressedFile = new File([blob], file.name, {
+                            const jpegFile = new File([blob], file.name.replace(/\.[^/.]+$/, '.jpg'), {
                                 type: 'image/jpeg',
                                 lastModified: Date.now()
                             });
-                            console.log(`Komprimované: ${file.name} z ${(file.size / 1024 / 1024).toFixed(2)}MB na ${(blob.size / 1024 / 1024).toFixed(2)}MB`);
-                            resolve(compressedFile);
+                            console.log(`Konvertované: ${file.name} (${img.width}x${img.height}px) - ${(file.size / 1024 / 1024).toFixed(2)}MB → ${(blob.size / 1024 / 1024).toFixed(2)}MB`);
+                            resolve(jpegFile);
                         } else {
-                            reject(new Error('Kompresia zlyhala'));
+                            reject(new Error('Konverzia zlyhala'));
                         }
                     },
                     'image/jpeg',
@@ -885,16 +873,16 @@ async function previewImages(input) {
         imageRotations = [];
         compressedFiles = []; // Uložiť komprimované súbory
 
-        // Zobraziť loading počas kompresie
-        container.innerHTML = '<p>Komprimujem obrázky...</p>';
+        // Zobraziť loading počas konverzie
+        container.innerHTML = '<p>Pripravujem obrázky...</p>';
 
         for (let i = 0; i < input.files.length; i++) {
             const file = input.files[i];
 
-            // Komprimovať obrázok
+            // Konvertovať na JPEG
             try {
-                const compressed = await compressImage(file);
-                compressedFiles.push(compressed);
+                const converted = await convertToJPEG(file);
+                compressedFiles.push(converted);
 
                 const reader = new FileReader();
                 reader.onload = function(e) {
@@ -958,10 +946,10 @@ async function previewImages(input) {
                     imgDiv.appendChild(flexContainer);
                     container.appendChild(imgDiv);
                 };
-                reader.readAsDataURL(compressed);
+                reader.readAsDataURL(converted);
             } catch (error) {
-                console.error('Chyba pri kompresii:', error);
-                compressedFiles.push(file); // Použiť originál ak kompresia zlyhá
+                console.error('Chyba pri konverzii:', error);
+                compressedFiles.push(file); // Použiť originál ak konverzia zlyhá
             }
         }
 
