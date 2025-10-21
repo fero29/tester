@@ -1002,49 +1002,18 @@ function displayProcessedAndOriginalImages() {
     const container = document.getElementById('originalImagesPreview');
     container.innerHTML = '';
 
-    // Predpokladáme že aiImportedData.questions prišli zo sekvenčného spracovania viacerých obrázkov
-    // Každý result mal processedImage
-    // Ale teraz máme len jeden aiImportedData - treba to opraviť
-
-    // Zobrazíme obe verzie - predspracovanú a pôvodnú
+    // Zobrazíme len predspracovanú fotku v scrollovateľnom okne
     const processedImage = aiImportedData.processedImage;
 
-    if (processedImage && originalImages.length > 0) {
-        // Zobrazovať vedľa seba - predspracovaný a pôvodný
-        const comparisonHTML = `
-            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; width: 100%;">
-                <div>
-                    <h4 style="margin: 0 0 10px 0; color: #2196F3;">🔬 Predspracovaný (AI videlo toto)</h4>
-                    <img src="${processedImage}" style="width: 100%; border-radius: 8px; border: 2px solid #2196F3; cursor: pointer;"
-                         onclick="window.open().document.write('<img src=\\'${processedImage}\\' style=\\'max-width:100%;height:auto\\'>')"
-                         title="Kliknite pre zväčšenie">
-                </div>
-                <div>
-                    <h4 style="margin: 0 0 10px 0; color: #666;">📷 Pôvodný</h4>
-                    <img src="${originalImages[0]}" style="width: 100%; border-radius: 8px; border: 2px solid #ddd; cursor: pointer;"
-                         onclick="window.open().document.write('<img src=\\'${originalImages[0]}\\' style=\\'max-width:100%;height:auto\\'>')"
-                         title="Kliknite pre zväčšenie">
-                </div>
+    if (processedImage) {
+        const imageHTML = `
+            <div style="width: 100%;">
+                <img src="${processedImage}" style="width: 100%; border-radius: 8px; border: 2px solid #2196F3; cursor: pointer;"
+                     onclick="window.open().document.write('<img src=\\'${processedImage}\\' style=\\'max-width:100%;height:auto\\'>')"
+                     title="Kliknite pre zväčšenie">
             </div>
         `;
-        container.innerHTML = comparisonHTML;
-    } else if (originalImages.length > 0) {
-        // Fallback - len pôvodné obrázky
-        originalImages.forEach((imgSrc, index) => {
-            const imgDiv = document.createElement('div');
-            imgDiv.style.cssText = 'position: relative; cursor: pointer; margin-bottom: 10px;';
-            imgDiv.onclick = () => {
-                const newWindow = window.open();
-                newWindow.document.write(`<img src="${imgSrc}" style="max-width: 100%; height: auto;">`);
-            };
-            imgDiv.innerHTML = `
-                <img src="${imgSrc}" style="max-width: 100%; border-radius: 8px; object-fit: contain; border: 2px solid #ddd;">
-                <div style="position: absolute; top: 5px; left: 5px; background: rgba(0,0,0,0.7); color: white; padding: 3px 8px; border-radius: 4px; font-size: 12px;">
-                    Fotka ${index + 1}
-                </div>
-            `;
-            container.appendChild(imgDiv);
-        });
+        container.innerHTML = imageHTML;
     }
 }
 
@@ -1073,14 +1042,6 @@ function displayAIQuestions() {
                 <h4>Otázka ${qIndex + 1}</h4>
                 <button onclick="deleteQuestion(${qIndex})" class="btn-delete-small">🗑️</button>
             </div>
-            ${q.cropImage ? `
-                <div style="margin: 10px 0; padding: 10px; background: #f9f9f9; border-radius: 8px;">
-                    <label style="display: block; margin-bottom: 5px; font-weight: bold; color: #666;">📸 Výrez z predspracovanej fotky:</label>
-                    <img src="${q.cropImage}" style="width: 100%; min-height: 350px; max-height: 500px; border-radius: 4px; border: 2px solid #ddd; cursor: pointer; object-fit: contain;"
-                         onclick="window.open().document.write('<img src=\\'${q.cropImage}\\' style=\\'max-width:100%;height:auto\\'>')"
-                         title="Kliknite pre zväčšenie">
-                </div>
-            ` : ''}
             <label>Otázka:</label>
             <input type="text" class="ai-input" data-q="${qIndex}" data-field="question"
                    value="${escapeHtml(q.question)}" onchange="updateAIQuestion(${qIndex}, 'question', this.value)">

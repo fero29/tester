@@ -10,7 +10,7 @@
     <div class="container">
         <div class="app-header">
             <h1 onclick="backToList()" style="cursor: pointer;" title="Späť na hlavnú stránku">AI Tester</h1>
-            <span class="version-badge" onclick="showVersionInfo()" style="cursor: pointer;" title="Kliknite pre info">v1.3.5</span>
+            <span class="version-badge" onclick="showVersionInfo()" style="cursor: pointer;" title="Kliknite pre info">v1.3.6</span>
         </div>
 
         <!-- Zoznam testov -->
@@ -32,7 +32,7 @@
 
         <!-- Verzia Info -->
         <div id="versionPage" style="display: none;">
-            <h2>ℹ️ AI Tester v1.3.5</h2>
+            <h2>ℹ️ AI Tester v1.3.6</h2>
 
             <div class="help-section">
                 <h3>🎯 Hlavné funkcie</h3>
@@ -51,7 +51,16 @@
             </div>
 
             <div class="help-section">
-                <h3>🆕 Novinky v1.3.5</h3>
+                <h3>🆕 Novinky v1.3.6</h3>
+                <ul>
+                    <li>🎨 <strong>Zjednodušené AI import zobrazenie</strong> - Odstránené pôvodné fotky a výrezy otázok pre čistejšie rozhranie</li>
+                    <li>📊 <strong>Jedno scrollovateľné okno pre predspracovanú fotku</strong> - Lepší prehľad toho, čo AI videlo (max. výška 500px)</li>
+                    <li>✨ <strong>Prehľadnejšia editácia otázok</strong> - Otázky bez rušivých výrezov, iba čistý text a odpovede</li>
+                </ul>
+            </div>
+
+            <div class="help-section">
+                <h3>Novinky v1.3.5</h3>
                 <ul>
                     <li>❌ <strong>Tlačidlo "Zrušiť" vo všetkých krokoch AI importu</strong> - Kedykoľvek môžete zrušiť import (pri nahrávaní, počas spracovania, pri editácii aj ukladaní)</li>
                     <li>🚪 <strong>Jednoduchý návrat</strong> - Rýchle zrušenie importu a návrat na začiatok v každom kroku procesu</li>
@@ -326,10 +335,10 @@
                         </div>
                     </div>
 
-                    <!-- Zobrazenie pôvodných fotiek -->
+                    <!-- Zobrazenie predspracovanej fotky -->
                     <div id="originalImagesContainer" style="margin: 20px 0; padding: 15px; background: #f5f5f5; border-radius: 8px;">
-                        <h4 style="margin: 0 0 10px 0;">📷 Pôvodné fotky (pre porovnanie)</h4>
-                        <div id="originalImagesPreview" style="display: flex; gap: 10px; flex-wrap: wrap; max-height: 400px; overflow-y: auto;"></div>
+                        <h4 style="margin: 0 0 10px 0; color: #2196F3;">🔬 Predspracovaná fotka (čo AI videlo)</h4>
+                        <div id="originalImagesPreview" style="max-height: 500px; overflow-y: auto;"></div>
                     </div>
 
                     <div id="aiQuestionsPreview" class="ai-questions-container"></div>
