@@ -10,7 +10,7 @@
     <div class="container">
         <div class="app-header">
             <h1 onclick="backToList()" style="cursor: pointer;" title="Späť na hlavnú stránku">AI Tester</h1>
-            <span class="version-badge" onclick="showVersionInfo()" style="cursor: pointer;" title="Kliknite pre info">v1.0.3</span>
+            <span class="version-badge" onclick="showVersionInfo()" style="cursor: pointer;" title="Kliknite pre info">v1.1.0</span>
         </div>
 
         <!-- Zoznam testov -->
@@ -32,12 +32,14 @@
 
         <!-- Verzia Info -->
         <div id="versionPage" style="display: none;">
-            <h2>ℹ️ AI Tester v1.0.3</h2>
+            <h2>ℹ️ AI Tester v1.1.0</h2>
 
             <div class="help-section">
                 <h3>🎯 Hlavné funkcie</h3>
                 <ul>
                     <li><strong>🤖 AI Import otázok z fotky</strong> - Odfotiť otázky a AI ich automaticky rozpozná</li>
+                    <li><strong>🔬 Pokročilé predspracovanie</strong> - OpenCV algoritmy pre čiernobiele s vysokým kontrastom</li>
+                    <li><strong>📸 Výrezy otázok</strong> - Každá otázka má svoj výrez z fotky pre kontrolu</li>
                     <li><strong>✏️ Editor testov</strong> - Úprava existujúcich testov priamo v aplikácii</li>
                     <li><strong>✅ Viacero správnych odpovedí</strong> - Podpora otázok s viacerými správnymi odpoveďami</li>
                     <li><strong>📊 Štatistiky</strong> - Sledovanie výsledkov, priemernej úspešnosti</li>
@@ -49,12 +51,15 @@
             </div>
 
             <div class="help-section">
-                <h3>🆕 Novinky v1.0.3</h3>
+                <h3>🆕 Novinky v1.1.0</h3>
                 <ul>
-                    <li>✨ <strong>Predspracovanie obrázkov</strong> - Automatické zlepšenie ostrosti a kontrastu pre lepšie rozpoznávanie</li>
-                    <li>🎯 <strong>Vylepšené rozpoznávanie</strong> - AI presnejšie rozpozná viacero správnych odpovedí z fotky</li>
-                    <li>☑️ <strong>Checkbox interface</strong> - Pri otázkach s viacerými správnymi sa zobrazí varovanie</li>
-                    <li>🔧 <strong>Backward kompatibilita</strong> - Staré testy fungujú bez úprav</li>
+                    <li>🔬 <strong>Pokročilé predspracovanie OpenCV</strong> - CLAHE, denoising, adaptívny threshold, morfologické operácie</li>
+                    <li>📸 <strong>Výrezy otázok</strong> - Nad každou otázkou sa zobrazí výrez z predspracovanej fotky</li>
+                    <li>👁️ <strong>Porovnanie obrázkov</strong> - Vedľa seba: predspracovaný vs pôvodný</li>
+                    <li>📷 <strong>Viacero fotiek naraz</strong> - Import viacerých obrázkov súčasne</li>
+                    <li>🔄 <strong>Automatické otočenie</strong> - EXIF orientácia (fotky z mobilu)</li>
+                    <li>🎯 <strong>High detail API</strong> - Lepšia presnosť rozpoznávania s GPT-4o</li>
+                    <li>🏠 <strong>Klikateľné logo</strong> - Návrat na hlavnú stránku</li>
                 </ul>
             </div>
 
