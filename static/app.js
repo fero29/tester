@@ -1,4 +1,4 @@
-console.log('AI Tester v1.3.6.1 loaded');
+console.log('AI Tester v1.3.7 loaded - with image compression');
 let tests = [];
 let currentTest = null;
 let currentQuestionIndex = 0;
@@ -739,6 +739,7 @@ function backToList() {
 let aiImportedData = null;
 let originalImages = []; // Uložiť pôvodné fotky pre zobrazenie
 let imageRotations = []; // Rotácia pre každú fotku (0, 90, 180, 270)
+let compressedFiles = []; // Komprimované súbory na upload
 
 function showAIImportPage() {
     document.querySelector('.section').style.display = 'none';
@@ -809,6 +810,7 @@ function resetAIImportPage() {
     aiImportedData = null;
     originalImages = [];
     imageRotations = [];
+    compressedFiles = [];
     // Vymazať uložený stav
     localStorage.removeItem('aiImportState');
 }
@@ -820,43 +822,148 @@ function cancelAIImport() {
     }
 }
 
-function previewImages(input) {
+// Komprimovať obrázok pred uploadom
+async function compressImage(file, maxWidth = 2000, maxHeight = 2000, quality = 0.8) {
+    return new Promise((resolve, reject) => {
+        const reader = new FileReader();
+        reader.onload = function(e) {
+            const img = new Image();
+            img.onload = function() {
+                // Vypočítať nové rozmery zachovajúc pomer strán
+                let width = img.width;
+                let height = img.height;
+
+                if (width > maxWidth || height > maxHeight) {
+                    if (width > height) {
+                        height = Math.round((height * maxWidth) / width);
+                        width = maxWidth;
+                    } else {
+                        width = Math.round((width * maxHeight) / height);
+                        height = maxHeight;
+                    }
+                }
+
+                // Vytvoriť canvas a zmeniť veľkosť
+                const canvas = document.createElement('canvas');
+                canvas.width = width;
+                canvas.height = height;
+
+                const ctx = canvas.getContext('2d');
+                ctx.drawImage(img, 0, 0, width, height);
+
+                // Konvertovať na blob
+                canvas.toBlob(
+                    (blob) => {
+                        if (blob) {
+                            const compressedFile = new File([blob], file.name, {
+                                type: 'image/jpeg',
+                                lastModified: Date.now()
+                            });
+                            console.log(`Komprimované: ${file.name} z ${(file.size / 1024 / 1024).toFixed(2)}MB na ${(blob.size / 1024 / 1024).toFixed(2)}MB`);
+                            resolve(compressedFile);
+                        } else {
+                            reject(new Error('Kompresia zlyhala'));
+                        }
+                    },
+                    'image/jpeg',
+                    quality
+                );
+            };
+            img.onerror = reject;
+            img.src = e.target.result;
+        };
+        reader.onerror = reject;
+        reader.readAsDataURL(file);
+    });
+}
+
+async function previewImages(input) {
     if (input.files && input.files.length > 0) {
         const container = document.getElementById('previewContainer');
         container.innerHTML = '';
         originalImages = [];
         imageRotations = [];
+        compressedFiles = []; // Uložiť komprimované súbory
 
-        Array.from(input.files).forEach((file, index) => {
-            const reader = new FileReader();
+        // Zobraziť loading počas kompresie
+        container.innerHTML = '<p>Komprimujem obrázky...</p>';
 
-            reader.onload = function(e) {
-                originalImages.push(e.target.result);
-                imageRotations.push(0); // Začať s 0° rotáciou
+        for (let i = 0; i < input.files.length; i++) {
+            const file = input.files[i];
 
-                const imgDiv = document.createElement('div');
-                imgDiv.style.cssText = 'position: relative; margin: 10px;';
-                imgDiv.innerHTML = `
-                    <div style="display: flex; flex-direction: column; align-items: center;">
-                        <div style="position: relative;">
-                            <img id="preview-img-${index}" src="${e.target.result}"
-                                 style="max-width: 200px; max-height: 200px; border-radius: 8px; object-fit: cover; transition: transform 0.3s;">
-                            <div style="position: absolute; top: 5px; right: 5px; background: rgba(0,0,0,0.7); color: white; padding: 3px 8px; border-radius: 4px; font-size: 12px;">
-                                ${index + 1}
-                            </div>
-                        </div>
-                        <div style="margin-top: 8px; display: flex; gap: 5px;">
-                            <button onclick="rotatePreviewImage(${index}, -90)" class="btn-small" style="padding: 5px 10px; font-size: 16px;" title="Otočiť vľavo">↶</button>
-                            <button onclick="rotatePreviewImage(${index}, 90)" class="btn-small" style="padding: 5px 10px; font-size: 16px;" title="Otočiť vpravo">↷</button>
-                            <button onclick="rotatePreviewImage(${index}, 180)" class="btn-small" style="padding: 5px 10px; font-size: 14px;" title="Otočiť o 180°">180°</button>
-                        </div>
-                    </div>
-                `;
-                container.appendChild(imgDiv);
-            };
+            // Komprimovať obrázok
+            try {
+                const compressed = await compressImage(file);
+                compressedFiles.push(compressed);
 
-            reader.readAsDataURL(file);
-        });
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    if (i === 0) {
+                        container.innerHTML = ''; // Vymazať loading pri prvom obrázku
+                    }
+
+                    originalImages.push(e.target.result);
+                    imageRotations.push(0);
+
+                    const imgDiv = document.createElement('div');
+                    imgDiv.style.cssText = 'position: relative; margin: 10px;';
+
+                    const previewImg = document.createElement('img');
+                    previewImg.id = `preview-img-${i}`;
+                    previewImg.src = e.target.result;
+                    previewImg.style.cssText = 'max-width: 200px; max-height: 200px; border-radius: 8px; object-fit: cover; transition: transform 0.3s;';
+
+                    const indexLabel = document.createElement('div');
+                    indexLabel.style.cssText = 'position: absolute; top: 5px; right: 5px; background: rgba(0,0,0,0.7); color: white; padding: 3px 8px; border-radius: 4px; font-size: 12px;';
+                    indexLabel.textContent = i + 1;
+
+                    const imgContainer = document.createElement('div');
+                    imgContainer.style.position = 'relative';
+                    imgContainer.appendChild(previewImg);
+                    imgContainer.appendChild(indexLabel);
+
+                    const buttonContainer = document.createElement('div');
+                    buttonContainer.style.cssText = 'margin-top: 8px; display: flex; gap: 5px;';
+
+                    const btn1 = document.createElement('button');
+                    btn1.className = 'btn-small';
+                    btn1.style.cssText = 'padding: 5px 10px; font-size: 16px;';
+                    btn1.title = 'Otočiť vľavo';
+                    btn1.textContent = '↶';
+                    btn1.onclick = () => rotatePreviewImage(i, -90);
+
+                    const btn2 = document.createElement('button');
+                    btn2.className = 'btn-small';
+                    btn2.style.cssText = 'padding: 5px 10px; font-size: 16px;';
+                    btn2.title = 'Otočiť vpravo';
+                    btn2.textContent = '↷';
+                    btn2.onclick = () => rotatePreviewImage(i, 90);
+
+                    const btn3 = document.createElement('button');
+                    btn3.className = 'btn-small';
+                    btn3.style.cssText = 'padding: 5px 10px; font-size: 14px;';
+                    btn3.title = 'Otočiť o 180°';
+                    btn3.textContent = '180°';
+                    btn3.onclick = () => rotatePreviewImage(i, 180);
+
+                    buttonContainer.appendChild(btn1);
+                    buttonContainer.appendChild(btn2);
+                    buttonContainer.appendChild(btn3);
+
+                    const flexContainer = document.createElement('div');
+                    flexContainer.style.cssText = 'display: flex; flex-direction: column; align-items: center;';
+                    flexContainer.appendChild(imgContainer);
+                    flexContainer.appendChild(buttonContainer);
+
+                    imgDiv.appendChild(flexContainer);
+                    container.appendChild(imgDiv);
+                };
+                reader.readAsDataURL(compressed);
+            } catch (error) {
+                console.error('Chyba pri kompresii:', error);
+                compressedFiles.push(file); // Použiť originál ak kompresia zlyhá
+            }
+        }
 
         document.getElementById('imagePreview').style.display = 'block';
         document.getElementById('processBtn').style.display = 'inline-block';
@@ -877,9 +984,7 @@ function rotatePreviewImage(index, degrees) {
 }
 
 async function processImagesWithAI() {
-    const imageInput = document.getElementById('aiImageInput');
-
-    if (!imageInput.files || imageInput.files.length === 0) {
+    if (!compressedFiles || compressedFiles.length === 0) {
         alert('Najprv nahrajte obrázok');
         return;
     }
@@ -896,7 +1001,7 @@ async function processImagesWithAI() {
 
     try {
         const allQuestions = [];
-        const totalImages = imageInput.files.length;
+        const totalImages = compressedFiles.length;
         let processedImageData = null;
 
         // Získať nastavenie pokročilého predspracovania
@@ -910,9 +1015,9 @@ async function processImagesWithAI() {
             processedImage: null
         };
 
-        // Spracovať všetky obrázky sekvenčne
-        for (let i = 0; i < imageInput.files.length; i++) {
-            const file = imageInput.files[i];
+        // Spracovať všetky obrázky sekvenčne (použiť komprimované)
+        for (let i = 0; i < compressedFiles.length; i++) {
+            const file = compressedFiles[i];
 
             // Update loading message
             document.querySelector('.ai-processing p').textContent =
