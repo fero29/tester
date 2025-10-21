@@ -3,8 +3,10 @@ import json
 import os
 import glob
 import base64
+import io
 from openai import OpenAI
 from dotenv import load_dotenv
+from PIL import Image, ImageEnhance, ImageFilter
 
 # Load environment variables
 load_dotenv()
@@ -132,6 +134,47 @@ def list_files():
     except Exception as e:
         return jsonify({'error': str(e)}), 400
 
+def preprocess_image(image_file):
+    """Predspracuje obrázok pre lepšie rozpoznávanie AI"""
+    # Načítať obrázok
+    img = Image.open(image_file)
+
+    # Konverzia na RGB (ak je RGBA alebo iný formát)
+    if img.mode != 'RGB':
+        img = img.convert('RGB')
+
+    # Zväčšenie rozlíšenia ak je príliš malé (zachová pomer strán)
+    max_size = 2048
+    if max(img.size) < max_size:
+        ratio = max_size / max(img.size)
+        new_size = tuple(int(dim * ratio) for dim in img.size)
+        img = img.resize(new_size, Image.LANCZOS)
+
+    # Ak je príliš veľké, zmenši (ušetríme API náklady)
+    max_size_limit = 3000
+    if max(img.size) > max_size_limit:
+        ratio = max_size_limit / max(img.size)
+        new_size = tuple(int(dim * ratio) for dim in img.size)
+        img = img.resize(new_size, Image.LANCZOS)
+
+    # Zvýšenie ostrosti - pomôže rozpoznať kruhy a podčiarknutia
+    img = img.filter(ImageFilter.SHARPEN)
+
+    # Zvýšenie kontrastu - lepšie sa odlíšia označenia
+    enhancer = ImageEnhance.Contrast(img)
+    img = enhancer.enhance(1.3)
+
+    # Zvýšenie jasu ak je obrázok tmavý
+    enhancer = ImageEnhance.Brightness(img)
+    img = enhancer.enhance(1.1)
+
+    # Uložiť do bytového bufferu
+    buffer = io.BytesIO()
+    img.save(buffer, format='JPEG', quality=95, optimize=True)
+    buffer.seek(0)
+
+    return buffer
+
 @app.route('/api/ai-import', methods=['POST'])
 def ai_import():
     """AI import otázok z obrázku pomocou OpenAI Vision API"""
@@ -141,42 +184,57 @@ def ai_import():
             return jsonify({'error': 'Žiadny obrázok'}), 400
 
         image_file = request.files['image']
-        image_data = base64.b64encode(image_file.read()).decode('utf-8')
+
+        # Predspracovať obrázok
+        processed_image = preprocess_image(image_file)
+        image_data = base64.b64encode(processed_image.read()).decode('utf-8')
 
         # Prompt pre OpenAI
         prompt = """Analyzuj tento obrázok a extrahuj z neho všetky otázky s možnými odpoveďami.
 
-VEĽMI DÔLEŽITÉ - Identifikácia správnych odpovedí:
-1. Pozorne skontroluj KAŽDÚ odpoveď
-2. Hľadaj tieto vizuálne indikátory správnej odpovede:
-   - Podčiarknutý text
-   - Tučný text (bold)
-   - Zvýraznený text (highlight, farebné pozadie)
-   - Text s hviezdičkou (*) alebo checkmarkom (✓)
-   - Text v rámčeku alebo odlíšený inak
-   - Text označený ako "správna" / "correct"
-3. MÔŽE BYŤ VIAC SPRÁVNYCH ODPOVEDÍ! Označ všetky vizuálne označené odpovede
-4. Ak ŽIADNA odpoveď nemá vizuálne označenie, použiť [0] (prvá odpoveď)
-5. NESPOLIEHAJ sa len na poradie - VIZUÁLNE označenie má prioritu
+🔴 KRITICKY DÔLEŽITÉ - Viacero správnych odpovedí:
+Pri KAŽDEJ otázke musíš skontrolovať VŠETKY odpovede a označiť VŠETKY, ktoré majú vizuálne označenie!
+
+POSTUP:
+1. Pre každú otázku prejdi POSTUPNE všetky odpovede (a, b, c, d)
+2. Pre KAŽDÚ odpoveď skontroluj, či má NIEKTORÉ z týchto vizuálnych označení:
+   ✓ Zakrúžkovaná odpoveď (kruh okolo písmena alebo textu)
+   ✓ Zaškrtnutá odpoveď (checkmark, fajka)
+   ✓ Podčiarknutý text
+   ✓ Tučný text (bold, hrubšie písmo)
+   ✓ Zvýraznený text (highlight, farebné pozadie, žltá, zelená)
+   ✓ Hviezdička (*) pri odpovedi
+   ✓ Text v rámčeku
+   ✓ Slová "správna", "correct", "ano" pri odpovedi
+3. VŠETKY odpovede s vizuálnym označením pridaj do poľa "correct"
+4. Ak napríklad sú zakrúžkované odpovede A a C, výsledok musí byť: "correct": [0, 2]
+5. Ak sú zakrúžkované odpovede B, C a D, výsledok musí byť: "correct": [1, 2, 3]
+6. Ak nie je zakrúžkovaná ŽIADNA odpoveď, použi [0] (prvú)
+
+⚠️ ČASTÁ CHYBA: Neuvádzaj len jednu správnu odpoveď ak vidíš viac zakrúžkovaných!
+
+PRÍKLAD:
+Ak otázka má odpovede A, B, C, D a vidíš že sú zakrúžkované A aj C:
+✓ SPRÁVNE: "correct": [0, 2]
+✗ NESPRÁVNE: "correct": [0]
 
 Vráť odpoveď v tomto PRESNOM JSON formáte:
 {
-  "suggestedTitle": "Navrhnutý názov testu (krátky, opisný)",
-  "suggestedDescription": "Krátky popis testu",
+  "suggestedTitle": "Navrhnutý názov testu",
+  "suggestedDescription": "Krátky popis",
   "questions": [
     {
       "question": "Text otázky",
       "answers": ["odpoveď 1", "odpoveď 2", "odpoveď 3", "odpoveď 4"],
-      "correct": [0]
+      "correct": [0, 2]
     }
   ]
 }
 
 FORMÁT:
-- "correct" je ARRAY indexov správnych odpovedí (0-based: 0=prvá, 1=druhá, 2=tretia, 3=štvrtá)
-- Ak je len jedna správna, použiť [0], ak sú dve správne [0, 2], atď.
-- Answers musia byť presne 4 (ak je menej, doplň prázdne reťazce "")
-- Vráť IBA čistý JSON, žiadny iný text pred ani za ním
+- "correct" je ARRAY indexov (0=prvá, 1=druhá, 2=tretia, 3=štvrtá)
+- Answers musia byť presne 4 (ak je menej, doplň "")
+- Vráť IBA čistý JSON
 
 Analyzuj obrázok a vráť JSON:"""
 
