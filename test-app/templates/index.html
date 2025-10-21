@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testovacia aplikácia</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Testovacia aplikácia</h1>
+
+        <!-- Zoznam testov -->
+        <div class="section">
+            <div class="test-header-controls">
+                <h2>Dostupné testy</h2>
+                <div>
+                    <button onclick="showImportPage()" class="btn-import btn-small">📁 Import testov</button>
+                    <button onclick="startMultipleTests()" class="btn-multi" id="startMultiBtn" style="display: none;">
+                        Spustiť vybrané testy
+                    </button>
+                    <button onclick="clearStatistics()" class="btn-danger btn-small">Vymazať štatistiky</button>
+                </div>
+            </div>
+            <div id="testList"></div>
+        </div>
+
+        <!-- Import testov -->
+        <div id="importPage" style="display: none;">
+            <h2>Import testov</h2>
+
+            <div class="import-section">
+                <h3>Automatické načítanie z priečinka <code>testy/</code></h3>
+                <p class="import-info">Načíta všetky JSON súbory z priečinka <code>testy/</code> v projektovom priečinku</p>
+                <div id="filesList" class="files-list"></div>
+                <button onclick="loadFromFolder()" class="btn-auto">📂 Automaticky načítať všetky testy</button>
+                <button onclick="showExample()" class="btn-info">📖 Zobraziť príklad formátu</button>
+            </div>
+
+            <div class="import-divider">ALEBO</div>
+
+            <div class="import-section">
+                <h3>Manuálne nahranie súboru</h3>
+                <p class="import-info">Vyberte JSON súbor z vášho počítača</p>
+                <input type="file" id="fileInput" accept=".json">
+                <button onclick="importTests()">📤 Nahrať súbor</button>
+            </div>
+
+            <div class="import-section danger-section">
+                <h3>Vymazať testy</h3>
+                <button onclick="clearTests()" class="btn-danger">🗑️ Vymazať všetky testy</button>
+            </div>
+
+            <button onclick="backToList()" class="btn-secondary">← Späť na zoznam testov</button>
+        </div>
+
+        <!-- Príklad formátu -->
+        <div id="examplePage" style="display: none;">
+            <h2>📖 Príklad formátu testov</h2>
+
+            <div class="example-section">
+                <h3>Formát JSON súboru</h3>
+                <p class="example-info">Vytvorte JSON súbor v priečinku <code>testy/</code> s nasledujúcim formátom:</p>
+
+                <div class="example-code">
+                    <h4>Jednoduchý príklad:</h4>
+                    <pre><code>[
+  {
+    "title": "Názov testu",
+    "description": "Popis testu",
+    "questions": [
+      {
+        "question": "Otázka s jednou správnou odpoveďou?",
+        "answers": [
+          "Odpoveď 1",
+          "Odpoveď 2",
+          "Odpoveď 3",
+          "Odpoveď 4"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Otázka s viacerými správnymi odpoveďami?",
+        "answers": [
+          "Odpoveď A",
+          "Odpoveď B",
+          "Odpoveď C",
+          "Odpoveď D"
+        ],
+        "correct": [0, 2]
+      }
+    ]
+  }
+]</code></pre>
+                </div>
+
+                <div class="example-notes">
+                    <h4>Dôležité pravidlá:</h4>
+                    <ul>
+                        <li><strong>correct:</strong> Index správnej odpovede (0 = prvá, 1 = druhá, atď.)</li>
+                        <li><strong>Jedna odpoveď:</strong> <code>"correct": 0</code> (číslo)</li>
+                        <li><strong>Viac odpovedí:</strong> <code>"correct": [0, 2]</code> (pole čísel)</li>
+                        <li><strong>title a description:</strong> Sú voliteľné</li>
+                        <li><strong>Môžete mať:</strong> Jeden test <code>{ ... }</code> alebo viacero testov <code>[ {...}, {...} ]</code></li>
+                    </ul>
+                </div>
+
+                <div class="example-file">
+                    <h4>Ako vytvoriť súbor:</h4>
+                    <pre><code>1. Vytvorte súbor: testy/moj_test.json
+2. Skopírujte vyššie uvedený formát
+3. Upravte otázky a odpovede
+4. Kliknite "Automaticky načítať" v aplikácii</code></pre>
+                </div>
+            </div>
+
+            <button onclick="backToImport()" class="btn-secondary">← Späť na import</button>
+        </div>
+
+        <!-- Nastavenia testu -->
+        <div id="testSettings" style="display: none;">
+            <h2 id="settingsTitle"></h2>
+
+            <div class="settings-group">
+                <h3>Časový limit</h3>
+                <label>
+                    <input type="radio" name="time" value="20" checked> 20 minút
+                </label>
+                <label>
+                    <input type="radio" name="time" value="30"> 30 minút
+                </label>
+                <label>
+                    <input type="radio" name="time" value="60"> 60 minút
+                </label>
+                <label>
+                    <input type="radio" name="time" value="0"> Bez časového limitu
+                </label>
+            </div>
+
+            <div class="settings-group">
+                <h3>Rozsah otázok</h3>
+                <label>Od otázky: <input type="number" id="questionFrom" value="1" min="1"></label>
+                <label>Do otázky: <input type="number" id="questionTo" value="999" min="1"></label>
+            </div>
+
+            <div class="settings-group">
+                <h3>Poradie otázok</h3>
+                <label>
+                    <input type="radio" name="shuffle" value="false" checked> Po poradí
+                </label>
+                <label>
+                    <input type="radio" name="shuffle" value="true"> Zamixované
+                </label>
+            </div>
+
+            <button onclick="startTestWithSettings()">Spustiť test</button>
+            <button onclick="showLearnMode()" class="btn-learn">Režim učenia</button>
+            <button onclick="backToList()" class="btn-secondary">Zrušiť</button>
+        </div>
+
+        <!-- Test interface -->
+        <div id="testInterface" style="display: none;">
+            <div class="test-header">
+                <h2 id="testTitle"></h2>
+                <div id="timer" style="display: none;"></div>
+            </div>
+            <div id="questionContainer"></div>
+            <div class="navigation">
+                <button onclick="previousQuestion()" id="prevBtn">Predchádzajúca</button>
+                <span id="questionNumber"></span>
+                <button onclick="nextQuestion()" id="nextBtn">Ďalšia</button>
+            </div>
+            <button onclick="submitTest()" id="submitBtn" style="display: none;">Odovzdať test</button>
+            <button onclick="backToList()" class="btn-secondary">Späť na zoznam</button>
+        </div>
+
+        <!-- Výsledky -->
+        <div id="results" style="display: none;">
+            <h2>Výsledky testu</h2>
+            <div id="resultsContainer"></div>
+            <button onclick="backToList()">Späť na zoznam</button>
+        </div>
+
+        <!-- Režim učenia -->
+        <div id="learnMode" style="display: none;">
+            <h2 id="learnModeTitle"></h2>
+            <p class="learn-mode-info">Režim učenia - všetky otázky so správnymi odpoveďami</p>
+            <div id="learnModeContainer"></div>
+            <button onclick="backToList()">Späť na zoznam</button>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>

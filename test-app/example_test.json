@@ -1,0 +1,104 @@
+[
+  {
+    "title": "Základy programovania",
+    "description": "Test z programovacích základov (obsahuje otázky s jednou aj viacerými správnymi odpoveďami)",
+    "questions": [
+      {
+        "question": "Čo je to premenná?",
+        "answers": [
+          "Miesto v pamäti pre uloženie hodnoty",
+          "Funkcia v programe",
+          "Typ dátovej štruktúry",
+          "Operátor"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Ktoré z týchto jazykov sú interpretované? (viac odpovedí)",
+        "answers": [
+          "C++",
+          "Python",
+          "JavaScript",
+          "C#"
+        ],
+        "correct": [1, 2]
+      },
+      {
+        "question": "Čo znamená HTML?",
+        "answers": [
+          "Hyper Text Markup Language",
+          "High Tech Modern Language",
+          "Home Tool Markup Language",
+          "Hyperlinks and Text Markup Language"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Ktoré z nasledujúcich sú príkazy v Pythone? (viac odpovedí)",
+        "answers": [
+          "print",
+          "console.log",
+          "len",
+          "echo"
+        ],
+        "correct": [0, 2]
+      },
+      {
+        "question": "Čo je to API?",
+        "answers": [
+          "Application Programming Interface",
+          "Advanced Programming Integration",
+          "Automated Program Interaction",
+          "Application Process Interface"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Ktoré z týchto sú databázové systémy? (viac odpovedí)",
+        "answers": [
+          "MySQL",
+          "React",
+          "PostgreSQL",
+          "Angular"
+        ],
+        "correct": [0, 2]
+      }
+    ]
+  },
+  {
+    "title": "História Slovenska",
+    "description": "Test zo základov slovenskej histórie",
+    "questions": [
+      {
+        "question": "V ktorom roku vznikla Slovenská republika?",
+        "answers": [
+          "1918",
+          "1939",
+          "1945",
+          "1993"
+        ],
+        "correct": 3
+      },
+      {
+        "question": "Kto bol prvý prezident Slovenska?",
+        "answers": [
+          "Michal Kováč",
+          "Rudolf Schuster",
+          "Ivan Gašparovič",
+          "Andrej Kiska"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "V ktorom roku sa Slovensko pripojilo k EÚ?",
+        "answers": [
+          "2000",
+          "2004",
+          "2007",
+          "2010"
+        ],
+        "correct": 1
+      }
+    ]
+  }
+]

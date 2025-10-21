@@ -1,0 +1,559 @@
+[
+{
+"title": "Bio CAP1",
+"description": "bio započet",
+"questions": [
+{
+"question": "Aké žiarenie sa používa pri fluorescenčnej mikroskopií?",
+"answers": [
+"infračervené žiarenie",
+"žiarenie fialovej farby s vlnovou dĺžkou vo viditeľnom spektre",
+"ultrafialové žiarenie",
+"prúd elektrónov"
+],
+"correct": 2
+},
+{
+"question": "Aké farbivo sa najčastejšie využíva pri vizualizácií chromozómov?",
+"answers": [
+"modrý atrament",
+"Giemsovo",
+"Lugolov roztok",
+"hematoxylín a eozín"
+],
+"correct": 1
+},
+{
+"question": "Aké zväčšenie získame ak použijeme objektív s 40x zväčšením a okulár s 10x zväčšením?",
+"answers": [
+"400x",
+"10x",
+"40x",
+"4x"
+],
+"correct": 0
+},
+{
+"question": "Elektrónové mikroskopy ako zdroj žiarenia používaju :",
+"answers": [
+"biele svetlo",
+"biele svetlo alebo ultrafialové žiarenie",
+"elektrónkové žiarenie",
+"prúd elektrónov"
+],
+"correct": 3
+},
+{
+"question": "Elektrónový mikroskop",
+"answers": [
+"je typ svetelného mikroskopu , vieme ním pozorovať bunky in vintro aj in vivo",
+"umožňuje sledovať topológiu buniek a tkanív alebo vnútorné štruktúry",
+"vieme pozorovať rovnaké preparáty pri SEM aj TEM",
+"rozlišovacia schopnosť je väčšia ako pri konfokálnom mikroskope, preparáty sa pripravujú špecifickým spôsobom"
+],
+"correct": [1, 3]
+},
+{
+"question": "Farbenie poznáme",
+"answers": [
+"orientačné",
+"špecifické",
+"náhodné",
+"všeobecné"
+],
+"correct": [1, 3]
+},
+{
+"question": "Fázový kontrast",
+"answers": [
+"slúži ako zdroj žiarenia pri málo kontrastných preparátoch",
+"sa využíva na zvýraznenie niektorých štruktúr bunky",
+"sa v mikroskopii vôbec nepoužíva",
+"umožňuje pozorovanie priehľadných objektov s málo výrazným kontrastným rozhraním"
+],
+"correct": [1, 3]
+},
+{
+"question": "Elektrónové mikroskopy",
+"answers": [
+"ako zdroj žiarenia využívajú prúd fotónov",
+"nevyžadujú špeciálnu úpravu preparátov",
+"vyžadujú špeciálnu prípravu preparátov",
+"ako zdroj žiarenia využívajú prúd elektrónov"
+],
+"correct": [2, 3]
+},
+{
+"question": "Invertovaný mikroskop",
+"answers": [
+"používa sa napr. pri sledovaní bunkových kultúr",
+"umožňuje pozorovanie preparátov v predchádzajúcom svetle",
+"je typ elektrónového mikroskopu",
+"používa metódu osvetlenia zhora"
+],
+"correct": [0, 3]
+},
+{
+"question": "K mechanickej časti svetelného mikroskopu patrí",
+"answers": [
+"irisová clona",
+"revolverový menič objektívov",
+"kondenzor",
+"objektív"
+],
+"correct": 1
+},
+{
+"question": "K osvetľovacej časti mikroskopu patrí",
+"answers": [
+"tubus",
+"objektívy",
+"zdroj svetla",
+"kondenzor"
+],
+"correct": [2, 3]
+},
+{
+"question": "Konfokálny mikroskop",
+"answers": [
+"je forma svetelného fluorescenčného mikroskopu so zvýšenou rozlišovacou schopnosťou",
+"ako zdroj svetla využíva lasery s rôznymi excitačnými vlnovými dĺžkami",
+"pri hrubších rezoch umožňuje selektívne zaostriť a zaznamenať konkrétnu optickú rovinu",
+"je to druh elektrónoveho mikroskopu"
+],
+"correct": [0, 1, 2]
+},
+{
+"question": "Ktorá z nasledujúcich možností je najvhodnejšia na získanie povrchového zobrazenia objektu?",
+"answers": [
+"SEM - skenovací elektronový mikroskop",
+"TEM - transmisný elektrónový mikroskop",
+"invertovaný mikroskop",
+"svetelný mikroskop"
+],
+"correct": 0
+},
+{
+"question": "Ktorá z nasledujúcich možností sa používa na vizualizáciu živých buniek?",
+"answers": [
+"SEM",
+"TEM",
+"mikroskop s fázovým kontrastom",
+"všetky tieto"
+],
+"correct": 2
+},
+{
+"question": "Ktoré časti mikroskopu majú zvačšujúcu schopnosť",
+"answers": [
+"objektív",
+"irisová clona",
+"kondenzor",
+"okulár"
+],
+"correct": [0, 3]
+},
+{
+"question": "Ktorý mikroskop má obratené poradie svetelnej a optickej časti",
+"answers": [
+"elektrónový",
+"skenovací",
+"invertovaný",
+"rastrovací"
+],
+"correct": 2
+},
+{
+"question": "Medzi optické časti mikroskopu patrí",
+"answers": [
+"okulár",
+"revolverový menič",
+"zdroj svetla",
+"objektív"
+],
+"correct": [0, 3]
+},
+{
+"question": "Mechanická časť mikroskopu obsahuje",
+"answers": [
+"tubus",
+"revolverový menič",
+"mikroskrutku",
+"makroskrutku"
+],
+"correct": [0, 1, 2, 3]
+},
+{
+"question": "Mechanická časť mikroskopu obsahuje",
+"answers": [
+"makroskrutku",
+"posúvateľný stolček",
+"okuláre",
+"objektívy"
+],
+"correct": [0, 1]
+},
+{
+"question": "Na orientáciu v zornom poli sa používa",
+"answers": [
+"rozdelenie na sústredné kruhy",
+"rozdelenie na kvadranty",
+"orientácia podľa ciferníka hodín",
+"irisová clona"
+],
+"correct": 2
+},
+{
+"question": "Natívne preparáty",
+"answers": [
+"sa používajú pri sledovaní fyziologických prejavov buniek",
+"používa sa aj pri sledovaní typického tvaru buniek",
+"umožňuje detailne pozorovať vnútrobunkové štruktúry",
+"umožňujú sledovať pohyb buniek"
+],
+"correct": [0, 1, 3]
+},
+{
+"question": "Obraz v mikroskope je",
+"answers": [
+"obrátený",
+"zväčšený",
+"zmenšený",
+"skutočný"
+],
+"correct": [0, 1]
+},
+{
+"question": "Optické časti elektrónoveho mikroskopu",
+"answers": [
+"sú zo skla",
+"tvoria šošovky z brúseného skla",
+"tvoria elektromagnetické šošovky",
+"sú impregnované elektrondenznými prostriedkami"
+],
+"correct": 2
+},
+{
+"question": "Optické časti svetelného mikroskopu",
+"answers": [
+"sú zo skla",
+"tvoria šošovky z brúseného skla",
+"tvoria elektromagnetické šošovky",
+"sú impregnované elektrondenznými prostriedkami"
+],
+"correct": [0, 1]
+},
+{
+"question": "Osvetľovacia časť svetelného mikroskopu obsahuje",
+"answers": [
+"okulár a objektív",
+"zdroj svetla",
+"sústavu filtrov a clôn",
+"kondenzor"
+],
+"correct": [1, 2, 3]
+},
+{
+"question": "Podľa spôsobu prípravy poznáme preparáty",
+"answers": [
+"odtlačkové",
+"nátery",
+"zakryté krycím sklíčkom",
+"trvalé"
+],
+"correct": [0, 1, 2, 3]
+},
+{
+"question": "Podľa typu konštrukcie rozlišujeme svetelné mikroskopy",
+"answers": [
+"jednoduché lupy a stereolupy",
+"mikroskopy s jedným alebo viacerými objektívmi",
+"elektrónové mikroskopy",
+"invertované mikroskopy"
+],
+"correct": [0, 1, 3]
+},
+{
+"question": "Podľa typu používaného žiarenia rozlišujeme mikroskopy",
+"answers": [
+"svetelné",
+"elektrónové",
+"elektrónkové ",
+"výbojkové"
+],
+"correct": [0, 1]
+},
+{
+"question": "Pracovná vzdialenosť:",
+"answers": [
+"je vzdialenosť oka od mikroskopu",
+"je vzdialenosť preparátu od frontálnej šošovky objektívu",
+"je vzdialenosť objektívu od okuláru",
+"sa skracuje so stúpajúcim zväčšením objektívu"
+],
+"correct": [1, 3]
+},
+{
+"question": "Pre zvýraznenie štruktúr v natívnych preparatoch je možné použiť",
+"answers": [
+"mikroskopovanie v tmavom poli",
+"fazový kontrast",
+"vitálne farbenie",
+"elektrónovú mikroskopiu"
+],
+"correct": [0, 1, 2]
+},
+{
+"question": "Pre zvýraznenie štruktúr v nativnych preparátoch je možné použiť",
+"answers": [
+"mikroskopovanie v svetlom poli",
+"fázové kontrastné farbenie",
+"vitálne farbenie alebo fázový kontrast",
+"elektrónovú mikroskopiu"
+],
+"correct": 2
+},
+{
+"question": "Pri pozorovaní v tmavom poli",
+"answers": [
+"sa používa zvláštny typ kondenzora",
+"kondenzor mikroskopu prepúšťa len bočné svetlo",
+"pozorujeme len lúče odrazenéod objektu",
+"fázový kontrast umožňuje pozorovanie fluoreskujúcich objektov"
+],
+"correct": [0, 1, 2]
+},
+{
+"question": "Svetelné mikroskopy ako zdroj žiarenia používajú",
+"answers": [
+"biele svetlo",
+"ultrafialové žiarenie",
+"elektrónkové žiarenie",
+"prud elektronov"
+],
+"correct": [0, 1]
+},
+{
+"question": "Svetelný mikroskop obsahuje",
+"answers": [
+"optickú časť",
+"osvetľovaciu časť ",
+"mechanickú časť",
+"biologickú časť"
+],
+"correct": [0, 1, 2]
+},
+{
+"question": "Svetelnými mikroskopmi sa bežne pozorujú objekty",
+"answers": [
+"menšie ako 70um",
+"väčšie ako 70 um",
+"menšie ako 70nm",
+"ktoré sa nedajú pozorovať voľným okom"
+],
+"correct": [0, 3]
+},
+{
+"question": "Transmisný elektrónový mikroskop",
+"answers": [
+"má šošovku z brúseneho skla, využíva prúd elektrónov a skenuje povrch objektu",
+"má šošovku z bruseneho skla , využíva prúd elektronov a môžeme nim pozorovať aj vnutro bunky",
+"preparát je potrebné pripraviť s elektron-denznou látkou ktorá emituje nadmernú energiu z pohlteneho UV",
+"obsahuje elektromagnetickú šošovku a pozorujeme nim aj vnutorné štruktury"
+],
+"correct": 3
+},
+{
+"question": "Výsledné zväčšenie pri mikroskopovaní sa vypočíta ako",
+"answers": [
+"súčet zväčšenia objektívu a pracovnej vzdialenosti",
+"súčin zväčšenia šošovky a zväčšenia objektívu",
+"súčin zväčšenia objektívu a zväčšenia okulára",
+"súčin pracovnej vzdialenosti objektívu a hrúbky sklíčka"
+],
+"correct": 2
+},
+{
+"question": "Aký je hlavný cieľ fixácie mikroskopických preparátov",
+"answers": [
+"zvýšenie kontrastu preparátu pri pozorovaní",
+"zachovanie štruktúry buniek a tkanív pred poškodením alebo rozkladom",
+"zabezpečenie lepšieho prenosu svetla cez preparát",
+"zníženie hrúbky preparátu na optmálnu uroveň"
+],
+"correct": 1
+},
+{
+"question": "Čo vyjadruje pojem rozlišovacia schopnosť mikroskopu",
+"answers": [
+"maximálne dosiahnuteľné zväčšenie obrazu",
+"minimálnu vzdialenosť medzi dvomi bodmi, ktoré ešte vidíme oddelene",
+"schopnpsť mikroskopu zachytiť čo najviac svetla",
+"schopnosť zvýšiť kontrast bez farbenia preparátu"
+],
+"correct": 1
+},
+{
+"question": "Čo platí o numerickej apertúre objektívu",
+"answers": [
+"vyššia numerická apertúra znamená menší prienik svetla do objektívu",
+"numerická apertúra nezávisí od použitého media medzi preparátom a objektívom",
+"vyššia numerická apertura znamená lepší kontrast a rozlišovaciu schopnosť",
+"numerická apertura vyjadruje len teoretické maximalne zväčšenie objektivu"
+],
+"correct": 2
+},
+{
+"question": "Čo spôsobuje sférickú aberáciu",
+"answers": [
+"nepravidelný lom svetla na rozhraní medií",
+"rôzny lom svetla cez stred a okraj šošovky",
+"vznik farebných lemov na okrajoch objektov",
+"nesprávne uloženie preparátu na podložnom skle"
+],
+"correct": 1
+},
+{
+"question": "Ako sa prejavuje chromatická aberácia",
+"answers": [
+"rozmazaný obraz len v jednom smere",
+"znížený kontrast preparátu",
+"farebné lemy na okrajoch pozorovaných objektov",
+"neostrý obraz pri vysokom zväčšeni aj po použití imerzného oleja"
+],
+"correct": 2
+},
+{
+"question": "Aký obraz vzniká pri astigmatizme šošovky",
+"answers": [
+"ostrý v jednom smere a rozmazaný v druhom",
+"s farebnými lemami na okrajoch",
+"rozmazaný po celej ploche rovnomernee",
+"vysoko kontrastný ale s nízkym zväčšenim"
+],
+"correct": 0
+},
+{
+"question": "Aký je hlavný princip konfokálnej mikroskopie v porovnaní s klasickou fluorescenčnou mikroskopiou?",
+"answers": [
+"používa polarizované svetlo na zvýraznenie štruktúr",
+"využíva pinholový otvor na eliminaciu rozptyleneho svetla a získanie optických rezov",
+"dosahuje rozlišovaciu schopnosť až 0,2 nm vďaka elektronoveho lúču",
+"nepotrebuje fluorescečné farbivá na zobrazenie preparátu"
+],
+"correct": 1
+},
+{
+"question": "Prečo samotné zväčšenie bez dobrej rozlišovacej schopnosti nie je postačujúce ?",
+"answers": [
+"pretože obraz zostáva veľký ale bez detailov",
+"pretože zväčšenie vždy znižuje kontrast ",
+"pretože vysoké zväčšenie je možné len pri elektronovej mikroskopii",
+"pretože zväčšenie sa nedá kombinovať s farbením preparatov"
+],
+"correct": 0
+},
+{
+"question": "Čo je hlavnou ulohou kalibrácie mikroskopu pomocou okularoveho mikrometra?",
+"answers": [
+"zvýšenie okntrastu preparátu",
+"presné určenie rozmerov mikroštruktur",
+"predlženie životnosti mikroskopu",
+"rozlíšenie medzi nativnym a fixovaným preparatom"
+],
+"correct": 1
+},
+{
+"question": "Akou látkou sa najčastejšie fixujú preparáty, aby sa zachovala štruktúra buniek a tkanív?",
+"answers": [
+"glycerol",
+"formalín",
+"agar",
+"metylenová modrá"
+],
+"correct": 1
+},
+{
+"question": "Aká je funkcia imerzného média pri mikroskopovaní?",
+"answers": [
+"zvyšuje životnosť optických častí",
+"zlepšuje rozlišovaciu schopnosť a kontrast pri vysokých zväčšeniach",
+"umožňuje pozorovať živé bunky",
+"znižuje potrebu kalibrácie mikroskopu"
+],
+"correct": 1
+},
+{
+"question": "Aké riziko predstavuje sférická aberácia pri mikroskopovaní",
+"answers": [
+"vznik farebných lemov na okrajoch obrazu",
+"rozpad štruktúry preparátu",
+"ostrý obraz len v jednom smere",
+"rozmazaný obraz pretože lúče sa nelámu rovnomerne"
+],
+"correct": 3
+},
+{
+"question": "Čo charakterizuje numerickú apertútu (NA) objektívu",
+"answers": [
+"schopnosť zachytiť svetlo v závislosti od uhla lúčov a indexu lomu prostredia",
+"maximálny počet pozorovatelnych buniek",
+"rýchlosť preostrovania pri práci s objektívom",
+"veľkosť preparátu vhodného na pozorovanie"
+],
+"correct": 0
+},
+{
+"question": "Aký problém spôsobuje chromatická aberácia",
+"answers": [
+"obraz je rozmazaný ",
+"obraz má farebné lemy na okrajoch",
+"obraz je ostrý len v jednom smere",
+"obraz sa javí trojrozmerný"
+],
+"correct": 1
+},
+{
+"question": "Ako sa majú čistiť objektívy a okuláre mikroskopu",
+"answers": [
+"bežnou papierovou vreckovkou",
+"špeciálnymi utierkami alebo roztokmi určenými na optiku",
+"alkoholom technickej čistoty",
+"destilovanou vodou"
+],
+"correct": 1
+},
+{
+"question": "Čo je základnou funkciou objektívu mikroskopu",
+"answers": [
+"zväčšiť obraz objektu",
+"usmerniť lúče svetla na preparát",
+"zabezpečiť ochranu okulára pred poškodením",
+"upravovať intenzitu svetla"
+],
+"correct": 0
+},
+{
+"question": "Aká je funkcia stolíka mikroskopu",
+"answers": [
+"zabezpečuje správne uloženie preparatu",
+"zvyšuje kontrast pozorovania",
+"obsahuje mechanizmus na výmenu objektivov",
+"služi na regulaciu napätia"
+],
+"correct": 0
+},
+{
+"question": "Ktorá časť mikroskopu slúži na výmenu objektivov?",
+"answers": [
+"tubus",
+"okulár",
+"revolverový nosič",
+"kondenzor"
+],
+"correct": 2
+}
+]
+}
+]
+
