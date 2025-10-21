@@ -913,30 +913,14 @@ async function previewImages(input) {
                     const buttonContainer = document.createElement('div');
                     buttonContainer.style.cssText = 'margin-top: 8px; display: flex; gap: 5px;';
 
-                    const btn1 = document.createElement('button');
-                    btn1.className = 'btn-small';
-                    btn1.style.cssText = 'padding: 5px 10px; font-size: 16px;';
-                    btn1.title = 'Otočiť vľavo';
-                    btn1.textContent = '↶';
-                    btn1.onclick = () => rotatePreviewImage(i, -90);
+                    const rotateBtn = document.createElement('button');
+                    rotateBtn.className = 'btn-small';
+                    rotateBtn.style.cssText = 'padding: 5px 10px; font-size: 16px;';
+                    rotateBtn.title = 'Otočiť o 90° (stlačte 3x pre 270°)';
+                    rotateBtn.textContent = '↷';
+                    rotateBtn.onclick = () => rotatePreviewImage(i, 90);
 
-                    const btn2 = document.createElement('button');
-                    btn2.className = 'btn-small';
-                    btn2.style.cssText = 'padding: 5px 10px; font-size: 16px;';
-                    btn2.title = 'Otočiť vpravo';
-                    btn2.textContent = '↷';
-                    btn2.onclick = () => rotatePreviewImage(i, 90);
-
-                    const btn3 = document.createElement('button');
-                    btn3.className = 'btn-small';
-                    btn3.style.cssText = 'padding: 5px 10px; font-size: 14px;';
-                    btn3.title = 'Otočiť o 180°';
-                    btn3.textContent = '180°';
-                    btn3.onclick = () => rotatePreviewImage(i, 180);
-
-                    buttonContainer.appendChild(btn1);
-                    buttonContainer.appendChild(btn2);
-                    buttonContainer.appendChild(btn3);
+                    buttonContainer.appendChild(rotateBtn);
 
                     const flexContainer = document.createElement('div');
                     flexContainer.style.cssText = 'display: flex; flex-direction: column; align-items: center;';
@@ -972,7 +956,7 @@ function rotatePreviewImage(index, degrees) {
 }
 
 // Spojiť všetky obrázky do jedného (vertikálne)
-async function mergeImagesToCanvas(files, rotations) {
+async function mergeImagesToCanvas(files, rotations, progressCallback) {
     return new Promise((resolve, reject) => {
         const images = [];
         let loadedCount = 0;
@@ -985,6 +969,11 @@ async function mergeImagesToCanvas(files, rotations) {
                 img.onload = function() {
                     images[index] = { img, rotation: rotations[index] || 0 };
                     loadedCount++;
+
+                    // Volať progress callback ak existuje
+                    if (progressCallback) {
+                        progressCallback(loadedCount, files.length);
+                    }
 
                     // Keď sú všetky načítané, spojíme ich
                     if (loadedCount === files.length) {
@@ -1139,8 +1128,10 @@ async function processImagesWithAI() {
         // Ak je viac fotiek, spojiť ich do jednej
         let fileToProcess;
         if (compressedFiles.length > 1) {
-            document.querySelector('.ai-processing p').textContent = `Spájam ${compressedFiles.length} fotiek do jednej...`;
-            fileToProcess = await mergeImagesToCanvas(compressedFiles, imageRotations);
+            const progressCallback = (current, total) => {
+                document.querySelector('.ai-processing p').textContent = `Pripravujem fotku ${current}/${total}...`;
+            };
+            fileToProcess = await mergeImagesToCanvas(compressedFiles, imageRotations, progressCallback);
         } else {
             fileToProcess = compressedFiles[0];
         }
