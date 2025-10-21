@@ -222,6 +222,33 @@
             <button onclick="backToList()" class="btn-secondary">← Späť na zoznam testov</button>
         </div>
 
+        <!-- Edit Test Page -->
+        <div id="editTestPage" style="display: none;">
+            <h2>✏️ Upraviť test</h2>
+
+            <div class="ai-section">
+                <h3>Základné údaje</h3>
+                <div class="ai-suggestions">
+                    <div class="suggestion-row">
+                        <label>Názov testu:</label>
+                        <input type="text" id="editTestTitle" class="ai-input">
+                    </div>
+                    <div class="suggestion-row">
+                        <label>Popis:</label>
+                        <input type="text" id="editTestDesc" class="ai-input">
+                    </div>
+                </div>
+
+                <h3>Otázky</h3>
+                <div id="editQuestionsContainer" class="ai-questions-container"></div>
+
+                <button onclick="addEditQuestion()" class="btn-secondary">➕ Pridať otázku</button>
+                <button onclick="saveEditedTest()" class="btn-success" style="margin-left: 10px;">💾 Uložiť zmeny</button>
+            </div>
+
+            <button onclick="backToList()" class="btn-secondary">← Späť na zoznam testov</button>
+        </div>
+
         <!-- Príklad formátu -->
         <div id="examplePage" style="display: none;">
             <h2>📖 Príklad formátu testov</h2>

@@ -35,6 +35,7 @@ function displayTestList() {
 
     testList.innerHTML = tests.map((test, index) => {
         const stats = getTestStatistics(test.title || 'Test ' + (index + 1));
+        const filename = test.filename || '';
 
         return `
             <div class="test-item-wrapper">
@@ -67,6 +68,12 @@ function displayTestList() {
                         ` : '<div class="no-stats">Zatiaľ neabsolvované</div>'}
                     </div>
                 </div>
+                ${filename ? `
+                    <div class="test-actions">
+                        <button class="btn-edit-small" onclick="event.stopPropagation(); editTest('${filename}', ${index})" title="Upraviť test">✏️</button>
+                        <button class="btn-delete-small" onclick="event.stopPropagation(); deleteTest('${filename}', ${index})" title="Zmazať test">🗑️</button>
+                    </div>
+                ` : ''}
             </div>
         `;
     }).join('');
@@ -698,6 +705,7 @@ function backToList() {
     document.getElementById('examplePage').style.display = 'none';
     document.getElementById('helpPage').style.display = 'none';
     document.getElementById('aiImportPage').style.display = 'none';
+    document.getElementById('editTestPage').style.display = 'none';
     document.querySelector('.section').style.display = 'block';
     currentTest = null;
     testMode = 'test';
@@ -975,5 +983,169 @@ async function saveAITest() {
         }
     } catch (error) {
         alert('Chyba pri ukladaní testu: ' + error.message);
+    }
+}
+
+// ============================================
+// TEST EDIT FUNKCIE
+// ============================================
+
+let editingTestData = null;
+let editingFilename = null;
+
+async function editTest(filename, index) {
+    try {
+        const response = await fetch(`/api/load-test/${encodeURIComponent(filename)}`);
+        const result = await response.json();
+
+        if (result.success) {
+            editingTestData = result.data;
+            editingFilename = filename;
+            showEditTestPage();
+        } else {
+            throw new Error(result.error || 'Chyba pri načítaní testu');
+        }
+    } catch (error) {
+        alert('Chyba pri načítaní testu: ' + error.message);
+    }
+}
+
+function showEditTestPage() {
+    document.querySelector('.section').style.display = 'none';
+    document.getElementById('editTestPage').style.display = 'block';
+
+    // Ak je test array, zobrazíme len prvý test (alebo všetky?)
+    const testData = Array.isArray(editingTestData) ? editingTestData[0] : editingTestData;
+
+    document.getElementById('editTestTitle').value = testData.title || '';
+    document.getElementById('editTestDesc').value = testData.description || '';
+
+    displayEditQuestions();
+}
+
+function displayEditQuestions() {
+    const testData = Array.isArray(editingTestData) ? editingTestData[0] : editingTestData;
+    const container = document.getElementById('editQuestionsContainer');
+    container.innerHTML = '';
+
+    testData.questions.forEach((q, qIndex) => {
+        const questionDiv = document.createElement('div');
+        questionDiv.className = 'ai-question-item';
+        questionDiv.innerHTML = `
+            <div class="ai-question-header">
+                <h4>Otázka ${qIndex + 1}</h4>
+                <button onclick="deleteEditQuestion(${qIndex})" class="btn-delete-small">🗑️</button>
+            </div>
+            <label>Otázka:</label>
+            <input type="text" class="ai-input" value="${escapeHtml(q.question)}"
+                   onchange="updateEditQuestion(${qIndex}, 'question', this.value)">
+
+            <label>Odpovede:</label>
+            ${q.answers.map((ans, aIndex) => `
+                <div class="ai-answer-row">
+                    <input type="radio" name="edit_correct_${qIndex}" value="${aIndex}"
+                           ${q.correct === aIndex ? 'checked' : ''}
+                           onchange="updateEditQuestion(${qIndex}, 'correct', ${aIndex})">
+                    <input type="text" class="ai-input ai-answer-input"
+                           value="${escapeHtml(ans)}"
+                           onchange="updateEditAnswer(${qIndex}, ${aIndex}, this.value)">
+                </div>
+            `).join('')}
+        `;
+        container.appendChild(questionDiv);
+    });
+}
+
+function updateEditQuestion(qIndex, field, value) {
+    const testData = Array.isArray(editingTestData) ? editingTestData[0] : editingTestData;
+    if (testData.questions[qIndex]) {
+        testData.questions[qIndex][field] = field === 'correct' ? parseInt(value) : value;
+    }
+}
+
+function updateEditAnswer(qIndex, aIndex, value) {
+    const testData = Array.isArray(editingTestData) ? editingTestData[0] : editingTestData;
+    if (testData.questions[qIndex]) {
+        testData.questions[qIndex].answers[aIndex] = value;
+    }
+}
+
+function deleteEditQuestion(qIndex) {
+    if (confirm('Naozaj chcete vymazať túto otázku?')) {
+        const testData = Array.isArray(editingTestData) ? editingTestData[0] : editingTestData;
+        testData.questions.splice(qIndex, 1);
+        displayEditQuestions();
+    }
+}
+
+function addEditQuestion() {
+    const testData = Array.isArray(editingTestData) ? editingTestData[0] : editingTestData;
+    testData.questions.push({
+        question: 'Nová otázka',
+        answers: ['Odpoveď 1', 'Odpoveď 2', 'Odpoveď 3', 'Odpoveď 4'],
+        correct: 0
+    });
+    displayEditQuestions();
+}
+
+async function saveEditedTest() {
+    const testData = Array.isArray(editingTestData) ? editingTestData[0] : editingTestData;
+
+    testData.title = document.getElementById('editTestTitle').value.trim();
+    testData.description = document.getElementById('editTestDesc').value.trim();
+
+    if (!testData.title) {
+        alert('Zadajte názov testu');
+        return;
+    }
+
+    if (testData.questions.length === 0) {
+        alert('Test musí obsahovať aspoň jednu otázku');
+        return;
+    }
+
+    try {
+        const response = await fetch(`/api/update-test/${encodeURIComponent(editingFilename)}`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                data: Array.isArray(editingTestData) ? editingTestData : [editingTestData]
+            })
+        });
+
+        const result = await response.json();
+
+        if (result.success) {
+            alert('Test úspešne aktualizovaný!');
+            backToList();
+            loadTests(); // Reload tests
+        } else {
+            throw new Error(result.error || 'Neznáma chyba');
+        }
+    } catch (error) {
+        alert('Chyba pri ukladaní testu: ' + error.message);
+    }
+}
+
+async function deleteTest(filename, index) {
+    if (!confirm(`Naozaj chcete zmazať test "${filename}"? Táto akcia je nezvratná.`)) {
+        return;
+    }
+
+    try {
+        const response = await fetch(`/api/delete-test/${encodeURIComponent(filename)}`, {
+            method: 'DELETE'
+        });
+
+        const result = await response.json();
+
+        if (result.success) {
+            alert(result.message);
+            loadTests(); // Reload tests
+        } else {
+            throw new Error(result.error || 'Neznáma chyba');
+        }
+    } catch (error) {
+        alert('Chyba pri mazaní testu: ' + error.message);
     }
 }

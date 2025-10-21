@@ -1050,3 +1050,29 @@ button:hover {
     border-color: #5568d3;
     background: #f8f9ff;
 }
+
+/* ============================================
+   TEST ACTIONS (Edit / Delete buttons)
+   ============================================ */
+
+.test-actions {
+    display: flex;
+    gap: 5px;
+    padding: 5px;
+}
+
+.btn-edit-small {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.2s;
+}
+
+.btn-edit-small:hover {
+    background: #45a049;
+    transform: scale(1.1);
+}

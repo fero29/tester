@@ -82,14 +82,20 @@ def load_from_folder():
         loaded_count = 0
         for filepath in json_files:
             try:
+                filename = os.path.basename(filepath)
                 with open(filepath, 'r', encoding='utf-8') as f:
                     data = json.load(f)
 
                     # Validácia formátu
                     if isinstance(data, list):
+                        # Pridať filename k každému testu v array
+                        for test in data:
+                            test['filename'] = filename
                         tests.extend(data)
                         loaded_count += len(data)
                     else:
+                        # Pridať filename k testu
+                        data['filename'] = filename
                         tests.append(data)
                         loaded_count += 1
             except Exception as e:
@@ -285,6 +291,73 @@ def save_test():
             'success': True,
             'filename': filename,
             'filepath': filepath
+        })
+
+    except Exception as e:
+        return jsonify({'error': str(e)}), 400
+
+@app.route('/api/load-test/<filename>', methods=['GET'])
+def load_test(filename):
+    """Načíta test súbor pre editáciu"""
+    try:
+        filepath = os.path.join(TESTS_DIR, filename)
+
+        if not os.path.exists(filepath):
+            return jsonify({'error': 'Súbor neexistuje'}), 404
+
+        with open(filepath, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+
+        return jsonify({
+            'success': True,
+            'filename': filename,
+            'data': data
+        })
+
+    except Exception as e:
+        return jsonify({'error': str(e)}), 400
+
+@app.route('/api/update-test/<filename>', methods=['POST'])
+def update_test(filename):
+    """Aktualizuje existujúci test súbor"""
+    try:
+        filepath = os.path.join(TESTS_DIR, filename)
+
+        if not os.path.exists(filepath):
+            return jsonify({'error': 'Súbor neexistuje'}), 404
+
+        data = request.get_json()
+        test_data = data.get('data')
+
+        if not test_data:
+            return jsonify({'error': 'Chýbajúce údaje'}), 400
+
+        # Uložiť aktualizovaný test
+        with open(filepath, 'w', encoding='utf-8') as f:
+            json.dump(test_data, f, ensure_ascii=False, indent=2)
+
+        return jsonify({
+            'success': True,
+            'filename': filename
+        })
+
+    except Exception as e:
+        return jsonify({'error': str(e)}), 400
+
+@app.route('/api/delete-test/<filename>', methods=['DELETE'])
+def delete_test(filename):
+    """Zmaže test súbor"""
+    try:
+        filepath = os.path.join(TESTS_DIR, filename)
+
+        if not os.path.exists(filepath):
+            return jsonify({'error': 'Súbor neexistuje'}), 404
+
+        os.remove(filepath)
+
+        return jsonify({
+            'success': True,
+            'message': f'Test {filename} bol zmazaný'
         })
 
     except Exception as e:
