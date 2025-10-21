@@ -804,6 +804,7 @@ function resetAIImportPage() {
     document.getElementById('aiImageInput').value = '';
     document.getElementById('imagePreview').style.display = 'none';
     document.getElementById('processBtn').style.display = 'none';
+    document.getElementById('cancelStep1Btn').style.display = 'none';
     aiImportedData = null;
     originalImages = [];
     imageRotations = [];
@@ -858,6 +859,7 @@ function previewImages(input) {
 
         document.getElementById('imagePreview').style.display = 'block';
         document.getElementById('processBtn').style.display = 'inline-block';
+        document.getElementById('cancelStep1Btn').style.display = 'inline-block';
     }
 }
 

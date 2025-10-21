@@ -10,7 +10,7 @@
     <div class="container">
         <div class="app-header">
             <h1 onclick="backToList()" style="cursor: pointer;" title="Späť na hlavnú stránku">AI Tester</h1>
-            <span class="version-badge" onclick="showVersionInfo()" style="cursor: pointer;" title="Kliknite pre info">v1.3.4</span>
+            <span class="version-badge" onclick="showVersionInfo()" style="cursor: pointer;" title="Kliknite pre info">v1.3.5</span>
         </div>
 
         <!-- Zoznam testov -->
@@ -32,7 +32,7 @@
 
         <!-- Verzia Info -->
         <div id="versionPage" style="display: none;">
-            <h2>ℹ️ AI Tester v1.3.4</h2>
+            <h2>ℹ️ AI Tester v1.3.5</h2>
 
             <div class="help-section">
                 <h3>🎯 Hlavné funkcie</h3>
@@ -51,7 +51,15 @@
             </div>
 
             <div class="help-section">
-                <h3>🆕 Novinky v1.3.4</h3>
+                <h3>🆕 Novinky v1.3.5</h3>
+                <ul>
+                    <li>❌ <strong>Tlačidlo "Zrušiť" vo všetkých krokoch AI importu</strong> - Kedykoľvek môžete zrušiť import (pri nahrávaní, počas spracovania, pri editácii aj ukladaní)</li>
+                    <li>🚪 <strong>Jednoduchý návrat</strong> - Rýchle zrušenie importu a návrat na začiatok v každom kroku procesu</li>
+                </ul>
+            </div>
+
+            <div class="help-section">
+                <h3>Novinky v1.3.4</h3>
                 <ul>
                     <li>☑ <strong>Vždy možnosť výberu viacerých odpovedí</strong> - Všetky odpovede fungujú ako checkboxy, dá sa označiť aj viac odpovedí</li>
                     <li>🎯 <strong>Flexibilné testovanie</strong> - Aj pri otázkach s 1 správnou odpoveďou môžete vyskúšať označiť viac možností</li>
@@ -280,9 +288,14 @@
                         </label>
                     </div>
 
-                    <button onclick="processImagesWithAI()" id="processBtn" class="btn-primary" style="display: none; margin-top: 15px;">
-                        ✨ Spracovať s AI
-                    </button>
+                    <div style="display: flex; gap: 10px; margin-top: 15px;">
+                        <button onclick="processImagesWithAI()" id="processBtn" class="btn-primary" style="display: none;">
+                            ✨ Spracovať s AI
+                        </button>
+                        <button onclick="cancelAIImport()" class="btn-danger" style="display: none;" id="cancelStep1Btn">
+                            ❌ Zrušiť
+                        </button>
+                    </div>
                 </div>
             </div>
 
@@ -292,6 +305,9 @@
                     <div class="spinner"></div>
                     <p>AI analyzuje obrázok...</p>
                     <p class="ai-processing-detail">Toto môže trvať 10-30 sekúnd</p>
+                    <button onclick="cancelAIImport()" class="btn-danger" style="margin-top: 20px;">
+                        ❌ Zrušiť spracovanie
+                    </button>
                 </div>
             </div>
 
