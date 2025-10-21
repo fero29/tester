@@ -637,3 +637,166 @@ button:hover {
     font-size: 0.9em;
     line-height: 1.6;
 }
+
+/* Návod (Help Page) */
+.help-section {
+    background: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border-left: 4px solid #4CAF50;
+}
+
+.help-section h3 {
+    color: #4CAF50;
+    margin-bottom: 15px;
+}
+
+.help-section p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.help-section ol,
+.help-section ul {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.help-section li {
+    margin-bottom: 8px;
+    line-height: 1.6;
+}
+
+.help-section code {
+    background: #fff;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-family: monospace;
+    color: #d14;
+    border: 1px solid #e1e1e1;
+}
+
+.help-section pre {
+    background: #2d2d2d;
+    color: #f8f8f2;
+    padding: 15px;
+    border-radius: 5px;
+    overflow-x: auto;
+    margin-top: 10px;
+}
+
+.help-section pre code {
+    background: transparent;
+    color: #f8f8f2;
+    border: none;
+    padding: 0;
+    display: block;
+    line-height: 1.6;
+}
+
+/* Feedback pri otázkach (režim "each") */
+.answer-correct-selected {
+    background-color: #28a745 !important;
+    color: white !important;
+    border-color: #28a745 !important;
+    font-weight: bold;
+}
+
+.answer-correct-missed {
+    background-color: #d4edda !important;
+    color: #155724 !important;
+    border: 2px solid #28a745 !important;
+    font-weight: bold;
+}
+
+.answer-wrong-selected {
+    background-color: #dc3545 !important;
+    color: white !important;
+    border-color: #dc3545 !important;
+    font-weight: bold;
+}
+
+.answer-neutral {
+    background-color: #f8f9fa !important;
+    color: #6c757d !important;
+}
+
+/* Výsledky - otázky */
+.result-question {
+    background: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border-left: 4px solid #ccc;
+}
+
+.result-question.result-correct {
+    border-left-color: #28a745;
+    background: #f1f9f3;
+}
+
+.result-question.result-incorrect {
+    border-left-color: #dc3545;
+    background: #fdf2f3;
+}
+
+.result-question h4 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.result-question .multiple-note {
+    font-size: 0.9em;
+    color: #666;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.result-answers {
+    margin-top: 15px;
+}
+
+.result-answer {
+    padding: 12px 15px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    border: 2px solid #ddd;
+    transition: all 0.2s;
+}
+
+/* Režim "end" alebo "each" - zobraz všetko */
+.result-answer-correct-selected {
+    background-color: #28a745;
+    color: white;
+    border-color: #28a745;
+    font-weight: bold;
+}
+
+.result-answer-correct-missed {
+    background-color: #d4edda;
+    color: #155724;
+    border: 2px solid #28a745;
+    font-weight: bold;
+}
+
+.result-answer-wrong-selected {
+    background-color: #dc3545;
+    color: white;
+    border-color: #dc3545;
+    font-weight: bold;
+}
+
+/* Režim "none" - len zvýrazniť nesprávne */
+.result-answer-user-selected {
+    background-color: #e3f2fd;
+    color: #1976d2;
+    border-color: #1976d2;
+    font-weight: 500;
+}
+
+.result-answer-neutral {
+    background-color: #fff;
+    color: #333;
+    border-color: #ddd;
+}

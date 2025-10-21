@@ -3,13 +3,15 @@
 ## 1. AWS EC2 Security Group
 Otvor tieto porty:
 - **Port 80** (HTTP) - Source: 0.0.0.0/0
+- **Port 443** (HTTPS) - Source: 0.0.0.0/0
 - **Port 22** (SSH) - Source: 0.0.0.0/0 alebo tvoja IP
 
 ## 2. Websupport DNS nastavenie
-V DNS zóne pre `frantisekmasiar.sk`:
-- **A záznam**: `test` → **verejná IP tvojho AWS EC2**
-- Príklad: `test` → `54.123.45.67`
-- Výsledok: `test.frantisekmasiar.sk` bude smerovať na tvoj server
+V DNS zóne pre `photostory.sk`:
+- **A záznam**: `@` → **verejná IP tvojho AWS EC2**
+- **A záznam**: `www` → **verejná IP tvojho AWS EC2**
+- Príklad: `@` → `18.209.48.83`
+- Výsledok: `photostory.sk` a `www.photostory.sk` budú smerovať na tvoj server
 
 ## 3. Na AWS serveri
 
@@ -36,30 +38,38 @@ cd /root  # alebo /home/ubuntu
 git clone https://github.com/tvoj-username/tvoj-repo.git test-app
 cd test-app
 
-# Vytvor priečinok pre testy
-mkdir -p testy
+# Testy sú už v repo v priečinku testy/
+# Nič ďalšie nie je potrebné
 
-# Uprav docker-compose.yml - riadok 10
-# Zmeň: /home/fmasiar/tester/testy:/app/testy
-# Na:    /root/testy:/app/testy (alebo kde máš priečinok testy)
+# Najprv spusti len web service (bez SSL)
+docker compose up -d web
 
-# Spusti aplikáciu
+# Skontroluj že beží
+docker compose ps
+curl localhost:5000
+```
+
+### Nastavenie SSL certifikátu
+```bash
+# Uprav init-letsencrypt.sh - zmeň email na riadku 12
+nano init-letsencrypt.sh
+# Zmeň: email="your-email@example.com"
+# Na:    email="tvoj-email@example.com"
+
+# Spusti skript pre získanie certifikátu
+./init-letsencrypt.sh
+
+# Spusti všetky services vrátane nginx
 docker compose up -d
 
 # Skontroluj že beží
 docker compose ps
-docker compose logs -f
-```
-
-### Pridanie testov
-```bash
-# Skopíruj .json súbory do priečinka testy/
-cd /root/testy
-# Nahraj súbory cez scp alebo vytvor priamo
+docker compose logs -f nginx
 ```
 
 ## 4. Prístup
-Otvor v prehliadači: `http://test.frantisekmasiar.sk`
+- **HTTP**: `http://photostory.sk` (presmeruje na HTTPS)
+- **HTTPS**: `https://photostory.sk` ✅
 
 ## Užitočné príkazy
 ```bash

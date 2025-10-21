@@ -15,6 +15,7 @@
             <div class="test-header-controls">
                 <h2>Dostupné testy</h2>
                 <div>
+                    <button onclick="showHelpPage()" class="btn-info btn-small">📖 Návod</button>
                     <button onclick="showImportPage()" class="btn-import btn-small">📁 Import testov</button>
                     <button onclick="startMultipleTests()" class="btn-multi" id="startMultiBtn" style="display: none;">
                         Spustiť vybrané testy
@@ -23,6 +24,87 @@
                 </div>
             </div>
             <div id="testList"></div>
+        </div>
+
+        <!-- Návod -->
+        <div id="helpPage" style="display: none;">
+            <h2>📖 Návod na použitie</h2>
+
+            <div class="help-section">
+                <h3>Načítanie testov</h3>
+                <p><strong>Spôsob 1: Automatické načítanie (odporúčané)</strong></p>
+                <ol>
+                    <li>Vložte JSON súbory s testami do priečinka <code>testy/</code></li>
+                    <li>V aplikácii kliknite na "📁 Import testov"</li>
+                    <li>Kliknite na "📂 Automaticky načítať všetky testy"</li>
+                </ol>
+
+                <p><strong>Spôsob 2: Manuálne nahratie</strong></p>
+                <ol>
+                    <li>Kliknite na "📁 Import testov"</li>
+                    <li>Vyberte JSON súbor z vášho počítača</li>
+                    <li>Kliknite na "📤 Nahrať súbor"</li>
+                </ol>
+            </div>
+
+            <div class="help-section">
+                <h3>Absolvovanie testu</h3>
+                <ol>
+                    <li>Vyberte test zo zoznamu (zobrazí sa dialóg s nastaveniami)</li>
+                    <li>Nastavte parametre:
+                        <ul>
+                            <li><strong>Časový limit:</strong> 20/30/60 minút alebo bez limitu</li>
+                            <li><strong>Rozsah otázok:</strong> Vyberte od-do ktorej otázky chcete absolvovať</li>
+                            <li><strong>Poradie:</strong> Po poradí alebo zamixované</li>
+                            <li><strong>Zobrazenie odpovedí:</strong> Nezobrazovať / Po každej otázke / Na konci testu</li>
+                        </ul>
+                    </li>
+                    <li>Kliknite na "Spustiť test" alebo "Režim učenia"</li>
+                    <li>Absolvujte test a pozrite si výsledky</li>
+                </ol>
+            </div>
+
+            <div class="help-section">
+                <h3>Ďalšie funkcie</h3>
+                <ul>
+                    <li><strong>Viacero testov naraz:</strong> Zaškrtnite checkboxy pri testoch a kliknite "Spustiť vybrané testy"</li>
+                    <li><strong>Štatistiky:</strong> Pri každom teste sa zobrazujú (počet absolvovaní, posledný výsledok, priemer)</li>
+                    <li><strong>Režim učenia:</strong> Zobrazí celý test so správnymi odpoveďami - vhodné na učenie</li>
+                    <li><strong>Zobrazenie po každej otázke:</strong> Ihneď po odpovedi uvidíte správne/nesprávne odpovede</li>
+                    <li><strong>Zobrazenie na konci:</strong> Po skončení testu uvidíte všetky správne odpovede</li>
+                </ul>
+            </div>
+
+            <div class="help-section">
+                <h3>Formát JSON súboru</h3>
+                <p>Pre vytvorenie vlastných testov použite tento formát:</p>
+                <pre><code>[
+  {
+    "title": "Názov testu",
+    "description": "Popis testu",
+    "questions": [
+      {
+        "question": "Otázka s jednou správnou odpoveďou?",
+        "answers": ["Odpoveď 1", "Odpoveď 2", "Odpoveď 3"],
+        "correct": 0
+      },
+      {
+        "question": "Otázka s viacerými správnymi odpoveďami?",
+        "answers": ["Odpoveď A", "Odpoveď B", "Odpoveď C"],
+        "correct": [0, 2]
+      }
+    ]
+  }
+]</code></pre>
+                <p><strong>Pravidlá:</strong></p>
+                <ul>
+                    <li><code>correct</code> môže byť jedno číslo (jedna správna) alebo pole čísel (viac správnych)</li>
+                    <li>Index začína od 0 (0 = prvá odpoveď, 1 = druhá, atď.)</li>
+                    <li>Pri viacerých správnych musíte vybrať všetky</li>
+                </ul>
+            </div>
+
+            <button onclick="backToList()" class="btn-secondary">← Späť na zoznam testov</button>
         </div>
 
         <!-- Import testov -->
@@ -150,6 +232,19 @@
                 </label>
                 <label>
                     <input type="radio" name="shuffle" value="true"> Zamixované
+                </label>
+            </div>
+
+            <div class="settings-group">
+                <h3>Zobrazenie správnych odpovedí</h3>
+                <label>
+                    <input type="radio" name="showAnswers" value="none" checked> Nezobrazovať
+                </label>
+                <label>
+                    <input type="radio" name="showAnswers" value="each"> Po každej otázke
+                </label>
+                <label>
+                    <input type="radio" name="showAnswers" value="end"> Na konci testu
                 </label>
             </div>
 

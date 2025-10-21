@@ -1,0 +1,15 @@
+version: '3.8'
+
+# Development docker-compose pre lokálne testovanie
+# Spúšťa sa: docker compose -f docker-compose.dev.yml up -d
+
+services:
+  web:
+    build: .
+    ports:
+      - "5000:5000"
+    volumes:
+      - .:/app
+    environment:
+      - FLASK_ENV=development
+    restart: always
