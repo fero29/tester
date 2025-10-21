@@ -7,7 +7,6 @@ services:
       - "80:5000"
     volumes:
       - .:/app
-      - /home/fmasiar/tester/testy:/app/testy
     environment:
       - FLASK_ENV=production
     restart: always
