@@ -187,12 +187,33 @@ Analyzuj obrázok a vráť JSON:"""
         ai_response = response.choices[0].message.content.strip()
 
         # Pokúsiť sa parsovať JSON (ak AI pridalo markdown bloky, odstránime ich)
-        if ai_response.startswith('```'):
-            ai_response = ai_response.split('```')[1]
-            if ai_response.startswith('json'):
-                ai_response = ai_response[4:]
+        if '```json' in ai_response:
+            # Nájsť JSON medzi ```json a ```
+            start = ai_response.find('```json') + 7
+            end = ai_response.find('```', start)
+            ai_response = ai_response[start:end].strip()
+        elif '```' in ai_response:
+            # Nájsť JSON medzi ``` a ```
+            parts = ai_response.split('```')
+            if len(parts) >= 2:
+                ai_response = parts[1].strip()
+                if ai_response.startswith('json'):
+                    ai_response = ai_response[4:].strip()
 
-        result = json.loads(ai_response.strip())
+        # Odstrániť možné úvodné/záverečné znaky
+        ai_response = ai_response.strip()
+
+        # Parsovať JSON
+        try:
+            result = json.loads(ai_response)
+        except json.JSONDecodeError as e:
+            # Logovať pre debugging
+            print(f"JSON Parse Error: {e}")
+            print(f"AI Response: {ai_response[:500]}")  # Prvých 500 znakov
+            return jsonify({
+                'error': f'Chyba pri parsovaní AI odpovede: {str(e)}',
+                'raw_response': ai_response[:200]  # Prvých 200 znakov pre užívateľa
+            }), 400
 
         return jsonify({
             'success': True,
