@@ -1,4 +1,4 @@
-console.log('AI Tester v1.3.8 loaded - multiple images merge');
+console.log('AI Tester v1.3.8.1 loaded - fixed image merge rotation');
 let tests = [];
 let currentTest = null;
 let currentQuestionIndex = 0;
@@ -1005,16 +1005,24 @@ async function mergeImagesToCanvas(files, rotations) {
                         let maxWidth = 0;
                         const gap = 50; // Medzera medzi fotkami
 
-                        images.forEach(({ img, rotation }) => {
+                        // Pripraviť info o každom obrázku s rotáciou
+                        const imageInfos = images.map(({ img, rotation }) => {
+                            let width, height;
                             // Pri 90° alebo 270° rotácii sa vymenia rozmery
                             if (rotation === 90 || rotation === 270) {
-                                totalHeight += img.height;
-                                maxWidth = Math.max(maxWidth, img.width);
+                                width = img.height;
+                                height = img.width;
                             } else {
-                                totalHeight += img.height;
-                                maxWidth = Math.max(maxWidth, img.width);
+                                width = img.width;
+                                height = img.height;
                             }
-                            totalHeight += gap;
+                            return { img, rotation, width, height };
+                        });
+
+                        // Vypočítať celkovú výšku a max šírku
+                        imageInfos.forEach((info) => {
+                            totalHeight += info.height + gap;
+                            maxWidth = Math.max(maxWidth, info.width);
                         });
 
                         // Vytvoriť canvas
@@ -1029,21 +1037,30 @@ async function mergeImagesToCanvas(files, rotations) {
 
                         // Nakresliť všetky obrázky pod seba
                         let currentY = 0;
-                        images.forEach(({ img, rotation }) => {
+                        imageInfos.forEach((info) => {
                             ctx.save();
 
+                            // Centrovať obrázok horizontálne
+                            const xOffset = (maxWidth - info.width) / 2;
+
                             // Aplikovať rotáciu
-                            if (rotation !== 0) {
-                                ctx.translate(maxWidth / 2, currentY + img.height / 2);
-                                ctx.rotate((rotation * Math.PI) / 180);
-                                ctx.translate(-img.width / 2, -img.height / 2);
-                                ctx.drawImage(img, 0, 0);
+                            if (info.rotation !== 0) {
+                                // Posunúť na stred oblasti kde bude obrázok
+                                const centerX = xOffset + info.width / 2;
+                                const centerY = currentY + info.height / 2;
+
+                                ctx.translate(centerX, centerY);
+                                ctx.rotate((info.rotation * Math.PI) / 180);
+
+                                // Pri rotácii kreslíme z pôvodných rozmerov obrázka
+                                ctx.drawImage(info.img, -info.img.width / 2, -info.img.height / 2);
                             } else {
-                                ctx.drawImage(img, (maxWidth - img.width) / 2, currentY);
+                                // Bez rotácie jednoducho nakreslíme
+                                ctx.drawImage(info.img, xOffset, currentY);
                             }
 
                             ctx.restore();
-                            currentY += img.height + gap;
+                            currentY += info.height + gap;
                         });
 
                         // Konvertovať na blob
@@ -1054,7 +1071,7 @@ async function mergeImagesToCanvas(files, rotations) {
                                         type: 'image/jpeg',
                                         lastModified: Date.now()
                                     });
-                                    console.log(`Spojené ${files.length} fotky do jednej (${(blob.size / 1024 / 1024).toFixed(2)}MB)`);
+                                    console.log(`Spojené ${files.length} fotky do jednej (${(blob.size / 1024 / 1024).toFixed(2)}MB, ${maxWidth}x${totalHeight}px)`);
                                     resolve(mergedFile);
                                 } else {
                                     reject(new Error('Zlyhalo spojenie fotiek'));
