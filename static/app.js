@@ -1051,15 +1051,44 @@ async function mergeImagesToCanvas(files, rotations) {
                             currentY += info.height + gap;
                         });
 
-                        // Konvertovať na blob bez zmenšovania
-                        canvas.toBlob(
+                        // OpenAI API má limit na detail:"high" = 2048px na dlhší rozmer
+                        // Zmenšíme ak je potrebné, aby sme sa vyhli API errors
+                        let finalCanvas = canvas;
+                        let finalWidth = maxWidth;
+                        let finalHeight = totalHeight;
+                        const MAX_DIMENSION = 2048;
+
+                        if (maxWidth > MAX_DIMENSION || totalHeight > MAX_DIMENSION) {
+                            // Zmenšiť podľa dlhšej strany
+                            let scale;
+                            if (maxWidth > totalHeight) {
+                                scale = MAX_DIMENSION / maxWidth;
+                            } else {
+                                scale = MAX_DIMENSION / totalHeight;
+                            }
+
+                            finalWidth = Math.round(maxWidth * scale);
+                            finalHeight = Math.round(totalHeight * scale);
+
+                            const resizedCanvas = document.createElement('canvas');
+                            resizedCanvas.width = finalWidth;
+                            resizedCanvas.height = finalHeight;
+                            const resizedCtx = resizedCanvas.getContext('2d');
+                            resizedCtx.drawImage(canvas, 0, 0, finalWidth, finalHeight);
+                            finalCanvas = resizedCanvas;
+
+                            console.log(`Prispôsobené pre OpenAI API: ${maxWidth}x${totalHeight}px → ${finalWidth}x${finalHeight}px`);
+                        }
+
+                        // Konvertovať na blob
+                        finalCanvas.toBlob(
                             (blob) => {
                                 if (blob) {
                                     const mergedFile = new File([blob], 'merged_images.jpg', {
                                         type: 'image/jpeg',
                                         lastModified: Date.now()
                                     });
-                                    console.log(`Spojené ${files.length} fotky do jednej (${(blob.size / 1024 / 1024).toFixed(2)}MB, ${maxWidth}x${totalHeight}px)`);
+                                    console.log(`Spojené ${files.length} fotky do jednej (${(blob.size / 1024 / 1024).toFixed(2)}MB, ${finalWidth}x${finalHeight}px)`);
                                     resolve(mergedFile);
                                 } else {
                                     reject(new Error('Zlyhalo spojenie fotiek'));
