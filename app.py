@@ -140,6 +140,18 @@ def ai_import():
         # Prompt pre OpenAI
         prompt = """Analyzuj tento obrázok a extrahuj z neho všetky otázky s možnými odpoveďami.
 
+VEĽMI DÔLEŽITÉ - Identifikácia správnych odpovedí:
+1. Pozorne skontroluj KAŽDÚ odpoveď
+2. Hľadaj tieto vizuálne indikátory správnej odpovede:
+   - Podčiarknutý text
+   - Tučný text (bold)
+   - Zvýraznený text (highlight, farebné pozadie)
+   - Text s hviezdičkou (*) alebo checkmarkom (✓)
+   - Text v rámčeku alebo odlíšený inak
+   - Text označený ako "správna" / "correct"
+3. Ak ŽIADNA odpoveď nemá vizuálne označenie, použiť index 0 (prvá odpoveď)
+4. NESPOLIEHAJ sa len na poradie - VIZUÁLNE označenie má prioritu
+
 Vráť odpoveď v tomto PRESNOM JSON formáte:
 {
   "suggestedTitle": "Navrhnutý názov testu (krátky, opisný)",
@@ -153,12 +165,10 @@ Vráť odpoveď v tomto PRESNOM JSON formáte:
   ]
 }
 
-DÔLEŽITÉ:
-- "correct" je index správnej odpovede (0-based, takže 0 = prvá odpoveď, 1 = druhá atď.)
-- Ak je správna odpoveď označená (napr. podčiarknutá, zvýraznená), použi jej index
-- Ak nie je označená, použi 0 a užívateľ to opraví manuálne
-- Answers musia byť presne 4 (ak sú menej, doplň prázdne reťazce)
-- Vráť IBA čistý JSON, žiadny iný text
+FORMÁT:
+- "correct" je index správnej odpovede (0-based: 0=prvá, 1=druhá, 2=tretia, 3=štvrtá)
+- Answers musia byť presne 4 (ak je menej, doplň prázdne reťazce "")
+- Vráť IBA čistý JSON, žiadny iný text pred ani za ním
 
 Analyzuj obrázok a vráť JSON:"""
 
