@@ -806,9 +806,18 @@ async function processImagesWithAI() {
     try {
         const allQuestions = [];
         const totalImages = imageInput.files.length;
+        let processedImageData = null;
 
         // Získať nastavenie pokročilého predspracovania
         const advancedPreprocessing = document.getElementById('advancedPreprocessing').checked;
+
+        // Inicializovať aiImportedData
+        aiImportedData = {
+            suggestedTitle: '',
+            suggestedDescription: '',
+            questions: [],
+            processedImage: null
+        };
 
         // Spracovať všetky obrázky sekvenčne
         for (let i = 0; i < imageInput.files.length; i++) {
@@ -837,11 +846,9 @@ async function processImagesWithAI() {
 
                 // Použiť názov a popis z prvého obrázka
                 if (i === 0) {
-                    aiImportedData = {
-                        suggestedTitle: result.data.suggestedTitle,
-                        suggestedDescription: result.data.suggestedDescription,
-                        questions: []
-                    };
+                    aiImportedData.suggestedTitle = result.data.suggestedTitle || 'Importovaný test';
+                    aiImportedData.suggestedDescription = result.data.suggestedDescription || '';
+                    aiImportedData.processedImage = result.data.processedImage;
                 }
             } else {
                 console.error(`Chyba pri spracovaní obrázka ${i + 1}:`, result.error);
