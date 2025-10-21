@@ -1,4 +1,4 @@
-console.log('AI Tester v1.3.7 loaded - with image compression');
+console.log('AI Tester v1.3.8 loaded - multiple images merge');
 let tests = [];
 let currentTest = null;
 let currentQuestionIndex = 0;
@@ -983,6 +983,97 @@ function rotatePreviewImage(index, degrees) {
     }
 }
 
+// Spojiť všetky obrázky do jedného (vertikálne)
+async function mergeImagesToCanvas(files, rotations) {
+    return new Promise((resolve, reject) => {
+        const images = [];
+        let loadedCount = 0;
+
+        // Načítať všetky obrázky
+        files.forEach((file, index) => {
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                const img = new Image();
+                img.onload = function() {
+                    images[index] = { img, rotation: rotations[index] || 0 };
+                    loadedCount++;
+
+                    // Keď sú všetky načítané, spojíme ich
+                    if (loadedCount === files.length) {
+                        // Vypočítať rozmery spojeného canvasu
+                        let totalHeight = 0;
+                        let maxWidth = 0;
+                        const gap = 50; // Medzera medzi fotkami
+
+                        images.forEach(({ img, rotation }) => {
+                            // Pri 90° alebo 270° rotácii sa vymenia rozmery
+                            if (rotation === 90 || rotation === 270) {
+                                totalHeight += img.height;
+                                maxWidth = Math.max(maxWidth, img.width);
+                            } else {
+                                totalHeight += img.height;
+                                maxWidth = Math.max(maxWidth, img.width);
+                            }
+                            totalHeight += gap;
+                        });
+
+                        // Vytvoriť canvas
+                        const canvas = document.createElement('canvas');
+                        canvas.width = maxWidth;
+                        canvas.height = totalHeight;
+                        const ctx = canvas.getContext('2d');
+
+                        // Biela pozadie
+                        ctx.fillStyle = '#FFFFFF';
+                        ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+                        // Nakresliť všetky obrázky pod seba
+                        let currentY = 0;
+                        images.forEach(({ img, rotation }) => {
+                            ctx.save();
+
+                            // Aplikovať rotáciu
+                            if (rotation !== 0) {
+                                ctx.translate(maxWidth / 2, currentY + img.height / 2);
+                                ctx.rotate((rotation * Math.PI) / 180);
+                                ctx.translate(-img.width / 2, -img.height / 2);
+                                ctx.drawImage(img, 0, 0);
+                            } else {
+                                ctx.drawImage(img, (maxWidth - img.width) / 2, currentY);
+                            }
+
+                            ctx.restore();
+                            currentY += img.height + gap;
+                        });
+
+                        // Konvertovať na blob
+                        canvas.toBlob(
+                            (blob) => {
+                                if (blob) {
+                                    const mergedFile = new File([blob], 'merged_images.jpg', {
+                                        type: 'image/jpeg',
+                                        lastModified: Date.now()
+                                    });
+                                    console.log(`Spojené ${files.length} fotky do jednej (${(blob.size / 1024 / 1024).toFixed(2)}MB)`);
+                                    resolve(mergedFile);
+                                } else {
+                                    reject(new Error('Zlyhalo spojenie fotiek'));
+                                }
+                            },
+                            'image/jpeg',
+                            0.9
+                        );
+                    }
+                };
+                img.onerror = reject;
+                img.src = e.target.result;
+            };
+            reader.onerror = reject;
+            reader.readAsDataURL(file);
+        });
+    });
+}
+
 async function processImagesWithAI() {
     if (!compressedFiles || compressedFiles.length === 0) {
         alert('Najprv nahrajte obrázok');
@@ -1000,10 +1091,6 @@ async function processImagesWithAI() {
     }));
 
     try {
-        const allQuestions = [];
-        const totalImages = compressedFiles.length;
-        let processedImageData = null;
-
         // Získať nastavenie pokročilého predspracovania
         const advancedPreprocessing = document.getElementById('advancedPreprocessing').checked;
 
@@ -1015,47 +1102,41 @@ async function processImagesWithAI() {
             processedImage: null
         };
 
-        // Spracovať všetky obrázky sekvenčne (použiť komprimované)
-        for (let i = 0; i < compressedFiles.length; i++) {
-            const file = compressedFiles[i];
-
-            // Update loading message
-            document.querySelector('.ai-processing p').textContent =
-                `AI analyzuje obrázok ${i + 1} / ${totalImages}...`;
-
-            const formData = new FormData();
-            formData.append('image', file);
-            formData.append('advancedPreprocessing', advancedPreprocessing);
-            formData.append('rotation', imageRotations[i] || 0);
-
-            const response = await fetch('/api/ai-import', {
-                method: 'POST',
-                body: formData
-            });
-
-            const result = await response.json();
-
-            if (result.success) {
-                // Pridať otázky z tohto obrázka
-                if (result.data.questions && result.data.questions.length > 0) {
-                    allQuestions.push(...result.data.questions);
-                }
-
-                // Použiť názov a popis z prvého obrázka
-                if (i === 0) {
-                    aiImportedData.suggestedTitle = result.data.suggestedTitle || 'Importovaný test';
-                    aiImportedData.suggestedDescription = result.data.suggestedDescription || '';
-                    aiImportedData.processedImage = result.data.processedImage;
-                }
-            } else {
-                console.error(`Chyba pri spracovaní obrázka ${i + 1}:`, result.error);
-            }
+        // Ak je viac fotiek, spojiť ich do jednej
+        let fileToProcess;
+        if (compressedFiles.length > 1) {
+            document.querySelector('.ai-processing p').textContent = `Spájam ${compressedFiles.length} fotiek do jednej...`;
+            fileToProcess = await mergeImagesToCanvas(compressedFiles, imageRotations);
+        } else {
+            fileToProcess = compressedFiles[0];
         }
 
-        // Nastaviť všetky otázky
-        aiImportedData.questions = allQuestions;
+        // Update loading message
+        document.querySelector('.ai-processing p').textContent = 'AI analyzuje obrázok...';
 
-        if (allQuestions.length === 0) {
+        const formData = new FormData();
+        formData.append('image', fileToProcess);
+        formData.append('advancedPreprocessing', advancedPreprocessing);
+        // Pri spojenom obrázku už nemáme rotáciu (už je aplikovaná)
+        formData.append('rotation', compressedFiles.length === 1 ? (imageRotations[0] || 0) : 0);
+
+        const response = await fetch('/api/ai-import', {
+            method: 'POST',
+            body: formData
+        });
+
+        const result = await response.json();
+
+        if (result.success) {
+            aiImportedData.suggestedTitle = result.data.suggestedTitle || 'Importovaný test';
+            aiImportedData.suggestedDescription = result.data.suggestedDescription || '';
+            aiImportedData.processedImage = result.data.processedImage;
+            aiImportedData.questions = result.data.questions || [];
+        } else {
+            throw new Error(result.error || 'Chyba pri spracovaní obrázka');
+        }
+
+        if (aiImportedData.questions.length === 0) {
             throw new Error('Žiadne otázky neboli rozpoznané');
         }
 
