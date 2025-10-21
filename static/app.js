@@ -743,11 +743,61 @@ function backToList() {
 
 let aiImportedData = null;
 let originalImages = []; // Uložiť pôvodné fotky pre zobrazenie
+let imageRotations = []; // Rotácia pre každú fotku (0, 90, 180, 270)
 
 function showAIImportPage() {
     document.querySelector('.section').style.display = 'none';
     document.getElementById('aiImportPage').style.display = 'block';
 
+    // Skontrolovať localStorage pre uložený stav
+    const savedState = localStorage.getItem('aiImportState');
+
+    if (savedState) {
+        try {
+            const state = JSON.parse(savedState);
+
+            // Skontrolovať či nie je stav príliš starý (napr. viac ako 1 hodinu)
+            const hourInMs = 60 * 60 * 1000;
+            if (Date.now() - state.timestamp > hourInMs) {
+                // Stav je príliš starý, vymazať
+                localStorage.removeItem('aiImportState');
+                resetAIImportPage();
+                return;
+            }
+
+            if (state.step === 'completed' && state.data) {
+                // Obnoviť dokončený import
+                aiImportedData = state.data;
+                originalImages = state.originalImages || [];
+
+                // Zobraziť výsledky
+                document.getElementById('aiStep1').style.display = 'none';
+                document.getElementById('aiStep2').style.display = 'none';
+                document.getElementById('aiStep3').style.display = 'block';
+                document.getElementById('aiStep4').style.display = 'block';
+
+                displayAIQuestions();
+                displayProcessedAndOriginalImages();
+                return;
+            } else if (state.step === 'processing') {
+                // Stále sa spracováva (užívateľ sa vrátil počas spracovania)
+                document.getElementById('aiStep1').style.display = 'none';
+                document.getElementById('aiStep2').style.display = 'block';
+                document.getElementById('aiStep3').style.display = 'none';
+                document.getElementById('aiStep4').style.display = 'none';
+                return;
+            }
+        } catch (e) {
+            console.error('Chyba pri načítaní uloženého stavu AI importu:', e);
+            localStorage.removeItem('aiImportState');
+        }
+    }
+
+    // Default: reset workflow
+    resetAIImportPage();
+}
+
+function resetAIImportPage() {
     // Reset AI import workflow
     document.getElementById('aiStep1').style.display = 'block';
     document.getElementById('aiStep2').style.display = 'none';
@@ -758,6 +808,8 @@ function showAIImportPage() {
     document.getElementById('processBtn').style.display = 'none';
     aiImportedData = null;
     originalImages = [];
+    // Vymazať uložený stav
+    localStorage.removeItem('aiImportState');
 }
 
 function previewImages(input) {
@@ -765,19 +817,31 @@ function previewImages(input) {
         const container = document.getElementById('previewContainer');
         container.innerHTML = '';
         originalImages = [];
+        imageRotations = [];
 
         Array.from(input.files).forEach((file, index) => {
             const reader = new FileReader();
 
             reader.onload = function(e) {
                 originalImages.push(e.target.result);
+                imageRotations.push(0); // Začať s 0° rotáciou
 
                 const imgDiv = document.createElement('div');
-                imgDiv.style.cssText = 'position: relative;';
+                imgDiv.style.cssText = 'position: relative; margin: 10px;';
                 imgDiv.innerHTML = `
-                    <img src="${e.target.result}" style="max-width: 200px; max-height: 200px; border-radius: 8px; object-fit: cover;">
-                    <div style="position: absolute; top: 5px; right: 5px; background: rgba(0,0,0,0.7); color: white; padding: 3px 8px; border-radius: 4px; font-size: 12px;">
-                        ${index + 1}
+                    <div style="display: flex; flex-direction: column; align-items: center;">
+                        <div style="position: relative;">
+                            <img id="preview-img-${index}" src="${e.target.result}"
+                                 style="max-width: 200px; max-height: 200px; border-radius: 8px; object-fit: cover; transition: transform 0.3s;">
+                            <div style="position: absolute; top: 5px; right: 5px; background: rgba(0,0,0,0.7); color: white; padding: 3px 8px; border-radius: 4px; font-size: 12px;">
+                                ${index + 1}
+                            </div>
+                        </div>
+                        <div style="margin-top: 8px; display: flex; gap: 5px;">
+                            <button onclick="rotatePreviewImage(${index}, -90)" class="btn-small" style="padding: 5px 10px; font-size: 16px;" title="Otočiť vľavo">↶</button>
+                            <button onclick="rotatePreviewImage(${index}, 90)" class="btn-small" style="padding: 5px 10px; font-size: 16px;" title="Otočiť vpravo">↷</button>
+                            <button onclick="rotatePreviewImage(${index}, 180)" class="btn-small" style="padding: 5px 10px; font-size: 14px;" title="Otočiť o 180°">180°</button>
+                        </div>
                     </div>
                 `;
                 container.appendChild(imgDiv);
@@ -788,6 +852,18 @@ function previewImages(input) {
 
         document.getElementById('imagePreview').style.display = 'block';
         document.getElementById('processBtn').style.display = 'inline-block';
+    }
+}
+
+function rotatePreviewImage(index, degrees) {
+    // Aktualizovať rotáciu
+    imageRotations[index] = (imageRotations[index] + degrees) % 360;
+    if (imageRotations[index] < 0) imageRotations[index] += 360;
+
+    // Aplikovať CSS transform
+    const img = document.getElementById(`preview-img-${index}`);
+    if (img) {
+        img.style.transform = `rotate(${imageRotations[index]}deg)`;
     }
 }
 
@@ -802,6 +878,12 @@ async function processImagesWithAI() {
     // Skryť Step 1, zobraziť Step 2 (loading)
     document.getElementById('aiStep1').style.display = 'none';
     document.getElementById('aiStep2').style.display = 'block';
+
+    // Uložiť stav do localStorage - processing
+    localStorage.setItem('aiImportState', JSON.stringify({
+        step: 'processing',
+        timestamp: Date.now()
+    }));
 
     try {
         const allQuestions = [];
@@ -830,6 +912,7 @@ async function processImagesWithAI() {
             const formData = new FormData();
             formData.append('image', file);
             formData.append('advancedPreprocessing', advancedPreprocessing);
+            formData.append('rotation', imageRotations[i] || 0);
 
             const response = await fetch('/api/ai-import', {
                 method: 'POST',
@@ -870,11 +953,21 @@ async function processImagesWithAI() {
         document.getElementById('aiStep3').style.display = 'block';
         document.getElementById('aiStep4').style.display = 'block';
 
+        // Uložiť stav do localStorage - completed
+        localStorage.setItem('aiImportState', JSON.stringify({
+            step: 'completed',
+            timestamp: Date.now(),
+            data: aiImportedData,
+            originalImages: originalImages
+        }));
+
     } catch (error) {
         alert('Chyba pri spracovaní obrázkov: ' + error.message);
         // Vrátiť sa na Step 1
         document.getElementById('aiStep2').style.display = 'none';
         document.getElementById('aiStep1').style.display = 'block';
+        // Vymazať stav z localStorage
+        localStorage.removeItem('aiImportState');
     }
 }
 
@@ -1138,6 +1231,8 @@ async function saveAITest() {
 
         if (result.success) {
             alert(`Test úspešne uložený do ${result.filename}!`);
+            // Vymazať uložený stav AI importu
+            localStorage.removeItem('aiImportState');
             backToList();
         } else {
             throw new Error(result.error || 'Neznáma chyba');

@@ -136,12 +136,68 @@ def list_files():
     except Exception as e:
         return jsonify({'error': str(e)}), 400
 
-def preprocess_image(image_file, advanced=False):
+def deskew_image(img_array):
+    """Perspektívna korekcia - opravuje fotky fotené z uhla
+
+    Args:
+        img_array: Numpy array obrázka
+
+    Returns:
+        Numpy array s opravenou perspektívou
+    """
+    try:
+        gray = cv2.cvtColor(img_array, cv2.COLOR_RGB2GRAY)
+
+        # Detekcia hrán pomocou Canny
+        edges = cv2.Canny(gray, 50, 150, apertureSize=3)
+
+        # Nájsť línie pomocou Hough Transform
+        lines = cv2.HoughLinesP(edges, 1, np.pi/180, threshold=100, minLineLength=100, maxLineGap=10)
+
+        if lines is None or len(lines) < 4:
+            # Ak sa nenašli dostatočné línie, vráť originál
+            return img_array
+
+        # Vypočítať uhol sklonu (skew)
+        angles = []
+        for line in lines:
+            x1, y1, x2, y2 = line[0]
+            angle = np.degrees(np.arctan2(y2 - y1, x2 - x1))
+            # Normalizovať uhol do rozsahu -90 až 90
+            if angle < -45:
+                angle += 90
+            elif angle > 45:
+                angle -= 90
+            angles.append(angle)
+
+        if not angles:
+            return img_array
+
+        # Použiť mediánový uhol (robustnejšie ako priemer)
+        median_angle = np.median(angles)
+
+        # Ak je uhol príliš malý, neaplikuj korekciu
+        if abs(median_angle) < 0.5:
+            return img_array
+
+        # Rotovať obrázok o detekovaný uhol
+        (h, w) = img_array.shape[:2]
+        center = (w // 2, h // 2)
+        M = cv2.getRotationMatrix2D(center, median_angle, 1.0)
+        rotated = cv2.warpAffine(img_array, M, (w, h), flags=cv2.INTER_CUBIC, borderMode=cv2.BORDER_REPLICATE)
+
+        return rotated
+    except Exception as e:
+        print(f"Chyba pri deskew: {e}")
+        return img_array
+
+def preprocess_image(image_file, advanced=False, rotation=0):
     """Predspracuje obrázok pre lepšie rozpoznávanie AI
 
     Args:
         image_file: Súbor s obrázkom
         advanced: Ak True, použije pokročilé predspracovanie s OpenCV
+        rotation: Manuálna rotácia v stupňoch (0, 90, 180, 270)
     """
     # Načítať obrázok
     img = Image.open(image_file)
@@ -151,6 +207,10 @@ def preprocess_image(image_file, advanced=False):
         img = ImageOps.exif_transpose(img)
     except Exception:
         pass  # Ak EXIF nie je dostupný, pokračuj bez opravy
+
+    # Aplikovať manuálnu rotáciu
+    if rotation and rotation != 0:
+        img = img.rotate(-rotation, expand=True)  # PIL používa opačný smer rotácie
 
     # Konverzia na RGB
     if img.mode != 'RGB':
@@ -175,6 +235,9 @@ def preprocess_image(image_file, advanced=False):
         # Konverzia do numpy array
         img_array = np.array(img)
 
+        # Perspektívna korekcia - opraviť fotky z uhla
+        img_array = deskew_image(img_array)
+
         # Konverzia do grayscale pre lepšie spracovanie
         gray = cv2.cvtColor(img_array, cv2.COLOR_RGB2GRAY)
 
@@ -183,8 +246,13 @@ def preprocess_image(image_file, advanced=False):
         clahe = cv2.createCLAHE(clipLimit=2.0, tileGridSize=(8,8))
         enhanced = clahe.apply(gray)
 
-        # Denoising - odstráni šum
-        denoised = cv2.fastNlMeansDenoising(enhanced, None, 10, 7, 21)
+        # Silnejší denoising - odstráni viac šumu
+        # h=15 pre silnejší efekt (default 10)
+        # templateWindowSize=7, searchWindowSize=21 pre lepšie výsledky
+        denoised = cv2.fastNlMeansDenoising(enhanced, None, h=15, templateWindowSize=7, searchWindowSize=21)
+
+        # Bilateral filter pre ďalšie vyhladzenie pri zachovaní hrán
+        denoised = cv2.bilateralFilter(denoised, 9, 75, 75)
 
         # Adaptívny threshold - konverzia na čiernobiele s lepším kontrastom
         # Pomôže pri rozpoznávaní krúžkov a podčiarknutí
@@ -242,6 +310,9 @@ def ai_import():
         # Získať nastavenie pokročilého predspracovania
         advanced_preprocessing = request.form.get('advancedPreprocessing', 'false') == 'true'
 
+        # Získať manuálnu rotáciu
+        rotation = int(request.form.get('rotation', 0))
+
         # Uložiť pôvodný obrázok pre vytvorenie výrezov
         image_file.seek(0)
         original_image_bytes = image_file.read()
@@ -249,12 +320,12 @@ def ai_import():
 
         # Predspracovať obrázok pre AI
         image_file.seek(0)
-        processed_image = preprocess_image(image_file, advanced=advanced_preprocessing)
+        processed_image = preprocess_image(image_file, advanced=advanced_preprocessing, rotation=rotation)
         image_data = base64.b64encode(processed_image.read()).decode('utf-8')
 
         # Uložiť aj predspracovaný obrázok ako PIL Image pre výrezy
         image_file.seek(0)
-        processed_pil = Image.open(preprocess_image(image_file, advanced=advanced_preprocessing))
+        processed_pil = Image.open(preprocess_image(image_file, advanced=advanced_preprocessing, rotation=rotation))
 
         # Prompt pre OpenAI
         prompt = """Analyzuj tento obrázok a extrahuj z neho všetky otázky s možnými odpoveďami.
