@@ -1006,14 +1006,20 @@ function displayProcessedAndOriginalImages() {
     const processedImage = aiImportedData.processedImage;
 
     if (processedImage) {
-        const imageHTML = `
-            <div style="width: 100%;">
-                <img src="${processedImage}" style="width: 100%; border-radius: 8px; border: 2px solid #2196F3; cursor: pointer;"
-                     onclick="window.open().document.write('<img src=\\'${processedImage}\\' style=\\'max-width:100%;height:auto\\'>')"
-                     title="Kliknite pre zväčšenie">
-            </div>
-        `;
-        container.innerHTML = imageHTML;
+        const imageDiv = document.createElement('div');
+        imageDiv.style.width = '100%';
+
+        const img = document.createElement('img');
+        img.src = processedImage;
+        img.style.cssText = 'width: 100%; border-radius: 8px; border: 2px solid #2196F3; cursor: pointer;';
+        img.title = 'Kliknite pre zväčšenie';
+        img.onclick = function() {
+            const newWindow = window.open();
+            newWindow.document.write('<img src="' + processedImage + '" style="max-width:100%;height:auto">');
+        };
+
+        imageDiv.appendChild(img);
+        container.appendChild(imageDiv);
     }
 }
 
