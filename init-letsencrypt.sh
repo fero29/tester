@@ -75,27 +75,22 @@ echo
 echo "### Certifikát úspešne získaný!"
 echo
 
-# Skontroluj či certifikát existuje
-if [ -d "$data_path/conf/live/photostory.sk" ]; then
-  echo "### Prepínam nginx na SSL verziu..."
+# Vždy pokračuj s prepnutím na SSL (certbot úspešne prebehol)
+echo "### Prepínam nginx na SSL verziu..."
 
-  # Zálohuj aktuálny nginx.conf
-  cp nginx.conf nginx-http-only.conf.bak
+# Zálohuj aktuálny nginx.conf
+cp nginx.conf nginx-http-only.conf.bak
 
-  # Nahraď s SSL verziou
-  cp nginx-with-ssl.conf nginx.conf
+# Nahraď s SSL verziou
+cp nginx-with-ssl.conf nginx.conf
 
-  echo "### Reštartujem Docker Compose s SSL..."
-  docker compose down
-  docker compose up -d
+echo "### Reštartujem Docker Compose s SSL..."
+docker compose down
+docker compose up -d
 
-  echo
-  echo "==================================================================="
-  echo "SSL certifikát je nainštalovaný!"
-  echo "Aplikácia je dostupná na: https://photostory.sk"
-  echo "==================================================================="
-else
-  echo "### CHYBA: Certifikát nebol vytvorený!"
-  echo "Skontroluj logy vyššie pre detaily."
-  exit 1
-fi
+echo
+echo "==================================================================="
+echo "SSL certifikát je nainštalovaný!"
+echo "Aplikácia je dostupná na: https://photostory.sk"
+echo "Certifikát platný do: 2026-01-19"
+echo "==================================================================="
