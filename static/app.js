@@ -777,7 +777,11 @@ function showAIImportPage() {
                 document.getElementById('aiStep4').style.display = 'block';
 
                 displayAIQuestions();
-                displayProcessedAndOriginalImages();
+
+                // Zobraziť obrázky len ak existujú
+                if (aiImportedData.processedImage || originalImages.length > 0) {
+                    displayProcessedAndOriginalImages();
+                }
                 return;
             } else if (state.step === 'processing') {
                 // Stále sa spracováva (užívateľ sa vrátil počas spracovania)
@@ -953,13 +957,32 @@ async function processImagesWithAI() {
         document.getElementById('aiStep3').style.display = 'block';
         document.getElementById('aiStep4').style.display = 'block';
 
-        // Uložiť stav do localStorage - completed
-        localStorage.setItem('aiImportState', JSON.stringify({
-            step: 'completed',
-            timestamp: Date.now(),
-            data: aiImportedData,
-            originalImages: originalImages
-        }));
+        // Uložiť stav do localStorage - completed (bez obrázkov kvôli kvóte)
+        try {
+            // Vytvoriť kópiu dát bez base64 obrázkov
+            const dataToSave = {
+                suggestedTitle: aiImportedData.suggestedTitle,
+                suggestedDescription: aiImportedData.suggestedDescription,
+                questions: aiImportedData.questions.map(q => ({
+                    question: q.question,
+                    answers: q.answers,
+                    correct: q.correct,
+                    positionPercent: q.positionPercent
+                    // Vynechať cropImage - príliš veľké
+                }))
+                // Vynechať processedImage - príliš veľké
+            };
+
+            localStorage.setItem('aiImportState', JSON.stringify({
+                step: 'completed',
+                timestamp: Date.now(),
+                data: dataToSave
+                // Vynechať originalImages - príliš veľké
+            }));
+        } catch (e) {
+            // Ak localStorage presiahne kvótu, len to ignoruj
+            console.warn('Nepodarilo sa uložiť stav do localStorage:', e);
+        }
 
     } catch (error) {
         alert('Chyba pri spracovaní obrázkov: ' + error.message);
