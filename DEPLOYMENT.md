@@ -55,33 +55,27 @@ docker compose logs -f nginx
 ## 4. Prístup
 - **HTTP**: `http://photostory.sk` ✅
 
-### Voliteľne: Nastavenie SSL certifikátu (HTTPS)
+### Nastavenie SSL certifikátu (HTTPS) - ODPORÚČANÉ
 
-**POZOR:** Momentálne je nginx.conf nastavený len pre HTTP. Pre HTTPS urob:
+Pre zabezpečenú HTTPS komunikáciu spusti jednoducho:
 
 ```bash
-# 1. Nahraď nginx.conf s SSL verziou
-mv nginx.conf nginx-http-only.conf
-mv nginx-with-ssl.conf nginx.conf
-
-# 2. Uprav init-letsencrypt.sh - zmeň email
-nano init-letsencrypt.sh
-# Zmeň: email="your-email@example.com"
-
-# 3. Spusti skript pre získanie certifikátu
+# Spusti skript pre získanie SSL certifikátu
+chmod +x init-letsencrypt.sh
 ./init-letsencrypt.sh
-
-# 4. Reštartuj všetko
-docker compose down
-docker compose up -d
-
-# 5. Skontroluj
-docker compose logs -f nginx
 ```
 
-Po úspešnom nastavení SSL:
+**Skript automaticky:**
+1. Vytvorí dočasný certifikát pre nginx
+2. Získa Let's Encrypt certifikát pre photostory.sk
+3. Prepne nginx.conf na SSL verziu
+4. Reštartuje všetky services s HTTPS
+
+Po úspešnom dokončení:
 - **HTTP**: `http://photostory.sk` → presmeruje na HTTPS
 - **HTTPS**: `https://photostory.sk` 🔒
+
+**Poznámka:** Email pre Let's Encrypt upozornenia je už nastavený na `fero.masiar@gmail.com`
 
 ## Užitočné príkazy
 ```bash

@@ -35,32 +35,31 @@ Pre nasadenie s nginx a SSL certifikátom:
 
 ```bash
 # Na AWS serveri
-git clone https://github.com/tvoj-repo.git test-app
-cd test-app
+cd ~
+git clone https://github.com/tvoj-repo.git tester
+cd tester
 
-# Najprv spusti len Flask bez SSL
-docker compose up -d web
-curl localhost:5000  # Over že funguje
-
-# Uprav email v init-letsencrypt.sh
-nano init-letsencrypt.sh
-# Zmeň: email="your-email@example.com"
-
-# Získaj SSL certifikát
-./init-letsencrypt.sh
-
-# Spusti všetko vrátane nginx
+# Spusti aplikáciu (HTTP)
 docker compose up -d
 
-# Skontroluj
-docker compose ps
-docker compose logs -f
+# Over že funguje
+curl localhost:80
+# Otvor v prehliadači: http://photostory.sk
+
+# Pre HTTPS - spusti SSL certifikát skript
+chmod +x init-letsencrypt.sh
+./init-letsencrypt.sh
+# Skript automaticky získa certifikát a prepne na HTTPS
 ```
 
 ### 3. Prístup
 
-- `http://photostory.sk` → presmeruje na `https://photostory.sk`
-- `https://photostory.sk` ✅
+**Po docker compose up -d:**
+- `http://photostory.sk` ✅
+
+**Po spustení init-letsencrypt.sh:**
+- `http://photostory.sk` → presmeruje na HTTPS
+- `https://photostory.sk` 🔒
 
 ## Štruktúra
 

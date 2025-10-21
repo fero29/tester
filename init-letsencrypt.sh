@@ -7,10 +7,10 @@ if [ ! -d "certbot/conf" ]; then
   mkdir -p certbot/conf certbot/www
 fi
 
-domains=(photostory.sk www.photostory.sk)
+domains=(photostory.sk)
 rsa_key_size=4096
 data_path="./certbot"
-email="your-email@example.com" # ZMEŇ NA SVOJ EMAIL
+email="fero.masiar@gmail.com"
 staging=0 # Nastav na 1 pre testovanie
 
 if [ -d "$data_path/conf/live/photostory.sk" ]; then
@@ -72,5 +72,30 @@ docker compose run --rm --entrypoint "\
     --force-renewal" certbot
 echo
 
-echo "### Reštartujem nginx..."
-docker compose exec nginx nginx -s reload
+echo "### Certifikát úspešne získaný!"
+echo
+
+# Skontroluj či certifikát existuje
+if [ -d "$data_path/conf/live/photostory.sk" ]; then
+  echo "### Prepínam nginx na SSL verziu..."
+
+  # Zálohuj aktuálny nginx.conf
+  cp nginx.conf nginx-http-only.conf.bak
+
+  # Nahraď s SSL verziou
+  cp nginx-with-ssl.conf nginx.conf
+
+  echo "### Reštartujem Docker Compose s SSL..."
+  docker compose down
+  docker compose up -d
+
+  echo
+  echo "==================================================================="
+  echo "SSL certifikát je nainštalovaný!"
+  echo "Aplikácia je dostupná na: https://photostory.sk"
+  echo "==================================================================="
+else
+  echo "### CHYBA: Certifikát nebol vytvorený!"
+  echo "Skontroluj logy vyššie pre detaily."
+  exit 1
+fi
