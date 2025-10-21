@@ -10,7 +10,7 @@
     <div class="container">
         <div class="app-header">
             <h1>AI Tester</h1>
-            <span class="version-badge">v1.0.2</span>
+            <span class="version-badge" onclick="showVersionInfo()" style="cursor: pointer;" title="Kliknite pre info">v1.0.3</span>
         </div>
 
         <!-- Zoznam testov -->
@@ -28,6 +28,65 @@
                 </div>
             </div>
             <div id="testList"></div>
+        </div>
+
+        <!-- Verzia Info -->
+        <div id="versionPage" style="display: none;">
+            <h2>ℹ️ AI Tester v1.0.3</h2>
+
+            <div class="help-section">
+                <h3>🎯 Hlavné funkcie</h3>
+                <ul>
+                    <li><strong>🤖 AI Import otázok z fotky</strong> - Odfotiť otázky a AI ich automaticky rozpozná</li>
+                    <li><strong>✏️ Editor testov</strong> - Úprava existujúcich testov priamo v aplikácii</li>
+                    <li><strong>✅ Viacero správnych odpovedí</strong> - Podpora otázok s viacerými správnymi odpoveďami</li>
+                    <li><strong>📊 Štatistiky</strong> - Sledovanie výsledkov, priemernej úspešnosti</li>
+                    <li><strong>⏱️ Časový limit</strong> - 20/30/60 minút alebo bez limitu</li>
+                    <li><strong>🎲 Mixovanie otázok</strong> - Náhodné poradie pre lepšiu prax</li>
+                    <li><strong>📚 Režim učenia</strong> - Prezeranie všetkých otázok so správnymi odpoveďami</li>
+                    <li><strong>🔄 Zlučovanie testov</strong> - Možnosť absolvovať viac testov naraz</li>
+                </ul>
+            </div>
+
+            <div class="help-section">
+                <h3>🆕 Novinky v1.0.3</h3>
+                <ul>
+                    <li>✨ <strong>Predspracovanie obrázkov</strong> - Automatické zlepšenie ostrosti a kontrastu pre lepšie rozpoznávanie</li>
+                    <li>🎯 <strong>Vylepšené rozpoznávanie</strong> - AI presnejšie rozpozná viacero správnych odpovedí z fotky</li>
+                    <li>☑️ <strong>Checkbox interface</strong> - Pri otázkach s viacerými správnymi sa zobrazí varovanie</li>
+                    <li>🔧 <strong>Backward kompatibilita</strong> - Staré testy fungujú bez úprav</li>
+                </ul>
+            </div>
+
+            <div class="help-section">
+                <h3>🤖 AI Import - Ako to funguje?</h3>
+                <ol>
+                    <li>Odfotiť alebo nahrať fotku s otázkami</li>
+                    <li>Obrázok sa automaticky predspracuje (ostrosť, kontrast, jas)</li>
+                    <li>AI (GPT-4o) analyzuje obrázok a rozpozná:
+                        <ul>
+                            <li>Text otázok a odpovedí</li>
+                            <li>Zakrúžkované odpovede</li>
+                            <li>Podčiarknutý, tučný alebo zvýraznený text</li>
+                            <li>Checkmarky a hviezdičky</li>
+                        </ul>
+                    </li>
+                    <li>Skontrolujete a upravíte výsledok</li>
+                    <li>Uložíte ako nový test alebo pridáte k existujúcemu</li>
+                </ol>
+            </div>
+
+            <div class="help-section">
+                <h3>💡 Tipy na lepšie výsledky</h3>
+                <ul>
+                    <li>Urobte ostrú fotografiu s dobrým osvetlením</li>
+                    <li>Správne odpovede jasne zakrúžkujte alebo podčiarknite</li>
+                    <li>Text by mal byť čitateľný a nezmazaný</li>
+                    <li>Vyhnite sa tieňom a odleskom</li>
+                </ul>
+            </div>
+
+            <button onclick="backToList()" class="btn-secondary">← Späť na zoznam testov</button>
         </div>
 
         <!-- Návod -->

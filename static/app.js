@@ -111,6 +111,11 @@ function updateMultiTestButton() {
     }
 }
 
+function showVersionInfo() {
+    document.querySelector('.section').style.display = 'none';
+    document.getElementById('versionPage').style.display = 'block';
+}
+
 function showHelpPage() {
     document.querySelector('.section').style.display = 'none';
     document.getElementById('helpPage').style.display = 'block';
@@ -717,6 +722,7 @@ function backToList() {
     document.getElementById('helpPage').style.display = 'none';
     document.getElementById('aiImportPage').style.display = 'none';
     document.getElementById('editTestPage').style.display = 'none';
+    document.getElementById('versionPage').style.display = 'none';
     document.querySelector('.section').style.display = 'block';
     currentTest = null;
     testMode = 'test';
