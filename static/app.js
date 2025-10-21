@@ -349,7 +349,7 @@ function showLearnMode() {
     // Zobraziť všetky otázky naraz
     const container = document.getElementById('learnModeContainer');
     container.innerHTML = test.questions.map((question, qIndex) => {
-        const isMultiple = Array.isArray(question.correct);
+        const isMultiple = Array.isArray(question.correct) && question.correct.length > 1;
 
         return `
             <div class="learn-question">
@@ -359,7 +359,7 @@ function showLearnMode() {
                     ${question.answers.map((answer, aIndex) => {
                         const isCorrect = isMultiple
                             ? question.correct.includes(aIndex)
-                            : question.correct === aIndex;
+                            : (Array.isArray(question.correct) ? question.correct.includes(aIndex) : question.correct === aIndex);
 
                         return `
                             <div class="learn-answer ${isCorrect ? 'learn-answer-correct' : 'learn-answer-wrong'}">
@@ -412,7 +412,7 @@ function updateTimerDisplay() {
 function showQuestion() {
     const question = currentTest.questions[currentQuestionIndex];
     const container = document.getElementById('questionContainer');
-    const isMultiple = Array.isArray(question.correct);
+    const isMultiple = Array.isArray(question.correct) && question.correct.length > 1;
     const userAnswer = userAnswers[currentQuestionIndex];
 
     // Ak je už zodpovedané a režim "each", zobraz feedback
@@ -421,11 +421,13 @@ function showQuestion() {
     let questionHTML = `
         <div class="question">
             <h3>Otázka ${currentQuestionIndex + 1}: ${question.question}</h3>
+            ${isMultiple ? '<p class="multiple-note" style="color: #2196F3; font-weight: bold; margin: 10px 0;">⚠️ Vyberte všetky správne odpovede</p>' : ''}
             ${question.answers.map((answer, index) => {
                 const isSelected = userAnswer.includes(index);
+                // Handle both old (number) and new (array) format
                 const isCorrect = isMultiple
                     ? question.correct.includes(index)
-                    : question.correct === index;
+                    : (Array.isArray(question.correct) ? question.correct.includes(index) : question.correct === index);
 
                 let cssClass = '';
                 let icon = '';
@@ -475,14 +477,21 @@ function showQuestion() {
 }
 
 function selectAnswer(answerIndex) {
-    // Vždy používať toggle (pridať/odobrať z poľa)
+    const question = currentTest.questions[currentQuestionIndex];
+    const isMultiple = Array.isArray(question.correct) && question.correct.length > 1;
     const currentAnswers = userAnswers[currentQuestionIndex];
-    const idx = currentAnswers.indexOf(answerIndex);
 
-    if (idx > -1) {
-        currentAnswers.splice(idx, 1);
+    if (isMultiple) {
+        // Viacero správnych - checkbox správanie (toggle)
+        const idx = currentAnswers.indexOf(answerIndex);
+        if (idx > -1) {
+            currentAnswers.splice(idx, 1);
+        } else {
+            currentAnswers.push(answerIndex);
+        }
     } else {
-        currentAnswers.push(answerIndex);
+        // Jedna správna - radio button správanie (replace)
+        userAnswers[currentQuestionIndex] = [answerIndex];
     }
 
     showQuestion();
@@ -545,7 +554,7 @@ function showResults() {
     let correctCount = 0;
     const results = currentTest.questions.map((question, index) => {
         const userAnswer = userAnswers[index]; // Vždy pole
-        const isMultiple = Array.isArray(question.correct);
+        const isMultiple = Array.isArray(question.correct) && question.correct.length > 1;
         let correct = false;
         let userAnswerText = '';
         let correctAnswerText = '';
@@ -561,13 +570,14 @@ function showResults() {
                 : 'Nezodpovedané';
             correctAnswerText = question.correct.map(i => question.answers[i]).join(', ');
         } else {
-            // Jedna správna odpoveď - userAnswer je pole, correct je číslo
-            correct = userAnswer.length === 1 && userAnswer[0] === question.correct;
+            // Jedna správna odpoveď - correct môže byť číslo alebo array s 1 prvkom
+            const correctAnswer = Array.isArray(question.correct) ? question.correct[0] : question.correct;
+            correct = userAnswer.length === 1 && userAnswer[0] === correctAnswer;
 
             userAnswerText = userAnswer && userAnswer.length > 0
                 ? userAnswer.map(i => question.answers[i]).join(', ')
                 : 'Nezodpovedané';
-            correctAnswerText = question.answers[question.correct];
+            correctAnswerText = question.answers[correctAnswer];
         }
 
         if (correct) correctCount++;
@@ -602,7 +612,7 @@ function showResults() {
         </div>
         ${currentTest.questions.map((question, qIndex) => {
             const userAnswer = userAnswers[qIndex];
-            const isMultiple = Array.isArray(question.correct);
+            const isMultiple = Array.isArray(question.correct) && question.correct.length > 1;
 
             // Vypočítaj správnosť tejto otázky
             let questionCorrect = false;
@@ -611,7 +621,8 @@ function showResults() {
                 const sortedCorrect = [...question.correct].sort();
                 questionCorrect = JSON.stringify(sortedUser) === JSON.stringify(sortedCorrect);
             } else {
-                questionCorrect = userAnswer.length === 1 && userAnswer[0] === question.correct;
+                const correctAnswer = Array.isArray(question.correct) ? question.correct[0] : question.correct;
+                questionCorrect = userAnswer.length === 1 && userAnswer[0] === correctAnswer;
             }
 
             return `
@@ -622,7 +633,7 @@ function showResults() {
                         ${question.answers.map((answer, aIndex) => {
                             const isCorrect = isMultiple
                                 ? question.correct.includes(aIndex)
-                                : question.correct === aIndex;
+                                : (Array.isArray(question.correct) ? question.correct.includes(aIndex) : question.correct === aIndex);
                             const isUserAnswer = userAnswer && userAnswer.includes(aIndex);
 
                             let cssClass = '';
@@ -810,6 +821,11 @@ function displayAIQuestions() {
     container.innerHTML = '';
 
     aiImportedData.questions.forEach((q, qIndex) => {
+        // Zabezpečiť že correct je array
+        if (!Array.isArray(q.correct)) {
+            q.correct = [q.correct];
+        }
+
         const questionDiv = document.createElement('div');
         questionDiv.className = 'ai-question-item';
         questionDiv.innerHTML = `
@@ -821,12 +837,12 @@ function displayAIQuestions() {
             <input type="text" class="ai-input" data-q="${qIndex}" data-field="question"
                    value="${escapeHtml(q.question)}" onchange="updateAIQuestion(${qIndex}, 'question', this.value)">
 
-            <label>Odpovede:</label>
+            <label>Odpovede (zaškrtnite všetky správne):</label>
             ${q.answers.map((ans, aIndex) => `
                 <div class="ai-answer-row">
-                    <input type="radio" name="correct_${qIndex}" value="${aIndex}"
-                           ${q.correct === aIndex ? 'checked' : ''}
-                           onchange="updateAIQuestion(${qIndex}, 'correct', ${aIndex})">
+                    <input type="checkbox" id="correct_${qIndex}_${aIndex}"
+                           ${q.correct.includes(aIndex) ? 'checked' : ''}
+                           onchange="toggleAICorrect(${qIndex}, ${aIndex})">
                     <input type="text" class="ai-input ai-answer-input"
                            value="${escapeHtml(ans)}"
                            onchange="updateAIAnswer(${qIndex}, ${aIndex}, this.value)">
@@ -846,9 +862,26 @@ function escapeHtml(text) {
     return div.innerHTML;
 }
 
+function toggleAICorrect(qIndex, aIndex) {
+    if (aiImportedData && aiImportedData.questions[qIndex]) {
+        if (!Array.isArray(aiImportedData.questions[qIndex].correct)) {
+            aiImportedData.questions[qIndex].correct = [aiImportedData.questions[qIndex].correct];
+        }
+
+        const correctArray = aiImportedData.questions[qIndex].correct;
+        const idx = correctArray.indexOf(aIndex);
+
+        if (idx > -1) {
+            correctArray.splice(idx, 1);
+        } else {
+            correctArray.push(aIndex);
+        }
+    }
+}
+
 function updateAIQuestion(qIndex, field, value) {
     if (aiImportedData && aiImportedData.questions[qIndex]) {
-        aiImportedData.questions[qIndex][field] = field === 'correct' ? parseInt(value) : value;
+        aiImportedData.questions[qIndex][field] = value;
     }
 }
 
@@ -871,7 +904,7 @@ function addNewQuestion() {
     aiImportedData.questions.push({
         question: 'Nová otázka',
         answers: ['Odpoveď 1', 'Odpoveď 2', 'Odpoveď 3', 'Odpoveď 4'],
-        correct: 0
+        correct: [0]  // Array pre podporu viacerých správnych
     });
 
     displayAIQuestions();
@@ -1029,6 +1062,11 @@ function displayEditQuestions() {
     container.innerHTML = '';
 
     testData.questions.forEach((q, qIndex) => {
+        // Zabezpečiť že correct je array
+        if (!Array.isArray(q.correct)) {
+            q.correct = [q.correct];
+        }
+
         const questionDiv = document.createElement('div');
         questionDiv.className = 'ai-question-item';
         questionDiv.innerHTML = `
@@ -1040,12 +1078,12 @@ function displayEditQuestions() {
             <input type="text" class="ai-input" value="${escapeHtml(q.question)}"
                    onchange="updateEditQuestion(${qIndex}, 'question', this.value)">
 
-            <label>Odpovede:</label>
+            <label>Odpovede (zaškrtnite všetky správne):</label>
             ${q.answers.map((ans, aIndex) => `
                 <div class="ai-answer-row">
-                    <input type="radio" name="edit_correct_${qIndex}" value="${aIndex}"
-                           ${q.correct === aIndex ? 'checked' : ''}
-                           onchange="updateEditQuestion(${qIndex}, 'correct', ${aIndex})">
+                    <input type="checkbox" id="edit_correct_${qIndex}_${aIndex}"
+                           ${q.correct.includes(aIndex) ? 'checked' : ''}
+                           onchange="toggleEditCorrect(${qIndex}, ${aIndex})">
                     <input type="text" class="ai-input ai-answer-input"
                            value="${escapeHtml(ans)}"
                            onchange="updateEditAnswer(${qIndex}, ${aIndex}, this.value)">
@@ -1056,10 +1094,28 @@ function displayEditQuestions() {
     });
 }
 
+function toggleEditCorrect(qIndex, aIndex) {
+    const testData = Array.isArray(editingTestData) ? editingTestData[0] : editingTestData;
+    if (testData.questions[qIndex]) {
+        if (!Array.isArray(testData.questions[qIndex].correct)) {
+            testData.questions[qIndex].correct = [testData.questions[qIndex].correct];
+        }
+
+        const correctArray = testData.questions[qIndex].correct;
+        const idx = correctArray.indexOf(aIndex);
+
+        if (idx > -1) {
+            correctArray.splice(idx, 1);
+        } else {
+            correctArray.push(aIndex);
+        }
+    }
+}
+
 function updateEditQuestion(qIndex, field, value) {
     const testData = Array.isArray(editingTestData) ? editingTestData[0] : editingTestData;
     if (testData.questions[qIndex]) {
-        testData.questions[qIndex][field] = field === 'correct' ? parseInt(value) : value;
+        testData.questions[qIndex][field] = value;
     }
 }
 
@@ -1083,7 +1139,7 @@ function addEditQuestion() {
     testData.questions.push({
         question: 'Nová otázka',
         answers: ['Odpoveď 1', 'Odpoveď 2', 'Odpoveď 3', 'Odpoveď 4'],
-        correct: 0
+        correct: [0]  // Array pre podporu viacerých správnych
     });
     displayEditQuestions();
 }

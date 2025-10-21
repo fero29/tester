@@ -155,8 +155,9 @@ VEĽMI DÔLEŽITÉ - Identifikácia správnych odpovedí:
    - Text s hviezdičkou (*) alebo checkmarkom (✓)
    - Text v rámčeku alebo odlíšený inak
    - Text označený ako "správna" / "correct"
-3. Ak ŽIADNA odpoveď nemá vizuálne označenie, použiť index 0 (prvá odpoveď)
-4. NESPOLIEHAJ sa len na poradie - VIZUÁLNE označenie má prioritu
+3. MÔŽE BYŤ VIAC SPRÁVNYCH ODPOVEDÍ! Označ všetky vizuálne označené odpovede
+4. Ak ŽIADNA odpoveď nemá vizuálne označenie, použiť [0] (prvá odpoveď)
+5. NESPOLIEHAJ sa len na poradie - VIZUÁLNE označenie má prioritu
 
 Vráť odpoveď v tomto PRESNOM JSON formáte:
 {
@@ -166,13 +167,14 @@ Vráť odpoveď v tomto PRESNOM JSON formáte:
     {
       "question": "Text otázky",
       "answers": ["odpoveď 1", "odpoveď 2", "odpoveď 3", "odpoveď 4"],
-      "correct": 0
+      "correct": [0]
     }
   ]
 }
 
 FORMÁT:
-- "correct" je index správnej odpovede (0-based: 0=prvá, 1=druhá, 2=tretia, 3=štvrtá)
+- "correct" je ARRAY indexov správnych odpovedí (0-based: 0=prvá, 1=druhá, 2=tretia, 3=štvrtá)
+- Ak je len jedna správna, použiť [0], ak sú dve správne [0, 2], atď.
 - Answers musia byť presne 4 (ak je menej, doplň prázdne reťazce "")
 - Vráť IBA čistý JSON, žiadny iný text pred ani za ním
 
