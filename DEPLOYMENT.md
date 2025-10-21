@@ -34,42 +34,54 @@ sudo usermod -aG docker $USER
 ### Nasadenie aplikácie
 ```bash
 # Stiahni repo
-cd /root  # alebo /home/ubuntu
-git clone https://github.com/tvoj-username/tvoj-repo.git test-app
-cd test-app
+cd ~
+git clone https://github.com/tvoj-username/tvoj-repo.git tester
+cd tester
 
 # Testy sú už v repo v priečinku testy/
 # Nič ďalšie nie je potrebné
 
-# Najprv spusti len web service (bez SSL)
-docker compose up -d web
-
-# Skontroluj že beží
-docker compose ps
-curl localhost:5000
-```
-
-### Nastavenie SSL certifikátu
-```bash
-# Uprav init-letsencrypt.sh - zmeň email na riadku 12
-nano init-letsencrypt.sh
-# Zmeň: email="your-email@example.com"
-# Na:    email="tvoj-email@example.com"
-
-# Spusti skript pre získanie certifikátu
-./init-letsencrypt.sh
-
-# Spusti všetky services vrátane nginx
+# Spusti všetky services (web + nginx)
 docker compose up -d
 
 # Skontroluj že beží
 docker compose ps
+curl localhost:80
+
+# Skontroluj logy
 docker compose logs -f nginx
 ```
 
 ## 4. Prístup
-- **HTTP**: `http://photostory.sk` (presmeruje na HTTPS)
-- **HTTPS**: `https://photostory.sk` ✅
+- **HTTP**: `http://photostory.sk` ✅
+
+### Voliteľne: Nastavenie SSL certifikátu (HTTPS)
+
+**POZOR:** Momentálne je nginx.conf nastavený len pre HTTP. Pre HTTPS urob:
+
+```bash
+# 1. Nahraď nginx.conf s SSL verziou
+mv nginx.conf nginx-http-only.conf
+mv nginx-with-ssl.conf nginx.conf
+
+# 2. Uprav init-letsencrypt.sh - zmeň email
+nano init-letsencrypt.sh
+# Zmeň: email="your-email@example.com"
+
+# 3. Spusti skript pre získanie certifikátu
+./init-letsencrypt.sh
+
+# 4. Reštartuj všetko
+docker compose down
+docker compose up -d
+
+# 5. Skontroluj
+docker compose logs -f nginx
+```
+
+Po úspešnom nastavení SSL:
+- **HTTP**: `http://photostory.sk` → presmeruje na HTTPS
+- **HTTPS**: `https://photostory.sk` 🔒
 
 ## Užitočné príkazy
 ```bash
