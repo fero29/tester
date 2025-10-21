@@ -19,10 +19,28 @@ body {
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
 
+.app-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
 h1 {
     color: #333;
-    margin-bottom: 30px;
+    margin: 0;
     text-align: center;
+}
+
+.version-badge {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
 }
 
 h2 {
