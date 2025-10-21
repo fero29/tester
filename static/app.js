@@ -426,7 +426,6 @@ function showQuestion() {
     let questionHTML = `
         <div class="question">
             <h3>Otázka ${currentQuestionIndex + 1}: ${question.question}</h3>
-            ${isMultiple ? '<p class="multiple-note" style="color: #2196F3; font-weight: bold; margin: 10px 0;">⚠️ Vyberte všetky správne odpovede</p>' : ''}
             ${question.answers.map((answer, index) => {
                 const isSelected = userAnswer.includes(index);
                 // Handle both old (number) and new (array) format
@@ -459,9 +458,11 @@ function showQuestion() {
                     `;
                 } else {
                     // Normálne zobrazenie s možnosťou klikať
+                    const inputIcon = isSelected ? '☑' : '☐';  // Vždy checkbox
+
                     return `
                         <div class="answer ${isSelected ? 'selected' : ''}" onclick="selectAnswer(${index})">
-                            ${answer}
+                            <span class="answer-icon">${inputIcon}</span> ${answer}
                         </div>
                     `;
                 }
@@ -482,21 +483,14 @@ function showQuestion() {
 }
 
 function selectAnswer(answerIndex) {
-    const question = currentTest.questions[currentQuestionIndex];
-    const isMultiple = Array.isArray(question.correct) && question.correct.length > 1;
     const currentAnswers = userAnswers[currentQuestionIndex];
 
-    if (isMultiple) {
-        // Viacero správnych - checkbox správanie (toggle)
-        const idx = currentAnswers.indexOf(answerIndex);
-        if (idx > -1) {
-            currentAnswers.splice(idx, 1);
-        } else {
-            currentAnswers.push(answerIndex);
-        }
+    // Vždy checkbox správanie (toggle) - dá sa vybrať viacero
+    const idx = currentAnswers.indexOf(answerIndex);
+    if (idx > -1) {
+        currentAnswers.splice(idx, 1);
     } else {
-        // Jedna správna - radio button správanie (replace)
-        userAnswers[currentQuestionIndex] = [answerIndex];
+        currentAnswers.push(answerIndex);
     }
 
     showQuestion();

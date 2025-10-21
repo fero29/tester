@@ -234,6 +234,9 @@ button:hover {
     cursor: pointer;
     border: 2px solid #ddd;
     transition: all 0.3s;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .answer:hover {
@@ -244,6 +247,11 @@ button:hover {
 .answer.selected {
     background: #e3f2fd;
     border-color: #2196F3;
+}
+
+.answer-icon {
+    font-size: 1.2em;
+    flex-shrink: 0;
 }
 
 .answer.correct {
