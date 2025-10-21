@@ -277,6 +277,13 @@ POSTUP:
 
 ⚠️ ČASTÁ CHYBA: Neuvádzaj len jednu správnu odpoveď ak vidíš viac zakrúžkovaných!
 
+📍 POZÍCIA OTÁZKY:
+Pre každú otázku urči jej približnú vertikálnu pozíciu na obrázku v percentách (0-100):
+- 0% = úplne navrchu
+- 50% = v strede
+- 100% = úplne dole
+Urči pozíciu ZAČIATKU otázky (nie stredu). Buď čo najpresnejší!
+
 Vráť odpoveď v tomto PRESNOM JSON formáte:
 {
   "suggestedTitle": "Navrhnutý názov testu",
@@ -285,13 +292,15 @@ Vráť odpoveď v tomto PRESNOM JSON formáte:
     {
       "question": "Text otázky",
       "answers": ["odpoveď 1", "odpoveď 2", "odpoveď 3", "odpoveď 4"],
-      "correct": [0, 2]
+      "correct": [0, 2],
+      "positionPercent": 15
     }
   ]
 }
 
 FORMÁT:
 - "correct" je ARRAY indexov (0=prvá, 1=druhá, 2=tretia, 3=štvrtá)
+- "positionPercent" je číslo 0-100 (vertikálna pozícia začiatku otázky)
 - Answers musia byť presne 4 (ak je menej, doplň "")
 - Vráť IBA čistý JSON
 
@@ -353,22 +362,43 @@ Analyzuj obrázok a vráť JSON:"""
             }), 400
 
         # Vytvoriť výrezy pre každú otázku
-        # Rozdelíme obrázok na rovnaké časti podľa počtu otázok
         num_questions = len(result.get('questions', []))
 
         if num_questions > 0:
             img_width, img_height = processed_pil.size
-            crop_height = img_height / num_questions
+            questions = result.get('questions', [])
 
-            for idx, question in enumerate(result.get('questions', [])):
-                # Vypočítať pozície výrezu
-                top = int(idx * crop_height)
-                bottom = int((idx + 1) * crop_height)
+            # Skontrolovať či AI poskytlo pozície
+            has_positions = all('positionPercent' in q for q in questions)
 
-                # Pridať malý overlap pre kontext (5%)
-                overlap = int(0.05 * crop_height)
-                top = max(0, top - overlap)
-                bottom = min(img_height, bottom + overlap)
+            for idx, question in enumerate(questions):
+                if has_positions:
+                    # Použiť AI-detekované pozície
+                    current_pos = question.get('positionPercent', 0)
+
+                    # Začiatok výrezu (s kontextom navrchu)
+                    top_percent = max(0, current_pos - 5)  # 5% kontext navrchu
+
+                    # Koniec výrezu - buď do nasledujúcej otázky, alebo do konca
+                    if idx < num_questions - 1:
+                        next_pos = questions[idx + 1].get('positionPercent', 100)
+                        bottom_percent = min(100, (current_pos + next_pos) / 2 + 5)  # stred + 5% kontext
+                    else:
+                        bottom_percent = 100  # Posledná otázka - do konca
+
+                    # Konvertovať percentá na pixely
+                    top = int((top_percent / 100) * img_height)
+                    bottom = int((bottom_percent / 100) * img_height)
+                else:
+                    # Fallback: rovnomerné delenie ak AI neposkytlo pozície
+                    crop_height = img_height / num_questions
+                    top = int(idx * crop_height)
+                    bottom = int((idx + 1) * crop_height)
+
+                    # Pridať malý overlap pre kontext (5%)
+                    overlap = int(0.05 * crop_height)
+                    top = max(0, top - overlap)
+                    bottom = min(img_height, bottom + overlap)
 
                 # Vytvoriť výrez
                 crop_box = (0, top, img_width, bottom)
