@@ -185,6 +185,11 @@ def ai_import():
 
         image_file = request.files['image']
 
+        # Uložiť pôvodný obrázok pre vytvorenie výrezov
+        image_file.seek(0)
+        original_image_bytes = image_file.read()
+        image_file.seek(0)
+
         # Predspracovať obrázok
         processed_image = preprocess_image(image_file)
         image_data = base64.b64encode(processed_image.read()).decode('utf-8')
@@ -207,16 +212,11 @@ POSTUP:
    ✓ Text v rámčeku
    ✓ Slová "správna", "correct", "ano" pri odpovedi
 3. VŠETKY odpovede s vizuálnym označením pridaj do poľa "correct"
-4. Ak napríklad sú zakrúžkované odpovede A a C, výsledok musí byť: "correct": [0, 2]
-5. Ak sú zakrúžkované odpovede B, C a D, výsledok musí byť: "correct": [1, 2, 3]
-6. Ak nie je zakrúžkovaná ŽIADNA odpoveď, použi [0] (prvú)
+4. Pre KAŽDÚ otázku urči jej približnú vertikálnu pozíciu v obrázku (v percentách):
+   - positionTop: kde začína otázka (0-100%, kde 0% je vrch obrázka)
+   - positionBottom: kde končia odpovede na otázku (0-100%)
 
 ⚠️ ČASTÁ CHYBA: Neuvádzaj len jednu správnu odpoveď ak vidíš viac zakrúžkovaných!
-
-PRÍKLAD:
-Ak otázka má odpovede A, B, C, D a vidíš že sú zakrúžkované A aj C:
-✓ SPRÁVNE: "correct": [0, 2]
-✗ NESPRÁVNE: "correct": [0]
 
 Vráť odpoveď v tomto PRESNOM JSON formáte:
 {
@@ -226,13 +226,16 @@ Vráť odpoveď v tomto PRESNOM JSON formáte:
     {
       "question": "Text otázky",
       "answers": ["odpoveď 1", "odpoveď 2", "odpoveď 3", "odpoveď 4"],
-      "correct": [0, 2]
+      "correct": [0, 2],
+      "positionTop": 10,
+      "positionBottom": 35
     }
   ]
 }
 
 FORMÁT:
 - "correct" je ARRAY indexov (0=prvá, 1=druhá, 2=tretia, 3=štvrtá)
+- "positionTop" a "positionBottom" sú čísla 0-100 (percentá výšky obrázka)
 - Answers musia byť presne 4 (ak je menej, doplň "")
 - Vráť IBA čistý JSON
 
@@ -290,6 +293,36 @@ Analyzuj obrázok a vráť JSON:"""
                 'error': f'Chyba pri parsovaní AI odpovede: {str(e)}',
                 'raw_response': ai_response[:200]  # Prvých 200 znakov pre užívateľa
             }), 400
+
+        # Vytvoriť výrezy obrázka pre každú otázku
+        original_img = Image.open(io.BytesIO(original_image_bytes))
+        img_width, img_height = original_img.size
+
+        for question in result.get('questions', []):
+            top_percent = question.get('positionTop', 0)
+            bottom_percent = question.get('positionBottom', 100)
+
+            # Vypočítať pixelové pozície
+            top_px = int((top_percent / 100) * img_height)
+            bottom_px = int((bottom_percent / 100) * img_height)
+
+            # Pridať malý padding (5% hore a dole)
+            padding = int(0.05 * img_height)
+            top_px = max(0, top_px - padding)
+            bottom_px = min(img_height, bottom_px + padding)
+
+            # Vytvoriť výrez
+            crop_box = (0, top_px, img_width, bottom_px)
+            cropped = original_img.crop(crop_box)
+
+            # Konvertovať na base64
+            buffer = io.BytesIO()
+            cropped.save(buffer, format='JPEG', quality=85)
+            buffer.seek(0)
+            crop_base64 = base64.b64encode(buffer.read()).decode('utf-8')
+
+            # Pridať výrez k otázke
+            question['cropImage'] = f'data:image/jpeg;base64,{crop_base64}'
 
         return jsonify({
             'success': True,
