@@ -10,7 +10,7 @@
     <div class="container">
         <div class="app-header">
             <h1 onclick="backToList()" style="cursor: pointer;" title="Späť na hlavnú stránku">AI Tester</h1>
-            <span class="version-badge" onclick="showVersionInfo()" style="cursor: pointer;" title="Kliknite pre info">v1.1.0</span>
+            <span class="version-badge" onclick="showVersionInfo()" style="cursor: pointer;" title="Kliknite pre info">v1.1.1</span>
         </div>
 
         <!-- Zoznam testov -->
@@ -32,7 +32,7 @@
 
         <!-- Verzia Info -->
         <div id="versionPage" style="display: none;">
-            <h2>ℹ️ AI Tester v1.1.0</h2>
+            <h2>ℹ️ AI Tester v1.1.1</h2>
 
             <div class="help-section">
                 <h3>🎯 Hlavné funkcie</h3>
@@ -51,7 +51,17 @@
             </div>
 
             <div class="help-section">
-                <h3>🆕 Novinky v1.1.0</h3>
+                <h3>🆕 Novinky v1.1.1</h3>
+                <ul>
+                    <li>🎯 <strong>Inteligentné výrezy otázok</strong> - AI teraz detekuje presnú pozíciu každej otázky na fotke</li>
+                    <li>📐 <strong>Riešenie problému s logom/obrázkami</strong> - Výrezy správne sedia aj keď je na fotke logo, obrázok alebo prázdne miesto</li>
+                    <li>📏 <strong>Väčšie zobrazenie výrezov</strong> - Zväčšené výrezy pre lepšiu čitateľnosť (min-height: 200px)</li>
+                    <li>🔧 <strong>Fallback mechanizmus</strong> - Ak AI neposkytne pozície, použije sa rovnomerné delenie</li>
+                </ul>
+            </div>
+
+            <div class="help-section">
+                <h3>Novinky v1.1.0</h3>
                 <ul>
                     <li>🔬 <strong>Pokročilé predspracovanie OpenCV</strong> - CLAHE, denoising, adaptívny threshold, morfologické operácie</li>
                     <li>📸 <strong>Výrezy otázok</strong> - Nad každou otázkou sa zobrazí výrez z predspracovanej fotky</li>
