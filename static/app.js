@@ -812,8 +812,16 @@ function resetAIImportPage() {
     document.getElementById('processBtn').style.display = 'none';
     aiImportedData = null;
     originalImages = [];
+    imageRotations = [];
     // Vymazať uložený stav
     localStorage.removeItem('aiImportState');
+}
+
+function cancelAIImport() {
+    // Potvrdenie pred zrušením
+    if (confirm('Naozaj chcete zrušiť import? Všetky rozpoznané otázky sa stratia.')) {
+        resetAIImportPage();
+    }
 }
 
 function previewImages(input) {
