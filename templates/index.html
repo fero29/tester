@@ -9,7 +9,7 @@
 <body>
     <div class="container">
         <div class="app-header">
-            <h1>AI Tester</h1>
+            <h1 onclick="backToList()" style="cursor: pointer;" title="Späť na hlavnú stránku">AI Tester</h1>
             <span class="version-badge" onclick="showVersionInfo()" style="cursor: pointer;" title="Kliknite pre info">v1.0.3</span>
         </div>
 
@@ -213,6 +213,19 @@
                     <div id="imagePreview" style="display: none; margin-top: 20px;">
                         <div id="previewContainer" style="display: flex; gap: 10px; flex-wrap: wrap;"></div>
                     </div>
+
+                    <div style="margin-top: 15px; padding: 10px; background: #f0f8ff; border-radius: 8px; border-left: 4px solid #2196F3;">
+                        <label style="display: flex; align-items: center; gap: 10px; cursor: pointer;">
+                            <input type="checkbox" id="advancedPreprocessing" style="width: 18px; height: 18px; cursor: pointer;">
+                            <div>
+                                <strong style="color: #2196F3;">🔬 Pokročilé predspracovanie obrázka</strong>
+                                <p style="margin: 5px 0 0 0; font-size: 0.85em; color: #666;">
+                                    Použije CLAHE, denoising a adaptívny threshold pre lepšie rozpoznávanie (čiernobiele, vysoký kontrast)
+                                </p>
+                            </div>
+                        </label>
+                    </div>
+
                     <button onclick="processImagesWithAI()" id="processBtn" class="btn-primary" style="display: none; margin-top: 15px;">
                         ✨ Spracovať s AI
                     </button>

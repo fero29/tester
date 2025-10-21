@@ -807,6 +807,9 @@ async function processImagesWithAI() {
         const allQuestions = [];
         const totalImages = imageInput.files.length;
 
+        // Získať nastavenie pokročilého predspracovania
+        const advancedPreprocessing = document.getElementById('advancedPreprocessing').checked;
+
         // Spracovať všetky obrázky sekvenčne
         for (let i = 0; i < imageInput.files.length; i++) {
             const file = imageInput.files[i];
@@ -817,6 +820,7 @@ async function processImagesWithAI() {
 
             const formData = new FormData();
             formData.append('image', file);
+            formData.append('advancedPreprocessing', advancedPreprocessing);
 
             const response = await fetch('/api/ai-import', {
                 method: 'POST',

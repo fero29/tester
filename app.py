@@ -6,7 +6,9 @@ import base64
 import io
 from openai import OpenAI
 from dotenv import load_dotenv
-from PIL import Image, ImageEnhance, ImageFilter
+from PIL import Image, ImageEnhance, ImageFilter, ImageOps
+import cv2
+import numpy as np
 
 # Load environment variables
 load_dotenv()
@@ -134,39 +136,91 @@ def list_files():
     except Exception as e:
         return jsonify({'error': str(e)}), 400
 
-def preprocess_image(image_file):
-    """Predspracuje obrázok pre lepšie rozpoznávanie AI"""
+def preprocess_image(image_file, advanced=False):
+    """Predspracuje obrázok pre lepšie rozpoznávanie AI
+
+    Args:
+        image_file: Súbor s obrázkom
+        advanced: Ak True, použije pokročilé predspracovanie s OpenCV
+    """
     # Načítať obrázok
     img = Image.open(image_file)
 
-    # Konverzia na RGB (ak je RGBA alebo iný formát)
+    # Opraviť EXIF orientáciu (fotky z mobilu)
+    try:
+        img = ImageOps.exif_transpose(img)
+    except Exception:
+        pass  # Ak EXIF nie je dostupný, pokračuj bez opravy
+
+    # Konverzia na RGB
     if img.mode != 'RGB':
         img = img.convert('RGB')
 
-    # Zväčšenie rozlíšenia ak je príliš malé (zachová pomer strán)
+    # Zväčšenie rozlíšenia ak je príliš malé
     max_size = 2048
     if max(img.size) < max_size:
         ratio = max_size / max(img.size)
         new_size = tuple(int(dim * ratio) for dim in img.size)
         img = img.resize(new_size, Image.LANCZOS)
 
-    # Ak je príliš veľké, zmenši (ušetríme API náklady)
+    # Ak je príliš veľké, zmenši
     max_size_limit = 3000
     if max(img.size) > max_size_limit:
         ratio = max_size_limit / max(img.size)
         new_size = tuple(int(dim * ratio) for dim in img.size)
         img = img.resize(new_size, Image.LANCZOS)
 
-    # Zvýšenie ostrosti - pomôže rozpoznať kruhy a podčiarknutia
-    img = img.filter(ImageFilter.SHARPEN)
+    if advanced:
+        # Pokročilé predspracovanie s OpenCV
+        # Konverzia do numpy array
+        img_array = np.array(img)
 
-    # Zvýšenie kontrastu - lepšie sa odlíšia označenia
-    enhancer = ImageEnhance.Contrast(img)
-    img = enhancer.enhance(1.3)
+        # Konverzia do grayscale pre lepšie spracovanie
+        gray = cv2.cvtColor(img_array, cv2.COLOR_RGB2GRAY)
 
-    # Zvýšenie jasu ak je obrázok tmavý
-    enhancer = ImageEnhance.Brightness(img)
-    img = enhancer.enhance(1.1)
+        # Aplikovať CLAHE (Contrast Limited Adaptive Histogram Equalization)
+        # - Vylepší lokálny kontrast
+        clahe = cv2.createCLAHE(clipLimit=2.0, tileGridSize=(8,8))
+        enhanced = clahe.apply(gray)
+
+        # Denoising - odstráni šum
+        denoised = cv2.fastNlMeansDenoising(enhanced, None, 10, 7, 21)
+
+        # Adaptívny threshold - konverzia na čiernobiele s lepším kontrastom
+        # Pomôže pri rozpoznávaní krúžkov a podčiarknutí
+        binary = cv2.adaptiveThreshold(
+            denoised, 255,
+            cv2.ADAPTIVE_THRESH_GAUSSIAN_C,
+            cv2.THRESH_BINARY,
+            11, 2
+        )
+
+        # Morfologické operácie - odstráni drobné artefakty
+        kernel = np.ones((2,2), np.uint8)
+        cleaned = cv2.morphologyEx(binary, cv2.MORPH_CLOSE, kernel)
+
+        # Sharpen filter pre lepšiu čitateľnosť
+        kernel_sharpen = np.array([[-1,-1,-1],
+                                   [-1, 9,-1],
+                                   [-1,-1,-1]])
+        sharpened = cv2.filter2D(cleaned, -1, kernel_sharpen)
+
+        # Konverzia späť do PIL Image
+        img = Image.fromarray(sharpened)
+        # Konverzia grayscale späť na RGB pre API
+        img = img.convert('RGB')
+    else:
+        # Základné predspracovanie
+        # Zvýšenie ostrosti
+        img = img.filter(ImageFilter.SHARPEN)
+
+        # Zvýšenie kontrastu
+        enhancer = ImageEnhance.Contrast(img)
+        img = enhancer.enhance(1.3)
+
+        # Zvýšenie jasu
+        enhancer = ImageEnhance.Brightness(img)
+        img = enhancer.enhance(1.1)
 
     # Uložiť do bytového bufferu
     buffer = io.BytesIO()
@@ -185,13 +239,16 @@ def ai_import():
 
         image_file = request.files['image']
 
+        # Získať nastavenie pokročilého predspracovania
+        advanced_preprocessing = request.form.get('advancedPreprocessing', 'false') == 'true'
+
         # Uložiť pôvodný obrázok pre vytvorenie výrezov
         image_file.seek(0)
         original_image_bytes = image_file.read()
         image_file.seek(0)
 
         # Predspracovať obrázok
-        processed_image = preprocess_image(image_file)
+        processed_image = preprocess_image(image_file, advanced=advanced_preprocessing)
         image_data = base64.b64encode(processed_image.read()).decode('utf-8')
 
         # Prompt pre OpenAI
