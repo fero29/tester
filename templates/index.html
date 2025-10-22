@@ -10,7 +10,7 @@
     <div class="container">
         <div class="app-header">
             <h1 onclick="backToList()" style="cursor: pointer;" title="Späť na hlavnú stránku">AI Tester</h1>
-            <span class="version-badge" onclick="showVersionInfo()" style="cursor: pointer;" title="Kliknite pre info">v1.3.15</span>
+            <span class="version-badge" onclick="showVersionInfo()" style="cursor: pointer;" title="Kliknite pre info">v1.3.16</span>
         </div>
 
         <!-- Zoznam testov -->
@@ -32,7 +32,7 @@
 
         <!-- Verzia Info -->
         <div id="versionPage" style="display: none;">
-            <h2>ℹ️ AI Tester v1.3.15</h2>
+            <h2>ℹ️ AI Tester v1.3.16</h2>
 
             <div class="help-section">
                 <h3>🎯 Hlavné funkcie</h3>
@@ -51,7 +51,16 @@
             </div>
 
             <div class="help-section">
-                <h3>🆕 Novinky v1.3.14</h3>
+                <h3>🆕 Novinky v1.3.16</h3>
+                <ul>
+                    <li>✅ <strong>Opravené pridávanie do existujúceho testu</strong> - Otázky sa teraz správne pridajú do vybraného testu</li>
+                    <li>🔧 <strong>Zjednodušená logika</strong> - Pri výbere "Pridať do existujúceho" sa otázky vždy pridajú bez kontroly názvu</li>
+                    <li>📊 <strong>Lepšie logovanie</strong> - Server loguje koľko otázok bolo pridaných</li>
+                </ul>
+            </div>
+
+            <div class="help-section">
+                <h3>Novinky v1.3.14</h3>
                 <ul>
                     <li>🎯 <strong>Opravený layout pri otočených obrázkoch</strong> - Tlačidlo rotácie je teraz vždy dostupné aj pri otočenom obrázku na výšku</li>
                     <li>📐 <strong>Rezervovaný priestor pre náhľady</strong> - Minimálna výška 200px predchádza prekrývaniu tlačidiel</li>
@@ -619,6 +628,6 @@
         </div>
     </div>
 
-    <script src="{{ url_for('static', filename='app.js') }}?v=1.3.15"></script>
+    <script src="{{ url_for('static', filename='app.js') }}?v=1.3.16"></script>
 </body>
 </html>

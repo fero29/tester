@@ -529,24 +529,19 @@ def save_test():
             with open(filepath, 'r', encoding='utf-8') as f:
                 existing_data = json.load(f)
 
-            # Ak je existujúci súbor array
-            if isinstance(existing_data, list):
-                # Nájsť test s rovnakým názvom
-                found = False
-                for test in existing_data:
-                    if test.get('title') == test_data.get('title'):
-                        test['questions'].extend(test_data['questions'])
-                        found = True
-                        break
-                if not found:
-                    existing_data.append(test_data)
+            # Ak je existujúci súbor array, pridať otázky do prvého testu
+            if isinstance(existing_data, list) and len(existing_data) > 0:
+                existing_data[0]['questions'].extend(test_data['questions'])
+                print(f"Pridané {len(test_data['questions'])} otázok do testu: {existing_data[0].get('title')}")
             else:
-                # Ak je objekt, pridať otázky
-                if existing_data.get('title') == test_data.get('title'):
+                # Ak je objekt, pridať otázky priamo
+                if 'questions' in existing_data:
                     existing_data['questions'].extend(test_data['questions'])
+                    print(f"Pridané {len(test_data['questions'])} otázok do testu: {existing_data.get('title')}")
                 else:
-                    # Vytvoriť array
-                    existing_data = [existing_data, test_data]
+                    # Chybný formát - vytvoriť ako nový
+                    print("Chybný formát existujúceho testu, vytvorím nový")
+                    existing_data = [test_data]
 
             with open(filepath, 'w', encoding='utf-8') as f:
                 json.dump(existing_data, f, ensure_ascii=False, indent=2)
