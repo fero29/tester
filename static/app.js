@@ -1238,10 +1238,7 @@ function displayProcessedAndOriginalImages() {
 function displayAIQuestions() {
     if (!aiImportedData) return;
 
-    // Naplniť navrhnuté údaje
-    document.getElementById('aiSuggestedTitle').value = aiImportedData.suggestedTitle || '';
-    document.getElementById('aiSuggestedDesc').value = aiImportedData.suggestedDescription || '';
-    document.getElementById('newTestFileName').value = aiImportedData.suggestedTitle || '';
+    // Používateľ sám zadá názov testu a popis v kroku 4 (pri ukladaní)
 
     // Zobraziť otázky
     const container = document.getElementById('aiQuestionsPreview');
@@ -1403,8 +1400,8 @@ async function saveAITest() {
         }
     }
 
-    const title = document.getElementById('aiSuggestedTitle').value.trim();
-    const description = document.getElementById('aiSuggestedDesc').value.trim();
+    const title = document.getElementById('aiTestTitle').value.trim();
+    const description = document.getElementById('aiTestDesc').value.trim();
 
     if (!title) {
         alert('Zadajte názov testu');

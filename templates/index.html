@@ -10,7 +10,7 @@
     <div class="container">
         <div class="app-header">
             <h1 onclick="backToList()" style="cursor: pointer;" title="Späť na hlavnú stránku">AI Tester</h1>
-            <span class="version-badge" onclick="showVersionInfo()" style="cursor: pointer;" title="Kliknite pre info">v1.3.18</span>
+            <span class="version-badge" onclick="showVersionInfo()" style="cursor: pointer;" title="Kliknite pre info">v1.3.19</span>
         </div>
 
         <!-- Zoznam testov -->
@@ -32,7 +32,7 @@
 
         <!-- Verzia Info -->
         <div id="versionPage" style="display: none;">
-            <h2>ℹ️ AI Tester v1.3.18</h2>
+            <h2>ℹ️ AI Tester v1.3.19</h2>
 
             <div class="help-section">
                 <h3>🎯 Hlavné funkcie</h3>
@@ -51,7 +51,16 @@
             </div>
 
             <div class="help-section">
-                <h3>🆕 Novinky v1.3.18</h3>
+                <h3>🆕 Novinky v1.3.19</h3>
+                <ul>
+                    <li>✏️ <strong>Manuálne zadávanie názvu</strong> - Pri AI importe používateľ sám zadáva názov a popis testu</li>
+                    <li>🚫 <strong>Odstránené automatické návrhy</strong> - Už sa nezobrazujú navrhované názvy od AI</li>
+                    <li>🐛 <strong>Oprava chyby</strong> - Vyriešený problém "Cannot set properties of null" pri AI importe</li>
+                </ul>
+            </div>
+
+            <div class="help-section">
+                <h3>Novinky v1.3.18</h3>
                 <ul>
                     <li>⚡ <strong>Automatické načítanie testov</strong> - Testy sa načítajú automaticky pri otvorení aplikácie</li>
                     <li>❌ <strong>Odstránené tlačidlo "Automaticky načítať"</strong> - Už nie je potrebné</li>
@@ -408,16 +417,6 @@
             <div id="aiStep3" class="ai-step" style="display: none;">
                 <div class="ai-section">
                     <h3>2. Skontrolujte a upravte otázky</h3>
-                    <div class="ai-suggestions">
-                        <div class="suggestion-row">
-                            <label>Navrhnutý názov testu:</label>
-                            <input type="text" id="aiSuggestedTitle" class="ai-input">
-                        </div>
-                        <div class="suggestion-row">
-                            <label>Popis:</label>
-                            <input type="text" id="aiSuggestedDesc" class="ai-input">
-                        </div>
-                    </div>
 
                     <!-- Zobrazenie predspracovanej fotky -->
                     <div id="originalImagesContainer" style="margin: 20px 0; padding: 15px; background: #f5f5f5; border-radius: 8px;">
@@ -451,6 +450,12 @@
                     </div>
 
                     <div id="newTestOptions" class="save-options">
+                        <label>Názov testu:</label>
+                        <input type="text" id="aiTestTitle" class="ai-input" placeholder="Napíšte názov testu">
+
+                        <label>Popis testu:</label>
+                        <input type="text" id="aiTestDesc" class="ai-input" placeholder="Voliteľný popis testu">
+
                         <label>Názov súboru (bez .json):</label>
                         <input type="text" id="newTestFileName" class="ai-input" placeholder="napr. Bio CAP 6">
                     </div>
