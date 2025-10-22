@@ -10,7 +10,7 @@
     <div class="container">
         <div class="app-header">
             <h1 onclick="backToList()" style="cursor: pointer;" title="Späť na hlavnú stránku">AI Tester</h1>
-            <span class="version-badge" onclick="showVersionInfo()" style="cursor: pointer;" title="Kliknite pre info">v1.3.23</span>
+            <span class="version-badge" onclick="showVersionInfo()" style="cursor: pointer;" title="Kliknite pre info">v1.3.24</span>
         </div>
 
         <!-- Zoznam testov -->
@@ -27,12 +27,16 @@
                     <button onclick="clearStatistics()" class="btn-danger btn-small">Vymazať štatistiky</button>
                 </div>
             </div>
-            <div id="testList"></div>
+            <div id="testList">
+                <div id="loadingIndicator" style="text-align: center; padding: 40px; color: #666;">
+                    <div style="font-size: 1.2em; margin-bottom: 10px;">⏳ Načítavam testy...</div>
+                </div>
+            </div>
         </div>
 
         <!-- Verzia Info -->
         <div id="versionPage" style="display: none;">
-            <h2>ℹ️ AI Tester v1.3.23</h2>
+            <h2>ℹ️ AI Tester v1.3.24</h2>
 
             <div class="help-section">
                 <h3>🎯 Hlavné funkcie</h3>
@@ -51,7 +55,17 @@
             </div>
 
             <div class="help-section">
-                <h3>🆕 Novinky v1.3.23</h3>
+                <h3>🆕 Novinky v1.3.24</h3>
+                <ul>
+                    <li>📖 <strong>Zjednodušený návod</strong> - Najprv ako používať, potom ako vytvárať</li>
+                    <li>⏳ <strong>Loading indikátor</strong> - "Načítavam testy..." pri štarte</li>
+                    <li>🔒 <strong>Skryté tlačidlá upraviť/vymazať</strong> - Jednoduchšie a bezpečnejšie rozhranie</li>
+                    <li>💾 <strong>Čistá záloha testov</strong> - Bez cropImage, z 21MB na 152KB</li>
+                </ul>
+            </div>
+
+            <div class="help-section">
+                <h3>Novinky v1.3.23</h3>
                 <ul>
                     <li>✅ <strong>Režim "Opakovať nesprávne" zobrazuje feedback</strong> - Po každej otázke sa ukáže či je správne/nesprávne</li>
                 </ul>
@@ -291,77 +305,77 @@
             <h2>📖 Návod na použitie</h2>
 
             <div class="help-section">
-                <h3>Načítanie testov</h3>
-                <p><strong>Spôsob 1: Automatické načítanie (odporúčané)</strong></p>
+                <h3>🎯 Ako používať testy</h3>
                 <ol>
-                    <li>Vložte JSON súbory s testami do priečinka <code>testy/</code></li>
-                    <li>Testy sa automaticky načítajú pri otvorení aplikácie</li>
-                    <li>Nie je potrebné žiadne tlačidlo - stačí obnoviť stránku</li>
-                </ol>
-
-                <p><strong>Spôsob 2: Manuálne nahratie</strong></p>
-                <ol>
-                    <li>Kliknite na "📁 Import testov"</li>
-                    <li>Vyberte JSON súbor z vášho počítača</li>
-                    <li>Kliknite na "📤 Nahrať súbor"</li>
-                </ol>
-            </div>
-
-            <div class="help-section">
-                <h3>Absolvovanie testu</h3>
-                <ol>
-                    <li>Vyberte test zo zoznamu (zobrazí sa dialóg s nastaveniami)</li>
-                    <li>Nastavte parametre:
+                    <li><strong>Vyberte test</strong> zo zoznamu - kliknite na názov testu</li>
+                    <li><strong>Nastavte parametre:</strong>
                         <ul>
                             <li><strong>Časový limit:</strong> 20/30/60 minút alebo bez limitu</li>
-                            <li><strong>Rozsah otázok:</strong> Vyberte od-do ktorej otázky chcete absolvovať</li>
-                            <li><strong>Poradie:</strong> Po poradí alebo zamixované</li>
-                            <li><strong>Zobrazenie odpovedí:</strong> Po každej otázke / Na konci testu / Opakovať nesprávne</li>
+                            <li><strong>Rozsah otázok:</strong> Napr. 1-50 (môžete vybrať len časť testu)</li>
+                            <li><strong>Poradie:</strong> Po poradí alebo zamixované (náhodné)</li>
+                            <li><strong>Zobrazenie odpovedí:</strong>
+                                <ul>
+                                    <li><em>Po každej otázke</em> - ihneď uvidíte či je správne ✅</li>
+                                    <li><em>Na konci testu</em> - všetky odpovede naraz</li>
+                                    <li><em>Opakovať nesprávne</em> - nesprávne sa opakujú až kým neodpoviete správne</li>
+                                </ul>
+                            </li>
                         </ul>
                     </li>
-                    <li>Kliknite na "Spustiť test" alebo "Režim učenia"</li>
-                    <li>Absolvujte test a pozrite si výsledky</li>
+                    <li><strong>Kliknite:</strong>
+                        <ul>
+                            <li><strong>Spustiť test</strong> - klasický test s časomerom a hodnotením</li>
+                            <li><strong>Režim učenia</strong> - prezeranie všetkých otázok so správnymi odpoveďami</li>
+                        </ul>
+                    </li>
+                    <li><strong>Absolvujte test</strong> a pozrite si výsledky so štatistikami</li>
                 </ol>
             </div>
 
             <div class="help-section">
-                <h3>Ďalšie funkcie</h3>
+                <h3>⭐ Užitočné funkcie</h3>
                 <ul>
-                    <li><strong>Viacero testov naraz:</strong> Zaškrtnite checkboxy pri testoch a kliknite "Spustiť vybrané testy"</li>
-                    <li><strong>Štatistiky:</strong> Pri každom teste sa zobrazujú (počet absolvovaní, posledný výsledok, priemer)</li>
-                    <li><strong>Režim učenia:</strong> Zobrazí celý test so správnymi odpoveďami - vhodné na učenie</li>
-                    <li><strong>Zobrazenie po každej otázke:</strong> Ihneď po odpovedi uvidíte správne/nesprávne odpovede</li>
-                    <li><strong>Zobrazenie na konci:</strong> Po skončení testu uvidíte všetky správne odpovede</li>
+                    <li><strong>Viacero testov naraz:</strong> Zaškrtnite checkboxy pri viacerých testoch → kliknite "Spustiť vybrané testy" → zlúčia sa do jedného</li>
+                    <li><strong>Štatistiky:</strong> Pod každým testom vidíte počet absolvovaní, posledný výsledok a priemer</li>
+                    <li><strong>Režim učenia:</strong> Prečítajte si všetky otázky so správnymi odpoveďami bez časového tlaku</li>
                 </ul>
             </div>
 
             <div class="help-section">
-                <h3>Formát JSON súboru</h3>
-                <p>Pre vytvorenie vlastných testov použite tento formát:</p>
-                <pre><code>[
-  {
-    "title": "Názov testu",
-    "description": "Popis testu",
-    "questions": [
-      {
-        "question": "Otázka s jednou správnou odpoveďou?",
-        "answers": ["Odpoveď 1", "Odpoveď 2", "Odpoveď 3"],
-        "correct": 0
-      },
-      {
-        "question": "Otázka s viacerými správnymi odpoveďami?",
-        "answers": ["Odpoveď A", "Odpoveď B", "Odpoveď C"],
-        "correct": [0, 2]
-      }
-    ]
-  }
-]</code></pre>
-                <p><strong>Pravidlá:</strong></p>
+                <h3>🤖 Vytvorenie testov cez AI</h3>
+                <ol>
+                    <li><strong>Kliknite na "🤖 AI Import"</strong></li>
+                    <li><strong>Nahrajte fotografiu</strong> otázok (môžete aj viac naraz)</li>
+                    <li><strong>Voliteľne zapnite</strong> "🔬 Pokročilé predspracovanie" pre lepšie rozpoznávanie</li>
+                    <li><strong>Kliknite "✨ Spracovať s AI"</strong> - AI automaticky rozpozná otázky a odpovede</li>
+                    <li><strong>Skontrolujte otázky</strong> - môžete upraviť, pridať alebo zmazať</li>
+                    <li><strong>Zadajte názov testu</strong> a popis</li>
+                    <li><strong>Uložte test</strong> - test sa uloží do priečinka <code>testy/</code></li>
+                </ol>
+                <p><strong>💡 Tip:</strong> Pre najlepšie výsledky robte ostré fotky s dobrým osvetlením!</p>
+            </div>
+
+            <div class="help-section">
+                <h3>📁 Načítanie existujúcich testov</h3>
                 <ul>
-                    <li><code>correct</code> môže byť jedno číslo (jedna správna) alebo pole čísel (viac správnych)</li>
-                    <li>Index začína od 0 (0 = prvá odpoveď, 1 = druhá, atď.)</li>
-                    <li>Pri viacerých správnych musíte vybrať všetky</li>
+                    <li><strong>Automaticky:</strong> Vložte JSON súbory do priečinka <code>testy/</code> a obnovte stránku</li>
+                    <li><strong>Manuálne nahratie:</strong> Kliknite "📁 Import testov" → vyberte JSON súbor → "📤 Nahrať súbor"</li>
                 </ul>
+            </div>
+
+            <div class="help-section">
+                <h3>📝 Formát JSON súboru (pre programátorov)</h3>
+                <p>Ak chcete vytvoriť test manuálne v JSON formáte:</p>
+                <pre><code>[{
+  "title": "Názov testu",
+  "description": "Popis",
+  "questions": [{
+    "question": "Text otázky?",
+    "answers": ["A", "B", "C"],
+    "correct": 0
+  }]
+}]</code></pre>
+                <p><strong>Pravidlá:</strong> <code>correct</code> = číslo (jedna správna) alebo <code>[0, 2]</code> (viac správnych). Index od 0.</p>
             </div>
 
             <button onclick="backToList()" class="btn-secondary">← Späť na zoznam testov</button>

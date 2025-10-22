@@ -1,0 +1,1159 @@
+[
+  {
+    "description": "biologia zapocet kap. 5 skontrolovane",
+    "questions": [
+      {
+        "answers": [
+          "priame delenie",
+          "nepriame delenie",
+          "redukčné delenie",
+          "diferenciácia buniek"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 5,
+        "question": "Amitóza je:"
+      },
+      {
+        "answers": [
+          "priame delenie",
+          "nepriame delenie",
+          "redukčné delenie",
+          "diferenciácia buniek"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 15,
+        "question": "Mitóza je:"
+      },
+      {
+        "answers": [
+          "priame delenie",
+          "nepriame delenie",
+          "redukčné delenie",
+          "diferenciácia buniek"
+        ],
+        "correct": [
+          2
+        ],
+        "positionPercent": 25,
+        "question": "Meióza je:"
+      },
+      {
+        "answers": [
+          "prokaryotických buniek",
+          "eukaryotických buniek",
+          "gamét",
+          "rastlín"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 35,
+        "question": "Amitóza je typickým spôsobom delenia sa:"
+      },
+      {
+        "answers": [
+          "prokaryotických buniek",
+          "eukaryotických buniek",
+          "gamét",
+          "rastlín"
+        ],
+        "correct": [
+          2
+        ],
+        "positionPercent": 45,
+        "question": "Meióza je typickým spôsobom vytvárania:"
+      },
+      {
+        "answers": [
+          "interfázy a M fázy (mitózy)",
+          "profázy a metafázy",
+          "anafázy a telofázy",
+          "cytokinézy a karyokinézy"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 55,
+        "question": "Bunkový cyklus sa skladá z:"
+      },
+      {
+        "answers": [
+          "G1 fáza",
+          "G2 fáza",
+          "S fáza",
+          "M fáza"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "positionPercent": 65,
+        "question": "Do interfázy patrí:"
+      },
+      {
+        "answers": [
+          "intenzívnou syntézou bielkovín",
+          "replikáciou DNA",
+          "zdvojením centrozómov",
+          "diferenciáciou bunky"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 5,
+        "question": "G1 fáza je charakterizovaná:"
+      },
+      {
+        "answers": [
+          "intenzívnou syntézou bielkovín",
+          "replikáciou DNA",
+          "zdvojením centrozómov",
+          "diferenciáciou bunky"
+        ],
+        "correct": [
+          3
+        ],
+        "positionPercent": 15,
+        "question": "G0 fáza je charakterizovaná:"
+      },
+      {
+        "answers": [
+          "intenzívnou syntézou bielkovín",
+          "replikáciou DNA",
+          "zdvojením centrozómov",
+          "diferenciáciou bunky"
+        ],
+        "correct": [
+          2
+        ],
+        "positionPercent": 25,
+        "question": "G2 fáza je charakterizovaná:"
+      },
+      {
+        "answers": [
+          "intenzívnou syntézou bielkovín",
+          "replikáciou DNA",
+          "zdvojením centrozómov",
+          "diferenciáciou bunky"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 35,
+        "question": "S fáza je charakterizovaná:"
+      },
+      {
+        "answers": [
+          "G1 fáze",
+          "G2/M fáze",
+          "S fáze",
+          "metafáze"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "positionPercent": 45,
+        "question": "Hlavné kontrolné uzly bunkového cyklu sú v:"
+      },
+      {
+        "answers": [
+          "vznikajú dve dcérske bunky, z ktorých každá má rovnaký počet chromozómov ako rodičovská bunka",
+          "vznikajú štyri dcérske bunky, z ktorých každá má rovnaký počet chromozómov ako rodičovská bunka",
+          "vznikajú dve dcérske bunky, každá má polovičný počet chromozómov ako rodičovské bunky",
+          "vznikajú štyri dcérske bunky, z ktorých každá má polovičný počet chromozómov ako rodičovské bunky"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 55,
+        "question": "Pri mitóze:"
+      },
+      {
+        "answers": [
+          "redukuje na polovicu",
+          "ostáva nezmenený",
+          "zdvojnásobí",
+          "strojnásobí"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 65,
+        "question": "Pri meióze sa počet chromozómov:"
+      },
+      {
+        "answers": [
+          "procesom cytokinézy",
+          "v rámci mitózy a meiózy",
+          "v procese interfázy",
+          "karyokinézou"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "positionPercent": 75,
+        "question": "K rozdeleniu jadra dochádza:"
+      },
+      {
+        "answers": [
+          "je súbor procesov, ktorých výsledkom je vznik dcérskych buniek",
+          "sa nemôže opakovať podľa potrieb organizmu",
+          "je názov pre proces vzniku DNA",
+          "je proces replikácie chromozómov"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 5,
+        "question": "Bunkový cyklus:"
+      },
+      {
+        "answers": [
+          "delením",
+          "pučaním",
+          "mitózou",
+          "meiózou"
+        ],
+        "correct": [
+          0,
+          2,
+          3,
+          1
+        ],
+        "positionPercent": 15,
+        "question": "Ako sa môžu rozmnožovať bunky?"
+      },
+      {
+        "answers": [
+          "profázu, prometafázu, metafázu, anafázu a telofázu",
+          "interfázu a samotné delenie",
+          "G1 fázu, S fázu, G2 fázu a M fázu",
+          "G1 fázu, S fázu, G2 fázu a interfázu"
+        ],
+        "correct": [
+          2,
+          1
+        ],
+        "positionPercent": 25,
+        "question": "Bunkový cyklus možno rozdeliť na:"
+      },
+      {
+        "answers": [
+          "priame delenie – mitóza",
+          "nepriame delenie – mitóza",
+          "meióza",
+          "priame delenie – amitóza"
+        ],
+        "correct": [
+          1,
+          3,
+          2
+        ],
+        "positionPercent": 35,
+        "question": "K typom bunkových delení (podľa priebehu bunkového cyklu) patrí:"
+      },
+      {
+        "answers": [
+          "pri nedostatku živín",
+          "pri nevhodnej teplote",
+          "pri nahromadení škodlivých látok",
+          "pri nevhodných podmienkach vonkajšieho prostredia"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "positionPercent": 45,
+        "question": "Za akých podmienok dochádza k zastaveniu bunkového delenia?"
+      },
+      {
+        "answers": [
+          "10",
+          "23",
+          "46",
+          "92"
+        ],
+        "correct": [
+          3
+        ],
+        "positionPercent": 55,
+        "question": "Bunka má 46 chromozómov počas G1 fázy bunkového cyklu. Koľko sesterských chromatíd má počas profázy I?"
+      },
+      {
+        "answers": [
+          "M fáza",
+          "G1 fáza a G2 fáza",
+          "G1 fáza a M fáza",
+          "S fáza"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 65,
+        "question": "K fázam bunkového cyklu, ktoré majú priamy vzťah k rozdeleniu bunky patrí:"
+      },
+      {
+        "answers": [
+          "S fáza",
+          "syntetická fáza",
+          "M fáza",
+          "mitóza"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "positionPercent": 75,
+        "question": "Ako sa nazýva fáza bunkového cyklu, v ktorej prebieha replikácia jadrovej DNA a zdvojenie jadrových chromozómov?"
+      },
+      {
+        "answers": [
+          "chromatínom",
+          "DNA",
+          "histonovými proteínmi",
+          "nehistonovými proteínmi"
+        ],
+        "correct": [
+          0,
+          2,
+          3,
+          1
+        ],
+        "positionPercent": 5,
+        "question": "Eukaryotické jadrové chromozómy sú tvorené:"
+      },
+      {
+        "answers": [
+          "G1",
+          "M",
+          "S",
+          "G2"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "positionPercent": 15,
+        "question": "Do interfázy bunkového cyklu patria fázy:"
+      },
+      {
+        "answers": [
+          "profáza, prometafáza, metafáza, anafáza, telofáza",
+          "telofáza, profáza, prometafáza, metafáza, anafáza",
+          "profáza, prometafáza, metafáza, telofáza, anafáza",
+          "profáza, prometafáza, anafáza, metafáza, telofáza"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 25,
+        "question": "Fázy samotnej mitózy v správnom poradí sú:"
+      },
+      {
+        "answers": [
+          "kondenzácii chromatínu",
+          "zániku jadrového obalu",
+          "zoradeniu chromozómov do ekvatoriálnej roviny",
+          "vzniku nového jadra"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 35,
+        "question": "V profáze dochádza ku:"
+      },
+      {
+        "answers": [
+          "profáze",
+          "metafáze",
+          "anafáze",
+          "telofáze"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 45,
+        "question": "Jadierka zanikajú v:"
+      },
+      {
+        "answers": [
+          "profáze",
+          "metafáze",
+          "anafáze",
+          "telofáze"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 55,
+        "question": "Včasné deliacie vretienko zložené z nckinetochorových mikrotubulov sa vytvára v:"
+      },
+      {
+        "answers": [
+          "profáze",
+          "metafáze",
+          "anafáze",
+          "telofáze"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 65,
+        "question": "Centrozómy sa od seba oddelia v:"
+      },
+      {
+        "answers": [
+          "ukončeniu kondenzácie chromatínu",
+          "zániku jadrového obalu",
+          "zoradeniu chromozómov do ekvatoriálnej roviny",
+          "vzniku nového jadra"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 75,
+        "question": "V prometafáze dochádza ku:"
+      },
+      {
+        "answers": [
+          "sa rozpadá jadrová membrána",
+          "nekinetochorové mikrotubuly deliaceho vretienka sa musia správne napojiť na kohezín chromatid",
+          "kinetochorové mikrotubuly deliaceho vretienka sa musia správne napojiť na kinetochór oboch chromatid",
+          "každý chromozóm má dva kinetochóry umiestnené na centrozóme chromatidy"
+        ],
+        "correct": [
+          2,
+          0
+        ],
+        "positionPercent": 10,
+        "question": "Prometafáza mitózy je pre bunku dôležitá, lebo:"
+      },
+      {
+        "answers": [
+          "je tvorený jedným chromatidom",
+          "je tvorený dvomi chromatidmi",
+          "má tvar písmena Y",
+          "má tvar písmena X"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "positionPercent": 25,
+        "question": "Metafázový chromozóm:"
+      },
+      {
+        "answers": [
+          "rozpadu jadrovej membrány",
+          "usporiadaniu chromozómov do ekvatoriálnej roviny",
+          "k maximálnej kondenzácii chromozómov",
+          "k dekondenzácii chromozómov"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "positionPercent": 40,
+        "question": "V metafáze mitózy dochádza k:"
+      },
+      {
+        "answers": [
+          "konci metafázy",
+          "konci anafázy",
+          "konci telofázy",
+          "začiatku profázy"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 55,
+        "question": "Chromozómy sú maximálne kondenzované na:"
+      },
+      {
+        "answers": [
+          "profáze",
+          "metafáze",
+          "anafáze",
+          "telofáze"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 70,
+        "question": "Anafázu promórujúci komplex sa aktivuje v:"
+      },
+      {
+        "answers": [
+          "depolymerizáciou skracujú kinetochorové mikrotubuly",
+          "polymerizujú nekinetochorové mikrotubuly",
+          "rozdeľuje jadro",
+          "rozdeľuje cytoplazma"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 85,
+        "question": "V anafáze A sa:"
+      },
+      {
+        "answers": [
+          "depolymerizáciou skracujú kinetochorové mikrotubuly",
+          "polymerizujú nekinetochorové mikrotubuly",
+          "rozdeľuje jadro",
+          "rozdeľuje cytoplazma"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 90,
+        "question": "V anafáze B sa:"
+      },
+      {
+        "answers": [
+          "depolymerizáciou skracujú kinetochorové mikrotubuly",
+          "polymerizujú nekinetochorové mikrotubuly",
+          "rozdeľuje jadro",
+          "rozdeľuje cytoplazma"
+        ],
+        "correct": [
+          2
+        ],
+        "positionPercent": 95,
+        "question": "Pri karyokinéze sa:"
+      },
+      {
+        "answers": [
+          "depolymerizáciou skracujú kinetochorové mikrotubuly",
+          "polymerizujú nekinetochorové mikrotubuly",
+          "rozdeľuje jadro",
+          "rozdeľuje cytoplazma"
+        ],
+        "correct": [
+          3
+        ],
+        "positionPercent": 10,
+        "question": "Pri cytokinéze sa:"
+      },
+      {
+        "answers": [
+          "kondenzácii chromatínu",
+          "zániku jadrového obalu",
+          "zoradeniu chromozómov do ekvatoriálnej roviny",
+          "vzniku nového jadra"
+        ],
+        "correct": [
+          3
+        ],
+        "positionPercent": 20,
+        "question": "V telofáze dochádza ku:"
+      },
+      {
+        "answers": [
+          "prebieha dekondenzácia chromozómov",
+          "ukončí sa karyokinéza",
+          "vytvárajú sa nové jadrové obaly",
+          "prebieha kondenzácia chromozómov"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "positionPercent": 30,
+        "question": "Počas telofázy mitotického delenia:"
+      },
+      {
+        "answers": [
+          "aktín – myozínový kontrakčný prstenec iniciuje tvorbu štrbinovej brázdy",
+          "sesterské chromatidy sa oddelia a sú vyťahnuté na opačné konce bunky",
+          "mikrotubuly sa viažu na kinetochorové proteíny na chromozómoch",
+          "jadrová membrána sa rozpadá"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 40,
+        "question": "Ktorá z nasledujúcich udalostí nastáva počas telofázy?"
+      },
+      {
+        "answers": [
+          "môžeme rozdeliť na anafázu bunky eukaryotickej a prokaryotickej",
+          "prebieha po telofáze",
+          "prebieha pred telofázou",
+          "môžeme rozdeliť na anafázu A a anafázu B"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "positionPercent": 50,
+        "question": "Anafáza je proces, ktorý:"
+      },
+      {
+        "answers": [
+          "sa kinetochorové mikrotubuly deliaceho vretienka depolymerizujú",
+          "jednochromatidové chromozómy sú ťahané k centrozómom",
+          "kinetochorové mikrotubuly sa polymerizáciou skracujú",
+          "dvojchromatidové chromozómy sú ťahané k centroméram"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "positionPercent": 60,
+        "question": "V priebehu anafázy mitotického delenia:"
+      },
+      {
+        "answers": [
+          "dyneíny",
+          "kinezíny",
+          "kohezíny",
+          "separázy"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "positionPercent": 70,
+        "question": "Motorické proteíny sú:"
+      },
+      {
+        "answers": [
+          "dyneíny",
+          "kinezíny",
+          "polymerizácia kinetochorových mikrotubulov",
+          "depolymerizácia kinetochorových mikrotubulov"
+        ],
+        "correct": [
+          1,
+          3,
+          0
+        ],
+        "positionPercent": 80,
+        "question": "Rýchlemu postupu chromozómov k centrozómom pomáhajú:"
+      },
+      {
+        "answers": [
+          "separáza rozdelí kohezíny aj z vnútornej strany centromér",
+          "separáza nerozdelí kohezíny aj z vnútornej strany centromér",
+          "nastane disjunkcia sesterských chromatidov",
+          "nastane nondisjunkcia sesterských chromatidov"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "positionPercent": 5,
+        "question": "Ak zlyhá likvidácia sekurínu na konci metafázy:"
+      },
+      {
+        "answers": [
+          "sa volá separáza",
+          "sa volá shugoshin",
+          "je odstránená ubikvitináciou",
+          "je odstránená acetyláciou"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "positionPercent": 15,
+        "question": "Bielkovina chrániaca kohezíny pred rozpojením:"
+      },
+      {
+        "answers": [
+          "centrozóm",
+          "centriola",
+          "centroméra",
+          "kinetochór"
+        ],
+        "correct": [
+          3
+        ],
+        "positionPercent": 25,
+        "question": "Čo je miestom pripevnenia vretienkových vlákien k sesterským chromatidám počas mitózy:"
+      },
+      {
+        "answers": [
+          "haploidným počtom zdvojených chromozómov",
+          "haploidným počtom chromozómov",
+          "diploidným počtom zdvojených chromozómov",
+          "diploidným počtom chromozómov"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 35,
+        "question": "Výsledkom 1. meiotického delenia je vznik buniek s:"
+      },
+      {
+        "answers": [
+          "haploidným počtom zdvojených chromozómov",
+          "haploidným počtom chromozómov",
+          "diploidným počtom zdvojených chromozómov",
+          "diploidným počtom chromozómov"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 45,
+        "question": "Výsledkom 2. meiotického delenia je vznik buniek s:"
+      },
+      {
+        "answers": [
+          "jednej bunky",
+          "dvoch buniek",
+          "troch buniek",
+          "štyroch buniek"
+        ],
+        "correct": [
+          3
+        ],
+        "positionPercent": 55,
+        "question": "Výsledkom meiotického delenia je vznik:"
+      },
+      {
+        "answers": [
+          "zachováva",
+          "znižuje na polovicu",
+          "zdvojnásobuje",
+          "náhodne mení podľa typu bunky"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 65,
+        "question": "Pri amitóze sa počet chromozómov:"
+      },
+      {
+        "answers": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 75,
+        "question": "Koľko buniek je výsledkom prvého meiotického delenia?"
+      },
+      {
+        "answers": [
+          "v profáze I a v anafáze II",
+          "v anafáze I a v profáze I",
+          "v profáze II a v anafáze I",
+          "v anafáze II a v profáze II"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 5,
+        "question": "V ktorej fáze meiózy sa párujú homologické chromozómy a dochádza ku crossing-overu? A v ktorej fáze meiózy dochádza k rozdeleniu chromatid?"
+      },
+      {
+        "answers": [
+          "nedochádza",
+          "dochádza pred prvým meiotickým delením",
+          "dochádza pred druhým meiotickým delením",
+          "dochádza pred prvým aj druhým meiotickým delením"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 20,
+        "question": "K duplikácii chromozómov v meióze:"
+      },
+      {
+        "answers": [
+          "redukčné",
+          "ekvačné",
+          "heterotypické",
+          "homeotypické"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "positionPercent": 35,
+        "question": "Prvé meiotické delenie sa nazýva aj:"
+      },
+      {
+        "answers": [
+          "redukčné",
+          "ekvačné",
+          "heterotypické",
+          "homeotypické"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "positionPercent": 45,
+        "question": "Druhé meiotické delenie sa nazýva aj:"
+      },
+      {
+        "answers": [
+          "profáza, metafáza, anafáza, telofáza",
+          "profáza I, metafáza I, anafáza I, telofáza I",
+          "profáza II, metafáza II, anafáza II, telofáza II",
+          "proleptoténne, leptoténne, zygoténne, pachyténne, diploténne, diakinéza"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 55,
+        "question": "Prvé meiotické delenie sa skladá z fáz:"
+      },
+      {
+        "answers": [
+          "profáza, metafáza, anafáza, telofáza",
+          "profáza I, metafáza I, anafáza I, telofáza I",
+          "profáza II, metafáza II, anafáza II, telofáza II",
+          "proleptoténne, leptoténne, zygoténne, pachyténne, diploténne, diakinéza"
+        ],
+        "correct": [
+          2
+        ],
+        "positionPercent": 65,
+        "question": "Druhé meiotické delenie sa skladá z fáz:"
+      },
+      {
+        "answers": [
+          "leptoténne, zygoténne, pachyténne, diploténne, diakinéza",
+          "proleptoténne, leptoténne, pachyténne, diploténne, diakinéza",
+          "proleptoténne, leptoténne, zygoténne, diploténne, diakinéza",
+          "proleptoténne, leptoténne, zygoténne, pachyténne, diploténne, diakinéza"
+        ],
+        "correct": [
+          3
+        ],
+        "positionPercent": 75,
+        "question": "Štádiá profázy prvého meiotického delenia v správnom poradí sú:"
+      },
+      {
+        "answers": [
+          "proleptoténne",
+          "zygoténne",
+          "pachyténne",
+          "diploténne"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 90,
+        "question": "Ku kondenzácii chromozómov začína dochádzať v meióze v štádiu:"
+      },
+      {
+        "answers": [
+          "proleptoténne",
+          "zygoténne",
+          "pachyténne",
+          "diploténne"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 5,
+        "question": "Ku synapsii homologických chromozómov dochádza v štádiu:"
+      },
+      {
+        "answers": [
+          "proleptoténne",
+          "zygoténne",
+          "pachyténne",
+          "diploténne"
+        ],
+        "correct": [
+          2
+        ],
+        "positionPercent": 15,
+        "question": "Ku crossing-overu dochádza v štádiu:"
+      },
+      {
+        "answers": [
+          "proleptoténne",
+          "zygoténne",
+          "pachyténne",
+          "diploténne"
+        ],
+        "correct": [
+          2
+        ],
+        "positionPercent": 25,
+        "question": "Ku vzniku rekombinovaných chromatidov dochádza v štádiu:"
+      },
+      {
+        "answers": [
+          "proleptoténne",
+          "zygoténne",
+          "pachyténne",
+          "diakinéze"
+        ],
+        "correct": [
+          3
+        ],
+        "positionPercent": 35,
+        "question": "K rozpadu jadrových obalov a vymiznutiu jadierka dochádza v meióze v štádiu:"
+      },
+      {
+        "answers": [
+          "proleptoténne",
+          "zygoténne",
+          "pachyténne",
+          "diploténne"
+        ],
+        "correct": [
+          3
+        ],
+        "positionPercent": 45,
+        "question": "Synaptonemálne komplexy v meióze vymiznú v štádiu:"
+      },
+      {
+        "answers": [
+          "kondenzáciou chromatidov",
+          "terminalizáciou chiazmat",
+          "rozpadom jadrových obalov",
+          "vymiznutím jadierka"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "positionPercent": 55,
+        "question": "Diakinéza je charakterizovaná:"
+      },
+      {
+        "answers": [
+          "jednu",
+          "dve",
+          "tri",
+          "štyri"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 65,
+        "question": "Koľko chromozómových sád má za normálnych okolností telová bunka človeka?"
+      },
+      {
+        "answers": [
+          "22",
+          "23",
+          "45",
+          "46"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 75,
+        "question": "Koľko chromozómov obsahuje normálna ľudská spermia?"
+      },
+      {
+        "answers": [
+          "pri mitóze prebieha karyokinéza a cytokinéza, pri amitóze nie",
+          "mitóza zachováva genetickú stabilitu, amitóza ju môže narušiť",
+          "mitóza sa vyskytuje u prokaryotov, amitóza u eukaryotov",
+          "pri amitóze sa vždy vytvárajú haploidné bunky"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "positionPercent": 5,
+        "question": "Hlavný rozdiel medzi mitózou a amitózou je:"
+      },
+      {
+        "answers": [
+          "zdvojnásobí a potom rozdelí na štvrtiny",
+          "rozdelí na štvrtiny",
+          "zdvojnásobí a potom rozdelí na polovicu",
+          "rozdelí na polovicu"
+        ],
+        "correct": [
+          3
+        ],
+        "positionPercent": 15,
+        "question": "Počas meiózy sa počet chromozómov:"
+      },
+      {
+        "answers": [
+          "chyba v separácii homologických chromozómov alebo sesterských chromatíd",
+          "chyba v migrácii chromozómu",
+          "delécia DNA segmentu na jednej chromatide",
+          "duplikácia DNA segmentu na druhej chromatide"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 25,
+        "question": "Nondisjunkcia je:"
+      },
+      {
+        "answers": [
+          "chyba v separácii homologických chromozómov alebo sesterských chromatíd",
+          "chyba v migrácii chromozómu",
+          "delécia DNA segmentu na jednej chromatide",
+          "duplikácia DNA segmentu na druhej chromatide"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 35,
+        "question": "Anafázové zaostávanie je:"
+      },
+      {
+        "answers": [
+          "senescencia",
+          "apoptóza",
+          "nondisjunkcia",
+          "nerovnomerný crossing-over"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "positionPercent": 45,
+        "question": "Medzi poruchy meiózy patrí:"
+      },
+      {
+        "answers": [
+          "koncová časť chromozómu",
+          "enzým, ktorý predlžuje teloméry",
+          "enzým, ktorý skracuje teloméry",
+          "aktívna v embryonálnych bunkách"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "positionPercent": 55,
+        "question": "Telomeráza je:"
+      },
+      {
+        "answers": [
+          "svoj sektor",
+          "ľubovoľné umiestnenie",
+          "premenlivé umiestnenie",
+          "svoju určitú polohu zabezpečenú jeho väzbou s jadrovou laminou"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "positionPercent": 65,
+        "question": "Každý chromozóm v interfázovom jadre má:"
+      },
+      {
+        "answers": [
+          "zygoty",
+          "gaméty",
+          "pohlavné bunky",
+          "vajíčka a spermie"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "positionPercent": 75,
+        "question": "Ktoré bunky patria medzi haploidné?"
+      },
+      {
+        "answers": [
+          "históny",
+          "nukleozómy",
+          "chromatín",
+          "sesterské chromatidy"
+        ],
+        "correct": [
+          3
+        ],
+        "positionPercent": 10,
+        "question": "Ako sa nazývajú identické kópie chromatínu, ktoré drží pohromade kohézín v centromére?"
+      },
+      {
+        "answers": [
+          "predstavuje trvalé zastavenie cyklu u všetkých buniek",
+          "bunka môže dočasne vystúpiť z cyklu",
+          "je spojená s diferenciáciou buniek",
+          "vždy prebieha bezprostredne po mitóze"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "positionPercent": 20,
+        "question": "Čo platí pre fázu G0 bunkového cyklu?"
+      },
+      {
+        "answers": [
+          "semikonzervatívna replikácia DNA",
+          "syntéza tubulínu a centrozómov",
+          "vznik sesterských chromatid spojených kohézínmi",
+          "rozdelenie cytoplazmy"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "positionPercent": 30,
+        "question": "Ktoré procesy charakterizujú S– fázu bunkového cyklu?"
+      },
+      {
+        "answers": [
+          "rovnomerné pripojenie chromozómov na mikrotubuly",
+          "správnu replikáciu DNA",
+          "poškodenie DNA a jej opravu",
+          "prítomnosť dostatočných živín pre bunku"
+        ],
+        "correct": [
+          2,
+          1
+        ],
+        "positionPercent": 40,
+        "question": "Čo kontroluje G2/M kontrolný bod?"
+      },
+      {
+        "answers": [
+          "veľkosť bunky",
+          "správne pripojenie kinetochorov na mikrotubuly",
+          "prítomnosť živín",
+          "rovnomerné rozdelenie chromozómov"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "positionPercent": 50,
+        "question": "Čo kontroluje G1/S kontrolný bod?"
+      },
+      {
+        "answers": [
+          "kontroluje pripojenie všetkých kinetochorov na mikrotubuly",
+          "rozhoduje o vstupe do mitózy",
+          "zabezpečuje rovnomerné rozdelenie chromozómov",
+          "hodnotí veľkosť bunky a prítomnosť živín"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "positionPercent": 60,
+        "question": "Ktoré tvrdenia vystihujú metafázový kontrolný bod?"
+      }
+    ],
+    "title": "Bio 5 ok"
+  }
+]

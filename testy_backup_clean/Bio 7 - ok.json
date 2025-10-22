@@ -1,0 +1,779 @@
+[
+  {
+    "title": "Bio 7 - ok",
+    "description": "biologia zapocet kap 7 skontrolovane",
+    "questions": [
+      {
+        "answers": [
+          "cez mitochondriálnu „dráhu“",
+          "stresová cesta cez Golgiho aparát",
+          "cez „receptor smrti“",
+          "cez lyzozómovú „dráhu“"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "positionPercent": 5,
+        "question": "Aké sú základné mechanizmy navodenia apoptózy?"
+      },
+      {
+        "answers": [
+          "podporuje rast svalov",
+          "chráni bunky pred UV žiarením",
+          "odstraňuje poškodené alebo nepotrebné bunky",
+          "produkuje energiu pre bunku"
+        ],
+        "correct": [
+          2
+        ],
+        "positionPercent": 20,
+        "question": "Akú funkciu má apoptóza v organizme?"
+      },
+      {
+        "answers": [
+          "programovaná bunková smrť",
+          "tichá bunková smrť",
+          "iný názov pre nekrózu",
+          "fyziologická smrť bunky"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "positionPercent": 35,
+        "question": "Apoptóza je:"
+      },
+      {
+        "answers": [
+          "prevencii tvorby nádorov",
+          "produkcii ATP pre bunkový metabolizmus",
+          "syntéze proteínov",
+          "akumulácii bunkového odpadu"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 50,
+        "question": "Apoptóza hrá kľúčovú úlohu pri:"
+      },
+      {
+        "answers": [
+          "zmrštením bunky a fragmentáciou DNA",
+          "nekontrolovaným opuchom bunky",
+          "zápalom a imunitnou odpoveďou",
+          "fagocytózou poškodených organel"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 65,
+        "question": "Apoptóza je primárne charakterizovaná:"
+      },
+      {
+        "answers": [
+          "srdca",
+          "prstov",
+          "čreva",
+          "mozgu"
+        ],
+        "correct": [
+          1,
+          2,
+          3,
+          0
+        ],
+        "positionPercent": 80,
+        "question": "Apoptóza má kľúčový význam pri vývoji:"
+      },
+      {
+        "answers": [
+          "apoptóza nie je sprevádzaná zápalom",
+          "nekróza zahŕňa fagocytózu",
+          "apoptóza nie je regulovaná",
+          "nekróza je často spôsobená traumou"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "positionPercent": 95,
+        "question": "Apoptóza sa líši od nekrózy tým, že:"
+      },
+      {
+        "answers": [
+          "nedostatok živín",
+          "prebytok energie",
+          "prítomnosť apoptotických buniek",
+          "zvýšenú hladinu kyslíka"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 5,
+        "question": "Autofágia je typicky aktivovaná v reakcii na:"
+      },
+      {
+        "answers": [
+          "sa stane nadmerne aktívnou",
+          "hladiny ATP sú vysoké",
+          "aktivita kaspáz je nízka",
+          "lyzozómy sú neaktívne"
+        ],
+        "correct": [
+          3,
+          0
+        ],
+        "positionPercent": 15,
+        "question": "Autofágia môže viesť k bunkovej smrti, ak:"
+      },
+      {
+        "answers": [
+          "recykláciu bunkových komponentov",
+          "spustenie delenia buniek",
+          "náhodnú degradáciu proteínov",
+          "tvorbu energetických zásob mimo bunky"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 25,
+        "question": "Autofágia slúži na:"
+      },
+      {
+        "answers": [
+          "programovaná bunková smrť pri selekcii buniek",
+          "riadená bunková smrť pri ochrane mnohobunkového organizmu pred rizikovými bunkami",
+          "programovaná bunková smrť pri ukončení „životnosti“ bunky",
+          "programovaná bunková smrť počas embryogenézy"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "positionPercent": 35,
+        "question": "Hlavné funkcie apoptózy:"
+      },
+      {
+        "answers": [
+          "môžu byť neúčinné",
+          "patria medzi proteázy",
+          "sa v cytoplazme vyskytujú ako inaktívne pro-kaspázy",
+          "môžu byť účinné"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "positionPercent": 50,
+        "question": "Kaspázy:"
+      },
+      {
+        "answers": [
+          "kaspázy",
+          "ATG-proteíny",
+          "p53",
+          "chaperóny"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "positionPercent": 60,
+        "question": "Kľúčové proteíny podieľajúce sa na iniciácii apoptózy sú:"
+      },
+      {
+        "answers": [
+          "autofagozóm",
+          "ribozóm",
+          "peroxizóm",
+          "jadrový pór"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 70,
+        "question": "Ktorá štruktúra je zodpovedná za degradáciu bunkového obsahu počas autofágie?"
+      },
+      {
+        "answers": [
+          "glukoneogenéza",
+          "dráha MAPK",
+          "dráha receptorov smrti",
+          "glykolýza"
+        ],
+        "correct": [
+          2
+        ],
+        "positionPercent": 80,
+        "question": "Ktorá z nasledujúcich dráh je spojená s apoptózou?"
+      },
+      {
+        "answers": [
+          "zmršťovanie bunky a fragmentácia jadra",
+          "opuch bunky a prasknutie membrány",
+          "vznik dvojmembránových vakuol",
+          "rozpad organel a uvoľnenie obsahu bunky"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "positionPercent": 5,
+        "question": "Ktoré morfologické znaky sú typické pre nekrózu?"
+      },
+      {
+        "answers": [
+          "spúšťa ju naviazanie signálnej molekuly na receptor smrti (napr. Fas, TNF)",
+          "je vyvolaná hlavne mutáciami DNA a skracovaním telomér",
+          "dochádza k aktivácii iniciátorovej kaspázy 8",
+          "spúšťa ju uvoľnenie cytochrómu c z mitochondrií"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "positionPercent": 20,
+        "question": "Ktoré tvrdenia charakterizujú exogénnu aktiváciu apoptózy?"
+      },
+      {
+        "answers": [
+          "je to proces recyklácie bunkových organel a makromolekúl",
+          "prebieha vytvorením autofagozómov a ich splynutím s lyzozómami",
+          "je sprevádzaná vždy výraznou zápalovou reakciou",
+          "je typickým znakom patologickej bunkovej smrti"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "positionPercent": 35,
+        "question": "Ktoré tvrdenia o autofágii platia?"
+      },
+      {
+        "answers": [
+          "ide o programovanú bunkovú smrť riadenú kaspázami",
+          "je spojená so zápalovou reakciou v okolí",
+          "vzniká pri poškodení bunky hypoxiou alebo toxínmi",
+          "je charakterizovaná tvorbou apoptotických teliesok"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "positionPercent": 50,
+        "question": "Ktoré tvrdenia o nekróze sú správne?"
+      },
+      {
+        "answers": [
+          "kaspáza 3",
+          "kaspáza 8",
+          "kaspáza 9",
+          "kaspáza 6"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "positionPercent": 65,
+        "question": "Medzi hlavné kaspázy patria:"
+      },
+      {
+        "answers": [
+          "kaspázy",
+          "albumín",
+          "Apaf-1",
+          "Bax"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "positionPercent": 75,
+        "question": "Medzi hlavné proteíny apoptózy patria:"
+      },
+      {
+        "answers": [
+          "denzná agregácia chromatínu na jadrovú membránu",
+          "svrkávanie sa bunky",
+          "vznik apoptózových teliesok",
+          "tvorba nových mitochondrií"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "positionPercent": 85,
+        "question": "Morfologické prejavy typické pre apoptózu:"
+      },
+      {
+        "answers": [
+          "často vyvoláva zápal",
+          "je regulovaná bunková smrť",
+          "vedie k tvorbe apoptotických teliesok",
+          "je výsledkom neplánovaného poškodenia buniek"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "positionPercent": 95,
+        "question": "Na rozdiel od apoptózy, nekróza:"
+      },
+      {
+        "answers": [
+          "rýchly a nekontrolovaný proces",
+          "spojená s fagocytózou buniek",
+          "závislá na energii",
+          "typicky spojená s aktiváciou imunitnej odpovede"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "positionPercent": 5,
+        "question": "Na rozdiel od apoptózy, nekróza je:"
+      },
+      {
+        "answers": [
+          "náhodná forma bunkovej smrti",
+          "proces vyvolaný vonkajším zranením",
+          "podobná apoptóze",
+          "kontrolovaný mechanizmus bunkovej smrti"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "positionPercent": 15,
+        "question": "Nekróza je:"
+      },
+      {
+        "answers": [
+          "extrémne zmeny teploty",
+          "nedostatok živín",
+          "genetické mutácie",
+          "toxické látky"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "positionPercent": 25,
+        "question": "Nekrózu môže spustiť:"
+      },
+      {
+        "answers": [
+          "zostáva neporušená až do neskorších fáz",
+          "okamžite sa roztrhne",
+          "absorbuje viac lipidov",
+          "spája sa so susednými bunkovými membránami"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 35,
+        "question": "Plazmatická membrána bunky počas apoptózy:"
+      },
+      {
+        "answers": [
+          "jadra",
+          "lyzozómov",
+          "Golgiho aparátu",
+          "mitochondrií"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 45,
+        "question": "Poškodené organely sú v dráhe autofágie dopravené do:"
+      },
+      {
+        "answers": [
+          "remodelácia srdcových priehradiek",
+          "aktivácia lyzozómov pri vývoji čreva",
+          "formovanie prstov končatín",
+          "prenos génovej informácie medzi neurocytmi"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "positionPercent": 55,
+        "question": "Pri ktorých procesoch má apoptóza zásadný význam počas embryogenézy?"
+      },
+      {
+        "answers": [
+          "strácajú integritu membrány",
+          "podstupujú kontrolovaný rozpad",
+          "fragmentujú sa na apoptotické telieska",
+          "vylievajú svoj obsah, čo spôsobuje poškodenie tkaniva"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "positionPercent": 65,
+        "question": "Pri procese nekrózy bunky:"
+      },
+      {
+        "answers": [
+          "apoptóza vedie k bunkovej smrti, zatiaľ čo autofágia môže podporovať prežitie bunky",
+          "autofágia vždy vyvoláva zápal",
+          "apoptóza sa deje iba počas embryonálneho vývoja",
+          "autofágia nezahŕňa lyzozómy"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 75,
+        "question": "Primárny rozdiel medzi apoptózou a autofágiou je:"
+      },
+      {
+        "answers": [
+          "opuch bunky",
+          "zmrštenie bunky",
+          "roztrhnutie membrány",
+          "uvoľnenie bunkového obsahu do okolitých tkanív"
+        ],
+        "correct": [
+          0,
+          3,
+          2
+        ],
+        "positionPercent": 5,
+        "question": "Typické znaky nekrózy zahŕňajú:"
+      },
+      {
+        "answers": [
+          "je sprostredkovaná inflammasómom",
+          "aktivuje kaspázy 1, 4, 5 a 11",
+          "prebieha bez zápalovej odpovede",
+          "má význam pri obrane proti intracelulárnym patogénom"
+        ],
+        "correct": [
+          1,
+          3,
+          0
+        ],
+        "positionPercent": 15,
+        "question": "Ktoré tvrdenie o pyroptóze je správne?"
+      },
+      {
+        "answers": [
+          "aktivácia kináz RIPK1 a RIPK3",
+          "fosforylácia proteínu MLKL",
+          "úplná absencia zápalovej odpovede",
+          "alternatívna cesta bunkovej smrti pri zablokovanej apoptóze"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "positionPercent": 25,
+        "question": "Aké sú charakteristické znaky nekroptózy?"
+      },
+      {
+        "answers": [
+          "zmenšenie mitochondrií",
+          "zvýšená denzita mitochondriálnej matrice",
+          "fragmentácia DNA ako pri apoptóze",
+          "absencia klasických znakov apoptózy"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "positionPercent": 35,
+        "question": "Ktoré morfologické zmeny sú typické pre ferroptózu?"
+      },
+      {
+        "answers": [
+          "je vyvolaný stratou kontaktu bunky s extracelulárnou matrix",
+          "prebieha cez aktiváciu apoptotických dráh",
+          "predstavuje variant nekrózy",
+          "jeho potlačenie napomáha metastázovaniu"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "positionPercent": 45,
+        "question": "Čo charakterizuje anoikis?"
+      },
+      {
+        "answers": [
+          "aktivujú sa neutrofily",
+          "dochádza k uvoľneniu jadrovej DNA a proteínov",
+          "vznikajú extracelulárne pasce (NETs)",
+          "proces prebieha bez dezintegrácie bunkovej membrány"
+        ],
+        "correct": [
+          1,
+          2,
+          0
+        ],
+        "positionPercent": 55,
+        "question": "Čo sa deje počas netózy (NETosis)?"
+      },
+      {
+        "answers": [
+          "aktivácia receptorov smrti (Fas, TNF receptory)",
+          "oligomerizácia receptorov a nábor adaptorových proteínov (FADD)",
+          "aktivácia iniciačnej kaspázy 8",
+          "uvoľnenie cytochrómu c z mitochondrií"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "positionPercent": 65,
+        "question": "Čo je typické pre exogénnu dráhu apoptózy?"
+      },
+      {
+        "answers": [
+          "mutácie DNA",
+          "oxidačný stres",
+          "hypoxia",
+          "kontakt s TNF receptorom"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "positionPercent": 75,
+        "question": "Aké poškodenia môžu aktivovať endogénnu dráhu apoptózy?"
+      },
+      {
+        "answers": [
+          "funguje ako „strážca genómu“",
+          "aktivuje transkripciu proapoptotických členov rodiny Bcl-2",
+          "stabilizuje mitochondriálnu membránu",
+          "zabraňuje permeabilizácii mitochondrií"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "positionPercent": 5,
+        "question": "Akú úlohu zohráva proteín p53 v endogénnej dráhe apoptózy?"
+      },
+      {
+        "answers": [
+          "komplex cytochrómu c, Apaf-1 a ATP",
+          "aktivuje iniciačnú kaspázu 9",
+          "je výsledkom aktivácie receptorov smrti",
+          "riadi expresiu génov Bcl-2"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "positionPercent": 15,
+        "question": "Čo je apoptozóm a akú má funkciu?"
+      },
+      {
+        "answers": [
+          "kaspáza 3",
+          "kaspáza 6",
+          "kaspáza 7",
+          "kaspáza 9"
+        ],
+        "correct": [
+          0,
+          2,
+          1
+        ],
+        "positionPercent": 25,
+        "question": "Ktoré kaspázy patria medzi efektorové kaspázy?"
+      },
+      {
+        "answers": [
+          "akumulácia nesprávne poskladaných proteínov",
+          "aktivácia prokaspázy 12 (u hlodavcov)",
+          "človeka sa uplatňuje najmä kaspáza 4 a 5",
+          "aktivácia TNF receptorov"
+        ],
+        "correct": [
+          1,
+          2,
+          0
+        ],
+        "positionPercent": 35,
+        "question": "Čo je typické pre apoptózu vyvolanú stresom v endoplazmatickom retikule?"
+      },
+      {
+        "answers": [
+          "fragmentácia DNA",
+          "kondenzácia chromatínu",
+          "tvorba apoptotických teliesok",
+          "rozsiahly zápal tkaniva"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "positionPercent": 45,
+        "question": "Aké sú výsledné morfologické znaky apoptózy?"
+      },
+      {
+        "answers": [
+          "aktivujú spoločnú efektorovú kaspázovú kaskádu",
+          "končia tvorbou apoptotických teliesok",
+          "vyvolávajú zápalovú reakciu",
+          "vedú k fragmentácii DNA a kondenzácii chromatínu"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "positionPercent": 55,
+        "question": "Čo majú spoločné všetky apoptotické dráhy?"
+      },
+      {
+        "answers": [
+          "fragmentácia DNA a tvorba apoptotických teliesok",
+          "opuch bunky a prasknutie membrány",
+          "vždy vyvoláva zápalovú reakciu",
+          "nie je geneticky programovaná"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 65,
+        "question": "Ktorý znak odlišuje apoptózu od nekrózy?"
+      },
+      {
+        "answers": [
+          "p53",
+          "FADD",
+          "MLKL",
+          "GPX4"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 75,
+        "question": "Ktorý proteín zohráva kľúčovú úlohu v endogénnej dráhe apoptózy?"
+      },
+      {
+        "answers": [
+          "aktivácia kaspázy 8",
+          "vznik autofagozómu",
+          "uvoľnenie IL-1β a IL-18",
+          "permeabilizácia membrány cez MLKL"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 5,
+        "question": "Čo je typickým znakom autofágie?"
+      },
+      {
+        "answers": [
+          "nekróza",
+          "anoikis",
+          "ferroptóza",
+          "pyroptóza"
+        ],
+        "correct": [
+          3
+        ],
+        "positionPercent": 15,
+        "question": "Ktorá regulovaná forma bunkovej smrti je spojená s inflamazónom a uvoľnením IL-1β?"
+      },
+      {
+        "answers": [
+          "obrana proti intracelulárnym patogénom",
+          "prevencia kolonizácie buniek mimo pôvodného tkaniva",
+          "degradácia poškodených proteínov",
+          "udržiavanie homeostázy počas vývoja"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 25,
+        "question": "Aký je hlavný význam anoikis?"
+      },
+      {
+        "answers": [
+          "ferroptóza",
+          "nekroptóza",
+          "nekróza",
+          "autofágia"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 35,
+        "question": "Ktorý mechanizmus bunkovej smrti je typicky sprevádzaný akumuláciou lipidových peroxidov a zlyhaním enzýmu GPX4?"
+      },
+      {
+        "answers": [
+          "exogénna je spustená receptormi smrti, endogénna poškodením DNA alebo stresom",
+          "exogénna je vyvolaná oxidačným stresom, endogénna ligandmi receptorov",
+          "exogénna prebieha v lyzozómoch, endogénna v jadre",
+          "exogénna vedie k nekróze, endogénna k apoptóze"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 45,
+        "question": "Aký je hlavný rozdiel medzi exogénnou a endogénnou apoptotickou dráhou?"
+      },
+      {
+        "answers": [
+          "apoptosóm",
+          "inflammasóm",
+          "proteazóm",
+          "ribozóm"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 55,
+        "question": "Ktorý enzýmový komplex sa vytvára v endogénnej apoptotickej dráhe po uvoľnení cytochrómu c z mitochondrií?"
+      },
+      {
+        "answers": [
+          "tvorba apoptotických telisok",
+          "fragmentácia DNA",
+          "prasknutie bunkovej membrány a vyvolanie zápalu",
+          "aktivácia kaspázy 9"
+        ],
+        "correct": [
+          2
+        ],
+        "positionPercent": 65,
+        "question": "Čo je typickým znakom nekrózy, ktorý ju odlišuje od apoptózy?"
+      },
+      {
+        "answers": [
+          "netóza",
+          "pyroptóza",
+          "anoikis",
+          "ferroptóza"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 75,
+        "question": "Ktorý typ bunkovej smrti je typicky spojený s tvorbou extracelulárnych pascí (NETs)?"
+      }
+    ]
+  }
+]

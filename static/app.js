@@ -69,12 +69,6 @@ function displayTestList() {
                         ` : '<div class="no-stats">Zatiaľ neabsolvované</div>'}
                     </div>
                 </div>
-                ${filename ? `
-                    <div class="test-actions">
-                        <button class="btn-edit-small" onclick="event.stopPropagation(); editTest('${filename}', ${index})" title="Upraviť test">✏️</button>
-                        <button class="btn-delete-small" onclick="event.stopPropagation(); deleteTest('${filename}', ${index})" title="Zmazať test">🗑️</button>
-                    </div>
-                ` : ''}
             </div>
         `;
     }).join('');

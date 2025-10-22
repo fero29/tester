@@ -1,0 +1,409 @@
+[
+  {
+    "description": "biologia zapocet kap 6 skontrolovane",
+    "questions": [
+      {
+        "answers": [
+          "integriny",
+          "kadheríny",
+          "CAMs",
+          "povrch potiahnutý kolagénom/fibronektínom zlepšuje adherenciu"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "positionPercent": 10,
+        "question": "Adherenciu buniek na substrát sprostredkúvajú najmä:"
+      },
+      {
+        "answers": [
+          "je populácia buniek, ktorá proliferuje in vitro",
+          "je populácia buniek, ktorá proliferuje in vivo",
+          "je organizovaná ako tkanivo",
+          "nie je organizovaná ako tkanivo"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "positionPercent": 25,
+        "question": "Bunková kultúra:"
+      },
+      {
+        "answers": [
+          "predstavuje populáciu buniek, ktoré proliferujú in vitro a nie sú organizované ako tkanivo",
+          "môže byť adherentná alebo suspenzná",
+          "sa využíva pri in vitro fertilizácii",
+          "jej priebeh možno znázorniť Gaussovou krivkou"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "positionPercent": 40,
+        "question": "Bunková kultúra:"
+      },
+      {
+        "answers": [
+          "je organizovaná ako tkanivo",
+          "je zjednodušená a zmenšená verzia orgánu in vitro",
+          "je populácia buniek, ktorá vznikla opakovanými pasážami buniek z primokultúry",
+          "má využitie v biomedicínskom výskume"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "positionPercent": 55,
+        "question": "Bunková línia:"
+      },
+      {
+        "answers": [
+          "vo farmakotoxikológii",
+          "pri in vitro fertilizácii",
+          "v humánnej genetike",
+          "v tkanivovom inžinierstve"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "positionPercent": 70,
+        "question": "Bunkové kultúry sa využívajú:"
+      },
+      {
+        "answers": [
+          "baktérií",
+          "prokaryotov",
+          "ľudských tkanív",
+          "eukaryotov"
+        ],
+        "correct": [
+          0,
+          2,
+          3,
+          1
+        ],
+        "positionPercent": 85,
+        "question": "Bunkovú kultúru môžeme založiť z:"
+      },
+      {
+        "answers": [
+          "je technika kultivácie využívajúca rôzne enzýmy",
+          "je technika organotypickej kultivácie buniek z kúsku tkaniva",
+          "je prenesenie malého množstva kultivovaných buniek do novej kultivačnej nádoby",
+          "zastavuje rast buniek"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 95,
+        "question": "Explantová kultúra:"
+      },
+      {
+        "answers": [
+          "dajú získať aj transformáciou buniek rôznymi baktériami",
+          "používajú v cytogenetickej diagnostike",
+          "nepoužívajú pri in vitro fertilizácii",
+          "používajú v toxikológii"
+        ],
+        "correct": [
+          3,
+          2
+        ],
+        "positionPercent": 5,
+        "question": "Imortalizované kultúry sa:"
+      },
+      {
+        "answers": [
+          "sa dajú získať aj transformáciou buniek rôznymi vírusmi",
+          "sa používajú v toxikológii",
+          "sa používajú pri analýze genotoxicity vybraných látok",
+          "sa používajú pri kultivácii oplodnených vajíčok"
+        ],
+        "correct": [
+          0,
+          2,
+          1
+        ],
+        "positionPercent": 20,
+        "question": "Imortalizované kultúry:"
+      },
+      {
+        "answers": [
+          "sa kultivujú 24 hodín alebo maximálne niekoľko dní",
+          "sa nepoužívajú v cytogenetike",
+          "sa kultivujú viac než 10 dní",
+          "môžu byť s vysokou spontánnou mitotickou aktivitou (napr. bunky kostnej drene)"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "positionPercent": 35,
+        "question": "Krátkodobé kultúry:"
+      },
+      {
+        "answers": [
+          "príprava karyologických preparátov pre cytogenetickú analýzu",
+          "testovanie citlivosti nádorových buniek na cytostatiká",
+          "in vitro fertilizácia („oplodnenie v skúmavke“)",
+          "príprava DNA vakcín v baktériách"
+        ],
+        "correct": [
+          0,
+          2,
+          1
+        ],
+        "positionPercent": 50,
+        "question": "Ktoré z nasledujúcich patria medzi významné využitia kultivácie buniek u človeka?"
+      },
+      {
+        "answers": [
+          "vzniká priamo z tkaniva mechanickou alebo enzymatickou disociáciou buniek",
+          "ide o bunkovú líniu s neobmedzenou deliacou schopnosťou",
+          "je vždy neadherentná",
+          "vzniká výlučne zo suspenzných buniek"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 65,
+        "question": "Ktoré z nasledujúcich tvrdení najlepšie vystihuje primárnu bunkovú kultúru?"
+      },
+      {
+        "answers": [
+          "prítomnosť antibiotík v médiu",
+          "zloženie kultivačného média a typ povrchu nádoby",
+          "dĺžka centrifugácie po odobratí vzorky",
+          "tvar kultivačnej banky"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 75,
+        "question": "Ktorý faktor má najväčší vplyv na úspešnú adherenciu buniek pri ich prvotnej kultivácii?"
+      },
+      {
+        "answers": [
+          "laminárny box s UV lampou a laminárnym prúdením vzduchu",
+          "vodný kúpeľ",
+          "mikroskop s vyhrievaným stolíkom",
+          "ultrazvuková sterilizácia média"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 85,
+        "question": "Na zabezpečenie sterilných podmienok počas manipulácie s bunkovou kultúrou sa používa:"
+      },
+      {
+        "answers": [
+          "fetálne kravské sérum",
+          "streptomycín, penicilín",
+          "amfotericín",
+          "trypsín"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "positionPercent": 95,
+        "question": "Na zabránenie kontaminácie bunkovej kultúry sa používa:"
+      },
+      {
+        "answers": [
+          "~37 °C",
+          "pH ~7,1 - 7,4",
+          "0 % CO2 v inkubátore",
+          "osmolalitu v tolerancii cca ±10 %"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "positionPercent": 5,
+        "question": "Optimálne podmienky pre kultiváciu živočíšnych buniek zahŕňajú:"
+      },
+      {
+        "answers": [
+          "zastavujú rast buniek",
+          "sa využívajú na vytváranie bunkových modelov ochorení",
+          "majú využitie v personalizovanej medicíne",
+          "sú zjednodušené a zmenšené verzie orgánov kultivovaných 3D in vitro"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "positionPercent": 20,
+        "question": "Organoidy:"
+      },
+      {
+        "answers": [
+          "zabraňuje senescencii kultivovaných buniek",
+          "je prenosenie malého množstva kultivovaných buniek do novej kultivačnej nádoby",
+          "zastavuje rast buniek",
+          "je spôsobené častým vymieňaním kultivačného média"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 35,
+        "question": "Pasážovanie buniek:"
+      },
+      {
+        "answers": [
+          "je populácia buniek, ktorá sa môže neobmedzene deliť",
+          "je populácia buniek, ktorá vznikla napr. z biopsie malígneho nádorového tkaniva",
+          "je zjednodušená a zmenšená verzia orgánu in vitro",
+          "nazýva sa aj imortalizovaná bunková línia"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "positionPercent": 50,
+        "question": "Permanentná bunková línia:"
+      },
+      {
+        "answers": [
+          "sa nazýva aj stacionárna fáza",
+          "je fáza, kedy sa bunky adaptujú na podmienky in vitro",
+          "je fáza množenia buniek",
+          "je fáza, kde bunky v kultúre prežívajú ale už sa nedelia"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "positionPercent": 65,
+        "question": "Platô fáza priebehu kultivácie buniek:"
+      },
+      {
+        "answers": [
+          "sú proliferujúce bunky alebo tkanivá v kultivačnom médiu mimo organizmu",
+          "je populácia buniek, ktorá proliferuje in vivo",
+          "zastavuje rast buniek",
+          "je organizovaná ako tkanivo"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "positionPercent": 80,
+        "question": "Tkanivová kultúra:"
+      },
+      {
+        "answers": [
+          "integríny",
+          "kadheríny",
+          "cytokíny",
+          "bunkové adhézne molekuly (CAMs)"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "positionPercent": 90,
+        "question": "Ktoré molekuly sa podieľajú na sprostredkovaní adherencie buniek na substrát?"
+      },
+      {
+        "answers": [
+          "týka sa primárnych buniek a bunkových línií",
+          "predstavuje obmedzený počet delení v dôsledku skracovania telomér",
+          "popisuje neobmedzenú schopnosť delenia imortalizovaných línií",
+          "zodpovedá približne 40 - 60 bunkovým deliacim cyklom"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "positionPercent": 95,
+        "question": "Ktoré tvrdenia o Hayflickovom limite sú správne?"
+      },
+      {
+        "answers": [
+          "ide o mechanizmus, pri ktorom sa delenie zastaví po dosiahnutí monovrstvy a vzájomného kontaktu buniek",
+          "je typická pre normálne adherentné bunky v kultúre",
+          "nádorové bunky tento mechanizmus často strácajú",
+          "v suspenzných kultúrach je hlavnou príčinou zastavenia delenia kontakt bunka – bunka"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "positionPercent": 5,
+        "question": "24. Čo platí o kontaktnej inhibícii bunkového rastu?"
+      },
+      {
+        "answers": [
+          "kontinuálne premiešavanie",
+          "rovnomerný prístup živín a kyslíka",
+          "potiahnutie dna kultivačnej nádoby kolagénom",
+          "zamedzenie agregácie buniek"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "positionPercent": 20,
+        "question": "25. Čo je potrebné zabezpečiť pri udržiavaní suspenzných kultúr?"
+      },
+      {
+        "answers": [
+          "prednostné využívanie aeróbnej glykolýzy (Warburgov efekt)",
+          "vysoká spotreba glukózy",
+          "neaktívny Krebsov cyklus",
+          "využívanie glutamínu alebo jeho derivátov ako zdroja dusíka a uhlíka"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "positionPercent": 35,
+        "question": "26. Ktoré metabolické charakteristiky sú typické pre bunky v kultúre?"
+      },
+      {
+        "answers": [
+          "je fáza, kde bunky v kultúre prežívajú ale už sa nedelia",
+          "je fáza množenia buniek",
+          "je fáza, kedy sa bunky adaptujú na podmienky in vitro",
+          "sa nazýva aj stacionárna fáza"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 50,
+        "question": "27. Log fáza priebehu kultivácie buniek:"
+      },
+      {
+        "answers": [
+          "sa používa pri farbení natívnych preparátov",
+          "sa používa po farbení fixovaných preparátov",
+          "umožňuje hodnotiť vitalitu buniek",
+          "umožňuje archiváciu preparátov"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "positionPercent": 65,
+        "question": "28. Vitálne farbenie:"
+      }
+    ],
+    "title": "Bio 6 - ok"
+  }
+]
