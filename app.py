@@ -379,29 +379,37 @@ Analyzuj obrázok a vráť JSON:"""
 
         # Zavolať OpenAI Vision API
         # Použiť detail: "high" pre lepšiu detekciu pozícií
-        response = client.chat.completions.create(
-            model="gpt-4o",  # Najnovší model s najlepšou vision schopnosťou
-            messages=[
-                {
-                    "role": "user",
-                    "content": [
-                        {"type": "text", "text": prompt},
-                        {
-                            "type": "image_url",
-                            "image_url": {
-                                "url": f"data:image/jpeg;base64,{image_data}",
-                                "detail": "high"  # Vysoké rozlíšenie pre presnejšiu detekciu
+        try:
+            response = client.chat.completions.create(
+                model="gpt-4o",  # Najnovší model s najlepšou vision schopnosťou
+                messages=[
+                    {
+                        "role": "user",
+                        "content": [
+                            {"type": "text", "text": prompt},
+                            {
+                                "type": "image_url",
+                                "image_url": {
+                                    "url": f"data:image/jpeg;base64,{image_data}",
+                                    "detail": "high"  # Vysoké rozlíšenie pre presnejšiu detekciu
+                                }
                             }
-                        }
-                    ]
-                }
-            ],
-            max_tokens=4096,
-            temperature=0.1
-        )
+                        ]
+                    }
+                ],
+                max_tokens=4096,
+                temperature=0.1
+            )
+        except Exception as e:
+            print(f"OpenAI API Error: {str(e)}")
+            return jsonify({
+                'error': f'Chyba pri volaní OpenAI API: {str(e)}'
+            }), 400
 
         # Extrahovať JSON odpoveď
         ai_response = response.choices[0].message.content.strip()
+        print(f"AI Response length: {len(ai_response)} chars")
+        print(f"AI Response preview: {ai_response[:200]}")
 
         # Pokúsiť sa parsovať JSON (ak AI pridalo markdown bloky, odstránime ich)
         if '```json' in ai_response:
