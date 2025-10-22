@@ -476,8 +476,8 @@ function showQuestion() {
     const isMultiple = Array.isArray(question.correct) && question.correct.length > 1;
     const userAnswer = userAnswers[currentQuestionIndex];
 
-    // Ak je už zodpovedané a režim "each", zobraz feedback
-    const showFeedback = questionAnswered && showAnswersMode === 'each';
+    // Ak je už zodpovedané a režim "each" alebo "retry", zobraz feedback
+    const showFeedback = questionAnswered && (showAnswersMode === 'each' || showAnswersMode === 'retry');
 
     let questionHTML = `
         <div class="question">
@@ -561,8 +561,8 @@ function previousQuestion() {
 }
 
 function nextQuestion() {
-    // Ak je režim "each" a ešte nebola ukázaná odpoveď, ukáž feedback
-    if (showAnswersMode === 'each' && !questionAnswered) {
+    // Ak je režim "each" alebo "retry" a ešte nebola ukázaná odpoveď, ukáž feedback
+    if ((showAnswersMode === 'each' || showAnswersMode === 'retry') && !questionAnswered) {
         questionAnswered = true;
         showQuestion(); // Znova vykreslí otázku s vizuálnym feedbackom
         return;
@@ -577,8 +577,8 @@ function nextQuestion() {
 }
 
 function submitTest() {
-    // Ak je režim "each" a posledná otázka nebola ešte ukázaná, ukáž ju najprv
-    if (showAnswersMode === 'each' && !questionAnswered) {
+    // Ak je režim "each" alebo "retry" a posledná otázka nebola ešte ukázaná, ukáž ju najprv
+    if ((showAnswersMode === 'each' || showAnswersMode === 'retry') && !questionAnswered) {
         questionAnswered = true;
         showQuestion();
         // Zmeň tlačidlo Submit na "Dokončiť" po zobrazení feedbacku
