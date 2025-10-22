@@ -11,6 +11,8 @@ let testStartTime = null;
 let showAnswersMode = 'each'; // 'each', 'end', 'retry'
 let questionAnswered = false; // Pre režim 'each' - či už bola ukázaná odpoveď
 let retryStatisticsSaved = false; // Či už boli uložené štatistiky pre retry mode (pri prvom odovzdaní)
+let originalTestQuestionCount = 0; // Pôvodný počet otázok v teste (pred retry)
+let originalTestTitle = ''; // Pôvodný názov testu (bez " (Opakovanie)")
 
 // Načítanie testov pri štarte
 window.onload = function() {
@@ -364,6 +366,10 @@ function startTestWithSettings() {
     // Filtrovať rozsah otázok
     currentTest.questions = currentTest.questions.slice(questionFrom, questionTo);
 
+    // Ulož pôvodný počet otázok a názov (pre retry mode)
+    originalTestQuestionCount = currentTest.questions.length;
+    originalTestTitle = currentTest.title;
+
     if (currentTest.questions.length === 0) {
         alert('Neplatný rozsah otázok!');
         return;
@@ -714,22 +720,49 @@ function showResults() {
     const percentage = Math.round((correctCount / currentTest.questions.length) * 100);
 
     // Uložiť výsledok
-    saveTestResult({
-        testName: currentTest.title,
-        date: new Date().toISOString(),
-        score: correctCount,
-        total: currentTest.questions.length,
-        percentage: percentage
-    });
+    // Ak sme v retry mode a všetky otázky v tomto kole boli správne, ulož výsledok s pôvodným počtom otázok
+    if (retryStatisticsSaved && correctCount === currentTest.questions.length) {
+        // Retry mode skončil úspešne - všetky otázky správne
+        saveTestResult({
+            testName: originalTestTitle,
+            date: new Date().toISOString(),
+            score: originalTestQuestionCount,
+            total: originalTestQuestionCount,
+            percentage: 100
+        });
+    } else {
+        // Normálny režim alebo retry s chybami
+        saveTestResult({
+            testName: currentTest.title,
+            date: new Date().toISOString(),
+            score: correctCount,
+            total: currentTest.questions.length,
+            percentage: percentage
+        });
+    }
 
     document.getElementById('testInterface').style.display = 'none';
     document.getElementById('results').style.display = 'block';
 
+    // Určiť ktorý výsledok zobrazíme - ak je retry mode úspešný, zobraz pôvodný počet
+    const displayScore = (retryStatisticsSaved && correctCount === currentTest.questions.length)
+        ? originalTestQuestionCount
+        : correctCount;
+    const displayTotal = (retryStatisticsSaved && correctCount === currentTest.questions.length)
+        ? originalTestQuestionCount
+        : currentTest.questions.length;
+    const displayPercentage = (retryStatisticsSaved && correctCount === currentTest.questions.length)
+        ? 100
+        : percentage;
+
     // Zobraz výsledky podobne ako learn mode - všetky otázky s odpoveďami
     document.getElementById('resultsContainer').innerHTML = `
         <div class="results-summary">
-            <h3>Výsledok: ${correctCount} / ${currentTest.questions.length}</h3>
-            <p style="font-size: 1.2em; margin-top: 10px;">${percentage}%</p>
+            <h3>Výsledok: ${displayScore} / ${displayTotal}</h3>
+            <p style="font-size: 1.2em; margin-top: 10px;">${displayPercentage}%</p>
+            ${(retryStatisticsSaved && correctCount === currentTest.questions.length)
+                ? '<p style="font-size: 0.9em; color: #4CAF50; margin-top: 5px;">🎉 Všetky otázky správne po opakovaní!</p>'
+                : ''}
         </div>
         ${currentTest.questions.map((question, qIndex) => {
             const userAnswer = userAnswers[qIndex];
