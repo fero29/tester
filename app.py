@@ -24,14 +24,49 @@ tests = []
 # Cesta k priečinku s testami
 TESTS_DIR = os.path.join(os.path.dirname(__file__), 'testy')
 
+# Vytvoriť priečinok ak neexistuje
+if not os.path.exists(TESTS_DIR):
+    os.makedirs(TESTS_DIR)
+    print(f"Vytvorený priečinok: {TESTS_DIR}")
+
 @app.route('/')
 def index():
     return render_template('index.html')
 
 @app.route('/api/tests', methods=['GET'])
 def get_tests():
-    """Vráti zoznam všetkých testov"""
-    return jsonify(tests)
+    """Vráti zoznam všetkých testov - automaticky načíta z priečinka testy/"""
+    try:
+        # Vymazať existujúce testy
+        tests.clear()
+
+        # Načítať všetky JSON súbory z priečinka
+        json_files = glob.glob(os.path.join(TESTS_DIR, '*.json'))
+
+        if json_files:
+            for filepath in json_files:
+                try:
+                    filename = os.path.basename(filepath)
+                    with open(filepath, 'r', encoding='utf-8') as f:
+                        data = json.load(f)
+
+                        # Validácia formátu
+                        if isinstance(data, list):
+                            # Pridať filename k každému testu v array
+                            for test in data:
+                                test['filename'] = filename
+                            tests.extend(data)
+                        else:
+                            # Pridať filename k testu
+                            data['filename'] = filename
+                            tests.append(data)
+                except Exception as e:
+                    print(f"Chyba pri načítaní {filename}: {str(e)}")
+
+        return jsonify(tests)
+    except Exception as e:
+        print(f"Chyba pri načítaní testov: {str(e)}")
+        return jsonify([])
 
 @app.route('/api/import', methods=['POST'])
 def import_tests():

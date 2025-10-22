@@ -1523,6 +1523,50 @@ function displayEditQuestions() {
     });
 }
 
+// Debounce timeout pre autosave
+let autosaveTimeout = null;
+
+// Automatické uloženie zmien
+async function autoSaveEditedTest() {
+    if (!editingFilename || !editingTestData) return;
+
+    try {
+        const testData = Array.isArray(editingTestData) ? editingTestData[0] : editingTestData;
+
+        // Aktualizovať názov a popis z input polí
+        testData.title = document.getElementById('editTestTitle').value.trim();
+        testData.description = document.getElementById('editTestDesc').value.trim();
+
+        const response = await fetch(`/api/update-test/${encodeURIComponent(editingFilename)}`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                data: Array.isArray(editingTestData) ? editingTestData : [editingTestData]
+            })
+        });
+
+        const result = await response.json();
+
+        if (result.success) {
+            // Ak bol súbor premenovaný, aktualizovať názov
+            if (result.renamed && result.filename) {
+                editingFilename = result.filename;
+            }
+            console.log('✓ Zmeny automaticky uložené');
+        }
+    } catch (error) {
+        console.error('Chyba pri automatickom ukladaní:', error);
+    }
+}
+
+// Debounce funkcia pre autosave (čaká 1 sekundu po poslednej zmene)
+function triggerAutosave() {
+    if (autosaveTimeout) {
+        clearTimeout(autosaveTimeout);
+    }
+    autosaveTimeout = setTimeout(autoSaveEditedTest, 1000);
+}
+
 function toggleEditCorrect(qIndex, aIndex) {
     const testData = Array.isArray(editingTestData) ? editingTestData[0] : editingTestData;
     if (testData.questions[qIndex]) {
@@ -1538,6 +1582,8 @@ function toggleEditCorrect(qIndex, aIndex) {
         } else {
             correctArray.push(aIndex);
         }
+
+        triggerAutosave();
     }
 }
 
@@ -1545,6 +1591,7 @@ function updateEditQuestion(qIndex, field, value) {
     const testData = Array.isArray(editingTestData) ? editingTestData[0] : editingTestData;
     if (testData.questions[qIndex]) {
         testData.questions[qIndex][field] = value;
+        triggerAutosave();
     }
 }
 
@@ -1552,6 +1599,7 @@ function updateEditAnswer(qIndex, aIndex, value) {
     const testData = Array.isArray(editingTestData) ? editingTestData[0] : editingTestData;
     if (testData.questions[qIndex]) {
         testData.questions[qIndex].answers[aIndex] = value;
+        triggerAutosave();
     }
 }
 

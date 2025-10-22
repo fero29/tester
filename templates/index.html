@@ -10,7 +10,7 @@
     <div class="container">
         <div class="app-header">
             <h1 onclick="backToList()" style="cursor: pointer;" title="Späť na hlavnú stránku">AI Tester</h1>
-            <span class="version-badge" onclick="showVersionInfo()" style="cursor: pointer;" title="Kliknite pre info">v1.3.17</span>
+            <span class="version-badge" onclick="showVersionInfo()" style="cursor: pointer;" title="Kliknite pre info">v1.3.18</span>
         </div>
 
         <!-- Zoznam testov -->
@@ -32,7 +32,7 @@
 
         <!-- Verzia Info -->
         <div id="versionPage" style="display: none;">
-            <h2>ℹ️ AI Tester v1.3.17</h2>
+            <h2>ℹ️ AI Tester v1.3.18</h2>
 
             <div class="help-section">
                 <h3>🎯 Hlavné funkcie</h3>
@@ -51,7 +51,17 @@
             </div>
 
             <div class="help-section">
-                <h3>🆕 Novinky v1.3.17</h3>
+                <h3>🆕 Novinky v1.3.18</h3>
+                <ul>
+                    <li>⚡ <strong>Automatické načítanie testov</strong> - Testy sa načítajú automaticky pri otvorení aplikácie</li>
+                    <li>❌ <strong>Odstránené tlačidlo "Automaticky načítať"</strong> - Už nie je potrebné</li>
+                    <li>💾 <strong>Autosave pri úprave testov</strong> - Zmeny sa automaticky ukladajú po 1 sekunde od poslednej úpravy</li>
+                    <li>📁 <strong>Automatické vytvorenie priečinka testy/</strong> - Vytvorí sa ak neexistuje</li>
+                </ul>
+            </div>
+
+            <div class="help-section">
+                <h3>Novinky v1.3.17</h3>
                 <ul>
                     <li>📝 <strong>Automatické premenovanie súboru</strong> - Pri zmene názvu testu sa automaticky premenuje aj súbor</li>
                     <li>🛡️ <strong>Testy nie sú v git</strong> - Priečinok testy/ je pridaný do .gitignore, vaše testy sa neprepíšu pri update</li>
@@ -244,8 +254,8 @@
                 <p><strong>Spôsob 1: Automatické načítanie (odporúčané)</strong></p>
                 <ol>
                     <li>Vložte JSON súbory s testami do priečinka <code>testy/</code></li>
-                    <li>V aplikácii kliknite na "📁 Import testov"</li>
-                    <li>Kliknite na "📂 Automaticky načítať všetky testy"</li>
+                    <li>Testy sa automaticky načítajú pri otvorení aplikácie</li>
+                    <li>Nie je potrebné žiadne tlačidlo - stačí obnoviť stránku</li>
                 </ol>
 
                 <p><strong>Spôsob 2: Manuálne nahratie</strong></p>
@@ -321,10 +331,9 @@
             <h2>Import testov</h2>
 
             <div class="import-section">
-                <h3>Automatické načítanie z priečinka <code>testy/</code></h3>
-                <p class="import-info">Načíta všetky JSON súbory z priečinka <code>testy/</code> v projektovom priečinku</p>
-                <div id="filesList" class="files-list"></div>
-                <button onclick="loadFromFolder()" class="btn-auto">📂 Automaticky načítať všetky testy</button>
+                <h3>Načítanie z priečinka <code>testy/</code></h3>
+                <p class="import-info">Testy sa automaticky načítajú z priečinka <code>testy/</code></p>
+                <p class="import-info">✓ Jednoducho vložte JSON súbory do priečinka <code>testy/</code> a obnovte stránku</p>
                 <button onclick="showExample()" class="btn-info">📖 Zobraziť príklad formátu</button>
             </div>
 
@@ -470,11 +479,11 @@
                 <div class="ai-suggestions">
                     <div class="suggestion-row">
                         <label>Názov testu:</label>
-                        <input type="text" id="editTestTitle" class="ai-input">
+                        <input type="text" id="editTestTitle" class="ai-input" oninput="triggerAutosave()">
                     </div>
                     <div class="suggestion-row">
                         <label>Popis:</label>
-                        <input type="text" id="editTestDesc" class="ai-input">
+                        <input type="text" id="editTestDesc" class="ai-input" oninput="triggerAutosave()">
                     </div>
                 </div>
 
@@ -544,7 +553,7 @@
                     <pre><code>1. Vytvorte súbor: testy/moj_test.json
 2. Skopírujte vyššie uvedený formát
 3. Upravte otázky a odpovede
-4. Kliknite "Automaticky načítať" v aplikácii</code></pre>
+4. Obnovte stránku - test sa automaticky načíta</code></pre>
                 </div>
             </div>
 
@@ -637,6 +646,6 @@
         </div>
     </div>
 
-    <script src="{{ url_for('static', filename='app.js') }}?v=1.3.17"></script>
+    <script src="{{ url_for('static', filename='app.js') }}?v=1.3.18"></script>
 </body>
 </html>
