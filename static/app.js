@@ -906,12 +906,12 @@ async function previewImages(input) {
                     indexLabel.textContent = i + 1;
 
                     const imgContainer = document.createElement('div');
-                    imgContainer.style.position = 'relative';
+                    imgContainer.style.cssText = 'position: relative; min-height: 200px; display: flex; align-items: center; justify-content: center;';
                     imgContainer.appendChild(previewImg);
                     imgContainer.appendChild(indexLabel);
 
                     const buttonContainer = document.createElement('div');
-                    buttonContainer.style.cssText = 'margin-top: 8px; display: flex; gap: 5px;';
+                    buttonContainer.style.cssText = 'margin-top: 15px; display: flex; gap: 5px;';
 
                     const rotateBtn = document.createElement('button');
                     rotateBtn.className = 'btn-small';
