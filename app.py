@@ -70,7 +70,7 @@ def get_tests():
 
 @app.route('/api/import', methods=['POST'])
 def import_tests():
-    """Importuje testy zo súboru"""
+    """Importuje testy zo súboru a uloží ich do priečinka testy/"""
     try:
         file = request.files.get('file')
         if not file:
@@ -78,13 +78,33 @@ def import_tests():
 
         data = json.load(file)
 
-        # Validácia formátu
+        # Validácia formátu a uloženie do súborov
+        saved_count = 0
         if isinstance(data, list):
-            tests.extend(data)
-        else:
-            tests.append(data)
+            # Array testov
+            for test in data:
+                if 'title' in test:
+                    filename = f"{test['title']}.json"
+                    filepath = os.path.join(TESTS_DIR, filename)
 
-        return jsonify({'success': True, 'count': len(tests)})
+                    # Uložiť test ako array (konzistentný formát)
+                    with open(filepath, 'w', encoding='utf-8') as f:
+                        json.dump([test], f, ensure_ascii=False, indent=2)
+                    saved_count += 1
+                    print(f"Uložený test: {test['title']}")
+        else:
+            # Jeden test
+            if 'title' in data:
+                filename = f"{data['title']}.json"
+                filepath = os.path.join(TESTS_DIR, filename)
+
+                # Uložiť test ako array (konzistentný formát)
+                with open(filepath, 'w', encoding='utf-8') as f:
+                    json.dump([data], f, ensure_ascii=False, indent=2)
+                saved_count += 1
+                print(f"Uložený test: {data['title']}")
+
+        return jsonify({'success': True, 'count': saved_count})
     except Exception as e:
         return jsonify({'error': str(e)}), 400
 
