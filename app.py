@@ -595,9 +595,33 @@ def update_test(filename):
         if not test_data:
             return jsonify({'error': 'Chýbajúce údaje'}), 400
 
+        # Získať nový názov testu (z prvého testu v array alebo priamo z objektu)
+        if isinstance(test_data, list) and len(test_data) > 0:
+            new_test_title = test_data[0].get('title', '')
+        else:
+            new_test_title = test_data.get('title', '')
+
+        # Vytvoriť nový názov súboru na základe názvu testu
+        new_filename = f"{new_test_title}.json"
+        new_filepath = os.path.join(TESTS_DIR, new_filename)
+
         # Uložiť aktualizovaný test
         with open(filepath, 'w', encoding='utf-8') as f:
             json.dump(test_data, f, ensure_ascii=False, indent=2)
+
+        # Ak sa zmenil názov súboru, premenovať
+        if filename != new_filename and new_test_title:
+            if os.path.exists(new_filepath) and new_filepath != filepath:
+                # Súbor s novým názvom už existuje
+                return jsonify({'error': f'Test s názvom "{new_test_title}" už existuje'}), 400
+
+            os.rename(filepath, new_filepath)
+            print(f"Test premenovaný: {filename} → {new_filename}")
+            return jsonify({
+                'success': True,
+                'filename': new_filename,
+                'renamed': True
+            })
 
         return jsonify({
             'success': True,

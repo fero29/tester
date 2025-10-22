@@ -1,5 +1,8 @@
 .claude
 
+# Testy - lokálne súbory, neprepísať pri update
+testy/
+
 # Certbot certifikáty a kľúče
 certbot/
 
