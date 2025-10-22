@@ -126,6 +126,60 @@ function showImportPage() {
     document.querySelector('.section').style.display = 'none';
     document.getElementById('importPage').style.display = 'block';
     loadFilesList();
+    loadExistingTestsList();
+}
+
+async function loadExistingTestsList() {
+    try {
+        const response = await fetch('/api/tests');
+        const testsList = await response.json();
+        const container = document.getElementById('existingTestsContent');
+
+        if (!testsList || testsList.length === 0) {
+            container.innerHTML = '<p style="color: #999; text-align: center; font-style: italic;">Žiadne testy v priečinku</p>';
+            return;
+        }
+
+        // Zoskupiť podľa filename (každý súbor môže obsahovať viac testov)
+        const fileGroups = {};
+        testsList.forEach(test => {
+            const filename = test.filename || 'Neznámy súbor';
+            if (!fileGroups[filename]) {
+                fileGroups[filename] = [];
+            }
+            fileGroups[filename].push(test);
+        });
+
+        let html = '';
+        Object.keys(fileGroups).sort().forEach(filename => {
+            const tests = fileGroups[filename];
+            const totalQuestions = tests.reduce((sum, test) => sum + (test.questions?.length || 0), 0);
+
+            html += `
+                <div style="padding: 10px; margin-bottom: 8px; background: white; border-radius: 6px; border-left: 4px solid #2196F3;">
+                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <strong style="color: #333;">${tests[0].title || filename}</strong>
+                            <div style="font-size: 0.85em; color: #666; margin-top: 4px;">
+                                📄 ${filename}
+                            </div>
+                        </div>
+                        <div style="text-align: right;">
+                            <span style="background: #2196F3; color: white; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: bold;">
+                                ${totalQuestions} otázok
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            `;
+        });
+
+        container.innerHTML = html;
+    } catch (error) {
+        console.error('Chyba pri načítaní testov:', error);
+        document.getElementById('existingTestsContent').innerHTML =
+            '<p style="color: #f44336; text-align: center;">Chyba pri načítaní zoznamu testov</p>';
+    }
 }
 
 async function loadFilesList() {
@@ -224,6 +278,7 @@ async function importTests() {
         if (result.success) {
             alert('Testy úspešne nahrané!');
             loadTests();
+            loadExistingTestsList();
             fileInput.value = '';
             backToList();
         } else {

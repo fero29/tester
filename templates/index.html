@@ -10,7 +10,7 @@
     <div class="container">
         <div class="app-header">
             <h1 onclick="backToList()" style="cursor: pointer;" title="Späť na hlavnú stránku">AI Tester</h1>
-            <span class="version-badge" onclick="showVersionInfo()" style="cursor: pointer;" title="Kliknite pre info">v1.3.20</span>
+            <span class="version-badge" onclick="showVersionInfo()" style="cursor: pointer;" title="Kliknite pre info">v1.3.21</span>
         </div>
 
         <!-- Zoznam testov -->
@@ -32,7 +32,7 @@
 
         <!-- Verzia Info -->
         <div id="versionPage" style="display: none;">
-            <h2>ℹ️ AI Tester v1.3.20</h2>
+            <h2>ℹ️ AI Tester v1.3.21</h2>
 
             <div class="help-section">
                 <h3>🎯 Hlavné funkcie</h3>
@@ -51,7 +51,15 @@
             </div>
 
             <div class="help-section">
-                <h3>🆕 Novinky v1.3.20</h3>
+                <h3>🆕 Novinky v1.3.21</h3>
+                <ul>
+                    <li>📚 <strong>Zoznam testov pri importe</strong> - Zobrazuje všetky testy v priečinku s názvom a počtom otázok</li>
+                    <li>👀 <strong>Prehľad existujúcich testov</strong> - Pri otvorení "📁 Import testov" vidíte čo už máte</li>
+                </ul>
+            </div>
+
+            <div class="help-section">
+                <h3>Novinky v1.3.20</h3>
                 <ul>
                     <li>💾 <strong>Oprava importu testov</strong> - Nahrané testy sa teraz ukladajú do priečinka testy/ a zostanú tam trvale</li>
                     <li>📁 <strong>Trvalé uloženie</strong> - Import cez "📁 Import testov" teraz funguje správne</li>
@@ -351,7 +359,15 @@
                 <h3>Načítanie z priečinka <code>testy/</code></h3>
                 <p class="import-info">Testy sa automaticky načítajú z priečinka <code>testy/</code></p>
                 <p class="import-info">✓ Jednoducho vložte JSON súbory do priečinka <code>testy/</code> a obnovte stránku</p>
-                <button onclick="showExample()" class="btn-info">📖 Zobraziť príklad formátu</button>
+
+                <div id="existingTestsList" style="margin-top: 20px;">
+                    <h4 style="margin-bottom: 10px; color: #2196F3;">📚 Testy v priečinku:</h4>
+                    <div id="existingTestsContent" style="max-height: 300px; overflow-y: auto; border: 1px solid #ddd; border-radius: 8px; padding: 10px; background: #f9f9f9;">
+                        <p style="color: #666; text-align: center;">Načítavam...</p>
+                    </div>
+                </div>
+
+                <button onclick="showExample()" class="btn-info" style="margin-top: 15px;">📖 Zobraziť príklad formátu</button>
             </div>
 
             <div class="import-divider">ALEBO</div>

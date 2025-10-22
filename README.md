@@ -1,4 +1,4 @@
-# AI Tester v1.3.20
+# AI Tester v1.3.21
 
 Inteligentná webová aplikácia na vytváranie a absolvovanie testov s podporou AI importu otázok z fotiek.
 
