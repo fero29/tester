@@ -8,7 +8,7 @@ let testMode = 'test'; // 'test' alebo 'learn'
 let timerInterval = null;
 let timeLeft = 0;
 let testStartTime = null;
-let showAnswersMode = 'none'; // 'none', 'each', 'end'
+let showAnswersMode = 'each'; // 'each', 'end', 'retry'
 let questionAnswered = false; // Pre režim 'each' - či už bola ukázaná odpoveď
 
 // Načítanie testov pri štarte
@@ -596,6 +596,50 @@ function submitTest() {
         }
     }
 
+    // Režim "retry" - opakuj nesprávne otázky
+    if (showAnswersMode === 'retry') {
+        const incorrectQuestions = [];
+
+        currentTest.questions.forEach((question, index) => {
+            const userAnswer = userAnswers[index];
+            const isMultiple = Array.isArray(question.correct) && question.correct.length > 1;
+            let correct = false;
+
+            if (isMultiple) {
+                const sortedUser = userAnswer ? [...userAnswer].sort() : [];
+                const sortedCorrect = [...question.correct].sort();
+                correct = JSON.stringify(sortedUser) === JSON.stringify(sortedCorrect);
+            } else {
+                const correctAnswer = Array.isArray(question.correct) ? question.correct[0] : question.correct;
+                correct = userAnswer.length === 1 && userAnswer[0] === correctAnswer;
+            }
+
+            if (!correct) {
+                incorrectQuestions.push({ question, originalIndex: index });
+            }
+        });
+
+        // Ak sú nesprávne otázky, opakuj ich
+        if (incorrectQuestions.length > 0) {
+            alert(`Máte ${incorrectQuestions.length} nesprávnych odpovedí. Budete ich teraz opakovať.`);
+
+            // Vytvor nový test len s nesprávnymi otázkami
+            const retryTest = {
+                title: currentTest.title + ' (Opakovanie)',
+                questions: incorrectQuestions.map(item => item.question)
+            };
+
+            currentTest = retryTest;
+            currentQuestionIndex = 0;
+            userAnswers = currentTest.questions.map(q => []);
+            questionAnswered = false;
+
+            document.getElementById('submitBtn').textContent = 'Odovzdať test';
+            showQuestion();
+            return;
+        }
+    }
+
     // Zastaviť časovač
     if (timerInterval) {
         clearInterval(timerInterval);
@@ -694,31 +738,18 @@ function showResults() {
                             let cssClass = '';
                             let label = '';
 
-                            if (showAnswersMode === 'end' || showAnswersMode === 'each') {
-                                // Zobraz detailný feedback
-                                if (isCorrect && isUserAnswer) {
-                                    cssClass = 'result-answer-correct-selected';
-                                    label = ' ✓ SPRÁVNE - Vaša odpoveď';
-                                } else if (isCorrect && !isUserAnswer) {
-                                    cssClass = 'result-answer-correct-missed';
-                                    label = ' ✓ SPRÁVNE';
-                                } else if (!isCorrect && isUserAnswer) {
-                                    cssClass = 'result-answer-wrong-selected';
-                                    label = ' ✗ NESPRÁVNE - Vaša odpoveď';
-                                } else {
-                                    cssClass = 'result-answer-neutral';
-                                }
+                            // Zobraz detailný feedback (všetky režimy)
+                            if (isCorrect && isUserAnswer) {
+                                cssClass = 'result-answer-correct-selected';
+                                label = ' ✓ SPRÁVNE - Vaša odpoveď';
+                            } else if (isCorrect && !isUserAnswer) {
+                                cssClass = 'result-answer-correct-missed';
+                                label = ' ✓ SPRÁVNE';
+                            } else if (!isCorrect && isUserAnswer) {
+                                cssClass = 'result-answer-wrong-selected';
+                                label = ' ✗ NESPRÁVNE - Vaša odpoveď';
                             } else {
-                                // Režim "none" - zobraz len nesprávne
-                                if (!questionCorrect && isCorrect) {
-                                    cssClass = 'result-answer-correct-missed';
-                                    label = ' ✓ SPRÁVNE';
-                                } else if (isUserAnswer) {
-                                    cssClass = 'result-answer-user-selected';
-                                    label = ' - Vaša odpoveď';
-                                } else {
-                                    cssClass = 'result-answer-neutral';
-                                }
+                                cssClass = 'result-answer-neutral';
                             }
 
                             return `
@@ -776,7 +807,7 @@ function backToList() {
     document.querySelector('.section').style.display = 'block';
     currentTest = null;
     testMode = 'test';
-    showAnswersMode = 'none';
+    showAnswersMode = 'each';
     questionAnswered = false;
 
     // Odznačiť všetky checkboxy

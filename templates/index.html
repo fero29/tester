@@ -10,7 +10,7 @@
     <div class="container">
         <div class="app-header">
             <h1 onclick="backToList()" style="cursor: pointer;" title="Späť na hlavnú stránku">AI Tester</h1>
-            <span class="version-badge" onclick="showVersionInfo()" style="cursor: pointer;" title="Kliknite pre info">v1.3.21</span>
+            <span class="version-badge" onclick="showVersionInfo()" style="cursor: pointer;" title="Kliknite pre info">v1.3.22</span>
         </div>
 
         <!-- Zoznam testov -->
@@ -32,7 +32,7 @@
 
         <!-- Verzia Info -->
         <div id="versionPage" style="display: none;">
-            <h2>ℹ️ AI Tester v1.3.21</h2>
+            <h2>ℹ️ AI Tester v1.3.22</h2>
 
             <div class="help-section">
                 <h3>🎯 Hlavné funkcie</h3>
@@ -51,7 +51,16 @@
             </div>
 
             <div class="help-section">
-                <h3>🆕 Novinky v1.3.21</h3>
+                <h3>🆕 Novinky v1.3.22</h3>
+                <ul>
+                    <li>🔄 <strong>Nový režim: Opakovať nesprávne otázky</strong> - Nesprávne odpovede sa automaticky opakujú až kým neodpoviete správne</li>
+                    <li>❌ <strong>Odstránené "Nezobrazovať odpovede"</strong> - Zbytočná možnosť bola vymazaná</li>
+                    <li>✅ <strong>Predvolené zobrazenie po každej otázke</strong> - Lepšia predvolená voľba pre učenie</li>
+                </ul>
+            </div>
+
+            <div class="help-section">
+                <h3>Novinky v1.3.21</h3>
                 <ul>
                     <li>📚 <strong>Zoznam testov pri importe</strong> - Zobrazuje všetky testy v priečinku s názvom a počtom otázok</li>
                     <li>👀 <strong>Prehľad existujúcich testov</strong> - Pri otvorení "📁 Import testov" vidíte čo už máte</li>
@@ -300,7 +309,7 @@
                             <li><strong>Časový limit:</strong> 20/30/60 minút alebo bez limitu</li>
                             <li><strong>Rozsah otázok:</strong> Vyberte od-do ktorej otázky chcete absolvovať</li>
                             <li><strong>Poradie:</strong> Po poradí alebo zamixované</li>
-                            <li><strong>Zobrazenie odpovedí:</strong> Nezobrazovať / Po každej otázke / Na konci testu</li>
+                            <li><strong>Zobrazenie odpovedí:</strong> Po každej otázke / Na konci testu / Opakovať nesprávne</li>
                         </ul>
                     </li>
                     <li>Kliknite na "Spustiť test" alebo "Režim učenia"</li>
@@ -628,13 +637,13 @@
             <div class="settings-group">
                 <h3>Zobrazenie správnych odpovedí</h3>
                 <label>
-                    <input type="radio" name="showAnswers" value="none" checked> Nezobrazovať
-                </label>
-                <label>
-                    <input type="radio" name="showAnswers" value="each"> Po každej otázke
+                    <input type="radio" name="showAnswers" value="each" checked> Po každej otázke
                 </label>
                 <label>
                     <input type="radio" name="showAnswers" value="end"> Na konci testu
+                </label>
+                <label>
+                    <input type="radio" name="showAnswers" value="retry"> Opakovať nesprávne otázky
                 </label>
             </div>
 
