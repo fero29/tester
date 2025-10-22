@@ -10,6 +10,7 @@ let timeLeft = 0;
 let testStartTime = null;
 let showAnswersMode = 'each'; // 'each', 'end', 'retry'
 let questionAnswered = false; // Pre režim 'each' - či už bola ukázaná odpoveď
+let retryStatisticsSaved = false; // Či už boli uložené štatistiky pre retry mode (pri prvom odovzdaní)
 
 // Načítanie testov pri štarte
 window.onload = function() {
@@ -357,6 +358,7 @@ function startTestWithSettings() {
 
     testMode = 'test';
     questionAnswered = false;
+    retryStatisticsSaved = false; // Reset pre nový test
     currentTest = JSON.parse(JSON.stringify(tests[selectedTestIndex])); // Deep copy
 
     // Filtrovať rozsah otázok
@@ -593,6 +595,7 @@ function submitTest() {
     // Režim "retry" - opakuj nesprávne otázky
     if (showAnswersMode === 'retry') {
         const incorrectQuestions = [];
+        let correctCount = 0;
 
         currentTest.questions.forEach((question, index) => {
             const userAnswer = userAnswers[index];
@@ -608,18 +611,43 @@ function submitTest() {
                 correct = userAnswer.length === 1 && userAnswer[0] === correctAnswer;
             }
 
-            if (!correct) {
+            if (correct) {
+                correctCount++;
+            } else {
                 incorrectQuestions.push({ question, originalIndex: index });
             }
         });
 
         // Ak sú nesprávne otázky, opakuj ich
         if (incorrectQuestions.length > 0) {
+            // Ulož štatistiky po prvom odovzdaní (iba raz)
+            if (!retryStatisticsSaved) {
+                const totalQuestions = currentTest.questions.length;
+                const percentage = Math.round((correctCount / totalQuestions) * 100);
+
+                // Zisti pôvodný názov testu (bez " (Opakovanie)")
+                const originalTitle = currentTest.title.replace(' (Opakovanie)', '');
+
+                saveTestResult({
+                    testName: originalTitle,
+                    date: new Date().toISOString(),
+                    score: correctCount,
+                    total: totalQuestions,
+                    percentage: percentage
+                });
+
+                retryStatisticsSaved = true;
+                displayTestList(); // Obnoviť zobrazenie testov so štatistikami
+                console.log(`Štatistiky uložené: ${correctCount}/${totalQuestions} (${percentage}%)`);
+            }
+
             alert(`Máte ${incorrectQuestions.length} nesprávnych odpovedí. Budete ich teraz opakovať.`);
 
             // Vytvor nový test len s nesprávnymi otázkami
             const retryTest = {
-                title: currentTest.title + ' (Opakovanie)',
+                title: currentTest.title.includes('(Opakovanie)')
+                    ? currentTest.title
+                    : currentTest.title + ' (Opakovanie)',
                 questions: incorrectQuestions.map(item => item.question)
             };
 
