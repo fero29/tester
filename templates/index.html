@@ -10,7 +10,7 @@
     <div class="container">
         <div class="app-header">
             <h1 onclick="backToList()" style="cursor: pointer;" title="Späť na hlavnú stránku">AI Tester</h1>
-            <span class="version-badge" onclick="showVersionInfo()" style="cursor: pointer;" title="Kliknite pre info">v1.3.26</span>
+            <span class="version-badge" onclick="showVersionInfo()" style="cursor: pointer;" title="Kliknite pre info">v1.3.27</span>
         </div>
 
         <!-- Zoznam testov -->
@@ -36,7 +36,7 @@
 
         <!-- Verzia Info -->
         <div id="versionPage" style="display: none;">
-            <h2>ℹ️ AI Tester v1.3.26</h2>
+            <h2>ℹ️ AI Tester v1.3.27</h2>
 
             <div class="help-section">
                 <h3>🎯 Hlavné funkcie</h3>
@@ -48,14 +48,24 @@
                     <li><strong>✅ Viacero správnych odpovedí</strong> - Podpora otázok s viacerými správnymi odpoveďami</li>
                     <li><strong>📊 Štatistiky</strong> - Sledovanie výsledkov, priemernej úspešnosti</li>
                     <li><strong>⏱️ Časový limit</strong> - 20/30/60 minút alebo bez limitu</li>
-                    <li><strong>🎲 Mixovanie otázok</strong> - Náhodné poradie pre lepšiu prax</li>
+                    <li><strong>🎲 Mixovanie otázok aj odpovedí</strong> - Náhodné poradie otázok aj odpovedí pre ešte lepšiu prípravu</li>
+                    <li><strong>🎯 Náhodný výber otázok</strong> - Vyber si napr. 20 náhodných otázok z testu</li>
                     <li><strong>📚 Režim učenia</strong> - Prezeranie všetkých otázok so správnymi odpoveďami</li>
                     <li><strong>🔄 Zlučovanie testov</strong> - Možnosť absolvovať viac testov naraz</li>
                 </ul>
             </div>
 
             <div class="help-section">
-                <h3>🆕 Novinky v1.3.26</h3>
+                <h3>🆕 Novinky v1.3.27</h3>
+                <ul>
+                    <li>🎲 <strong>Mixovanie odpovedí</strong> - Pri mixovaní sa teraz zamixujú aj odpovede v otázkach!</li>
+                    <li>🎯 <strong>Náhodný výber otázok</strong> - Nová možnosť vybrať N náhodných otázok (napr. 20 z 50)</li>
+                    <li>⚡ <strong>Lepšia príprava</strong> - Nemôžeš sa naučiť poradie odpovedí, každé spustenie je iné</li>
+                </ul>
+            </div>
+
+            <div class="help-section">
+                <h3>Novinky v1.3.26</h3>
                 <ul>
                     <li>🎉 <strong>Finálny výsledok po retry</strong> - Po úspešnom opakovaní sa zobrazí a uloží 100% výsledok</li>
                     <li>📊 <strong>Správne štatistiky</strong> - Finálna štatistika zobrazuje pôvodný počet otázok (napr. 20/20, nie 5/5)</li>
@@ -656,9 +666,20 @@
             </div>
 
             <div class="settings-group">
-                <h3>Rozsah otázok</h3>
-                <label>Od otázky: <input type="number" id="questionFrom" value="1" min="1"></label>
-                <label>Do otázky: <input type="number" id="questionTo" value="999" min="1"></label>
+                <h3>Výber otázok</h3>
+                <label>
+                    <input type="radio" name="questionMode" value="range" checked onchange="toggleQuestionMode()"> Rozsah otázok
+                </label>
+                <div id="rangeInputs" style="margin-left: 20px; margin-top: 10px;">
+                    <label>Od otázky: <input type="number" id="questionFrom" value="1" min="1"></label>
+                    <label>Do otázky: <input type="number" id="questionTo" value="999" min="1"></label>
+                </div>
+                <label style="margin-top: 10px;">
+                    <input type="radio" name="questionMode" value="random" onchange="toggleQuestionMode()"> Náhodný výber
+                </label>
+                <div id="randomInputs" style="margin-left: 20px; margin-top: 10px; display: none;">
+                    <label>Počet otázok: <input type="number" id="randomCount" value="20" min="1"></label>
+                </div>
             </div>
 
             <div class="settings-group">

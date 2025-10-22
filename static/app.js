@@ -349,13 +349,14 @@ function showTestSettings(index) {
     document.getElementById('questionTo').value = totalQuestions;
     document.getElementById('questionTo').max = totalQuestions;
     document.getElementById('questionFrom').max = totalQuestions;
+    document.getElementById('randomCount').max = totalQuestions;
+    document.getElementById('randomCount').value = Math.min(20, totalQuestions);
 }
 
 function startTestWithSettings() {
     const timeLimit = parseInt(document.querySelector('input[name="time"]:checked').value);
     const shuffle = document.querySelector('input[name="shuffle"]:checked').value === 'true';
-    const questionFrom = parseInt(document.getElementById('questionFrom').value) - 1;
-    const questionTo = parseInt(document.getElementById('questionTo').value);
+    const questionMode = document.querySelector('input[name="questionMode"]:checked').value;
     showAnswersMode = document.querySelector('input[name="showAnswers"]:checked').value;
 
     testMode = 'test';
@@ -363,8 +364,17 @@ function startTestWithSettings() {
     retryStatisticsSaved = false; // Reset pre nový test
     currentTest = JSON.parse(JSON.stringify(tests[selectedTestIndex])); // Deep copy
 
-    // Filtrovať rozsah otázok
-    currentTest.questions = currentTest.questions.slice(questionFrom, questionTo);
+    // Výber otázok podľa módu
+    if (questionMode === 'range') {
+        // Rozsah otázok
+        const questionFrom = parseInt(document.getElementById('questionFrom').value) - 1;
+        const questionTo = parseInt(document.getElementById('questionTo').value);
+        currentTest.questions = currentTest.questions.slice(questionFrom, questionTo);
+    } else {
+        // Náhodný výber
+        const randomCount = parseInt(document.getElementById('randomCount').value);
+        currentTest.questions = getRandomQuestions(currentTest.questions, randomCount);
+    }
 
     // Ulož pôvodný počet otázok a názov (pre retry mode)
     originalTestQuestionCount = currentTest.questions.length;
@@ -375,9 +385,13 @@ function startTestWithSettings() {
         return;
     }
 
-    // Mixáž otázok
+    // Mixáž otázok a odpovedí
     if (shuffle) {
+        // Zamixuj poradie otázok
         currentTest.questions = shuffleArray(currentTest.questions);
+
+        // Zamixuj aj odpovede v každej otázke
+        currentTest.questions = currentTest.questions.map(question => shuffleAnswers(question));
     }
 
     currentQuestionIndex = 0;
@@ -444,6 +458,58 @@ function shuffleArray(array) {
         [arr[i], arr[j]] = [arr[j], arr[i]];
     }
     return arr;
+}
+
+function toggleQuestionMode() {
+    const mode = document.querySelector('input[name="questionMode"]:checked').value;
+    if (mode === 'range') {
+        document.getElementById('rangeInputs').style.display = 'block';
+        document.getElementById('randomInputs').style.display = 'none';
+    } else {
+        document.getElementById('rangeInputs').style.display = 'none';
+        document.getElementById('randomInputs').style.display = 'block';
+    }
+}
+
+function shuffleAnswers(question) {
+    // Vytvor kópiu otázky
+    const shuffledQuestion = JSON.parse(JSON.stringify(question));
+
+    // Vytvor mapu starých indexov na nové
+    const indexMap = {};
+    const shuffledAnswers = [];
+    const indices = question.answers.map((_, i) => i);
+
+    // Zamixuj indexy
+    const shuffledIndices = shuffleArray(indices);
+
+    // Preusporiadaj odpovede a vytvor mapu
+    shuffledIndices.forEach((oldIndex, newIndex) => {
+        shuffledAnswers[newIndex] = question.answers[oldIndex];
+        indexMap[oldIndex] = newIndex;
+    });
+
+    shuffledQuestion.answers = shuffledAnswers;
+
+    // Aktualizuj správne odpovede
+    if (Array.isArray(question.correct)) {
+        shuffledQuestion.correct = question.correct.map(oldIndex => indexMap[oldIndex]);
+    } else {
+        shuffledQuestion.correct = indexMap[question.correct];
+    }
+
+    return shuffledQuestion;
+}
+
+function getRandomQuestions(questions, count) {
+    // Ak chceme viac otázok ako je dostupných, vráť všetky
+    if (count >= questions.length) {
+        return shuffleArray(questions);
+    }
+
+    // Náhodný výber N otázok
+    const shuffled = shuffleArray(questions);
+    return shuffled.slice(0, count);
 }
 
 function startTimer() {
