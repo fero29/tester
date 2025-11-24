@@ -8,7 +8,7 @@ let testMode = 'test'; // 'test' alebo 'learn'
 let timerInterval = null;
 let timeLeft = 0;
 let testStartTime = null;
-let showAnswersMode = 'each'; // 'each', 'end', 'retry'
+let showAnswersMode = ['each']; // Array: 'each', 'end', 'retry' - môže obsahovať viac hodnôt
 let questionAnswered = false; // Pre režim 'each' - či už bola ukázaná odpoveď
 let retryStatisticsSaved = false; // Či už boli uložené štatistiky pre retry mode (pri prvom odovzdaní)
 let originalTestQuestionCount = 0; // Pôvodný počet otázok v teste (pred retry)
@@ -17,7 +17,51 @@ let originalTestTitle = ''; // Pôvodný názov testu (bez " (Opakovanie)")
 // Načítanie testov pri štarte
 window.onload = function() {
     loadTests();
+    setupNavigationProtection();
 };
+
+// ============================================
+// OCHRANA PRED NECHCENOU NAVIGÁCIOU
+// ============================================
+
+function setupNavigationProtection() {
+    // Varovanie pri opustení stránky počas aktívneho testu
+    window.addEventListener('beforeunload', function(e) {
+        if (currentTest !== null) {
+            e.preventDefault();
+            e.returnValue = 'Test je aktívny. Naozaj chcete opustiť stránku?';
+            return e.returnValue;
+        }
+    });
+
+    // Zachytiť browser back button a presmerovať na domovskú obrazovku
+    window.addEventListener('popstate', function(e) {
+        if (currentTest !== null ||
+            currentVocabTest !== null ||
+            document.getElementById('testInterface').style.display === 'block' ||
+            document.getElementById('results').style.display === 'block' ||
+            document.getElementById('testSettings').style.display === 'block' ||
+            document.getElementById('learnMode').style.display === 'block' ||
+            document.getElementById('vocabSettings').style.display === 'block' ||
+            document.getElementById('vocabTestInterface').style.display === 'block' ||
+            document.getElementById('vocabLearnMode').style.display === 'block' ||
+            document.getElementById('aiImportPage').style.display === 'block' ||
+            document.getElementById('editTestPage').style.display === 'block') {
+
+            // Zastaviť default správanie
+            e.preventDefault();
+
+            // Vrátiť sa na domovskú obrazovku
+            backToList();
+
+            // Pridať nový záznam do histórie aby sa nezacyklilo
+            history.pushState(null, '', window.location.href);
+        }
+    });
+
+    // Pridať počiatočný state do histórie
+    history.pushState(null, '', window.location.href);
+}
 
 async function loadTests() {
     try {
@@ -49,7 +93,9 @@ function displayTestList() {
                     <div class="test-main-info">
                         <h3>${test.title || 'Test ' + (index + 1)}</h3>
                         <p>${test.description || ''}</p>
-                        <p><strong>${test.questions ? test.questions.length : 0} otázok</strong></p>
+                        <p><strong>${test.testType === 'vocabulary'
+                            ? (test.vocabulary ? test.vocabulary.length : 0) + ' slovíčok'
+                            : (test.questions ? test.questions.length : 0) + ' otázok'}</strong></p>
                     </div>
                     <div class="test-stats">
                         ${stats.count > 0 ? `
@@ -344,23 +390,42 @@ function showTestSettings(index) {
 
     document.querySelector('.section').style.display = 'none';
     document.getElementById('testList').parentElement.style.display = 'none';
-    document.getElementById('testSettings').style.display = 'block';
-    document.getElementById('settingsTitle').textContent = test.title || 'Test';
 
-    // Nastaviť max rozsah otázok
-    const totalQuestions = test.questions.length;
-    document.getElementById('questionTo').value = totalQuestions;
-    document.getElementById('questionTo').max = totalQuestions;
-    document.getElementById('questionFrom').max = totalQuestions;
-    document.getElementById('randomCount').max = totalQuestions;
-    document.getElementById('randomCount').value = Math.min(20, totalQuestions);
+    // Rozlíšiť podľa typu testu
+    if (test.testType === 'vocabulary') {
+        // Slovíčkový test
+        document.getElementById('testSettings').style.display = 'none';
+        document.getElementById('vocabSettings').style.display = 'block';
+        document.getElementById('vocabSettingsTitle').textContent = test.title || 'Slovíčka';
+
+        // Nastaviť max rozsah slovíčok
+        const totalVocab = test.vocabulary ? test.vocabulary.length : 0;
+        document.getElementById('vocabTo').value = totalVocab;
+        document.getElementById('vocabTo').max = totalVocab;
+        document.getElementById('vocabFrom').max = totalVocab;
+        document.getElementById('vocabRandomCount').max = totalVocab;
+        document.getElementById('vocabRandomCount').value = Math.min(20, totalVocab);
+    } else {
+        // Klasický test s otázkami
+        document.getElementById('vocabSettings').style.display = 'none';
+        document.getElementById('testSettings').style.display = 'block';
+        document.getElementById('settingsTitle').textContent = test.title || 'Test';
+
+        // Nastaviť max rozsah otázok
+        const totalQuestions = test.questions ? test.questions.length : 0;
+        document.getElementById('questionTo').value = totalQuestions;
+        document.getElementById('questionTo').max = totalQuestions;
+        document.getElementById('questionFrom').max = totalQuestions;
+        document.getElementById('randomCount').max = totalQuestions;
+        document.getElementById('randomCount').value = Math.min(20, totalQuestions);
+    }
 }
 
 function startTestWithSettings() {
     const timeLimit = parseInt(document.querySelector('input[name="time"]:checked').value);
     const shuffle = document.querySelector('input[name="shuffle"]:checked').value === 'true';
     const questionMode = document.querySelector('input[name="questionMode"]:checked').value;
-    showAnswersMode = document.querySelector('input[name="showAnswers"]:checked').value;
+    showAnswersMode = Array.from(document.querySelectorAll('input[name="showAnswers"]:checked')).map(cb => cb.value);
 
     testMode = 'test';
     questionAnswered = false;
@@ -474,6 +539,17 @@ function toggleQuestionMode() {
     }
 }
 
+function toggleVocabMode() {
+    const mode = document.querySelector('input[name="vocabMode"]:checked').value;
+    if (mode === 'range') {
+        document.getElementById('vocabRangeInputs').style.display = 'block';
+        document.getElementById('vocabRandomInputs').style.display = 'none';
+    } else {
+        document.getElementById('vocabRangeInputs').style.display = 'none';
+        document.getElementById('vocabRandomInputs').style.display = 'block';
+    }
+}
+
 function shuffleAnswers(question) {
     // Vytvor kópiu otázky
     const shuffledQuestion = JSON.parse(JSON.stringify(question));
@@ -548,7 +624,7 @@ function showQuestion() {
     const userAnswer = userAnswers[currentQuestionIndex];
 
     // Ak je už zodpovedané a režim "each" alebo "retry", zobraz feedback
-    const showFeedback = questionAnswered && (showAnswersMode === 'each' || showAnswersMode === 'retry');
+    const showFeedback = questionAnswered && (showAnswersMode.includes('each') || showAnswersMode.includes('retry'));
 
     let questionHTML = `
         <div class="question">
@@ -633,7 +709,7 @@ function previousQuestion() {
 
 function nextQuestion() {
     // Ak je režim "each" alebo "retry" a ešte nebola ukázaná odpoveď, ukáž feedback
-    if ((showAnswersMode === 'each' || showAnswersMode === 'retry') && !questionAnswered) {
+    if ((showAnswersMode.includes('each') || showAnswersMode.includes('retry')) && !questionAnswered) {
         questionAnswered = true;
         showQuestion(); // Znova vykreslí otázku s vizuálnym feedbackom
         return;
@@ -649,7 +725,7 @@ function nextQuestion() {
 
 function submitTest() {
     // Ak je režim "each" alebo "retry" a posledná otázka nebola ešte ukázaná, ukáž ju najprv
-    if ((showAnswersMode === 'each' || showAnswersMode === 'retry') && !questionAnswered) {
+    if ((showAnswersMode.includes('each') || showAnswersMode.includes('retry')) && !questionAnswered) {
         questionAnswered = true;
         showQuestion();
         // Zmeň tlačidlo Submit na "Dokončiť" po zobrazení feedbacku
@@ -668,7 +744,7 @@ function submitTest() {
     }
 
     // Režim "retry" - opakuj nesprávne otázky
-    if (showAnswersMode === 'retry') {
+    if (showAnswersMode.includes('retry')) {
         const incorrectQuestions = [];
         let correctCount = 0;
 
@@ -921,6 +997,9 @@ function backToList() {
     document.getElementById('testInterface').style.display = 'none';
     document.getElementById('results').style.display = 'none';
     document.getElementById('testSettings').style.display = 'none';
+    document.getElementById('vocabSettings').style.display = 'none';
+    document.getElementById('vocabTestInterface').style.display = 'none';
+    document.getElementById('vocabLearnMode').style.display = 'none';
     document.getElementById('learnMode').style.display = 'none';
     document.getElementById('importPage').style.display = 'none';
     document.getElementById('examplePage').style.display = 'none';
@@ -930,9 +1009,15 @@ function backToList() {
     document.getElementById('versionPage').style.display = 'none';
     document.querySelector('.section').style.display = 'block';
     currentTest = null;
+    currentVocabTest = null;
     testMode = 'test';
-    showAnswersMode = 'each';
+    showAnswersMode = ['each'];
     questionAnswered = false;
+    // Reset vocab timer
+    if (vocabTimerInterval) {
+        clearInterval(vocabTimerInterval);
+        vocabTimerInterval = null;
+    }
 
     // Odznačiť všetky checkboxy
     document.querySelectorAll('.test-checkbox').forEach(cb => cb.checked = false);
@@ -950,8 +1035,11 @@ let aiImportedData = null;
 let originalImages = []; // Uložiť pôvodné fotky pre zobrazenie
 let imageRotations = []; // Rotácia pre každú fotku (0, 90, 180, 270)
 let compressedFiles = []; // Komprimované súbory na upload
+let vocabCompressedFiles = []; // Komprimované súbory pre slovíčka
 let aiProcessingTimer = null; // Interval pre časovač spracovania
 let aiProcessingStartTime = null; // Čas začiatku spracovania
+let selectedAIMethod = null; // Vybraná metóda AI importu ('marked', 'vocabulary')
+let aiAbortController = null; // AbortController pre zrušenie AI requestu
 
 function showAIImportPage() {
     document.querySelector('.section').style.display = 'none';
@@ -979,6 +1067,7 @@ function showAIImportPage() {
                 originalImages = state.originalImages || [];
 
                 // Zobraziť výsledky
+                document.getElementById('aiStep0').style.display = 'none';
                 document.getElementById('aiStep1').style.display = 'none';
                 document.getElementById('aiStep2').style.display = 'none';
                 document.getElementById('aiStep3').style.display = 'block';
@@ -993,6 +1082,7 @@ function showAIImportPage() {
                 return;
             } else if (state.step === 'processing') {
                 // Stále sa spracováva (užívateľ sa vrátil počas spracovania)
+                document.getElementById('aiStep0').style.display = 'none';
                 document.getElementById('aiStep1').style.display = 'none';
                 document.getElementById('aiStep2').style.display = 'block';
                 document.getElementById('aiStep3').style.display = 'none';
@@ -1010,26 +1100,79 @@ function showAIImportPage() {
 }
 
 function resetAIImportPage() {
-    // Reset AI import workflow
-    document.getElementById('aiStep1').style.display = 'block';
+    // Reset AI import workflow - ukáž výber metódy (Step 0)
+    document.getElementById('aiStep0').style.display = 'block';
+    document.getElementById('aiStep1').style.display = 'none';
+    document.getElementById('aiStep1Vocab').style.display = 'none';
     document.getElementById('aiStep2').style.display = 'none';
     document.getElementById('aiStep3').style.display = 'none';
     document.getElementById('aiStep4').style.display = 'none';
+    // Reset test upload
     document.getElementById('aiImageInput').value = '';
     document.getElementById('imagePreview').style.display = 'none';
     document.getElementById('processBtn').style.display = 'none';
     document.getElementById('cancelStep1Btn').style.display = 'none';
+    // Reset vocab upload
+    document.getElementById('aiVocabImageInput').value = '';
+    document.getElementById('vocabImagePreview').style.display = 'none';
+    document.getElementById('processVocabBtn').style.display = 'none';
+    document.getElementById('cancelVocabBtn').style.display = 'none';
     aiImportedData = null;
     originalImages = [];
     imageRotations = [];
     compressedFiles = [];
+    vocabCompressedFiles = [];
+    selectedAIMethod = null;
     // Vymazať uložený stav
     localStorage.removeItem('aiImportState');
+}
+
+// Výber metódy AI importu
+function selectAIMethod(method) {
+    selectedAIMethod = method;
+
+    // Skryť výber metódy
+    document.getElementById('aiStep0').style.display = 'none';
+
+    // Zobraziť správny step podľa metódy
+    if (method === 'vocabulary') {
+        document.getElementById('aiStep1').style.display = 'none';
+        document.getElementById('aiStep1Vocab').style.display = 'block';
+    } else {
+        document.getElementById('aiStep1').style.display = 'block';
+        document.getElementById('aiStep1Vocab').style.display = 'none';
+    }
+}
+
+// Späť na výber metódy
+function backToMethodSelection() {
+    document.getElementById('aiStep1').style.display = 'none';
+    document.getElementById('aiStep1Vocab').style.display = 'none';
+    document.getElementById('aiStep0').style.display = 'block';
+    // Reset upload stavu
+    document.getElementById('aiImageInput').value = '';
+    document.getElementById('imagePreview').style.display = 'none';
+    document.getElementById('processBtn').style.display = 'none';
+    document.getElementById('cancelStep1Btn').style.display = 'none';
+    // Reset vocab stavu
+    document.getElementById('aiVocabImageInput').value = '';
+    document.getElementById('vocabImagePreview').style.display = 'none';
+    document.getElementById('processVocabBtn').style.display = 'none';
+    document.getElementById('cancelVocabBtn').style.display = 'none';
+    originalImages = [];
+    imageRotations = [];
+    compressedFiles = [];
+    vocabCompressedFiles = [];
 }
 
 function cancelAIImport() {
     // Potvrdenie pred zrušením
     if (confirm('Naozaj chcete zrušiť import? Všetky rozpoznané otázky sa stratia.')) {
+        // Zrušiť prebiehajúci request
+        if (aiAbortController) {
+            aiAbortController.abort();
+            aiAbortController = null;
+        }
         resetAIImportPage();
     }
 }
@@ -1313,6 +1456,9 @@ async function processImagesWithAI() {
         return;
     }
 
+    // Vytvoriť AbortController pre možnosť zrušenia
+    aiAbortController = new AbortController();
+
     // Skryť Step 1, zobraziť Step 2 (loading)
     document.getElementById('aiStep1').style.display = 'none';
     document.getElementById('aiStep2').style.display = 'block';
@@ -1351,7 +1497,8 @@ async function processImagesWithAI() {
 
             const response = await fetch('/api/ai-import', {
                 method: 'POST',
-                body: formData
+                body: formData,
+                signal: aiAbortController.signal
             });
 
             const result = await response.json();
@@ -1422,6 +1569,11 @@ async function processImagesWithAI() {
         }
 
     } catch (error) {
+        // Ignorovať chybu pri zrušení používateľom
+        if (error.name === 'AbortError') {
+            console.log('Import zrušený používateľom');
+            return;
+        }
         alert('Chyba pri spracovaní obrázkov: ' + error.message);
         // Vrátiť sa na Step 1
         document.getElementById('aiStep2').style.display = 'none';
@@ -1773,12 +1925,28 @@ async function saveAITest() {
         }
     }
 
-    if (aiImportedData.questions.length === 0) {
-        alert('Test musí obsahovať aspoň jednu otázku');
-        return;
+    // Kontrola či máme dáta podľa typu testu
+    const isVocabulary = aiImportedData.testType === 'vocabulary';
+
+    if (isVocabulary) {
+        if (!aiImportedData.vocabulary || aiImportedData.vocabulary.length === 0) {
+            alert('Test musí obsahovať aspoň jedno slovíčko');
+            return;
+        }
+    } else {
+        if (aiImportedData.questions.length === 0) {
+            alert('Test musí obsahovať aspoň jednu otázku');
+            return;
+        }
     }
 
-    const testData = {
+    // Vytvoriť testData podľa typu
+    const testData = isVocabulary ? {
+        title: title,
+        description: description,
+        testType: 'vocabulary',
+        vocabulary: aiImportedData.vocabulary
+    } : {
         title: title,
         description: description,
         questions: aiImportedData.questions
@@ -2043,4 +2211,728 @@ async function deleteTest(filename, index) {
     } catch (error) {
         alert('Chyba pri mazaní testu: ' + error.message);
     }
+}
+
+async function deleteCurrentTest() {
+    if (!editingFilename) {
+        alert('Žiadny test na zmazanie');
+        return;
+    }
+
+    const testData = Array.isArray(editingTestData) ? editingTestData[0] : editingTestData;
+    const testName = testData.title || editingFilename;
+
+    if (!confirm(`Naozaj chcete zmazať test "${testName}"? Táto akcia je nezvratná.`)) {
+        return;
+    }
+
+    try {
+        const response = await fetch(`/api/delete-test/${encodeURIComponent(editingFilename)}`, {
+            method: 'DELETE'
+        });
+
+        const result = await response.json();
+
+        if (result.success) {
+            alert(result.message);
+            backToList();
+            loadTests(); // Reload tests
+        } else {
+            throw new Error(result.error || 'Neznáma chyba');
+        }
+    } catch (error) {
+        alert('Chyba pri mazaní testu: ' + error.message);
+    }
+}
+
+// ============================================
+// VOCABULARY (SLOVÍČKA) FUNKCIE
+// ============================================
+
+let vocabImportedData = null;
+
+async function previewVocabImages(input) {
+    if (input.files && input.files.length > 0) {
+        const container = document.getElementById('vocabPreviewContainer');
+        container.innerHTML = '';
+        vocabCompressedFiles = [];
+
+        container.innerHTML = '<p>Pripravujem obrázky...</p>';
+
+        for (let i = 0; i < input.files.length; i++) {
+            const file = input.files[i];
+
+            try {
+                const converted = await convertToJPEG(file);
+                vocabCompressedFiles.push(converted);
+
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    if (i === 0) {
+                        container.innerHTML = '';
+                    }
+
+                    const imgDiv = document.createElement('div');
+                    imgDiv.style.cssText = 'position: relative; margin: 10px;';
+
+                    const previewImg = document.createElement('img');
+                    previewImg.src = e.target.result;
+                    previewImg.style.cssText = 'max-width: 200px; max-height: 200px; border-radius: 8px; object-fit: cover;';
+
+                    const indexLabel = document.createElement('div');
+                    indexLabel.style.cssText = 'position: absolute; top: 5px; right: 5px; background: rgba(0,0,0,0.7); color: white; padding: 3px 8px; border-radius: 4px; font-size: 12px;';
+                    indexLabel.textContent = i + 1;
+
+                    imgDiv.appendChild(previewImg);
+                    imgDiv.appendChild(indexLabel);
+                    container.appendChild(imgDiv);
+                };
+                reader.readAsDataURL(converted);
+            } catch (error) {
+                console.error('Chyba pri konverzii:', error);
+                vocabCompressedFiles.push(file);
+            }
+        }
+
+        document.getElementById('vocabImagePreview').style.display = 'block';
+        document.getElementById('processVocabBtn').style.display = 'inline-block';
+        document.getElementById('cancelVocabBtn').style.display = 'inline-block';
+    }
+}
+
+async function processVocabWithAI() {
+    if (!vocabCompressedFiles || vocabCompressedFiles.length === 0) {
+        alert('Najprv nahrajte obrázok');
+        return;
+    }
+
+    // Vytvoriť AbortController pre možnosť zrušenia
+    aiAbortController = new AbortController();
+
+    // Získať nastavenie predspracovania
+    const advancedPreprocessing = document.getElementById('vocabAdvancedPreprocessing').checked;
+
+    // Skryť Step 1-vocab, zobraziť Step 2 (loading)
+    document.getElementById('aiStep1Vocab').style.display = 'none';
+    document.getElementById('aiStep2').style.display = 'block';
+    document.querySelector('#aiStep2 .ai-processing p').textContent = 'AI analyzuje slovíčka...';
+
+    try {
+        vocabImportedData = {
+            vocabulary: [],
+            totalPages: vocabCompressedFiles.length
+        };
+
+        for (let i = 0; i < vocabCompressedFiles.length; i++) {
+            const fileToProcess = vocabCompressedFiles[i];
+            const pageNumber = i + 1;
+
+            document.querySelector('#aiStep2 .ai-processing p').textContent =
+                `AI analyzuje stranu ${pageNumber}/${vocabCompressedFiles.length}...`;
+
+            const formData = new FormData();
+            formData.append('image', fileToProcess);
+            formData.append('advancedPreprocessing', advancedPreprocessing);
+
+            const response = await fetch('/api/ai-import-vocab', {
+                method: 'POST',
+                body: formData,
+                signal: aiAbortController.signal
+            });
+
+            const result = await response.json();
+
+            if (result.success && result.data.vocabulary) {
+                result.data.vocabulary.forEach(v => {
+                    v.pageNumber = pageNumber;
+                    vocabImportedData.vocabulary.push(v);
+                });
+            } else {
+                throw new Error(`Chyba pri spracovaní strany ${pageNumber}: ${result.error || 'Neznáma chyba'}`);
+            }
+        }
+
+        if (vocabImportedData.vocabulary.length === 0) {
+            throw new Error('Žiadne slovíčka neboli rozpoznané');
+        }
+
+        displayVocabResults();
+
+        document.getElementById('aiStep2').style.display = 'none';
+        document.getElementById('aiStep3').style.display = 'block';
+        document.getElementById('aiStep4').style.display = 'block';
+
+    } catch (error) {
+        // Ignorovať chybu pri zrušení používateľom
+        if (error.name === 'AbortError') {
+            console.log('Import slovíčok zrušený používateľom');
+            return;
+        }
+        alert('Chyba pri spracovaní slovíčok: ' + error.message);
+        document.getElementById('aiStep2').style.display = 'none';
+        document.getElementById('aiStep1Vocab').style.display = 'block';
+    }
+}
+
+function displayVocabResults() {
+    const container = document.getElementById('aiQuestionsPreview');
+    container.innerHTML = '';
+
+    // Hlavička
+    const header = document.createElement('div');
+    header.innerHTML = `
+        <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 15px 20px; border-radius: 8px; margin-bottom: 20px;">
+            <h3 style="margin: 0;">🔤 Rozpoznané slovíčka (${vocabImportedData.vocabulary.length})</h3>
+        </div>
+    `;
+    container.appendChild(header);
+
+    // Tabuľka slovíčok
+    vocabImportedData.vocabulary.forEach((vocab, index) => {
+        const vocabDiv = document.createElement('div');
+        vocabDiv.className = 'vocab-item';
+        vocabDiv.style.cssText = 'background: #f9f9f9; padding: 15px; border-radius: 8px; margin-bottom: 10px; border-left: 4px solid #667eea;';
+        vocabDiv.innerHTML = `
+            <div style="display: flex; gap: 10px; align-items: center; flex-wrap: wrap;">
+                <span style="color: #999; font-size: 12px; width: 30px;">#${index + 1}</span>
+                <input type="text" class="ai-input" value="${escapeHtml(vocab.latin)}"
+                       onchange="updateVocab(${index}, 'latin', this.value)"
+                       style="flex: 2; min-width: 150px;" placeholder="Latinské slovo">
+                <input type="text" class="ai-input" value="${escapeHtml(vocab.genitive || '')}"
+                       onchange="updateVocab(${index}, 'genitive', this.value)"
+                       style="width: 80px;" placeholder="-ae">
+                <select class="ai-input" onchange="updateVocab(${index}, 'gender', this.value)" style="width: 70px;">
+                    <option value="m" ${vocab.gender === 'm' ? 'selected' : ''}>m.</option>
+                    <option value="f" ${vocab.gender === 'f' ? 'selected' : ''}>f.</option>
+                    <option value="n" ${vocab.gender === 'n' ? 'selected' : ''}>n.</option>
+                </select>
+                <input type="text" class="ai-input" value="${escapeHtml(vocab.slovak)}"
+                       onchange="updateVocab(${index}, 'slovak', this.value)"
+                       style="flex: 2; min-width: 150px;" placeholder="Slovenský preklad">
+                <button onclick="deleteVocab(${index})" class="btn-delete-small">🗑️</button>
+            </div>
+        `;
+        container.appendChild(vocabDiv);
+    });
+
+    // Tlačidlo pridať
+    const addBtn = document.createElement('button');
+    addBtn.className = 'btn-secondary';
+    addBtn.innerHTML = '➕ Pridať slovíčko';
+    addBtn.onclick = addNewVocab;
+    addBtn.style.marginTop = '10px';
+    container.appendChild(addBtn);
+
+    // Update save options for vocabulary
+    aiImportedData = {
+        testType: 'vocabulary',
+        vocabulary: vocabImportedData.vocabulary,
+        questions: [] // prázdne, vocabulary testy nemajú klasické otázky
+    };
+}
+
+function updateVocab(index, field, value) {
+    if (vocabImportedData && vocabImportedData.vocabulary[index]) {
+        vocabImportedData.vocabulary[index][field] = value;
+        aiImportedData.vocabulary = vocabImportedData.vocabulary;
+    }
+}
+
+function deleteVocab(index) {
+    if (confirm('Odstrániť toto slovíčko?')) {
+        vocabImportedData.vocabulary.splice(index, 1);
+        aiImportedData.vocabulary = vocabImportedData.vocabulary;
+        displayVocabResults();
+    }
+}
+
+function addNewVocab() {
+    vocabImportedData.vocabulary.push({
+        latin: '',
+        genitive: '',
+        gender: 'm',
+        slovak: ''
+    });
+    aiImportedData.vocabulary = vocabImportedData.vocabulary;
+    displayVocabResults();
+}
+
+// ============================================
+// VOCABULARY TEST FUNKCIE
+// ============================================
+
+let currentVocabTest = null;
+let currentVocabIndex = 0;
+let vocabUserAnswers = [];
+let vocabTestConfig = {};
+let vocabAnswered = false;
+let vocabShowAnswersMode = ['each'];
+let vocabTimerInterval = null;
+let vocabTimeLeft = 0;
+let vocabHints = []; // Stav nápovedy pre každé slovíčko
+
+function startVocabTest() {
+    const timeLimit = parseInt(document.querySelector('input[name="vocabTime"]:checked').value);
+    const shuffle = document.querySelector('input[name="vocabShuffle"]:checked').value === 'true';
+    const vocabMode = document.querySelector('input[name="vocabMode"]:checked').value;
+    const direction = document.querySelector('input[name="vocabDirection"]:checked').value;
+    const testGen = document.querySelector('input[name="vocabTestGen"]').checked;
+    const testGender = document.querySelector('input[name="vocabTestGender"]').checked;
+    vocabShowAnswersMode = Array.from(document.querySelectorAll('input[name="vocabShowAnswers"]:checked')).map(cb => cb.value);
+
+    // Uložiť konfiguráciu
+    vocabTestConfig = {
+        direction: direction,      // 'lat-svk' alebo 'svk-lat'
+        testGenitive: testGen,
+        testGender: testGender
+    };
+
+    currentVocabTest = JSON.parse(JSON.stringify(tests[selectedTestIndex]));
+    vocabAnswered = false;
+
+    // Výber slovíčok podľa módu
+    if (vocabMode === 'range') {
+        const vocabFrom = parseInt(document.getElementById('vocabFrom').value) - 1;
+        const vocabTo = parseInt(document.getElementById('vocabTo').value);
+        currentVocabTest.vocabulary = currentVocabTest.vocabulary.slice(vocabFrom, vocabTo);
+    } else {
+        const randomCount = parseInt(document.getElementById('vocabRandomCount').value);
+        currentVocabTest.vocabulary = getRandomQuestions(currentVocabTest.vocabulary, randomCount);
+    }
+
+    // Zamiešať ak treba
+    if (shuffle) {
+        currentVocabTest.vocabulary = shuffleArray([...currentVocabTest.vocabulary]);
+    }
+
+    currentVocabIndex = 0;
+    vocabUserAnswers = currentVocabTest.vocabulary.map(() => ({
+        translation: '',
+        genitive: '',
+        gender: ''
+    }));
+
+    // Inicializovať nápovedy pre každé slovíčko
+    vocabHints = currentVocabTest.vocabulary.map(() => ({
+        level: 0,           // 0=žiadna, 1=počet písmen, 2=prvé, 3=posledné, 4+=náhodné
+        revealed: [],       // indexy odhalených písmen
+        usedHelp: false     // či bola použitá nápoveda
+    }));
+
+    document.getElementById('vocabSettings').style.display = 'none';
+    document.getElementById('vocabTestInterface').style.display = 'block';
+    document.getElementById('vocabTestTitle').textContent = currentVocabTest.title || 'Slovíčka';
+    document.getElementById('vocabSubmitBtn').textContent = 'Odovzdať test';
+
+    // Nastaviť časovač
+    if (timeLimit > 0) {
+        vocabTimeLeft = timeLimit * 60;
+        document.getElementById('vocabTimer').style.display = 'block';
+        startVocabTimer();
+    } else {
+        document.getElementById('vocabTimer').style.display = 'none';
+    }
+
+    showVocab();
+    updateVocabNavigation();
+}
+
+function startVocabTimer() {
+    updateVocabTimerDisplay();
+    vocabTimerInterval = setInterval(() => {
+        vocabTimeLeft--;
+        updateVocabTimerDisplay();
+        if (vocabTimeLeft <= 0) {
+            clearInterval(vocabTimerInterval);
+            alert('Čas vypršal!');
+            submitVocabTest();
+        }
+    }, 1000);
+}
+
+function updateVocabTimerDisplay() {
+    const minutes = Math.floor(vocabTimeLeft / 60);
+    const seconds = vocabTimeLeft % 60;
+    document.getElementById('vocabTimer').textContent =
+        `⏱️ ${minutes}:${seconds.toString().padStart(2, '0')}`;
+}
+
+function showVocab() {
+    const vocab = currentVocabTest.vocabulary[currentVocabIndex];
+    const container = document.getElementById('vocabQuestionContainer');
+    const userAnswer = vocabUserAnswers[currentVocabIndex];
+    const hint = vocabHints[currentVocabIndex];
+    const showFeedback = vocabAnswered && (vocabShowAnswersMode.includes('each') || vocabShowAnswersMode.includes('retry'));
+
+    // Čo zobrazíme ako otázku a čo očakávame ako odpoveď
+    const isLatToSvk = vocabTestConfig.direction === 'lat-svk';
+    const questionWord = isLatToSvk ? vocab.latin : vocab.slovak;
+    const correctTranslation = isLatToSvk ? vocab.slovak : vocab.latin;
+
+    // Vygenerovať hint text
+    const hintText = getHintText(correctTranslation, hint);
+    const isFullyRevealed = hint.revealed.length >= correctTranslation.length;
+
+    let html = `
+        <div class="vocab-question-card">
+            <div class="vocab-word-display">
+                <span class="vocab-direction-label">${isLatToSvk ? 'LAT → SVK' : 'SVK → LAT'}</span>
+                <h2 class="vocab-main-word">${escapeHtml(questionWord)}</h2>
+            </div>
+
+            <div class="vocab-answer-section">
+                <label>Preklad:</label>
+                <input type="text" class="vocab-answer-input ${showFeedback ? (isTranslationCorrect(userAnswer.translation, correctTranslation) ? 'correct' : 'incorrect') : ''}"
+                       id="vocabTranslationInput"
+                       value="${escapeHtml(userAnswer.translation)}"
+                       oninput="saveVocabAnswer('translation', this.value)"
+                       placeholder="Zadajte preklad..."
+                       ${showFeedback ? 'disabled' : ''}
+                       autocomplete="off">
+                ${showFeedback ? getVocabFeedback('translation', userAnswer.translation, correctTranslation) : ''}
+
+                ${!showFeedback ? `
+                <div class="vocab-help-section">
+                    <button type="button" class="vocab-help-btn" onclick="useVocabHelp()" ${isFullyRevealed ? 'disabled' : ''}>
+                        💡 Pomoc
+                    </button>
+                    ${hint.level > 0 ? `<span class="vocab-hint">${hintText}</span>` : ''}
+                </div>
+                ${hint.usedHelp ? '<div class="vocab-hint-penalty">Použitá nápoveda - odpoveď sa počíta ako nesprávna</div>' : ''}
+                ` : ''}
+            </div>
+    `;
+
+    // Genitív (ak je zapnutý)
+    if (vocabTestConfig.testGenitive) {
+        html += `
+            <div class="vocab-answer-section">
+                <label>Genitív:</label>
+                <input type="text" class="vocab-answer-input ${showFeedback ? (isAnswerCorrect(userAnswer.genitive, vocab.genitive) ? 'correct' : 'incorrect') : ''}"
+                       id="vocabGenitiveInput"
+                       value="${escapeHtml(userAnswer.genitive)}"
+                       oninput="saveVocabAnswer('genitive', this.value)"
+                       placeholder="napr. -ae"
+                       ${showFeedback ? 'disabled' : ''}
+                       autocomplete="off">
+                ${showFeedback ? getVocabFeedback('genitive', userAnswer.genitive, vocab.genitive) : ''}
+            </div>
+        `;
+    }
+
+    // Rod (ak je zapnutý)
+    if (vocabTestConfig.testGender) {
+        html += `
+            <div class="vocab-answer-section">
+                <label>Rod:</label>
+                <select class="vocab-answer-input ${showFeedback ? (isAnswerCorrect(userAnswer.gender, vocab.gender) ? 'correct' : 'incorrect') : ''}"
+                        id="vocabGenderInput"
+                        onchange="saveVocabAnswer('gender', this.value)"
+                        ${showFeedback ? 'disabled' : ''}>
+                    <option value="">-- vyberte --</option>
+                    <option value="m" ${userAnswer.gender === 'm' ? 'selected' : ''}>m. (maskulínum)</option>
+                    <option value="f" ${userAnswer.gender === 'f' ? 'selected' : ''}>f. (feminínum)</option>
+                    <option value="n" ${userAnswer.gender === 'n' ? 'selected' : ''}>n. (neutrum)</option>
+                </select>
+                ${showFeedback ? getVocabFeedback('gender', userAnswer.gender, vocab.gender) : ''}
+            </div>
+        `;
+    }
+
+    html += `</div>`;
+    container.innerHTML = html;
+
+    // Focus na input
+    if (!showFeedback) {
+        setTimeout(() => {
+            const input = document.getElementById('vocabTranslationInput');
+            if (input) input.focus();
+        }, 100);
+    }
+}
+
+// Pomocné funkcie pre porovnanie odpovedí
+function isTranslationCorrect(userValue, correctValue) {
+    return userValue.toLowerCase().trim() === correctValue.toLowerCase().trim();
+}
+
+function isAnswerCorrect(userValue, correctValue) {
+    if (!userValue || !correctValue) return false;
+    return userValue.toLowerCase().trim() === correctValue.toLowerCase().trim();
+}
+
+// Generovanie textu nápovedy
+function getHintText(word, hint) {
+    if (hint.level === 0) return '';
+
+    let result = '';
+    for (let i = 0; i < word.length; i++) {
+        if (word[i] === ' ') {
+            result += '   '; // medzera
+        } else if (hint.revealed.includes(i)) {
+            result += word[i].toUpperCase();
+        } else {
+            result += '_';
+        }
+    }
+    return result;
+}
+
+// Použitie nápovedy
+function useVocabHelp() {
+    const vocab = currentVocabTest.vocabulary[currentVocabIndex];
+    const hint = vocabHints[currentVocabIndex];
+    const isLatToSvk = vocabTestConfig.direction === 'lat-svk';
+    const correctWord = isLatToSvk ? vocab.slovak : vocab.latin;
+
+    hint.usedHelp = true;
+    hint.level++;
+
+    // Nájsť indexy písmen (nie medzier)
+    const letterIndices = [];
+    for (let i = 0; i < correctWord.length; i++) {
+        if (correctWord[i] !== ' ' && !hint.revealed.includes(i)) {
+            letterIndices.push(i);
+        }
+    }
+
+    if (hint.level === 1) {
+        // Prvá pomoc: len ukáž počet písmen (nič neodhaľ)
+    } else if (hint.level === 2 && letterIndices.length > 0) {
+        // Druhá pomoc: odhaľ prvé písmeno
+        const firstLetterIdx = correctWord.split('').findIndex((c, i) => c !== ' ' && !hint.revealed.includes(i));
+        if (firstLetterIdx !== -1) hint.revealed.push(firstLetterIdx);
+    } else if (hint.level === 3 && letterIndices.length > 0) {
+        // Tretia pomoc: odhaľ posledné písmeno
+        for (let i = correctWord.length - 1; i >= 0; i--) {
+            if (correctWord[i] !== ' ' && !hint.revealed.includes(i)) {
+                hint.revealed.push(i);
+                break;
+            }
+        }
+    } else if (letterIndices.length > 0) {
+        // Ďalšie pomoci: odhaľ náhodné písmeno
+        const randomIdx = letterIndices[Math.floor(Math.random() * letterIndices.length)];
+        hint.revealed.push(randomIdx);
+    }
+
+    showVocab();
+}
+
+// Režim učenia pre slovíčka
+function showVocabLearnMode() {
+    const test = tests[selectedTestIndex];
+
+    document.getElementById('vocabSettings').style.display = 'none';
+    document.getElementById('vocabLearnMode').style.display = 'block';
+    document.getElementById('vocabLearnModeTitle').textContent = test.title || 'Slovíčka';
+
+    const container = document.getElementById('vocabLearnModeContainer');
+
+    // Funkcia pre rozšírenie rodu
+    const expandGender = (g) => {
+        const genders = { 'm': 'maskulínum', 'f': 'feminínum', 'n': 'neutrum' };
+        return genders[g] || g;
+    };
+
+    container.innerHTML = test.vocabulary.map((vocab, index) => `
+        <div class="vocab-learn-item">
+            <div class="vocab-learn-header">
+                <span class="vocab-learn-number">#${index + 1}</span>
+                <span class="vocab-learn-latin">${escapeHtml(vocab.latin)}</span>
+            </div>
+            <div class="vocab-learn-body">
+                <div class="vocab-learn-field translation">
+                    <div class="vocab-learn-field-label">Slovenský preklad</div>
+                    <div class="vocab-learn-field-value">${escapeHtml(vocab.slovak)}</div>
+                </div>
+                ${vocab.genitive ? `
+                <div class="vocab-learn-field genitive">
+                    <div class="vocab-learn-field-label">Genitív</div>
+                    <div class="vocab-learn-field-value">${escapeHtml(vocab.genitive)}</div>
+                </div>
+                ` : ''}
+                ${vocab.gender ? `
+                <div class="vocab-learn-field gender">
+                    <div class="vocab-learn-field-label">Rod</div>
+                    <div class="vocab-learn-field-value">${vocab.gender}. (${expandGender(vocab.gender)})</div>
+                </div>
+                ` : ''}
+            </div>
+        </div>
+    `).join('');
+}
+
+function getVocabFeedback(field, userValue, correctValue) {
+    const isCorrect = userValue.toLowerCase().trim() === correctValue.toLowerCase().trim();
+    if (isCorrect) {
+        return `<span class="vocab-feedback correct">✓ Správne</span>`;
+    } else {
+        return `<span class="vocab-feedback incorrect">✗ Správne: ${escapeHtml(correctValue)}</span>`;
+    }
+}
+
+function saveVocabAnswer(field, value) {
+    vocabUserAnswers[currentVocabIndex][field] = value;
+}
+
+function updateVocabNavigation() {
+    const total = currentVocabTest.vocabulary.length;
+    document.getElementById('vocabNumber').textContent = `${currentVocabIndex + 1} / ${total}`;
+    document.getElementById('vocabPrevBtn').disabled = currentVocabIndex === 0;
+
+    // Zobraziť Odovzdať na poslednom slovíčku
+    if (currentVocabIndex === total - 1) {
+        document.getElementById('vocabSubmitBtn').style.display = 'inline-block';
+        document.getElementById('vocabNextBtn').textContent = 'Dokončiť';
+    } else {
+        document.getElementById('vocabSubmitBtn').style.display = 'none';
+        document.getElementById('vocabNextBtn').textContent = 'Ďalšie';
+    }
+}
+
+function previousVocab() {
+    if (currentVocabIndex > 0) {
+        currentVocabIndex--;
+        vocabAnswered = false;
+        showVocab();
+        updateVocabNavigation();
+    }
+}
+
+function nextVocab() {
+    // Ak je režim "each" a ešte nebola ukázaná odpoveď
+    if ((vocabShowAnswersMode.includes('each') || vocabShowAnswersMode.includes('retry')) && !vocabAnswered) {
+        vocabAnswered = true;
+        showVocab();
+        return;
+    }
+
+    if (currentVocabIndex < currentVocabTest.vocabulary.length - 1) {
+        currentVocabIndex++;
+        vocabAnswered = false;
+        showVocab();
+        updateVocabNavigation();
+    } else {
+        // Posledné slovíčko - odovzdať
+        submitVocabTest();
+    }
+}
+
+function submitVocabTest() {
+    // Ak je posledné slovíčko a ešte nebolo ukázané
+    if ((vocabShowAnswersMode.includes('each') || vocabShowAnswersMode.includes('retry')) && !vocabAnswered) {
+        vocabAnswered = true;
+        showVocab();
+        document.getElementById('vocabSubmitBtn').textContent = 'Dokončiť test';
+        return;
+    }
+
+    // Zastaviť časovač
+    if (vocabTimerInterval) {
+        clearInterval(vocabTimerInterval);
+        vocabTimerInterval = null;
+    }
+
+    // Spočítať výsledky
+    let correct = 0;
+    let total = currentVocabTest.vocabulary.length;
+    const isLatToSvk = vocabTestConfig.direction === 'lat-svk';
+
+    const results = currentVocabTest.vocabulary.map((vocab, index) => {
+        const userAnswer = vocabUserAnswers[index];
+        const hint = vocabHints[index];
+        const correctTranslation = isLatToSvk ? vocab.slovak : vocab.latin;
+
+        let itemCorrect = true;
+        let details = [];
+        let usedHelp = hint.usedHelp;
+
+        // Ak bola použitá pomoc, odpoveď je automaticky nesprávna
+        if (usedHelp) {
+            itemCorrect = false;
+        }
+
+        // Kontrola prekladu
+        const translationOk = userAnswer.translation.toLowerCase().trim() === correctTranslation.toLowerCase().trim();
+        if (!translationOk) itemCorrect = false;
+        details.push({
+            field: 'Preklad',
+            user: userAnswer.translation,
+            correct: correctTranslation,
+            ok: translationOk && !usedHelp,
+            helpUsed: usedHelp
+        });
+
+        // Kontrola genitívu
+        if (vocabTestConfig.testGenitive) {
+            const genOk = userAnswer.genitive.toLowerCase().trim() === vocab.genitive.toLowerCase().trim();
+            if (!genOk) itemCorrect = false;
+            details.push({ field: 'Genitív', user: userAnswer.genitive, correct: vocab.genitive, ok: genOk });
+        }
+
+        // Kontrola rodu
+        if (vocabTestConfig.testGender) {
+            const genderOk = userAnswer.gender === vocab.gender;
+            if (!genderOk) itemCorrect = false;
+            details.push({ field: 'Rod', user: userAnswer.gender || '-', correct: vocab.gender, ok: genderOk });
+        }
+
+        if (itemCorrect) correct++;
+
+        return {
+            question: isLatToSvk ? vocab.latin : vocab.slovak,
+            correct: itemCorrect,
+            details: details,
+            usedHelp: usedHelp
+        };
+    });
+
+    // Zobraziť výsledky
+    showVocabResults(results, correct, total);
+}
+
+function showVocabResults(results, correct, total) {
+    document.getElementById('vocabTestInterface').style.display = 'none';
+    document.getElementById('results').style.display = 'block';
+
+    const percentage = Math.round((correct / total) * 100);
+    const helpUsedCount = results.filter(r => r.usedHelp).length;
+
+    let html = `
+        <div class="results-summary">
+            <h3>Výsledok: ${correct} / ${total} (${percentage}%)</h3>
+            <div class="progress-bar">
+                <div class="progress-fill" style="width: ${percentage}%"></div>
+            </div>
+            ${helpUsedCount > 0 ? `<p style="margin-top: 10px; font-size: 14px; color: #ff9800;">💡 Použitá pomoc: ${helpUsedCount}x</p>` : ''}
+        </div>
+        <div class="results-details">
+    `;
+
+    results.forEach((result, index) => {
+        html += `
+            <div class="result-item ${result.correct ? 'correct' : 'incorrect'}">
+                <strong>${index + 1}. ${escapeHtml(result.question)}</strong>
+                ${result.usedHelp ? '<span style="color: #ff9800; font-size: 12px; margin-left: 8px;">💡 pomoc</span>' : ''}
+                <div class="result-details">
+        `;
+
+        result.details.forEach(d => {
+            let statusIcon = d.ok ? '✓' : '✗';
+            let statusClass = d.ok ? 'detail-correct' : 'detail-incorrect';
+            let helpNote = d.helpUsed ? ' (pomoc)' : '';
+
+            html += `
+                <div class="${statusClass}">
+                    ${d.field}: ${escapeHtml(d.user || '-')} ${statusIcon}${helpNote} ${!d.ok ? '(' + escapeHtml(d.correct) + ')' : ''}
+                </div>
+            `;
+        });
+
+        html += `</div></div>`;
+    });
+
+    html += `</div>`;
+    document.getElementById('resultsContainer').innerHTML = html;
 }

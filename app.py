@@ -562,6 +562,131 @@ Analyzuj obrázok a vráť JSON:"""
     except Exception as e:
         return jsonify({'error': str(e)}), 400
 
+@app.route('/api/ai-import-vocab', methods=['POST'])
+def ai_import_vocab():
+    """AI import latinských slovíčok z obrázku pomocou OpenAI Vision API"""
+    try:
+        if 'image' not in request.files:
+            return jsonify({'error': 'Žiadny obrázok'}), 400
+
+        image_file = request.files['image']
+
+        # Získať nastavenie pokročilého predspracovania
+        advanced_preprocessing = request.form.get('advancedPreprocessing', 'false') == 'true'
+
+        # Predspracovať obrázok
+        image_file.seek(0)
+        processed_image = preprocess_image(image_file, advanced=advanced_preprocessing, rotation=0)
+        image_data = base64.b64encode(processed_image.read()).decode('utf-8')
+
+        # Prompt pre OpenAI - slovíčka
+        prompt = """Analyzuj tento obrázok a extrahuj z neho latinské slovíčka.
+
+Očakávaný formát v obrázku:
+- Latinské slovo v základnom tvare (nominatív)
+- Genitívna koncovka (napr. -ae, -i, -is, -us, -ei)
+- Rod (m. = maskulínum, f. = feminínum, n. = neutrum)
+- Slovenský preklad
+
+Príklady formátov v texte:
+- "aqua, -ae, f. - voda"
+- "liber, libri, m. - kniha"
+- "mare, -is, n. - more"
+- "res, rei, f. - vec"
+
+Pre KAŽDÉ slovíčko extrahuj:
+1. latin: latinské slovo v základnom tvare (len slovo, bez koncovky)
+2. genitive: genitívna koncovka (napr. "-ae", "-i", "-is") - ak je uvedená celá forma (napr. "libri"), extrahuj len koncovku ("-i")
+3. gender: rod - "m" pre maskulínum, "f" pre feminínum, "n" pre neutrum
+4. slovak: slovenský preklad
+
+Vráť odpoveď v tomto PRESNOM JSON formáte:
+{
+  "vocabulary": [
+    {
+      "latin": "aqua",
+      "genitive": "-ae",
+      "gender": "f",
+      "slovak": "voda"
+    },
+    {
+      "latin": "liber",
+      "genitive": "-bri",
+      "gender": "m",
+      "slovak": "kniha"
+    }
+  ]
+}
+
+⚠️ DÔLEŽITÉ:
+- Extrahuj VŠETKY slovíčka z obrázku
+- Ak nie je jasný rod, odhadni podľa koncovky (napr. -a = f, -us = m, -um = n)
+- Ak nie je jasný genitív, nechaj prázdny string
+- Vráť LEN platný JSON, žiadny markdown ani iný text"""
+
+        # Volanie OpenAI API
+        response = client.chat.completions.create(
+            model="gpt-4o",
+            messages=[
+                {
+                    "role": "user",
+                    "content": [
+                        {"type": "text", "text": prompt},
+                        {
+                            "type": "image_url",
+                            "image_url": {
+                                "url": f"data:image/jpeg;base64,{image_data}",
+                                "detail": "high"
+                            }
+                        }
+                    ]
+                }
+            ],
+            max_tokens=4000,
+            temperature=0.1
+        )
+
+        # Extrahovať JSON odpoveď
+        ai_response = response.choices[0].message.content.strip()
+        print(f"Vocab AI Response length: {len(ai_response)} chars")
+        print(f"Vocab AI Response preview: {ai_response[:200]}")
+
+        # Pokúsiť sa parsovať JSON (ak AI pridalo markdown bloky, odstránime ich)
+        if '```json' in ai_response:
+            # Nájsť JSON medzi ```json a ```
+            start = ai_response.find('```json') + 7
+            end = ai_response.find('```', start)
+            ai_response = ai_response[start:end].strip()
+        elif '```' in ai_response:
+            # Nájsť JSON medzi ``` a ```
+            parts = ai_response.split('```')
+            if len(parts) >= 2:
+                ai_response = parts[1].strip()
+                if ai_response.startswith('json'):
+                    ai_response = ai_response[4:].strip()
+
+        # Odstrániť možné úvodné/záverečné znaky
+        ai_response = ai_response.strip()
+
+        # Parsovať JSON
+        try:
+            result = json.loads(ai_response)
+        except json.JSONDecodeError as e:
+            print(f"JSON Parse Error (vocab): {e}")
+            print(f"AI Response: {ai_response[:500]}")
+            return jsonify({
+                'error': f'Chyba pri parsovaní AI odpovede: {str(e)}',
+                'raw_response': ai_response[:200]
+            }), 400
+
+        return jsonify({
+            'success': True,
+            'data': result
+        })
+
+    except Exception as e:
+        return jsonify({'error': str(e)}), 400
+
 @app.route('/api/save-test', methods=['POST'])
 def save_test():
     """Uloží test do JSON súboru v priečinku testy/"""

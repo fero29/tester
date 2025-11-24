@@ -10,7 +10,7 @@
     <div class="container">
         <div class="app-header">
             <h1 onclick="backToList()" style="cursor: pointer;" title="Späť na hlavnú stránku">AI Tester</h1>
-            <span class="version-badge" onclick="showVersionInfo()" style="cursor: pointer;" title="Kliknite pre info">v1.4.0</span>
+            <span class="version-badge" onclick="showVersionInfo()" style="cursor: pointer;" title="Kliknite pre info">v1.5.0</span>
         </div>
 
         <!-- Zoznam testov -->
@@ -35,7 +35,7 @@
 
         <!-- Verzia Info -->
         <div id="versionPage" style="display: none;">
-            <h2>ℹ️ AI Tester v1.4.0</h2>
+            <h2>ℹ️ AI Tester v1.5.0</h2>
 
             <div class="help-section">
                 <h3>🎯 Hlavné funkcie</h3>
@@ -51,11 +51,26 @@
                     <li><strong>🎯 Náhodný výber otázok</strong> - Vyber si napr. 20 náhodných otázok z testu</li>
                     <li><strong>📚 Režim učenia</strong> - Prezeranie všetkých otázok so správnymi odpoveďami</li>
                     <li><strong>🔄 Zlučovanie testov</strong> - Možnosť absolvovať viac testov naraz</li>
+                    <li><strong>🔤 Latinské slovíčka</strong> - Import a testovanie latinských slovíčok s genitívom a rodom</li>
                 </ul>
             </div>
 
             <div class="help-section">
-                <h3>🆕 Novinky v1.4.0 - Veľké vylepšenia AI importu!</h3>
+                <h3>🆕 Novinky v1.5.0 - Latinské slovíčka!</h3>
+                <ul>
+                    <li>🔤 <strong>Import slovíčok</strong> - AI rozpozná latinské slovíčka zo skenov/fotiek</li>
+                    <li>📝 <strong>Kompletné dáta</strong> - Latinské slovo, slovenský preklad, genitívna koncovka, rod (m/f/n)</li>
+                    <li>🎯 <strong>Test slovíčok</strong> - Zadávanie prekladov s okamžitým feedbackom</li>
+                    <li>↔️ <strong>Smer prekladu</strong> - Testovanie LAT→SVK alebo SVK→LAT</li>
+                    <li>✅ <strong>Voliteľné genitív/rod</strong> - Môžeš zapnúť testovanie genitívu a rodu</li>
+                    <li>💡 <strong>Tlačidlo Pomoc</strong> - Postupné odhaľovanie písmen (počet → prvé → posledné → náhodné)</li>
+                    <li>📚 <strong>Režim učenia</strong> - Prezeranie všetkých slovíčok s kompletnou gramatikou</li>
+                    <li>🎨 <strong>Nový dizajn</strong> - Moderný gradient dizajn pre slovíčkové testy</li>
+                </ul>
+            </div>
+
+            <div class="help-section">
+                <h3>Novinky v1.4.0 - Veľké vylepšenia AI importu</h3>
                 <ul>
                     <li>📄 <strong>Viacstranový AI import</strong> - Nahrávajte viac strán naraz, každá sa spracuje samostatne</li>
                     <li>📊 <strong>Indikátor strany</strong> - Pri obrázku vidíte "Strana X/Y" a automatický scroll</li>
@@ -440,10 +455,44 @@
         <!-- AI Import -->
         <div id="aiImportPage" style="display: none;">
             <h2>🤖 AI Import otázok</h2>
-            <p class="ai-import-subtitle">Nahrajte fotografiu otázok a AI ich automaticky rozpozná</p>
+            <p class="ai-import-subtitle">Vyberte typ testu, ktorý chcete importovať</p>
 
-            <!-- Step 1: Upload fotky -->
-            <div id="aiStep1" class="ai-step">
+            <!-- Step 0: Výber metódy importu -->
+            <div id="aiStep0" class="ai-step">
+                <div class="ai-method-grid">
+                    <!-- Metóda 1: Test s označenými odpoveďami -->
+                    <div class="ai-method-card" onclick="selectAIMethod('marked')">
+                        <div class="ai-method-icon">📋</div>
+                        <h3>Test s odpoveďami</h3>
+                        <p>Odfotený test kde je správna odpoveď zakrúžkovaná alebo označená</p>
+                        <div class="ai-method-preview">
+                            <div class="preview-question">1. Hlavné mesto SR?</div>
+                            <div class="preview-answer">a) Praha</div>
+                            <div class="preview-answer correct">b) Bratislava ●</div>
+                            <div class="preview-answer">c) Košice</div>
+                        </div>
+                    </div>
+
+                    <!-- Metóda 2: Latinské slovíčka -->
+                    <div class="ai-method-card" onclick="selectAIMethod('vocabulary')">
+                        <div class="ai-method-icon">🔤</div>
+                        <h3>Latinské slovíčka</h3>
+                        <p>Import slovíčok s prekladom, genitívom a rodom</p>
+                        <div class="ai-method-preview">
+                            <div class="preview-vocab">
+                                <span class="vocab-lat">aqua, -ae</span>
+                                <span class="vocab-gender">f.</span>
+                                <span class="vocab-svk">voda</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button onclick="backToList()" class="btn-secondary" style="margin-top: 20px;">← Späť</button>
+            </div>
+
+            <!-- Step 1: Upload fotky (pre metódu "marked") -->
+            <div id="aiStep1" class="ai-step" style="display: none;">
                 <div class="ai-section">
                     <h3>1. Nahrajte fotografiu otázok</h3>
                     <p class="ai-import-subtitle" style="font-size: 0.9em; color: #666;">💡 Môžete nahrať aj viac fotiek naraz</p>
@@ -482,6 +531,51 @@
                         </button>
                     </div>
                 </div>
+                <button onclick="backToMethodSelection()" class="btn-secondary" style="margin-top: 10px;">← Späť</button>
+            </div>
+
+            <!-- Step 1-vocab: Upload slovíčok -->
+            <div id="aiStep1Vocab" class="ai-step" style="display: none;">
+                <div class="ai-section">
+                    <h3>1. Nahrajte fotografiu slovíčok</h3>
+                    <p class="ai-import-subtitle" style="font-size: 0.9em; color: #666;">💡 Môžete nahrať aj viac strán naraz</p>
+                    <input type="file" id="aiVocabImageInput" accept="image/*" multiple onchange="previewVocabImages(this)">
+                    <div id="vocabImagePreview" style="display: none; margin-top: 20px;">
+                        <div id="vocabPreviewContainer" style="display: flex; gap: 10px; flex-wrap: wrap;"></div>
+                    </div>
+
+                    <div style="margin-top: 15px; padding: 10px; background: #f0f8ff; border-radius: 8px; border-left: 4px solid #2196F3;">
+                        <label style="display: flex; align-items: center; gap: 10px; cursor: pointer;">
+                            <input type="checkbox" id="vocabAdvancedPreprocessing" style="width: 18px; height: 18px; cursor: pointer;">
+                            <div>
+                                <strong style="color: #2196F3;">🔬 Pokročilé predspracovanie obrázka</strong>
+                                <p style="margin: 5px 0 0 0; font-size: 0.85em; color: #666;">
+                                    Použije CLAHE, denoising a adaptívny threshold pre lepšie rozpoznávanie
+                                </p>
+                            </div>
+                        </label>
+                    </div>
+
+                    <!-- Info -->
+                    <div style="background: #e8f5e9; border-left: 4px solid #4CAF50; padding: 12px 16px; margin: 15px 0; border-radius: 4px; text-align: left;">
+                        <p style="margin: 0 0 8px 0; font-weight: bold; color: #2e7d32;">📖 Očakávaný formát:</p>
+                        <ul style="margin: 5px 0; padding-left: 20px; color: #2e7d32; font-size: 0.9em;">
+                            <li><strong>aqua, -ae, f.</strong> - voda</li>
+                            <li><strong>liber, -bri, m.</strong> - kniha</li>
+                            <li>Latinské slovo, genitív, rod → slovenský preklad</li>
+                        </ul>
+                    </div>
+
+                    <div style="display: flex; gap: 10px; margin-top: 15px;">
+                        <button onclick="processVocabWithAI()" id="processVocabBtn" class="btn-primary" style="display: none;">
+                            ✨ Spracovať s AI
+                        </button>
+                        <button onclick="cancelAIImport()" class="btn-danger" style="display: none;" id="cancelVocabBtn">
+                            ❌ Zrušiť
+                        </button>
+                    </div>
+                </div>
+                <button onclick="backToMethodSelection()" class="btn-secondary" style="margin-top: 10px;">← Späť</button>
             </div>
 
             <!-- Step 2: AI Processing -->
@@ -563,8 +657,6 @@
                     </div>
                 </div>
             </div>
-
-            <button onclick="backToList()" class="btn-secondary">← Späť na zoznam testov</button>
         </div>
 
         <!-- Edit Test Page -->
@@ -587,8 +679,11 @@
                 <h3>Otázky</h3>
                 <div id="editQuestionsContainer" class="ai-questions-container"></div>
 
-                <button onclick="addEditQuestion()" class="btn-secondary">➕ Pridať otázku</button>
-                <button onclick="saveEditedTest()" class="btn-success" style="margin-left: 10px;">💾 Uložiť zmeny</button>
+                <div style="display: flex; gap: 10px; margin-top: 15px; flex-wrap: wrap;">
+                    <button onclick="addEditQuestion()" class="btn-secondary">➕ Pridať otázku</button>
+                    <button onclick="saveEditedTest()" class="btn-success">💾 Uložiť zmeny</button>
+                    <button onclick="deleteCurrentTest()" class="btn-danger">🗑️ Odstrániť test</button>
+                </div>
             </div>
 
             <button onclick="backToList()" class="btn-secondary">← Späť na zoznam testov</button>
@@ -707,19 +802,124 @@
             <div class="settings-group">
                 <h3>Zobrazenie správnych odpovedí</h3>
                 <label>
-                    <input type="radio" name="showAnswers" value="each" checked> Po každej otázke
+                    <input type="checkbox" name="showAnswers" value="each" checked> Po každej otázke
                 </label>
                 <label>
-                    <input type="radio" name="showAnswers" value="end"> Na konci testu
+                    <input type="checkbox" name="showAnswers" value="end"> Na konci testu
                 </label>
                 <label>
-                    <input type="radio" name="showAnswers" value="retry"> Opakovať nesprávne otázky
+                    <input type="checkbox" name="showAnswers" value="retry"> Opakovať nesprávne otázky
                 </label>
             </div>
 
             <button onclick="startTestWithSettings()">Spustiť test</button>
             <button onclick="showLearnMode()" class="btn-learn">Režim učenia</button>
             <button onclick="backToList()" class="btn-secondary">Zrušiť</button>
+        </div>
+
+        <!-- Nastavenia pre slovíčka -->
+        <div id="vocabSettings" style="display: none;">
+            <h2 id="vocabSettingsTitle"></h2>
+
+            <div class="settings-group">
+                <h3>Časový limit</h3>
+                <label>
+                    <input type="radio" name="vocabTime" value="10" checked> 10 minút
+                </label>
+                <label>
+                    <input type="radio" name="vocabTime" value="20"> 20 minút
+                </label>
+                <label>
+                    <input type="radio" name="vocabTime" value="0"> Bez časového limitu
+                </label>
+            </div>
+
+            <div class="settings-group">
+                <h3>Výber slovíčok</h3>
+                <label>
+                    <input type="radio" name="vocabMode" value="range" checked onchange="toggleVocabMode()"> Rozsah slovíčok
+                </label>
+                <div id="vocabRangeInputs" style="margin-left: 20px; margin-top: 10px;">
+                    <label>Od slovíčka: <input type="number" id="vocabFrom" value="1" min="1"></label>
+                    <label>Do slovíčka: <input type="number" id="vocabTo" value="999" min="1"></label>
+                </div>
+                <label style="margin-top: 10px;">
+                    <input type="radio" name="vocabMode" value="random" onchange="toggleVocabMode()"> Náhodný výber
+                </label>
+                <div id="vocabRandomInputs" style="margin-left: 20px; margin-top: 10px; display: none;">
+                    <label>Počet slovíčok: <input type="number" id="vocabRandomCount" value="20" min="1"></label>
+                </div>
+            </div>
+
+            <div class="settings-group">
+                <h3>Poradie slovíčok</h3>
+                <label>
+                    <input type="radio" name="vocabShuffle" value="false" checked> Po poradí
+                </label>
+                <label>
+                    <input type="radio" name="vocabShuffle" value="true"> Zamixované
+                </label>
+            </div>
+
+            <div class="settings-group">
+                <h3>Smer prekladu</h3>
+                <label>
+                    <input type="radio" name="vocabDirection" value="lat-svk" checked> Latinčina → Slovenčina
+                </label>
+                <label>
+                    <input type="radio" name="vocabDirection" value="svk-lat"> Slovenčina → Latinčina
+                </label>
+            </div>
+
+            <div class="settings-group">
+                <h3>Testovať aj (voliteľné)</h3>
+                <label>
+                    <input type="checkbox" name="vocabTestGen" value="true"> Genitívnu príponu
+                </label>
+                <label>
+                    <input type="checkbox" name="vocabTestGender" value="true"> Rod (m/f/n)
+                </label>
+            </div>
+
+            <div class="settings-group">
+                <h3>Zobrazenie správnych odpovedí</h3>
+                <label>
+                    <input type="checkbox" name="vocabShowAnswers" value="each" checked> Po každom slovíčku
+                </label>
+                <label>
+                    <input type="checkbox" name="vocabShowAnswers" value="end"> Na konci testu
+                </label>
+                <label>
+                    <input type="checkbox" name="vocabShowAnswers" value="retry"> Opakovať nesprávne slovíčka
+                </label>
+            </div>
+
+            <button onclick="startVocabTest()">Spustiť test slovíčok</button>
+            <button onclick="showVocabLearnMode()" class="btn-secondary">Režim učenia</button>
+            <button onclick="backToList()" class="btn-secondary">Zrušiť</button>
+        </div>
+
+        <!-- Vocabulary Test Interface -->
+        <div id="vocabTestInterface" style="display: none;">
+            <div class="test-header">
+                <h2 id="vocabTestTitle"></h2>
+                <div id="vocabTimer" style="display: none;"></div>
+            </div>
+            <div id="vocabQuestionContainer" class="vocab-test-container"></div>
+            <div class="navigation">
+                <button onclick="previousVocab()" id="vocabPrevBtn">Predchádzajúce</button>
+                <span id="vocabNumber"></span>
+                <button onclick="nextVocab()" id="vocabNextBtn">Ďalšie</button>
+            </div>
+            <button onclick="submitVocabTest()" id="vocabSubmitBtn" style="display: none;">Odovzdať test</button>
+            <button onclick="backToList()" class="btn-secondary">Späť na zoznam</button>
+        </div>
+
+        <!-- Vocabulary Learn Mode -->
+        <div id="vocabLearnMode" style="display: none;">
+            <h2 id="vocabLearnModeTitle"></h2>
+            <div id="vocabLearnModeContainer" class="vocab-learn-container"></div>
+            <button onclick="backToList()" class="btn-secondary" style="margin-top: 20px;">Späť na zoznam</button>
         </div>
 
         <!-- Test interface -->
