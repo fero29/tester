@@ -1,4 +1,4 @@
-console.log('AI Tester v1.3.10 loaded - auto resize merged images');
+console.log('AI Tester v1.4.0 loaded - Multi-page AI import with page indicators');
 let tests = [];
 let currentTest = null;
 let currentQuestionIndex = 0;
@@ -72,6 +72,9 @@ function displayTestList() {
                         ` : '<div class="no-stats">Zatiaľ neabsolvované</div>'}
                     </div>
                 </div>
+                <button class="btn-edit" onclick="event.stopPropagation(); editTest('${filename}')" title="Upraviť test">
+                    ✏️ Upraviť
+                </button>
             </div>
         `;
     }).join('');
@@ -1329,43 +1332,53 @@ async function processImagesWithAI() {
             suggestedTitle: '',
             suggestedDescription: '',
             questions: [],
-            processedImage: null
+            processedImages: [],
+            totalPages: compressedFiles.length
         };
 
-        // Ak je viac fotiek, spojiť ich do jednej
-        let fileToProcess;
-        if (compressedFiles.length > 1) {
-            const progressCallback = (current, total) => {
-                document.querySelector('.ai-processing p').textContent = `Pripravujem fotku ${current}/${total}...`;
-            };
-            fileToProcess = await mergeImagesToCanvas(compressedFiles, imageRotations, progressCallback);
-        } else {
-            fileToProcess = compressedFiles[0];
-        }
+        // Spracovať každú fotku samostatne
+        for (let i = 0; i < compressedFiles.length; i++) {
+            const fileToProcess = compressedFiles[i];
+            const pageNumber = i + 1;
 
-        // Update loading message
-        document.querySelector('.ai-processing p').textContent = 'AI analyzuje obrázok...';
+            // Update loading message
+            document.querySelector('.ai-processing p').textContent = `AI analyzuje stranu ${pageNumber}/${compressedFiles.length}...`;
 
-        const formData = new FormData();
-        formData.append('image', fileToProcess);
-        formData.append('advancedPreprocessing', advancedPreprocessing);
-        // Pri spojenom obrázku už nemáme rotáciu (už je aplikovaná)
-        formData.append('rotation', compressedFiles.length === 1 ? (imageRotations[0] || 0) : 0);
+            const formData = new FormData();
+            formData.append('image', fileToProcess);
+            formData.append('advancedPreprocessing', advancedPreprocessing);
+            formData.append('rotation', imageRotations[i] || 0);
 
-        const response = await fetch('/api/ai-import', {
-            method: 'POST',
-            body: formData
-        });
+            const response = await fetch('/api/ai-import', {
+                method: 'POST',
+                body: formData
+            });
 
-        const result = await response.json();
+            const result = await response.json();
 
-        if (result.success) {
-            aiImportedData.suggestedTitle = result.data.suggestedTitle || 'Importovaný test';
-            aiImportedData.suggestedDescription = result.data.suggestedDescription || '';
-            aiImportedData.processedImage = result.data.processedImage;
-            aiImportedData.questions = result.data.questions || [];
-        } else {
-            throw new Error(result.error || 'Chyba pri spracovaní obrázka');
+            if (result.success) {
+                // Prvá strana nastaví title a description
+                if (i === 0) {
+                    aiImportedData.suggestedTitle = result.data.suggestedTitle || 'Importovaný test';
+                    aiImportedData.suggestedDescription = result.data.suggestedDescription || '';
+                }
+
+                // Uložiť spracovaný obrázok
+                aiImportedData.processedImages.push({
+                    image: result.data.processedImage,
+                    pageNumber: pageNumber
+                });
+
+                // Pridať otázky s označením strany
+                if (result.data.questions && result.data.questions.length > 0) {
+                    result.data.questions.forEach(q => {
+                        q.pageNumber = pageNumber;
+                        aiImportedData.questions.push(q);
+                    });
+                }
+            } else {
+                throw new Error(`Chyba pri spracovaní strany ${pageNumber}: ${result.error || 'Neznáma chyba'}`);
+            }
         }
 
         if (aiImportedData.questions.length === 0) {
@@ -1386,21 +1399,22 @@ async function processImagesWithAI() {
             const dataToSave = {
                 suggestedTitle: aiImportedData.suggestedTitle,
                 suggestedDescription: aiImportedData.suggestedDescription,
+                totalPages: aiImportedData.totalPages,
                 questions: aiImportedData.questions.map(q => ({
                     question: q.question,
                     answers: q.answers,
                     correct: q.correct,
-                    positionPercent: q.positionPercent
+                    positionPercent: q.positionPercent,
+                    pageNumber: q.pageNumber
                     // Vynechať cropImage - príliš veľké
                 }))
-                // Vynechať processedImage - príliš veľké
+                // Vynechať processedImages - príliš veľké
             };
 
             localStorage.setItem('aiImportState', JSON.stringify({
                 step: 'completed',
                 timestamp: Date.now(),
                 data: dataToSave
-                // Vynechať originalImages - príliš veľké
             }));
         } catch (e) {
             // Ak localStorage presiahne kvótu, len to ignoruj
@@ -1417,29 +1431,104 @@ async function processImagesWithAI() {
     }
 }
 
+let currentPageIndex = 0;
+
 function displayProcessedAndOriginalImages() {
     const container = document.getElementById('originalImagesPreview');
     container.innerHTML = '';
 
-    // Zobrazíme len predspracovanú fotku v scrollovateľnom okne
-    const processedImage = aiImportedData.processedImage;
+    if (!aiImportedData.processedImages || aiImportedData.processedImages.length === 0) {
+        return;
+    }
 
-    if (processedImage) {
+    // Vytvor wrapper pre obrázky a navigáciu
+    const wrapper = document.createElement('div');
+    wrapper.style.cssText = 'position: relative; width: 100%; height: 100%;';
+
+    // Indikátor stránky
+    const pageIndicator = document.createElement('div');
+    pageIndicator.id = 'pageIndicator';
+    pageIndicator.style.cssText = `
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background: rgba(0, 0, 0, 0.7);
+        color: white;
+        padding: 8px 12px;
+        border-radius: 20px;
+        font-weight: bold;
+        z-index: 10;
+        font-size: 14px;
+    `;
+    pageIndicator.textContent = `Strana ${currentPageIndex + 1}/${aiImportedData.processedImages.length}`;
+
+    // Kontajner pre obrázky
+    const imagesContainer = document.createElement('div');
+    imagesContainer.id = 'imagesScrollContainer';
+    imagesContainer.style.cssText = 'width: 100%; height: 100%; overflow-y: auto; scroll-behavior: smooth;';
+
+    // Pridať všetky obrázky
+    aiImportedData.processedImages.forEach((pageData, index) => {
         const imageDiv = document.createElement('div');
-        imageDiv.style.width = '100%';
+        imageDiv.className = 'page-image';
+        imageDiv.dataset.pageIndex = index;
+        imageDiv.style.cssText = 'margin-bottom: 0; scroll-snap-align: start;';
 
         const img = document.createElement('img');
-        img.src = processedImage;
-        img.style.cssText = 'width: 100%; border-radius: 8px; border: 2px solid #2196F3; cursor: pointer;';
+        img.src = pageData.image;
+        img.style.cssText = 'width: 100%; border-radius: 8px; border: 2px solid #2196F3; cursor: pointer; display: block;';
         img.title = 'Kliknite pre zväčšenie';
         img.onclick = function() {
-            const newWindow = window.open();
-            newWindow.document.write('<img src="' + processedImage + '" style="max-width:100%;height:auto">');
+            const newWin = window.open('', '_blank');
+            if (newWin) {
+                newWin.document.body.innerHTML = '<img src="' + pageData.image + '" style="max-width:100%;height:auto">';
+            }
         };
 
         imageDiv.appendChild(img);
-        container.appendChild(imageDiv);
-    }
+        imagesContainer.appendChild(imageDiv);
+    });
+
+    // Scroll event - automatické prepínanie strán
+    imagesContainer.addEventListener('scroll', function() {
+        const scrollTop = this.scrollTop;
+        const scrollHeight = this.scrollHeight;
+        const clientHeight = this.clientHeight;
+        const images = this.querySelectorAll('.page-image');
+
+        // Nájsť aktuálnu viditeľnú stranu
+        images.forEach((img, index) => {
+            const rect = img.getBoundingClientRect();
+            const containerRect = imagesContainer.getBoundingClientRect();
+
+            if (rect.top >= containerRect.top && rect.top < containerRect.top + containerRect.height / 2) {
+                if (currentPageIndex !== index) {
+                    currentPageIndex = index;
+                    pageIndicator.textContent = `Strana ${index + 1}/${aiImportedData.processedImages.length}`;
+                }
+            }
+        });
+
+        // Automatický scroll na ďalšiu stranu keď si blízko konca
+        if (scrollTop + clientHeight >= scrollHeight - 50) {
+            if (currentPageIndex < aiImportedData.processedImages.length - 1) {
+                currentPageIndex++;
+                const nextImage = images[currentPageIndex];
+                if (nextImage) {
+                    nextImage.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    pageIndicator.textContent = `Strana ${currentPageIndex + 1}/${aiImportedData.processedImages.length}`;
+                }
+            }
+        }
+    });
+
+    wrapper.appendChild(pageIndicator);
+    wrapper.appendChild(imagesContainer);
+    container.appendChild(wrapper);
+
+    // Reset scroll na začiatok
+    currentPageIndex = 0;
+    imagesContainer.scrollTop = 0;
 }
 
 function displayAIQuestions() {
@@ -1451,36 +1540,67 @@ function displayAIQuestions() {
     const container = document.getElementById('aiQuestionsPreview');
     container.innerHTML = '';
 
+    // Zoskupiť otázky podľa strán
+    const questionsByPage = {};
     aiImportedData.questions.forEach((q, qIndex) => {
         // Zabezpečiť že correct je array
         if (!Array.isArray(q.correct)) {
             q.correct = [q.correct];
         }
 
-        const questionDiv = document.createElement('div');
-        questionDiv.className = 'ai-question-item';
-        questionDiv.innerHTML = `
-            <div class="ai-question-header">
-                <h4>Otázka ${qIndex + 1}</h4>
-                <button onclick="deleteQuestion(${qIndex})" class="btn-delete-small">🗑️</button>
-            </div>
-            <label>Otázka:</label>
-            <input type="text" class="ai-input" data-q="${qIndex}" data-field="question"
-                   value="${escapeHtml(q.question)}" onchange="updateAIQuestion(${qIndex}, 'question', this.value)">
+        const pageNum = q.pageNumber || 1;
+        if (!questionsByPage[pageNum]) {
+            questionsByPage[pageNum] = [];
+        }
+        questionsByPage[pageNum].push({ question: q, originalIndex: qIndex });
+    });
 
-            <label>Odpovede (zaškrtnite všetky správne):</label>
-            ${q.answers.map((ans, aIndex) => `
-                <div class="ai-answer-row">
-                    <input type="checkbox" id="correct_${qIndex}_${aIndex}"
-                           ${q.correct.includes(aIndex) ? 'checked' : ''}
-                           onchange="toggleAICorrect(${qIndex}, ${aIndex})">
-                    <input type="text" class="ai-input ai-answer-input"
-                           value="${escapeHtml(ans)}"
-                           onchange="updateAIAnswer(${qIndex}, ${aIndex}, this.value)">
+    // Zobraziť otázky zoskupené podľa strán
+    Object.keys(questionsByPage).sort((a, b) => parseInt(a) - parseInt(b)).forEach(pageNum => {
+        // Pridať hlavičku strany
+        if (aiImportedData.totalPages > 1) {
+            const pageHeader = document.createElement('div');
+            pageHeader.style.cssText = `
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                color: white;
+                padding: 12px 20px;
+                margin: 20px 0 10px 0;
+                border-radius: 8px;
+                font-weight: bold;
+                font-size: 16px;
+                text-align: center;
+            `;
+            pageHeader.textContent = `📄 Strana ${pageNum}`;
+            container.appendChild(pageHeader);
+        }
+
+        // Zobraziť otázky z tejto strany
+        questionsByPage[pageNum].forEach(({ question: q, originalIndex: qIndex }) => {
+            const questionDiv = document.createElement('div');
+            questionDiv.className = 'ai-question-item';
+            questionDiv.innerHTML = `
+                <div class="ai-question-header">
+                    <h4>Otázka ${qIndex + 1}</h4>
+                    <button onclick="deleteQuestion(${qIndex})" class="btn-delete-small">🗑️</button>
                 </div>
-            `).join('')}
-        `;
-        container.appendChild(questionDiv);
+                <label>Otázka:</label>
+                <input type="text" class="ai-input" data-q="${qIndex}" data-field="question"
+                       value="${escapeHtml(q.question)}" onchange="updateAIQuestion(${qIndex}, 'question', this.value)">
+
+                <label>Odpovede (zaškrtnite všetky správne):</label>
+                ${q.answers.map((ans, aIndex) => `
+                    <div class="ai-answer-row">
+                        <input type="checkbox" id="correct_${qIndex}_${aIndex}"
+                               ${q.correct.includes(aIndex) ? 'checked' : ''}
+                               onchange="toggleAICorrect(${qIndex}, ${aIndex})">
+                        <input type="text" class="ai-input ai-answer-input"
+                               value="${escapeHtml(ans)}"
+                               onchange="updateAIAnswer(${qIndex}, ${aIndex}, this.value)">
+                    </div>
+                `).join('')}
+            `;
+            container.appendChild(questionDiv);
+        });
     });
 
     // Načítať existujúce testy pre append mode
@@ -1566,6 +1686,13 @@ async function loadExistingTestsForAppend() {
         const select = document.getElementById('existingTestSelect');
         select.innerHTML = '';
 
+        // Pridať default option
+        const defaultOption = document.createElement('option');
+        defaultOption.value = '';
+        defaultOption.textContent = '-- Vyberte existujúci test --';
+        defaultOption.selected = true;
+        select.appendChild(defaultOption);
+
         if (result.files && result.files.length > 0) {
             result.files.forEach(file => {
                 const option = document.createElement('option');
@@ -1575,12 +1702,21 @@ async function loadExistingTestsForAppend() {
             });
         } else {
             const option = document.createElement('option');
+            option.value = '';
             option.textContent = 'Žiadne existujúce testy';
             option.disabled = true;
             select.appendChild(option);
         }
     } catch (error) {
         console.error('Chyba pri načítaní existujúcich testov:', error);
+        // Pridať error option
+        const select = document.getElementById('existingTestSelect');
+        select.innerHTML = '';
+        const errorOption = document.createElement('option');
+        errorOption.value = '';
+        errorOption.textContent = 'Chyba pri načítaní testov';
+        errorOption.disabled = true;
+        select.appendChild(errorOption);
     }
 }
 
@@ -1592,6 +1728,8 @@ async function saveAITest() {
 
     const mode = document.querySelector('input[name="saveMode"]:checked').value;
     let testName;
+    let title;
+    let description;
 
     if (mode === 'new') {
         testName = document.getElementById('newTestFileName').value.trim();
@@ -1599,20 +1737,40 @@ async function saveAITest() {
             alert('Zadajte názov súboru');
             return;
         }
+
+        title = document.getElementById('aiTestTitle').value.trim();
+        description = document.getElementById('aiTestDesc').value.trim();
+
+        if (!title) {
+            alert('Zadajte názov testu');
+            return;
+        }
     } else {
+        // Append mode
         testName = document.getElementById('existingTestSelect').value;
         if (!testName) {
             alert('Vyberte existujúci test');
             return;
         }
-    }
 
-    const title = document.getElementById('aiTestTitle').value.trim();
-    const description = document.getElementById('aiTestDesc').value.trim();
+        // V append móde načítame existujúci test a použijeme jeho title/description
+        try {
+            const loadResponse = await fetch(`/api/load-test/${testName}.json`);
+            const loadResult = await loadResponse.json();
 
-    if (!title) {
-        alert('Zadajte názov testu');
-        return;
+            if (loadResult.success && loadResult.data) {
+                // Získať title a description z existujúceho testu
+                const existingTest = Array.isArray(loadResult.data) ? loadResult.data[0] : loadResult.data;
+                title = existingTest.title || testName;
+                description = existingTest.description || '';
+            } else {
+                alert('Nepodarilo sa načítať existujúci test');
+                return;
+            }
+        } catch (error) {
+            alert('Chyba pri načítaní existujúceho testu: ' + error.message);
+            return;
+        }
     }
 
     if (aiImportedData.questions.length === 0) {

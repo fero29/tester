@@ -10,7 +10,7 @@
     <div class="container">
         <div class="app-header">
             <h1 onclick="backToList()" style="cursor: pointer;" title="Späť na hlavnú stránku">AI Tester</h1>
-            <span class="version-badge" onclick="showVersionInfo()" style="cursor: pointer;" title="Kliknite pre info">v1.3.27</span>
+            <span class="version-badge" onclick="showVersionInfo()" style="cursor: pointer;" title="Kliknite pre info">v1.4.0</span>
         </div>
 
         <!-- Zoznam testov -->
@@ -19,7 +19,6 @@
                 <h2>Dostupné testy</h2>
                 <div>
                     <button onclick="showHelpPage()" class="btn-info btn-small">📖 Návod</button>
-                    <button onclick="showImportPage()" class="btn-import btn-small">📁 Import testov</button>
                     <button onclick="showAIImportPage()" class="btn-ai-import btn-small">🤖 AI Import</button>
                     <button onclick="startMultipleTests()" class="btn-multi" id="startMultiBtn" style="display: none;">
                         Spustiť vybrané testy
@@ -36,7 +35,7 @@
 
         <!-- Verzia Info -->
         <div id="versionPage" style="display: none;">
-            <h2>ℹ️ AI Tester v1.3.27</h2>
+            <h2>ℹ️ AI Tester v1.4.0</h2>
 
             <div class="help-section">
                 <h3>🎯 Hlavné funkcie</h3>
@@ -56,7 +55,21 @@
             </div>
 
             <div class="help-section">
-                <h3>🆕 Novinky v1.3.27</h3>
+                <h3>🆕 Novinky v1.4.0 - Veľké vylepšenia AI importu!</h3>
+                <ul>
+                    <li>📄 <strong>Viacstranový AI import</strong> - Nahrávajte viac strán naraz, každá sa spracuje samostatne</li>
+                    <li>📊 <strong>Indikátor strany</strong> - Pri obrázku vidíte "Strana X/Y" a automatický scroll</li>
+                    <li>📚 <strong>Zoskupené otázky</strong> - Otázky sa automaticky zoskupia podľa strán s hlavičkami</li>
+                    <li>⚠️ <strong>Informatívne texty</strong> - Upozornenia o čase spracovania (~1 min/strana) a potrebe kontroly odpovedí</li>
+                    <li>✏️ <strong>Tlačidlo Upraviť</strong> - Priame editovanie testov zo zoznamu (bez importu)</li>
+                    <li>🏠 <strong>Tlačidlo Späť</strong> - Vždy vedie na domovskú obrazovku</li>
+                    <li>🎨 <strong>Zjednodušené UI</strong> - Skryté menu "Import testov"</li>
+                    <li>📖 <strong>Aktualizovaný návod</strong> - Stručný a jasný popis funkcií</li>
+                </ul>
+            </div>
+
+            <div class="help-section">
+                <h3>Novinky v1.3.27</h3>
                 <ul>
                     <li>🎲 <strong>Mixovanie odpovedí</strong> - Pri mixovaní sa teraz zamixujú aj odpovede v otázkach!</li>
                     <li>🎯 <strong>Náhodný výber otázok</strong> - Nová možnosť vybrať N náhodných otázok (napr. 20 z 50)</li>
@@ -331,77 +344,58 @@
             <h2>📖 Návod na použitie</h2>
 
             <div class="help-section">
-                <h3>🎯 Ako používať testy</h3>
+                <h3>🤖 Nahranie testov cez AI</h3>
                 <ol>
-                    <li><strong>Vyberte test</strong> zo zoznamu - kliknite na názov testu</li>
+                    <li>Kliknite <strong>"🤖 AI Import"</strong></li>
+                    <li>Nahrajte <strong>fotografiu otázok</strong> (môžete aj viac strán naraz)</li>
+                    <li>Voliteľne zapnite <strong>"🔬 Pokročilé predspracovanie"</strong> pre lepšie rozpoznávanie špatných fotiek</li>
+                    <li>Kliknite <strong>"✨ Spracovať s AI"</strong> (trvá ~ 1 minúta na stránku)</li>
+                    <li><strong>⚠️ DÔLEŽITÉ:</strong> Skontrolujte <strong>správne odpovede</strong> pri každej otázke - AI ich nevie určiť na 100%</li>
+                    <li>Zadajte <strong>názov testu</strong> a vyberte či vytvoriť nový alebo pridať k existujúcemu</li>
+                    <li>Kliknite <strong>"💾 Uložiť test"</strong></li>
+                </ol>
+                <p><strong>💡 Tipy:</strong></p>
+                <ul style="font-size: 0.9em; color: #666;">
+                    <li>Robte ostré fotky s dobrým osvetlením</li>
+                    <li>Pri viacerých stranách sa každá analyzuje samostatne</li>
+                    <li>Otázky zo strán sa automaticky zoskupia</li>
+                </ul>
+            </div>
+
+            <div class="help-section">
+                <h3>✏️ Úprava existujúcich testov</h3>
+                <ol>
+                    <li>V zozname testov kliknite na <strong>"✏️ Upraviť"</strong> pri teste</li>
+                    <li>Upravte <strong>otázky, odpovede alebo správne odpovede</strong></li>
+                    <li>Zmeny sa <strong>automaticky ukladajú</strong></li>
+                    <li>Kliknite <strong>"Späť"</strong> pre návrat na zoznam</li>
+                </ol>
+            </div>
+
+            <div class="help-section">
+                <h3>🎯 Testovanie</h3>
+                <ol>
+                    <li><strong>Kliknite na test</strong> v zozname</li>
                     <li><strong>Nastavte parametre:</strong>
                         <ul>
-                            <li><strong>Časový limit:</strong> 20/30/60 minút alebo bez limitu</li>
-                            <li><strong>Rozsah otázok:</strong> Napr. 1-50 (môžete vybrať len časť testu)</li>
-                            <li><strong>Poradie:</strong> Po poradí alebo zamixované (náhodné)</li>
-                            <li><strong>Zobrazenie odpovedí:</strong>
-                                <ul>
-                                    <li><em>Po každej otázke</em> - ihneď uvidíte či je správne ✅</li>
-                                    <li><em>Na konci testu</em> - všetky odpovede naraz</li>
-                                    <li><em>Opakovať nesprávne</em> - nesprávne sa opakujú až kým neodpoviete správne</li>
-                                </ul>
-                            </li>
+                            <li><strong>Časový limit:</strong> 20/30/60 min alebo bez limitu</li>
+                            <li><strong>Rozsah:</strong> Napr. 1-50 (časť testu)</li>
+                            <li><strong>Poradie:</strong> Po poradí / Zamixované</li>
+                            <li><strong>Odpovede:</strong> Po každej otázke / Na konci / Opakovať nesprávne</li>
                         </ul>
                     </li>
-                    <li><strong>Kliknite:</strong>
-                        <ul>
-                            <li><strong>Spustiť test</strong> - klasický test s časomerom a hodnotením</li>
-                            <li><strong>Režim učenia</strong> - prezeranie všetkých otázok so správnymi odpoveďami</li>
-                        </ul>
-                    </li>
-                    <li><strong>Absolvujte test</strong> a pozrite si výsledky so štatistikami</li>
+                    <li><strong>Spustite:</strong> "Spustiť test" (hodnotenie) alebo "Režim učenia" (bez tlaku)</li>
+                    <li>Po teste vidíte <strong>výsledky a štatistiky</strong></li>
                 </ol>
             </div>
 
             <div class="help-section">
-                <h3>⭐ Užitočné funkcie</h3>
+                <h3>⭐ Ďalšie funkcie</h3>
                 <ul>
-                    <li><strong>Viacero testov naraz:</strong> Zaškrtnite checkboxy pri viacerých testoch → kliknite "Spustiť vybrané testy" → zlúčia sa do jedného</li>
-                    <li><strong>Štatistiky:</strong> Pod každým testom vidíte počet absolvovaní, posledný výsledok a priemer</li>
-                    <li><strong>Režim učenia:</strong> Prečítajte si všetky otázky so správnymi odpoveďami bez časového tlaku</li>
+                    <li><strong>Viacero testov naraz:</strong> Zaškrtnite checkboxy → "Spustiť vybrané testy"</li>
+                    <li><strong>Štatistiky:</strong> Počet absolvovaní, posledný výsledok a priemer pri každom teste</li>
+                    <li><strong>Režim učenia:</strong> Všetky otázky so správnymi odpoveďami bez hodnotenia</li>
                 </ul>
-            </div>
-
-            <div class="help-section">
-                <h3>🤖 Vytvorenie testov cez AI</h3>
-                <ol>
-                    <li><strong>Kliknite na "🤖 AI Import"</strong></li>
-                    <li><strong>Nahrajte fotografiu</strong> otázok (môžete aj viac naraz)</li>
-                    <li><strong>Voliteľne zapnite</strong> "🔬 Pokročilé predspracovanie" pre lepšie rozpoznávanie</li>
-                    <li><strong>Kliknite "✨ Spracovať s AI"</strong> - AI automaticky rozpozná otázky a odpovede</li>
-                    <li><strong>Skontrolujte otázky</strong> - môžete upraviť, pridať alebo zmazať</li>
-                    <li><strong>Zadajte názov testu</strong> a popis</li>
-                    <li><strong>Uložte test</strong> - test sa uloží do priečinka <code>testy/</code></li>
-                </ol>
-                <p><strong>💡 Tip:</strong> Pre najlepšie výsledky robte ostré fotky s dobrým osvetlením!</p>
-            </div>
-
-            <div class="help-section">
-                <h3>📁 Načítanie existujúcich testov</h3>
-                <ul>
-                    <li><strong>Automaticky:</strong> Vložte JSON súbory do priečinka <code>testy/</code> a obnovte stránku</li>
-                    <li><strong>Manuálne nahratie:</strong> Kliknite "📁 Import testov" → vyberte JSON súbor → "📤 Nahrať súbor"</li>
-                </ul>
-            </div>
-
-            <div class="help-section">
-                <h3>📝 Formát JSON súboru (pre programátorov)</h3>
-                <p>Ak chcete vytvoriť test manuálne v JSON formáte:</p>
-                <pre><code>[{
-  "title": "Názov testu",
-  "description": "Popis",
-  "questions": [{
-    "question": "Text otázky?",
-    "answers": ["A", "B", "C"],
-    "correct": 0
-  }]
-}]</code></pre>
-                <p><strong>Pravidlá:</strong> <code>correct</code> = číslo (jedna správna) alebo <code>[0, 2]</code> (viac správnych). Index od 0.</p>
             </div>
 
             <button onclick="backToList()" class="btn-secondary">← Späť na zoznam testov</button>
@@ -470,6 +464,15 @@
                         </label>
                     </div>
 
+                    <!-- Info o čase spracovania -->
+                    <div style="background: #fff9e6; border-left: 4px solid #ff9800; padding: 12px 16px; margin: 15px 0; border-radius: 4px; text-align: left;">
+                        <p style="margin: 0 0 8px 0; font-weight: bold; color: #e65100;">ℹ️ Pred spustením:</p>
+                        <ul style="margin: 5px 0; padding-left: 20px; color: #e65100; font-size: 0.9em;">
+                            <li>Spracovanie trvá <strong>~ 1 minútu na stránku</strong></li>
+                            <li>Po spracovaní <strong>skontrolujte správne odpovede</strong> - AI ich nevie určiť na 100%</li>
+                        </ul>
+                    </div>
+
                     <div style="display: flex; gap: 10px; margin-top: 15px;">
                         <button onclick="processImagesWithAI()" id="processBtn" class="btn-primary" style="display: none;">
                             ✨ Spracovať s AI
@@ -486,7 +489,10 @@
                 <div class="ai-processing">
                     <div class="spinner"></div>
                     <p id="aiProcessingMessage">AI analyzuje obrázok...</p>
-                    <p id="aiProcessingTime" class="ai-processing-detail" style="font-size: 0.9em; color: #666;"></p>
+                    <div style="background: #fff3cd; border-left: 4px solid #ffc107; padding: 12px 16px; margin: 15px 0; border-radius: 4px; text-align: left;">
+                        <p style="margin: 0 0 8px 0; font-weight: bold; color: #856404;">⏱️ Približný čas spracovania:</p>
+                        <p style="margin: 0; color: #856404; font-size: 0.95em;">~ 1 minúta na stránku</p>
+                    </div>
                     <button onclick="cancelAIImport()" class="btn-danger" style="margin-top: 20px;">
                         ❌ Zrušiť spracovanie
                     </button>
@@ -497,6 +503,12 @@
             <div id="aiStep3" class="ai-step" style="display: none;">
                 <div class="ai-section">
                     <h3>2. Skontrolujte a upravte otázky</h3>
+
+                    <!-- Upozornenie o kontrole -->
+                    <div style="background: #e3f2fd; border-left: 4px solid #2196F3; padding: 12px 16px; margin: 15px 0; border-radius: 4px; text-align: left;">
+                        <p style="margin: 0 0 8px 0; font-weight: bold; color: #1565c0;">⚠️ Dôležité upozornenie:</p>
+                        <p style="margin: 0; color: #1565c0; font-size: 0.95em;">AI rozpoznáva otázky s vysokou presnosťou, ale <strong>označenie správnych odpovedí nie je 100% spoľahlivé</strong>. Skontrolujte, či sú zaškrtnuté správne odpovede pri každej otázke.</p>
+                    </div>
 
                     <!-- Zobrazenie predspracovanej fotky -->
                     <div id="originalImagesContainer" style="margin: 20px 0; padding: 15px; background: #f5f5f5; border-radius: 8px;">
@@ -642,7 +654,7 @@
                 </div>
             </div>
 
-            <button onclick="backToImport()" class="btn-secondary">← Späť na import</button>
+            <button onclick="backToList()" class="btn-secondary">← Späť na zoznam testov</button>
         </div>
 
         <!-- Nastavenia testu -->
