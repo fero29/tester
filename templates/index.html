@@ -10,7 +10,7 @@
     <div class="container">
         <div class="app-header">
             <h1 onclick="backToList()" style="cursor: pointer;" title="Späť na hlavnú stránku">AI Tester</h1>
-            <span class="version-badge" onclick="showVersionInfo()" style="cursor: pointer;" title="Kliknite pre info">v1.5.0</span>
+            <span class="version-badge" onclick="showVersionInfo()" style="cursor: pointer;" title="Kliknite pre info">v1.5.5</span>
         </div>
 
         <!-- Zoznam testov -->
@@ -35,7 +35,39 @@
 
         <!-- Verzia Info -->
         <div id="versionPage" style="display: none;">
-            <h2>ℹ️ AI Tester v1.5.0</h2>
+            <h2>ℹ️ AI Tester v1.5.5</h2>
+
+            <div class="help-section">
+                <h3>🆕 Novinky v1.5.5</h3>
+                <ul>
+                    <li>🔤 <strong>Flexibilné porovnávanie prekladov</strong> - Ak má slovíčko viac prekladov (napr. "Akne, uhrovitosť"), akceptuje sa:</li>
+                    <ul>
+                        <li>Každé jednotlivé slovo ("Akne" alebo "uhrovitosť")</li>
+                        <li>Obe spolu s čiarkou alebo bez nej</li>
+                        <li>V ľubovoľnom poradí</li>
+                        <li>S diakritikou aj bez nej</li>
+                    </ul>
+                </ul>
+            </div>
+
+            <div class="help-section">
+                <h3>🆕 Novinky v1.5.3</h3>
+                <ul>
+                    <li>❓ <strong>Otázky bez správnej odpovede</strong> - Podpora otázok kde žiadna odpoveď nie je správna</li>
+                    <li>📋 <strong>Pôvodné výsledky po retry</strong> - Po dokončení opakovania sa zobrazia všetky pôvodné otázky s odpoveďami</li>
+                    <li>✏️ <strong>Editovanie slovíčkových testov</strong> - Opravená chyba pri úprave testov so slovíčkami</li>
+                </ul>
+            </div>
+
+            <div class="help-section">
+                <h3>🆕 Novinky v1.5.1</h3>
+                <ul>
+                    <li>🌙 <strong>Tmavý režim</strong> - Prepínač svetlý/tmavý režim s automatickou detekciou systémového nastavenia</li>
+                    <li>🔄 <strong>Rotácia pri importe slovíčok</strong> - Možnosť otočiť fotky pri AI importe slovíčok</li>
+                    <li>🎨 <strong>Vylepšený dizajn výsledkov</strong> - Nový dizajn zobrazenia výsledkov slovíčkových testov</li>
+                    <li>🐛 <strong>Opravy dark mode</strong> - Opravené všetky svetlé plochy v tmavom režime</li>
+                </ul>
+            </div>
 
             <div class="help-section">
                 <h3>🎯 Hlavné funkcie</h3>
@@ -427,7 +459,7 @@
 
                 <div id="existingTestsList" style="margin-top: 20px;">
                     <h4 style="margin-bottom: 10px; color: #2196F3;">📚 Testy v priečinku:</h4>
-                    <div id="existingTestsContent" style="max-height: 300px; overflow-y: auto; border: 1px solid #ddd; border-radius: 8px; padding: 10px; background: #f9f9f9;">
+                    <div id="existingTestsContent" class="existing-tests-content">
                         <p style="color: #666; text-align: center;">Načítavam...</p>
                     </div>
                 </div>
@@ -501,12 +533,12 @@
                         <div id="previewContainer" style="display: flex; gap: 10px; flex-wrap: wrap;"></div>
                     </div>
 
-                    <div style="margin-top: 15px; padding: 10px; background: #f0f8ff; border-radius: 8px; border-left: 4px solid #2196F3;">
+                    <div class="info-box info-box-blue">
                         <label style="display: flex; align-items: center; gap: 10px; cursor: pointer;">
                             <input type="checkbox" id="advancedPreprocessing" style="width: 18px; height: 18px; cursor: pointer;">
                             <div>
-                                <strong style="color: #2196F3;">🔬 Pokročilé predspracovanie obrázka</strong>
-                                <p style="margin: 5px 0 0 0; font-size: 0.85em; color: #666;">
+                                <strong class="info-box-title">🔬 Pokročilé predspracovanie obrázka</strong>
+                                <p class="info-box-text">
                                     Použije CLAHE, denoising a adaptívny threshold pre lepšie rozpoznávanie (čiernobiele, vysoký kontrast)
                                 </p>
                             </div>
@@ -514,9 +546,9 @@
                     </div>
 
                     <!-- Info o čase spracovania -->
-                    <div style="background: #fff9e6; border-left: 4px solid #ff9800; padding: 12px 16px; margin: 15px 0; border-radius: 4px; text-align: left;">
-                        <p style="margin: 0 0 8px 0; font-weight: bold; color: #e65100;">ℹ️ Pred spustením:</p>
-                        <ul style="margin: 5px 0; padding-left: 20px; color: #e65100; font-size: 0.9em;">
+                    <div class="info-box info-box-warning">
+                        <p class="info-box-title">ℹ️ Pred spustením:</p>
+                        <ul class="info-box-list">
                             <li>Spracovanie trvá <strong>~ 1 minútu na stránku</strong></li>
                             <li>Po spracovaní <strong>skontrolujte správne odpovede</strong> - AI ich nevie určiť na 100%</li>
                         </ul>
@@ -544,12 +576,12 @@
                         <div id="vocabPreviewContainer" style="display: flex; gap: 10px; flex-wrap: wrap;"></div>
                     </div>
 
-                    <div style="margin-top: 15px; padding: 10px; background: #f0f8ff; border-radius: 8px; border-left: 4px solid #2196F3;">
+                    <div class="info-box info-box-blue">
                         <label style="display: flex; align-items: center; gap: 10px; cursor: pointer;">
                             <input type="checkbox" id="vocabAdvancedPreprocessing" style="width: 18px; height: 18px; cursor: pointer;">
                             <div>
-                                <strong style="color: #2196F3;">🔬 Pokročilé predspracovanie obrázka</strong>
-                                <p style="margin: 5px 0 0 0; font-size: 0.85em; color: #666;">
+                                <strong class="info-box-title">🔬 Pokročilé predspracovanie obrázka</strong>
+                                <p class="info-box-text">
                                     Použije CLAHE, denoising a adaptívny threshold pre lepšie rozpoznávanie
                                 </p>
                             </div>
@@ -557,9 +589,9 @@
                     </div>
 
                     <!-- Info -->
-                    <div style="background: #e8f5e9; border-left: 4px solid #4CAF50; padding: 12px 16px; margin: 15px 0; border-radius: 4px; text-align: left;">
-                        <p style="margin: 0 0 8px 0; font-weight: bold; color: #2e7d32;">📖 Očakávaný formát:</p>
-                        <ul style="margin: 5px 0; padding-left: 20px; color: #2e7d32; font-size: 0.9em;">
+                    <div class="info-box info-box-green">
+                        <p class="info-box-title">📖 Očakávaný formát:</p>
+                        <ul class="info-box-list">
                             <li><strong>aqua, -ae, f.</strong> - voda</li>
                             <li><strong>liber, -bri, m.</strong> - kniha</li>
                             <li>Latinské slovo, genitív, rod → slovenský preklad</li>
@@ -583,9 +615,9 @@
                 <div class="ai-processing">
                     <div class="spinner"></div>
                     <p id="aiProcessingMessage">AI analyzuje obrázok...</p>
-                    <div style="background: #fff3cd; border-left: 4px solid #ffc107; padding: 12px 16px; margin: 15px 0; border-radius: 4px; text-align: left;">
-                        <p style="margin: 0 0 8px 0; font-weight: bold; color: #856404;">⏱️ Približný čas spracovania:</p>
-                        <p style="margin: 0; color: #856404; font-size: 0.95em;">~ 1 minúta na stránku</p>
+                    <div class="info-box info-box-warning">
+                        <p class="info-box-title">⏱️ Približný čas spracovania:</p>
+                        <p class="info-box-text">~ 1 minúta na stránku</p>
                     </div>
                     <button onclick="cancelAIImport()" class="btn-danger" style="margin-top: 20px;">
                         ❌ Zrušiť spracovanie
@@ -599,14 +631,14 @@
                     <h3>2. Skontrolujte a upravte otázky</h3>
 
                     <!-- Upozornenie o kontrole -->
-                    <div style="background: #e3f2fd; border-left: 4px solid #2196F3; padding: 12px 16px; margin: 15px 0; border-radius: 4px; text-align: left;">
-                        <p style="margin: 0 0 8px 0; font-weight: bold; color: #1565c0;">⚠️ Dôležité upozornenie:</p>
-                        <p style="margin: 0; color: #1565c0; font-size: 0.95em;">AI rozpoznáva otázky s vysokou presnosťou, ale <strong>označenie správnych odpovedí nie je 100% spoľahlivé</strong>. Skontrolujte, či sú zaškrtnuté správne odpovede pri každej otázke.</p>
+                    <div class="info-box info-box-blue">
+                        <p class="info-box-title">⚠️ Dôležité upozornenie:</p>
+                        <p class="info-box-text">AI rozpoznáva otázky s vysokou presnosťou, ale <strong>označenie správnych odpovedí nie je 100% spoľahlivé</strong>. Skontrolujte, či sú zaškrtnuté správne odpovede pri každej otázke.</p>
                     </div>
 
                     <!-- Zobrazenie predspracovanej fotky -->
-                    <div id="originalImagesContainer" style="margin: 20px 0; padding: 15px; background: #f5f5f5; border-radius: 8px;">
-                        <h4 style="margin: 0 0 10px 0; color: #2196F3;">🔬 Predspracovaná fotka (čo AI videlo)</h4>
+                    <div id="originalImagesContainer" class="images-container">
+                        <h4 class="images-container-title">🔬 Predspracovaná fotka (čo AI videlo)</h4>
                         <div id="originalImagesPreview" style="max-height: 500px; overflow-y: auto;"></div>
                     </div>
 
@@ -954,6 +986,12 @@
         </div>
     </div>
 
-    <script src="{{ url_for('static', filename='app.js') }}?v=1.3.18"></script>
+    <!-- Theme Toggle Button -->
+    <button class="theme-toggle" onclick="toggleTheme()" title="Prepnúť svetlý/tmavý režim">
+        <span class="icon-sun">☀️</span>
+        <span class="icon-moon">🌙</span>
+    </button>
+
+    <script src="{{ url_for('static', filename='app.js') }}?v=1.5.5"></script>
 </body>
 </html>

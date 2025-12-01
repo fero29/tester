@@ -33,6 +33,30 @@ if not os.path.exists(TESTS_DIR):
 def index():
     return render_template('index.html')
 
+@app.route('/api/tests/meta', methods=['GET'])
+def get_tests_meta():
+    """Vráti metadáta testov (názov, hash, veľkosť) pre caching"""
+    import hashlib
+    try:
+        meta = []
+        json_files = glob.glob(os.path.join(TESTS_DIR, '*.json'))
+
+        for filepath in json_files:
+            filename = os.path.basename(filepath)
+            stat = os.stat(filepath)
+            # Hash z veľkosti a času modifikácie (rýchlejšie ako hash obsahu)
+            hash_str = f"{stat.st_size}_{stat.st_mtime}"
+            file_hash = hashlib.md5(hash_str.encode()).hexdigest()[:12]
+            meta.append({
+                'filename': filename,
+                'hash': file_hash,
+                'size': stat.st_size
+            })
+
+        return jsonify(meta)
+    except Exception as e:
+        return jsonify([])
+
 @app.route('/api/tests', methods=['GET'])
 def get_tests():
     """Vráti zoznam všetkých testov - automaticky načíta z priečinka testy/"""
@@ -584,43 +608,53 @@ def ai_import_vocab():
 
 Očakávaný formát v obrázku:
 - Latinské slovo v základnom tvare (nominatív)
-- Genitívna koncovka (napr. -ae, -i, -is, -us, -ei)
-- Rod (m. = maskulínum, f. = feminínum, n. = neutrum)
+- Genitívna koncovka (napr. -ae, -i, -is, -us, -ei) ALEBO "-a, -um" pre prídavné mená
+- Rod (m. = maskulínum, f. = feminínum, n. = neutrum) - len pre podstatné mená
 - Slovenský preklad
 
 Príklady formátov v texte:
+PODSTATNÉ MENÁ (noun):
 - "aqua, -ae, f. - voda"
 - "liber, libri, m. - kniha"
 - "mare, -is, n. - more"
-- "res, rei, f. - vec"
+
+PRÍDAVNÉ MENÁ (adjective) - poznáš ich podľa "-a, -um":
+- "bonus, -a, -um - dobrý"
+- "magnus, -a, -um - veľký"
+- "albus, -a, -um - biely"
 
 Pre KAŽDÉ slovíčko extrahuj:
 1. latin: latinské slovo v základnom tvare (len slovo, bez koncovky)
-2. genitive: genitívna koncovka (napr. "-ae", "-i", "-is") - ak je uvedená celá forma (napr. "libri"), extrahuj len koncovku ("-i")
-3. gender: rod - "m" pre maskulínum, "f" pre feminínum, "n" pre neutrum
-4. slovak: slovenský preklad
+2. type: "noun" pre podstatné mená, "adjective" pre prídavné mená (ak má koncovku -a, -um)
+3. genitive: genitívna koncovka - LEN pre podstatné mená (pre prídavné mená nechaj prázdny string "")
+4. gender: rod "m"/"f"/"n" - LEN pre podstatné mená (pre prídavné mená nechaj prázdny string "")
+5. slovak: slovenský preklad
 
 Vráť odpoveď v tomto PRESNOM JSON formáte:
 {
   "vocabulary": [
     {
       "latin": "aqua",
+      "type": "noun",
       "genitive": "-ae",
       "gender": "f",
       "slovak": "voda"
     },
     {
-      "latin": "liber",
-      "genitive": "-bri",
-      "gender": "m",
-      "slovak": "kniha"
+      "latin": "bonus",
+      "type": "adjective",
+      "genitive": "",
+      "gender": "",
+      "slovak": "dobrý"
     }
   ]
 }
 
 ⚠️ DÔLEŽITÉ:
 - Extrahuj VŠETKY slovíčka z obrázku
-- Ak nie je jasný rod, odhadni podľa koncovky (napr. -a = f, -us = m, -um = n)
+- Ak vidíš "-a, -um" alebo "a, um", je to PRÍDAVNÉ MENO (type: "adjective")
+- Pre prídavné mená VŽDY nechaj genitive a gender ako prázdny string ""
+- Ak nie je jasný rod pri podstatnom mene, odhadni podľa koncovky (napr. -a = f, -us = m, -um = n)
 - Ak nie je jasný genitív, nechaj prázdny string
 - Vráť LEN platný JSON, žiadny markdown ani iný text"""
 

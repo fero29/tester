@@ -1,0 +1,1103 @@
+[
+  {
+    "title": "Kapitola 10",
+    "description": "Proteosyntéza",
+    "questions": [
+      {
+        "answers": [
+          "kódujúce oblasti",
+          "intróny",
+          "STOP kódon",
+          "START kvadruplet"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "positionPercent": 10,
+        "question": "Štruktúrny eukaryotický gén obsahuje:",
+        "pageNumber": 1
+      },
+      {
+        "answers": [
+          "transkribuje gény pre tRNA",
+          "vyskytuje sa v jadierku",
+          "vyskytuje sa iba u baktérií",
+          "transkribuje gény pre 5S rRNA"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 20,
+        "question": "RNA polymeráza I:",
+        "pageNumber": 1
+      },
+      {
+        "answers": [
+          "TATA box",
+          "CAAT box",
+          "GC box",
+          "NusA proteín"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 30,
+        "question": "Transkripčný faktor TFIID sa viaže na:",
+        "pageNumber": 1
+      },
+      {
+        "answers": [
+          "megacistronická",
+          "monocistronická",
+          "acistronická",
+          "polycistronická"
+        ],
+        "correct": [
+          3
+        ],
+        "positionPercent": 40,
+        "question": "Prokaryotická mRNA je:",
+        "pageNumber": 1
+      },
+      {
+        "answers": [
+          "Shine-Dalgarnova úprava",
+          "vystrihnutie intrónov",
+          "čiapočka na 5' konci",
+          "čiapočka na 3' konci"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "positionPercent": 50,
+        "question": "Posttranskripčné modifikácie RNA sú:",
+        "pageNumber": 1
+      },
+      {
+        "answers": [
+          "RNA polymeráza pridáva nukleotidy do 5' -> 3' rastúceho vlákna DNA",
+          "promótory sú rozpoznané sekvencie, ktoré signalizujú začiatok transkripcie",
+          "templátové vlákno DNA sa číta v smere 3' -> 5'",
+          "obe vlákna DNA slúžia ako templáty súčasne"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "positionPercent": 60,
+        "question": "Ktoré z nasledujúcich tvrdení sú pri syntéze (transkripcii) RNA pravdivé?",
+        "pageNumber": 1
+      },
+      {
+        "answers": [
+          "mRNA",
+          "miRNA",
+          "hnRNA",
+          "tRNA"
+        ],
+        "correct": [
+          0,
+          2,
+          1
+        ],
+        "positionPercent": 70,
+        "question": "RNA polymeráza II syntetizuje:",
+        "pageNumber": 1
+      },
+      {
+        "answers": [
+          "vždy len jedným kodónom",
+          "vždy len jedným triplettom",
+          "viacerými triplettmi",
+          "viacerými kodónmi"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "positionPercent": 5,
+        "question": "Aminokyseliny môžu byť kódované:",
+        "pageNumber": 2
+      },
+      {
+        "answers": [
+          "úpravu 5' konca (čiapočka)",
+          "úpravu 3' konca (čiapočka)",
+          "polyadenyláciu 3' konca",
+          "polyadenyláciu 5' konca"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "positionPercent": 15,
+        "question": "Modifikácia hnRNA zahŕňa:",
+        "pageNumber": 2
+      },
+      {
+        "answers": [
+          "univerzálny",
+          "triplettový",
+          "degenerovaný",
+          "semikonzervatívny"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "positionPercent": 25,
+        "question": "Vlastnosti genetického kódu sú:",
+        "pageNumber": 2
+      },
+      {
+        "answers": [
+          "GUA",
+          "UAG",
+          "UAC",
+          "AUG"
+        ],
+        "correct": [
+          3
+        ],
+        "positionPercent": 35,
+        "question": "Štartovacím kodónom je:",
+        "pageNumber": 2
+      },
+      {
+        "answers": [
+          "metionín",
+          "N-formylmetionín",
+          "arginín",
+          "prolín"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 45,
+        "question": "Syntéza polypeptidového reťazca u prokaryotických organizmov začína aminokyselinou:",
+        "pageNumber": 2
+      },
+      {
+        "answers": [
+          "promótorová oblasť",
+          "terminátorová sekvencia",
+          "ribonukleotidtrifosfáty (rNTP)",
+          "transkripčné faktory"
+        ],
+        "correct": [
+          0,
+          3,
+          2
+        ],
+        "positionPercent": 55,
+        "question": "Ktoré z nasledujúcich zložiek sa počas syntézy RNA (transkripcie) podieľajú na iniciácii transkripcie?",
+        "pageNumber": 2
+      },
+      {
+        "answers": [
+          "poradie nukleotidov určujúce štruktúru bielkoviny",
+          "reťazec aminokyselín",
+          "typ RNA v bunke",
+          "sekvencia repetitívnej DNA"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 65,
+        "question": "Čo sa rozumie pod pojmom „genetický kód“?",
+        "pageNumber": 2
+      },
+      {
+        "answers": [
+          "DNA pol δ",
+          "telomeráza",
+          "DNA ligáza",
+          "PCNA"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 75,
+        "question": "Aký enzým predlžuje konce DNA pri replikácii telomér?",
+        "pageNumber": 2
+      },
+      {
+        "answers": [
+          "nukleozómy sa počas replikácie nemenia",
+          "počas replikácie sa rozpadajú a znova poskladajú zo starých aj nových histónov",
+          "históny sa úplne odstránia a nahradia iba novými",
+          "DNA sa replikuje bez účasti histónov"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 5,
+        "question": "Čo sa deje s nukleozómami počas replikácie DNA?",
+        "pageNumber": 3
+      },
+      {
+        "answers": [
+          "GACA",
+          "TATAAT (Pribnow box)",
+          "CAAT",
+          "GC"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 15,
+        "question": "Ktorý box sa nachádza v prokaryotickom promótore v polohe -10?",
+        "pageNumber": 3
+      },
+      {
+        "answers": [
+          "TATA (Hognessov)",
+          "CAAT",
+          "GC",
+          "Shine – Dalgarno"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 25,
+        "question": "Ktorý box sa nachádza v eukaryotickom promótore a viaže TFIID?",
+        "pageNumber": 3
+      },
+      {
+        "answers": [
+          "promótory a enhancery",
+          "exóny a intróny",
+          "ORI a 5’UTR",
+          "GC a CAAT boxy"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 35,
+        "question": "V eukaryotickej kódujúcej oblasti sa striedajú:",
+        "pageNumber": 3
+      },
+      {
+        "answers": [
+          "AATAAA",
+          "AUG",
+          "TTAGGG",
+          "Shine – Dalgarno"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 45,
+        "question": "Aká sekvencia signalizuje polyadenyláciu eukaryotickej mRNA?",
+        "pageNumber": 3
+      },
+      {
+        "answers": [
+          "1",
+          "2",
+          "3",
+          "5"
+        ],
+        "correct": [
+          2
+        ],
+        "positionPercent": 55,
+        "question": "Koľko typov RNA polymeráz majú eukaryoty?",
+        "pageNumber": 3
+      },
+      {
+        "answers": [
+          "RNA pol I",
+          "RNA pol II",
+          "RNA pol III",
+          "RNA pol IV"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 65,
+        "question": "Ktorá RNA polymeráza syntetizuje mRNA u eukaryotov?",
+        "pageNumber": 3
+      },
+      {
+        "answers": [
+          "Shine-Dalgarnova",
+          "TATA box",
+          "PolyA signál",
+          "GC box"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 75,
+        "question": "Ktorá sekvencia umožňuje väzbu mRNA na 16S rRNA u prokaryotov?",
+        "pageNumber": 3
+      },
+      {
+        "answers": [
+          "enhancery",
+          "silencery",
+          "c - faktory",
+          "nukleozómy"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "positionPercent": 5,
+        "question": "Ktoré faktory regulujú intenzitu transkripcie u eukaryotov?",
+        "pageNumber": 4
+      },
+      {
+        "answers": [
+          "interferencia",
+          "interupcia",
+          "interakcia",
+          "intermediáta"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 15,
+        "question": "Mechanizmus regulácie proteosyntézy pomocou RNA sa nazýva:",
+        "pageNumber": 4
+      },
+      {
+        "answers": [
+          "akceptorové",
+          "pseudouridínové",
+          "náhodné",
+          "kódónové"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "positionPercent": 25,
+        "question": "Ramená tRNA sú:",
+        "pageNumber": 4
+      },
+      {
+        "answers": [
+          "mRNA",
+          "konformačného ribozómu",
+          "aminokyseliny",
+          "tRNA"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "positionPercent": 35,
+        "question": "Proteosyntetický aparát je zložený z:",
+        "pageNumber": 4
+      },
+      {
+        "answers": [
+          "v jadre",
+          "v jadierku",
+          "v cytoplazme",
+          "na ribozómoch"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "positionPercent": 45,
+        "question": "Translácia prebieha:",
+        "pageNumber": 4
+      },
+      {
+        "answers": [
+          "väzbové miesto pre mRNA",
+          "P miesto",
+          "A miesto",
+          "výstupné miesto"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "positionPercent": 55,
+        "question": "Na ribozóme sú väzbové miesta:",
+        "pageNumber": 4
+      },
+      {
+        "answers": [
+          "50S a 30S",
+          "40S a 60S",
+          "60S a 30S",
+          "30S a 70S"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 65,
+        "question": "Podjednotky eukaryotických ribozómov sú:",
+        "pageNumber": 4
+      },
+      {
+        "answers": [
+          "AUG",
+          "UAA",
+          "CCA",
+          "TTAGGG"
+        ],
+        "correct": [
+          2
+        ],
+        "positionPercent": 75,
+        "question": "Ktorá sekvencia sa nachádza na 3' konci tRNA?",
+        "pageNumber": 4
+      },
+      {
+        "answers": [
+          "je tam z dôvodu stabilizácie slučky",
+          "slúži ako väzbné miesto pre aminokyselinu",
+          "slúži ako väzbné miesto pre ribozóm",
+          "slúži ako väzbné miesto pre mRNA"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 5,
+        "question": "Aká je funkcia adenínu na 3' konci tRNA?",
+        "pageNumber": 5
+      },
+      {
+        "answers": [
+          "inozín",
+          "dihydrouracil",
+          "tymín",
+          "metionín"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "positionPercent": 15,
+        "question": "Ktoré bázy patria medzi minoritné bázy tRNA?",
+        "pageNumber": 5
+      },
+      {
+        "answers": [
+          "RNA pol I",
+          "RNA pol II",
+          "RNA pol III",
+          "DNA pol δ"
+        ],
+        "correct": [
+          2
+        ],
+        "positionPercent": 25,
+        "question": "Ktorý enzým syntetizuje prekurzorovú tRNA?",
+        "pageNumber": 5
+      },
+      {
+        "answers": [
+          "RNáza II",
+          "Špecifické endonukleázy",
+          "exonukleáza",
+          "Pol δ"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 35,
+        "question": "Ktorý enzým odstraňuje intróny z pre-tRNA?",
+        "pageNumber": 5
+      },
+      {
+        "answers": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 45,
+        "question": "Koľko typov rRNA majú prokaryoty?",
+        "pageNumber": 5
+      },
+      {
+        "answers": [
+          "30S a 50S",
+          "40S a 60S",
+          "20S a 40S",
+          "18S a 28S"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 55,
+        "question": "Ktoré podjednotky ribozómu majú eukaryoty?",
+        "pageNumber": 5
+      },
+      {
+        "answers": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 65,
+        "question": "Koľko typov rRNA majú eukaryoty?",
+        "pageNumber": 5
+      },
+      {
+        "answers": [
+          "18S rRNA",
+          "28S rRNA",
+          "5S rRNA",
+          "5,8S rRNA"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 75,
+        "question": "Čo obsahuje 40S podjednotka ribozómu?",
+        "pageNumber": 5
+      },
+      {
+        "answers": [
+          "18S rRNA",
+          "28S rRNA",
+          "5.8S rRNA",
+          "5S rRNA"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "positionPercent": 5,
+        "question": "Čo obsahuje 60S podjednotka ribozómu?",
+        "pageNumber": 6
+      },
+      {
+        "answers": [
+          "v jadre",
+          "v jadierku",
+          "v cytoplazme",
+          "v endoplazmatickom retikule"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 15,
+        "question": "Kde prebieha syntéza rRNA?",
+        "pageNumber": 6
+      },
+      {
+        "answers": [
+          "RNA pol I",
+          "RNA pol II",
+          "RNA pol III",
+          "DNA pol γ"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 25,
+        "question": "Ktorá RNA polymeráza prepisuje 45S pre – rRNA?",
+        "pageNumber": 6
+      },
+      {
+        "answers": [
+          "katalýza peptidových väzieb",
+          "regulácia génovej expresie",
+          "splicing hnRNA",
+          "transport aminokyselín"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 35,
+        "question": "Čo je hlavnou funkciou miRNA?",
+        "pageNumber": 6
+      },
+      {
+        "answers": [
+          "jednovláknovú",
+          "dvojvláknovú",
+          "kruhovú",
+          "trojlístkovú"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 45,
+        "question": "Akú štruktúru má siRNA?",
+        "pageNumber": 6
+      },
+      {
+        "answers": [
+          "prenos aminokyselín",
+          "modifikácia rRNA",
+          "regulácia mRNA",
+          "translácia"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 55,
+        "question": "Aká je hlavná úloha snoRNA?",
+        "pageNumber": 6
+      },
+      {
+        "answers": [
+          "metylácia",
+          "pseudouridylácia",
+          "fosforylácia",
+          "polyadenylácia"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "positionPercent": 65,
+        "question": "Ktoré procesy sprostredkúva snoRNA?",
+        "pageNumber": 6
+      },
+      {
+        "answers": [
+          "mechanizmus splicingu",
+          "mechanizmus degradácie alebo inhibície mRNA prostredníctvom regulačných RNA",
+          "mechanizmus syntézy proteínov",
+          "mechanizmus syntézy tRNA"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 75,
+        "question": "Čo je RNA interferencia (RNAi)?",
+        "pageNumber": 6
+      },
+      {
+        "answers": [
+          "peptidyltransferáza",
+          "DNA pol δ",
+          "RNA pol II",
+          "ligáza"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 5,
+        "question": "Ktorý enzým katalyzuje vznik peptidovej väzby počas elongácie?",
+        "pageNumber": 7
+      },
+      {
+        "answers": [
+          "reťazce ribozómových proteínov",
+          "viac ribozómov súčasne na jednej mRNA",
+          "ribozómy pripojené na ER",
+          "skupina ribozómov bez RNA"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 15,
+        "question": "Čo sú polyribozómy (polyzómy)?",
+        "pageNumber": 7
+      },
+      {
+        "answers": [
+          "úsek DNA alebo RNA nesúci informáciu pre syntézu proteínu alebo funkčnej RNA",
+          "úsek DNA, ktorý vždy kóduje iba proteín",
+          "najmenšia jednotka dedičnosti tvorí jeden nukleotid",
+          "kompletná sekvencia DNA, ktorá sa replikuje"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 25,
+        "question": "Čo je gén?",
+        "pageNumber": 7
+      },
+      {
+        "answers": [
+          "štruktúrne gény",
+          "regulačné gény",
+          "lipidy kódujúce gény",
+          "gény kódujúce len polysacharidy"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "positionPercent": 35,
+        "question": "Aké typy génov poznáme podľa funkcie?",
+        "pageNumber": 7
+      },
+      {
+        "answers": [
+          "GACA box v polohe - 35",
+          "TATA (Pribnowov) box v polohe - 10",
+          "CAAT box",
+          "GC box"
+        ],
+        "correct": [
+          1,
+          0
+        ],
+        "positionPercent": 45,
+        "question": "Ktoré prvky obsahuje prokaryotický promótor?",
+        "pageNumber": 7
+      },
+      {
+        "answers": [
+          "GACA box",
+          "CAAT box",
+          "TATA box (Hognessov)",
+          "Shine–Dalgarnova sekvencia"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "positionPercent": 55,
+        "question": "Ktoré sekvencie sú typické pre eukaryotický promótor?",
+        "pageNumber": 7
+      },
+      {
+        "answers": [
+          "len regulačné proteíny",
+          "intróny",
+          "iba stop kodóny",
+          "exóny"
+        ],
+        "correct": [
+          3,
+          1
+        ],
+        "positionPercent": 65,
+        "question": "Čo sa nachádza v kódujúcej oblasti eukaryotických génov?",
+        "pageNumber": 7
+      },
+      {
+        "answers": [
+          "gén, ktorý kóduje induktory alebo represory ovplyvňujúce expresiu iných génov",
+          "gén, ktorý sa vždy prepíše do tRNA",
+          "gén bez funkcie",
+          "gén, ktorý kóduje poly(A) polymerázu"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 75,
+        "question": "Čo je regulačný gén?",
+        "pageNumber": 7
+      },
+      {
+        "answers": [
+          "64 kódonov, z toho 61 kóduje aminokyseliny",
+          "64 kódonov, z toho 3 sú stop kódony",
+          "20 kódonov, z toho všetky kódujú aminokyseliny",
+          "64 kódonov, z toho iba 20 má význam"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "positionPercent": 5,
+        "question": "Koľko kódonov existuje a koľko z nich kóduje aminokyseliny?",
+        "pageNumber": 8
+      },
+      {
+        "answers": [
+          "jeho sekvencia je UAA",
+          "kóduje metionín",
+          "nachádza sa iba u prokaryotov",
+          "jeho sekvencia je AUG"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "positionPercent": 15,
+        "question": "Ktoré tvrdenia platia pre štart kódon?",
+        "pageNumber": 8
+      },
+      {
+        "answers": [
+          "patologické proteíny schopné meniť konformáciu normálnych proteínov",
+          "častice obsahujúce len RNA",
+          "infekčné častice bez nukleových kyselín",
+          "retrovírusy"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "positionPercent": 25,
+        "question": "Čo sú prióny?",
+        "pageNumber": 8
+      },
+      {
+        "answers": [
+          "syntéza RNA podľa templátu DNA",
+          "syntéza DNA podľa RNA",
+          "syntéza proteínu na ribozóme",
+          "oprava poškodených úsekov DNA"
+        ],
+        "correct": [
+          3
+        ],
+        "positionPercent": 35,
+        "question": "Čo je transkripcia?",
+        "pageNumber": 8
+      },
+      {
+        "answers": [
+          "prokaryotická mRNA je často polycistronická",
+          "eukaryotická mRNA je monocistronická",
+          "prokaryotická mRNA vždy kóduje iba jeden proteín",
+          "eukaryotická mRNA sa nikdy neupravuje"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "positionPercent": 45,
+        "question": "Aký je rozdiel medzi mRNA u prokaryotov a eukaryotov?",
+        "pageNumber": 8
+      },
+      {
+        "answers": [
+          "sigma faktor",
+          "NusA proteín",
+          "rho faktor",
+          "DNA ligáza"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 55,
+        "question": "Čo sprostredkuje iniciáciu transkripcie u prokaryotov?",
+        "pageNumber": 8
+      },
+      {
+        "answers": [
+          "RNA polymeráza postupuje rýchlosťou asi 60 nt/s",
+          "sigma faktor zostáva stále naviazaný",
+          "NusA proteín sa viaže na RNA polymerázu",
+          "polymeráza sa pohybuje iba po vedúcom vlákne DNA"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "positionPercent": 65,
+        "question": "Čo je charakteristické pre elongáciu transkripcie u prokaryotov?",
+        "pageNumber": 8
+      },
+      {
+        "answers": [
+          "pre-mRNA",
+          "hotová mRNA",
+          "tRNA",
+          "hnRNA"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "positionPercent": 75,
+        "question": "Čo je primárnym produktom transkripcie štruktúrnych génov u eukaryotov?",
+        "pageNumber": 8
+      },
+      {
+        "answers": [
+          "regulačná oblasť génu umožňujúca naviazanie RNA polymerázy",
+          "úsek DNA, ktorý vždy kóduje proteín",
+          "časť ribozómu",
+          "regulačná sekvencia obsahujúca boxy (napr. TATA, CAAT)"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "positionPercent": 5,
+        "question": "64. Čo je promótor?",
+        "pageNumber": 9
+      },
+      {
+        "answers": [
+          "UAA",
+          "UAG",
+          "UGG",
+          "UGA"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "positionPercent": 15,
+        "question": "65. Ktoré kodóny patria medzi stop kodóny?",
+        "pageNumber": 9
+      },
+      {
+        "answers": [
+          "exóny sú kódujúce úseky génu",
+          "intróny sú nekódujúce úseky génu",
+          "intróny kódujú proteíny",
+          "exóny sa vystrihujú zo zrelého transkriptu"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "positionPercent": 25,
+        "question": "66. Ktoré tvrdenia sú správne o exónoch a intrónoch?",
+        "pageNumber": 9
+      },
+      {
+        "answers": [
+          "štruktúrny gén kóduje proteín",
+          "regulačný gén kóduje faktor ovplyvňujúci expresiu iných génov",
+          "regulačný gén vždy kóduje tRNA",
+          "štruktúrny gén neobsahuje promótor"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "positionPercent": 35,
+        "question": "67. Aký je rozdiel medzi štruktúrnym a regulačným génom?",
+        "pageNumber": 9
+      },
+      {
+        "answers": [
+          "úsek mRNA u prokaryotov, ktorý sa viaže na 16S rRNA",
+          "úsek eukaryotického promótora",
+          "štart kodón AUG",
+          "časť poly(A) chvosta"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 45,
+        "question": "68. Čo je Shine – Dalgarno sekvencia?",
+        "pageNumber": 9
+      },
+      {
+        "answers": [
+          "jeho sekvencia je AUG",
+          "kóduje metionín",
+          "nachádza sa v intróne",
+          "je zároveň stop signál"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "positionPercent": 55,
+        "question": "69. Ktoré tvrdenia platia o štart kodóne?",
+        "pageNumber": 9
+      },
+      {
+        "answers": [
+          "2 puríny a 1 pyrimidín",
+          "trojica za sebou idúcich nukleotidov",
+          "4 nukleotidy v rade",
+          "vždy len adenín a uracil"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 65,
+        "question": "70. Aké bázy sa čítajú v tripletoch kodónu?",
+        "pageNumber": 9
+      },
+      {
+        "answers": [
+          "sú to nekódujúce úseky génu",
+          "odstraňujú sa splicingom",
+          "sú to kodóny pre stop signály",
+          "sú sekvencie, ktoré kódujú tRNA"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "positionPercent": 75,
+        "question": "71. Čo platí o intrónoch?",
+        "pageNumber": 9
+      },
+      {
+        "answers": [
+          "metionín",
+          "leucín",
+          "tryptofán",
+          "serín"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "positionPercent": 10,
+        "question": "Ktoré aminokyseliny sú kódované iba jedným kodónom?",
+        "pageNumber": 10
+      },
+      {
+        "answers": [
+          "signály pre polyadenyláciu",
+          "regulačné sekvencie ovplyvňujúce stabilitu mRNA",
+          "start kodón",
+          "Shine–Dalgarno va sekvencia"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "positionPercent": 30,
+        "question": "Čo sa nachádza v 3' UTR oblasti génu?",
+        "pageNumber": 10
+      },
+      {
+        "answers": [
+          "sekvencia eukaryotického promótora",
+          "časť poly(A) chvosta",
+          "viaže sa naň transkripčný faktor SP1",
+          "miesto, kde začína splicing"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "positionPercent": 50,
+        "question": "Čo je GC box?",
+        "pageNumber": 10
+      },
+      {
+        "answers": [
+          "sú tri: UAA, UAG, UGA",
+          "kódujú metionín",
+          "nešpecifikujú žiadnu aminokyselinu",
+          "určujú začiatok translácie"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "positionPercent": 70,
+        "question": "Ktoré tvrdenia sú správne o stop kodónoch?",
+        "pageNumber": 10
+      }
+    ]
+  }
+]

@@ -1,3 +1,64 @@
+/* CSS Premenné pre svetlý/tmavý režim */
+:root {
+    --bg-primary: #f5f5f5;
+    --bg-secondary: white;
+    --bg-tertiary: #f9f9f9;
+    --bg-input: white;
+    --text-primary: #333;
+    --text-secondary: #666;
+    --text-muted: #888;
+    --border-color: #e0e0e0;
+    --shadow-color: rgba(0,0,0,0.1);
+    --card-bg: white;
+    --hover-bg: #f0f0f0;
+    --success-bg: #e8f5e9;
+    --success-text: #2e7d32;
+    --error-bg: #ffebee;
+    --error-text: #c62828;
+    --accent-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+/* Tmavý režim */
+[data-theme="dark"] {
+    --bg-primary: #1a1a2e;
+    --bg-secondary: #16213e;
+    --bg-tertiary: #1f2940;
+    --bg-input: #2a2a4a;
+    --text-primary: #e8e8e8;
+    --text-secondary: #b8b8b8;
+    --text-muted: #888;
+    --border-color: #3a3a5a;
+    --shadow-color: rgba(0,0,0,0.3);
+    --card-bg: #1f2940;
+    --hover-bg: #2a3a5a;
+    --success-bg: #1b3d2f;
+    --success-text: #81c784;
+    --error-bg: #3d1f1f;
+    --error-text: #ef9a9a;
+    --accent-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+/* Automatická detekcia systémových preferencií */
+@media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+        --bg-primary: #1a1a2e;
+        --bg-secondary: #16213e;
+        --bg-tertiary: #1f2940;
+        --bg-input: #2a2a4a;
+        --text-primary: #e8e8e8;
+        --text-secondary: #b8b8b8;
+        --text-muted: #888;
+        --border-color: #3a3a5a;
+        --shadow-color: rgba(0,0,0,0.3);
+        --card-bg: #1f2940;
+        --hover-bg: #2a3a5a;
+        --success-bg: #1b3d2f;
+        --success-text: #81c784;
+        --error-bg: #3d1f1f;
+        --error-text: #ef9a9a;
+    }
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -6,18 +67,21 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
+    background-color: var(--bg-primary);
     padding: 20px;
+    color: var(--text-primary);
+    transition: background-color 0.3s, color 0.3s;
 }
 
 .container {
     max-width: 95%;
     width: 100%;
     margin: 0 auto;
-    background: white;
+    background: var(--bg-secondary);
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 10px var(--shadow-color);
+    transition: background-color 0.3s, box-shadow 0.3s;
 }
 
 /* Pre veľké obrazovky maximálne 1400px */
@@ -36,13 +100,13 @@ body {
 }
 
 h1 {
-    color: #333;
+    color: var(--text-primary);
     margin: 0;
     text-align: center;
 }
 
 .version-badge {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: var(--accent-gradient);
     color: white;
     padding: 4px 12px;
     border-radius: 20px;
@@ -52,15 +116,19 @@ h1 {
 }
 
 h2 {
-    color: #555;
+    color: var(--text-primary);
     margin-bottom: 15px;
     font-size: 1.3em;
+}
+
+h3 {
+    color: var(--text-primary);
 }
 
 .section {
     margin-bottom: 30px;
     padding-bottom: 20px;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid var(--border-color);
 }
 
 input[type="file"] {
@@ -156,7 +224,7 @@ button:hover {
 }
 
 .test-item {
-    background: #f9f9f9;
+    background: var(--bg-tertiary);
     padding: 15px;
     border-radius: 5px;
     cursor: pointer;
@@ -171,7 +239,7 @@ button:hover {
 
 .test-item:hover {
     border-color: #4CAF50;
-    background: #f0f0f0;
+    background: var(--hover-bg);
 }
 
 .test-main-info {
@@ -179,12 +247,12 @@ button:hover {
 }
 
 .test-item h3 {
-    color: #333;
+    color: var(--text-primary);
     margin-bottom: 5px;
 }
 
 .test-item p {
-    color: #666;
+    color: var(--text-secondary);
     font-size: 0.9em;
 }
 
@@ -200,13 +268,13 @@ button:hover {
     justify-content: space-between;
     align-items: center;
     padding: 5px 10px;
-    background: white;
+    background: var(--bg-secondary);
     border-radius: 4px;
     font-size: 0.85em;
 }
 
 .stat-label {
-    color: #666;
+    color: var(--text-secondary);
     font-weight: normal;
 }
 
@@ -243,25 +311,26 @@ button:hover {
 }
 
 .question h3 {
-    color: #333;
+    color: var(--text-primary);
     margin-bottom: 15px;
 }
 
 .answer {
-    background: #f9f9f9;
+    background: var(--bg-tertiary);
     padding: 12px;
     margin: 8px 0;
     border-radius: 5px;
     cursor: pointer;
-    border: 2px solid #ddd;
+    border: 2px solid var(--border-color);
     transition: all 0.3s;
     display: flex;
     align-items: center;
     gap: 10px;
+    color: var(--text-primary);
 }
 
 .answer:hover {
-    background: #f0f0f0;
+    background: var(--hover-bg);
     border-color: #999;
 }
 
@@ -270,18 +339,22 @@ button:hover {
     border-color: #2196F3;
 }
 
+[data-theme="dark"] .answer.selected {
+    background: #1a3a5c;
+}
+
 .answer-icon {
     font-size: 1.2em;
     flex-shrink: 0;
 }
 
 .answer.correct {
-    background: #c8e6c9;
+    background: var(--success-bg);
     border-color: #4CAF50;
 }
 
 .answer.incorrect {
-    background: #ffcdd2;
+    background: var(--error-bg);
     border-color: #f44336;
 }
 
@@ -292,13 +365,14 @@ button:hover {
     margin: 20px 0;
 }
 
-#questionNumber {
+#questionNumber, #vocabNumber {
     font-weight: bold;
-    color: #666;
+    color: var(--text-secondary);
 }
 
 .results-summary {
-    background: #e3f2fd;
+    background: var(--accent-gradient);
+    color: white;
     padding: 20px;
     border-radius: 5px;
     margin-bottom: 20px;
@@ -306,17 +380,17 @@ button:hover {
 }
 
 .results-summary h3 {
-    color: #333;
+    color: white;
     font-size: 1.5em;
     margin-bottom: 10px;
 }
 
 .question-result {
-    background: #f9f9f9;
+    background: var(--bg-tertiary);
     padding: 15px;
     margin: 10px 0;
     border-radius: 5px;
-    border-left: 4px solid #ddd;
+    border-left: 4px solid var(--border-color);
 }
 
 .question-result.correct {
@@ -333,8 +407,8 @@ button:hover {
 }
 
 /* Nastavenia testu */
-#testSettings {
-    background: white;
+#testSettings, #vocabSettings {
+    background: var(--bg-secondary);
     padding: 20px;
     border-radius: 10px;
 }
@@ -342,12 +416,12 @@ button:hover {
 .settings-group {
     margin: 20px 0;
     padding: 15px;
-    background: #f9f9f9;
+    background: var(--bg-tertiary);
     border-radius: 5px;
 }
 
 .settings-group h3 {
-    color: #333;
+    color: var(--text-primary);
     margin-bottom: 10px;
     font-size: 1.1em;
 }
@@ -357,9 +431,11 @@ button:hover {
     margin: 8px 0;
     cursor: pointer;
     padding: 5px;
+    color: var(--text-primary);
 }
 
-.settings-group input[type="radio"] {
+.settings-group input[type="radio"],
+.settings-group input[type="checkbox"] {
     margin-right: 8px;
 }
 
@@ -367,8 +443,10 @@ button:hover {
     width: 80px;
     padding: 5px;
     margin: 0 5px;
-    border: 1px solid #ddd;
+    border: 1px solid var(--border-color);
     border-radius: 3px;
+    background: var(--bg-input);
+    color: var(--text-primary);
 }
 
 /* Časovač */
@@ -379,12 +457,12 @@ button:hover {
     margin-bottom: 20px;
 }
 
-#timer {
+#timer, #vocabTimer {
     font-size: 1.2em;
     font-weight: bold;
     color: #4CAF50;
     padding: 10px 15px;
-    background: #e3f2fd;
+    background: var(--bg-tertiary);
     border-radius: 5px;
 }
 
@@ -398,16 +476,16 @@ button:hover {
 }
 
 .learn-mode-info {
-    background: #e3f2fd;
+    background: var(--bg-tertiary);
     padding: 10px 15px;
     border-radius: 5px;
-    color: #1565C0;
+    color: #2196F3;
     font-weight: bold;
     margin-bottom: 20px;
 }
 
 .learn-question {
-    background: #f9f9f9;
+    background: var(--bg-tertiary);
     padding: 20px;
     margin: 20px 0;
     border-radius: 8px;
@@ -415,12 +493,12 @@ button:hover {
 }
 
 .learn-question h3 {
-    color: #333;
+    color: var(--text-primary);
     margin-bottom: 15px;
 }
 
 .multiple-note {
-    color: #666;
+    color: var(--text-secondary);
     font-size: 0.9em;
     font-style: italic;
     margin-bottom: 10px;
@@ -434,23 +512,24 @@ button:hover {
     padding: 12px 15px;
     margin: 8px 0;
     border-radius: 5px;
-    border: 2px solid #ddd;
+    border: 2px solid var(--border-color);
+    color: var(--text-primary);
 }
 
 .learn-answer-correct {
-    background: #c8e6c9;
+    background: var(--success-bg);
     border-color: #4CAF50;
     font-weight: bold;
 }
 
 .learn-answer-wrong {
-    background: #fff;
-    border-color: #ddd;
-    color: #666;
+    background: var(--bg-secondary);
+    border-color: var(--border-color);
+    color: var(--text-secondary);
 }
 
 .checkmark {
-    color: #2e7d32;
+    color: var(--success-text);
     font-weight: bold;
     float: right;
 }
@@ -472,14 +551,14 @@ button:hover {
     background-color: #45a049;
 }
 
-#importPage {
-    background: white;
+#importPage, #helpPage, #versionPage, #aiImportPage, #editTestPage {
+    background: var(--bg-secondary);
     padding: 20px;
     border-radius: 10px;
 }
 
 .import-section {
-    background: #f9f9f9;
+    background: var(--bg-tertiary);
     padding: 20px;
     margin: 20px 0;
     border-radius: 8px;
@@ -487,18 +566,18 @@ button:hover {
 }
 
 .import-section h3 {
-    color: #333;
+    color: var(--text-primary);
     margin-bottom: 10px;
 }
 
 .import-info {
-    color: #666;
+    color: var(--text-secondary);
     margin: 10px 0;
     font-size: 0.95em;
 }
 
 .import-info code {
-    background: #e0e0e0;
+    background: var(--bg-tertiary);
     padding: 2px 6px;
     border-radius: 3px;
     font-family: monospace;
@@ -695,7 +774,7 @@ button:hover {
 
 /* Návod (Help Page) */
 .help-section {
-    background: #f9f9f9;
+    background: var(--bg-tertiary);
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 8px;
@@ -710,6 +789,7 @@ button:hover {
 .help-section p {
     margin-bottom: 10px;
     line-height: 1.6;
+    color: var(--text-primary);
 }
 
 .help-section ol,
@@ -721,10 +801,11 @@ button:hover {
 .help-section li {
     margin-bottom: 8px;
     line-height: 1.6;
+    color: var(--text-secondary);
 }
 
 .help-section code {
-    background: #fff;
+    background: var(--bg-secondary);
     padding: 2px 6px;
     border-radius: 3px;
     font-family: monospace;
@@ -773,8 +854,8 @@ button:hover {
 }
 
 .answer-neutral {
-    background-color: #f8f9fa !important;
-    color: #6c757d !important;
+    background-color: var(--bg-tertiary) !important;
+    color: var(--text-secondary) !important;
 }
 
 /* Výsledky - otázky */
@@ -1041,11 +1122,12 @@ button:hover {
     font-size: 32px;
     font-weight: 700;
     margin: 0;
-    text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    color: white !important;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.2);
 }
 
 .vocab-answer-section {
-    background: white;
+    background: var(--bg-secondary);
     border-radius: 12px;
     padding: 15px;
     margin-bottom: 12px;
@@ -1162,9 +1244,9 @@ button:hover {
 }
 
 .vocab-learn-item {
-    background: white;
+    background: var(--bg-secondary);
     border-radius: 12px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 8px var(--shadow-color);
     margin-bottom: 15px;
     overflow: hidden;
 }
@@ -1198,7 +1280,7 @@ button:hover {
 }
 
 .vocab-learn-field {
-    background: #f8f9fa;
+    background: var(--bg-tertiary);
     padding: 12px 15px;
     border-radius: 8px;
     border-left: 4px solid #667eea;
@@ -1207,7 +1289,7 @@ button:hover {
 .vocab-learn-field-label {
     font-size: 11px;
     text-transform: uppercase;
-    color: #888;
+    color: var(--text-muted);
     letter-spacing: 0.5px;
     margin-bottom: 4px;
 }
@@ -1215,7 +1297,7 @@ button:hover {
 .vocab-learn-field-value {
     font-size: 18px;
     font-weight: 600;
-    color: #333;
+    color: var(--text-primary);
 }
 
 .vocab-learn-field.translation {
@@ -1229,6 +1311,37 @@ button:hover {
 
 .vocab-learn-field.gender {
     border-left-color: #9c27b0;
+}
+
+/* Prídavné mená - štýly */
+.vocab-type-badge {
+    background: linear-gradient(135deg, #ff9800 0%, #f57c00 100%);
+    color: white;
+    padding: 3px 10px;
+    border-radius: 12px;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+
+.vocab-adjective-note {
+    background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%);
+    color: #e65100;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 13px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+[data-theme="dark"] .vocab-adjective-note {
+    background: linear-gradient(135deg, #3d2e1f 0%, #4a3728 100%);
+    color: #ffb74d;
+}
+
+.vocab-learn-item.vocab-adjective {
+    border-left: 4px solid #ff9800;
 }
 
 .vocab-results-summary {
@@ -1542,4 +1655,743 @@ button:hover {
 .btn-edit-small:hover {
     background: #45a049;
     transform: scale(1.1);
+}
+
+/* ============================================
+   THEME TOGGLE (Svetlý/Tmavý režim)
+   ============================================ */
+
+.theme-toggle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background: var(--accent-gradient);
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+    transition: all 0.3s;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.theme-toggle:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 20px rgba(102, 126, 234, 0.5);
+}
+
+.theme-toggle:active {
+    transform: scale(0.95);
+}
+
+/* Skrytie ikony podľa témy */
+.theme-toggle .icon-sun,
+.theme-toggle .icon-moon {
+    position: absolute;
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+[data-theme="dark"] .theme-toggle .icon-sun {
+    opacity: 1;
+    transform: rotate(0deg);
+}
+
+[data-theme="dark"] .theme-toggle .icon-moon {
+    opacity: 0;
+    transform: rotate(-90deg);
+}
+
+:root:not([data-theme="dark"]) .theme-toggle .icon-sun,
+[data-theme="light"] .theme-toggle .icon-sun {
+    opacity: 0;
+    transform: rotate(90deg);
+}
+
+:root:not([data-theme="dark"]) .theme-toggle .icon-moon,
+[data-theme="light"] .theme-toggle .icon-moon {
+    opacity: 1;
+    transform: rotate(0deg);
+}
+
+/* Vocab answer section v tmavom režime */
+[data-theme="dark"] .vocab-answer-section {
+    background: var(--bg-tertiary);
+}
+
+[data-theme="dark"] .vocab-answer-section label {
+    color: #667eea;
+}
+
+[data-theme="dark"] .vocab-answer-input {
+    background: var(--bg-input);
+    color: var(--text-primary);
+    border-color: var(--border-color);
+}
+
+[data-theme="dark"] .vocab-feedback.correct {
+    background: var(--success-bg);
+    color: var(--success-text);
+}
+
+[data-theme="dark"] .vocab-feedback.incorrect {
+    background: var(--error-bg);
+    color: var(--error-text);
+}
+
+/* AI section v tmavom režime */
+[data-theme="dark"] .ai-section {
+    background: var(--bg-tertiary);
+}
+
+[data-theme="dark"] .ai-input {
+    background: var(--bg-input);
+    color: var(--text-primary);
+    border-color: var(--border-color);
+}
+
+[data-theme="dark"] #aiImageInput {
+    background: var(--bg-tertiary);
+    border-color: #667eea;
+}
+
+/* Help section v tmavom režime */
+[data-theme="dark"] .help-section {
+    background: var(--bg-tertiary);
+}
+
+[data-theme="dark"] .help-section ul li {
+    color: var(--text-secondary);
+}
+
+/* Save options */
+[data-theme="dark"] .save-options {
+    background: var(--bg-tertiary);
+}
+
+[data-theme="dark"] .save-options label {
+    color: var(--text-secondary);
+}
+
+/* AI Method Cards - tmavý režim */
+[data-theme="dark"] .ai-method-card {
+    background: var(--bg-secondary);
+    border-color: var(--border-color);
+}
+
+[data-theme="dark"] .ai-method-card:hover {
+    border-color: #667eea;
+    box-shadow: 0 8px 25px rgba(102, 126, 234, 0.3);
+}
+
+[data-theme="dark"] .ai-method-card h3 {
+    color: var(--text-primary);
+}
+
+[data-theme="dark"] .ai-method-card p {
+    color: var(--text-secondary);
+}
+
+[data-theme="dark"] .ai-method-card.ai-method-disabled {
+    background: var(--bg-tertiary);
+}
+
+[data-theme="dark"] .ai-method-preview {
+    background: var(--bg-tertiary);
+}
+
+[data-theme="dark"] .preview-question,
+[data-theme="dark"] .preview-answer {
+    color: var(--text-secondary);
+}
+
+[data-theme="dark"] .preview-vocab {
+    color: var(--text-secondary);
+}
+
+/* Vocabulary Learn Mode - tmavý režim */
+[data-theme="dark"] .vocab-learn-item {
+    background: var(--bg-secondary);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+[data-theme="dark"] .vocab-learn-body {
+    background: var(--bg-secondary);
+}
+
+[data-theme="dark"] .vocab-learn-field {
+    background: var(--bg-tertiary);
+}
+
+[data-theme="dark"] .vocab-learn-field-label {
+    color: var(--text-muted);
+}
+
+[data-theme="dark"] .vocab-learn-field-value {
+    color: var(--text-primary);
+}
+
+/* Learn Mode - nesprávne odpovede svetlejšie */
+[data-theme="dark"] .learn-answer-wrong {
+    background: var(--bg-tertiary);
+    color: var(--text-secondary);
+}
+
+
+/* Help section code v tmavom režime */
+[data-theme="dark"] .help-section code {
+    background: var(--bg-tertiary);
+    color: #ff7043;
+}
+
+/* ============================================
+   INFO BOXY - SVETLÝ REŽIM
+   ============================================ */
+
+.info-box {
+    padding: 12px 16px;
+    margin: 15px 0;
+    border-radius: 8px;
+    border-left: 4px solid;
+    text-align: left;
+}
+
+.info-box-blue {
+    background: #f0f8ff;
+    border-left-color: #2196F3;
+}
+
+.info-box-blue .info-box-title {
+    color: #2196F3;
+}
+
+.info-box-blue .info-box-text,
+.info-box-blue .info-box-list {
+    color: #666;
+}
+
+.info-box-warning {
+    background: #fff9e6;
+    border-left-color: #ff9800;
+}
+
+.info-box-warning .info-box-title {
+    color: #e65100;
+}
+
+.info-box-warning .info-box-text,
+.info-box-warning .info-box-list {
+    color: #e65100;
+}
+
+.info-box-green {
+    background: #e8f5e9;
+    border-left-color: #4CAF50;
+}
+
+.info-box-green .info-box-title {
+    color: #2e7d32;
+}
+
+.info-box-green .info-box-text,
+.info-box-green .info-box-list {
+    color: #2e7d32;
+}
+
+.info-box-title {
+    margin: 0 0 8px 0;
+    font-weight: bold;
+}
+
+.info-box-text {
+    margin: 5px 0 0 0;
+    font-size: 0.9em;
+}
+
+.info-box-list {
+    margin: 5px 0;
+    padding-left: 20px;
+    font-size: 0.9em;
+}
+
+/* Images container */
+.images-container {
+    margin: 20px 0;
+    padding: 15px;
+    background: #f5f5f5;
+    border-radius: 8px;
+}
+
+.images-container-title {
+    margin: 0 0 10px 0;
+    color: #2196F3;
+}
+
+/* ============================================
+   INFO BOXY - TMAVÝ REŽIM
+   ============================================ */
+
+[data-theme="dark"] .info-box-blue {
+    background: var(--bg-tertiary);
+}
+
+[data-theme="dark"] .info-box-blue .info-box-title {
+    color: #90caf9;
+}
+
+[data-theme="dark"] .info-box-blue .info-box-text,
+[data-theme="dark"] .info-box-blue .info-box-list {
+    color: var(--text-secondary);
+}
+
+[data-theme="dark"] .info-box-warning {
+    background: var(--bg-tertiary);
+}
+
+[data-theme="dark"] .info-box-warning .info-box-title {
+    color: #ffb74d;
+}
+
+[data-theme="dark"] .info-box-warning .info-box-text,
+[data-theme="dark"] .info-box-warning .info-box-list {
+    color: #ffb74d;
+}
+
+[data-theme="dark"] .info-box-green {
+    background: var(--bg-tertiary);
+}
+
+[data-theme="dark"] .info-box-green .info-box-title {
+    color: #81c784;
+}
+
+[data-theme="dark"] .info-box-green .info-box-text,
+[data-theme="dark"] .info-box-green .info-box-list {
+    color: #81c784;
+}
+
+/* Images container - tmavý režim */
+[data-theme="dark"] .images-container {
+    background: var(--bg-tertiary);
+}
+
+[data-theme="dark"] .images-container-title {
+    color: #90caf9;
+}
+
+/* ============================================
+   KOMPLETNÉ DARK MODE ŠTÝLY
+   ============================================ */
+
+/* Import stránka */
+[data-theme="dark"] .files-list-items {
+    background: var(--bg-secondary);
+}
+
+[data-theme="dark"] .files-list-items li {
+    border-bottom-color: var(--border-color);
+    color: var(--text-secondary);
+}
+
+[data-theme="dark"] .import-divider::before,
+[data-theme="dark"] .import-divider::after {
+    background: var(--border-color);
+}
+
+[data-theme="dark"] .folder-input-group label {
+    color: var(--text-primary);
+}
+
+[data-theme="dark"] .folder-input-group input[type="text"] {
+    background: var(--bg-input);
+    color: var(--text-primary);
+    border-color: var(--border-color);
+}
+
+/* Example stránka */
+[data-theme="dark"] #examplePage {
+    background: var(--bg-secondary);
+}
+
+[data-theme="dark"] .example-section {
+    background: var(--bg-tertiary);
+}
+
+[data-theme="dark"] .example-info {
+    color: var(--text-secondary);
+}
+
+[data-theme="dark"] .example-notes {
+    background: var(--bg-tertiary);
+}
+
+[data-theme="dark"] .example-notes h4 {
+    color: #90caf9;
+}
+
+[data-theme="dark"] .example-notes ul {
+    color: var(--text-secondary);
+}
+
+[data-theme="dark"] .example-notes code {
+    background: var(--bg-input);
+    color: #ff7043;
+}
+
+[data-theme="dark"] .example-file {
+    background: var(--bg-tertiary);
+}
+
+[data-theme="dark"] .example-file h4 {
+    color: #ffb74d;
+}
+
+[data-theme="dark"] .example-file pre {
+    background: var(--bg-input);
+}
+
+[data-theme="dark"] .example-file code {
+    color: var(--text-primary);
+}
+
+/* Výsledky testu */
+[data-theme="dark"] .result-question {
+    background: var(--bg-tertiary);
+    border-left-color: var(--border-color);
+}
+
+[data-theme="dark"] .result-question h4 {
+    color: var(--text-primary);
+}
+
+[data-theme="dark"] .result-question .multiple-note {
+    color: var(--text-secondary);
+}
+
+[data-theme="dark"] .result-question.result-correct {
+    background: rgba(40, 167, 69, 0.15);
+}
+
+[data-theme="dark"] .result-question.result-incorrect {
+    background: rgba(220, 53, 69, 0.15);
+}
+
+[data-theme="dark"] .result-answer {
+    border-color: var(--border-color);
+}
+
+[data-theme="dark"] .result-answer-neutral {
+    background: var(--bg-secondary);
+    color: var(--text-primary);
+    border-color: var(--border-color);
+}
+
+[data-theme="dark"] .result-answer-correct-missed {
+    background: rgba(40, 167, 69, 0.2);
+    color: #81c784;
+}
+
+[data-theme="dark"] .result-answer-user-selected {
+    background: rgba(33, 150, 243, 0.2);
+    color: #90caf9;
+    border-color: #90caf9;
+}
+
+/* AI import preview */
+[data-theme="dark"] .preview-question {
+    color: var(--text-primary);
+}
+
+[data-theme="dark"] .preview-answer {
+    color: var(--text-secondary);
+}
+
+[data-theme="dark"] .preview-answer.correct {
+    color: #81c784;
+    background: rgba(40, 167, 69, 0.15);
+}
+
+[data-theme="dark"] .preview-vocab {
+    background: var(--bg-tertiary);
+}
+
+[data-theme="dark"] .vocab-svk {
+    color: var(--text-primary);
+}
+
+/* Vocab výsledky */
+[data-theme="dark"] .vocab-result-item {
+    border-bottom-color: var(--border-color);
+}
+
+[data-theme="dark"] .vocab-result-item.correct {
+    background: rgba(40, 167, 69, 0.15);
+}
+
+[data-theme="dark"] .vocab-result-item.incorrect {
+    background: rgba(244, 67, 54, 0.15);
+}
+
+[data-theme="dark"] .vocab-result-answer {
+    color: var(--text-secondary);
+}
+
+/* AI otázky editor */
+[data-theme="dark"] .ai-question-item {
+    background: var(--bg-secondary);
+    border-color: var(--border-color);
+}
+
+[data-theme="dark"] .ai-question-header h4 {
+    color: var(--text-primary);
+}
+
+/* Save mode selector */
+[data-theme="dark"] .save-mode-selector {
+    background: var(--bg-secondary);
+}
+
+[data-theme="dark"] .save-mode-selector label {
+    border-color: var(--border-color);
+    color: var(--text-primary);
+}
+
+[data-theme="dark"] .save-mode-selector label:hover {
+    background: var(--bg-tertiary);
+}
+
+[data-theme="dark"] .save-mode-selector label:has(input[type="radio"]:checked) {
+    background: rgba(102, 126, 234, 0.2);
+    border-color: #667eea;
+}
+
+/* Existujúce testy zoznam */
+.existing-tests-content {
+    max-height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    background: #f9f9f9;
+}
+
+[data-theme="dark"] .existing-tests-content {
+    background: var(--bg-tertiary);
+    border-color: var(--border-color);
+}
+
+[data-theme="dark"] #existingTestsList h4 {
+    color: #90caf9;
+}
+
+/* Test item v zozname existujúcich testov */
+.test-list-item {
+    padding: 10px;
+    margin-bottom: 8px;
+    background: white;
+    border-radius: 6px;
+    border-left: 4px solid #2196F3;
+}
+
+.test-list-item-title {
+    color: #333;
+    font-weight: bold;
+}
+
+.test-list-item-file {
+    font-size: 0.85em;
+    color: #666;
+    margin-top: 4px;
+}
+
+[data-theme="dark"] .test-list-item {
+    background: var(--bg-secondary);
+}
+
+[data-theme="dark"] .test-list-item-title {
+    color: var(--text-primary);
+}
+
+[data-theme="dark"] .test-list-item-file {
+    color: var(--text-secondary);
+}
+
+/* Vocab item v AI importe */
+.vocab-import-item {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    border-left: 4px solid #667eea;
+}
+
+.vocab-import-item-index {
+    color: #999;
+    font-size: 12px;
+    width: 30px;
+}
+
+[data-theme="dark"] .vocab-import-item {
+    background: var(--bg-tertiary);
+}
+
+[data-theme="dark"] .vocab-import-item-index {
+    color: var(--text-muted);
+}
+
+/* Spinner */
+[data-theme="dark"] .spinner {
+    border-color: var(--border-color);
+    border-top-color: #667eea;
+}
+
+/* Vocab input správne/nesprávne v dark mode */
+[data-theme="dark"] .vocab-answer-input.correct {
+    background-color: rgba(76, 175, 80, 0.2);
+}
+
+[data-theme="dark"] .vocab-answer-input.incorrect {
+    background-color: rgba(244, 67, 54, 0.2);
+}
+
+/* Vocab feedback v dark mode */
+[data-theme="dark"] .vocab-feedback.correct {
+    background: rgba(76, 175, 80, 0.2);
+    color: #81c784;
+}
+
+[data-theme="dark"] .vocab-feedback.incorrect {
+    background: rgba(244, 67, 54, 0.2);
+    color: #ef9a9a;
+}
+
+/* AI processing message */
+[data-theme="dark"] #aiProcessingMessage {
+    color: var(--text-primary);
+}
+
+[data-theme="dark"] .ai-processing-detail {
+    color: var(--text-muted);
+}
+
+/* Answer správne/nesprávne v dark mode */
+[data-theme="dark"] .answer.correct {
+    background: rgba(76, 175, 80, 0.2);
+    border-color: #4CAF50;
+}
+
+[data-theme="dark"] .answer.incorrect {
+    background: rgba(244, 67, 54, 0.2);
+    border-color: #f44336;
+}
+
+/* AI Image Input hover */
+[data-theme="dark"] #aiImageInput:hover {
+    background: var(--bg-input);
+}
+
+/* Vocab results summary */
+[data-theme="dark"] .vocab-results-summary {
+    color: var(--text-primary);
+}
+
+/* AI suggestions */
+[data-theme="dark"] .ai-suggestions {
+    background: var(--bg-tertiary);
+}
+
+[data-theme="dark"] .suggestion-row label {
+    color: var(--text-secondary);
+}
+
+/* Edit test page */
+[data-theme="dark"] #editTestPage {
+    color: var(--text-primary);
+}
+
+[data-theme="dark"] #editQuestionsContainer {
+    color: var(--text-primary);
+}
+
+/* ============================================
+   VOCAB RESULTS - NOVÝ DIZAJN
+   ============================================ */
+
+.results-details {
+    background: var(--bg-secondary);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px var(--shadow-color);
+}
+
+.result-item {
+    padding: 15px 20px;
+    border-bottom: 1px solid var(--border-color);
+    transition: background 0.2s;
+}
+
+.result-item:last-child {
+    border-bottom: none;
+}
+
+.result-item.correct {
+    background: var(--success-bg);
+    border-left: 4px solid #4CAF50;
+}
+
+.result-item.incorrect {
+    background: var(--error-bg);
+    border-left: 4px solid #f44336;
+}
+
+.result-item strong {
+    color: var(--text-primary);
+    font-size: 1.05em;
+}
+
+.result-details {
+    margin-top: 10px;
+    padding-left: 15px;
+}
+
+.detail-correct {
+    color: #4CAF50;
+    padding: 4px 0;
+    font-size: 0.95em;
+}
+
+.detail-incorrect {
+    color: #f44336;
+    padding: 4px 0;
+    font-size: 0.95em;
+}
+
+/* Dark mode pre vocab results */
+[data-theme="dark"] .results-details {
+    background: var(--bg-secondary);
+}
+
+[data-theme="dark"] .result-item.correct {
+    background: rgba(76, 175, 80, 0.15);
+}
+
+[data-theme="dark"] .result-item.incorrect {
+    background: rgba(244, 67, 54, 0.15);
+}
+
+[data-theme="dark"] .result-item strong {
+    color: var(--text-primary);
+}
+
+[data-theme="dark"] .detail-correct {
+    color: #81c784;
+}
+
+[data-theme="dark"] .detail-incorrect {
+    color: #ef9a9a;
 }

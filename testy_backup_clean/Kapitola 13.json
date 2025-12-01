@@ -1,0 +1,857 @@
+[
+  {
+    "description": "Vzťahy medzi mikro a makroorganizmami",
+    "questions": [
+      {
+        "answers": [
+          "nebunkové patogény ľudí",
+          "bunkové patogény ľudí",
+          "eukaryotické mikroorganizmy",
+          "prokaryotické mikroorganizmy"
+        ],
+        "correct": [
+          3,
+          1
+        ],
+        "positionPercent": 10,
+        "question": "Baktérie sú:"
+      },
+      {
+        "answers": [
+          "rádovo porovnateľná s veľkosťou ľudskej eukaryotickej bunky",
+          "nie je rádovo porovnateľná s veľkosťou ľudskej eukaryotickej bunky",
+          "meraná v μm",
+          "meraná v mm"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "positionPercent": 20,
+        "question": "Veľkosť baktérií je:"
+      },
+      {
+        "answers": [
+          "aeróbne baktérie na svoju existenciu nevyžadujú kyslík",
+          "anaeróbne baktérie na svoju existenciu vyžadujú kyslík",
+          "na anaeróbne baktérie pôsobí kyslík toxicky",
+          "aeróbne baktérie na svoju existenciu vyžadujú kyslík"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "positionPercent": 30,
+        "question": "Z hľadiska vzťahu baktérií ku kyslíku platí, že:"
+      },
+      {
+        "answers": [
+          "kvasné baktérie",
+          "Escherichia coli",
+          "hnilobné baktérie",
+          "nepatogénne baktérie"
+        ],
+        "correct": [
+          1,
+          0,
+          2,
+          3
+        ],
+        "positionPercent": 40,
+        "question": "Ktoré baktérie trvalo žijú v hrubom čreve?"
+      },
+      {
+        "answers": [
+          "na povrchu organizmov",
+          "v krvi zdravého človeka",
+          "v baktériologických",
+          "v hrubom čreve človeka"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "positionPercent": 50,
+        "question": "Baktérie možno nájsť:"
+      },
+      {
+        "answers": [
+          "besnotu",
+          "tuberkulózu",
+          "detské kiahne",
+          "tetanus"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "positionPercent": 60,
+        "question": "Baktérie vyvolávajú:"
+      },
+      {
+        "answers": [
+          "sú prokaryotické organizmy",
+          "sú heterotrofné organizmy",
+          "sú schopné fotosyntézy",
+          "sú eukaryotické organizmy"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "positionPercent": 70,
+        "question": "Mikroskopické huby:"
+      },
+      {
+        "answers": [
+          "izolované z vírusu",
+          "penicilín",
+          "produkované druhom Penicillium notatum",
+          "vankomycín"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "positionPercent": 5,
+        "question": "8. Prvé antibiotikum bolo:"
+      },
+      {
+        "answers": [
+          "rozdielnym obsahom vody",
+          "vnímavosťou k činiteľom vonkajšieho prostredia",
+          "aktivitou látkovej výmeny",
+          "taxonomickým zaradením"
+        ],
+        "correct": [
+          2,
+          0,
+          1
+        ],
+        "positionPercent": 15,
+        "question": "9. Spóra bakteriálnej bunky sa od materskej bunky odlišuje:"
+      },
+      {
+        "answers": [
+          "Salmonella",
+          "Mycobacterium tuberculosis",
+          "Treponema pallidum",
+          "Neisseria gonorrhoeae"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "positionPercent": 25,
+        "question": "10. Najznámejšími bakteriálnymi pôvodcami pohlavných ochorení sú:"
+      },
+      {
+        "answers": [
+          "Salmonella",
+          "Mycobacterium tuberculosis",
+          "Treponema",
+          "Escherichia"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 35,
+        "question": "11. Pôvodcami respiračných bakteriálnych infekcií sú zástupcovia rodov:"
+      },
+      {
+        "answers": [
+          "Salmonelózu",
+          "Choleru",
+          "ovčie kiahne",
+          "osýpky"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "positionPercent": 45,
+        "question": "12.Patogénne baktérie môžu spôsobovať:"
+      },
+      {
+        "answers": [
+          "Salmonella",
+          "Mycobacterium",
+          "Shigella",
+          "Escherichia"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "positionPercent": 55,
+        "question": "13. Pôvodcami ťažkých bakteriálnych hnačkových ochorení sú zástupcovia rodov:"
+      },
+      {
+        "answers": [
+          "je bakteriálna bunka schopná sama vyrobiť",
+          "vie bakteriálna bunka získať od inej bunky",
+          "súčasť donorová bakteriálna bunka počas konjugácie",
+          "je počas konjugácie replikovaný, donorová bakteriálna bunka ho nestráca"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "positionPercent": 65,
+        "question": "14. Plazmid:"
+      },
+      {
+        "answers": [
+          "Rezistencia na antibiotiká, chemoterapeutiká a ťažké kovy",
+          "Replikácia bakteriálneho genómu",
+          "Produkcia antibiotík a toxínov",
+          "Degradácia a oxidácia inak biologicky inertných alebo toxických organických látok"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "positionPercent": 75,
+        "question": "15. Plazmidom môže byť podmienená:"
+      },
+      {
+        "answers": [
+          "predpovedajú iba rezistenciu, nie sú kvantifikovateľné",
+          "dokážu zachytiť nové, novo sa vyskytujúce, dosiaľ neznáme genetické determinanty",
+          "predpovedajú rezistenciu a nové varianty známych génov rezistencie",
+          "nezachytávajú gény rezistencie bez fenotypového prejavu"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 5,
+        "question": "16. Genotypové metódy na sledovanie rezistencie baktérií na antibiotiká:"
+      },
+      {
+        "answers": [
+          "farbenie spór baktérií",
+          "farbenie deliacich sa buniek",
+          "identifikáciu fakultatívne anaeróbnych baktérií",
+          "identifikovať bunky infikované vírusom"
+        ],
+        "correct": [],
+        "positionPercent": 15,
+        "question": "17. Färbenie podľa Grama umožňuje:"
+      },
+      {
+        "answers": [
+          "Tvorba restrikčných a modifikačných enzýmov",
+          "Tvorba jadrovej membrány baktérií",
+          "Schopnosť symbiózy",
+          "Syntéza membránových organel baktérií"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "positionPercent": 25,
+        "question": "18. Plazmidom môže byť podmienená:"
+      },
+      {
+        "answers": [
+          "delíme na horizontálny a vertikálny",
+          "horizontálny sa deje aj medzi rôznymi druhmi a rodmi baktérií",
+          "vertikálny sa deje aj medzi rôznymi druhmi a rodmi baktérií",
+          "sa deje aj počas amitozy"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "positionPercent": 35,
+        "question": "19. Prenos plazmidu z bunky do bunky:"
+      },
+      {
+        "answers": [
+          "sa deje počas amitozy z materskej na dcérske bunky",
+          "prebieha len medzi rovnakými rodmi baktérií",
+          "je zodpovedný za medzidruhový a medzidruhový transfer rezistencie na antibiotiká",
+          "prebieha prostredníctvom konjugácie"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "positionPercent": 45,
+        "question": "20. Horizontálny prenos plazmidu z bunky do bunky:"
+      },
+      {
+        "answers": [
+          "bunková stena",
+          "lyzozómy",
+          "endoplazmatické retikulum",
+          "replikácia a transkripcia"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "positionPercent": 55,
+        "question": "21. Ciele účinku antimikrobiálnych látok sú:"
+      },
+      {
+        "answers": [
+          "chronickými zápalmi hrubého čreva",
+          "autizmom",
+          "obezitou",
+          "autoimunitnými ochoreniami"
+        ],
+        "correct": [
+          0,
+          3,
+          2,
+          1
+        ],
+        "positionPercent": 65,
+        "question": "22. Narušenie mikrobiómu sa spája s:"
+      },
+      {
+        "answers": [
+          "tvorí štvrojadrové cysty",
+          "nevytvára cysty",
+          "je vysoko patogénna",
+          "vyskytuje sa ako trofozoit"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "positionPercent": 75,
+        "question": "23. Entamoeba histolytica – forma minuta:"
+      },
+      {
+        "answers": [
+          "človek sa najčastejšie infikuje alimentárnou cestou zrelými štvorjadrovými cystami",
+          "je to jediná patogénna améba žijúca v tráviacom systéme človeka",
+          "parazituje v tenkom čreve",
+          "parazituje v hrubom čreve"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "positionPercent": 5,
+        "question": "24. Entamoeba histolytica:"
+      },
+      {
+        "answers": [
+          "optimálny pomer zastúpenia mikroorganizmov v biocenóz",
+          "premnoženie patogénnych mikroorganizmov v organizme človeka",
+          "stav, pri ktorom prišlo k narušeniu rovnováhy medzi mikroorganizmami prirodzenej mikroflóry",
+          "chýbanie niektorých mikroorganizmov, ktoré tvoria súčasť bežnej mikroflóry u človeka"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 15,
+        "question": "25. Eumikróbia je:"
+      },
+      {
+        "answers": [
+          "parazituje v dvanástniku a v hornej časti tenkého čreva",
+          "je bičíkovec",
+          "parazituje v hrubom čreve človeka",
+          "má guľovitý tvar"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "positionPercent": 25,
+        "question": "26. Giardia intestinalis:"
+      },
+      {
+        "answers": [
+          "anémiou, nedostatkom Fe",
+          "malabsorbčným syndrómom",
+          "prítomnosťou hlienu a tukov v stolici",
+          "prítomnosťou krvi v stolici"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 35,
+        "question": "27. Giardióza sa najčastejšie prejavuje:"
+      },
+      {
+        "answers": [
+          "Toxoplasma gondii",
+          "Entamoeba histolytica",
+          "Trichomonas vaginalis",
+          "Plasmodium malariae"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "positionPercent": 45,
+        "question": "28. Medzi dutinové parazitické protozoa patrí:"
+      },
+      {
+        "answers": [
+          "je schopnosť mikroorganizmu vyvolať ochorenie u hostiteľa",
+          "je schopnosť mikroorganizmu vyvolať ochorenie u každého hostiteľa",
+          "oportunné patogény vyvolávajú ochorenie iba za určitých špecifických podmienok, kde ich telo nevie tolerovať alebo pri imunodeficiencii",
+          "je vlastnosťou všetkých mikroorganizmov"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "positionPercent": 55,
+        "question": "29. Patogénnosť:"
+      },
+      {
+        "answers": [
+          "Plasmodium falciparum",
+          "Plasmodium vivax",
+          "Plasmodium malariae",
+          "Plasmodium ovale"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "positionPercent": 65,
+        "question": "30. Pôvodcom trojdňovej malárie je:"
+      },
+      {
+        "answers": [
+          "pseudocysty",
+          "tachyzoity",
+          "tkanivové cysty",
+          "bradyzoity"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "positionPercent": 75,
+        "question": "31. Trofozoity Toxoplasma gondii sa vyskytujú v dvoch formách:"
+      },
+      {
+        "answers": [
+          "bičíky",
+          "ciliá",
+          "panôžky",
+          "undulujúce membrány"
+        ],
+        "correct": [
+          0,
+          3,
+          1,
+          2
+        ],
+        "positionPercent": 5,
+        "question": "32. Z bunkovej membrány parazitických prvkov môžu vyrastať:"
+      },
+      {
+        "answers": [
+          "stav, keď je mikrobiota v rovnováhe (eumikróbia)",
+          "narušenie zloženia mikrobioty spojené s rizikom chorôb",
+          "prítomnosť len obligátne patogénnych mikróbov v čreve",
+          "úplná absencia mikroorganizmov v ľudskom tele"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 15,
+        "question": "33. Čo najlepšie vystihuje pojem „dysbióza“?"
+      },
+      {
+        "answers": [
+          "cholera po nákaze Vibrio cholerae v pitnej vode",
+          "zápal močových ciest spôsobený E. coli po zavedení katétra",
+          "tyfus po nákaze Salmonella typhi",
+          "osýpky po kontakte s infikovanou osobou"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 30,
+        "question": "34. Ktorý príklad najlepšie ilustruje oportunistickú infekciu?"
+      },
+      {
+        "answers": [
+          "eumikróbia",
+          "patogenosť",
+          "dysbióza",
+          "komenzalizmus"
+        ],
+        "correct": [
+          2
+        ],
+        "positionPercent": 45,
+        "question": "35. Ktorý pojem označuje narušenie zloženia črevnej mikrobioty?"
+      },
+      {
+        "answers": [
+          "obligátny patogén vyvoláva ochorenie takmer vždy",
+          "oportunný patogén spôsobuje ochorenie najmä pri oslabení imunity alebo v netypickom prostredí",
+          "obligátny patogén je vždy prítomný v čreve",
+          "oportunný patogén sa vyskytuje výlučne u detí"
+        ],
+        "correct": [
+          1,
+          0
+        ],
+        "positionPercent": 55,
+        "question": "36. Aký je rozdiel medzi obligátnym a oportunným patogénom?"
+      },
+      {
+        "answers": [
+          "mieru závažnosti priebehu infekcie",
+          "schopnosť mikroorganizmu vyvolať ochorenie",
+          "podiel osôb v populácii nakazených určitým parazitom alebo patogénom",
+          "dôležitý epidemiologický ukazovateľ vysvetľujúci lokálne rozdiely v chorobnosti"
+        ],
+        "correct": [
+          2
+        ],
+        "positionPercent": 65,
+        "question": "37. Čo označuje pojem premorenosť populácie?"
+      },
+      {
+        "answers": [
+          "eumikróbia je rovnovážne zloženie mikrobioty",
+          "dysbióza je narušenie rovnováhy mikrobioty spojené s rôznymi ochoreniami",
+          "eumikróbia je stav, keď hostiteľ nemá žiadne mikroorganizmy",
+          "dysbióza označuje schopnosť mikroorganizmu vyvolať ochorenie"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "positionPercent": 75,
+        "question": "38. Čo znamenajú pojmy eumikróbia a dysbióza?"
+      },
+      {
+        "answers": [
+          "komenzal žije na povrchu alebo vnútri hostiteľa bez toho, aby mu škodil",
+          "symbiont je mikroorganizmus, ktorý je vždy patogénny",
+          "symbiont žije v stabilnom vzťahu prospešnom pre obe strany",
+          "komenzal je mikroorganizmus, ktorý vždy vyvoláva ochorenie"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "positionPercent": 85,
+        "question": "39. Ako možno charakterizovať komenzala a symbionta?"
+      },
+      {
+        "answers": [
+          "ako diplokoky – dvojice guľovitých baktérií",
+          "ako vibria – zahnuté baktérie",
+          "ako bacily – paličkovité baktérie",
+          "ako streptokoky – reťazce guľovitých baktérií"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "positionPercent": 5,
+        "question": "40. Ako sa môžu usporadúvať koky?"
+      },
+      {
+        "answers": [
+          "vibria – špirálovité bunky",
+          "spirily – špirálovité bunky",
+          "stafylokoky – špirálovité hroznovité zhluky",
+          "bacily – rovné alebo zakrivené špirály"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 15,
+        "question": "41. Ktoré z nasledujúcich patria medzi špirálovité baktérie?"
+      },
+      {
+        "answers": [
+          "obligátne aeróby",
+          "obligátne anaeróby",
+          "fakultatívne anaeróby",
+          "aerotolerantné anaeróby"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 25,
+        "question": "42. Ktoré baktérie vyžadujú prítomnosť kyslíka pre svoj rast a metabolizmus?"
+      },
+      {
+        "answers": [
+          "mikroaerofily",
+          "fakultatívne anaeróby",
+          "aerotolerantné anaeróby",
+          "obligátne aeróby"
+        ],
+        "correct": [
+          2
+        ],
+        "positionPercent": 35,
+        "question": "43. Ktoré baktérie prežívajú aj v prítomnosti kyslíka, ale ho nevyužívajú na metabolizmus?"
+      },
+      {
+        "answers": [
+          "obligátny aerób – rast len pri neprítomnosti kyslíka",
+          "obligátny anaerób – kyslík je toxický",
+          "fakultatívny anaerób – rast s kyslíkom aj bez neho",
+          "mikroaerofil – optimálny rast pri nízkej koncentrácii kyslíka"
+        ],
+        "correct": [
+          2,
+          1,
+          3
+        ],
+        "positionPercent": 45,
+        "question": "44. Priraď typ baktérie k jej vzťahu ku kyslíku:"
+      },
+      {
+        "answers": [
+          "sú prokaryotické jednobunkovce",
+          "sú eukaryotické a heterotrofné",
+          "nikdy netvoria cysty",
+          "môžu sa pohybovať bičíkmi, riasinkami alebo panôžkami"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "positionPercent": 55,
+        "question": "45. Ktoré tvrdenia o protozoách sú správne?"
+      },
+      {
+        "answers": [
+          "len kultivácia na živných pôdach",
+          "mikroskopické vyšetrenie natívnych alebo farbených preparátov",
+          "imunologické testy",
+          "metódy molekulárnej biológie"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "positionPercent": 65,
+        "question": "46. Aké metódy sa využívajú pri diagnostike protozoálnych infekcií?"
+      },
+      {
+        "answers": [
+          "je najväčší ľudský bičíkovec",
+          "spôsobuje rekútnu vaginitídu",
+          "má hruškovitý tvar a 5 bičíkov",
+          "má axiálny axostyl"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "positionPercent": 75,
+        "question": "47. Ktoré tvrdenia o Trichomonas vaginalis sú správne?"
+      },
+      {
+        "answers": [
+          "chronickými zápalmi hrubého čreva",
+          "pes equinovarus",
+          "obezitou",
+          "autoimunitnými ochoreniami"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "pageNumber": 1,
+        "positionPercent": 5,
+        "question": "48. Narušenie mikrobiomu sa spája s:"
+      },
+      {
+        "answers": [
+          "v koži",
+          "v čreve",
+          "v krvi",
+          "v ústnej dutine"
+        ],
+        "correct": [
+          2
+        ],
+        "pageNumber": 1,
+        "positionPercent": 15,
+        "question": "49. Kde sa baktérie za normálnych okolností u zdravého človeka nenachádzajú?"
+      },
+      {
+        "answers": [
+          "Mycobacterium tuberculosis",
+          "Neisseria gonorrhoeae",
+          "Clostridium tetani",
+          "Salmonella typhi"
+        ],
+        "correct": [
+          0
+        ],
+        "pageNumber": 1,
+        "positionPercent": 25,
+        "question": "50. Ktorý mikroorganizmus je pôvodcom tuberkulózy?"
+      },
+      {
+        "answers": [
+          "Shigella dysenteriae",
+          "Treponema pallidum",
+          "Escherichia coli",
+          "Vibrio cholerae"
+        ],
+        "correct": [
+          1
+        ],
+        "pageNumber": 1,
+        "positionPercent": 35,
+        "question": "51. Ktorá baktéria je pôvodcom syfilisu?"
+      },
+      {
+        "answers": [
+          "stimuluje uvoľňovanie acetylcholínu v synapsách",
+          "blokuje nervosvalový prenos a spôsobuje paralýzu",
+          "podporuje delenie nervových buniek",
+          "rozkladá fosfolipidy bunkovej membrány"
+        ],
+        "correct": [
+          1
+        ],
+        "pageNumber": 1,
+        "positionPercent": 45,
+        "question": "52. Ako účinkuje botulotoxín na organizmus?"
+      },
+      {
+        "answers": [
+          "P. falciparum a P. malariae",
+          "P. vivax a P. ovale",
+          "P. falciparum a P. vivax",
+          "P. malariae a P. ovale"
+        ],
+        "correct": [
+          1
+        ],
+        "pageNumber": 1,
+        "positionPercent": 55,
+        "question": "53. Ktoré druhy plazmódií sú schopné vytvárať hypnozoity a spôsobovať relapsy malárie?"
+      },
+      {
+        "answers": [
+          "sporozoity – prenos komárom",
+          "bradyzoity – chronická latentná fáza v tkanivových cystách",
+          "hypnozoity – prežívanie vo svalových bunkách",
+          "tachyzoity – akútna fáza infekcie"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "pageNumber": 1,
+        "positionPercent": 65,
+        "question": "54. Ktoré zo štádií Toxoplasma gondii sú správne priradené k ich úlohe v infekcii?"
+      },
+      {
+        "answers": [
+          "hypnozoity – Plasmodium vivax a Plasmodium ovale",
+          "sporozoity – infekčná forma Plasmodium prenášaná komárom",
+          "tachyzoity – rýchlo sa deliace formy Toxoplasma gondii",
+          "bradyzoity – latentné formy Plasmodium falciparum"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "pageNumber": 1,
+        "positionPercent": 75,
+        "question": "55. Ktoré vývojové štádiá patria k jednotlivým rodovým druhom parazitov?"
+      },
+      {
+        "answers": [
+          "retrovírusy – trvalá integrácia cudzej DNA do genómu hostiteľa",
+          "adenovírusy – dočasná expresia génov s výraznou integráciou",
+          "adeno – asociačné vírusy – vysoká bezpečnosť a nízka imunogenicita",
+          "vírus besnoty – bežne používaný v génovom inžinierstve"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "pageNumber": 1,
+        "positionPercent": 10,
+        "question": "56. Priraď vírus k spôsobu využitia alebo vlastnosti:"
+      },
+      {
+        "answers": [
+          "tuberkulóza – Mycobacterium tuberculosis",
+          "tetanus – Treponema pallidum",
+          "syfilis – Treponema pallidum",
+          "kvapavka – Clostridium tetani"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "pageNumber": 1,
+        "positionPercent": 25,
+        "question": "57. Priraď ochorenie k pôvodcovi:"
+      },
+      {
+        "answers": [
+          "salmonelóza – Salmonella enterica",
+          "ťažké hnačkové ochorenie – Neisseria gonorrhoeae",
+          "enteropatogénne infekcie – Escherichia coli",
+          "botulizmus – Shigella dysenteriae"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "pageNumber": 1,
+        "positionPercent": 40,
+        "question": "58. Priraď ochorenie k pôvodcovi:"
+      },
+      {
+        "answers": [
+          "toxoplazmóza – Toxoplasma gondii",
+          "malária – Clostridium botulinum",
+          "malária s relapsmi – Plasmodium vivax",
+          "krvné cysty – tachyzoity Toxoplasma gondii"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "pageNumber": 1,
+        "positionPercent": 55,
+        "question": "59. Priraď ochorenie k pôvodcovi:"
+      },
+      {
+        "answers": [
+          "HIV – získaný syndróm imunitnej nedostatočnosti",
+          "vírus besnoty – respiračné infekcie",
+          "adenovírusy – hepatitída B",
+          "retrovírus HTLV – 1 – leukémia T – lymfocytov"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "pageNumber": 1,
+        "positionPercent": 70,
+        "question": "60. Priraď ochorenie k pôvodcovi:"
+      }
+    ],
+    "title": "Kapitola 13"
+  }
+]

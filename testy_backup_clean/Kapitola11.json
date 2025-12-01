@@ -1,0 +1,1001 @@
+[
+  {
+    "title": "Kapitola 11",
+    "description": "Metódy v molekulovej genetike - Omiky",
+    "questions": [
+      {
+        "answers": [
+          "špecificky",
+          "nešpecificky",
+          "na ľubovoľnom mieste",
+          "prirodzene v baktériách"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "positionPercent": 10,
+        "question": "Restrikčný enzým štiepi DNA:",
+        "pageNumber": 1
+      },
+      {
+        "answers": [
+          "pH",
+          "veľkosti molekuly",
+          "gravitácie",
+          "koncentrácie gélu"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "positionPercent": 20,
+        "question": "Pohyb DNA v géle pri elektroforéze závisí od:",
+        "pageNumber": 1
+      },
+      {
+        "answers": [
+          "automatické",
+          "ručné",
+          "novej generácie",
+          "starej generácie"
+        ],
+        "correct": [
+          2,
+          0
+        ],
+        "positionPercent": 30,
+        "question": "Typy sekvenovania sú:",
+        "pageNumber": 1
+      },
+      {
+        "answers": [
+          "lepkavé v RNA",
+          "tupé v DNA",
+          "tupé v RNA",
+          "lepkavé v DNA"
+        ],
+        "correct": [
+          3,
+          1
+        ],
+        "positionPercent": 40,
+        "question": "Po štiepení pomocou restrikčných enzýmov vznikajú konce:",
+        "pageNumber": 1
+      },
+      {
+        "answers": [
+          "Taq polymerázu",
+          "tRNA",
+          "veľa molekúl DNA",
+          "dNTP"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "positionPercent": 50,
+        "question": "Na PCR reakciu potrebujeme:",
+        "pageNumber": 1
+      },
+      {
+        "answers": [
+          "používajú sa na manipuláciu s mikromnožstvami",
+          "nie sú presné",
+          "používajú sa so špičkami",
+          "môžu byť nastaviteľné"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "positionPercent": 60,
+        "question": "Mikropipety:",
+        "pageNumber": 1
+      },
+      {
+        "answers": [
+          "amplifikácia fragmentov DNA",
+          "určenie veľkosti fragmentov DNA",
+          "určenie poradia nukleotidov v molekule DNA",
+          "meranie úrovne expresie génov"
+        ],
+        "correct": [
+          2
+        ],
+        "positionPercent": 70,
+        "question": "Aká je hlavná funkcia sekvenovania DNA?",
+        "pageNumber": 1
+      },
+      {
+        "answers": [
+          "určiť pohlavie dieťaťa",
+          "identifikovať sekvencie DNA identické so sekvenciami v DNA biologického otca",
+          "určiť krvnú skupinu dieťaťa",
+          "zmerať výšku dieťaťa"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 5,
+        "question": "8. Restrikčné endonukleázy umožňujú pri testovaní otcovstva:",
+        "pageNumber": 2
+      },
+      {
+        "answers": [
+          "krvné sérum",
+          "ster z bukálnej sliznice",
+          "svalové tkanivo",
+          "mozgovomiechový mok"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 15,
+        "question": "9. Aký typ vzorky sa často používa v kriminalistike na určenie otcovstva?",
+        "pageNumber": 2
+      },
+      {
+        "answers": [
+          "kryokonzervované bunky",
+          "fixovaný vo formalíne a zaliaty v parafíne",
+          "surové tkanivo",
+          "lyofilizovaná DNA"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 25,
+        "question": "10. Aký archívny materiál sa využíva v molekulárnej diagnostike?",
+        "pageNumber": 2
+      },
+      {
+        "answers": [
+          "zvýšiť viskozitu roztoku",
+          "rozrušiť bunky a uvoľniť DNA",
+          "aktivovať nukleázy",
+          "pripraviť proteíny"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 35,
+        "question": "11. Čo je cieľom homogenizácie tkaniva pri izolácii DNA?",
+        "pageNumber": 2
+      },
+      {
+        "answers": [
+          "ultrasonikácia",
+          "opakované zmrazovanie a rozmrazovanie",
+          "použitie detergentov",
+          "trávenie proteázami"
+        ],
+        "correct": [
+          1,
+          0
+        ],
+        "positionPercent": 45,
+        "question": "12. Fyzikálne metódy homogenizácie sú:",
+        "pageNumber": 2
+      },
+      {
+        "answers": [
+          "ultrazvuk",
+          "hypotonizácia",
+          "detergenty",
+          "tekutý dusík"
+        ],
+        "correct": [
+          2
+        ],
+        "positionPercent": 55,
+        "question": "13. Ktorá metóda homogenizácie je chemická?",
+        "pageNumber": 2
+      },
+      {
+        "answers": [
+          "odstránenie RNA",
+          "odstránenie inhibítorov PCR",
+          "oddelenie pevných častíc",
+          "rozpustenie DNA"
+        ],
+        "correct": [
+          2
+        ],
+        "positionPercent": 65,
+        "question": "14. Aká je hlavná úloha centrifugácie po homogenizácii?",
+        "pageNumber": 2
+      },
+      {
+        "answers": [
+          "DNáza",
+          "RNáza",
+          "proteáza",
+          "lyzáza"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 75,
+        "question": "15. Aké enzýmy sa pridávajú pri izolácii DNA na odstránenie RNA?",
+        "pageNumber": 2
+      },
+      {
+        "answers": [
+          "fenol",
+          "chloroform",
+          "močovina",
+          "acetón"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "positionPercent": 10,
+        "question": "Ktoré organické rozpúšťadlá sa používajú pri izolácii DNA?",
+        "pageNumber": 3
+      },
+      {
+        "answers": [
+          "etanolu alebo izopropanolu",
+          "acetónu",
+          "kyseliny sírovej",
+          "proteáz"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 20,
+        "question": "Pomocou čoho sa z roztoku vyzráža DNA?",
+        "pageNumber": 3
+      },
+      {
+        "answers": [
+          "dilúzne pruhy",
+          "jeden hrubší pruh",
+          "veľa krátkych fragmentov",
+          "fluorescenčný gradient"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 30,
+        "question": "Ako vyzerá kvalitná DNA po separácii gélovou elektroforézou a následnej vizualizácii, napr. pod UV svetlom?",
+        "pageNumber": 3
+      },
+      {
+        "answers": [
+          "vďaka fosfátovým zvyškom",
+          "vďaka ribóze",
+          "vďaka vodíkovým väzbám",
+          "vďaka dusíkatým bázam"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 40,
+        "question": "Prečo majú nukleové kyseliny záporný náboj?",
+        "pageNumber": 3
+      },
+      {
+        "answers": [
+          "polyakrylamidový",
+          "agarózový",
+          "celulózový",
+          "polyuretánový"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 50,
+        "question": "Aký gél sa používa pri elektroforéze DNA?",
+        "pageNumber": 3
+      },
+      {
+        "answers": [
+          "zvýšiť intenzitu fluorescencie",
+          "umožňuje určiť veľkosť fragmentov",
+          "zabraňovať degradácii DNA",
+          "zlepšiť migráciu"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 60,
+        "question": "Čo je úlohou DNA markeru (ladder)?",
+        "pageNumber": 3
+      },
+      {
+        "answers": [
+          "VNTR",
+          "SNP",
+          "STR",
+          "CNV"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 70,
+        "question": "Ako sa označuje najčastejšia forma bodového polymorfizmu?",
+        "pageNumber": 3
+      },
+      {
+        "answers": [
+          "chemická modifikácia báz",
+          "použitie dideoxynukleotidov",
+          "použitie proteáz",
+          "použitie RNázy"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 80,
+        "question": "Na akom princípe funguje Sangerovo sekvenovanie?",
+        "pageNumber": 3
+      },
+      {
+        "answers": [
+          "migrácia molekúl v elektrickom poli podľa ich veľkosti a náboja",
+          "delenie molekúl podľa hustoty v gradiente sacharózy",
+          "transport DNA cez membránu fosforyláciou",
+          "rozpad DNA pôsobením enzýmov"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 5,
+        "question": "Čo je princípom elektroforézy?",
+        "pageNumber": 4
+      },
+      {
+        "answers": [
+          "polyakrylamid",
+          "agaróza",
+          "škrobový gél",
+          "silika gél"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 15,
+        "question": "Aký gél sa najčastejšie používa na separáciu DNA?",
+        "pageNumber": 4
+      },
+      {
+        "answers": [
+          "bodová mutácia zmenená v každej bunke tela",
+          "polymorfizmus v mitochondriálnej DNA",
+          "zmena jedného nukleotidu v DNA",
+          "tandemové opakovanie krátkeho motívu"
+        ],
+        "correct": [
+          2
+        ],
+        "positionPercent": 25,
+        "question": "Čo je SNP (single nucleotide polymorphism)?",
+        "pageNumber": 4
+      },
+      {
+        "answers": [
+          "DNA polymeráza III",
+          "reverzná transkriptáza",
+          "Taq polymeráza",
+          "RNAáza II"
+        ],
+        "correct": [
+          2
+        ],
+        "positionPercent": 35,
+        "question": "Ktorý enzým sa používa v PCR na syntézu DNA pri vysokých teplotách?",
+        "pageNumber": 4
+      },
+      {
+        "answers": [
+          "koncentráciu templátu v mg/ml",
+          "počet cyklov, po ktorých sa deteguje fluorescencia",
+          "dĺžku amplifikovaného fragmentu",
+          "teplotu denaturácie"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 45,
+        "question": "Čo znamená hodnota Ct v kvantitatívnej PCR?",
+        "pageNumber": 4
+      },
+      {
+        "answers": [
+          "Sangerova metóda používa RNA templát",
+          "NGS umožňuje paralelné sekvenovanie veľkého množstva fragmentov",
+          "Sangerova metóda využíva fluorescenčne značené nukleotidy, NGS nie",
+          "NGS má nižšiu presnosť ako Sangerova metóda"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 55,
+        "question": "Aký je hlavný rozdiel medzi Sangerovou metódou a NGS?",
+        "pageNumber": 4
+      },
+      {
+        "answers": [
+          "na amplifikáciu DNA",
+          "na hybridizáciu analyzovanej DNA alebo RNA so sondami",
+          "na sekvenovanie pomocou dideoxynukleotidov",
+          "na vizualizáciu proteínov etidium bromidom"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 65,
+        "question": "Na čo slúžia biočipy?",
+        "pageNumber": 4
+      },
+      {
+        "answers": [
+          "analýzu expresie génov",
+          "sekvenovanie RNA",
+          "produkciu proteínov",
+          "syntézu primerov"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 75,
+        "question": "Čo umožňujú DNA mikročipy?",
+        "pageNumber": 4
+      },
+      {
+        "answers": [
+          "sledovanie fluorescencie pri každom cykle PCR, ktorá stúpa úmerne s množstvom produktu",
+          "použitie rádioaktívne značených nukleotidov na vizualizáciu PCR fragmentov",
+          "amplifikácia RNA bez potreby reverznej transkripcie",
+          "sekvenovanie PCR produktov počas ich syntézy"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 10,
+        "question": "Aký je hlavný princíp real-time PCR (kvantitatívnej PCR)?",
+        "pageNumber": 5
+      },
+      {
+        "answers": [
+          "funkciu proteínov",
+          "kompletnú sadu DNA organizmu",
+          "metabolické dráhy",
+          "expresiu RNA"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 20,
+        "question": "Čo skúma genomika?",
+        "pageNumber": 5
+      },
+      {
+        "answers": [
+          "Western blot",
+          "hmotnostná spektrometria",
+          "next-generation sequencing",
+          "PCR"
+        ],
+        "correct": [
+          2
+        ],
+        "positionPercent": 30,
+        "question": "Ktorá technika sa často používa na sekvenovanie celého genómu?",
+        "pageNumber": 5
+      },
+      {
+        "answers": [
+          "proteóm",
+          "genóm",
+          "metabolóm",
+          "transkriptóm"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 40,
+        "question": "Ktorý pojem označuje všetky gény jedného organizmu?",
+        "pageNumber": 5
+      },
+      {
+        "answers": [
+          "GWAS (celogenómové asociačné štúdie)",
+          "RNA-sekvenovanie",
+          "ELISA",
+          "prietoková cytometria"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 50,
+        "question": "Ktorá technológia umožňuje detekciu genetických variantov?",
+        "pageNumber": 5
+      },
+      {
+        "answers": [
+          "DNA sekvenciu",
+          "RNA molekuly exprimované v bunkách",
+          "metabolity v krvi",
+          "vírusy"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 60,
+        "question": "Transkriptomika skúma:",
+        "pageNumber": 5
+      },
+      {
+        "answers": [
+          "RNA-sekvenovanie",
+          "CRISPR-Cas9",
+          "ELISA",
+          "prietoková cytometria"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 70,
+        "question": "Ktorá technika je základom transkriptomických štúdií?",
+        "pageNumber": 5
+      },
+      {
+        "answers": [
+          "rRNA",
+          "mRNA",
+          "tRNA",
+          "miRNA"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 80,
+        "question": "Ktorý typ RNA sa najčastejšie analyzuje pri transkriptomike?",
+        "pageNumber": 5
+      },
+      {
+        "answers": [
+          "proteóm",
+          "genóm",
+          "transkriptóm",
+          "metabolóm"
+        ],
+        "correct": [
+          2
+        ],
+        "positionPercent": 5,
+        "question": "Ktorý pojem označuje všetky RNA molekuly bunky?",
+        "pageNumber": 6
+      },
+      {
+        "answers": [
+          "DNA variácie",
+          "expresiu proteínov",
+          "malé molekuly/metabolity v bunkách a tkanivách",
+          "vírusov"
+        ],
+        "correct": [
+          2
+        ],
+        "positionPercent": 15,
+        "question": "Metabolomika skúma:",
+        "pageNumber": 6
+      },
+      {
+        "answers": [
+          "hmotnostná spektrometria a NMR",
+          "Sangerovo sekvenovanie",
+          "Northern blot",
+          "imunohistochémia"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 25,
+        "question": "Ktoré analytické metódy sa bežne používajú v metabolomike?",
+        "pageNumber": 6
+      },
+      {
+        "answers": [
+          "genóm",
+          "proteóm",
+          "metabolóm",
+          "transkriptóm"
+        ],
+        "correct": [
+          2
+        ],
+        "positionPercent": 35,
+        "question": "Ktorý pojem označuje súhrn všetkých metabolitov bunky alebo organizmu?",
+        "pageNumber": 6
+      },
+      {
+        "answers": [
+          "proteomika",
+          "multi - omics",
+          "viromika",
+          "epigenomika"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 45,
+        "question": "Ktorá výskumná oblasť spája metabolomiku s genomikou a transkriptomikou?",
+        "pageNumber": 6
+      },
+      {
+        "answers": [
+          "celý genóm človeka",
+          "vírusové populácie a ich genetickú diverzitu",
+          "expresiu RNA v baktériách",
+          "metabolity v krvi"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 55,
+        "question": "Viromika skúma:",
+        "pageNumber": 6
+      },
+      {
+        "answers": [
+          "vírusová metagenomika",
+          "ELISA",
+          "Western blot",
+          "prietoková cytometria"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 65,
+        "question": "Ktorá technika je kľúčová pre viromiku?",
+        "pageNumber": 6
+      },
+      {
+        "answers": [
+          "viróm",
+          "viromik",
+          "genóm",
+          "proteóm"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 75,
+        "question": "Ktorý pojem označuje všetky vírusy v určitom prostredí alebo hostiteľovi?",
+        "pageNumber": 6
+      },
+      {
+        "answers": [
+          "host – vírus interakcií",
+          "proteomika",
+          "metabolomika",
+          "genomika"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 5,
+        "question": "Ktorá oblasť viromiky skúma interakcie vírusov s hostiteľom?",
+        "pageNumber": 7
+      },
+      {
+        "answers": [
+          "štúdium interakcií medzi génmi",
+          "predikcia 3D štruktúry proteínov",
+          "analýza metabolických dráh",
+          "identifikácia vírusových populácií"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 15,
+        "question": "Čo je cieľom funkčnej genomiky?",
+        "pageNumber": 7
+      },
+      {
+        "answers": [
+          "porovnávacia genomika",
+          "RNA – sekvenovanie",
+          "Western blot",
+          "prietoková cytometria"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 25,
+        "question": "Ktorá metóda sa používa na porovnanie genómov rôznych organizmov?",
+        "pageNumber": 7
+      },
+      {
+        "answers": [
+          "proteínov bunky",
+          "RNA",
+          "génov",
+          "metabolitov"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 35,
+        "question": "Pojem proteóm označuje súbor všetkých:",
+        "pageNumber": 7
+      },
+      {
+        "answers": [
+          "určiť, ktoré proteíny sú skutočne exprimované",
+          "určiť sekvenciu DNA",
+          "zistiť všetky metabolity",
+          "vidieť dynamický obraz organizmu"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "positionPercent": 45,
+        "question": "Čo umožňuje proteomika navyše oproti genomike?",
+        "pageNumber": 7
+      },
+      {
+        "answers": [
+          "je dynamický a mení sa podľa podmienok",
+          "je identický vo všetkých bunkách",
+          "zahrňuje všetky DNA sekvencie",
+          "obsahuje iba rRNA"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 55,
+        "question": "Čo je charakteristické pre transkriptóm?",
+        "pageNumber": 7
+      },
+      {
+        "answers": [
+          "proteóm je stabilný, transkriptóm je dynamický",
+          "transkriptóm odráža RNA, proteóm odráža proteíny",
+          "proteóm sa netýka expresie génov",
+          "transkriptóm zahrňuje metabolity"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 65,
+        "question": "Aký je hlavný rozdiel medzi proteómom a transkriptómom?",
+        "pageNumber": 7
+      },
+      {
+        "answers": [
+          "DNA microarray",
+          "ELISA",
+          "Western blot",
+          "PCR"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 75,
+        "question": "Aká technológia sa využíva na mapovanie expresie tisícov génov naraz?",
+        "pageNumber": 7
+      },
+      {
+        "answers": [
+          "mikrobiomika",
+          "genomika",
+          "metabolomika",
+          "viromika"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "positionPercent": 5,
+        "question": "Ktorá omika sa najviac spája s personalizovanou medicínou?",
+        "pageNumber": 8
+      },
+      {
+        "answers": [
+          "nukleotidové sekvencie",
+          "spektrálne profily",
+          "proteínové mapy",
+          "RNA čítania"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 15,
+        "question": "Aký typ dát vzniká pri metabolomike?",
+        "pageNumber": 8
+      },
+      {
+        "answers": [
+          "študovať len vírusy s DNA genómom",
+          "charakterizovať všetky vírusy v prostredí",
+          "analyzovať vírusové proteíny",
+          "detegovať metabolity hostiteľa"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 25,
+        "question": "Čo je cieľom viromiky?",
+        "pageNumber": 8
+      },
+      {
+        "answers": [
+          "epigenomika",
+          "proteomika",
+          "viromika",
+          "metabolomika"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 35,
+        "question": "Ktorá oblasť skúma špecificky epigenetické zmeny v genóme?",
+        "pageNumber": 8
+      },
+      {
+        "answers": [
+          "integruje viacero vrstiev biologických informácií",
+          "nahrádza všetky experimentálne metódy",
+          "zameriava sa len na RNA",
+          "zahŕňa výlučne proteíny"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 45,
+        "question": "Multi-omics prístup je dôležitý preto, že:",
+        "pageNumber": 8
+      },
+      {
+        "answers": [
+          "vysoká senzitivita",
+          "neinvazívna analýza",
+          "sekvenuje DNA",
+          "kvantifikuje RNA"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 55,
+        "question": "Aká je hlavná výhoda NMR (nukleárnej magnetickej rezonancie) v metabolomike?",
+        "pageNumber": 8
+      },
+      {
+        "answers": [
+          "len metabolomiku",
+          "komplexné signálne dráhy medzi génmi, proteínmi a metabolitmi",
+          "len DNA replikáciu",
+          "len viromiku"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 65,
+        "question": "Ktoré oblasti skúma systémová biológia?",
+        "pageNumber": 8
+      },
+      {
+        "answers": [
+          "sekvenciu DNA",
+          "mutácie v génoch",
+          "chemické modifikácie DNA a histónov ovplyvňujúce génovú expresiu",
+          "len mitochondriálnu DNA"
+        ],
+        "correct": [
+          2
+        ],
+        "positionPercent": 75,
+        "question": "Čo skúma epigenomika?",
+        "pageNumber": 8
+      },
+      {
+        "answers": [
+          "lipidomika",
+          "glykomika",
+          "interaktomika",
+          "farmakogenomika"
+        ],
+        "correct": [
+          2
+        ],
+        "positionPercent": 10,
+        "question": "Ktorá disciplina analyzuje siete vzájomných interakcií medzi proteínmi?",
+        "pageNumber": 9
+      },
+      {
+        "answers": [
+          "glykozylácia proteínov",
+          "zloženie a funkcia lipidov v bunkách",
+          "expresia mikroRNA",
+          "tandemové repetície v DNA"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 20,
+        "question": "Aký je hlavný predmet štúdia lipidomiky?",
+        "pageNumber": 9
+      },
+      {
+        "answers": [
+          "skúmanie štruktúry a funkcie sacharidov a glykanov",
+          "analýza mutácií v tRNA",
+          "meranie hladiny metabolitov",
+          "štúdium patogénnych mikroorganizmov"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 30,
+        "question": "Čo je cieľom glykomiky?",
+        "pageNumber": 9
+      },
+      {
+        "answers": [
+          "epigenomika",
+          "mikrobiomika",
+          "exozomika",
+          "farmakogenomika"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 40,
+        "question": "Ktorá oblasť sa zameriava na zloženie a funkciu črevného mikrobiómu?",
+        "pageNumber": 9
+      },
+      {
+        "answers": [
+          "genetické faktory ovplyvňujúce odpoveď na liečbu",
+          "expresiu génov pri infekciách",
+          "metabolické produkty buniek",
+          "interakcie medzi proteínmi"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 50,
+        "question": "Čo skúma farmakogenomika?",
+        "pageNumber": 9
+      },
+      {
+        "answers": [
+          "analýza histónových modifikácií",
+          "obsah vezikúl nesúcich nukleové kyseliny, proteíny a lipidy",
+          "sledovanie glykozylácie proteínov",
+          "analýza extracelulárnych vezikúl ako biomarkerov"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "positionPercent": 60,
+        "question": "Čo je predmetom exozomiky (extracelulárnej vezikulomiky)?",
+        "pageNumber": 9
+      },
+      {
+        "answers": [
+          "lipidy",
+          "sacharidy a glykanové štruktúry",
+          "RNA transkripty",
+          "fosfoproteíny"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 70,
+        "question": "Aký typ molekúl je hlavným predmetom skúmania v glykomike?",
+        "pageNumber": 9
+      }
+    ]
+  }
+]

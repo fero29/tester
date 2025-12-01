@@ -1,0 +1,379 @@
+[
+  {
+    "title": "Bio CAP 6",
+    "description": "zapocet biologia cap6 od",
+    "questions": [
+      {
+        "answers": [
+          "redukcii resazurínu na fluorescenčný rezorufín v metabolicky aktívnych bunkách",
+          "degradácii LDH pri poškodení membrány",
+          "absorpcii Trypánovej modrej do živých buniek",
+          "nešpecifickej redukcii kryštálov formazánu"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 10,
+        "question": "Alamar blue test je založený na:"
+      },
+      {
+        "answers": [
+          "kvalitatívny test merajúci integritu membrány na odlíšenie živých a mŕtvych buniek",
+          "citlivý test s lineárnym vzťahom medzi aktivitou buniek a absorbanciou",
+          "MTT je redukovaný mitochondriálnou reduktázou a vznikajú kryštály formazánu",
+          "kvalitatívny test založený na nešpecifickej enzymatickej redukcii resazurínu"
+        ],
+        "correct": [
+          2
+        ],
+        "positionPercent": 40,
+        "question": "Ako funguje test MTT?"
+      },
+      {
+        "answers": [
+          "LDH test je založený na úniku intracelulárneho enzýmu pri poškodení membrány",
+          "trypánová modrá hodnotí metabolickú aktivitu mitochondrií",
+          "LDH test je fluorescenčný alebo kolorimetrický, trypánová modrá len kolorimetrická",
+          "trypánová modrá poskytuje kvantitatívne výsledky nezávislé od subjektivity"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "positionPercent": 70,
+        "question": "Aký je hlavný rozdiel medzi LDH testom a farbením trypánovou modrou?"
+      },
+      {
+        "question": "LDH test:",
+        "answers": [
+          "umožňuje stanovenie miery bunkovej smrti",
+          "sa používa na meranie markerov úniku z cytoplazmy",
+          "umožňuje určiť kinetiku proliferácie buniek",
+          "je kolorimetrický alebo fluorometrický test"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "positionPercent": 5
+      },
+      {
+        "question": "Prečo sa odporúča používať kombináciu viacerých testov cytotoxicity?",
+        "answers": [
+          "rôzne testy hodnotia odlišné aspekty bunkovej životaschopnosti (membrána, metabolizmus, únik markerov)",
+          "každý test je absolútne presný a stačí ho použiť samostatne",
+          "kombinácia zvyšuje spoľahlivosť a objektivitu výsledkov",
+          "väčšina testov je lacná, preto sa používajú naraz"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "positionPercent": 15
+      },
+      {
+        "question": "Ktoré metódy patria medzi metabolické testy životaschopnosti buniek?",
+        "answers": [
+          "MTT test",
+          "LDH test",
+          "Alamar blue test",
+          "Trypan blue exclusion test"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "positionPercent": 30
+      },
+      {
+        "question": "Aké výhody má Alamar Blue test oproti MTT testu?",
+        "answers": [
+          "je neinvazívny",
+          "umožňuje opakované merania v reálnom čase",
+          "je založený na fluorescenčnom signáli",
+          "vyžaduje usmrtenie buniek"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "positionPercent": 40
+      },
+      {
+        "question": "Čo zistí LDH test?",
+        "answers": [
+          "aktivitu mitochondriálnych enzýmov",
+          "množstvo DNA v bunke",
+          "prítomnosť laktátdehydrogenázy uvoľnenej z poškodených buniek",
+          "apoptotické fragmenty membrány"
+        ],
+        "correct": [
+          2
+        ],
+        "positionPercent": 50
+      },
+      {
+        "question": "Ktoré moderné technológie sa používajú pri hodnotení životaschopnosti buniek?",
+        "answers": [
+          "prietoková cytometria",
+          "konfokálna mikroskopia živých buniek",
+          "impedančné systémy",
+          "Western blot"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "positionPercent": 60
+      },
+      {
+        "question": "Čo je výhodou impedančných systémov?",
+        "answers": [
+          "umožňujú neinvazívne a kontinuálne sledovanie rastu buniek",
+          "vyžadujú farbenie vitálnymi farbivami",
+          "sú založené na zmene elektrického odporu",
+          "poskytujú len jednorazové údaje"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "positionPercent": 75
+      },
+      {
+        "question": "Aké informácie poskytuje konfokálna mikroskopia živých buniek?",
+        "answers": [
+          "dynamické zmeny bunkovej morfológie",
+          "zmeny membránového potenciálu",
+          "detekciu apoptotických procesov",
+          "len konečný obraz fixovaných buniek"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "positionPercent": 85
+      },
+      {
+        "answers": [
+          "každý test zachytáva iný aspekt bunkovej viability",
+          "získava sa komplexnejší obraz o stave buniek",
+          "znižuje sa riziko falošne negatívnych/pozitívnych výsledkov",
+          "pretože jednotlivé testy nie je možné použiť samostatne"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "positionPercent": 5,
+        "question": "Prečo sa kombinuje viacero-testov hodnotenia životaschopnosti?"
+      },
+      {
+        "answers": [
+          "hormóny",
+          "rastové faktory",
+          "antibiotiká",
+          "vitamíny a stopové prvky"
+        ],
+        "correct": [
+          1,
+          3,
+          0
+        ],
+        "positionPercent": 20,
+        "question": "Ktoré faktory sa často pridávajú do kultivačných médií na podporu rastu a viability buniek?"
+      },
+      {
+        "answers": [
+          "integrita membrány",
+          "aktivita mitochondriálnych enzýmov",
+          "hladina intracelulárneho Ca2+",
+          "počet jadier buniek"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 35,
+        "question": "Aký je hlavný ukazovateľ vitálnych funkcií v metabolických testoch?"
+      },
+      {
+        "answers": [
+          "nedokáže rozlíšiť apoptotické bunky od živých",
+          "hodnotenie je subjektívne",
+          "vyžaduje drahé prístroje",
+          "má nižšiu citlivosť v porovnaní s fluorescenčnými metódami"
+        ],
+        "correct": [
+          0,
+          3,
+          1
+        ],
+        "positionPercent": 50,
+        "question": "Aké sú limity použitia „trypan blue exclusion testu“?"
+      },
+      {
+        "answers": [
+          "rýchlu kvantitatívnu analýzu",
+          "viacparametrické merania na jednej bunke",
+          "analýzu životaschopnosti a apoptózy",
+          "sledovanie rastu celých tkanivových štruktúr"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "positionPercent": 65,
+        "question": "Čo umožňuje prietoková cytometria pri hodnotení buniek?"
+      },
+      {
+        "answers": [
+          "impedančné systémy",
+          "Trypan blue exclusion test",
+          "konfokálna mikroskopia",
+          "LDH test"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 80,
+        "question": "Ktoré metódy umožňujú kontinuálne monitorovanie bunkovej proliferácie bez farbenia?"
+      },
+      {
+        "answers": [
+          "lepšie napodobňujú in vivo prostredie",
+          "nedokážu podporovať diferenciáciu",
+          "sú vždy krátkodobé",
+          "neumožňujú interakcie s ECM"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 90,
+        "question": "Čo charakterizuje trojrozmerné kultivačné systémy v porovnaní s klasickými 2D kultúrami?"
+      },
+      {
+        "answers": [
+          "apoptóza",
+          "Hayflickov limit",
+          "autofágia",
+          "Warburgov efekt"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 95,
+        "question": "Ktorý jav obmedzuje počet delení primárnych buniek a buniek línií?"
+      },
+      {
+        "answers": [
+          "potrebujú adherenciu na povrch kultivačnej nádoby",
+          "rastú voľne v médiu",
+          "nevyžadujú prísun živín a kyslíka",
+          "sú využiteľné len v genetike"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 5,
+        "question": "Čo je typické pre suspenzné kultúry buniek?"
+      },
+      {
+        "answers": [
+          "zvýšenie pH média",
+          "dosiahnutie konfluencie 80–90 %",
+          "odstránenie starých buniek apoptózou",
+          "inhibícia kontaktu buniek s ECM"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 15,
+        "question": "Aký je hlavný dôvod pasážovania adherentných buniek?"
+      },
+      {
+        "answers": [
+          "glukóza",
+          "alanín",
+          "glutamín",
+          "laktát"
+        ],
+        "correct": [
+          2
+        ],
+        "positionPercent": 25,
+        "question": "Ktorý metabolit sa najčastejšie pridáva do kultivačných médií ako zdroj dusíka a uhlíka?"
+      },
+      {
+        "answers": [
+          "maximálnu mitotickú aktivitu",
+          "adaptáciu buniek a nízku mitotickú aktivitu",
+          "začiatok degradácie a senescencie",
+          "zastavenie delenia kontaktnou inhibíciou"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 35,
+        "question": "Čo vyjadruje lag fáza rastovej krivky bunkovej kultúry?"
+      },
+      {
+        "answers": [
+          "prevaha aeróbnej glykolýzy aj pri prítomnosti kyslíka",
+          "blokovanie Krebsovho cyklu",
+          "využívanie mastných kyselín ako hlavného zdroja energie",
+          "aktivácia len v suspenzných kultúrach"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 45,
+        "question": "Ktorá vlastnosť je charakteristická pre Warburgov efekt?"
+      },
+      {
+        "answers": [
+          "LDH test",
+          "MTT test",
+          "Trypan blue",
+          "PCR test"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 55,
+        "question": "Ktorý test meria aktivitu mitochondriálnych enzýmov redukciou tetrazoliových solí?"
+      },
+      {
+        "answers": [
+          "krátka životnosť kultúry",
+          "spontánna diferenciácia na špecializované bunky",
+          "akumulácia genetických zmien a odchýlok od pôvodného fenotypu",
+          "neschopnosť rastu vo väčších objemoch"
+        ],
+        "correct": [
+          2
+        ],
+        "positionPercent": 65,
+        "question": "Aké riziko sprevádza prácu s permanentnými bunkovými líniami?"
+      },
+      {
+        "answers": [
+          "Western blot",
+          "MTT test",
+          "FISH",
+          "impedančné systémy"
+        ],
+        "correct": [
+          3
+        ],
+        "positionPercent": 75,
+        "question": "Ktorý prístup je založený na sledovaní zmien elektrického odporu bunkovej vrstvy počas rastu a proliferácie?"
+      }
+    ]
+  }
+]

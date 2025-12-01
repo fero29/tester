@@ -1,0 +1,919 @@
+[
+  {
+    "description": "Formy vstupu DNA, Vektory a rekombinančne techniky",
+    "questions": [
+      {
+        "answers": [
+          "transformácia",
+          "transkripcia",
+          "transdukcia",
+          "konjugácia"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "pageNumber": 1,
+        "positionPercent": 10,
+        "question": "Prirodzené spôsoby vstupu cudzej DNA do bunky sú:"
+      },
+      {
+        "answers": [
+          "elektroporéza",
+          "mikroinjekcia",
+          "lipofekcia",
+          "fotosyntéza"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "pageNumber": 1,
+        "positionPercent": 20,
+        "question": "Medzi experimentálne techniky prenosu DNA do bunky patrí:"
+      },
+      {
+        "answers": [
+          "retrovírusy",
+          "chloroplasty",
+          "adenovírusy",
+          "mitochondrie"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "pageNumber": 1,
+        "positionPercent": 30,
+        "question": "Vírusové vektory používané v génovom inžinierstve môžu byť:"
+      },
+      {
+        "answers": [
+          "plazmidová forma",
+          "mitochondriálna forma",
+          "epizomálna forma",
+          "ribozomálna forma"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "pageNumber": 1,
+        "positionPercent": 40,
+        "question": "Cudzia DNA môže v bunke existovať ako:"
+      },
+      {
+        "answers": [
+          "retrovírusy",
+          "plazmidy",
+          "transpozóny",
+          "liposómy"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "pageNumber": 1,
+        "positionPercent": 50,
+        "question": "Integrovaná forma cudzej DNA je typická pre:"
+      },
+      {
+        "answers": [
+          "sú malé kruhové molekuly DNA schopné autonómnej replikácie",
+          "sa prirodzene nachádzajú v jadre eukaryotických buniek",
+          "môžu niesť selekčné markery a promótory",
+          "nikdy sa nepoužívajú na produkciu proteínov"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "pageNumber": 1,
+        "positionPercent": 60,
+        "question": "Plazmidové vektory:"
+      },
+      {
+        "answers": [
+          "retrovírusy sa integrujú do genómu hostiteľa",
+          "adenovírusy prinášajú DNA bez integrácie",
+          "adeno-asociované vírusy sú vysoko imunogénne",
+          "všetky vírusové vektory sú vždy patogénne"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "pageNumber": 1,
+        "positionPercent": 70,
+        "question": "Vírusové vektory:"
+      },
+      {
+        "answers": [
+          "zahŕňajú lipofómy a lipidové nanočastice",
+          "sú menej bezpečné ako vírusové vektory",
+          "môžu byť tvorené syntetickými polymérmi",
+          "sa používajú len v rastlinnej biotechnológii"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "pageNumber": 2,
+        "positionPercent": 5,
+        "question": "Nevírusové vektory:"
+      },
+      {
+        "answers": [
+          "využívajú oslabené patogény, ako Salmonella a Listeria",
+          "neumožňujú prenos rekombinantnej DNA",
+          "skúšajú sa pri vývoji vakcín",
+          "dnes sú už úplne nahradené vírusovými vektormi"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "pageNumber": 2,
+        "positionPercent": 15,
+        "question": "Bakteriálne vektory:"
+      },
+      {
+        "answers": [
+          "využíva restrikčné endonukleázy a DNA ligázu",
+          "umožňuje spojiť cudzí gén s vektorom",
+          "je založená na transkripcii do mRNA",
+          "neumožňuje selekciu klonov"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "pageNumber": 2,
+        "positionPercent": 25,
+        "question": "Rekombinačná DNA technológia:"
+      },
+      {
+        "answers": [
+          "ZFN, TALEN a CRISPR–Cas dokážu vytvoriť dvojvláknový zlom DNA",
+          "výsledok editácie závisí od voľby opravnej dráhy HDR alebo NHEJ",
+          "využívajú iba retrovírusy",
+          "patria výlučne medzi bakteriálne enzýmy bez použitia v genetike"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "pageNumber": 2,
+        "positionPercent": 35,
+        "question": "Programovateľné nukleázy:"
+      },
+      {
+        "answers": [
+          "umožňujú meniť bázy alebo krátke úseky DNA bez dvojvláknových zlomov",
+          "zvyšujú riziko off–target efektov",
+          "predstavujú moderné varianty presného editovania",
+          "vyžadujú vždy integráciu do chromozómu hostiteľa"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "pageNumber": 2,
+        "positionPercent": 45,
+        "question": "Base editory a prime editory:"
+      },
+      {
+        "answers": [
+          "odstraňuje celý chromozóm",
+          "dodáva funkčná kópia génu",
+          "využíva RNAi",
+          "edituje presná chyba v DNA"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "pageNumber": 2,
+        "positionPercent": 55,
+        "question": "Pri mutáciách spôsobujúcich stratu funkčnosti génu v génovej terapii sa najčastejšie:"
+      },
+      {
+        "answers": [
+          "expresiou „samovražedného“ génu, čo vedie k aktivovaniu proliečiva/predliečiva",
+          "expresiou génu pre rezistenciu na antibiotiká",
+          "aktiváciou imunitného systému pomocou CAR–T buniek",
+          "expresiou génu pre GFP (zelený fluorescenčný proteín)"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "pageNumber": 2,
+        "positionPercent": 65,
+        "question": "Cielená cytotoxicita v génovej terapii môže prebiehať:"
+      },
+      {
+        "answers": [
+          "antisense oligonukleotidmi",
+          "mechanizmom RNAi",
+          "CRISPR–X/CRISPR–a systémom",
+          "transkripciou génu na mRNA"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "pageNumber": 2,
+        "positionPercent": 75,
+        "question": "Vypnutie génu (knock – down) sa dosahuje:"
+      },
+      {
+        "answers": [
+          "poskytuje adaptívnu imunitu voči bakteriofágom",
+          "využíva krátke fragmenty vírusovej DNA uložené ako spacery",
+          "degraduje RNA hostiteľskej bunky",
+          "bol objavený ako systém obrany archeí proti plazmidom iba v roku 2020"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "positionPercent": 5,
+        "question": "CRISPR–Cas systém u baktérií:",
+        "pageNumber": 1
+      },
+      {
+        "answers": [
+          "umožňuje presné nastrihnutie DNA",
+          "degraduje proteíny",
+          "funguje výhradne pri RNA vírusoch",
+          "má varianty Cas12 a Cas13, zamerané na DNA a RNA"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "positionPercent": 15,
+        "question": "Najznámejší Cas proteín je Cas9, ktorý:",
+        "pageNumber": 1
+      },
+      {
+        "answers": [
+          "sa do cieľových buniek vnesie funkčný gén",
+          "sa trvale umlčí všetky mutované gény v tele",
+          "sa opraví mutácia alebo umlčí škodlivá alela",
+          "sa nahrádza celé jadro bunky"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "positionPercent": 25,
+        "question": "Princíp génovej terapie spočíva najmä v tom, že:",
+        "pageNumber": 1
+      },
+      {
+        "answers": [
+          "Luxturna pre mutáciu v RPE65",
+          "Zolgensma pre spinálnu muskulárnu atrofiu",
+          "penicilín ako prvé antibiotikum",
+          "chemoterapiu založenú na cytostatiku cisplatina"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "positionPercent": 35,
+        "question": "Prvé regulačne schválené terapie zahŕňajú:",
+        "pageNumber": 1
+      },
+      {
+        "answers": [
+          "presná molekulárna diagnóza",
+          "výber vhodných cieľových buniek",
+          "dodanie génu do cytoplazmatických inklúzií",
+          "úplná eliminácia RNA hostiteľa"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "positionPercent": 45,
+        "question": "Kľúčové požiadavky pre úspešnú génovú terapiu sú:",
+        "pageNumber": 1
+      },
+      {
+        "answers": [
+          "znamená úpravu izolovaných buniek mimo tela a ich návrat pacientovi",
+          "umožňuje selekciu a kontrolu upravených buniek",
+          "je praktickejšia pre tkanivá, ktoré nemožno odobrať",
+          "vždy prebieha priamo v tele pacienta"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "positionPercent": 55,
+        "question": "Ex vivo génová terapia:",
+        "pageNumber": 1
+      },
+      {
+        "answers": [
+          "imunogenosť vektorov",
+          "riziko inzercnej mutagenézy",
+          "dlhodobý účinok pri integrovaných systémoch",
+          "schopnosť riešiť všetky polygénové ochorenia"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "positionPercent": 65,
+        "question": "Medzi limity génovej terapie patrí:",
+        "pageNumber": 1
+      },
+      {
+        "answers": [
+          "dvojzložkový imunitný systém eukaryotických buniek",
+          "prirodzene sa vyskytujúci adaptácie schopný dvojzložkový imunitný systém prokaryotických organizmov",
+          "prirodzene sa vyskytujúci adaptácie schopný dvojzložkový imunitný systém vírusov",
+          "dvojzložkový imunitný systém prokaryotických buniek vyskytujúci sa v mitochondriách alebo chloroplastoch"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 75,
+        "question": "CRISPR/Cas je:",
+        "pageNumber": 1
+      },
+      {
+        "answers": [
+          "je typ plazmidu",
+          "je systém, ktorým sa baktérie bránia napadnutiu cudzorodou DNA",
+          "je systém, ktorým sa vírusy bránia napadnutiu cudzorodou DNA",
+          "invadujúcu nukleovú kyselinu rozstrihá nešpecificky"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 5,
+        "question": "CRISPR/Cas:",
+        "pageNumber": 2
+      },
+      {
+        "answers": [
+          "protirakovinová terapia",
+          "liečba monogénovo podmienených ochorení",
+          "liečba vírusových infekcií",
+          "riešenie rezistencie na antibiotiká"
+        ],
+        "correct": [
+          1,
+          0,
+          3,
+          2
+        ],
+        "positionPercent": 15,
+        "question": "K možnostiam využitia CRISPR/Cas v medicínskej praxi patrí:",
+        "pageNumber": 2
+      },
+      {
+        "answers": [
+          "blokujú väzbové miesta DNA",
+          "blokujú štiepenie DNA",
+          "enzymaticky deaktivujú CRISPR/Cas",
+          "sú prenášané plazmidmi"
+        ],
+        "correct": [
+          2,
+          0,
+          1
+        ],
+        "positionPercent": 25,
+        "question": "Anti-CRISPR (Acr) proteíny:",
+        "pageNumber": 2
+      },
+      {
+        "answers": [
+          "nemôžu byť cielene na plazmidy zodpovedné za rezistenciu baktérií",
+          "majú širokospektrálny účinok",
+          "môžu byť zamerané priamo voči génomu baktérií",
+          "inhibujú syntézu bakteriálnej bunkovej steny"
+        ],
+        "correct": [
+          2
+        ],
+        "positionPercent": 35,
+        "question": "Crisprové antibiotiká:",
+        "pageNumber": 2
+      },
+      {
+        "answers": [
+          "je somatická alebo zárodočná",
+          "z etických dôvodov je u ľudí vo veľkej miere zakázaná",
+          "môže byť in vivo alebo ex vivo",
+          "používa genetický materiál na liečbu alebo prevenciu ochorenia"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "positionPercent": 45,
+        "question": "Génová terapia:",
+        "pageNumber": 2
+      },
+      {
+        "answers": [
+          "používa vírusové vektory na transdukciu génov",
+          "používa vírusové vektory na transfekciu génov",
+          "používa plazmidy na transfekciu génov",
+          "používa plazmidy na transdukciu génov"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 55,
+        "question": "Somatická génová terapia:",
+        "pageNumber": 2
+      },
+      {
+        "answers": [
+          "používa molekuly založené na DNA na liečbu ochorení",
+          "používa antisense oligonukleotidy",
+          "môže sa použiť na zavedenie mRNA do buniek za účelom obnovy chýbajúceho enzýmu",
+          "nepoužíva aptaméry"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "positionPercent": 65,
+        "question": "RNA terapia:",
+        "pageNumber": 2
+      },
+      {
+        "answers": [
+          "znamená systém prenosu génu",
+          "je vždy integrovaný do génomu hostiteľa",
+          "môže byť odvodený z vírusu odstránením vírusových génov",
+          "v závislosti od typu sa môže integrovať do génomu hostiteľa"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "positionPercent": 75,
+        "question": "Vektor v génovej terapii:",
+        "pageNumber": 2
+      },
+      {
+        "answers": [
+          "rezistencia na antibiotiká, chemoterapeutiká a ťažké kovy",
+          "replikácia bakteriálneho genómu",
+          "produkcia antibiotík a toxínov",
+          "degradácia a oxidácia inak biologicky inertných alebo toxických organických látok"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "positionPercent": 5,
+        "question": "Plazmidom môže byť podmienená:",
+        "pageNumber": 3
+      },
+      {
+        "answers": [
+          "tvorba restrikčných a modifikačných enzýmov",
+          "tvorba jadrovej membrány baktérií",
+          "schopnosť symbiózy",
+          "syntéza membránových organel baktérií"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "positionPercent": 15,
+        "question": "Plazmidom môže byť podmienená:",
+        "pageNumber": 3
+      },
+      {
+        "answers": [
+          "delíme na horizontálny a vertikálny",
+          "horizontálny sa deje aj medzi rôznymi druhmi a rodmi baktérií",
+          "vertikálny sa deje aj medzi rôznymi druhmi a rodmi baktérií",
+          "sa deje aj počas amitozy"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "positionPercent": 25,
+        "question": "Prenos plazmidu z bunky do bunky:",
+        "pageNumber": 3
+      },
+      {
+        "answers": [
+          "sa deje počas amitozy z materskej na dcérske bunky",
+          "prebieha len medzi rovnakými rodmi baktérií",
+          "je zodpovedný za medzidruhový a medzidrodový transfer rezistencie na antibiotiká",
+          "prebieha prostredníctvom konjugácie"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "positionPercent": 35,
+        "question": "Horizontálny prenos plazmidu z bunky do bunky:",
+        "pageNumber": 3
+      },
+      {
+        "answers": [
+          "Downov syndróm",
+          "malígnia",
+          "ťažká kombinovaná imunodeficiencia – SCID",
+          "Duchenova svalová dystrofia"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "positionPercent": 45,
+        "question": "Choroby vhodné na génovú terapiu sú:",
+        "pageNumber": 3
+      },
+      {
+        "answers": [
+          "enzýmov",
+          "hormónov",
+          "vakcín",
+          "krvných faktorov"
+        ],
+        "correct": [
+          1,
+          0,
+          2,
+          3
+        ],
+        "positionPercent": 55,
+        "question": "Klonovanie sa využíva pri príprave:",
+        "pageNumber": 3
+      },
+      {
+        "answers": [
+          "vírusov a ľudskej DNA",
+          "plazmidov a fágov",
+          "fágov a proteínov",
+          "YAC-ov a kvasiniek"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 65,
+        "question": "Kozmidy sú vektory získané spojením:",
+        "pageNumber": 3
+      },
+      {
+        "answers": [
+          "antibiotiká",
+          "vektory",
+          "klonovacie miesta",
+          "enzýmy"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 75,
+        "question": "Kozmidy sú:",
+        "pageNumber": 3
+      },
+      {
+        "answers": [
+          "klonovacie",
+          "expresné",
+          "lokalizované",
+          ""
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "positionPercent": 10,
+        "question": "Podľa funkcie delíme vektory na:",
+        "pageNumber": 4
+      },
+      {
+        "answers": [
+          "nedeliace sa rakovinové bunky",
+          "len deliace sa bunky",
+          "nedeliace a deliace sa bunky",
+          "len nedeliace sa bunky"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 20,
+        "question": "Retrovírusové vektory pri γ-retrovírusovej génovej terapii môžu infikovať:",
+        "pageNumber": 4
+      },
+      {
+        "answers": [
+          "nedá sa vyrobiť umelo",
+          "štandardná skratka je rDNA",
+          "je DNA, ktorá obsahuje dve alebo viac sekvencií, ktoré sa bežne spolu nevyskytujú",
+          "nemôže vzniknúť v prírode"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "positionPercent": 30,
+        "question": "Rekombinantná DNA:",
+        "pageNumber": 4
+      },
+      {
+        "answers": [
+          "je súbor metód na tvorbu rekombinantnej DNA",
+          "nie je technológiou na tvorbu DNA",
+          "môže meniť DNA v živých organizmoch",
+          "zahŕňa klonovacie techniky"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "positionPercent": 40,
+        "question": "Technológia rekombinantnej DNA:",
+        "pageNumber": 4
+      },
+      {
+        "answers": [
+          "užitočná na produkciu rekombinantných proteínov (napr. inzulín, rastový hormón)",
+          "zakázaná",
+          "zbytočná",
+          "využívaná v génovej terapii"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "positionPercent": 50,
+        "question": "Technológia rekombinantnej DNA je:",
+        "pageNumber": 4
+      },
+      {
+        "answers": [
+          "transdukcie",
+          "sexsekcie",
+          "malformácie",
+          "transformácie"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "positionPercent": 60,
+        "question": "Cudzorodá DNA môže vstúpiť do bakteriálnej bunky pomocou:",
+        "pageNumber": 4
+      },
+      {
+        "answers": [
+          "transdukcie",
+          "fertifikácie",
+          "konjugácie",
+          "malformácie"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "positionPercent": 70,
+        "question": "Cudzorodá DNA môže tiež vstúpiť do bakteriálnej bunky pomocou:",
+        "pageNumber": 4
+      },
+      {
+        "answers": [
+          "transpozónov",
+          "fertifikácie",
+          "elekcie",
+          "transdukcie"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "positionPercent": 80,
+        "question": "Cudzorodá DNA môže vstúpiť do eukaryotickej bunky pomocou:",
+        "pageNumber": 4
+      },
+      {
+        "answers": [
+          "hyperpláziou",
+          "prítomnosťou génu rezistencie na antibiotikum v baktérii",
+          "prítomnosťou plazmidu",
+          "prítomnosťou transpozónu"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "positionPercent": 5,
+        "question": "Bakteriálna rezistencia na antibiotiká môže byť spôsobená:",
+        "pageNumber": 5
+      },
+      {
+        "answers": [
+          "je dvojvláknová kruhová DNA",
+          "je lineárna jednovláknová RNA",
+          "môže baktérii priniesť výhodu",
+          "nachádza sa len v eukaryotických bunkách"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "positionPercent": 15,
+        "question": "Plazmid:",
+        "pageNumber": 5
+      },
+      {
+        "answers": [
+          "závisí od bakteriálneho chromozómu",
+          "je nezávislá od bakteriálneho chromozómu",
+          "prebieha mechanizmom „rolling circle“",
+          "prebieha mechanizmom „rolling stone“"
+        ],
+        "correct": [
+          2,
+          1
+        ],
+        "positionPercent": 25,
+        "question": "Replikácia plazmidu:",
+        "pageNumber": 5
+      },
+      {
+        "answers": [
+          "môže slúžiť ako vektor na prenos génov",
+          "je lineárna jednovláknová RNA",
+          "môže niesť gén rezistencie na antibiotikum",
+          "nachádza sa v eukaryotickom jadre"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "positionPercent": 35,
+        "question": "Plazmid – ďalšie vlastnosti:",
+        "pageNumber": 5
+      },
+      {
+        "answers": [
+          "vznikajú iba umelo v laboratóriu",
+          "sú DNA prvky, ktoré sa môžu pohybovať v rámci genómu alebo medzi genómami",
+          "nie sú prítomné vo všetkých genómoch",
+          "môžu pôsobiť ako prirodzené mutagény"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "positionPercent": 45,
+        "question": "Transpozóny:",
+        "pageNumber": 5
+      },
+      {
+        "answers": [
+          "sú prítomné v každom genóme",
+          "vznikajú iba umelo v laboratóriu",
+          "môžu prenášať gény rezistencie na antibiotiká",
+          "môžu pôsobiť ako prirodzené mutagény"
+        ],
+        "correct": [
+          2,
+          3,
+          0
+        ],
+        "positionPercent": 55,
+        "question": "Transpozóny:",
+        "pageNumber": 5
+      },
+      {
+        "answers": [
+          "medicína",
+          "biotechnológia",
+          "výskum",
+          "oblasť životného prostredia"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "positionPercent": 65,
+        "question": "Aplikácie technológie rekombinantnej DNA:",
+        "pageNumber": 5
+      },
+      {
+        "answers": [
+          "je prenos genetického materiálu medzi dvoma bakteriálnymi bunkami",
+          "prebieha prostredníctvom pilu",
+          "je prenos genetického materiálu medzi dvoma mnohobunkovými eukaryotickými organizmami",
+          "začína sa tým, že recipientná bunka vytvorí pilus smerom k donorskej bunke"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "positionPercent": 75,
+        "question": "Konjugácia:",
+        "pageNumber": 5
+      },
+      {
+        "answers": [
+          "transformácia",
+          "transdukcia",
+          "konjugácia",
+          "translokácia"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "positionPercent": 5,
+        "question": "Ktoré mechanizmy umožňujú prirodzený prenos DNA medzi baktériami?",
+        "pageNumber": 6
+      },
+      {
+        "answers": [
+          "replikácia",
+          "elektroporácia",
+          "lipofekcia",
+          "mikroinjekcia"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "positionPercent": 20,
+        "question": "Ktoré laboratórne metódy sa využívajú na vnesenie cudzej DNA do bunky?",
+        "pageNumber": 6
+      },
+      {
+        "answers": [
+          "plazmidová forma zabraňuje autonómnej replikácii",
+          "epizomálna forma sa replikuje koordinovane s genómom",
+          "integrovaná forma znamená začlenenie DNA do chromozómu",
+          "transientná forma sa stáva trvalou súčasťou genómu"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "positionPercent": 35,
+        "question": "Ktoré tvrdenia o formách cudzej DNA v bunke sú správne?",
+        "pageNumber": 6
+      },
+      {
+        "answers": [
+          "plazmidové",
+          "vírusové (stafylokoky, streptokoky)",
+          "lipidové nanočastice",
+          "ribozómy"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "positionPercent": 55,
+        "question": "Ktoré typy vektorov sa využívajú v génovom inžinierstve a terapii?",
+        "pageNumber": 6
+      },
+      {
+        "answers": [
+          "poskytuje baktériám adaptívnu imunitu proti adenovírusom",
+          "využíva krátke úseky vírusovej DNA uložené v CRISPR lokuse",
+          "proteín Cas9 umožňuje presný rez DNA",
+          "pôvodne ide o mechanizmus translácie"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "positionPercent": 75,
+        "question": "Ktoré tvrdenia o CRISPR–Cas systéme sú správne?",
+        "pageNumber": 6
+      }
+    ],
+    "title": "Kapitola 12"
+  }
+]
