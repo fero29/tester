@@ -1,15 +1,24 @@
 version: '3.8'
 
-# Development docker-compose pre lokálne testovanie
+# Development docker-compose pre lokálne testovanie + Cloudflare Tunnel
 # Spúšťa sa: docker compose -f docker-compose.dev.yml up -d
 
 services:
   web:
     build: .
     ports:
-      - "5000:5000"
+      - "80:5000"
     volumes:
       - .:/app
     environment:
       - FLASK_ENV=development
     restart: always
+
+  cloudflared:
+    image: cloudflare/cloudflared:latest
+    command: tunnel --no-autoupdate run
+    environment:
+      - TUNNEL_TOKEN=${CLOUDFLARE_TUNNEL_TOKEN}
+    restart: unless-stopped
+    depends_on:
+      - web

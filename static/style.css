@@ -187,6 +187,95 @@ button:hover {
     background-color: #F57C00;
 }
 
+.category-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 0 0 24px 0;
+}
+
+.category-tab {
+    background: var(--bg-tertiary);
+    color: var(--text-secondary);
+    border: 1.5px solid transparent;
+    padding: 8px 16px;
+    border-radius: 999px;
+    cursor: pointer;
+    font-size: 0.95em;
+    font-weight: 500;
+    font-family: inherit;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: background 0.2s, color 0.2s, border-color 0.2s, transform 0.1s;
+}
+
+.category-tab:hover {
+    border-color: #4CAF50;
+    color: var(--text-primary);
+    transform: translateY(-1px);
+}
+
+.category-tab.active {
+    background: #4CAF50;
+    color: white;
+    border-color: #4CAF50;
+}
+
+.category-tab.active:hover {
+    background: #43A047;
+    transform: translateY(-1px);
+}
+
+.category-tab-count {
+    background: var(--bg-secondary);
+    color: var(--text-muted);
+    padding: 1px 9px;
+    border-radius: 10px;
+    font-size: 0.85em;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+.category-tab.active .category-tab-count {
+    background: rgba(255, 255, 255, 0.25);
+    color: white;
+}
+
+.test-category {
+    margin-bottom: 32px;
+}
+
+.test-category + .test-category {
+    margin-top: 8px;
+}
+
+.test-category-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 0 0 14px 0;
+    padding: 0 0 8px 0;
+    border-bottom: 2px solid #4CAF50;
+    color: var(--text-primary);
+    font-size: 1.25em;
+    font-weight: 600;
+}
+
+.test-category-name {
+    flex-shrink: 0;
+}
+
+.test-category-count {
+    font-size: 0.7em;
+    font-weight: 500;
+    color: var(--text-secondary);
+    background: var(--bg-tertiary);
+    padding: 2px 10px;
+    border-radius: 12px;
+    line-height: 1.4;
+}
+
 .test-item-wrapper {
     display: flex;
     align-items: stretch;
@@ -526,6 +615,17 @@ button:hover {
     background: var(--bg-secondary);
     border-color: var(--border-color);
     color: var(--text-secondary);
+}
+
+.tf-explanation {
+    margin-top: 12px;
+    padding: 10px 14px;
+    background: var(--bg-secondary);
+    border-left: 4px solid #2196F3;
+    border-radius: 4px;
+    color: var(--text-primary);
+    font-size: 0.95em;
+    line-height: 1.4;
 }
 
 .checkmark {

@@ -24,3 +24,11 @@ __pycache__/
 
 # Environment
 .env
+
+# Local extraction outputs and intermediate files
+tools/out/
+tools/pages/
+
+# Local source PDFs and photos (user-specific data)
+*.pdf
+foto histo/

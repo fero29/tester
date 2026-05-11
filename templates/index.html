@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Tester - Inteligentné testovanie</title>
+    <title>LFUK tester - Inteligentné testovanie</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
     <div class="container">
         <div class="app-header">
-            <h1 onclick="backToList()" style="cursor: pointer;" title="Späť na hlavnú stránku">AI Tester</h1>
-            <span class="version-badge" onclick="showVersionInfo()" style="cursor: pointer;" title="Kliknite pre info">v1.5.5</span>
+            <h1 onclick="backToList()" style="cursor: pointer;" title="Späť na hlavnú stránku">LFUK tester</h1>
+            <span class="version-badge" onclick="showVersionInfo()" style="cursor: pointer;" title="Kliknite pre info">v1.6.5</span>
         </div>
 
         <!-- Zoznam testov -->
@@ -19,7 +19,7 @@
                 <h2>Dostupné testy</h2>
                 <div>
                     <button onclick="showHelpPage()" class="btn-info btn-small">📖 Návod</button>
-                    <button onclick="showAIImportPage()" class="btn-ai-import btn-small">🤖 AI Import</button>
+                    <button onclick="showAIImportPage()" class="btn-ai-import btn-small" style="display: none;">🤖 AI Import</button>
                     <button onclick="startMultipleTests()" class="btn-multi" id="startMultiBtn" style="display: none;">
                         Spustiť vybrané testy
                     </button>
@@ -35,7 +35,30 @@
 
         <!-- Verzia Info -->
         <div id="versionPage" style="display: none;">
-            <h2>ℹ️ AI Tester v1.5.5</h2>
+            <h2>ℹ️ LFUK tester v1.6.5</h2>
+
+            <div class="help-section">
+                <h3>🆕 Novinky v1.6.5</h3>
+                <ul>
+                    <li>📸 <strong>Nový test "histo zápočet foto"</strong> — 28 nových otázok extrahovaných cez Claude Vision zo 14 fotiek Moodle testu.</li>
+                </ul>
+            </div>
+
+            <div class="help-section">
+                <h3>🆕 Novinky v1.6.4</h3>
+                <ul>
+                    <li>📖 <strong>Aktualizovaný návod</strong> — pridané sekcie o kategóriách, slovíčkových testoch, tém a cache. Aktualizované postupy pre testovanie a AI import.</li>
+                    <li>🏷️ Premenované z "AI Tester" na "LFUK tester".</li>
+                </ul>
+            </div>
+
+            <div class="help-section">
+                <h3>🆕 Novinky v1.6.2</h3>
+                <ul>
+                    <li>📂 <strong>Kategórie testov + filter</strong> - Zoznam testov je rozdelený na kategórie (Biológia, Latinčina, Histológia, Iné). Hore sú filter tlačidlá - klikni napr. <em>Histológia</em> a uvidíš len histologické testy. <em>Všetky</em> ukáže všetko zoskupené. Výber sa pamätá medzi návštevami.</li>
+                    <li>🏷️ Kategória sa určuje automaticky podľa názvu súboru, alebo ju môžeš nastaviť explicitne v JSON poli <code>category</code>.</li>
+                </ul>
+            </div>
 
             <div class="help-section">
                 <h3>🆕 Novinky v1.5.5</h3>
@@ -360,7 +383,7 @@
                 <ol>
                     <li>Odfotiť alebo nahrať fotku s otázkami</li>
                     <li>Obrázok sa automaticky predspracuje (ostrosť, kontrast, jas)</li>
-                    <li>AI (GPT-4o) analyzuje obrázok a rozpozná:
+                    <li>AI (Claude Sonnet 4.6) analyzuje obrázok a rozpozná:
                         <ul>
                             <li>Text otázok a odpovedí</li>
                             <li>Zakrúžkované odpovede</li>
@@ -391,57 +414,86 @@
             <h2>📖 Návod na použitie</h2>
 
             <div class="help-section">
-                <h3>🤖 Nahranie testov cez AI</h3>
-                <ol>
-                    <li>Kliknite <strong>"🤖 AI Import"</strong></li>
-                    <li>Nahrajte <strong>fotografiu otázok</strong> (môžete aj viac strán naraz)</li>
-                    <li>Voliteľne zapnite <strong>"🔬 Pokročilé predspracovanie"</strong> pre lepšie rozpoznávanie špatných fotiek</li>
-                    <li>Kliknite <strong>"✨ Spracovať s AI"</strong> (trvá ~ 1 minúta na stránku)</li>
-                    <li><strong>⚠️ DÔLEŽITÉ:</strong> Skontrolujte <strong>správne odpovede</strong> pri každej otázke - AI ich nevie určiť na 100%</li>
-                    <li>Zadajte <strong>názov testu</strong> a vyberte či vytvoriť nový alebo pridať k existujúcemu</li>
-                    <li>Kliknite <strong>"💾 Uložiť test"</strong></li>
-                </ol>
-                <p><strong>💡 Tipy:</strong></p>
-                <ul style="font-size: 0.9em; color: #666;">
-                    <li>Robte ostré fotky s dobrým osvetlením</li>
-                    <li>Pri viacerých stranách sa každá analyzuje samostatne</li>
-                    <li>Otázky zo strán sa automaticky zoskupia</li>
+                <h3>📂 Zoznam testov a kategórie</h3>
+                <ul>
+                    <li>Hore sú <strong>filter tlačidlá</strong>: <em>Všetky</em>, <em>Biológia</em>, <em>Latinčina</em>, <em>Histológia</em> (a prípadne <em>Iné</em>)</li>
+                    <li>Klikni na konkrétnu kategóriu → uvidíš len jej testy. <em>Všetky</em> zobrazí všetko zoskupené pod nadpismi.</li>
+                    <li>Výber kategórie sa pamätá medzi návštevami</li>
+                    <li>Kategória sa určuje automaticky z názvu súboru. Ak chceš zaradiť test do inej kategórie, pridaj do JSON pole <code>"category": "Anatómia"</code> a daný názov sa objaví ako nový tab.</li>
                 </ul>
             </div>
 
             <div class="help-section">
-                <h3>✏️ Úprava existujúcich testov</h3>
+                <h3>🎯 Spustenie testu</h3>
                 <ol>
-                    <li>V zozname testov kliknite na <strong>"✏️ Upraviť"</strong> pri teste</li>
-                    <li>Upravte <strong>otázky, odpovede alebo správne odpovede</strong></li>
-                    <li>Zmeny sa <strong>automaticky ukladajú</strong></li>
-                    <li>Kliknite <strong>"Späť"</strong> pre návrat na zoznam</li>
-                </ol>
-            </div>
-
-            <div class="help-section">
-                <h3>🎯 Testovanie</h3>
-                <ol>
-                    <li><strong>Kliknite na test</strong> v zozname</li>
-                    <li><strong>Nastavte parametre:</strong>
+                    <li><strong>Klikni na test</strong> v zozname</li>
+                    <li><strong>Nastav parametre:</strong>
                         <ul>
                             <li><strong>Časový limit:</strong> 20/30/60 min alebo bez limitu</li>
-                            <li><strong>Rozsah:</strong> Napr. 1-50 (časť testu)</li>
-                            <li><strong>Poradie:</strong> Po poradí / Zamixované</li>
-                            <li><strong>Odpovede:</strong> Po každej otázke / Na konci / Opakovať nesprávne</li>
+                            <li><strong>Rozsah otázok:</strong> napr. 1–50, alebo náhodný výber N otázok z testu</li>
+                            <li><strong>Poradie:</strong> po poradí / zamixované (pri zamixovaní sa miešajú aj odpovede)</li>
+                            <li><strong>Odpovede:</strong> po každej otázke / na konci / opakovať nesprávne</li>
                         </ul>
                     </li>
-                    <li><strong>Spustite:</strong> "Spustiť test" (hodnotenie) alebo "Režim učenia" (bez tlaku)</li>
-                    <li>Po teste vidíte <strong>výsledky a štatistiky</strong></li>
+                    <li><strong>Spustiť test</strong> (s hodnotením) alebo <strong>Režim učenia</strong> (bez tlaku, vidíš správne odpovede pri každej otázke)</li>
+                    <li>Po teste sa zobrazia <strong>výsledky a štatistiky</strong></li>
                 </ol>
             </div>
 
             <div class="help-section">
-                <h3>⭐ Ďalšie funkcie</h3>
+                <h3>🔄 Viac testov naraz</h3>
                 <ul>
-                    <li><strong>Viacero testov naraz:</strong> Zaškrtnite checkboxy → "Spustiť vybrané testy"</li>
-                    <li><strong>Štatistiky:</strong> Počet absolvovaní, posledný výsledok a priemer pri každom teste</li>
-                    <li><strong>Režim učenia:</strong> Všetky otázky so správnymi odpoveďami bez hodnotenia</li>
+                    <li>V tabe <em>Všetky</em> zaškrtni checkboxy pri viacerých testoch</li>
+                    <li>Hore sa objaví tlačidlo <strong>"Spustiť vybrané testy"</strong></li>
+                    <li>Otázky zo všetkých vybraných testov sa zlúčia do jedného behu</li>
+                </ul>
+            </div>
+
+            <div class="help-section">
+                <h3>🔤 Slovíčkové testy (latinčina)</h3>
+                <ul>
+                    <li>Pri slovíčkových testoch zadávaš <strong>preklad</strong>, nie výber zo 4 možností</li>
+                    <li>Voliteľne sa testuje aj <strong>genitívna koncovka</strong> a <strong>rod</strong> (m/f/n)</li>
+                    <li>Smer prekladu: <strong>LAT → SVK</strong> alebo <strong>SVK → LAT</strong></li>
+                    <li>Tolerantné porovnanie: viaceré preklady, čiarky, diakritika — akceptuje sa flexibilne</li>
+                    <li>💡 <strong>Pomoc</strong> — postupné odhaľovanie písmen (počet → prvé → posledné → náhodné)</li>
+                </ul>
+            </div>
+
+            <div class="help-section">
+                <h3>🤖 Nahranie testov cez AI</h3>
+                <ol>
+                    <li>Klikni <strong>"🤖 AI Import"</strong> → vyber typ (otázky s odpoveďami / latinské slovíčka)</li>
+                    <li>Nahraj <strong>fotografiu</strong> (môžeš aj viac strán naraz)</li>
+                    <li>Voliteľne zapni <strong>"🔬 Pokročilé predspracovanie"</strong> pre slabé fotky (čiernobiele scany s nízkym kontrastom)</li>
+                    <li>Klikni <strong>"✨ Spracovať s AI"</strong> (~ 1 minúta na stránku)</li>
+                    <li><strong>⚠️ Skontroluj správne odpovede</strong> — AI ich neoznačuje vždy správne</li>
+                    <li>Zadaj <strong>názov testu</strong>, vyber či vytvoriť nový alebo pridať k existujúcemu, ulož</li>
+                </ol>
+                <p><strong>💡 Tipy pre lepšie rozpoznávanie:</strong></p>
+                <ul style="font-size: 0.9em; color: var(--text-secondary);">
+                    <li>Ostré fotky s dobrým osvetlením</li>
+                    <li>Pri viacerých stranách sa každá analyzuje samostatne, otázky sa potom zoskupia</li>
+                </ul>
+            </div>
+
+            <div class="help-section">
+                <h3>✏️ Úprava testov</h3>
+                <ol>
+                    <li>Pri teste klikni <strong>"✏️ Upraviť"</strong></li>
+                    <li>Môžeš meniť <strong>otázky, odpovede aj správnu odpoveď</strong> (alebo viaceré správne)</li>
+                    <li>Premenovanie testu zmení aj názov súboru na disku (ak nový názov nekoliduje)</li>
+                    <li>Zmeny sa <strong>ukladajú automaticky</strong></li>
+                </ol>
+            </div>
+
+            <div class="help-section">
+                <h3>📊 Štatistiky a ďalšie</h3>
+                <ul>
+                    <li><strong>Štatistiky pri každom teste:</strong> počet absolvovaní, posledný výsledok, priemerná úspešnosť (zelená/oranžová/červená podľa skóre)</li>
+                    <li><strong>Vymazať štatistiky</strong> — tlačidlo hore vpravo. Zmaže históriu výsledkov, testy ostanú.</li>
+                    <li><strong>Téma:</strong> ikonka vpravo dole prepína svetlú/tmavú (auto-detekcia systémovej preferencie)</li>
+                    <li><strong>Cache:</strong> testy sa cachujú v prehliadači (IndexedDB) — opakované načítanie je okamžité, server kontaktuje len pri zmene súboru</li>
                 </ul>
             </div>
 
@@ -992,6 +1044,6 @@
         <span class="icon-moon">🌙</span>
     </button>
 
-    <script src="{{ url_for('static', filename='app.js') }}?v=1.5.5"></script>
+    <script src="{{ url_for('static', filename='app.js') }}?v=1.5.6"></script>
 </body>
 </html>

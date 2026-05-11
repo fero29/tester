@@ -1,18 +1,17 @@
 #!/usr/bin/env python3
 import base64
 import json
-from openai import OpenAI
+import anthropic
 from dotenv import load_dotenv
-import os
 
 load_dotenv()
-client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
+client = anthropic.Anthropic()
 
 # Načítať obrázok
 with open('/home/fmasiar/20251020_223506.jpg', 'rb') as f:
     image_data = base64.b64encode(f.read()).decode('utf-8')
 
-print('Posielam request do OpenAI...')
+print('Posielam request do Claude...')
 
 prompt = """Analyzuj tento obrázok a extrahuj z neho všetky otázky s možnými odpoveďami.
 
@@ -38,27 +37,29 @@ DÔLEŽITÉ:
 
 Analyzuj obrázok a vráť JSON:"""
 
-response = client.chat.completions.create(
-    model='gpt-4o',
+response = client.messages.create(
+    model='claude-sonnet-4-6',
+    max_tokens=8192,
+    temperature=0.1,
     messages=[
         {
             'role': 'user',
             'content': [
-                {'type': 'text', 'text': prompt},
                 {
-                    'type': 'image_url',
-                    'image_url': {
-                        'url': f'data:image/jpeg;base64,{image_data}'
+                    'type': 'image',
+                    'source': {
+                        'type': 'base64',
+                        'media_type': 'image/jpeg',
+                        'data': image_data
                     }
-                }
+                },
+                {'type': 'text', 'text': prompt}
             ]
         }
-    ],
-    max_tokens=4096,
-    temperature=0.1
+    ]
 )
 
-ai_response = response.choices[0].message.content.strip()
+ai_response = next(b.text for b in response.content if b.type == 'text').strip()
 print('AI odpoveď (prvých 500 znakov):')
 print(ai_response[:500])
 print('...\n')

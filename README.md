@@ -1,10 +1,10 @@
-# AI Tester v1.3.27
+# LFUK tester v1.6.5
 
 Inteligentná webová aplikácia na vytváranie a absolvovanie testov s podporou AI importu otázok z fotiek.
 
 ## 🎯 Hlavné funkcie
 
-- **🤖 AI Import z fotky** - Odfotíte otázky a AI ich automaticky rozpozná (OpenAI GPT-4 Vision)
+- **🤖 AI Import z fotky** - Odfotíte otázky a AI ich automaticky rozpozná (Claude Sonnet 4.6 vision)
 - **📸 Spracovanie viacerých fotiek** - Nahrajte až 5 fotiek naraz, automaticky sa spoja
 - **🔄 Rotácia fotiek** - Jednoduché otočenie fotiek pred spracovaním
 - **🔬 Pokročilé predspracovanie** - OpenCV algoritmy pre lepšie rozpoznávanie
@@ -85,7 +85,7 @@ Aplikácia bude dostupná na: http://localhost:5000
 6. Skontrolujte a upravte rozpoznané otázky
 7. Uložte test
 
-**Tip:** Viacero fotiek sa automaticky spoja do jednej a spracujú naraz. Fotky sa prispôsobia OpenAI API limitom (max 2048px).
+**Tip:** Viacero fotiek sa automaticky spoja do jednej a spracujú naraz. Fotky sa prispôsobia API limitom (max 2048px).
 
 ### 📁 Import testov zo súborov
 

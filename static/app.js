@@ -1,4 +1,4 @@
-console.log('AI Tester v1.5.5 loaded - Flexible translation matching');
+console.log('LFUK tester v1.6.5 loaded - Claude Sonnet 4.6 vision');
 let tests = [];
 let currentTest = null;
 let currentQuestionIndex = 0;
@@ -286,6 +286,25 @@ async function fetchAllTests() {
     }
 }
 
+const CATEGORY_ORDER = ['Biológia', 'Latinčina', 'Histológia', 'Iné'];
+const ALL_CATEGORIES = 'Všetky';
+let selectedCategory = localStorage.getItem('selectedCategory') || ALL_CATEGORIES;
+
+function categorizeTest(test) {
+    if (test.category) return test.category;
+    const ref = ((test.filename || '') + ' ' + (test.title || '')).toLowerCase();
+    if (/(^|\s|\/)histo/.test(ref) || ref.includes('histológia')) return 'Histológia';
+    if (/(^|\s|\/)lat(\b|[\s\-_0-9])/.test(ref) || ref.includes('latin')) return 'Latinčina';
+    if (/(^|\s|\/)bio/.test(ref) || ref.includes('kapitola')) return 'Biológia';
+    return 'Iné';
+}
+
+function setSelectedCategory(cat) {
+    selectedCategory = cat;
+    localStorage.setItem('selectedCategory', cat);
+    displayTestList();
+}
+
 function displayTestList() {
     const testList = document.getElementById('testList');
 
@@ -294,49 +313,115 @@ function displayTestList() {
         return;
     }
 
-    testList.innerHTML = tests.map((test, index) => {
-        const stats = getTestStatistics(test.title || 'Test ' + (index + 1));
-        const filename = test.filename || '';
+    const groups = {};
+    tests.forEach((test, index) => {
+        const cat = categorizeTest(test);
+        (groups[cat] = groups[cat] || []).push({ test, index });
+    });
 
-        return `
-            <div class="test-item-wrapper">
-                <input type="checkbox" class="test-checkbox" id="test-${index}"
-                       onchange="updateMultiTestButton()">
-                <div class="test-item" onclick="showTestSettings(${index})">
-                    <div class="test-main-info">
-                        <h3>${test.title || 'Test ' + (index + 1)}</h3>
-                        <p>${test.description || ''}</p>
-                        <p><strong>${test.testType === 'vocabulary'
-                            ? (test.vocabulary ? test.vocabulary.length : 0) + ' slovíčok'
-                            : (test.questions ? test.questions.length : 0) + ' otázok'}</strong></p>
-                    </div>
-                    <div class="test-stats">
-                        ${stats.count > 0 ? `
-                            <div class="stat-badge">
-                                <span class="stat-label">Absolvované:</span>
-                                <span class="stat-value">${stats.count}x</span>
-                            </div>
-                            <div class="stat-badge">
-                                <span class="stat-label">Posledný:</span>
-                                <span class="stat-value ${stats.lastPercentage >= 75 ? 'good' : stats.lastPercentage >= 50 ? 'medium' : 'bad'}">
-                                    ${stats.lastPercentage}%
-                                </span>
-                            </div>
-                            <div class="stat-badge">
-                                <span class="stat-label">Priemer:</span>
-                                <span class="stat-value ${stats.avgPercentage >= 75 ? 'good' : stats.avgPercentage >= 50 ? 'medium' : 'bad'}">
-                                    ${stats.avgPercentage}%
-                                </span>
-                            </div>
-                        ` : '<div class="no-stats">Zatiaľ neabsolvované</div>'}
-                    </div>
-                </div>
-                <button class="btn-edit" onclick="event.stopPropagation(); editTest('${filename}')" title="Upraviť test">
-                    ✏️ Upraviť
+    const presentCats = [
+        ...CATEGORY_ORDER.filter(c => c in groups),
+        ...Object.keys(groups).filter(c => !CATEGORY_ORDER.includes(c)).sort(),
+    ];
+
+    if (selectedCategory !== ALL_CATEGORIES && !presentCats.includes(selectedCategory)) {
+        selectedCategory = ALL_CATEGORIES;
+        localStorage.setItem('selectedCategory', selectedCategory);
+    }
+
+    const tabs = [
+        { name: ALL_CATEGORIES, count: tests.length },
+        ...presentCats.map(c => ({ name: c, count: groups[c].length })),
+    ];
+
+    const escHtml = (s) => String(s)
+        .replace(/&/g, '&amp;').replace(/"/g, '&quot;')
+        .replace(/</g, '&lt;').replace(/>/g, '&gt;');
+
+    const tabsHtml = `
+        <div class="category-tabs" id="categoryTabs">
+            ${tabs.map(t => `
+                <button type="button"
+                        class="category-tab ${selectedCategory === t.name ? 'active' : ''}"
+                        data-category="${escHtml(t.name)}">
+                    <span class="category-tab-name">${escHtml(t.name)}</span>
+                    <span class="category-tab-count">${t.count}</span>
                 </button>
+            `).join('')}
+        </div>
+    `;
+
+    let body;
+    if (selectedCategory === ALL_CATEGORIES) {
+        body = presentCats.map(cat => `
+            <section class="test-category">
+                <h2 class="test-category-header">
+                    <span class="test-category-name">${escHtml(cat)}</span>
+                    <span class="test-category-count">${groups[cat].length}</span>
+                </h2>
+                ${groups[cat].map(({ test, index }) => renderTestListItem(test, index)).join('')}
+            </section>
+        `).join('');
+    } else {
+        body = (groups[selectedCategory] || [])
+            .map(({ test, index }) => renderTestListItem(test, index))
+            .join('');
+    }
+
+    testList.innerHTML = tabsHtml + body;
+
+    const tabsEl = document.getElementById('categoryTabs');
+    if (tabsEl) {
+        tabsEl.addEventListener('click', (e) => {
+            const btn = e.target.closest('.category-tab');
+            if (!btn) return;
+            setSelectedCategory(btn.dataset.category);
+        });
+    }
+}
+
+function renderTestListItem(test, index) {
+    const stats = getTestStatistics(test.title || 'Test ' + (index + 1));
+    const filename = test.filename || '';
+
+    return `
+        <div class="test-item-wrapper">
+            <input type="checkbox" class="test-checkbox" id="test-${index}"
+                   onchange="updateMultiTestButton()">
+            <div class="test-item" onclick="showTestSettings(${index})">
+                <div class="test-main-info">
+                    <h3>${test.title || 'Test ' + (index + 1)}</h3>
+                    <p>${test.description || ''}</p>
+                    <p><strong>${test.testType === 'vocabulary'
+                        ? (test.vocabulary ? test.vocabulary.length : 0) + ' slovíčok'
+                        : (test.questions ? test.questions.length : 0) + ' otázok'}</strong></p>
+                </div>
+                <div class="test-stats">
+                    ${stats.count > 0 ? `
+                        <div class="stat-badge">
+                            <span class="stat-label">Absolvované:</span>
+                            <span class="stat-value">${stats.count}x</span>
+                        </div>
+                        <div class="stat-badge">
+                            <span class="stat-label">Posledný:</span>
+                            <span class="stat-value ${stats.lastPercentage >= 75 ? 'good' : stats.lastPercentage >= 50 ? 'medium' : 'bad'}">
+                                ${stats.lastPercentage}%
+                            </span>
+                        </div>
+                        <div class="stat-badge">
+                            <span class="stat-label">Priemer:</span>
+                            <span class="stat-value ${stats.avgPercentage >= 75 ? 'good' : stats.avgPercentage >= 50 ? 'medium' : 'bad'}">
+                                ${stats.avgPercentage}%
+                            </span>
+                        </div>
+                    ` : '<div class="no-stats">Zatiaľ neabsolvované</div>'}
+                </div>
             </div>
-        `;
-    }).join('');
+            <button class="btn-edit" onclick="event.stopPropagation(); editTest('${filename}')" title="Upraviť test">
+                ✏️ Upraviť
+            </button>
+        </div>
+    `;
 }
 
 function getTestStatistics(testName) {
@@ -697,6 +782,53 @@ function startTestWithSettings() {
     showQuestion();
 }
 
+// Detekuje pravda/nepravda typ otázky.
+// TF otázka má aspoň 1 odpoveď začínajúcu "pravda" A aspoň 1 začínajúcu "nepravda".
+// Pre TF renderujeme iba 2 tlačidlá Pravda/Nepravda a porovnávame cez prefix.
+// Distraktory s AI-vymyslenými vysvetleniami sa pri 2-button UI vôbec nezobrazia.
+// Source of truth: originálny Quizlet PDF (každá flashcard má len 1 správnu odpoveď).
+function isTFQuestion(question) {
+    const answers = (question.answers || []).map(a => (a || '').trim().toLowerCase());
+    const hasPravda = answers.some(a => a === 'pravda' || a.startsWith('pravda ') || a.startsWith('pravda('));
+    const hasNepravda = answers.some(a => a === 'nepravda' || a.startsWith('nepravda ') || a.startsWith('nepravda('));
+    return hasPravda && hasNepravda;
+}
+
+// Vráti 'pravda' alebo 'nepravda' podľa polarity textu na danom indexe; null ak ani jedno.
+function tfPolarityAt(question, idx) {
+    const t = (question.answers[idx] || '').trim().toLowerCase();
+    if (t === 'pravda' || t.startsWith('pravda ') || t.startsWith('pravda(')) return 'pravda';
+    if (t === 'nepravda' || t.startsWith('nepravda ') || t.startsWith('nepravda(')) return 'nepravda';
+    return null;
+}
+
+// Polarita správnej odpovede TF otázky. Berie prvý correct index a jeho polaritu.
+function tfCorrectPolarity(question) {
+    const correctList = Array.isArray(question.correct) ? question.correct : [question.correct];
+    if (!correctList.length) return null;
+    return tfPolarityAt(question, correctList[0]);
+}
+
+// Extrahuje vysvetlenie zo zátvorky správnej odpovede (napr. "nepravda (nemajú jadro)" -> "nemajú jadro").
+function tfExplanation(answerText) {
+    const m = (answerText || '').match(/\(([^)]*)\)/);
+    return m ? m[1].trim() : null;
+}
+
+// Či je odpoveď na danom indexe správna.
+// Pre TF: porovná polaritu (pravda/nepravda) — distraktory s AI-vymyslenými vysvetleniami sa
+//   pri 2-button TF UI nikdy nezobrazia, takže porovnávame len polaritu.
+// Pre klasické MC: presné porovnanie indexov.
+function isQuestionAnswerCorrect(question, userIndex) {
+    if (isTFQuestion(question)) {
+        const userPol = tfPolarityAt(question, userIndex);
+        const correctPol = tfCorrectPolarity(question);
+        return userPol !== null && userPol === correctPol;
+    }
+    const correctList = Array.isArray(question.correct) ? question.correct : [question.correct];
+    return correctList.includes(userIndex);
+}
+
 function showLearnMode() {
     const test = tests[selectedTestIndex];
 
@@ -718,26 +850,41 @@ function showLearnMode() {
             questionHint = '<p class="multiple-note">Viacero správnych odpovedí</p>';
         }
 
+        // TF otázky: 2 tlačidlá Pravda/Nepravda + vysvetlenie zo zátvorky správnej odpovede.
+        const isTF = !isNoCorrect && isTFQuestion(question);
+        let answersBlock;
+        if (isTF) {
+            const correctPol = tfCorrectPolarity(question);
+            const correctList = Array.isArray(question.correct) ? question.correct : [question.correct];
+            const explanation = tfExplanation(question.answers[correctList[0]]);
+            const renderRow = (label, polarity) => {
+                const isCorrect = correctPol === polarity;
+                return `<div class="learn-answer ${isCorrect ? 'learn-answer-correct' : 'learn-answer-wrong'}">
+                    ${label}${isCorrect ? ' <span class="checkmark">✓ SPRÁVNE</span>' : ''}
+                </div>`;
+            };
+            answersBlock = renderRow('Pravda', 'pravda') + renderRow('Nepravda', 'nepravda');
+            if (explanation) {
+                answersBlock += `<div class="tf-explanation"><strong>Vysvetlenie:</strong> ${explanation}</div>`;
+            }
+        } else {
+            answersBlock = question.answers.map((answer, aIndex) => {
+                const isCorrect = isNoCorrect ? false : isQuestionAnswerCorrect(question, aIndex);
+                return `
+                    <div class="learn-answer ${isCorrect ? 'learn-answer-correct' : 'learn-answer-wrong'}">
+                        ${answer}
+                        ${isCorrect ? ' <span class="checkmark">✓ SPRÁVNE</span>' : ''}
+                    </div>
+                `;
+            }).join('');
+        }
+
         return `
             <div class="learn-question">
                 <h3>Otázka ${qIndex + 1}: ${question.question}</h3>
                 ${questionHint}
                 <div class="learn-answers">
-                    ${question.answers.map((answer, aIndex) => {
-                        // Pre isNoCorrect nie je žiadna odpoveď správna
-                        const isCorrect = isNoCorrect
-                            ? false
-                            : (isMultiple
-                                ? question.correct.includes(aIndex)
-                                : (Array.isArray(question.correct) ? question.correct.includes(aIndex) : question.correct === aIndex));
-
-                        return `
-                            <div class="learn-answer ${isCorrect ? 'learn-answer-correct' : 'learn-answer-wrong'}">
-                                ${answer}
-                                ${isCorrect ? ' <span class="checkmark">✓ SPRÁVNE</span>' : ''}
-                            </div>
-                        `;
-                    }).join('')}
+                    ${answersBlock}
                 </div>
             </div>
         `;
@@ -860,62 +1007,100 @@ function showQuestion() {
         questionHint = '<p class="multiple-note">Viacero správnych odpovedí</p>';
     }
 
-    let questionHTML = `
-        <div class="question">
-            <h3>Otázka ${currentQuestionIndex + 1}: ${question.question}</h3>
-            ${questionHint}
-            ${question.answers.map((answer, index) => {
-                const isSelected = userAnswer.includes(index);
-                // Handle both old (number) and new (array) format
-                // Pre isNoCorrect nie je žiadna odpoveď správna
-                const isCorrect = isNoCorrect
-                    ? false
-                    : (isMultiple
-                        ? question.correct.includes(index)
-                        : (Array.isArray(question.correct) ? question.correct.includes(index) : question.correct === index));
+    // TF (pravda/nepravda) otázky majú vlastné 2-button UI — zobrazia sa iba dve tlačidlá.
+    // Pôvodné 4-voľbové údaje obsahujú AI-generated distraktory ktoré pri 2-button UI nikdy nezobrazujeme.
+    const isTF = !isNoCorrect && isTFQuestion(question);
 
-                let cssClass = '';
-                let icon = '';
+    let answersHTML;
+    if (isTF) {
+        const pravdaIdx = question.answers.findIndex((_, i) => tfPolarityAt(question, i) === 'pravda');
+        const nepravdaIdx = question.answers.findIndex((_, i) => tfPolarityAt(question, i) === 'nepravda');
+        const correctPol = tfCorrectPolarity(question);
+        const userPol = userAnswer.length > 0 ? tfPolarityAt(question, userAnswer[0]) : null;
 
-                if (showFeedback) {
-                    // Zobraz feedback
-                    if (isNoCorrect) {
-                        // Žiadna správna odpoveď - všetky vybrané sú zlé
-                        if (isSelected) {
-                            cssClass = 'answer-wrong-selected';
-                            icon = ' ✗';
-                        } else {
-                            cssClass = 'answer-neutral';
-                        }
-                    } else if (isCorrect && isSelected) {
-                        cssClass = 'answer-correct-selected';
-                        icon = ' ✓';
-                    } else if (isCorrect && !isSelected) {
-                        cssClass = 'answer-correct-missed';
-                        icon = ' ✓ (správne)';
-                    } else if (!isCorrect && isSelected) {
+        const renderTFButton = (label, polarity, idx) => {
+            const isSelected = userPol === polarity;
+            const isCorrect = correctPol === polarity;
+            let cssClass = '';
+            let icon = '';
+            if (showFeedback) {
+                if (isCorrect && isSelected) { cssClass = 'answer-correct-selected'; icon = ' ✓'; }
+                else if (isCorrect && !isSelected) { cssClass = 'answer-correct-missed'; icon = ' ✓ (správne)'; }
+                else if (!isCorrect && isSelected) { cssClass = 'answer-wrong-selected'; icon = ' ✗'; }
+                else { cssClass = 'answer-neutral'; }
+                return `<div class="answer ${cssClass}">${label}${icon}</div>`;
+            }
+            return `<div class="answer ${isSelected ? 'selected' : ''}" onclick="selectAnswer(${idx})">
+                <span class="answer-icon">${isSelected ? '☑' : '☐'}</span> ${label}
+            </div>`;
+        };
+
+        let tfHTML = renderTFButton('Pravda', 'pravda', pravdaIdx) + renderTFButton('Nepravda', 'nepravda', nepravdaIdx);
+
+        // Vysvetlenie (text v zátvorke správnej odpovede) zobraz po odpovedi.
+        if (showFeedback) {
+            const correctList = Array.isArray(question.correct) ? question.correct : [question.correct];
+            const explanation = tfExplanation(question.answers[correctList[0]]);
+            if (explanation) {
+                tfHTML += `<div class="tf-explanation"><strong>Vysvetlenie:</strong> ${explanation}</div>`;
+            }
+        }
+        answersHTML = tfHTML;
+    } else {
+        answersHTML = question.answers.map((answer, index) => {
+            const isSelected = userAnswer.includes(index);
+            // Pre isNoCorrect nie je žiadna odpoveď správna
+            const isCorrect = isNoCorrect ? false : isQuestionAnswerCorrect(question, index);
+
+            let cssClass = '';
+            let icon = '';
+
+            if (showFeedback) {
+                // Zobraz feedback
+                if (isNoCorrect) {
+                    // Žiadna správna odpoveď - všetky vybrané sú zlé
+                    if (isSelected) {
                         cssClass = 'answer-wrong-selected';
                         icon = ' ✗';
                     } else {
                         cssClass = 'answer-neutral';
                     }
-
-                    return `
-                        <div class="answer ${cssClass}">
-                            ${answer}${icon}
-                        </div>
-                    `;
+                } else if (isCorrect && isSelected) {
+                    cssClass = 'answer-correct-selected';
+                    icon = ' ✓';
+                } else if (isCorrect && !isSelected) {
+                    cssClass = 'answer-correct-missed';
+                    icon = ' ✓ (správne)';
+                } else if (!isCorrect && isSelected) {
+                    cssClass = 'answer-wrong-selected';
+                    icon = ' ✗';
                 } else {
-                    // Normálne zobrazenie s možnosťou klikať
-                    const inputIcon = isSelected ? '☑' : '☐';  // Vždy checkbox
-
-                    return `
-                        <div class="answer ${isSelected ? 'selected' : ''}" onclick="selectAnswer(${index})">
-                            <span class="answer-icon">${inputIcon}</span> ${answer}
-                        </div>
-                    `;
+                    cssClass = 'answer-neutral';
                 }
-            }).join('')}
+
+                return `
+                    <div class="answer ${cssClass}">
+                        ${answer}${icon}
+                    </div>
+                `;
+            } else {
+                // Normálne zobrazenie s možnosťou klikať
+                const inputIcon = isSelected ? '☑' : '☐';  // Vždy checkbox
+
+                return `
+                    <div class="answer ${isSelected ? 'selected' : ''}" onclick="selectAnswer(${index})">
+                        <span class="answer-icon">${inputIcon}</span> ${answer}
+                    </div>
+                `;
+            }
+        }).join('');
+    }
+
+    let questionHTML = `
+        <div class="question">
+            <h3>Otázka ${currentQuestionIndex + 1}: ${question.question}</h3>
+            ${questionHint}
+            ${answersHTML}
         </div>
     `;
 
@@ -932,9 +1117,17 @@ function showQuestion() {
 }
 
 function selectAnswer(answerIndex) {
+    const question = currentTest.questions[currentQuestionIndex];
     const currentAnswers = userAnswers[currentQuestionIndex];
 
-    // Vždy checkbox správanie (toggle) - dá sa vybrať viacero
+    // TF otázka má radio správanie (len jeden výber): vyhoď doterajší výber a nastav nový.
+    if (isTFQuestion(question)) {
+        userAnswers[currentQuestionIndex] = [answerIndex];
+        showQuestion();
+        return;
+    }
+
+    // Klasické checkbox správanie (toggle) - dá sa vybrať viacero
     const idx = currentAnswers.indexOf(answerIndex);
     if (idx > -1) {
         currentAnswers.splice(idx, 1);
@@ -1008,8 +1201,7 @@ function submitTest() {
                 const sortedCorrect = [...question.correct].sort();
                 correct = JSON.stringify(sortedUser) === JSON.stringify(sortedCorrect);
             } else {
-                const correctAnswer = Array.isArray(question.correct) ? question.correct[0] : question.correct;
-                correct = userAnswer.length === 1 && userAnswer[0] === correctAnswer;
+                correct = userAnswer.length === 1 && isQuestionAnswerCorrect(question, userAnswer[0]);
             }
 
             if (correct) {
@@ -1106,7 +1298,7 @@ function showResults() {
         } else {
             // Jedna správna odpoveď - correct môže byť číslo alebo array s 1 prvkom
             const correctAnswer = Array.isArray(question.correct) ? question.correct[0] : question.correct;
-            correct = userAnswer.length === 1 && userAnswer[0] === correctAnswer;
+            correct = userAnswer.length === 1 && isQuestionAnswerCorrect(question, userAnswer[0]);
 
             userAnswerText = userAnswer && userAnswer.length > 0
                 ? userAnswer.map(i => question.answers[i]).join(', ')
@@ -1173,8 +1365,7 @@ function showResults() {
                 const sortedCorrect = [...question.correct].sort();
                 correct = JSON.stringify(sortedUser) === JSON.stringify(sortedCorrect);
             } else {
-                const correctAnswer = Array.isArray(question.correct) ? question.correct[0] : question.correct;
-                correct = userAnswer && userAnswer.length === 1 && userAnswer[0] === correctAnswer;
+                correct = userAnswer && userAnswer.length === 1 && isQuestionAnswerCorrect(question, userAnswer[0]);
             }
             if (correct) displayCorrectCount++;
         });
@@ -1207,8 +1398,7 @@ function showResults() {
                 const sortedCorrect = [...question.correct].sort();
                 questionCorrect = JSON.stringify(sortedUser) === JSON.stringify(sortedCorrect);
             } else {
-                const correctAnswer = Array.isArray(question.correct) ? question.correct[0] : question.correct;
-                questionCorrect = userAnswer.length === 1 && userAnswer[0] === correctAnswer;
+                questionCorrect = userAnswer.length === 1 && isQuestionAnswerCorrect(question, userAnswer[0]);
             }
 
             // Hint pre typ otázky
@@ -1219,50 +1409,59 @@ function showResults() {
                 questionHint = '<p class="multiple-note">Viacero správnych odpovedí</p>';
             }
 
+            // TF výsledky: 2 riadky Pravda/Nepravda + vysvetlenie zo zátvorky.
+            const isTF = !isNoCorrect && isTFQuestion(question);
+            let resultAnswersBlock;
+            if (isTF) {
+                const correctPol = tfCorrectPolarity(question);
+                const userPol = userAnswer && userAnswer.length > 0 ? tfPolarityAt(question, userAnswer[0]) : null;
+                const correctList = Array.isArray(question.correct) ? question.correct : [question.correct];
+                const explanation = tfExplanation(question.answers[correctList[0]]);
+                const renderResultRow = (label, polarity) => {
+                    const isCorrect = correctPol === polarity;
+                    const isUser = userPol === polarity;
+                    let cssClass, lbl;
+                    if (isCorrect && isUser) { cssClass = 'result-answer-correct-selected'; lbl = ' ✓ SPRÁVNE - Vaša odpoveď'; }
+                    else if (isCorrect && !isUser) { cssClass = 'result-answer-correct-missed'; lbl = ' ✓ SPRÁVNE'; }
+                    else if (!isCorrect && isUser) { cssClass = 'result-answer-wrong-selected'; lbl = ' ✗ NESPRÁVNE - Vaša odpoveď'; }
+                    else { cssClass = 'result-answer-neutral'; lbl = ''; }
+                    return `<div class="result-answer ${cssClass}">${label}${lbl}</div>`;
+                };
+                resultAnswersBlock = renderResultRow('Pravda', 'pravda') + renderResultRow('Nepravda', 'nepravda');
+                if (explanation) {
+                    resultAnswersBlock += `<div class="tf-explanation"><strong>Vysvetlenie:</strong> ${explanation}</div>`;
+                }
+            } else {
+                resultAnswersBlock = question.answers.map((answer, aIndex) => {
+                    const isCorrect = isNoCorrect ? false : isQuestionAnswerCorrect(question, aIndex);
+                    const isUserAnswer = userAnswer && userAnswer.includes(aIndex);
+                    let cssClass = '';
+                    let label = '';
+                    if (isNoCorrect) {
+                        if (isUserAnswer) { cssClass = 'result-answer-wrong-selected'; label = ' ✗ NESPRÁVNE - Vaša odpoveď'; }
+                        else { cssClass = 'result-answer-neutral'; }
+                    } else if (isCorrect && isUserAnswer) {
+                        cssClass = 'result-answer-correct-selected';
+                        label = ' ✓ SPRÁVNE - Vaša odpoveď';
+                    } else if (isCorrect && !isUserAnswer) {
+                        cssClass = 'result-answer-correct-missed';
+                        label = ' ✓ SPRÁVNE';
+                    } else if (!isCorrect && isUserAnswer) {
+                        cssClass = 'result-answer-wrong-selected';
+                        label = ' ✗ NESPRÁVNE - Vaša odpoveď';
+                    } else {
+                        cssClass = 'result-answer-neutral';
+                    }
+                    return `<div class="result-answer ${cssClass}">${answer}${label}</div>`;
+                }).join('');
+            }
+
             return `
                 <div class="result-question ${questionCorrect ? 'result-correct' : 'result-incorrect'}">
                     <h4>Otázka ${qIndex + 1}: ${question.question}</h4>
                     ${questionHint}
                     <div class="result-answers">
-                        ${question.answers.map((answer, aIndex) => {
-                            // Pre isNoCorrect nie je žiadna odpoveď správna
-                            const isCorrect = isNoCorrect
-                                ? false
-                                : (isMultiple
-                                    ? question.correct.includes(aIndex)
-                                    : (Array.isArray(question.correct) ? question.correct.includes(aIndex) : question.correct === aIndex));
-                            const isUserAnswer = userAnswer && userAnswer.includes(aIndex);
-
-                            let cssClass = '';
-                            let label = '';
-
-                            // Zobraz detailný feedback (všetky režimy)
-                            if (isNoCorrect) {
-                                if (isUserAnswer) {
-                                    cssClass = 'result-answer-wrong-selected';
-                                    label = ' ✗ NESPRÁVNE - Vaša odpoveď';
-                                } else {
-                                    cssClass = 'result-answer-neutral';
-                                }
-                            } else if (isCorrect && isUserAnswer) {
-                                cssClass = 'result-answer-correct-selected';
-                                label = ' ✓ SPRÁVNE - Vaša odpoveď';
-                            } else if (isCorrect && !isUserAnswer) {
-                                cssClass = 'result-answer-correct-missed';
-                                label = ' ✓ SPRÁVNE';
-                            } else if (!isCorrect && isUserAnswer) {
-                                cssClass = 'result-answer-wrong-selected';
-                                label = ' ✗ NESPRÁVNE - Vaša odpoveď';
-                            } else {
-                                cssClass = 'result-answer-neutral';
-                            }
-
-                            return `
-                                <div class="result-answer ${cssClass}">
-                                    ${answer}${label}
-                                </div>
-                            `;
-                        }).join('')}
+                        ${resultAnswersBlock}
                     </div>
                 </div>
             `;
@@ -1698,8 +1897,8 @@ async function mergeImagesToCanvas(files, rotations, progressCallback) {
                             currentY += info.height + gap;
                         });
 
-                        // OpenAI API má limit na detail:"high" = 2048px na dlhší rozmer
-                        // Zmenšíme ak je potrebné, aby sme sa vyhli API errors
+                        // Vision API limit — zmenšíme na 2048px na dlhší rozmer ak je potrebné
+                        // (Claude aj backend preprocessing toto očakávajú)
                         let finalCanvas = canvas;
                         let finalWidth = maxWidth;
                         let finalHeight = totalHeight;
@@ -1724,7 +1923,7 @@ async function mergeImagesToCanvas(files, rotations, progressCallback) {
                             resizedCtx.drawImage(canvas, 0, 0, finalWidth, finalHeight);
                             finalCanvas = resizedCanvas;
 
-                            console.log(`Prispôsobené pre OpenAI API: ${maxWidth}x${totalHeight}px → ${finalWidth}x${finalHeight}px`);
+                            console.log(`Prispôsobené pre Vision API: ${maxWidth}x${totalHeight}px → ${finalWidth}x${finalHeight}px`);
                         }
 
                         // Konvertovať na blob
@@ -2374,7 +2573,7 @@ function displayEditVocabulary(testData, container) {
     const vocabulary = testData.vocabulary || [];
 
     vocabulary.forEach((vocab, vIndex) => {
-        const isAdjective = vocab.type === 'adjective';
+        const skipGrammar = vocab.type === 'adjective' || vocab.type === 'phrase';
         const vocabDiv = document.createElement('div');
         vocabDiv.className = 'ai-question-item vocab-edit-item';
         vocabDiv.innerHTML = `
@@ -2384,7 +2583,7 @@ function displayEditVocabulary(testData, container) {
             </div>
             <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
                 <div>
-                    <label>Latinské slovo:</label>
+                    <label>Latinské slovo/fráza:</label>
                     <input type="text" class="ai-input" value="${escapeHtml(vocab.latin || '')}"
                            onchange="updateEditVocab(${vIndex}, 'latin', this.value)">
                 </div>
@@ -2394,22 +2593,23 @@ function displayEditVocabulary(testData, container) {
                            onchange="updateEditVocab(${vIndex}, 'slovak', this.value)">
                 </div>
                 <div>
-                    <label>Typ slova:</label>
+                    <label>Typ:</label>
                     <select class="ai-input" onchange="updateEditVocabType(${vIndex}, this.value)">
-                        <option value="noun" ${!isAdjective ? 'selected' : ''}>Podstatné meno</option>
-                        <option value="adjective" ${isAdjective ? 'selected' : ''}>Prídavné meno</option>
+                        <option value="noun" ${vocab.type === 'noun' ? 'selected' : ''}>Podstatné meno</option>
+                        <option value="adjective" ${vocab.type === 'adjective' ? 'selected' : ''}>Prídavné meno</option>
+                        <option value="phrase" ${vocab.type === 'phrase' ? 'selected' : ''}>Fráza/spojenie</option>
                     </select>
                 </div>
-                <div id="vocab-genitive-${vIndex}" style="${isAdjective ? 'opacity: 0.5;' : ''}">
+                <div id="vocab-genitive-${vIndex}" style="${skipGrammar ? 'opacity: 0.5;' : ''}">
                     <label>Genitív:</label>
                     <input type="text" class="ai-input" value="${escapeHtml(vocab.genitive || '')}"
                            onchange="updateEditVocab(${vIndex}, 'genitive', this.value)"
-                           ${isAdjective ? 'disabled' : ''}>
+                           ${skipGrammar ? 'disabled' : ''}>
                 </div>
-                <div id="vocab-gender-${vIndex}" style="${isAdjective ? 'opacity: 0.5;' : ''}">
+                <div id="vocab-gender-${vIndex}" style="${skipGrammar ? 'opacity: 0.5;' : ''}">
                     <label>Rod:</label>
                     <select class="ai-input" onchange="updateEditVocab(${vIndex}, 'gender', this.value)"
-                            ${isAdjective ? 'disabled' : ''}>
+                            ${skipGrammar ? 'disabled' : ''}>
                         <option value="m" ${vocab.gender === 'm' ? 'selected' : ''}>m. (mužský)</option>
                         <option value="f" ${vocab.gender === 'f' ? 'selected' : ''}>f. (ženský)</option>
                         <option value="n" ${vocab.gender === 'n' ? 'selected' : ''}>n. (stredný)</option>
@@ -2848,7 +3048,7 @@ function displayVocabResults() {
 
     // Tabuľka slovíčok
     vocabImportedData.vocabulary.forEach((vocab, index) => {
-        const isAdjective = vocab.type === 'adjective';
+        const skipGrammar = vocab.type === 'adjective' || vocab.type === 'phrase';
         const vocabDiv = document.createElement('div');
         vocabDiv.className = 'vocab-item vocab-import-item';
         vocabDiv.innerHTML = `
@@ -2856,16 +3056,17 @@ function displayVocabResults() {
                 <span class="vocab-import-item-index">#${index + 1}</span>
                 <input type="text" class="ai-input" value="${escapeHtml(vocab.latin)}"
                        onchange="updateVocab(${index}, 'latin', this.value)"
-                       style="flex: 2; min-width: 150px;" placeholder="Latinské slovo">
+                       style="flex: 2; min-width: 150px;" placeholder="Latinské slovo/fráza">
                 <select class="ai-input" onchange="updateVocabType(${index}, this.value)" style="width: 100px;">
-                    <option value="noun" ${!isAdjective ? 'selected' : ''}>podst.</option>
-                    <option value="adjective" ${isAdjective ? 'selected' : ''}>prídav.</option>
+                    <option value="noun" ${vocab.type === 'noun' ? 'selected' : ''}>podst.</option>
+                    <option value="adjective" ${vocab.type === 'adjective' ? 'selected' : ''}>prídav.</option>
+                    <option value="phrase" ${vocab.type === 'phrase' ? 'selected' : ''}>fráza</option>
                 </select>
                 <input type="text" class="ai-input" id="vocab-gen-${index}" value="${escapeHtml(vocab.genitive || '')}"
                        onchange="updateVocab(${index}, 'genitive', this.value)"
-                       style="width: 80px; ${isAdjective ? 'opacity: 0.5;' : ''}" placeholder="-ae" ${isAdjective ? 'disabled' : ''}>
+                       style="width: 80px; ${skipGrammar ? 'opacity: 0.5;' : ''}" placeholder="-ae" ${skipGrammar ? 'disabled' : ''}>
                 <select class="ai-input" id="vocab-gender-${index}" onchange="updateVocab(${index}, 'gender', this.value)"
-                        style="width: 70px; ${isAdjective ? 'opacity: 0.5;' : ''}" ${isAdjective ? 'disabled' : ''}>
+                        style="width: 70px; ${skipGrammar ? 'opacity: 0.5;' : ''}" ${skipGrammar ? 'disabled' : ''}>
                     <option value="m" ${vocab.gender === 'm' ? 'selected' : ''}>m.</option>
                     <option value="f" ${vocab.gender === 'f' ? 'selected' : ''}>f.</option>
                     <option value="n" ${vocab.gender === 'n' ? 'selected' : ''}>n.</option>
@@ -2893,6 +3094,9 @@ function displayVocabResults() {
         vocabulary: vocabImportedData.vocabulary,
         questions: [] // prázdne, vocabulary testy nemajú klasické otázky
     };
+
+    // Načítať existujúce testy pre append mode
+    loadExistingTestsForAppend();
 }
 
 function updateVocab(index, field, value) {
@@ -2906,8 +3110,9 @@ function updateVocabType(index, type) {
     if (vocabImportedData && vocabImportedData.vocabulary[index]) {
         vocabImportedData.vocabulary[index].type = type;
 
-        // Ak je prídavné meno, vymaž genitív a rod
-        if (type === 'adjective') {
+        // Ak je prídavné meno alebo fráza, vymaž genitív a rod
+        const skipGrammar = type === 'adjective' || type === 'phrase';
+        if (skipGrammar) {
             vocabImportedData.vocabulary[index].genitive = '';
             vocabImportedData.vocabulary[index].gender = '';
         }
@@ -2917,14 +3122,14 @@ function updateVocabType(index, type) {
         const genderSelect = document.getElementById(`vocab-gender-${index}`);
 
         if (genInput) {
-            genInput.disabled = type === 'adjective';
-            genInput.style.opacity = type === 'adjective' ? '0.5' : '1';
-            if (type === 'adjective') genInput.value = '';
+            genInput.disabled = skipGrammar;
+            genInput.style.opacity = skipGrammar ? '0.5' : '1';
+            if (skipGrammar) genInput.value = '';
         }
 
         if (genderSelect) {
-            genderSelect.disabled = type === 'adjective';
-            genderSelect.style.opacity = type === 'adjective' ? '0.5' : '1';
+            genderSelect.disabled = skipGrammar;
+            genderSelect.style.opacity = skipGrammar ? '0.5' : '1';
         }
 
         aiImportedData.vocabulary = vocabImportedData.vocabulary;
@@ -3097,11 +3302,11 @@ function showVocab() {
             </div>
     `;
 
-    // Prídavné mená (adjektíva) nemajú genitív ani rod
-    const isAdjective = vocab.type === 'adjective';
+    // Prídavné mená a frázy nemajú genitív ani rod
+    const skipGrammar = vocab.type === 'adjective' || vocab.type === 'phrase';
 
-    // Genitív (ak je zapnutý a nie je to prídavné meno)
-    if (vocabTestConfig.testGenitive && !isAdjective) {
+    // Genitív (ak je zapnutý a nie je to prídavné meno/fráza)
+    if (vocabTestConfig.testGenitive && !skipGrammar) {
         html += `
             <div class="vocab-answer-section">
                 <label>Genitív:</label>
@@ -3117,8 +3322,8 @@ function showVocab() {
         `;
     }
 
-    // Rod (ak je zapnutý a nie je to prídavné meno)
-    if (vocabTestConfig.testGender && !isAdjective) {
+    // Rod (ak je zapnutý a nie je to prídavné meno/fráza)
+    if (vocabTestConfig.testGender && !skipGrammar) {
         html += `
             <div class="vocab-answer-section">
                 <label>Rod:</label>
@@ -3136,9 +3341,10 @@ function showVocab() {
         `;
     }
 
-    // Zobraz info ak je to prídavné meno
-    if (isAdjective) {
-        html += `<div class="vocab-adjective-note">📝 Prídavné meno (bez rodu a genitívu)</div>`;
+    // Zobraz info ak je to prídavné meno alebo fráza
+    if (skipGrammar) {
+        const noteText = vocab.type === 'phrase' ? '📝 Fráza (bez rodu a genitívu)' : '📝 Prídavné meno (bez rodu a genitívu)';
+        html += `<div class="vocab-adjective-note">${noteText}</div>`;
     }
 
     html += `</div>`;
@@ -3163,45 +3369,70 @@ function isAnswerCorrect(userValue, correctValue) {
     return userValue.toLowerCase().trim() === correctValue.toLowerCase().trim();
 }
 
-// Normalizácia genitívnej koncovky - odstráni pomlčky, medzery a porovná len písmená
+// Normalizácia genitívnej koncovky - odstráni pomlčky, medzery, diakritiku a porovná len písmená
 function normalizeGenitive(value) {
     if (!value) return '';
     // Odstráň pomlčky, medzery a preveď na malé písmená
-    return value.replace(/[-–—\s]/g, '').toLowerCase().trim();
+    let normalized = value.replace(/[-–—\s]/g, '').toLowerCase().trim();
+    // Odstráň aj diakritiku (makróny)
+    normalized = removeDiacritics(normalized);
+    return normalized;
 }
 
 function isGenitiveCorrect(userValue, correctValue) {
     return normalizeGenitive(userValue) === normalizeGenitive(correctValue);
 }
 
-// Odstránenie diakritiky z textu
+// Odstránenie diakritiky z textu (slovenská + latinské makróny)
 function removeDiacritics(text) {
     const diacriticsMap = {
+        // Slovenská diakritika
         'á': 'a', 'ä': 'a', 'č': 'c', 'ď': 'd', 'é': 'e', 'í': 'i', 'ĺ': 'l', 'ľ': 'l',
         'ň': 'n', 'ó': 'o', 'ô': 'o', 'ŕ': 'r', 'š': 's', 'ť': 't', 'ú': 'u', 'ý': 'y', 'ž': 'z',
         'Á': 'A', 'Ä': 'A', 'Č': 'C', 'Ď': 'D', 'É': 'E', 'Í': 'I', 'Ĺ': 'L', 'Ľ': 'L',
-        'Ň': 'N', 'Ó': 'O', 'Ô': 'O', 'Ŕ': 'R', 'Š': 'S', 'Ť': 'T', 'Ú': 'U', 'Ý': 'Y', 'Ž': 'Z'
+        'Ň': 'N', 'Ó': 'O', 'Ô': 'O', 'Ŕ': 'R', 'Š': 'S', 'Ť': 'T', 'Ú': 'U', 'Ý': 'Y', 'Ž': 'Z',
+        // Latinské makróny (dlhé samohlásky)
+        'ā': 'a', 'ē': 'e', 'ī': 'i', 'ō': 'o', 'ū': 'u',
+        'Ā': 'A', 'Ē': 'E', 'Ī': 'I', 'Ō': 'O', 'Ū': 'U',
+        // Latinské ligatúry
+        'æ': 'ae', 'œ': 'oe', 'Æ': 'AE', 'Œ': 'OE'
     };
     return text.split('').map(char => diacriticsMap[char] || char).join('');
 }
 
-// Flexibilné porovnanie slovenského prekladu
-// Akceptuje: jednotlivé slová, kombinácie s/bez čiarky, v ľubovoľnom poradí, s/bez diakritiky
+// Flexibilné porovnanie prekladu (LAT↔SVK)
+// Akceptuje: veľké/malé písmená, s/bez diakritiky, viacero medzier, jednotlivé slová, rôzne poradie
 function isTranslationCorrect(userAnswer, correctAnswer) {
-    // Normalizácia - lowercase, trim
-    const normalize = (str) => str.toLowerCase().trim();
-    const normalizeNoDiacritics = (str) => removeDiacritics(normalize(str));
+    // Ochrana pred undefined/null
+    if (!userAnswer || !correctAnswer) return false;
+
+    // Normalizácia - lowercase, trim, viacero medzier na jednu
+    const normalize = (str) => {
+        if (!str) return '';
+        return str.toLowerCase().trim().replace(/\s+/g, ' ');
+    };
+
+    // Normalizácia bez diakritiky
+    const normalizeNoDiacritics = (str) => {
+        if (!str) return '';
+        return removeDiacritics(normalize(str));
+    };
 
     const userNorm = normalize(userAnswer);
     const correctNorm = normalize(correctAnswer);
 
-    // Presná zhoda
+    // Prázdna odpoveď
+    if (!userNorm) return false;
+
+    // 1. Presná zhoda (case-insensitive, trimmed)
     if (userNorm === correctNorm) return true;
 
-    // Zhoda bez diakritiky
-    if (normalizeNoDiacritics(userAnswer) === normalizeNoDiacritics(correctAnswer)) return true;
+    // 2. Zhoda bez diakritiky
+    const userNoDia = normalizeNoDiacritics(userAnswer);
+    const correctNoDia = normalizeNoDiacritics(correctAnswer);
+    if (userNoDia === correctNoDia) return true;
 
-    // Rozdelenie správnej odpovede na jednotlivé slová (podľa čiarky)
+    // 3. Pre viac slov oddelených čiarkou - akceptuj jednotlivé aj kombinácie
     const correctParts = correctAnswer.split(',').map(s => s.trim()).filter(s => s.length > 0);
 
     // Ak je len jedno slovo, už sme skontrolovali vyššie
@@ -3216,26 +3447,28 @@ function isTranslationCorrect(userAnswer, correctAnswer) {
         acceptableAnswers.add(normalizeNoDiacritics(part));
     });
 
-    // Všetky slová spolu s čiarkou
+    // Všetky slová spolu s čiarkou (s medzerou aj bez)
     acceptableAnswers.add(correctParts.map(p => normalize(p)).join(', '));
+    acceptableAnswers.add(correctParts.map(p => normalize(p)).join(','));
     acceptableAnswers.add(correctParts.map(p => normalizeNoDiacritics(p)).join(', '));
+    acceptableAnswers.add(correctParts.map(p => normalizeNoDiacritics(p)).join(','));
 
     // Všetky slová spolu bez čiarky (len medzera)
     acceptableAnswers.add(correctParts.map(p => normalize(p)).join(' '));
     acceptableAnswers.add(correctParts.map(p => normalizeNoDiacritics(p)).join(' '));
 
-    // Obrátené poradie s čiarkou
+    // Obrátené poradie
     const reversed = [...correctParts].reverse();
     acceptableAnswers.add(reversed.map(p => normalize(p)).join(', '));
-    acceptableAnswers.add(reversed.map(p => normalizeNoDiacritics(p)).join(', '));
-
-    // Obrátené poradie bez čiarky
+    acceptableAnswers.add(reversed.map(p => normalize(p)).join(','));
     acceptableAnswers.add(reversed.map(p => normalize(p)).join(' '));
+    acceptableAnswers.add(reversed.map(p => normalizeNoDiacritics(p)).join(', '));
+    acceptableAnswers.add(reversed.map(p => normalizeNoDiacritics(p)).join(','));
     acceptableAnswers.add(reversed.map(p => normalizeNoDiacritics(p)).join(' '));
 
     // Kontrola či user odpoveď zodpovedá niektorej akceptovateľnej
     if (acceptableAnswers.has(userNorm)) return true;
-    if (acceptableAnswers.has(normalizeNoDiacritics(userAnswer))) return true;
+    if (acceptableAnswers.has(userNoDia)) return true;
 
     return false;
 }
@@ -3315,26 +3548,27 @@ function showVocabLearnMode() {
     };
 
     container.innerHTML = test.vocabulary.map((vocab, index) => {
-        const isAdjective = vocab.type === 'adjective';
+        const skipGrammar = vocab.type === 'adjective' || vocab.type === 'phrase';
+        const typeLabel = vocab.type === 'adjective' ? 'prídavné meno' : (vocab.type === 'phrase' ? 'fráza' : '');
         return `
-        <div class="vocab-learn-item ${isAdjective ? 'vocab-adjective' : ''}">
+        <div class="vocab-learn-item ${skipGrammar ? 'vocab-adjective' : ''}">
             <div class="vocab-learn-header">
                 <span class="vocab-learn-number">#${index + 1}</span>
                 <span class="vocab-learn-latin">${escapeHtml(vocab.latin)}</span>
-                ${isAdjective ? '<span class="vocab-type-badge">prídavné meno</span>' : ''}
+                ${typeLabel ? `<span class="vocab-type-badge">${typeLabel}</span>` : ''}
             </div>
             <div class="vocab-learn-body">
                 <div class="vocab-learn-field translation">
                     <div class="vocab-learn-field-label">Slovenský preklad</div>
                     <div class="vocab-learn-field-value">${escapeHtml(vocab.slovak)}</div>
                 </div>
-                ${!isAdjective && vocab.genitive ? `
+                ${!skipGrammar && vocab.genitive ? `
                 <div class="vocab-learn-field genitive">
                     <div class="vocab-learn-field-label">Genitív</div>
                     <div class="vocab-learn-field-value">${escapeHtml(vocab.genitive)}</div>
                 </div>
                 ` : ''}
-                ${!isAdjective && vocab.gender ? `
+                ${!skipGrammar && vocab.gender ? `
                 <div class="vocab-learn-field gender">
                     <div class="vocab-learn-field-label">Rod</div>
                     <div class="vocab-learn-field-value">${vocab.gender}. (${expandGender(vocab.gender)})</div>
@@ -3346,10 +3580,18 @@ function showVocabLearnMode() {
 }
 
 function getVocabFeedback(field, userValue, correctValue) {
-    // Pre genitív použiť flexibilné porovnanie
-    const isCorrect = field === 'genitive'
-        ? isGenitiveCorrect(userValue, correctValue)
-        : userValue.toLowerCase().trim() === correctValue.toLowerCase().trim();
+    let isCorrect = false;
+
+    if (field === 'translation') {
+        // Pre preklad použiť flexibilné porovnanie (diakritika, veľké/malé, atď.)
+        isCorrect = isTranslationCorrect(userValue, correctValue);
+    } else if (field === 'genitive') {
+        // Pre genitív použiť flexibilné porovnanie
+        isCorrect = isGenitiveCorrect(userValue, correctValue);
+    } else {
+        // Pre ostatné (rod) - jednoduché porovnanie
+        isCorrect = userValue && correctValue && userValue.toLowerCase().trim() === correctValue.toLowerCase().trim();
+    }
 
     if (isCorrect) {
         return `<span class="vocab-feedback correct">✓ Správne</span>`;
@@ -3450,18 +3692,18 @@ function submitVocabTest() {
             helpUsed: usedHelp
         });
 
-        // Prídavné mená nemajú genitív ani rod
-        const isAdjective = vocab.type === 'adjective';
+        // Prídavné mená a frázy nemajú genitív ani rod
+        const skipGrammar = vocab.type === 'adjective' || vocab.type === 'phrase';
 
-        // Kontrola genitívu (nie pre prídavné mená)
-        if (vocabTestConfig.testGenitive && !isAdjective) {
+        // Kontrola genitívu (nie pre prídavné mená/frázy)
+        if (vocabTestConfig.testGenitive && !skipGrammar) {
             const genOk = isGenitiveCorrect(userAnswer.genitive, vocab.genitive);
             if (!genOk) itemCorrect = false;
             details.push({ field: 'Genitív', user: userAnswer.genitive, correct: vocab.genitive, ok: genOk });
         }
 
-        // Kontrola rodu (nie pre prídavné mená)
-        if (vocabTestConfig.testGender && !isAdjective) {
+        // Kontrola rodu (nie pre prídavné mená/frázy)
+        if (vocabTestConfig.testGender && !skipGrammar) {
             const genderOk = userAnswer.gender === vocab.gender;
             if (!genderOk) itemCorrect = false;
             details.push({ field: 'Rod', user: userAnswer.gender || '-', correct: vocab.gender, ok: genderOk });

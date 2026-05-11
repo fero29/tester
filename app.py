@@ -4,19 +4,40 @@ import os
 import glob
 import base64
 import io
-from openai import OpenAI
+import anthropic
 from dotenv import load_dotenv
 from PIL import Image, ImageEnhance, ImageFilter, ImageOps
 import cv2
 import numpy as np
+import re
+
+def fix_json_string(json_str):
+    """Pokúsi sa opraviť bežné chyby v JSON reťazci generovanom AI"""
+    # Odstráň neplatné kontrolné znaky
+    json_str = ''.join(char for char in json_str if ord(char) >= 32 or char in '\n\r\t')
+
+    # Oprav trailing commas pred ] alebo }
+    json_str = re.sub(r',\s*]', ']', json_str)
+    json_str = re.sub(r',\s*}', '}', json_str)
+
+    # Oprav chýbajúce čiarky medzi objektami v poli: }{ -> },{
+    json_str = re.sub(r'}\s*{', '},{', json_str)
+
+    # Oprav chýbajúce čiarky medzi hodnotou a kľúčom: "hodnota"\s*"kluc" -> "hodnota","kluc"
+    json_str = re.sub(r'"\s*\n\s*"([a-zA-Z_])', r'","\1', json_str)
+
+    # Oprav neuzavreté stringy pred čiarkou/zátvorkou
+    # Hľadá pattern kde string začína ale nekončí pred čiarkou
+
+    return json_str
 
 # Load environment variables
 load_dotenv()
 
 app = Flask(__name__)
 
-# OpenAI client
-client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
+# Anthropic client (reads ANTHROPIC_API_KEY from environment)
+client = anthropic.Anthropic()
 
 # Ukladanie testov v pamäti
 tests = []
@@ -378,7 +399,7 @@ def preprocess_image(image_file, advanced=False, rotation=0):
 
 @app.route('/api/ai-import', methods=['POST'])
 def ai_import():
-    """AI import otázok z obrázku pomocou OpenAI Vision API"""
+    """AI import otázok z obrázku pomocou Claude Vision API"""
     try:
         # Získať obrázok z requestu
         if 'image' not in request.files:
@@ -406,7 +427,7 @@ def ai_import():
         image_file.seek(0)
         processed_pil = Image.open(preprocess_image(image_file, advanced=advanced_preprocessing, rotation=rotation))
 
-        # Prompt pre OpenAI
+        # Prompt pre Claude
         prompt = """Analyzuj tento obrázok a extrahuj z neho všetky otázky s možnými odpoveďami.
 
 🔴 KRITICKY DÔLEŽITÉ - Viacero správnych odpovedí:
@@ -456,37 +477,37 @@ FORMÁT:
 
 Analyzuj obrázok a vráť JSON:"""
 
-        # Zavolať OpenAI Vision API
-        # Použiť detail: "high" pre lepšiu detekciu pozícií
+        # Zavolať Claude Vision API (Sonnet 4.6)
         try:
-            response = client.chat.completions.create(
-                model="gpt-4o",  # Najnovší model s najlepšou vision schopnosťou
+            response = client.messages.create(
+                model="claude-sonnet-4-6",
+                max_tokens=8192,
+                temperature=0.1,
                 messages=[
                     {
                         "role": "user",
                         "content": [
-                            {"type": "text", "text": prompt},
                             {
-                                "type": "image_url",
-                                "image_url": {
-                                    "url": f"data:image/jpeg;base64,{image_data}",
-                                    "detail": "high"  # Vysoké rozlíšenie pre presnejšiu detekciu
+                                "type": "image",
+                                "source": {
+                                    "type": "base64",
+                                    "media_type": "image/jpeg",
+                                    "data": image_data
                                 }
-                            }
+                            },
+                            {"type": "text", "text": prompt}
                         ]
                     }
-                ],
-                max_tokens=4096,
-                temperature=0.1
+                ]
             )
-        except Exception as e:
-            print(f"OpenAI API Error: {str(e)}")
+        except anthropic.APIError as e:
+            print(f"Claude API Error: {str(e)}")
             return jsonify({
-                'error': f'Chyba pri volaní OpenAI API: {str(e)}'
+                'error': f'Chyba pri volaní Claude API: {str(e)}'
             }), 400
 
         # Extrahovať JSON odpoveď
-        ai_response = response.choices[0].message.content.strip()
+        ai_response = next(b.text for b in response.content if b.type == "text").strip()
         print(f"AI Response length: {len(ai_response)} chars")
         print(f"AI Response preview: {ai_response[:200]}")
 
@@ -507,17 +528,23 @@ Analyzuj obrázok a vráť JSON:"""
         # Odstrániť možné úvodné/záverečné znaky
         ai_response = ai_response.strip()
 
-        # Parsovať JSON
+        # Parsovať JSON s pokusom o opravu
         try:
             result = json.loads(ai_response)
         except json.JSONDecodeError as e:
-            # Logovať pre debugging
-            print(f"JSON Parse Error: {e}")
-            print(f"AI Response: {ai_response[:500]}")  # Prvých 500 znakov
-            return jsonify({
-                'error': f'Chyba pri parsovaní AI odpovede: {str(e)}',
-                'raw_response': ai_response[:200]  # Prvých 200 znakov pre užívateľa
-            }), 400
+            print(f"JSON Parse Error, pokúšam sa opraviť: {e}")
+            print(f"AI Response (first 500): {ai_response[:500]}")
+            # Pokus o opravu JSON
+            try:
+                fixed_response = fix_json_string(ai_response)
+                result = json.loads(fixed_response)
+                print("JSON úspešne opravený a sparsovaný")
+            except json.JSONDecodeError as e2:
+                print(f"JSON Parse Error aj po oprave: {e2}")
+                return jsonify({
+                    'error': f'Chyba pri parsovaní AI odpovede: {str(e)}',
+                    'raw_response': ai_response[:200]
+                }), 400
 
         # Vytvoriť výrezy pre každú otázku
         num_questions = len(result.get('questions', []))
@@ -588,7 +615,7 @@ Analyzuj obrázok a vráť JSON:"""
 
 @app.route('/api/ai-import-vocab', methods=['POST'])
 def ai_import_vocab():
-    """AI import latinských slovíčok z obrázku pomocou OpenAI Vision API"""
+    """AI import latinských slovíčok z obrázku pomocou Claude Vision API"""
     try:
         if 'image' not in request.files:
             return jsonify({'error': 'Žiadny obrázok'}), 400
@@ -603,7 +630,7 @@ def ai_import_vocab():
         processed_image = preprocess_image(image_file, advanced=advanced_preprocessing, rotation=0)
         image_data = base64.b64encode(processed_image.read()).decode('utf-8')
 
-        # Prompt pre OpenAI - slovíčka
+        # Prompt pre Claude - slovíčka
         prompt = """Analyzuj tento obrázok a extrahuj z neho latinské slovíčka.
 
 Očakávaný formát v obrázku:
@@ -658,30 +685,37 @@ Vráť odpoveď v tomto PRESNOM JSON formáte:
 - Ak nie je jasný genitív, nechaj prázdny string
 - Vráť LEN platný JSON, žiadny markdown ani iný text"""
 
-        # Volanie OpenAI API
-        response = client.chat.completions.create(
-            model="gpt-4o",
-            messages=[
-                {
-                    "role": "user",
-                    "content": [
-                        {"type": "text", "text": prompt},
-                        {
-                            "type": "image_url",
-                            "image_url": {
-                                "url": f"data:image/jpeg;base64,{image_data}",
-                                "detail": "high"
-                            }
-                        }
-                    ]
-                }
-            ],
-            max_tokens=4000,
-            temperature=0.1
-        )
+        # Volanie Claude API (Sonnet 4.6)
+        try:
+            response = client.messages.create(
+                model="claude-sonnet-4-6",
+                max_tokens=8192,
+                temperature=0.1,
+                messages=[
+                    {
+                        "role": "user",
+                        "content": [
+                            {
+                                "type": "image",
+                                "source": {
+                                    "type": "base64",
+                                    "media_type": "image/jpeg",
+                                    "data": image_data
+                                }
+                            },
+                            {"type": "text", "text": prompt}
+                        ]
+                    }
+                ]
+            )
+        except anthropic.APIError as e:
+            print(f"Claude API Error (vocab): {str(e)}")
+            return jsonify({
+                'error': f'Chyba pri volaní Claude API: {str(e)}'
+            }), 400
 
         # Extrahovať JSON odpoveď
-        ai_response = response.choices[0].message.content.strip()
+        ai_response = next(b.text for b in response.content if b.type == "text").strip()
         print(f"Vocab AI Response length: {len(ai_response)} chars")
         print(f"Vocab AI Response preview: {ai_response[:200]}")
 
@@ -702,16 +736,23 @@ Vráť odpoveď v tomto PRESNOM JSON formáte:
         # Odstrániť možné úvodné/záverečné znaky
         ai_response = ai_response.strip()
 
-        # Parsovať JSON
+        # Parsovať JSON s pokusom o opravu
         try:
             result = json.loads(ai_response)
         except json.JSONDecodeError as e:
-            print(f"JSON Parse Error (vocab): {e}")
-            print(f"AI Response: {ai_response[:500]}")
-            return jsonify({
-                'error': f'Chyba pri parsovaní AI odpovede: {str(e)}',
-                'raw_response': ai_response[:200]
-            }), 400
+            print(f"JSON Parse Error (vocab), pokúšam sa opraviť: {e}")
+            print(f"AI Response (first 500): {ai_response[:500]}")
+            # Pokus o opravu JSON
+            try:
+                fixed_response = fix_json_string(ai_response)
+                result = json.loads(fixed_response)
+                print("JSON úspešne opravený a sparsovaný")
+            except json.JSONDecodeError as e2:
+                print(f"JSON Parse Error aj po oprave: {e2}")
+                return jsonify({
+                    'error': f'Chyba pri parsovaní AI odpovede: {str(e)}',
+                    'raw_response': ai_response[:200]
+                }), 400
 
         return jsonify({
             'success': True,
@@ -743,13 +784,27 @@ def save_test():
             with open(filepath, 'r', encoding='utf-8') as f:
                 existing_data = json.load(f)
 
-            # Ak je existujúci súbor array, pridať otázky do prvého testu
+            # Zistiť či ide o slovíčkový alebo klasický test
+            is_vocab_test = 'vocabulary' in test_data
+
+            # Ak je existujúci súbor array, pridať do prvého testu
             if isinstance(existing_data, list) and len(existing_data) > 0:
-                existing_data[0]['questions'].extend(test_data['questions'])
-                print(f"Pridané {len(test_data['questions'])} otázok do testu: {existing_data[0].get('title')}")
+                if is_vocab_test:
+                    # Slovíčkový test
+                    if 'vocabulary' not in existing_data[0]:
+                        existing_data[0]['vocabulary'] = []
+                    existing_data[0]['vocabulary'].extend(test_data['vocabulary'])
+                    print(f"Pridané {len(test_data['vocabulary'])} slovíčok do testu: {existing_data[0].get('title')}")
+                else:
+                    # Klasický test s otázkami
+                    existing_data[0]['questions'].extend(test_data['questions'])
+                    print(f"Pridané {len(test_data['questions'])} otázok do testu: {existing_data[0].get('title')}")
             else:
-                # Ak je objekt, pridať otázky priamo
-                if 'questions' in existing_data:
+                # Ak je objekt, pridať priamo
+                if is_vocab_test and 'vocabulary' in existing_data:
+                    existing_data['vocabulary'].extend(test_data['vocabulary'])
+                    print(f"Pridané {len(test_data['vocabulary'])} slovíčok do testu: {existing_data.get('title')}")
+                elif 'questions' in existing_data:
                     existing_data['questions'].extend(test_data['questions'])
                     print(f"Pridané {len(test_data['questions'])} otázok do testu: {existing_data.get('title')}")
                 else:
