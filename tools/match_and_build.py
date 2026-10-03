@@ -281,7 +281,7 @@ def main():
     news = [u for u, m, _ in classification if m is None]
     new_test = build_new_test(news)
     new_test_path = TESTY_DIR / NEW_TEST_FILENAME
-    with open(new_test_path, 'w', encoding='utf-8') as f:
+    with open(new_test_path, 'x', encoding='utf-8') as f:
         json.dump(new_test, f, ensure_ascii=False, indent=2)
     print(f'New test: {new_test_path} ({len(news)} questions)')
 

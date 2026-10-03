@@ -1,0 +1,786 @@
+{
+  "reviewDate": "2026-10-03",
+  "mode": "review_only",
+  "inputFile": "testy/biochemia1/na_kontrolu.json",
+  "inputSha256": "8c925d8639ac831a32539bbcf958ed56657113c84fe00e77772bd665ec03ab95",
+  "policy": "Návrh na kontrolu, nie oficiálny skúškový kľúč. Posudzuje sa pôvodný vytlačený text. Ručné poznámky sú dôkazom o zdroji, nie automaticky správnou opravou. Chýbajúce slová sa nedopĺňajú potichu. Platí štandardný model ľudskej biochémie; výťažky oxidačnej fosforylácie sú približné učebnicové hodnoty 2,5 ATP/NADH a 1,5 ATP/FADH2. Rozlišuje sa priama tvorba ATP a ATP ekvivalenty po reoxidácii koenzýmov. Revízia pokrýva iba 45 odložených záznamov; ostatných 684 otázok sa odborne nerevidovalo.",
+  "indexPolicy": "sequences sú poradia v pôvodnej extrakcii; proposedCorrect používa indexy 0–3. Prázdne pole znamená návrh žiadnej správnej možnosti, null znamená neuzavretý kľúč. Nič sa automaticky neimportuje.",
+  "sources": {
+    "po": {
+      "title": "Todd Silverstein: The mitochondrial phosphate-to-oxygen ratio is not an integer",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21638612/"
+    },
+    "mitochondrion": {
+      "title": "Molecular Biology of the Cell: mitochondria a tvorba ATP",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    "etc": {
+      "title": "NCBI Bookshelf: Electron Transport Chain",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK526105/"
+    },
+    "fmn": {
+      "title": "ChEBI: štruktúra FMN",
+      "url": "https://www.ebi.ac.uk/chebi/CHEBI:17621"
+    },
+    "acyl_transfer": {
+      "title": "IUBMB EC 2.3.1.8: tvorba acetylfosfátu z acetyl-CoA",
+      "url": "https://iubmb.qmul.ac.uk/enzyme/EC2/3/1/8.html"
+    },
+    "bonds": {
+      "title": "Energy-Rich Molecules and Group Transfer Potentials in Energetic Coupling Reactions",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12843986/"
+    },
+    "osmosis": {
+      "title": "OpenStax: pasívny transport a osmóza",
+      "url": "https://openstax.org/books/biology/pages/5-2-passive-transport"
+    },
+    "transport": {
+      "title": "Molecular Biology of the Cell: transportné proteíny a Ca2+-ATPáza",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK26896/"
+    },
+    "calcium": {
+      "title": "NCBI Bookshelf: Calcium Channels",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK562198/"
+    },
+    "signaling": {
+      "title": "Molecular Biology of the Cell: bunková signalizácia",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK26813/"
+    },
+    "receptors": {
+      "title": "The Cell: signálne molekuly a ich receptory",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK9924/"
+    },
+    "glycolysis": {
+      "title": "NCBI Bookshelf: Glycolysis",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK482303/"
+    },
+    "pgk": {
+      "title": "Molecular mechanism of glycolytic flux control intrinsic to human phosphoglycerate kinase",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8685715/"
+    },
+    "pfk": {
+      "title": "IUBMB EC 2.7.1.11: fosfofruktokináza",
+      "url": "https://iubmb.qmul.ac.uk/enzyme/EC2/7/1/11.html"
+    },
+    "gng": {
+      "title": "NCBI Bookshelf: Gluconeogenesis",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK544346/"
+    },
+    "gng_physiology": {
+      "title": "NCBI Bookshelf: Physiology, Gluconeogenesis",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK541119/"
+    },
+    "beta": {
+      "title": "A general introduction to the biochemistry of mitochondrial fatty acid beta-oxidation",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2950079/"
+    },
+    "bhb": {
+      "title": "IUBMB EC 1.1.1.30: 3-hydroxybutyrátdehydrogenáza",
+      "url": "https://iubmb.qmul.ac.uk/enzyme/EC1/1/1/30.html"
+    },
+    "acyl_amp": {
+      "title": "Mechanism of 4-Chlorobenzoate: Coenzyme A Ligase Catalysis — acyladenylát ako zmiešaný anhydrid",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3694354/"
+    },
+    "acyl_coa": {
+      "title": "IUBMB EC 6.2.1.3: aktivácia mastných kyselín",
+      "url": "https://iubmb.qmul.ac.uk/enzyme/EC6/2/1/3.html"
+    },
+    "thiolase": {
+      "title": "IUBMB EC 2.3.1.9: acetoacetyl-CoA tioláza",
+      "url": "https://iubmb.qmul.ac.uk/enzyme/EC2/3/1/9.html"
+    },
+    "lipoproteins": {
+      "title": "Endotext: štruktúra a metabolizmus lipoproteínov",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK305896/"
+    },
+    "ldl_composition": {
+      "title": "Clinical Methods: zloženie lipoproteínov vrátane TAG v LDL",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK351/"
+    },
+    "dyslipidemia": {
+      "title": "ESC/EAS: poruchy funkcie a hladín lipoproteínov",
+      "url": "https://www.escardio.org/static-file/Escardio/Guidelines/publications/DYSLIPguidelines-dyslipidemias-FT.pdf"
+    },
+    "abetalipo": {
+      "title": "GeneReviews: Abetalipoproteinemia",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK532447/"
+    },
+    "oleate": {
+      "title": "ChEBI: kyselina olejová, C18H34O2",
+      "url": "https://www.ebi.ac.uk/chebi/CHEBI:16196"
+    },
+    "gfr": {
+      "title": "KDIGO 2024: kategórie GFR",
+      "url": "https://kdigo.org/wp-content/uploads/2024/03/KDIGO-2024-CKD-Guideline.pdf"
+    },
+    "gdh": {
+      "title": "IUBMB EC 1.4.1.3: reakcia glutamátdehydrogenázy",
+      "url": "https://iubmb.qmul.ac.uk/enzyme/EC1/4/1/3.html"
+    },
+    "glud1": {
+      "title": "NCBI Gene: mitochondriálna glutamátdehydrogenáza GLUD1",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/2746"
+    },
+    "gs": {
+      "title": "IUBMB EC 6.3.1.2: glutamínsyntetáza",
+      "url": "https://iubmb.qmul.ac.uk/enzyme/EC6/3/1/2.html"
+    },
+    "ammonia": {
+      "title": "Renal Ammonia Metabolism and Transport",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4319187/"
+    },
+    "urea": {
+      "title": "NCBI Bookshelf: Physiology, Urea Cycle",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK513323/"
+    },
+    "urea_induction": {
+      "title": "Regulácia expresie enzýmov močovinového cyklu príjmom bielkovín",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31177541/"
+    },
+    "alt2": {
+      "title": "NCBI Gene: GPT2/ALT2 je mitochondriálna alaníntransamináza",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/84706/"
+    },
+    "ast1": {
+      "title": "NCBI Gene: GOT1/AST1 je cytoplazmatická aspartátaminotransferáza",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/2805"
+    },
+    "gapdh": {
+      "title": "IUBMB EC 1.2.1.12: glyceraldehyd-3-fosfátdehydrogenáza",
+      "url": "https://iubmb.qmul.ac.uk/enzyme/EC1/2/1/12.html"
+    },
+    "pyruvate_kinase": {
+      "title": "IUBMB EC 2.7.1.40: pyruvátkináza",
+      "url": "https://iubmb.qmul.ac.uk/enzyme/EC2/7/1/40.html"
+    }
+  },
+  "decisions": [
+    {
+      "sequences": [
+        7
+      ],
+      "status": "key_proposed",
+      "confidence": "vysoká v štandardnom učebnicovom modeli",
+      "proposedCorrect": [
+        1,
+        2
+      ],
+      "verdict": "B, C",
+      "reason": "Elektróny z FAD-dependentných dráh vstupujú do ubichinónového poolu; komplexy III a IV presunú spolu 6 H+. Výťažok sa bežne odhaduje na 1,5 ATP. FMN patrí k vstupu elektrónov z NADH. B je učebnicová skratka, nie tvrdenie o priamom prenose bez vnútorných prenášačov.",
+      "action": "Ponechať pôvodnú možnosť D s 2 ATP ako nesprávnu. Pri zmene D na 1,5 ATP by sa zmenil aj kľúč na B, C, D.",
+      "sourceObservation": "Na strane 1 je pri D výslovná ručná oprava na 1,5 ATP.",
+      "sourceRefs": [
+        "etc",
+        "po"
+      ]
+    },
+    {
+      "sequences": [
+        10
+      ],
+      "status": "key_proposed",
+      "confidence": "vysoká",
+      "proposedCorrect": [
+        0,
+        2
+      ],
+      "verdict": "A, C",
+      "reason": "FMN je fosforylovaný riboflavín a obsahuje ribitol aj fosfát. Zadanie hovorí obsahuje, preto je A pravdivá aj ako neúplný výpočet zložiek. Adenozín je súčasťou FAD, nie FMN.",
+      "action": "Označiť A a C; nepreberať pôvodné označenie D.",
+      "sourceRefs": [
+        "fmn"
+      ]
+    },
+    {
+      "sequences": [
+        11
+      ],
+      "status": "wording_required",
+      "confidence": "stredná pre zamýšľané C",
+      "proposedCorrect": null,
+      "verdict": "C po spresnení reakcie",
+      "reason": "Prenos acylu z acyl-CoA na anorganický fosfát skutočne môže vytvoriť acylfosfát; príkladom je reakcia fosfotransacetylázy. Formulácia fosfátu na acyl-CoA je však nepresná a nejde o definíciu samotnej väzby.",
+      "action": "Spresniť C na prenesením acylovej skupiny z acyl-CoA na anorganický fosfát. Potom je návrh kľúča C. Ak otázka skúša chemickú definíciu, použiť väzbu karboxylovej skupiny s fosfátom za vzniku zmiešaného anhydridu.",
+      "sourceRefs": [
+        "acyl_transfer"
+      ]
+    },
+    {
+      "sequences": [
+        28
+      ],
+      "status": "no_correct_option",
+      "confidence": "vysoká",
+      "proposedCorrect": [],
+      "verdict": "Žiadna možnosť",
+      "reason": "ATP obsahuje fosfoanhydridové väzby, 3-fosfoglycerát fosfoesterovú, fosfoenolpyruvát enolfosfátovú a triacylglycerol esterové väzby. Acylfosfát sa nachádza napríklad na C1 v 1,3-bisfosfoglyceráte.",
+      "action": "Ak má zostať pôvodný obsah, kľúč je prázdny. Vytlačené číslo otázky je 26, poradie v extrakcii 28. Opraviť aj gramatické zadanie na Acylfosfátovú väzbu obsahuje:.",
+      "sourceRefs": [
+        "bonds",
+        "pgk"
+      ]
+    },
+    {
+      "sequences": [
+        43
+      ],
+      "status": "no_correct_option",
+      "confidence": "vysoká",
+      "proposedCorrect": [],
+      "verdict": "Žiadna možnosť",
+      "reason": "Žiadna z uvedených zlúčenín nemá acylfosfátovú väzbu. Kreatínfosfát obsahuje fosfoamidovú väzbu; ostatné typy väzieb sú odlišné rovnako ako pri zázname 28.",
+      "action": "Ponechať ako otázku bez správnej možnosti alebo výslovne schváliť náhradu niektorej možnosti 1,3-bisfosfoglycerátom.",
+      "sourceRefs": [
+        "bonds"
+      ]
+    },
+    {
+      "sequences": [
+        57
+      ],
+      "status": "key_proposed",
+      "confidence": "vysoká",
+      "proposedCorrect": [
+        2
+      ],
+      "verdict": "C",
+      "reason": "Pri osmóze sa cez polopriepustnú membránu presúva voda ako rozpúšťadlo. A, B a pôvodná D nesprávne hovoria o presune rozpustenej látky.",
+      "action": "Označiť iba C. Ručné prepísanie D na rozpúšťadlo by bolo zmenou možnosti, nie iba opravou kľúča.",
+      "sourceRefs": [
+        "osmosis"
+      ]
+    },
+    {
+      "sequences": [
+        76,
+        162
+      ],
+      "status": "wording_required",
+      "confidence": "vysoká pre B; ostatné treba spresniť",
+      "proposedCorrect": null,
+      "verdict": "B isté; A nedokončená; C nejednoznačná",
+      "reason": "cAMP a cGMP sú druhé posly. A končí výpustkou. C neodlišuje niektoré posly od všetkých: existuje aj rozpustná guanylátcykláza. Pri D treba odlíšiť klasický jadrový účinok hormónu od neklasickej signalizácie.",
+      "action": "Návrh doplnenia A: regulačných molekúl. Pri C uviesť, či znamená všetky alebo niektoré druhé posly. Pôvodný predpoklad A, B zatiaľ nepovažovať za uzavretý kľúč.",
+      "sourceObservation": "Na strane 11 je výpustka priamo vo vytlačenom texte, nejde o chýbajúci koniec pri extrakcii.",
+      "sourceRefs": [
+        "signaling",
+        "receptors"
+      ]
+    },
+    {
+      "sequences": [
+        83,
+        169
+      ],
+      "status": "wording_required",
+      "confidence": "vysoká pre doplnenú D; stredná pre B",
+      "proposedCorrect": null,
+      "verdict": "Zamýšľané B, D po doplnení a spresnení",
+      "reason": "Klasické steroidné receptory ovplyvňujú génovú expresiu. D je nedokončená. Receptory môžu byť cytosolové aj jadrové, takže všeobecné spravidla cytosolové je zjednodušenie.",
+      "action": "Doplniť D o slovo expresie ako označený návrh rekonštrukcie. B spresniť na využívajú intracelulárne receptory v cytosole alebo jadre a otázku viazať na klasický genomický účinok. Potom B, D.",
+      "sourceRefs": [
+        "signaling",
+        "receptors"
+      ]
+    },
+    {
+      "sequences": [
+        86,
+        172
+      ],
+      "status": "wording_required",
+      "confidence": "vysoká pre B; D závisí od rozsahu",
+      "proposedCorrect": null,
+      "verdict": "Zamýšľané B, D; spresniť gradient",
+      "reason": "Transportný proteín je potrebný, ATP ani cAMP nie. Pre nenabité látky určuje smer čistého toku koncentračný gradient; pre ióny elektrochemický gradient. Pôvodná všeobecná formulácia D nie je dostatočne presná.",
+      "action": "D zmeniť na je potrebný príslušný koncentračný, pri iónoch elektrochemický gradient pre čistý tok látky. Po tejto úprave zjednotiť oba duplikáty na B, D.",
+      "sourceRefs": [
+        "transport",
+        "osmosis"
+      ]
+    },
+    {
+      "sequences": [
+        96,
+        182
+      ],
+      "status": "wording_required",
+      "confidence": "vysoká pre vysvetlenie, neuzavretý kľúč",
+      "proposedCorrect": null,
+      "verdict": "B alebo žiadna podľa významu terminálnej oxidácie",
+      "reason": "A má oxidované namiesto redukované koenzýmy. C a D používajú staré počty ATP. Reťazec čerpá protóny z matrix von, ale cez ATP-syntázu sa vracajú do matrix. B preto závisí od toho, či zadanie zahŕňa aj oxidačnú fosforyláciu.",
+      "action": "Určiť, či otázka skúša prenos elektrónov a čerpanie protónov, alebo celý spriahnutý proces. Bez toho automaticky nepriradiť ani prázdny kľúč, ani B.",
+      "sourceObservation": "Na strane 13 sú C a D prečiarknuté a doplnené hodnoty 2,5 a 1,5 ATP.",
+      "sourceRefs": [
+        "mitochondrion",
+        "po"
+      ]
+    },
+    {
+      "sequences": [
+        127,
+        213
+      ],
+      "status": "key_proposed",
+      "confidence": "vysoká pre funkciu pumpy",
+      "proposedCorrect": [
+        0
+      ],
+      "verdict": "A",
+      "reason": "SERCA premiestňuje Ca2+ z cytosolu do sarkoplazmatického retikula. Uvoľnenie Ca2+ z retikula sprostredkujú kanály, nie opačný chod tejto ATPázy.",
+      "action": "Kľúč A. Odporúčam zadanie upraviť na Ca2+-ATPáza sarkoplazmatického retikula (SERCA):, pretože spätné čerpanie Ca2+ súvisí s relaxáciou svalu.",
+      "sourceRefs": [
+        "transport",
+        "calcium"
+      ]
+    },
+    {
+      "sequences": [
+        136,
+        222
+      ],
+      "status": "key_proposed",
+      "confidence": "vysoká",
+      "proposedCorrect": [
+        0,
+        2,
+        3
+      ],
+      "verdict": "A, C, D",
+      "reason": "Ca2+ premiestňujú ATPázy aj iónové kanály. Vstup kanálmi po elektrochemickom gradiente je pasívny sprostredkovaný transport. Koncentrácia voľného Ca2+ je v cytosole nízka, mimo bunky a v ER vyššia.",
+      "action": "Zjednotiť oba výskyty na A, C, D. Pri B je vzťah koncentrácií obrátený.",
+      "sourceRefs": [
+        "calcium",
+        "transport"
+      ]
+    },
+    {
+      "sequences": [
+        259
+      ],
+      "status": "wording_required",
+      "confidence": "vysoká pre B; D závisí od významu",
+      "proposedCorrect": null,
+      "verdict": "B isté; D treba spresniť",
+      "reason": "Pečeňový glykogén uvoľňuje glukózu do krvi. Karboxylové kyseliny však zahŕňajú aj laktát a pyruvát, ktoré sú glukoneogénne. Mastné kyseliny môžu poskytovať energiu; ich párnouhlíkaté reťazce nie sú bežným čistým zdrojom uhlíka glukózy.",
+      "action": "V D výslovne rozlíšiť substrát poskytujúci uhlík a zdroj energie, aj to, či sa myslia mastné kyseliny. A a C sú v bežnom výklade nesprávne.",
+      "sourceObservation": "Na strane 34 poznámka rozlišuje VKK od ostatných karboxylových kyselín.",
+      "sourceRefs": [
+        "gng",
+        "gng_physiology"
+      ]
+    },
+    {
+      "sequences": [
+        283
+      ],
+      "status": "no_correct_option",
+      "confidence": "vysoká",
+      "proposedCorrect": [],
+      "verdict": "Žiadna možnosť",
+      "reason": "1,3-bisfosfoglycerát má acylfosfátovú väzbu na C1 a fosfomonoesterovú na C3. Ponuka zamieňa uhlíky aj typ väzby; makroergická je iba jedna z týchto dvoch väzieb.",
+      "action": "Ponechať prázdny kľúč alebo schváliť presnú opravu niektorej možnosti. Nepovažovať absenciu značiek automaticky za chybu extrakcie.",
+      "sourceRefs": [
+        "bonds",
+        "pgk"
+      ]
+    },
+    {
+      "sequences": [
+        284
+      ],
+      "status": "no_correct_option",
+      "confidence": "vysoká v zvolenom učebnicovom modeli",
+      "proposedCorrect": [],
+      "verdict": "Žiadna možnosť v modernom modeli",
+      "reason": "Pri štandardnom aeróbnom spracovaní glukózy glykolýza končí pyruvátom; tvorba acetyl-CoA a CO2 patrí k následnej reakcii. Dva cytosolové NADH predstavujú približne 3 alebo 5 ATP podľa člnka, nie uvedené 4.",
+      "action": "Ak chceš zachovať zamýšľanú správnu D, prepísať ju na približne 3 alebo 5 ATP podľa člnka. Jasne odlíšiť glykolýzu od následnej oxidácie pyruvátu.",
+      "sourceObservation": "Na strane 37 je pri D dodatočná ručná oprava na 5.",
+      "sourceRefs": [
+        "glycolysis",
+        "mitochondrion"
+      ]
+    },
+    {
+      "sequences": [
+        292
+      ],
+      "status": "no_correct_option",
+      "confidence": "vysoká pre ľudskú PFK-1",
+      "proposedCorrect": [],
+      "verdict": "Žiadna možnosť",
+      "reason": "PFK-1 tvorí fruktóza-1,6-bisfosfát v reakcii fyziologicky nevratnej. Obchádzajúci enzým je fruktóza-1,6-bisfosfatáza. Nedostatok glukózy nie je všeobecným aktivačným signálom uvedeným v D.",
+      "action": "V zadaní odporúčam uviesť PFK-1. Kľúč pre pôvodné možnosti zostáva prázdny.",
+      "sourceRefs": [
+        "pfk",
+        "pgk",
+        "gng"
+      ]
+    },
+    {
+      "sequences": [
+        293
+      ],
+      "status": "wording_required",
+      "confidence": "vysoká pre bilanciu; A závisí od rozsahu",
+      "proposedCorrect": null,
+      "verdict": "Žiadna vrátane reoxidácie NADH; A pri samotnom priamom ATP",
+      "reason": "Premena jedného glyceraldehyd-3-fosfátu po 3-fosfoglycerát dá 1 ATP priamo a 1 NADH. Po jeho reoxidácii je to približne 2,5 alebo 3,5 ATP spolu. Priama tvorba ATP je však rovnaká aj bez kyslíka, čo pripúšťa iný výklad A.",
+      "action": "Výslovne uviesť, že sa započítava aj reoxidácia NADH; vtedy pôvodné možnosti nemajú správnu odpoveď. Pre obnovenie zamýšľanej B uviesť 1 ATP priamo a približne 1,5 alebo 2,5 ATP z NADH podľa člnka.",
+      "sourceObservation": "Na strane 38 je pri B oprava 3 na 2,5 a pri C poznámka 3,5.",
+      "sourceRefs": [
+        "gapdh",
+        "pgk",
+        "po"
+      ]
+    },
+    {
+      "sequences": [
+        294
+      ],
+      "status": "wording_required",
+      "confidence": "stredná pre znenie vznikajú",
+      "proposedCorrect": null,
+      "verdict": "A, ak sa ráta medziprodukt; nie ako konečný produkt",
+      "reason": "Z glukózy vzniknú dva pyruváty ako medziprodukty. Pri úplnej oxidácii sa ďalej spotrebujú. B má nesprávnu cytosolovú lokalizáciu a C/D uvádzajú neplatné energetické počty pre modernú bilanciu.",
+      "action": "Spresniť A na ako medziprodukt vznikajú 2 mol pyruvátu na 1 mol glukózy. Potom A. Ak sa pýta na konečné produkty, pôvodná A nie je správnou odpoveďou.",
+      "sourceRefs": [
+        "glycolysis",
+        "mitochondrion"
+      ]
+    },
+    {
+      "sequences": [
+        295
+      ],
+      "status": "no_correct_option",
+      "confidence": "vysoká",
+      "proposedCorrect": [],
+      "verdict": "Žiadna možnosť",
+      "reason": "Glukogénne aminokyseliny poskytujú uhlíkové kostry po metabolizme dusíka. Netreba ich všeobecne meniť na hydroxykyseliny ani používať LDH. Pri hladovaní je dôležitá proteolýza svalu; pečeň nie je hlavné miesto uvedené v B.",
+      "action": "Ponechať prázdny kľúč. Ak sa otázka bude prepisovať, odlíšiť proteolýzu v tkanivách od ďalšieho spracovania aminokyselín v pečeni.",
+      "sourceRefs": [
+        "gng_physiology"
+      ]
+    },
+    {
+      "sequences": [
+        297
+      ],
+      "status": "wording_required",
+      "confidence": "vysoká pre bilanciu, neuzavretý rozsah otázky",
+      "proposedCorrect": null,
+      "verdict": "A pri priamom čistom zisku; inak chýba 5–7 ATP",
+      "reason": "Samotná glykolýza poskytne čisté 2 ATP a 2 NADH. Po započítaní reoxidácie NADH sa bežne uvádza 5 alebo 7 ATP. Zadanie neurčuje, ktorý z týchto rozsahov hodnotí.",
+      "action": "Doplniť vrátane reoxidácie cytosolového NADH a C zmeniť na približne 5 alebo 7 ATP podľa člnka; potom C. Alternatívne sa výslovne pýtať na čistý priamy zisk a ponechať A.",
+      "sourceObservation": "Na strane 39 je 8 ATP prečiarknuté a nahradené hodnotou 7.",
+      "sourceRefs": [
+        "glycolysis",
+        "po"
+      ]
+    },
+    {
+      "sequences": [
+        342
+      ],
+      "status": "wording_required",
+      "confidence": "vysoká pre rozdiel hrubej a čistej tvorby",
+      "proposedCorrect": null,
+      "verdict": "B hrubá tvorba, C čistý zisk; pôvodné D nie",
+      "reason": "Na glukózu sa substrátovou fosforyláciou vytvoria 4 ATP, ale 2 ATP sa predtým spotrebujú. B a C nerozlišujú tieto veličiny. Dva NADH nedávajú v zvolenom modeli uvedených 6 ATP.",
+      "action": "V B napísať hrubú tvorbu 4 ATP a v C čistý zisk 2 ATP. Po týchto úpravách sú B aj C správne. D buď ponechať nepravdivú, alebo osobitne schváliť jej opravu.",
+      "sourceObservation": "Na strane 45 je pri D ručne zmenených 6 na 5 ATP.",
+      "sourceRefs": [
+        "glycolysis",
+        "po"
+      ]
+    },
+    {
+      "sequences": [
+        351
+      ],
+      "status": "wording_required",
+      "confidence": "vysoká pre potrebu určiť koncový metabolit",
+      "proposedCorrect": null,
+      "verdict": "Bez určenia úseku nemá jednoznačný kľúč",
+      "reason": "Samotná reakcia GAPDH tvorí NADH, nie ATP. Úsek po 3-fosfoglycerát zahŕňa 1 ATP, kým úsek po pyruvát zahŕňa 2 ATP substrátovou fosforyláciou na jeden glyceraldehyd-3-fosfát. Zadanie tieto úseky nerozlišuje.",
+      "action": "Uviesť presný koncový metabolit a či sa ráta reoxidácia NADH. A by zodpovedala úseku po 3-fosfoglycerát; D používa starú bilanciu.",
+      "sourceRefs": [
+        "gapdh",
+        "pgk",
+        "pyruvate_kinase",
+        "po"
+      ]
+    },
+    {
+      "sequences": [
+        356
+      ],
+      "status": "wording_required",
+      "confidence": "vysoká pre bilanciu, neuzavretý rozsah otázky",
+      "proposedCorrect": null,
+      "verdict": "Rovnaký problém ako 297: 2 ATP priamo alebo 5–7 vrátane NADH",
+      "reason": "Ponuka 6–8 ATP používa staré výťažky. Pôvodné A môže byť správne len pri čistom priamom zisku glykolýzy. Navyše zadanie obsahuje preklep pre pyruvát.",
+      "action": "Zjednotiť význam so záznamom 297, opraviť pre na po a jednoznačne uviesť rozsah bilancie. Pri započítaní reoxidácie nahradiť C hodnotou približne 5 alebo 7 ATP.",
+      "sourceObservation": "Na strane 47 je pri C výslovná ručná oprava na 5–7.",
+      "sourceRefs": [
+        "glycolysis",
+        "po"
+      ]
+    },
+    {
+      "sequences": [
+        357
+      ],
+      "status": "wording_required",
+      "confidence": "stredná pre zamýšľané A",
+      "proposedCorrect": null,
+      "verdict": "A je pravdepodobný zámer, chýba porovnanie",
+      "reason": "Mitochondriálne využitie mastných kyselín je závislé od aeróbneho metabolizmu. Samotné aeróbne podmienky však neznamenajú, že sa v každej bunke musí zvýšiť utilizácia tukov; závisí od tkaniva a metabolického stavu.",
+      "action": "Nahradiť všeobecné zvýšenie tvrdením, že v bunkách s mitochondriami aeróbne podmienky umožňujú oxidáciu mastných kyselín. Potom možno označiť A.",
+      "sourceRefs": [
+        "beta"
+      ]
+    },
+    {
+      "sequences": [
+        424
+      ],
+      "status": "wording_required",
+      "confidence": "vysoká po oprave počtu ATP",
+      "proposedCorrect": null,
+      "verdict": "Po oprave zadania A, C",
+      "reason": "Acyl-CoA dehydrogenáza používa FAD a vytvára enoyl-CoA. Elektróny sa prenášajú cez ETF do reťazca. Pôvodné zadanie je postavené na starom výťažku 2 ATP z FAD-dependentného kroku.",
+      "action": "V zadaní nahradiť dve molekuly ATP formuláciou približne 1,5 ATP; potom je návrh A, C. Úpravu zadania uviesť výslovne.",
+      "sourceObservation": "Na strane 55 je táto zmena na 1,5 rukou zapísaná.",
+      "sourceRefs": [
+        "beta",
+        "po"
+      ]
+    },
+    {
+      "sequences": [
+        440
+      ],
+      "status": "wording_required",
+      "confidence": "vysoká pre chemický rozdiel",
+      "proposedCorrect": null,
+      "verdict": "B závisí od toho, či ketónová povaha znamená ketolátku",
+      "reason": "Beta-hydroxybutyrát sa fyziologicky zaraďuje medzi ketolátky, ale chemicky neobsahuje ketónovú skupinu. Jeho prvým krokom utilizácie je oxidácia na acetoacetát s NAD+. A, C a D nepopisujú tieto reakcie správne.",
+      "action": "B spresniť buď na patrí medzi ketolátky (pravdivé), alebo obsahuje ketónovú funkčnú skupinu (nepravdivé). Až potom rozhodnúť medzi B a prázdnym kľúčom.",
+      "sourceObservation": "Na strane 58 je pri B krížik a poznámka o chýbajúcej keto-skupine.",
+      "sourceRefs": [
+        "bhb",
+        "beta"
+      ]
+    },
+    {
+      "sequences": [
+        441
+      ],
+      "status": "key_proposed",
+      "confidence": "vysoká pre chemickú štruktúru",
+      "proposedCorrect": [
+        0,
+        2
+      ],
+      "verdict": "A, C — ručnú zmenu A nepreberať",
+      "reason": "Medziproduktom aktivácie je acyl-AMP: zmiešaný anhydrid karboxylátu a fosfátu AMP, teda acylfosfátový typ väzby. Tioesterová väzba sa vytvorí až v produkte acyl-CoA. B nesprávne uvádza fosfodiester a D zamieňa medziprodukt s produktom.",
+      "action": "Zachovať A, C. Pre presnosť možno A prepísať na vzniká acyladenylát so zmiešanou anhydridovou väzbou. Rukou dopísaná tioesterová nezodpovedá acyl-AMP.",
+      "sourceObservation": "Na strane 58 je pri A ručne dopísané tioesterová; táto oprava je predmetom nesúhlasu s mechanizmom.",
+      "sourceRefs": [
+        "acyl_amp",
+        "acyl_coa"
+      ]
+    },
+    {
+      "sequences": [
+        442
+      ],
+      "status": "key_proposed",
+      "confidence": "vysoká v modernom modeli",
+      "proposedCorrect": [
+        0,
+        1
+      ],
+      "verdict": "A, B",
+      "reason": "FAD-dependentná acyl-CoA dehydrogenáza tvorí enoyl-CoA a odovzdáva elektróny cez ETF/ETFDH na ubichinón. Hydratáza nie je NAD-dependentná dehydrogenáza. V pôvodnej D je starý výťažok 3 ATP/NADH.",
+      "action": "Pôvodný kľúč navrhujem A, B. Ak sa v D výslovne nahradia 3 ATP približnými 2,5 ATP, pribudne aj D.",
+      "sourceRefs": [
+        "beta",
+        "po"
+      ]
+    },
+    {
+      "sequences": [
+        446
+      ],
+      "status": "key_proposed",
+      "confidence": "stredná pre zjednodušený názov enzýmu",
+      "proposedCorrect": [
+        1
+      ],
+      "verdict": "B",
+      "reason": "Tiolázy štiepia beta-ketoacyl-CoA za účasti CoA. Nevytvárajú priamo mevalonát, nie sú súčasťou pyruvátdehydrogenázového komplexu a pri ketogenéze netvoria uvedený glutaryl-CoA.",
+      "action": "Návrh B. Odporúčam zjednotiť názov na beta-ketotioláza a odlíšiť konkrétne izoenzýmy od všeobecnej reakcie.",
+      "sourceRefs": [
+        "thiolase",
+        "beta"
+      ]
+    },
+    {
+      "sequences": [
+        472
+      ],
+      "status": "wording_required",
+      "confidence": "vysoká po doplnení D",
+      "proposedCorrect": null,
+      "verdict": "Po doplnení D: A, B, D",
+      "reason": "Voľný cholesterol patrí k povrchu lipoproteínu a TAG s cholesterylestermi tvoria hydrofóbne jadro. Apolipoproteíny umožňujú fungovanie častice vo vodnom prostredí. D však nemá dokončenú vetu.",
+      "action": "Návrh rekonštrukcie D: apolipoproteíny svojimi hydrofilnými časťami umožňujú transport lipidov v krvnej plazme. Je to návrh doplnenia, nie doslovný prepis chýbajúcej časti PDF.",
+      "sourceRefs": [
+        "lipoproteins"
+      ]
+    },
+    {
+      "sequences": [
+        476
+      ],
+      "status": "wording_required",
+      "confidence": "nízka pre pôvodný skúškový kľúč",
+      "proposedCorrect": null,
+      "verdict": "Bez doplnenia C a vyjasnenia terminológie neuzatvárať",
+      "reason": "V zdroji sa rozlišuje dyslipoproteinémia ako kvalitatívna zmena a hyperlipoproteinémia ako kvantitatívna. Súčasné používanie pojmu dyslipidémia je širšie. C je nedokončená; samotné zníženie beta-frakcie v D ešte nie je presná definícia abetalipoproteinémie.",
+      "action": "Doplniť celé C podľa materiálu. Pri A potvrdiť terminológiu predmetu. Pri D uviesť výrazné až takmer úplné chýbanie apoB-lipoproteínov v príslušnom ochorení; nerozširovať diagnózu na každé zníženie frakcie.",
+      "sourceObservation": "Na strane 62 je pri A poznámka kvalitatívne a hyper, pri B genetika. Pôvodne označené C, D preto nemožno bez vysvetlenia nahradiť moderným A, C, D.",
+      "sourceRefs": [
+        "dyslipidemia",
+        "abetalipo"
+      ]
+    },
+    {
+      "sequences": [
+        490
+      ],
+      "status": "wording_required",
+      "confidence": "vysoká pre chybu v zamýšľanej B",
+      "proposedCorrect": null,
+      "verdict": "Pôvodné A, B nemožno bezpečne prevziať",
+      "reason": "B je nedokončená; rukou je doplnené TAG. LDL však menšie množstvo TAG obsahujú. LDL vznikajú metabolizmom VLDL/IDL a ich hlavným lipidovým nákladom je cholesterol, nie endogénne TAG. A treba anatomicky spresniť.",
+      "action": "Prepísať A na vznikajú v cirkulácii metabolizmom VLDL cez IDL. B nahradiť dokončeným a vecne správnym tvrdením o zložení LDL; až následne vytvoriť nový kľúč.",
+      "sourceObservation": "Na strane 64 je za výpustkou v B rukou dopísané TAG.",
+      "sourceRefs": [
+        "lipoproteins",
+        "ldl_composition"
+      ]
+    },
+    {
+      "sequences": [
+        514
+      ],
+      "status": "wording_required",
+      "confidence": "vysoká pre C18:1, stredná pre výklad B",
+      "proposedCorrect": null,
+      "verdict": "Žiadna pri celkovom počte C; B je terminologicky nepresná",
+      "reason": "Kyselina olejová je neesenciálna mononenasýtená C18:1. Celá molekula má 18 uhlíkov, uhľovodíkový zvyšok bez karboxylového uhlíka má 17. B hovorí iba v reťazci. Hodnota 24 ATP nezodpovedá štandardnej úplnej bilancii ani celej beta-oxidácii.",
+      "action": "B spresniť na má celkovo 17 atómov uhlíka v molekule; potom sú všetky možnosti nesprávne. Ak sa má skúšať uhľovodíkový zvyšok, výslovne to pomenovať.",
+      "sourceRefs": [
+        "oleate",
+        "beta",
+        "po"
+      ]
+    },
+    {
+      "sequences": [
+        520
+      ],
+      "status": "wording_required",
+      "confidence": "vysoká pre C18:1, stredná pre výklad B",
+      "proposedCorrect": null,
+      "verdict": "Rovnaký problém ako 514",
+      "reason": "Od záznamu 514 sa líši iba slovesom v D. Rozlíšenie 18 uhlíkov v molekule a 17 v uhľovodíkovom zvyšku treba vyriešiť rovnako v oboch otázkach.",
+      "action": "Zjednotiť opravu s otázkou 514; nepriradiť rozdielne kľúče takmer rovnakým zneniam.",
+      "sourceRefs": [
+        "oleate"
+      ]
+    },
+    {
+      "sequences": [
+        605
+      ],
+      "status": "no_correct_option",
+      "confidence": "vysoká pre nesúlad uvedených pásiem",
+      "proposedCorrect": [],
+      "verdict": "Žiadna možnosť",
+      "reason": "Po prepočte na ml/min sú pásma približne 78–168, 20–40, 60–80 a menej než 20. Priradené stupne poruchy sú nesprávne. KDIGO rozlišuje 60–89 ako mierny pokles, 30–44 ako stredne ťažký až ťažký a 15–29 ako ťažký pokles.",
+      "action": "Pre presné nové znenie uviesť indexáciu na 1,73 m² a zvolenú klasifikáciu. Samotné číslo GFR bez kontextu a trvania nepostačuje na diagnózu CKD.",
+      "sourceRefs": [
+        "gfr"
+      ]
+    },
+    {
+      "sequences": [
+        685
+      ],
+      "status": "no_correct_option",
+      "confidence": "vysoká",
+      "proposedCorrect": [],
+      "verdict": "Žiadna možnosť",
+      "reason": "Oxidačná deaminácia spotrebúva glutamát a oxidovaný NAD(P)+, tvorí 2-oxoglutarát a amoniak. NADPH nie je požadovaný oxidant. B zamieňa oxalacetát s 2-oxoglutarátom, C nesprávne vyžaduje O2 aj cytosolovú lokalizáciu a D inzulín nie je podmienkou reakcie.",
+      "action": "Kľúč pre vytlačené možnosti je prázdny. Oprava iba slova cytosólová v C nestačí, pretože ostáva nesprávna požiadavka na O2 ako priamy substrát.",
+      "sourceRefs": [
+        "gdh",
+        "glud1"
+      ]
+    },
+    {
+      "sequences": [
+        686
+      ],
+      "status": "wording_required",
+      "confidence": "vysoká pre A a mechanizmus B; C spresniť",
+      "proposedCorrect": null,
+      "verdict": "A isté; po oprave B; C nemožno bez vysvetlenia odmietnuť",
+      "reason": "Prenášačom je glutamín, amid kyseliny glutámovej. Vzniká glutamínsyntetázou za spotreby ATP. V obličkách je aj substrátom amoniogenézy podporujúcej vylučovanie kyselín, takže voľné tvrdenie C o neutralizácii moča je nepresné, ale má biochemický základ.",
+      "action": "V B opraviť glutamínsyntázu na glutamínsyntetázu. C formulovať ako substrát na tvorbu NH4+ pri renálnom vylučovaní kyselín; po tejto úprave by návrh bol A, B, C. Pôvodné A, B nepreberať bez vyriešenia C.",
+      "sourceObservation": "Na strane 89 sa ručná poznámka týka názvu syntetáza oproti syntáza.",
+      "sourceRefs": [
+        "gs",
+        "ammonia"
+      ]
+    },
+    {
+      "sequences": [
+        704
+      ],
+      "status": "no_correct_option",
+      "confidence": "vysoká v štandardnom výklade močovinového cyklu",
+      "proposedCorrect": [],
+      "verdict": "Žiadna možnosť",
+      "reason": "Močovinový cyklus energiu spotrebúva: 3 ATP, spolu 4 makroergické fosfátové väzby. Expresia jeho enzýmov sa môže zvýšiť pri vyššom príjme bielkovín. Poškodenie obličiek samo osebe nie je dôvodom zvýšeného vylučovania močoviny.",
+      "action": "Ponechať prázdny kľúč. Pri B sa konštitučné chápe v učebnicovom protiklade k regulovateľnej expresii, nie ako tvrdenie, že v pečeni nie je bazálna expresia.",
+      "sourceRefs": [
+        "urea",
+        "urea_induction"
+      ]
+    },
+    {
+      "sequences": [
+        724
+      ],
+      "status": "wording_required",
+      "confidence": "vysoká pre B a existenciu ALT2; neuzavretý kľúč",
+      "proposedCorrect": null,
+      "verdict": "B isté; C a D závisia od presného významu",
+      "reason": "AST má cytosolovú formu. Existuje aj mitochondriálna ALT2/GPT2, preto nemožno C odmietnuť iba poučkou ALT je cytosolová. D môže znamenať enzýmy merané v plazme alebo fyziologicky plazmatické enzýmy; tieto významy nie sú totožné.",
+      "action": "Rozlíšiť ALT1 od ALT2 a pri D uviesť merateľnosť aktivity po uvoľnení z buniek. Dovtedy nevytvárať definitívny skúškový kľúč B, B+C ani B+D.",
+      "sourceObservation": "Na strane 94 sú na okraji ručné písmená b a d; nejde o jednoznačné bodky pri možnostiach.",
+      "sourceRefs": [
+        "ast1",
+        "alt2",
+        "glud1"
+      ]
+    }
+  ]
+}

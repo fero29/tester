@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>LFUK tester - Inteligentné testovanie</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css', v=app_version) }}">
 </head>
-<body>
+<body data-admin="{{ 'true' if is_admin else 'false' }}" data-version="{{ app_version }}">
     <div class="container">
         <div class="app-header">
             <h1 onclick="backToList()" style="cursor: pointer;" title="Späť na hlavnú stránku">LFUK tester</h1>
-            <span class="version-badge" onclick="showVersionInfo()" style="cursor: pointer;" title="Kliknite pre info">v1.6.5</span>
+            <span class="version-badge" onclick="showVersionInfo()" style="cursor: pointer;" title="Kliknite pre info">v{{ app_version }}</span>
         </div>
 
         <!-- Zoznam testov -->
@@ -19,7 +20,17 @@
                 <h2>Dostupné testy</h2>
                 <div>
                     <button onclick="showHelpPage()" class="btn-info btn-small">📖 Návod</button>
-                    <button onclick="showAIImportPage()" class="btn-ai-import btn-small" style="display: none;">🤖 AI Import</button>
+                    {% if is_admin %}
+                    <button onclick="showAIImportPage()" class="btn-ai-import btn-small">🤖 AI Import</button>
+                    <button onclick="showImportPage()" class="btn-small">Import JSON</button>
+                    <a href="/admin/stats" class="admin-link">Štatistiky návštev</a>
+                    <form action="/admin/logout" method="post" class="logout-form">
+                        <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+                        <button type="submit" class="btn-secondary btn-small">Odhlásiť</button>
+                    </form>
+                    {% else %}
+                    <a href="/admin/login" class="admin-link">Správa testov</a>
+                    {% endif %}
                     <button onclick="startMultipleTests()" class="btn-multi" id="startMultiBtn" style="display: none;">
                         Spustiť vybrané testy
                     </button>
@@ -35,7 +46,37 @@
 
         <!-- Verzia Info -->
         <div id="versionPage" style="display: none;">
-            <h2>ℹ️ LFUK tester v1.6.5</h2>
+            <h2>ℹ️ LFUK tester v{{ app_version }}</h2>
+
+            <div class="help-section">
+                <h3>🆕 Novinky v1.7.0</h3>
+                <ul>
+                    <li>Úpravy a import spravuje prihlásený správca. Zmeny sa ukladajú až po potvrdení, s ochranou pred prepísaním iným oknom.</li>
+                    <li>Import neprepisuje existujúce testy. Pred úpravou a odstránením vzniká záloha.</li>
+                    <li>Opravené časové limity, ukladanie výsledkov slovíčok a opakovanie nesprávnych odpovedí.</li>
+                </ul>
+            </div>
+            <div class="help-section">
+                <h3>🆕 Novinky v1.6.8</h3>
+                <ul>
+                    <li><strong>Čitateľné odpovede v tmavom režime</strong> — označené odpovede rešpektujú aj systémovú tému. Lepší kontrast správnych odpovedí počas testu aj vo výsledkoch.</li>
+                </ul>
+            </div>
+
+            <div class="help-section">
+                <h3>🆕 Novinky v1.6.7</h3>
+                <ul>
+                    <li><strong>Biochémia v 2. ročníku</strong> — testy pre týždne 01–12 s popisom tém a samostatný test „Na zaradenie“. Spolu 684 otázok.</li>
+                </ul>
+            </div>
+
+            <div class="help-section">
+                <h3>🆕 Novinky v1.6.6</h3>
+                <ul>
+                    <li>🎓 <strong>Filter podľa ročníka</strong> — najprv vyber 1. alebo 2. ročník, potom predmet. Výber sa pamätá medzi návštevami.</li>
+                    <li>Testy bez uvedeného ročníka sa zobrazujú v 1. ročníku.</li>
+                </ul>
+            </div>
 
             <div class="help-section">
                 <h3>🆕 Novinky v1.6.5</h3>
@@ -414,11 +455,12 @@
             <h2>📖 Návod na použitie</h2>
 
             <div class="help-section">
-                <h3>📂 Zoznam testov a kategórie</h3>
+                <h3>📂 Ročníky, predmety a testy</h3>
                 <ul>
-                    <li>Hore sú <strong>filter tlačidlá</strong>: <em>Všetky</em>, <em>Biológia</em>, <em>Latinčina</em>, <em>Histológia</em> (a prípadne <em>Iné</em>)</li>
-                    <li>Klikni na konkrétnu kategóriu → uvidíš len jej testy. <em>Všetky</em> zobrazí všetko zoskupené pod nadpismi.</li>
-                    <li>Výber kategórie sa pamätá medzi návštevami</li>
+                    <li>Najprv vyber <strong>1. ročník</strong> alebo <strong>2. ročník</strong>. Pod ním sa zobrazia predmety daného ročníka.</li>
+                    <li>Klikni na predmet → uvidíš len jeho testy. <em>Všetky</em> zobrazí testy vybraného ročníka zoskupené podľa predmetov.</li>
+                    <li>Výber ročníka a predmetu sa pamätá medzi návštevami. Pri zmene ročníka sa zobrazia všetky jeho predmety.</li>
+                    <li>Čísla pri filtroch udávajú počet testov. Ročník bez testov zatiaľ nemá žiadne predmety.</li>
                     <li>Kategória sa určuje automaticky z názvu súboru. Ak chceš zaradiť test do inej kategórie, pridaj do JSON pole <code>"category": "Anatómia"</code> a daný názov sa objaví ako nový tab.</li>
                 </ul>
             </div>
@@ -483,7 +525,7 @@
                     <li>Pri teste klikni <strong>"✏️ Upraviť"</strong></li>
                     <li>Môžeš meniť <strong>otázky, odpovede aj správnu odpoveď</strong> (alebo viaceré správne)</li>
                     <li>Premenovanie testu zmení aj názov súboru na disku (ak nový názov nekoliduje)</li>
-                    <li>Zmeny sa <strong>ukladajú automaticky</strong></li>
+                    <li>Zmeny potvrď tlačidlom <strong>Uložiť zmeny</strong>. Pri odchode ťa aplikácia upozorní na neuložené úpravy.</li>
                 </ol>
             </div>
 
@@ -530,7 +572,7 @@
 
             <div class="import-section danger-section">
                 <h3>Vymazať testy</h3>
-                <button onclick="clearTests()" class="btn-danger">🗑️ Vymazať všetky testy</button>
+
             </div>
 
             <button onclick="backToList()" class="btn-secondary">← Späť na zoznam testov</button>
@@ -726,6 +768,10 @@
                         <label>Popis testu:</label>
                         <input type="text" id="aiTestDesc" class="ai-input" placeholder="Voliteľný popis testu">
 
+                        <label for="aiTestYear">Ročník:</label>
+                        <select id="aiTestYear" class="ai-input"><option value="1">1. ročník</option><option value="2">2. ročník</option></select>
+                        <label for="aiTestCategory">Predmet:</label>
+                        <input id="aiTestCategory" class="ai-input" placeholder="Odvodiť z názvu testu">
                         <label>Názov súboru (bez .json):</label>
                         <input type="text" id="newTestFileName" class="ai-input" placeholder="napr. Bio CAP 6">
                     </div>
@@ -752,19 +798,28 @@
                 <div class="ai-suggestions">
                     <div class="suggestion-row">
                         <label>Názov testu:</label>
-                        <input type="text" id="editTestTitle" class="ai-input" oninput="triggerAutosave()">
+                        <input type="text" id="editTestTitle" class="ai-input" oninput="markEditorDirty()">
                     </div>
                     <div class="suggestion-row">
                         <label>Popis:</label>
-                        <input type="text" id="editTestDesc" class="ai-input" oninput="triggerAutosave()">
+                        <input type="text" id="editTestDesc" class="ai-input" oninput="markEditorDirty()">
                     </div>
                 </div>
 
-                <h3>Otázky</h3>
+                <div class="suggestion-row">
+                    <label for="editTestYear">Ročník:</label>
+                    <select id="editTestYear" class="ai-input" onchange="markEditorDirty()"><option value="1">1. ročník</option><option value="2">2. ročník</option></select>
+                </div>
+                <div class="suggestion-row">
+                    <label for="editTestCategory">Predmet:</label>
+                    <input id="editTestCategory" class="ai-input" oninput="markEditorDirty()" placeholder="Odvodiť z názvu testu">
+                </div>
+                <p id="editorSaveStatus" role="status"></p>
+                <h3>Otázky / slovíčka</h3>
                 <div id="editQuestionsContainer" class="ai-questions-container"></div>
 
                 <div style="display: flex; gap: 10px; margin-top: 15px; flex-wrap: wrap;">
-                    <button onclick="addEditQuestion()" class="btn-secondary">➕ Pridať otázku</button>
+                    <button id="addEditQuestionBtn" onclick="addEditQuestion()" class="btn-secondary">➕ Pridať otázku</button>
                     <button onclick="saveEditedTest()" class="btn-success">💾 Uložiť zmeny</button>
                     <button onclick="deleteCurrentTest()" class="btn-danger">🗑️ Odstrániť test</button>
                 </div>
@@ -1044,6 +1099,10 @@
         <span class="icon-moon">🌙</span>
     </button>
 
-    <script src="{{ url_for('static', filename='app.js') }}?v=1.5.6"></script>
+    <script src="{{ url_for('static', filename='app.js', v=app_version) }}?v=1.5.6"></script>
+    {% if cf_analytics_token %}
+    <script defer src='https://static.cloudflareinsights.com/beacon.min.js'
+            data-cf-beacon='{"token": "{{ cf_analytics_token }}"}'></script>
+    {% endif %}
 </body>
 </html>

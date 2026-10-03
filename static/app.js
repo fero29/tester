@@ -1,13 +1,49 @@
-console.log('LFUK tester v1.6.5 loaded - Claude Sonnet 4.6 vision');
+console.log('LFUK tester ' + document.body.dataset.version);
+const isAdmin = document.body.dataset.admin === 'true';
+
+function apiFetch(url, options = {}) {
+    const headers = new Headers(options.headers);
+    if (options.method && !['GET', 'HEAD'].includes(options.method.toUpperCase())) {
+        headers.set('X-CSRF-Token', document.querySelector('meta[name="csrf-token"]').content);
+    }
+    return fetch(url, {...options, headers});
+}
+
+function savedResults() {
+    try {
+        const results = JSON.parse(localStorage.getItem('testResults') || '[]');
+        return Array.isArray(results) ? results.filter(r => r && typeof r.testName === 'string' && Number.isFinite(r.percentage)) : [];
+    } catch { return []; }
+}
+
+// === ANALYTICS TRACKING ===
+function track(event, data) {
+    try {
+        const payload = JSON.stringify(Object.assign({event}, data || {}));
+        if (navigator.sendBeacon) {
+            const blob = new Blob([payload], {type: 'application/json'});
+            navigator.sendBeacon('/api/track', blob);
+        } else {
+            fetch('/api/track', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: payload,
+                keepalive: true
+            }).catch(() => {});
+        }
+    } catch (e) { /* never break the app */ }
+}
+// Page view on load
+window.addEventListener('load', () => track('page_view'));
 let tests = [];
 let currentTest = null;
+let testStartTime = null;
 let currentQuestionIndex = 0;
 let userAnswers = [];
 let selectedTestIndex = null;
 let testMode = 'test'; // 'test' alebo 'learn'
 let timerInterval = null;
 let timeLeft = 0;
-let testStartTime = null;
 let showAnswersMode = ['each']; // Array: 'each', 'end', 'retry' - môže obsahovať viac hodnôt
 let questionAnswered = false; // Pre režim 'each' - či už bola ukázaná odpoveď
 let retryStatisticsSaved = false; // Či už boli uložené štatistiky pre retry mode (pri prvom odovzdaní)
@@ -159,7 +195,7 @@ function updateThemeIcon(theme) {
 function setupNavigationProtection() {
     // Varovanie pri opustení stránky počas aktívneho testu
     window.addEventListener('beforeunload', function(e) {
-        if (currentTest !== null) {
+        if ((currentTest !== null && document.getElementById('testInterface').style.display !== 'none') || (currentVocabTest !== null && document.getElementById('vocabTestInterface').style.display !== 'none') || editorDirty) {
             e.preventDefault();
             e.returnValue = 'Test je aktívny. Naozaj chcete opustiť stránku?';
             return e.returnValue;
@@ -221,7 +257,7 @@ async function loadTests(forceRefresh = false) {
 
 async function checkForUpdates(cachedMeta) {
     try {
-        const response = await fetch('/api/tests/meta');
+        const response = await apiFetch('/api/tests/meta');
         const serverMeta = await response.json();
 
         // Porovnať hash-e
@@ -263,13 +299,15 @@ async function fetchAllTests() {
         }
 
         // Stiahnuť testy
-        const [testsResponse, metaResponse] = await Promise.all([
-            fetch('/api/tests'),
-            fetch('/api/tests/meta')
-        ]);
-
-        tests = await testsResponse.json();
-        const meta = await metaResponse.json();
+        const testsResponse = await apiFetch('/api/tests');
+        if (!testsResponse.ok) throw new Error('Server nedokázal načítať testy.');
+        const loaded = await testsResponse.json();
+        if (!Array.isArray(loaded)) throw new Error('Neplatná odpoveď servera.');
+        // Obsah a verzie musia pochádzať z tej istej odpovede. Samostatný
+        // meta request by pri súbežnej úprave mohol označiť staré dáta za nové.
+        const versions = new Map(loaded.map(test => [test.filename, test.version]));
+        const meta = Array.from(versions, ([filename, hash]) => ({filename, hash}));
+        tests = loaded;
 
         // Uložiť do IndexedDB cache
         try {
@@ -283,12 +321,21 @@ async function fetchAllTests() {
         displayTestList();
     } catch (error) {
         console.error('Chyba pri sťahovaní testov:', error);
+        if (tests.length === 0) document.getElementById('testList').textContent = 'Testy sa nepodarilo načítať. Obnovte stránku alebo kontaktujte správcu.';
     }
 }
 
+const STUDY_YEARS = [1, 2];
 const CATEGORY_ORDER = ['Biológia', 'Latinčina', 'Histológia', 'Iné'];
 const ALL_CATEGORIES = 'Všetky';
+let selectedYear = getTestYear({ year: localStorage.getItem('selectedYear') });
 let selectedCategory = localStorage.getItem('selectedCategory') || ALL_CATEGORIES;
+
+function getTestYear(test) {
+    const year = Number(test.year);
+    // Existujúce testy bez ročníka patria do prvého ročníka.
+    return STUDY_YEARS.includes(year) ? year : 1;
+}
 
 function categorizeTest(test) {
     if (test.category) return test.category;
@@ -297,6 +344,15 @@ function categorizeTest(test) {
     if (/(^|\s|\/)lat(\b|[\s\-_0-9])/.test(ref) || ref.includes('latin')) return 'Latinčina';
     if (/(^|\s|\/)bio/.test(ref) || ref.includes('kapitola')) return 'Biológia';
     return 'Iné';
+}
+
+function setSelectedYear(year) {
+    if (!STUDY_YEARS.includes(year) || selectedYear === year) return;
+    selectedYear = year;
+    selectedCategory = ALL_CATEGORIES;
+    localStorage.setItem('selectedYear', String(year));
+    localStorage.setItem('selectedCategory', selectedCategory);
+    displayTestList();
 }
 
 function setSelectedCategory(cat) {
@@ -308,16 +364,20 @@ function setSelectedCategory(cat) {
 function displayTestList() {
     const testList = document.getElementById('testList');
 
-    if (tests.length === 0) {
-        testList.innerHTML = '<p style="color: #999;">Žiadne testy. Nahrajte JSON súbor s testami.</p>';
-        return;
-    }
+    // Zachovať pôvodné indexy pre spustenie, úpravy aj zlúčenie testov.
+    const yearTests = tests.map((test, index) => ({ test, index }))
+        .filter(({ test }) => getTestYear(test) === selectedYear);
 
-    const groups = {};
-    tests.forEach((test, index) => {
+    const groups = Object.create(null);
+    yearTests.forEach(({ test, index }) => {
         const cat = categorizeTest(test);
         (groups[cat] = groups[cat] || []).push({ test, index });
     });
+    Object.values(groups).forEach(group => group.sort((a, b) => {
+        const orderA = Number.isFinite(a.test.sortOrder) ? a.test.sortOrder : Number.MAX_SAFE_INTEGER;
+        const orderB = Number.isFinite(b.test.sortOrder) ? b.test.sortOrder : Number.MAX_SAFE_INTEGER;
+        return orderA - orderB || a.index - b.index;
+    }));
 
     const presentCats = [
         ...CATEGORY_ORDER.filter(c => c in groups),
@@ -330,7 +390,7 @@ function displayTestList() {
     }
 
     const tabs = [
-        { name: ALL_CATEGORIES, count: tests.length },
+        { name: ALL_CATEGORIES, count: yearTests.length },
         ...presentCats.map(c => ({ name: c, count: groups[c].length })),
     ];
 
@@ -338,21 +398,40 @@ function displayTestList() {
         .replace(/&/g, '&amp;').replace(/"/g, '&quot;')
         .replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
-    const tabsHtml = `
-        <div class="category-tabs" id="categoryTabs">
-            ${tabs.map(t => `
+    const yearsHtml = `
+        <div class="test-filter-label" id="yearFilterLabel">Ročník</div>
+        <div class="year-tabs" id="yearTabs" role="group" aria-labelledby="yearFilterLabel">
+            ${STUDY_YEARS.map(year => `
                 <button type="button"
-                        class="category-tab ${selectedCategory === t.name ? 'active' : ''}"
-                        data-category="${escHtml(t.name)}">
-                    <span class="category-tab-name">${escHtml(t.name)}</span>
-                    <span class="category-tab-count">${t.count}</span>
+                        class="year-tab ${selectedYear === year ? 'active' : ''}"
+                        data-year="${year}"
+                        aria-pressed="${selectedYear === year}">
+                    <span>${year}. ročník</span>
+                    <span class="category-tab-count">${tests.filter(test => getTestYear(test) === year).length}</span>
                 </button>
             `).join('')}
         </div>
     `;
 
+    const tabsHtml = yearTests.length > 0 ? `
+        <div class="test-filter-label" id="categoryFilterLabel">Predmet</div>
+        <div class="category-tabs" id="categoryTabs" role="group" aria-labelledby="categoryFilterLabel">
+            ${tabs.map(t => `
+                <button type="button"
+                        class="category-tab ${selectedCategory === t.name ? 'active' : ''}"
+                        data-category="${escHtml(t.name)}"
+                        aria-pressed="${selectedCategory === t.name}">
+                    <span class="category-tab-name">${escHtml(t.name)}</span>
+                    <span class="category-tab-count">${t.count}</span>
+                </button>
+            `).join('')}
+        </div>
+    ` : '';
+
     let body;
-    if (selectedCategory === ALL_CATEGORIES) {
+    if (yearTests.length === 0) {
+        body = `<p class="test-list-empty">V ${selectedYear}. ročníku zatiaľ nie sú žiadne testy.</p>`;
+    } else if (selectedCategory === ALL_CATEGORIES) {
         body = presentCats.map(cat => `
             <section class="test-category">
                 <h2 class="test-category-header">
@@ -368,7 +447,13 @@ function displayTestList() {
             .join('');
     }
 
-    testList.innerHTML = tabsHtml + body;
+    testList.innerHTML = yearsHtml + tabsHtml + body;
+
+    document.getElementById('yearTabs').addEventListener('click', (e) => {
+        const btn = e.target.closest('.year-tab');
+        if (!btn) return;
+        setSelectedYear(Number(btn.dataset.year));
+    });
 
     const tabsEl = document.getElementById('categoryTabs');
     if (tabsEl) {
@@ -378,20 +463,21 @@ function displayTestList() {
             setSelectedCategory(btn.dataset.category);
         });
     }
+    updateMultiTestButton();
 }
 
 function renderTestListItem(test, index) {
-    const stats = getTestStatistics(test.title || 'Test ' + (index + 1));
+    const stats = getTestStatistics(test.title || 'Test ' + (index + 1), test.previousTitles);
     const filename = test.filename || '';
 
     return `
         <div class="test-item-wrapper">
-            <input type="checkbox" class="test-checkbox" id="test-${index}"
+            <input type="checkbox" class="test-checkbox" id="test-${index}" ${test.testType === 'vocabulary' ? 'disabled title="Slovíčkové testy sa spúšťajú samostatne"' : ''}
                    onchange="updateMultiTestButton()">
             <div class="test-item" onclick="showTestSettings(${index})">
                 <div class="test-main-info">
-                    <h3>${test.title || 'Test ' + (index + 1)}</h3>
-                    <p>${test.description || ''}</p>
+                    <h3>${escapeHtml(test.title || 'Test ' + (index + 1))}</h3>
+                    <p>${escapeHtml(test.description || '')}</p>
                     <p><strong>${test.testType === 'vocabulary'
                         ? (test.vocabulary ? test.vocabulary.length : 0) + ' slovíčok'
                         : (test.questions ? test.questions.length : 0) + ' otázok'}</strong></p>
@@ -417,16 +503,15 @@ function renderTestListItem(test, index) {
                     ` : '<div class="no-stats">Zatiaľ neabsolvované</div>'}
                 </div>
             </div>
-            <button class="btn-edit" onclick="event.stopPropagation(); editTest('${filename}')" title="Upraviť test">
-                ✏️ Upraviť
-            </button>
+            ${isAdmin ? `<button class="btn-edit" data-filename="${escapeHtml(filename)}" onclick="event.stopPropagation(); editTest(this.dataset.filename)" title="Upraviť test">✏️ Upraviť</button>` : ''}
         </div>
     `;
 }
 
-function getTestStatistics(testName) {
-    const results = JSON.parse(localStorage.getItem('testResults') || '[]');
-    const testResults = results.filter(r => r.testName === testName);
+function getTestStatistics(testName, previousTitles = []) {
+    const results = savedResults();
+    const names = new Set([testName, ...previousTitles]);
+    const testResults = results.filter(r => names.has(r.testName));
 
     if (testResults.length === 0) {
         return { count: 0 };
@@ -475,7 +560,7 @@ function showImportPage() {
 
 async function loadExistingTestsList() {
     try {
-        const response = await fetch('/api/tests');
+        const response = await apiFetch('/api/tests');
         const testsList = await response.json();
         const container = document.getElementById('existingTestsContent');
 
@@ -485,7 +570,7 @@ async function loadExistingTestsList() {
         }
 
         // Zoskupiť podľa filename (každý súbor môže obsahovať viac testov)
-        const fileGroups = {};
+        const fileGroups = Object.create(null);
         testsList.forEach(test => {
             const filename = test.filename || 'Neznámy súbor';
             if (!fileGroups[filename]) {
@@ -503,9 +588,9 @@ async function loadExistingTestsList() {
                 <div class="test-list-item">
                     <div style="display: flex; justify-content: space-between; align-items: center;">
                         <div>
-                            <span class="test-list-item-title">${tests[0].title || filename}</span>
+                            <span class="test-list-item-title">${escapeHtml(tests[0].title || filename)}</span>
                             <div class="test-list-item-file">
-                                📄 ${filename}
+                                📄 ${escapeHtml(filename)}
                             </div>
                         </div>
                         <div style="text-align: right;">
@@ -528,7 +613,7 @@ async function loadExistingTestsList() {
 
 async function loadFilesList() {
     try {
-        const response = await fetch('/api/list-files', {
+        const response = await apiFetch('/api/list-files', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -540,7 +625,7 @@ async function loadFilesList() {
         const filesList = document.getElementById('filesList');
 
         if (result.error) {
-            filesList.innerHTML = `<p style="color: #f44336; font-style: italic;">${result.error}</p>`;
+            filesList.innerHTML = `<p style="color: #f44336; font-style: italic;">${escapeHtml(result.error)}</p>`;
             return;
         }
 
@@ -548,7 +633,7 @@ async function loadFilesList() {
             filesList.innerHTML = `
                 <p style="margin: 10px 0; color: #666;">Nájdené súbory v priečinku <strong>testy/</strong>:</p>
                 <ul class="files-list-items">
-                    ${result.files.map(file => `<li>📄 ${file}</li>`).join('')}
+                    ${result.files.map(file => `<li>📄 ${escapeHtml(file)}</li>`).join('')}
                 </ul>
             `;
         } else {
@@ -560,13 +645,13 @@ async function loadFilesList() {
     } catch (error) {
         console.error('Chyba pri načítaní zoznamu súborov:', error);
         document.getElementById('filesList').innerHTML =
-            `<p style="color: #f44336;">Chyba: ${error}</p>`;
+            `<p style="color: #f44336;">Chyba: ${escapeHtml(error)}</p>`;
     }
 }
 
 async function loadFromFolder() {
     try {
-        const response = await fetch('/api/load-from-folder', {
+        const response = await apiFetch('/api/load-from-folder', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -612,7 +697,7 @@ async function importTests() {
     formData.append('file', file);
 
     try {
-        const response = await fetch('/api/import', {
+        const response = await apiFetch('/api/import', {
             method: 'POST',
             body: formData
         });
@@ -633,22 +718,6 @@ async function importTests() {
     }
 }
 
-async function clearTests() {
-    if (!confirm('Naozaj chcete vymazať všetky testy z pamäte?')) {
-        return;
-    }
-
-    try {
-        await fetch('/api/clear', { method: 'POST' });
-        tests = [];
-        displayTestList();
-        alert('Všetky testy boli vymazané z pamäte');
-        backToList();
-    } catch (error) {
-        alert('Chyba pri mazaní testov');
-    }
-}
-
 function startMultipleTests() {
     const checkboxes = document.querySelectorAll('.test-checkbox:checked');
     const selectedIndexes = Array.from(checkboxes).map(cb => {
@@ -660,9 +729,15 @@ function startMultipleTests() {
         return;
     }
 
+    if (selectedIndexes.some(index => tests[index].testType === 'vocabulary')) {
+        alert('Slovíčkové testy spúšťajte samostatne.');
+        return;
+    }
+
     // Zlúčiť testy
     const mergedTest = {
         title: `Zlúčené testy (${selectedIndexes.length})`,
+        year: selectedYear,
         description: tests.filter((_, i) => selectedIndexes.includes(i))
             .map(t => t.title || 'Test').join(', '),
         questions: []
@@ -728,7 +803,13 @@ function startTestWithSettings() {
     testMode = 'test';
     questionAnswered = false;
     retryStatisticsSaved = false; // Reset pre nový test
+    originalTest = null;
+    originalUserAnswers = [];
+    if (timerInterval) clearInterval(timerInterval);
+    timerInterval = null;
     currentTest = JSON.parse(JSON.stringify(tests[selectedTestIndex])); // Deep copy
+    track('test_start', {test: currentTest.title, mode: questionMode});
+    testStartTime = Date.now();
 
     // Výber otázok podľa módu
     if (questionMode === 'range') {
@@ -747,6 +828,7 @@ function startTestWithSettings() {
     originalTestTitle = currentTest.title;
 
     if (currentTest.questions.length === 0) {
+        currentTest = null;
         alert('Neplatný rozsah otázok!');
         return;
     }
@@ -829,6 +911,13 @@ function isQuestionAnswerCorrect(question, userIndex) {
     return correctList.includes(userIndex);
 }
 
+function isQuestionCorrect(question, answer = []) {
+    const expected = Array.isArray(question.correct) ? question.correct : [question.correct];
+    if (expected.length === 0) return answer.length === 0;
+    if (isTFQuestion(question)) return answer.length === 1 && isQuestionAnswerCorrect(question, answer[0]);
+    return answer.length === expected.length && expected.every(index => answer.includes(index));
+}
+
 function showLearnMode() {
     const test = tests[selectedTestIndex];
 
@@ -865,14 +954,14 @@ function showLearnMode() {
             };
             answersBlock = renderRow('Pravda', 'pravda') + renderRow('Nepravda', 'nepravda');
             if (explanation) {
-                answersBlock += `<div class="tf-explanation"><strong>Vysvetlenie:</strong> ${explanation}</div>`;
+                answersBlock += `<div class="tf-explanation"><strong>Vysvetlenie:</strong> ${escapeHtml(explanation)}</div>`;
             }
         } else {
             answersBlock = question.answers.map((answer, aIndex) => {
                 const isCorrect = isNoCorrect ? false : isQuestionAnswerCorrect(question, aIndex);
                 return `
                     <div class="learn-answer ${isCorrect ? 'learn-answer-correct' : 'learn-answer-wrong'}">
-                        ${answer}
+                        ${escapeHtml(answer)}
                         ${isCorrect ? ' <span class="checkmark">✓ SPRÁVNE</span>' : ''}
                     </div>
                 `;
@@ -881,7 +970,7 @@ function showLearnMode() {
 
         return `
             <div class="learn-question">
-                <h3>Otázka ${qIndex + 1}: ${question.question}</h3>
+                <h3>Otázka ${qIndex + 1}: ${escapeHtml(question.question)}</h3>
                 ${questionHint}
                 <div class="learn-answers">
                     ${answersBlock}
@@ -972,7 +1061,7 @@ function startTimer() {
         if (timeLeft <= 0) {
             clearInterval(timerInterval);
             alert('Čas vypršal!');
-            submitTest();
+            submitTest(true);
         }
     }, 1000);
 }
@@ -1042,7 +1131,7 @@ function showQuestion() {
             const correctList = Array.isArray(question.correct) ? question.correct : [question.correct];
             const explanation = tfExplanation(question.answers[correctList[0]]);
             if (explanation) {
-                tfHTML += `<div class="tf-explanation"><strong>Vysvetlenie:</strong> ${explanation}</div>`;
+                tfHTML += `<div class="tf-explanation"><strong>Vysvetlenie:</strong> ${escapeHtml(explanation)}</div>`;
             }
         }
         answersHTML = tfHTML;
@@ -1080,7 +1169,7 @@ function showQuestion() {
 
                 return `
                     <div class="answer ${cssClass}">
-                        ${answer}${icon}
+                        ${escapeHtml(answer)}${icon}
                     </div>
                 `;
             } else {
@@ -1089,7 +1178,7 @@ function showQuestion() {
 
                 return `
                     <div class="answer ${isSelected ? 'selected' : ''}" onclick="selectAnswer(${index})">
-                        <span class="answer-icon">${inputIcon}</span> ${answer}
+                        <span class="answer-icon">${inputIcon}</span> ${escapeHtml(answer)}
                     </div>
                 `;
             }
@@ -1098,7 +1187,7 @@ function showQuestion() {
 
     let questionHTML = `
         <div class="question">
-            <h3>Otázka ${currentQuestionIndex + 1}: ${question.question}</h3>
+            <h3>Otázka ${currentQuestionIndex + 1}: ${escapeHtml(question.question)}</h3>
             ${questionHint}
             ${answersHTML}
         </div>
@@ -1162,9 +1251,10 @@ function nextQuestion() {
     }
 }
 
-function submitTest() {
+function submitTest(timedOut = false) {
+    if (!currentTest || document.getElementById('testInterface').style.display === 'none') return;
     // Ak je režim "each" alebo "retry" a posledná otázka nebola ešte ukázaná, ukáž ju najprv
-    if ((showAnswersMode.includes('each') || showAnswersMode.includes('retry')) && !questionAnswered) {
+    if (!timedOut && (showAnswersMode.includes('each') || showAnswersMode.includes('retry')) && !questionAnswered) {
         questionAnswered = true;
         showQuestion();
         // Zmeň tlačidlo Submit na "Dokončiť" po zobrazení feedbacku
@@ -1172,37 +1262,24 @@ function submitTest() {
         return;
     }
 
-    const hasUnanswered = userAnswers.some(answer =>
-        answer === null || (Array.isArray(answer) && answer.length === 0)
+    const hasUnanswered = userAnswers.some((answer, index) =>
+        (!answer || answer.length === 0) && !(Array.isArray(currentTest.questions[index].correct) && currentTest.questions[index].correct.length === 0)
     );
 
-    if (hasUnanswered) {
+    if (!timedOut && hasUnanswered) {
         if (!confirm('Niektoré otázky nie sú zodpovedané. Chcete naozaj odovzdať test?')) {
             return;
         }
     }
 
     // Režim "retry" - opakuj nesprávne otázky
-    if (showAnswersMode.includes('retry')) {
+    if (!timedOut && showAnswersMode.includes('retry')) {
         const incorrectQuestions = [];
         let correctCount = 0;
 
         currentTest.questions.forEach((question, index) => {
             const userAnswer = userAnswers[index];
-            const isNoCorrect = Array.isArray(question.correct) && question.correct.length === 0;
-            const isMultiple = Array.isArray(question.correct) && question.correct.length > 1;
-            let correct = false;
-
-            if (isNoCorrect) {
-                // Žiadna správna odpoveď - správne je ak užívateľ nevybral nič
-                correct = !userAnswer || userAnswer.length === 0;
-            } else if (isMultiple) {
-                const sortedUser = userAnswer ? [...userAnswer].sort() : [];
-                const sortedCorrect = [...question.correct].sort();
-                correct = JSON.stringify(sortedUser) === JSON.stringify(sortedCorrect);
-            } else {
-                correct = userAnswer.length === 1 && isQuestionAnswerCorrect(question, userAnswer[0]);
-            }
+            const correct = isQuestionCorrect(question, userAnswer);
 
             if (correct) {
                 correctCount++;
@@ -1233,6 +1310,7 @@ function submitTest() {
                     percentage: percentage
                 });
 
+                track('test_finish', {test: originalTitle, score: correctCount, total: totalQuestions, percent: percentage});
                 retryStatisticsSaved = true;
                 displayTestList(); // Obnoviť zobrazenie testov so štatistikami
                 console.log(`Štatistiky uložené: ${correctCount}/${totalQuestions} (${percentage}%)`);
@@ -1270,74 +1348,18 @@ function submitTest() {
 
 function showResults() {
     let correctCount = 0;
-    const results = currentTest.questions.map((question, index) => {
-        const userAnswer = userAnswers[index]; // Vždy pole
-        const isNoCorrect = Array.isArray(question.correct) && question.correct.length === 0;
-        const isMultiple = Array.isArray(question.correct) && question.correct.length > 1;
-        let correct = false;
-        let userAnswerText = '';
-        let correctAnswerText = '';
-
-        if (isNoCorrect) {
-            // Žiadna správna odpoveď - správne je ak užívateľ nevybral nič
-            correct = !userAnswer || userAnswer.length === 0;
-            userAnswerText = userAnswer && userAnswer.length > 0
-                ? userAnswer.map(i => question.answers[i]).join(', ')
-                : 'Nezodpovedané';
-            correctAnswerText = 'Žiadna odpoveď nie je správna';
-        } else if (isMultiple) {
-            // Viacero správnych odpovedí
-            const sortedUser = userAnswer ? [...userAnswer].sort() : [];
-            const sortedCorrect = [...question.correct].sort();
-            correct = JSON.stringify(sortedUser) === JSON.stringify(sortedCorrect);
-
-            userAnswerText = userAnswer && userAnswer.length > 0
-                ? userAnswer.map(i => question.answers[i]).join(', ')
-                : 'Nezodpovedané';
-            correctAnswerText = question.correct.map(i => question.answers[i]).join(', ');
-        } else {
-            // Jedna správna odpoveď - correct môže byť číslo alebo array s 1 prvkom
-            const correctAnswer = Array.isArray(question.correct) ? question.correct[0] : question.correct;
-            correct = userAnswer.length === 1 && isQuestionAnswerCorrect(question, userAnswer[0]);
-
-            userAnswerText = userAnswer && userAnswer.length > 0
-                ? userAnswer.map(i => question.answers[i]).join(', ')
-                : 'Nezodpovedané';
-            correctAnswerText = question.answers[correctAnswer];
-        }
-
-        if (correct) correctCount++;
-
-        return {
-            question: question.question,
-            userAnswer: userAnswerText,
-            correctAnswer: correctAnswerText,
-            correct: correct
-        };
+    currentTest.questions.forEach((question, index) => {
+        if (isQuestionCorrect(question, userAnswers[index])) correctCount++;
     });
 
     const percentage = Math.round((correctCount / currentTest.questions.length) * 100);
 
-    // Uložiť výsledok
-    // Ak sme v retry mode a všetky otázky v tomto kole boli správne, ulož výsledok s pôvodným počtom otázok
-    if (retryStatisticsSaved && correctCount === currentTest.questions.length) {
-        // Retry mode skončil úspešne - všetky otázky správne
-        saveTestResult({
-            testName: originalTestTitle,
-            date: new Date().toISOString(),
-            score: originalTestQuestionCount,
-            total: originalTestQuestionCount,
-            percentage: 100
-        });
-    } else {
-        // Normálny režim alebo retry s chybami
-        saveTestResult({
-            testName: currentTest.title,
-            date: new Date().toISOString(),
-            score: correctCount,
-            total: currentTest.questions.length,
-            percentage: percentage
-        });
+    // Jeden záznam za prvý pokus. Opakovanie nezvyšuje počet absolvovaní.
+    if (!retryStatisticsSaved) {
+        track('test_finish', {test: currentTest.title, score: correctCount, total: currentTest.questions.length,
+            percent: percentage, duration_sec: testStartTime ? Math.round((Date.now() - testStartTime) / 1000) : null});
+        saveTestResult({testName: currentTest.title, date: new Date().toISOString(), score: correctCount,
+            total: currentTest.questions.length, percentage});
     }
 
     document.getElementById('testInterface').style.display = 'none';
@@ -1354,19 +1376,7 @@ function showResults() {
         displayCorrectCount = 0;
         originalTest.questions.forEach((question, index) => {
             const userAnswer = originalUserAnswers[index];
-            const isNoCorrect = Array.isArray(question.correct) && question.correct.length === 0;
-            const isMultiple = Array.isArray(question.correct) && question.correct.length > 1;
-            let correct = false;
-
-            if (isNoCorrect) {
-                correct = !userAnswer || userAnswer.length === 0;
-            } else if (isMultiple) {
-                const sortedUser = userAnswer ? [...userAnswer].sort() : [];
-                const sortedCorrect = [...question.correct].sort();
-                correct = JSON.stringify(sortedUser) === JSON.stringify(sortedCorrect);
-            } else {
-                correct = userAnswer && userAnswer.length === 1 && isQuestionAnswerCorrect(question, userAnswer[0]);
-            }
+            const correct = isQuestionCorrect(question, userAnswer);
             if (correct) displayCorrectCount++;
         });
     }
@@ -1389,17 +1399,7 @@ function showResults() {
             const isNoCorrect = Array.isArray(question.correct) && question.correct.length === 0;
             const isMultiple = Array.isArray(question.correct) && question.correct.length > 1;
 
-            // Vypočítaj správnosť tejto otázky
-            let questionCorrect = false;
-            if (isNoCorrect) {
-                questionCorrect = !userAnswer || userAnswer.length === 0;
-            } else if (isMultiple) {
-                const sortedUser = userAnswer ? [...userAnswer].sort() : [];
-                const sortedCorrect = [...question.correct].sort();
-                questionCorrect = JSON.stringify(sortedUser) === JSON.stringify(sortedCorrect);
-            } else {
-                questionCorrect = userAnswer.length === 1 && isQuestionAnswerCorrect(question, userAnswer[0]);
-            }
+            const questionCorrect = isQuestionCorrect(question, userAnswer);
 
             // Hint pre typ otázky
             let questionHint = '';
@@ -1429,7 +1429,7 @@ function showResults() {
                 };
                 resultAnswersBlock = renderResultRow('Pravda', 'pravda') + renderResultRow('Nepravda', 'nepravda');
                 if (explanation) {
-                    resultAnswersBlock += `<div class="tf-explanation"><strong>Vysvetlenie:</strong> ${explanation}</div>`;
+                    resultAnswersBlock += `<div class="tf-explanation"><strong>Vysvetlenie:</strong> ${escapeHtml(explanation)}</div>`;
                 }
             } else {
                 resultAnswersBlock = question.answers.map((answer, aIndex) => {
@@ -1452,13 +1452,13 @@ function showResults() {
                     } else {
                         cssClass = 'result-answer-neutral';
                     }
-                    return `<div class="result-answer ${cssClass}">${answer}${label}</div>`;
+                    return `<div class="result-answer ${cssClass}">${escapeHtml(answer)}${label}</div>`;
                 }).join('');
             }
 
             return `
                 <div class="result-question ${questionCorrect ? 'result-correct' : 'result-incorrect'}">
-                    <h4>Otázka ${qIndex + 1}: ${question.question}</h4>
+                    <h4>Otázka ${qIndex + 1}: ${escapeHtml(question.question)}</h4>
                     ${questionHint}
                     <div class="result-answers">
                         ${resultAnswersBlock}
@@ -1473,7 +1473,7 @@ function showResults() {
 }
 
 function saveTestResult(result) {
-    let results = JSON.parse(localStorage.getItem('testResults') || '[]');
+    let results = savedResults();
     results.push(result);
     // Uložiť len posledných 200 výsledkov
     if (results.length > 200) {
@@ -1492,6 +1492,11 @@ function clearStatistics() {
 }
 
 function backToList() {
+    if (editorSaving) return;
+    if (editorDirty && !confirm('Zahodiť neuložené zmeny?')) return;
+    editorDirty = false;
+    editingFilename = null;
+    editingTestData = null;
     // Zastaviť časovač
     if (timerInterval) {
         clearInterval(timerInterval);
@@ -1611,6 +1616,8 @@ function resetAIImportPage() {
     document.getElementById('aiStep2').style.display = 'none';
     document.getElementById('aiStep3').style.display = 'none';
     document.getElementById('aiStep4').style.display = 'none';
+    document.getElementById('aiTestYear').value = selectedYear;
+    document.getElementById('aiTestCategory').value = selectedCategory === ALL_CATEGORIES ? '' : selectedCategory;
     // Reset test upload
     document.getElementById('aiImageInput').value = '';
     document.getElementById('imagePreview').style.display = 'none';
@@ -1813,147 +1820,6 @@ function rotatePreviewImage(index, degrees) {
 }
 
 // Spojiť všetky obrázky do jedného (vertikálne)
-async function mergeImagesToCanvas(files, rotations, progressCallback) {
-    return new Promise((resolve, reject) => {
-        const images = [];
-        let loadedCount = 0;
-
-        // Načítať všetky obrázky
-        files.forEach((file, index) => {
-            const reader = new FileReader();
-            reader.onload = function(e) {
-                const img = new Image();
-                img.onload = function() {
-                    images[index] = { img, rotation: rotations[index] || 0 };
-                    loadedCount++;
-
-                    // Volať progress callback ak existuje
-                    if (progressCallback) {
-                        progressCallback(loadedCount, files.length);
-                    }
-
-                    // Keď sú všetky načítané, spojíme ich
-                    if (loadedCount === files.length) {
-                        // Vypočítať rozmery spojeného canvasu
-                        let totalHeight = 0;
-                        let maxWidth = 0;
-                        const gap = 50; // Medzera medzi fotkami
-
-                        // Pripraviť info o každom obrázku s rotáciou
-                        const imageInfos = images.map(({ img, rotation }) => {
-                            let width, height;
-                            // Pri 90° alebo 270° rotácii sa vymenia rozmery
-                            if (rotation === 90 || rotation === 270) {
-                                width = img.height;
-                                height = img.width;
-                            } else {
-                                width = img.width;
-                                height = img.height;
-                            }
-                            return { img, rotation, width, height };
-                        });
-
-                        // Vypočítať celkovú výšku a max šírku
-                        imageInfos.forEach((info) => {
-                            totalHeight += info.height + gap;
-                            maxWidth = Math.max(maxWidth, info.width);
-                        });
-
-                        // Vytvoriť canvas
-                        const canvas = document.createElement('canvas');
-                        canvas.width = maxWidth;
-                        canvas.height = totalHeight;
-                        const ctx = canvas.getContext('2d');
-
-                        // Biela pozadie
-                        ctx.fillStyle = '#FFFFFF';
-                        ctx.fillRect(0, 0, canvas.width, canvas.height);
-
-                        // Nakresliť všetky obrázky pod seba
-                        let currentY = 0;
-                        imageInfos.forEach((info) => {
-                            ctx.save();
-
-                            // Centrovať obrázok horizontálne
-                            const xOffset = (maxWidth - info.width) / 2;
-
-                            // Aplikovať rotáciu
-                            if (info.rotation !== 0) {
-                                // Posunúť na stred oblasti kde bude obrázok
-                                const centerX = xOffset + info.width / 2;
-                                const centerY = currentY + info.height / 2;
-
-                                ctx.translate(centerX, centerY);
-                                ctx.rotate((info.rotation * Math.PI) / 180);
-
-                                // Pri rotácii kreslíme z pôvodných rozmerov obrázka
-                                ctx.drawImage(info.img, -info.img.width / 2, -info.img.height / 2);
-                            } else {
-                                // Bez rotácie jednoducho nakreslíme
-                                ctx.drawImage(info.img, xOffset, currentY);
-                            }
-
-                            ctx.restore();
-                            currentY += info.height + gap;
-                        });
-
-                        // Vision API limit — zmenšíme na 2048px na dlhší rozmer ak je potrebné
-                        // (Claude aj backend preprocessing toto očakávajú)
-                        let finalCanvas = canvas;
-                        let finalWidth = maxWidth;
-                        let finalHeight = totalHeight;
-                        const MAX_DIMENSION = 2048;
-
-                        if (maxWidth > MAX_DIMENSION || totalHeight > MAX_DIMENSION) {
-                            // Zmenšiť podľa dlhšej strany
-                            let scale;
-                            if (maxWidth > totalHeight) {
-                                scale = MAX_DIMENSION / maxWidth;
-                            } else {
-                                scale = MAX_DIMENSION / totalHeight;
-                            }
-
-                            finalWidth = Math.round(maxWidth * scale);
-                            finalHeight = Math.round(totalHeight * scale);
-
-                            const resizedCanvas = document.createElement('canvas');
-                            resizedCanvas.width = finalWidth;
-                            resizedCanvas.height = finalHeight;
-                            const resizedCtx = resizedCanvas.getContext('2d');
-                            resizedCtx.drawImage(canvas, 0, 0, finalWidth, finalHeight);
-                            finalCanvas = resizedCanvas;
-
-                            console.log(`Prispôsobené pre Vision API: ${maxWidth}x${totalHeight}px → ${finalWidth}x${finalHeight}px`);
-                        }
-
-                        // Konvertovať na blob
-                        finalCanvas.toBlob(
-                            (blob) => {
-                                if (blob) {
-                                    const mergedFile = new File([blob], 'merged_images.jpg', {
-                                        type: 'image/jpeg',
-                                        lastModified: Date.now()
-                                    });
-                                    console.log(`Spojené ${files.length} fotky do jednej (${(blob.size / 1024 / 1024).toFixed(2)}MB, ${finalWidth}x${finalHeight}px)`);
-                                    resolve(mergedFile);
-                                } else {
-                                    reject(new Error('Zlyhalo spojenie fotiek'));
-                                }
-                            },
-                            'image/jpeg',
-                            0.95
-                        );
-                    }
-                };
-                img.onerror = reject;
-                img.src = e.target.result;
-            };
-            reader.onerror = reject;
-            reader.readAsDataURL(file);
-        });
-    });
-}
-
 async function processImagesWithAI() {
     if (!compressedFiles || compressedFiles.length === 0) {
         alert('Najprv nahrajte obrázok');
@@ -1999,7 +1865,7 @@ async function processImagesWithAI() {
             formData.append('advancedPreprocessing', advancedPreprocessing);
             formData.append('rotation', imageRotations[i] || 0);
 
-            const response = await fetch('/api/ai-import', {
+            const response = await apiFetch('/api/ai-import', {
                 method: 'POST',
                 body: formData,
                 signal: aiAbortController.signal
@@ -2137,7 +2003,10 @@ function displayProcessedAndOriginalImages() {
         img.onclick = function() {
             const newWin = window.open('', '_blank');
             if (newWin) {
-                newWin.document.body.innerHTML = '<img src="' + pageData.image + '" style="max-width:100%;height:auto">';
+                const image = newWin.document.createElement('img');
+                image.src = pageData.image;
+                image.style.maxWidth = '100%';
+                newWin.document.body.appendChild(image);
             }
         };
 
@@ -2197,13 +2066,8 @@ function displayAIQuestions() {
     container.innerHTML = '';
 
     // Zoskupiť otázky podľa strán
-    const questionsByPage = {};
+    const questionsByPage = Object.create(null);
     aiImportedData.questions.forEach((q, qIndex) => {
-        // Zabezpečiť že correct je array
-        if (!Array.isArray(q.correct)) {
-            q.correct = [q.correct];
-        }
-
         const pageNum = q.pageNumber || 1;
         if (!questionsByPage[pageNum]) {
             questionsByPage[pageNum] = [];
@@ -2232,6 +2096,7 @@ function displayAIQuestions() {
 
         // Zobraziť otázky z tejto strany
         questionsByPage[pageNum].forEach(({ question: q, originalIndex: qIndex }) => {
+            const correctAnswers = Array.isArray(q.correct) ? q.correct : [q.correct];
             const questionDiv = document.createElement('div');
             questionDiv.className = 'ai-question-item';
             questionDiv.innerHTML = `
@@ -2247,7 +2112,7 @@ function displayAIQuestions() {
                 ${q.answers.map((ans, aIndex) => `
                     <div class="ai-answer-row">
                         <input type="checkbox" id="correct_${qIndex}_${aIndex}"
-                               ${q.correct.includes(aIndex) ? 'checked' : ''}
+                               ${correctAnswers.includes(aIndex) ? 'checked' : ''}
                                onchange="toggleAICorrect(${qIndex}, ${aIndex})">
                         <input type="text" class="ai-input ai-answer-input"
                                value="${escapeHtml(ans)}"
@@ -2264,9 +2129,9 @@ function displayAIQuestions() {
 }
 
 function escapeHtml(text) {
-    const div = document.createElement('div');
-    div.textContent = text;
-    return div.innerHTML;
+    return String(text ?? '').replace(/[&<>"']/g, char => ({
+        '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+    })[char]);
 }
 
 function toggleAICorrect(qIndex, aIndex) {
@@ -2331,7 +2196,7 @@ function updateSaveMode() {
 
 async function loadExistingTestsForAppend() {
     try {
-        const response = await fetch('/api/list-files', {
+        const response = await apiFetch('/api/list-files', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ folder: 'testy' })
@@ -2386,6 +2251,7 @@ async function saveAITest() {
     let testName;
     let title;
     let description;
+    let version;
 
     if (mode === 'new') {
         testName = document.getElementById('newTestFileName').value.trim();
@@ -2411,7 +2277,7 @@ async function saveAITest() {
 
         // V append móde načítame existujúci test a použijeme jeho title/description
         try {
-            const loadResponse = await fetch(`/api/load-test/${testName}.json`);
+            const loadResponse = await apiFetch(`/api/load-test/${encodeURIComponent(testName + '.json')}`);
             const loadResult = await loadResponse.json();
 
             if (loadResult.success && loadResult.data) {
@@ -2419,6 +2285,7 @@ async function saveAITest() {
                 const existingTest = Array.isArray(loadResult.data) ? loadResult.data[0] : loadResult.data;
                 title = existingTest.title || testName;
                 description = existingTest.description || '';
+                version = loadResult.version;
             } else {
                 alert('Nepodarilo sa načítať existujúci test');
                 return;
@@ -2456,14 +2323,20 @@ async function saveAITest() {
         questions: aiImportedData.questions
     };
 
+    if (mode === 'new') {
+        testData.year = Number(document.getElementById('aiTestYear').value);
+        testData.category = document.getElementById('aiTestCategory').value.trim();
+    }
+
     try {
-        const response = await fetch('/api/save-test', {
+        const response = await apiFetch('/api/save-test', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
                 testName: testName,
                 testData: testData,
-                mode: mode
+                mode: mode,
+                version
             })
         });
 
@@ -2488,15 +2361,21 @@ async function saveAITest() {
 
 let editingTestData = null;
 let editingFilename = null;
+let editingVersion = null;
+let editorDirty = false;
+let editorSaving = false;
 
 async function editTest(filename, index) {
+    if (editorDirty && !confirm('Zahodiť neuložené zmeny?')) return;
     try {
-        const response = await fetch(`/api/load-test/${encodeURIComponent(filename)}`);
+        const response = await apiFetch(`/api/load-test/${encodeURIComponent(filename)}`);
         const result = await response.json();
 
         if (result.success) {
             editingTestData = result.data;
             editingFilename = filename;
+            editingVersion = result.version;
+            editorDirty = false;
             showEditTestPage();
         } else {
             throw new Error(result.error || 'Chyba pri načítaní testu');
@@ -2516,6 +2395,10 @@ function showEditTestPage() {
     document.getElementById('editTestTitle').value = testData.title || '';
     document.getElementById('editTestDesc').value = testData.description || '';
 
+    document.getElementById('editorSaveStatus').textContent = '';
+    document.getElementById('editTestYear').value = getTestYear(testData);
+    document.getElementById('editTestCategory').value = testData.category || '';
+    document.getElementById('addEditQuestionBtn').style.display = testData.testType === 'vocabulary' ? 'none' : '';
     displayEditQuestions();
 }
 
@@ -2537,10 +2420,7 @@ function displayEditQuestions() {
     }
 
     testData.questions.forEach((q, qIndex) => {
-        // Zabezpečiť že correct je array
-        if (!Array.isArray(q.correct)) {
-            q.correct = [q.correct];
-        }
+        const correctAnswers = Array.isArray(q.correct) ? q.correct : [q.correct];
 
         const questionDiv = document.createElement('div');
         questionDiv.className = 'ai-question-item';
@@ -2557,7 +2437,7 @@ function displayEditQuestions() {
             ${q.answers.map((ans, aIndex) => `
                 <div class="ai-answer-row">
                     <input type="checkbox" id="edit_correct_${qIndex}_${aIndex}"
-                           ${q.correct.includes(aIndex) ? 'checked' : ''}
+                           ${correctAnswers.includes(aIndex) ? 'checked' : ''}
                            onchange="toggleEditCorrect(${qIndex}, ${aIndex})">
                     <input type="text" class="ai-input ai-answer-input"
                            value="${escapeHtml(ans)}"
@@ -2625,7 +2505,7 @@ function updateEditVocab(index, field, value) {
     const testData = Array.isArray(editingTestData) ? editingTestData[0] : editingTestData;
     if (testData.vocabulary && testData.vocabulary[index]) {
         testData.vocabulary[index][field] = value;
-        triggerAutosave();
+        markEditorDirty();
     }
 }
 
@@ -2634,8 +2514,8 @@ function updateEditVocabType(index, type) {
     if (testData.vocabulary && testData.vocabulary[index]) {
         testData.vocabulary[index].type = type;
 
-        // Ak je prídavné meno, vymaž genitív a rod
-        if (type === 'adjective') {
+        const skipGrammar = type === 'adjective' || type === 'phrase';
+        if (skipGrammar) {
             testData.vocabulary[index].genitive = '';
             testData.vocabulary[index].gender = '';
         }
@@ -2645,23 +2525,23 @@ function updateEditVocabType(index, type) {
         const genderDiv = document.getElementById(`vocab-gender-${index}`);
 
         if (genitiveDiv) {
-            genitiveDiv.style.opacity = type === 'adjective' ? '0.5' : '1';
+            genitiveDiv.style.opacity = skipGrammar ? '0.5' : '1';
             const input = genitiveDiv.querySelector('input');
             if (input) {
-                input.disabled = type === 'adjective';
-                if (type === 'adjective') input.value = '';
+                input.disabled = skipGrammar;
+                if (skipGrammar) input.value = '';
             }
         }
 
         if (genderDiv) {
-            genderDiv.style.opacity = type === 'adjective' ? '0.5' : '1';
+            genderDiv.style.opacity = skipGrammar ? '0.5' : '1';
             const select = genderDiv.querySelector('select');
             if (select) {
-                select.disabled = type === 'adjective';
+                select.disabled = skipGrammar;
             }
         }
 
-        triggerAutosave();
+        markEditorDirty();
     }
 }
 
@@ -2670,52 +2550,15 @@ function deleteEditVocab(index) {
     if (testData.vocabulary) {
         testData.vocabulary.splice(index, 1);
         displayEditQuestions();
-        triggerAutosave();
+        markEditorDirty();
     }
 }
 
-// Debounce timeout pre autosave
-let autosaveTimeout = null;
-
-// Automatické uloženie zmien
-async function autoSaveEditedTest() {
-    if (!editingFilename || !editingTestData) return;
-
-    try {
-        const testData = Array.isArray(editingTestData) ? editingTestData[0] : editingTestData;
-
-        // Aktualizovať názov a popis z input polí
-        testData.title = document.getElementById('editTestTitle').value.trim();
-        testData.description = document.getElementById('editTestDesc').value.trim();
-
-        const response = await fetch(`/api/update-test/${encodeURIComponent(editingFilename)}`, {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({
-                data: Array.isArray(editingTestData) ? editingTestData : [editingTestData]
-            })
-        });
-
-        const result = await response.json();
-
-        if (result.success) {
-            // Ak bol súbor premenovaný, aktualizovať názov
-            if (result.renamed && result.filename) {
-                editingFilename = result.filename;
-            }
-            console.log('✓ Zmeny automaticky uložené');
-        }
-    } catch (error) {
-        console.error('Chyba pri automatickom ukladaní:', error);
-    }
-}
-
-// Debounce funkcia pre autosave (čaká 1 sekundu po poslednej zmene)
-function triggerAutosave() {
-    if (autosaveTimeout) {
-        clearTimeout(autosaveTimeout);
-    }
-    autosaveTimeout = setTimeout(autoSaveEditedTest, 1000);
+let editorChangeNumber = 0;
+function markEditorDirty() {
+    editorChangeNumber++;
+    editorDirty = true;
+    document.getElementById('editorSaveStatus').textContent = 'Máte neuložené zmeny.';
 }
 
 function toggleEditCorrect(qIndex, aIndex) {
@@ -2734,7 +2577,7 @@ function toggleEditCorrect(qIndex, aIndex) {
             correctArray.push(aIndex);
         }
 
-        triggerAutosave();
+        markEditorDirty();
     }
 }
 
@@ -2742,7 +2585,7 @@ function updateEditQuestion(qIndex, field, value) {
     const testData = Array.isArray(editingTestData) ? editingTestData[0] : editingTestData;
     if (testData.questions[qIndex]) {
         testData.questions[qIndex][field] = value;
-        triggerAutosave();
+        markEditorDirty();
     }
 }
 
@@ -2750,7 +2593,7 @@ function updateEditAnswer(qIndex, aIndex, value) {
     const testData = Array.isArray(editingTestData) ? editingTestData[0] : editingTestData;
     if (testData.questions[qIndex]) {
         testData.questions[qIndex].answers[aIndex] = value;
-        triggerAutosave();
+        markEditorDirty();
     }
 }
 
@@ -2758,6 +2601,7 @@ function deleteEditQuestion(qIndex) {
     if (confirm('Naozaj chcete vymazať túto otázku?')) {
         const testData = Array.isArray(editingTestData) ? editingTestData[0] : editingTestData;
         testData.questions.splice(qIndex, 1);
+        markEditorDirty();
         displayEditQuestions();
     }
 }
@@ -2769,69 +2613,35 @@ function addEditQuestion() {
         answers: ['Odpoveď 1', 'Odpoveď 2', 'Odpoveď 3', 'Odpoveď 4'],
         correct: [0]  // Array pre podporu viacerých správnych
     });
+    markEditorDirty();
     displayEditQuestions();
 }
 
 async function saveEditedTest() {
+    if (editorSaving || !editingTestData) return;
     const testData = Array.isArray(editingTestData) ? editingTestData[0] : editingTestData;
-
     testData.title = document.getElementById('editTestTitle').value.trim();
     testData.description = document.getElementById('editTestDesc').value.trim();
-
-    if (!testData.title) {
-        alert('Zadajte názov testu');
-        return;
-    }
-
-    if (testData.questions.length === 0) {
-        alert('Test musí obsahovať aspoň jednu otázku');
-        return;
-    }
-
+    testData.year = Number(document.getElementById('editTestYear').value);
+    testData.category = document.getElementById('editTestCategory').value.trim();
+    const savedChangeNumber = editorChangeNumber;
+    editorSaving = true;
     try {
-        const response = await fetch(`/api/update-test/${encodeURIComponent(editingFilename)}`, {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({
-                data: Array.isArray(editingTestData) ? editingTestData : [editingTestData]
-            })
+        const response = await apiFetch(`/api/update-test/${encodeURIComponent(editingFilename)}`, {
+            method: 'POST', headers: {'Content-Type': 'application/json'},
+            body: JSON.stringify({data: Array.isArray(editingTestData) ? editingTestData : [editingTestData], version: editingVersion})
         });
-
         const result = await response.json();
-
-        if (result.success) {
-            alert('Test úspešne aktualizovaný!');
-            backToList();
-            loadTests(); // Reload tests
-        } else {
-            throw new Error(result.error || 'Neznáma chyba');
-        }
+        if (!response.ok || !result.success) throw new Error(result.error || 'Uloženie zlyhalo.');
+        editingFilename = result.filename;
+        editingVersion = result.version;
+        editorDirty = editorChangeNumber !== savedChangeNumber;
+        document.getElementById('editorSaveStatus').textContent = editorDirty
+            ? 'Predošlé zmeny boli uložené. Novšie zmeny ešte treba uložiť.' : 'Zmeny boli uložené.';
+        await loadTests(true);
     } catch (error) {
-        alert('Chyba pri ukladaní testu: ' + error.message);
-    }
-}
-
-async function deleteTest(filename, index) {
-    if (!confirm(`Naozaj chcete zmazať test "${filename}"? Táto akcia je nezvratná.`)) {
-        return;
-    }
-
-    try {
-        const response = await fetch(`/api/delete-test/${encodeURIComponent(filename)}`, {
-            method: 'DELETE'
-        });
-
-        const result = await response.json();
-
-        if (result.success) {
-            alert(result.message);
-            loadTests(); // Reload tests
-        } else {
-            throw new Error(result.error || 'Neznáma chyba');
-        }
-    } catch (error) {
-        alert('Chyba pri mazaní testu: ' + error.message);
-    }
+        document.getElementById('editorSaveStatus').textContent = 'Neuložené: ' + error.message;
+    } finally { editorSaving = false; }
 }
 
 async function deleteCurrentTest() {
@@ -2843,18 +2653,21 @@ async function deleteCurrentTest() {
     const testData = Array.isArray(editingTestData) ? editingTestData[0] : editingTestData;
     const testName = testData.title || editingFilename;
 
-    if (!confirm(`Naozaj chcete zmazať test "${testName}"? Táto akcia je nezvratná.`)) {
+    if (!confirm(`Naozaj chcete zmazať test "${testName}"? Test zmizne zo zoznamu. Na serveri zostane záloha.`)) {
         return;
     }
 
     try {
-        const response = await fetch(`/api/delete-test/${encodeURIComponent(editingFilename)}`, {
-            method: 'DELETE'
+        const response = await apiFetch(`/api/delete-test/${encodeURIComponent(editingFilename)}`, {
+            method: 'DELETE',
+            headers: {'Content-Type': 'application/json'},
+            body: JSON.stringify({version: editingVersion})
         });
 
         const result = await response.json();
 
         if (result.success) {
+            editorDirty = false;
             alert(result.message);
             backToList();
             loadTests(); // Reload tests
@@ -2993,7 +2806,7 @@ async function processVocabWithAI() {
             formData.append('advancedPreprocessing', advancedPreprocessing);
             formData.append('rotation', vocabImageRotations[i] || 0);
 
-            const response = await fetch('/api/ai-import-vocab', {
+            const response = await apiFetch('/api/ai-import-vocab', {
                 method: 'POST',
                 body: formData,
                 signal: aiAbortController.signal
@@ -3161,6 +2974,9 @@ function addNewVocab() {
 // ============================================
 
 let currentVocabTest = null;
+let vocabStartTime = null;
+let vocabResultSaved = false;
+let vocabRetryOriginal = null;
 let currentVocabIndex = 0;
 let vocabUserAnswers = [];
 let vocabTestConfig = {};
@@ -3186,6 +3002,10 @@ function startVocabTest() {
         testGender: testGender
     };
 
+    if (vocabTimerInterval) clearInterval(vocabTimerInterval);
+    vocabTimerInterval = null;
+    vocabRetryOriginal = null;
+    vocabResultSaved = false;
     currentVocabTest = JSON.parse(JSON.stringify(tests[selectedTestIndex]));
     vocabAnswered = false;
 
@@ -3198,6 +3018,14 @@ function startVocabTest() {
         const randomCount = parseInt(document.getElementById('vocabRandomCount').value);
         currentVocabTest.vocabulary = getRandomQuestions(currentVocabTest.vocabulary, randomCount);
     }
+
+    if (!currentVocabTest.vocabulary.length) {
+        currentVocabTest = null;
+        alert('Neplatný rozsah slovíčok.');
+        return;
+    }
+    track('test_start', {test: currentVocabTest.title, mode: 'vocabulary'});
+    vocabStartTime = Date.now();
 
     // Zamiešať ak treba
     if (shuffle) {
@@ -3244,7 +3072,7 @@ function startVocabTimer() {
         if (vocabTimeLeft <= 0) {
             clearInterval(vocabTimerInterval);
             alert('Čas vypršal!');
-            submitVocabTest();
+            submitVocabTest(true);
         }
     }, 1000);
 }
@@ -3295,7 +3123,7 @@ function showVocab() {
                     <button type="button" class="vocab-help-btn" onclick="useVocabHelp()" ${isFullyRevealed ? 'disabled' : ''}>
                         💡 Pomoc
                     </button>
-                    ${hint.level > 0 ? `<span class="vocab-hint">${hintText}</span>` : ''}
+                    ${hint.level > 0 ? `<span class="vocab-hint">${escapeHtml(hintText)}</span>` : ''}
                 </div>
                 ${hint.usedHelp ? '<div class="vocab-hint-penalty">Použitá nápoveda - odpoveď sa počíta ako nesprávna</div>' : ''}
                 ` : ''}
@@ -3360,10 +3188,6 @@ function showVocab() {
 }
 
 // Pomocné funkcie pre porovnanie odpovedí
-function isTranslationCorrect(userValue, correctValue) {
-    return userValue.toLowerCase().trim() === correctValue.toLowerCase().trim();
-}
-
 function isAnswerCorrect(userValue, correctValue) {
     if (!userValue || !correctValue) return false;
     return userValue.toLowerCase().trim() === correctValue.toLowerCase().trim();
@@ -3647,9 +3471,10 @@ function nextVocab() {
     }
 }
 
-function submitVocabTest() {
+function submitVocabTest(timedOut = false) {
+    if (!currentVocabTest || document.getElementById('vocabTestInterface').style.display === 'none') return;
     // Ak je posledné slovíčko a ešte nebolo ukázané
-    if ((vocabShowAnswersMode.includes('each') || vocabShowAnswersMode.includes('retry')) && !vocabAnswered) {
+    if (!timedOut && (vocabShowAnswersMode.includes('each') || vocabShowAnswersMode.includes('retry')) && !vocabAnswered) {
         vocabAnswered = true;
         showVocab();
         document.getElementById('vocabSubmitBtn').textContent = 'Dokončiť test';
@@ -3719,8 +3544,27 @@ function submitVocabTest() {
         };
     });
 
-    // Zobraziť výsledky
-    showVocabResults(results, correct, total);
+    if (!vocabResultSaved) {
+        const percentage = Math.round(correct / total * 100);
+        saveTestResult({testName: currentVocabTest.title, date: new Date().toISOString(), score: correct, total, percentage});
+        track('test_finish', {test: currentVocabTest.title, mode: 'vocabulary', score: correct, total, percent: percentage, duration_sec: Math.round((Date.now() - vocabStartTime) / 1000)});
+        vocabResultSaved = true;
+    }
+    if (!timedOut && vocabShowAnswersMode.includes('retry') && correct < total) {
+        if (!vocabRetryOriginal) vocabRetryOriginal = {results, correct, total};
+        currentVocabTest.vocabulary = currentVocabTest.vocabulary.filter((_, index) => !results[index].correct);
+        vocabUserAnswers = currentVocabTest.vocabulary.map(() => ({translation: '', genitive: '', gender: ''}));
+        vocabHints = currentVocabTest.vocabulary.map(() => ({level: 0, revealed: [], usedHelp: false}));
+        currentVocabIndex = 0;
+        vocabAnswered = false;
+        document.getElementById('vocabSubmitBtn').textContent = 'Odovzdať test';
+        document.getElementById('vocabTimer').style.display = 'none';
+        showVocab();
+        updateVocabNavigation();
+        return;
+    }
+    const final = vocabRetryOriginal || {results, correct, total};
+    showVocabResults(final.results, final.correct, final.total);
 }
 
 function showVocabResults(results, correct, total) {

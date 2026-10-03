@@ -1,9 +1,18 @@
-from flask import Flask, render_template, request, jsonify
+from flask import Flask, render_template, request, jsonify, abort, session, redirect, url_for
 import json
 import os
-import glob
 import base64
 import io
+import hashlib
+import secrets
+import math
+from functools import wraps
+import threading
+from datetime import datetime, timezone
+from pathlib import Path
+from collections import Counter, defaultdict, deque
+from storage import TestStore, StoreError, validate_tests
+from security import init_security
 import anthropic
 from dotenv import load_dotenv
 from PIL import Image, ImageEnhance, ImageFilter, ImageOps
@@ -31,210 +40,369 @@ def fix_json_string(json_str):
 
     return json_str
 
+def parse_ai_response(response):
+    text = next(block.text for block in response.content if block.type == 'text').strip()
+    match = re.search(r'```(?:json)?\s*(.*?)```', text, re.DOTALL)
+    if match:
+        text = match.group(1)
+    try:
+        result = json.loads(text)
+    except json.JSONDecodeError:
+        result = json.loads(fix_json_string(text))
+    if not isinstance(result, dict):
+        raise StoreError('AI nevrátilo platný objekt s otázkami alebo slovíčkami.')
+    return result
+
+
 # Load environment variables
 load_dotenv()
 
 app = Flask(__name__)
 
-# Anthropic client (reads ANTHROPIC_API_KEY from environment)
-client = anthropic.Anthropic()
+# Dáta sú oddelené od kódu a image. Testovací Compose používa ich kópiu.
+BASE_DIR = Path(__file__).resolve().parent
+APP_VERSION = (BASE_DIR / 'VERSION').read_text().strip()
+DATA_DIR = Path(os.environ.get('DATA_DIR', BASE_DIR / 'data'))
+TESTS_DIR = os.environ.get('TESTS_DIR', str(BASE_DIR / 'testy'))
+app.config.update(
+    SECRET_KEY=os.environ.get('SECRET_KEY') or secrets.token_hex(32),
+    ADMIN_SECRET=os.environ.get('ADMIN_SECRET', ''),
+    SESSION_COOKIE_SECURE=os.environ.get('COOKIE_SECURE', 'false').lower() == 'true',
+    MAX_CONTENT_LENGTH=32 * 1024 * 1024,
+    MAX_FORM_MEMORY_SIZE=1024 * 1024,
+)
+if app.config['ADMIN_SECRET'] and not os.environ.get('SECRET_KEY'):
+    raise RuntimeError('Pre správu testov nastavte stabilný SECRET_KEY v prostredí.')
+app.extensions['test_store'] = TestStore(TESTS_DIR, DATA_DIR)
+EVENTS_FILE = DATA_DIR / 'events.jsonl'
+if os.environ.get('TRUST_PROXY_HEADERS', 'false').lower() == 'true':
+    from werkzeug.middleware.proxy_fix import ProxyFix
+    app.wsgi_app = ProxyFix(app.wsgi_app, x_for=1, x_proto=1)
+rate_limiter = init_security(app)
+EVENT_LOCK = threading.Lock()
+AI_LOCK = threading.Lock()
 
-# Ukladanie testov v pamäti
-tests = []
 
-# Cesta k priečinku s testami
-TESTS_DIR = os.path.join(os.path.dirname(__file__), 'testy')
+def store():
+    return app.extensions['test_store']
 
-# Vytvoriť priečinok ak neexistuje
-if not os.path.exists(TESTS_DIR):
-    os.makedirs(TESTS_DIR)
-    print(f"Vytvorený priečinok: {TESTS_DIR}")
+
+@app.errorhandler(StoreError)
+def store_error(error):
+    return jsonify(error=str(error)), error.status
+
+
+@app.errorhandler(413)
+def too_large(error):
+    return jsonify(error='Súbor je príliš veľký. Limit je 32 MB.'), 413
+
+
+def json_object():
+    data = request.get_json(silent=True)
+    if not isinstance(data, dict):
+        raise StoreError('Očakáva sa JSON objekt.')
+    return data
+
+
+def anthropic_client():
+    if not os.environ.get('ANTHROPIC_API_KEY'):
+        raise StoreError('AI import nie je nakonfigurovaný.', 503)
+    return anthropic.Anthropic(timeout=90, max_retries=1)
+
+
+def ai_request(view):
+    @wraps(view)
+    def wrapped(*args, **kwargs):
+        if not os.environ.get('ANTHROPIC_API_KEY'):
+            return jsonify(error='AI import nie je nakonfigurovaný.'), 503
+        if not AI_LOCK.acquire(blocking=False):
+            return jsonify(error='Prebieha iný AI import. Skúste to po jeho dokončení.'), 429
+        try:
+            return view(*args, **kwargs)
+        finally:
+            AI_LOCK.release()
+    return wrapped
+
+
+def client_ip():
+    return request.remote_addr or 'unknown'
+
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    return render_template('index.html', app_version=APP_VERSION, cf_analytics_token=os.environ.get('CF_ANALYTICS_TOKEN', ''))
 
-@app.route('/api/tests/meta', methods=['GET'])
-def get_tests_meta():
-    """Vráti metadáta testov (názov, hash, veľkosť) pre caching"""
-    import hashlib
+
+@app.route('/api/track', methods=['POST'])
+def track():
+    data = request.get_json(silent=True)
+    if not isinstance(data, dict) or data.get('event') not in ('page_view', 'test_start', 'test_finish'):
+        return jsonify(ok=False), 400
+    for field, limit in (('test', 200), ('mode', 50)):
+        if not isinstance(data.get(field, ''), str) or len(data.get(field, '')) > limit:
+            return jsonify(ok=False), 400
+    for field in ('score', 'total', 'percent', 'duration_sec'):
+        value = data.get(field)
+        if value is not None and (type(value) not in (int, float) or not math.isfinite(value) or value < 0):
+            return jsonify(ok=False), 400
+    if data.get('percent') is not None and data['percent'] > 100:
+        return jsonify(ok=False), 400
+    rec = {key: data.get(key) for key in ('event', 'test', 'score', 'total', 'percent', 'mode', 'duration_sec')}
+    rec.update(ts=datetime.now(timezone.utc).isoformat(), ip=client_ip(),
+               ua=(request.headers.get('User-Agent') or '')[:300],
+               ref=(request.headers.get('Referer') or '')[:300])
     try:
-        meta = []
-        json_files = glob.glob(os.path.join(TESTS_DIR, '*.json'))
+        with EVENT_LOCK:
+            # Otočenie logu zachová staršie eventy a obmedzí veľkosť aktívneho súboru.
+            if EVENTS_FILE.exists() and EVENTS_FILE.stat().st_size > 10 * 1024 * 1024:
+                EVENTS_FILE.rename(EVENTS_FILE.with_name('events-' + datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%S%f') + '.jsonl'))
+            with EVENTS_FILE.open('a', encoding='utf-8') as handle:
+                handle.write(json.dumps(rec, ensure_ascii=False, allow_nan=False) + '\n')
+    except OSError:
+        app.logger.exception('Nepodarilo sa uložiť analytický event')
+        return jsonify(ok=False), 503
+    return jsonify(ok=True)
 
-        for filepath in json_files:
-            filename = os.path.basename(filepath)
-            stat = os.stat(filepath)
-            # Hash z veľkosti a času modifikácie (rýchlejšie ako hash obsahu)
-            hash_str = f"{stat.st_size}_{stat.st_mtime}"
-            file_hash = hashlib.md5(hash_str.encode()).hexdigest()[:12]
-            meta.append({
-                'filename': filename,
-                'hash': file_hash,
-                'size': stat.st_size
-            })
 
-        return jsonify(meta)
+def _parse_ua(ua):
+    """Very lightweight UA parser → (device, browser, os)."""
+    ua_l = ua.lower()
+    if 'iphone' in ua_l or 'ipod' in ua_l: device = 'iPhone'
+    elif 'ipad' in ua_l: device = 'iPad'
+    elif 'android' in ua_l: device = 'Android'
+    elif 'mobile' in ua_l: device = 'Mobile'
+    elif 'tablet' in ua_l: device = 'Tablet'
+    else: device = 'Desktop'
+    if 'edg/' in ua_l: browser = 'Edge'
+    elif 'opr/' in ua_l or 'opera' in ua_l: browser = 'Opera'
+    elif 'chrome' in ua_l and 'safari' in ua_l: browser = 'Chrome'
+    elif 'firefox' in ua_l: browser = 'Firefox'
+    elif 'safari' in ua_l: browser = 'Safari'
+    else: browser = 'Other'
+    if 'iphone os' in ua_l or 'cpu os' in ua_l: os_name = 'iOS'
+    elif 'mac os' in ua_l: os_name = 'macOS'
+    elif 'android' in ua_l: os_name = 'Android'
+    elif 'windows' in ua_l: os_name = 'Windows'
+    elif 'linux' in ua_l: os_name = 'Linux'
+    else: os_name = 'Other'
+    return device, browser, os_name
+
+
+def fetch_cf_analytics():
+    """Fetch Cloudflare Web Analytics via GraphQL. Returns None if not configured."""
+    token = os.environ.get('CF_API_TOKEN')
+    account_tag = os.environ.get('CF_ACCOUNT_TAG')
+    site_tag = os.environ.get('CF_SITE_TAG')
+    if not (token and account_tag and site_tag):
+        return None
+    import urllib.request
+    from datetime import timedelta
+    since = (datetime.now(timezone.utc) - timedelta(days=7)).strftime('%Y-%m-%d')
+    query = """
+    query($accountTag: String!, $siteTag: String!, $since: Date!) {
+      viewer {
+        accounts(filter: {accountTag: $accountTag}) {
+          totals: rumPageloadEventsAdaptiveGroups(filter: {siteTag: $siteTag, date_geq: $since}, limit: 1) {
+            count
+            sum { visits }
+          }
+          countries: rumPageloadEventsAdaptiveGroups(filter: {siteTag: $siteTag, date_geq: $since}, limit: 10, orderBy: [count_DESC]) {
+            count
+            dimensions { countryName }
+          }
+          devices: rumPageloadEventsAdaptiveGroups(filter: {siteTag: $siteTag, date_geq: $since}, limit: 10, orderBy: [count_DESC]) {
+            count
+            dimensions { deviceType }
+          }
+        }
+      }
+    }
+    """
+    payload = json.dumps({'query': query, 'variables': {
+        'accountTag': account_tag, 'siteTag': site_tag, 'since': since
+    }}).encode('utf-8')
+    req = urllib.request.Request(
+        'https://api.cloudflare.com/client/v4/graphql',
+        data=payload, method='POST',
+        headers={'Authorization': f'Bearer {token}', 'Content-Type': 'application/json'}
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=8) as resp:
+            data = json.loads(resp.read().decode('utf-8'))
     except Exception as e:
-        return jsonify([])
-
-@app.route('/api/tests', methods=['GET'])
-def get_tests():
-    """Vráti zoznam všetkých testov - automaticky načíta z priečinka testy/"""
+        print(f'CF API error: {e}')
+        return None
     try:
-        # Vymazať existujúce testy
-        tests.clear()
+        acct = data['data']['viewer']['accounts'][0]
+        totals = acct.get('totals', [])
+        pageviews = sum(t.get('count', 0) for t in totals)
+        visits = sum((t.get('sum') or {}).get('visits', 0) for t in totals)
+        visitors = visits  # CF RUM AdaptiveGroups nemá samostatný unique visitors field
+        # Aggregate countries
+        country_groups = Counter()
+        for g in acct.get('countries', []):
+            c = (g.get('dimensions') or {}).get('countryName') or 'Unknown'
+            country_groups[c] += g.get('count', 0)
+        device_groups = Counter()
+        for g in acct.get('devices', []):
+            d = (g.get('dimensions') or {}).get('deviceType') or 'Unknown'
+            device_groups[d] += g.get('count', 0)
+        return {
+            'pageviews': pageviews, 'visits': visits, 'visitors': visitors,
+            'countries': country_groups.most_common(8),
+            'devices': device_groups.most_common(6),
+        }
+    except (KeyError, IndexError, TypeError) as e:
+        print(f'CF API parse error: {e}, data={data}')
+        return None
 
-        # Načítať všetky JSON súbory z priečinka
-        json_files = glob.glob(os.path.join(TESTS_DIR, '*.json'))
 
-        if json_files:
-            for filepath in json_files:
+@app.route('/admin/stats')
+def admin_stats():
+    if not session.get('admin'):
+        return redirect(url_for('admin_login'))
+    # Dashboard pracuje s poslednými 50 000 eventmi; archívy zostávajú na disku.
+    events = []
+    if EVENTS_FILE.exists():
+        with EVENTS_FILE.open(encoding='utf-8') as handle:
+            for line in deque(handle, maxlen=50000):
                 try:
-                    filename = os.path.basename(filepath)
-                    with open(filepath, 'r', encoding='utf-8') as f:
-                        data = json.load(f)
+                    event = json.loads(line)
+                    if (isinstance(event, dict) and isinstance(event.get('ts'), str)
+                            and event.get('event') in ('page_view', 'test_start', 'test_finish')
+                            and all(isinstance(event.get(key) or '', str) for key in ('test', 'ua', 'ip', 'ref'))):
+                        events.append(event)
+                except (ValueError, TypeError):
+                    continue
+    # Aggregations
+    daily = Counter()
+    by_event = Counter()
+    by_test = Counter()
+    finishes_by_test = defaultdict(list)  # test → [percent...]
+    device_cnt = Counter()
+    browser_cnt = Counter()
+    os_cnt = Counter()
+    unique_ips = set()
+    hourly = Counter()
+    referrers = Counter()
+    sessions = defaultdict(list)  # ip → [timestamps]
 
-                        # Validácia formátu
-                        if isinstance(data, list):
-                            # Pridať filename k každému testu v array
-                            for test in data:
-                                test['filename'] = filename
-                            tests.extend(data)
-                        else:
-                            # Pridať filename k testu
-                            data['filename'] = filename
-                            tests.append(data)
-                except Exception as e:
-                    print(f"Chyba pri načítaní {filename}: {str(e)}")
+    for e in events:
+        ts = e.get('ts', '')
+        if not ts: continue
+        try:
+            dt = datetime.fromisoformat(ts.replace('Z', '+00:00'))
+        except (ValueError, TypeError):
+            continue
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        daily[dt.date().isoformat()] += 1
+        hourly[dt.hour] += 1
+        ev = e.get('event', '')
+        by_event[ev] += 1
+        test = e.get('test')
+        if test:
+            by_test[test] += 1
+        if ev == 'test_finish' and test and type(e.get('percent')) in (int, float) and math.isfinite(e['percent']):
+            finishes_by_test[test].append(e['percent'])
+        d, b, o = _parse_ua(e.get('ua') or '')
+        device_cnt[d] += 1
+        browser_cnt[b] += 1
+        os_cnt[o] += 1
+        ip = e.get('ip', '')
+        if ip:
+            unique_ips.add(ip)
+            sessions[ip].append(dt)
+        ref = e.get('ref', '')
+        if ref:
+            # zjednoduš na hostname
+            m = re.search(r'https?://([^/]+)', ref)
+            if m:
+                referrers[m.group(1)] += 1
 
-        return jsonify(tests)
-    except Exception as e:
-        print(f"Chyba pri načítaní testov: {str(e)}")
-        return jsonify([])
+    # avg score per test
+    avg_score = {t: round(sum(v) / len(v), 1) for t, v in finishes_by_test.items() if v}
+    score_count = {t: len(v) for t, v in finishes_by_test.items()}
 
-@app.route('/api/import', methods=['POST'])
+    # sessions (gap > 30 min)
+    total_sessions = 0
+    for ip, times in sessions.items():
+        times.sort()
+        prev = None
+        for t in times:
+            if prev is None or (t - prev).total_seconds() > 30 * 60:
+                total_sessions += 1
+            prev = t
+
+    stats = {
+        'total_events': len(events),
+        'unique_ips': len(unique_ips),
+        'total_sessions': total_sessions,
+        'daily': dict(sorted(daily.items())),
+        'hourly': dict(sorted(hourly.items())),
+        'by_event': dict(by_event.most_common()),
+        'by_test': dict(by_test.most_common(20)),
+        'avg_score': avg_score,
+        'score_count': score_count,
+        'device': dict(device_cnt.most_common()),
+        'browser': dict(browser_cnt.most_common()),
+        'os': dict(os_cnt.most_common()),
+        'referrers': dict(referrers.most_common(10)),
+    }
+    cf_data = fetch_cf_analytics()
+    return render_template('admin_stats.html', stats=stats,
+                           cf_data=cf_data)
+
+@app.get('/health')
+def health():
+    return jsonify(status='ok')
+
+
+@app.get('/api/tests/meta')
+def get_tests_meta():
+    _, meta = store().catalog(include_tests=False)
+    return jsonify(meta)
+
+
+@app.get('/api/tests')
+def get_tests():
+    tests, meta = store().catalog()
+    response = jsonify(tests)
+    response.set_etag(hashlib.sha256(json.dumps(meta, sort_keys=True).encode()).hexdigest())
+    response.headers['Cache-Control'] = 'no-cache'
+    return response.make_conditional(request)
+
+
+@app.post('/api/import')
 def import_tests():
-    """Importuje testy zo súboru a uloží ich do priečinka testy/"""
+    file = request.files.get('file')
+    if file is None:
+        raise StoreError('Žiadny súbor.')
     try:
-        file = request.files.get('file')
-        if not file:
-            return jsonify({'error': 'Žiadny súbor'}), 400
-
         data = json.load(file)
+    except (ValueError, UnicodeError):
+        raise StoreError('Súbor neobsahuje platný JSON.') from None
+    return jsonify(success=True, count=store().import_tests(data))
 
-        # Validácia formátu a uloženie do súborov
-        saved_count = 0
-        if isinstance(data, list):
-            # Array testov
-            for test in data:
-                if 'title' in test:
-                    filename = f"{test['title']}.json"
-                    filepath = os.path.join(TESTS_DIR, filename)
 
-                    # Uložiť test ako array (konzistentný formát)
-                    with open(filepath, 'w', encoding='utf-8') as f:
-                        json.dump([test], f, ensure_ascii=False, indent=2)
-                    saved_count += 1
-                    print(f"Uložený test: {test['title']}")
-        else:
-            # Jeden test
-            if 'title' in data:
-                filename = f"{data['title']}.json"
-                filepath = os.path.join(TESTS_DIR, filename)
+def check_folder():
+    if json_object().get('folder', 'testy') != 'testy':
+        raise StoreError('Prístup je povolený iba k adresáru testov.')
 
-                # Uložiť test ako array (konzistentný formát)
-                with open(filepath, 'w', encoding='utf-8') as f:
-                    json.dump([data], f, ensure_ascii=False, indent=2)
-                saved_count += 1
-                print(f"Uložený test: {data['title']}")
 
-        return jsonify({'success': True, 'count': saved_count})
-    except Exception as e:
-        return jsonify({'error': str(e)}), 400
-
-@app.route('/api/clear', methods=['POST'])
-def clear_tests():
-    """Vymaže všetky testy"""
-    tests.clear()
-    return jsonify({'success': True})
-
-@app.route('/api/load-from-folder', methods=['POST'])
+@app.post('/api/load-from-folder')
 def load_from_folder():
-    """Načíta všetky testy z určeného priečinka"""
-    try:
-        # Získať cestu z requestu
-        data = request.get_json()
-        folder_path = data.get('folder', 'testy') if data else 'testy'
+    check_folder()
+    tests, meta = store().catalog()
+    return jsonify(success=True, count=len(tests), files=len(meta), message=f'Načítaných {len(tests)} testov.')
 
-        # Ak je relatívna cesta, pridať k base dir
-        if not os.path.isabs(folder_path):
-            folder_path = os.path.join(os.path.dirname(__file__), folder_path)
 
-        # Vymazať existujúce testy
-        tests.clear()
-
-        # Načítať všetky JSON súbory z priečinka
-        if not os.path.exists(folder_path):
-            return jsonify({'success': False, 'error': f'Priečinok "{folder_path}" neexistuje'}), 400
-
-        json_files = glob.glob(os.path.join(folder_path, '*.json'))
-
-        if not json_files:
-            return jsonify({'success': True, 'count': 0, 'message': f'Žiadne JSON súbory v priečinku {folder_path}'})
-
-        loaded_count = 0
-        for filepath in json_files:
-            try:
-                filename = os.path.basename(filepath)
-                with open(filepath, 'r', encoding='utf-8') as f:
-                    data = json.load(f)
-
-                    # Validácia formátu
-                    if isinstance(data, list):
-                        # Pridať filename k každému testu v array
-                        for test in data:
-                            test['filename'] = filename
-                        tests.extend(data)
-                        loaded_count += len(data)
-                    else:
-                        # Pridať filename k testu
-                        data['filename'] = filename
-                        tests.append(data)
-                        loaded_count += 1
-            except Exception as e:
-                print(f"Chyba pri načítaní {filepath}: {e}")
-
-        return jsonify({
-            'success': True,
-            'count': loaded_count,
-            'files': len(json_files),
-            'message': f'Načítaných {loaded_count} testov z {len(json_files)} súborov'
-        })
-    except Exception as e:
-        return jsonify({'error': str(e)}), 400
-
-@app.route('/api/list-files', methods=['POST'])
+@app.post('/api/list-files')
 def list_files():
-    """Vráti zoznam JSON súborov v určenom priečinku"""
-    try:
-        # Získať cestu z requestu
-        data = request.get_json()
-        folder_path = data.get('folder', 'testy') if data else 'testy'
+    check_folder()
+    _, meta = store().catalog(include_tests=False)
+    return jsonify(files=[m['filename'] for m in meta])
 
-        # Ak je relatívna cesta, pridať k base dir
-        if not os.path.isabs(folder_path):
-            folder_path = os.path.join(os.path.dirname(__file__), folder_path)
-
-        if not os.path.exists(folder_path):
-            return jsonify({'files': [], 'error': f'Priečinok "{folder_path}" neexistuje'})
-
-        json_files = glob.glob(os.path.join(folder_path, '*.json'))
-        files = [os.path.basename(f) for f in json_files]
-
-        return jsonify({'files': files, 'path': folder_path})
-    except Exception as e:
-        return jsonify({'error': str(e)}), 400
 
 def deskew_image(img_array):
     """Perspektívna korekcia - opravuje fotky fotené z uhla
@@ -301,6 +469,10 @@ def preprocess_image(image_file, advanced=False, rotation=0):
     """
     # Načítať obrázok
     img = Image.open(image_file)
+    if img.width * img.height > 20_000_000:
+        raise StoreError('Obrázok je príliš veľký (maximum 20 megapixelov).')
+    if rotation not in (0, 90, 180, 270):
+        raise StoreError('Neplatné otočenie obrázka.')
 
     # Opraviť EXIF orientáciu (fotky z mobilu)
     try:
@@ -398,6 +570,7 @@ def preprocess_image(image_file, advanced=False, rotation=0):
     return buffer
 
 @app.route('/api/ai-import', methods=['POST'])
+@ai_request
 def ai_import():
     """AI import otázok z obrázku pomocou Claude Vision API"""
     try:
@@ -413,11 +586,6 @@ def ai_import():
         # Získať manuálnu rotáciu
         rotation = int(request.form.get('rotation', 0))
 
-        # Uložiť pôvodný obrázok pre vytvorenie výrezov
-        image_file.seek(0)
-        original_image_bytes = image_file.read()
-        image_file.seek(0)
-
         # Predspracovať obrázok pre AI
         image_file.seek(0)
         processed_image = preprocess_image(image_file, advanced=advanced_preprocessing, rotation=rotation)
@@ -425,7 +593,8 @@ def ai_import():
 
         # Uložiť aj predspracovaný obrázok ako PIL Image pre výrezy
         image_file.seek(0)
-        processed_pil = Image.open(preprocess_image(image_file, advanced=advanced_preprocessing, rotation=rotation))
+        processed_image.seek(0)
+        processed_pil = Image.open(processed_image)
 
         # Prompt pre Claude
         prompt = """Analyzuj tento obrázok a extrahuj z neho všetky otázky s možnými odpoveďami.
@@ -479,7 +648,7 @@ Analyzuj obrázok a vráť JSON:"""
 
         # Zavolať Claude Vision API (Sonnet 4.6)
         try:
-            response = client.messages.create(
+            response = anthropic_client().messages.create(
                 model="claude-sonnet-4-6",
                 max_tokens=8192,
                 temperature=0.1,
@@ -506,45 +675,8 @@ Analyzuj obrázok a vráť JSON:"""
                 'error': f'Chyba pri volaní Claude API: {str(e)}'
             }), 400
 
-        # Extrahovať JSON odpoveď
-        ai_response = next(b.text for b in response.content if b.type == "text").strip()
-        print(f"AI Response length: {len(ai_response)} chars")
-        print(f"AI Response preview: {ai_response[:200]}")
-
-        # Pokúsiť sa parsovať JSON (ak AI pridalo markdown bloky, odstránime ich)
-        if '```json' in ai_response:
-            # Nájsť JSON medzi ```json a ```
-            start = ai_response.find('```json') + 7
-            end = ai_response.find('```', start)
-            ai_response = ai_response[start:end].strip()
-        elif '```' in ai_response:
-            # Nájsť JSON medzi ``` a ```
-            parts = ai_response.split('```')
-            if len(parts) >= 2:
-                ai_response = parts[1].strip()
-                if ai_response.startswith('json'):
-                    ai_response = ai_response[4:].strip()
-
-        # Odstrániť možné úvodné/záverečné znaky
-        ai_response = ai_response.strip()
-
-        # Parsovať JSON s pokusom o opravu
-        try:
-            result = json.loads(ai_response)
-        except json.JSONDecodeError as e:
-            print(f"JSON Parse Error, pokúšam sa opraviť: {e}")
-            print(f"AI Response (first 500): {ai_response[:500]}")
-            # Pokus o opravu JSON
-            try:
-                fixed_response = fix_json_string(ai_response)
-                result = json.loads(fixed_response)
-                print("JSON úspešne opravený a sparsovaný")
-            except json.JSONDecodeError as e2:
-                print(f"JSON Parse Error aj po oprave: {e2}")
-                return jsonify({
-                    'error': f'Chyba pri parsovaní AI odpovede: {str(e)}',
-                    'raw_response': ai_response[:200]
-                }), 400
+        result = parse_ai_response(response)
+        validate_tests({'title': 'AI import', 'questions': result.get('questions')})
 
         # Vytvoriť výrezy pre každú otázku
         num_questions = len(result.get('questions', []))
@@ -554,7 +686,8 @@ Analyzuj obrázok a vráť JSON:"""
             questions = result.get('questions', [])
 
             # Skontrolovať či AI poskytlo pozície
-            has_positions = all('positionPercent' in q for q in questions)
+            has_positions = all(type(q.get('positionPercent')) in (int, float) and 0 <= q['positionPercent'] <= 100 for q in questions)
+            has_positions = has_positions and all(a['positionPercent'] <= b['positionPercent'] for a, b in zip(questions, questions[1:]))
 
             for idx, question in enumerate(questions):
                 if has_positions:
@@ -614,6 +747,7 @@ Analyzuj obrázok a vráť JSON:"""
         return jsonify({'error': str(e)}), 400
 
 @app.route('/api/ai-import-vocab', methods=['POST'])
+@ai_request
 def ai_import_vocab():
     """AI import latinských slovíčok z obrázku pomocou Claude Vision API"""
     try:
@@ -627,7 +761,7 @@ def ai_import_vocab():
 
         # Predspracovať obrázok
         image_file.seek(0)
-        processed_image = preprocess_image(image_file, advanced=advanced_preprocessing, rotation=0)
+        processed_image = preprocess_image(image_file, advanced=advanced_preprocessing, rotation=int(request.form.get('rotation', 0)))
         image_data = base64.b64encode(processed_image.read()).decode('utf-8')
 
         # Prompt pre Claude - slovíčka
@@ -687,7 +821,7 @@ Vráť odpoveď v tomto PRESNOM JSON formáte:
 
         # Volanie Claude API (Sonnet 4.6)
         try:
-            response = client.messages.create(
+            response = anthropic_client().messages.create(
                 model="claude-sonnet-4-6",
                 max_tokens=8192,
                 temperature=0.1,
@@ -714,45 +848,8 @@ Vráť odpoveď v tomto PRESNOM JSON formáte:
                 'error': f'Chyba pri volaní Claude API: {str(e)}'
             }), 400
 
-        # Extrahovať JSON odpoveď
-        ai_response = next(b.text for b in response.content if b.type == "text").strip()
-        print(f"Vocab AI Response length: {len(ai_response)} chars")
-        print(f"Vocab AI Response preview: {ai_response[:200]}")
-
-        # Pokúsiť sa parsovať JSON (ak AI pridalo markdown bloky, odstránime ich)
-        if '```json' in ai_response:
-            # Nájsť JSON medzi ```json a ```
-            start = ai_response.find('```json') + 7
-            end = ai_response.find('```', start)
-            ai_response = ai_response[start:end].strip()
-        elif '```' in ai_response:
-            # Nájsť JSON medzi ``` a ```
-            parts = ai_response.split('```')
-            if len(parts) >= 2:
-                ai_response = parts[1].strip()
-                if ai_response.startswith('json'):
-                    ai_response = ai_response[4:].strip()
-
-        # Odstrániť možné úvodné/záverečné znaky
-        ai_response = ai_response.strip()
-
-        # Parsovať JSON s pokusom o opravu
-        try:
-            result = json.loads(ai_response)
-        except json.JSONDecodeError as e:
-            print(f"JSON Parse Error (vocab), pokúšam sa opraviť: {e}")
-            print(f"AI Response (first 500): {ai_response[:500]}")
-            # Pokus o opravu JSON
-            try:
-                fixed_response = fix_json_string(ai_response)
-                result = json.loads(fixed_response)
-                print("JSON úspešne opravený a sparsovaný")
-            except json.JSONDecodeError as e2:
-                print(f"JSON Parse Error aj po oprave: {e2}")
-                return jsonify({
-                    'error': f'Chyba pri parsovaní AI odpovede: {str(e)}',
-                    'raw_response': ai_response[:200]
-                }), 400
+        result = parse_ai_response(response)
+        validate_tests({'title': 'AI import', 'testType': 'vocabulary', 'vocabulary': result.get('vocabulary')})
 
         return jsonify({
             'success': True,
@@ -762,162 +859,31 @@ Vráť odpoveď v tomto PRESNOM JSON formáte:
     except Exception as e:
         return jsonify({'error': str(e)}), 400
 
-@app.route('/api/save-test', methods=['POST'])
+@app.post('/api/save-test')
 def save_test():
-    """Uloží test do JSON súboru v priečinku testy/"""
-    try:
-        data = request.get_json()
+    data = json_object()
+    if not isinstance(data.get('testName'), str):
+        raise StoreError('Chýba názov súboru.')
+    return jsonify(store().save(data['testName'], data.get('testData'), data.get('mode', 'new'), data.get('version')))
 
-        test_name = data.get('testName')
-        test_data = data.get('testData')
-        mode = data.get('mode', 'new')  # 'new' alebo 'append'
 
-        if not test_name or not test_data:
-            return jsonify({'error': 'Chýbajúce údaje'}), 400
-
-        # Vytvorenie cesty k súboru
-        filename = f"{test_name}.json"
-        filepath = os.path.join(TESTS_DIR, filename)
-
-        if mode == 'append' and os.path.exists(filepath):
-            # Pridať k existujúcemu testu
-            with open(filepath, 'r', encoding='utf-8') as f:
-                existing_data = json.load(f)
-
-            # Zistiť či ide o slovíčkový alebo klasický test
-            is_vocab_test = 'vocabulary' in test_data
-
-            # Ak je existujúci súbor array, pridať do prvého testu
-            if isinstance(existing_data, list) and len(existing_data) > 0:
-                if is_vocab_test:
-                    # Slovíčkový test
-                    if 'vocabulary' not in existing_data[0]:
-                        existing_data[0]['vocabulary'] = []
-                    existing_data[0]['vocabulary'].extend(test_data['vocabulary'])
-                    print(f"Pridané {len(test_data['vocabulary'])} slovíčok do testu: {existing_data[0].get('title')}")
-                else:
-                    # Klasický test s otázkami
-                    existing_data[0]['questions'].extend(test_data['questions'])
-                    print(f"Pridané {len(test_data['questions'])} otázok do testu: {existing_data[0].get('title')}")
-            else:
-                # Ak je objekt, pridať priamo
-                if is_vocab_test and 'vocabulary' in existing_data:
-                    existing_data['vocabulary'].extend(test_data['vocabulary'])
-                    print(f"Pridané {len(test_data['vocabulary'])} slovíčok do testu: {existing_data.get('title')}")
-                elif 'questions' in existing_data:
-                    existing_data['questions'].extend(test_data['questions'])
-                    print(f"Pridané {len(test_data['questions'])} otázok do testu: {existing_data.get('title')}")
-                else:
-                    # Chybný formát - vytvoriť ako nový
-                    print("Chybný formát existujúceho testu, vytvorím nový")
-                    existing_data = [test_data]
-
-            with open(filepath, 'w', encoding='utf-8') as f:
-                json.dump(existing_data, f, ensure_ascii=False, indent=2)
-        else:
-            # Vytvoriť nový test (ako array s jedným testom)
-            with open(filepath, 'w', encoding='utf-8') as f:
-                json.dump([test_data], f, ensure_ascii=False, indent=2)
-
-        return jsonify({
-            'success': True,
-            'filename': filename,
-            'filepath': filepath
-        })
-
-    except Exception as e:
-        return jsonify({'error': str(e)}), 400
-
-@app.route('/api/load-test/<filename>', methods=['GET'])
+@app.get('/api/load-test/<filename>')
 def load_test(filename):
-    """Načíta test súbor pre editáciu"""
-    try:
-        filepath = os.path.join(TESTS_DIR, filename)
+    if not session.get('admin'):
+        abort(401)
+    return jsonify(store().load(filename))
 
-        if not os.path.exists(filepath):
-            return jsonify({'error': 'Súbor neexistuje'}), 404
 
-        with open(filepath, 'r', encoding='utf-8') as f:
-            data = json.load(f)
-
-        return jsonify({
-            'success': True,
-            'filename': filename,
-            'data': data
-        })
-
-    except Exception as e:
-        return jsonify({'error': str(e)}), 400
-
-@app.route('/api/update-test/<filename>', methods=['POST'])
+@app.post('/api/update-test/<filename>')
 def update_test(filename):
-    """Aktualizuje existujúci test súbor"""
-    try:
-        filepath = os.path.join(TESTS_DIR, filename)
+    data = json_object()
+    return jsonify(store().update(filename, data.get('data'), data.get('version')))
 
-        if not os.path.exists(filepath):
-            return jsonify({'error': 'Súbor neexistuje'}), 404
 
-        data = request.get_json()
-        test_data = data.get('data')
-
-        if not test_data:
-            return jsonify({'error': 'Chýbajúce údaje'}), 400
-
-        # Získať nový názov testu (z prvého testu v array alebo priamo z objektu)
-        if isinstance(test_data, list) and len(test_data) > 0:
-            new_test_title = test_data[0].get('title', '')
-        else:
-            new_test_title = test_data.get('title', '')
-
-        # Vytvoriť nový názov súboru na základe názvu testu
-        new_filename = f"{new_test_title}.json"
-        new_filepath = os.path.join(TESTS_DIR, new_filename)
-
-        # Uložiť aktualizovaný test
-        with open(filepath, 'w', encoding='utf-8') as f:
-            json.dump(test_data, f, ensure_ascii=False, indent=2)
-
-        # Ak sa zmenil názov súboru, premenovať
-        if filename != new_filename and new_test_title:
-            if os.path.exists(new_filepath) and new_filepath != filepath:
-                # Súbor s novým názvom už existuje
-                return jsonify({'error': f'Test s názvom "{new_test_title}" už existuje'}), 400
-
-            os.rename(filepath, new_filepath)
-            print(f"Test premenovaný: {filename} → {new_filename}")
-            return jsonify({
-                'success': True,
-                'filename': new_filename,
-                'renamed': True
-            })
-
-        return jsonify({
-            'success': True,
-            'filename': filename
-        })
-
-    except Exception as e:
-        return jsonify({'error': str(e)}), 400
-
-@app.route('/api/delete-test/<filename>', methods=['DELETE'])
+@app.delete('/api/delete-test/<filename>')
 def delete_test(filename):
-    """Zmaže test súbor"""
-    try:
-        filepath = os.path.join(TESTS_DIR, filename)
+    return jsonify(store().delete(filename, json_object().get('version')))
 
-        if not os.path.exists(filepath):
-            return jsonify({'error': 'Súbor neexistuje'}), 404
-
-        os.remove(filepath)
-
-        return jsonify({
-            'success': True,
-            'message': f'Test {filename} bol zmazaný'
-        })
-
-    except Exception as e:
-        return jsonify({'error': str(e)}), 400
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    app.run(host='0.0.0.0', port=5000, debug=False)

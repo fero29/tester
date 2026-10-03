@@ -1,94 +1,73 @@
-# Návod na nasadenie na AWS
+# Nasadenie, zálohy a presun
 
-## 1. AWS EC2 Security Group
-Otvor tieto porty:
-- **Port 80** (HTTP) - Source: 0.0.0.0/0
-- **Port 443** (HTTPS) - Source: 0.0.0.0/0
-- **Port 22** (SSH) - Source: 0.0.0.0/0 alebo tvoja IP
+O verejnom nasadení a hostiteľskom počítači rozhoduje vlastník. Opravy sa najprv overujú na `http://test.localhost`; lokálny postup je v [README.md](README.md). Nižšie uvedené produkčné príkazy sa používajú až pri schválenom nasadení.
 
-## 2. Websupport DNS nastavenie
-V DNS zóne pre `photostory.sk`:
-- **A záznam**: `@` → **verejná IP tvojho AWS EC2**
-- **A záznam**: `www` → **verejná IP tvojho AWS EC2**
-- Príklad: `@` → `18.209.48.83`
-- Výsledok: `photostory.sk` a `www.photostory.sk` budú smerovať na tvoj server
+## Prostredia
 
-## 3. Na AWS serveri
+| Prostredie | Compose | Dáta | Konfigurácia |
+| --- | --- | --- | --- |
+| Lokálne | hlavný + `docker-compose.local.yml`, projekt `tester-local` | `.local/testy`, `.local/data` | `.env.local` |
+| Produkcia | `docker-compose.yml`, projekt `tester` | `testy`, `data` | `.env` |
+| Regresné testy | `docker-compose.test.yml` | dočasné adresáre v kontajneri | testovacie hodnoty |
 
-### Pripojenie
-```bash
-ssh ubuntu@tvoja-aws-ip
+Compose v2.24.4+ je potrebný kvôli `!override`. Runtime je Python 3.12 + Gunicorn (1 worker, 4 vlákna), bez Flask debug servera. Jeden worker udržiava jednotný limit AI požiadaviek a analytických zápisov; nezvyšovať ho bez úpravy synchronizácie. Kód je v image, zmena vyžaduje rebuild. Image neobsahuje `.env`, testy, zdrojové fotografie ani analytiku.
+
+Kontajner beží pod UID/GID 1000, s koreňovým systémom iba na čítanie a bez Linux capabilities. Zapisuje len do dátových mountov a dočasného `/tmp`. Ak má používateľ hostiteľa iné UID/GID, nastavte `APP_UID` a `APP_GID` podľa `id -u` a `id -g`. Prenesené dátové adresáre musia tomuto používateľovi umožniť zápis; nepoužívajte `chmod 777`.
+
+## Verejný prístup
+
+```text
+prehliadač → HTTPS Cloudflare → cloudflared → http://web:5000 → Gunicorn/Flask
 ```
 
-### Inštalácia (ak ešte nie je)
-```bash
-# Docker
-sudo apt update
-sudo apt install docker.io docker-compose -y
-sudo systemctl start docker
-sudo systemctl enable docker
-sudo usermod -aG docker $USER
-# Odhlás sa a prihlás znova pre docker bez sudo
-```
+Hlavný Compose nezverejňuje porty hostiteľa. Služba `cloudflared` je iba v profile `public`. Cloudflare poskytuje HTTPS; hostiteľ nepotrebuje prichádzajúce porty z internetu. [Dokumentácia tunela](https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/).
 
-### Nasadenie aplikácie
-```bash
-# Stiahni repo
-cd ~
-git clone https://github.com/tvoj-username/tvoj-repo.git tester
-cd tester
-
-# Testy sú už v repo v priečinku testy/
-# Nič ďalšie nie je potrebné
-
-# Spusti všetky services (web + nginx)
-docker compose up -d
-
-# Skontroluj že beží
-docker compose ps
-curl localhost:80
-
-# Skontroluj logy
-docker compose logs -f nginx
-```
-
-## 4. Prístup
-- **HTTP**: `http://photostory.sk` ✅
-
-### Nastavenie SSL certifikátu (HTTPS) - ODPORÚČANÉ
-
-Pre zabezpečenú HTTPS komunikáciu spusti jednoducho:
+1. Preneste aktuálne adresáre `testy/` a `data/` vrátane podadresárov. Nestačí Git clone. Na prvom nasadení vytvorte prázdny `data/`, ak ešte neexistuje.
+2. Pripravte `.env` podľa `.env.example`. Zachovajte už používané tajomstvá; existujúcu konfiguráciu neprepisujte vzorom. Súbor obmedzte právami `chmod 600 .env`.
+3. Nastavte rôzne náhodné `SECRET_KEY` (podpis relácie) a `ADMIN_SECRET` (heslo správcu). Generátor bez lokálneho Pythonu: `docker run --rm python:3.12-slim python -c "import secrets; print(secrets.token_urlsafe(48))"`. Spustite dvakrát a hodnoty uchovajte súkromne.
+4. Nastavte `COOKIE_SECURE=true`, `TRUST_PROXY_HEADERS=true` a token tunnela. AI a analytika sú voliteľné.
+5. V konfigurácii spravovaného Cloudflare tunnela nastavte verejnú doménu `test.frantisekmasiar.sk` na službu `http://web:5000`.
+6. Vytvorte zálohu a až pri schválenom nasadení spustite:
 
 ```bash
-# Spusti skript pre získanie SSL certifikátu
-chmod +x init-letsencrypt.sh
-./init-letsencrypt.sh
+docker compose -p tester --profile public up -d --build --wait
+docker compose -p tester --profile public ps
+docker compose -p tester logs --tail 100 web cloudflared
 ```
 
-**Skript automaticky:**
-1. Vytvorí dočasný certifikát pre nginx
-2. Získa Let's Encrypt certifikát pre photostory.sk
-3. Prepne nginx.conf na SSL verziu
-4. Reštartuje všetky services s HTTPS
+Následne overte domovskú stránku, oba ročníky, testovanie a prihlásenie na `https://test.frantisekmasiar.sk`. Lokálny Compose má tunnel token prázdny a produkčné mounty nahrádza samostatnými kópiami.
 
-Po úspešnom dokončení:
-- **HTTP**: `http://photostory.sk` → presmeruje na HTTPS
-- **HTTPS**: `https://photostory.sk` 🔒
+Aktualizácia používa rovnaký príkaz `up -d --build --wait` po lokálnych kontrolách a zálohe. Python balíky majú pevné verzie; aktualizujte ich zámerne spolu s auditom a testami. Základný Python image priebežne aktualizujte cez build `--pull` a znova overte lokálne. TLS cookies a dôvera v proxy hlavičky patria iba za dôveryhodný HTTPS proxy, nie na priamo publikovaný HTTP port.
 
-**Poznámka:** Email pre Let's Encrypt upozornenia je už nastavený na `fero.masiar@gmail.com`
+## Záloha
 
-## Užitočné príkazy
+Pred nasadením alebo presunom krátko zastavte web, aby bola kópia dát konzistentná. Vyberte nový názov archívu; `set -C` zabráni prepísaniu existujúceho súboru. Tieto príkazy používajú hostiteľský `tar`, ktorý je na bežnom Linuxe:
+
 ```bash
-# Reštart aplikácie
-docker compose restart
-
-# Zastavenie
-docker compose down
-
-# Aktualizácia kódu
-git pull
-docker compose up -d --build
-
-# Logy
-docker compose logs -f web
+docker compose -p tester stop web
+(set -C; tar -czf - testy data > tester-backup-YYYYMMDD-HHMM.tar.gz)
+docker compose -p tester start web
+tar -tzf tester-backup-YYYYMMDD-HHMM.tar.gz
 ```
+
+Archív a `.env` uložte bezpečne aj mimo hostiteľského disku. Git ich neobsahuje. Pred aktualizáciou si ponechajte aj predchádzajúcu verziu zdrojového kódu alebo image. Záloha aplikácie neobsahuje osobné výsledky uložené v prehliadači.
+
+Automatické zálohy každého zápisu sú v `data/backups/<čas>-<akcia>-<id>/<pôvodný názov>.json`. Sú to pôvodné bajty vrátane všetkých metadát. Neprerezávajú sa automaticky. Aktívny analytický log sa otáča pri 10 MB, staré súbory zostávajú; dashboard zobrazuje posledných najviac 50 000 udalostí z aktívneho súboru. Sledujte voľné miesto a zálohy odnášajte mimo disku.
+
+## Obnova a presun na iný PC
+
+1. Zálohu rozbaľte najprv do **nového prázdneho adresára**, nie cez existujúce dáta. Overte počet testov a obsah.
+2. Na nový PC preneste kód, overené `testy/`, celé `data/` a súkromnú `.env`. Pripravte Docker/Compose a práva UID/GID.
+3. Najprv spustite lokálny postup z README; ten vytvorí oddelené kópie. Overte testy a prihlásenie.
+4. Pri schválenom prechode zastavte pôvodný web/tunnel, preneste poslednú konzistentnú zálohu a spustite produkčný profil na novom stroji. Dve nezávislé zapisovateľné inštancie nesmú obsluhovať tú istú doménu.
+5. Pôvodný počítač a zálohu ponechajte pre návrat. Pri návrate použite aj zodpovedajúce dáta, nie iba starý image.
+
+Obnova jednotlivého odstráneného testu: skopírujte vybranú revíziu z `data/backups` do voľného názvu v `testy/` pomocou `cp -n`; existujúcu verziu najprv samostatne archivujte. Rovnaký titul v dvoch súboroch môže duplikovať zobrazenie a spájať osobné štatistiky, preto výsledok skontrolujte v lokálnej kópii.
+
+## Prevádzkové poznámky
+
+- `http://test.localhost` funguje na stroji s Dockerom v podporovanom prehliadači. Pre prístup z iného zariadenia treba samostatne dohodnúť LAN adresu/doménu a prístupové pravidlá.
+- Heslo správcu sa zadáva cez `/admin/login`, nikdy ako parameter URL. Relácia vyprší po 8 hodinách nečinnosti. Zmena `SECRET_KEY` odhlási všetkých správcov.
+- Hotové testy aj správne odpovede sú verejne čitateľné pre samoštúdium. Aplikácia nie je systém na utajené školské skúšky.
+- Zdrojové PDF, fotografie, `testy_backup_aws/` a `testy_backup_clean/` sú podklady a historické zálohy, nie nepotrebný kód. Zachovať ich.
+- Starší AWS/nginx/certbot setup je dostupný v Git histórii. Aktuálne nasadenie ho nepoužíva.

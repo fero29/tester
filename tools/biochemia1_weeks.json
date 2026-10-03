@@ -1,0 +1,1787 @@
+{
+  "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+  "curriculumSha256": "6411acbd605364ee663fae7765194073da90f21cc1775a96611629ddc52f088d",
+  "academicYear": "2026/2027",
+  "inputQuestions": 684,
+  "inputQuestionsSha256": "ebe92cb81523dab30a8785963ccdc4a6be3177503921ad8d8b012ad035430bd9",
+  "answerReviewQuestions": 45,
+  "answerReviewSha256": "8c925d8639ac831a32539bbcf958ed56657113c84fe00e77772bd665ec03ab95",
+  "assignmentPolicy": "Každá otázka je zaradená práve raz podľa celého zadania a možností odpovedí. Neisté alebo v pláne výslovne nepokryté témy patria do samostatného testu Na zaradenie. Rovnaké znenia zostávajú zachované a preberajú rovnaké zaradenie. Nejde o odbornú revíziu kľúča odpovedí.",
+  "weekPolicy": "Týždeň 7 obsahuje ketolátky a acetyl-CoA; týždeň 12 vitamíny. Súhrnné kontrolné testy z polovíc semestra sa nevytvárajú a otázky sa do nich neduplikujú.",
+  "year": 2,
+  "category": "Biochémia",
+  "weeks": [
+    {
+      "week": 1,
+      "title": "Test – 01. týždeň",
+      "topic": "Kompartmentácia metabolických procesov v eukaryotickej bunke, biologické oxidácie, makroergické zlúčeniny",
+      "curriculumPage": 2,
+      "coverageNote": "",
+      "previousTitles": [
+        "Biochémia 1 - Týždeň 01 - Kompartmentácia, biologické oxidácie a makroergické zlúčeniny"
+      ],
+      "description": "Kompartmentácia bunky, biologické oxidácie, makroergické väzby, ATP, kreatínfosfát a laktátdehydrogenáza."
+    },
+    {
+      "week": 2,
+      "title": "Test – 02. týždeň",
+      "topic": "Účasť transportných systémov na zabezpečení homeostázy",
+      "curriculumPage": 3,
+      "coverageNote": "",
+      "previousTitles": [
+        "Biochémia 1 - Týždeň 02 - Transportné systémy"
+      ],
+      "description": "Difúzia, aktívny transport, membránové ATP-ázy, transport Ca²⁺, exocytóza a metabolické člnky."
+    },
+    {
+      "week": 3,
+      "title": "Test – 03. týždeň",
+      "topic": "Základné princípy regulácie metabolických procesov",
+      "curriculumPage": 4,
+      "coverageNote": "",
+      "previousTitles": [
+        "Biochémia 1 - Týždeň 03 - Regulácia a bunková signalizácia"
+      ],
+      "description": "Hormonálne receptory, G-proteíny, cAMP, IP3, proteínkinázy a regulácia enzýmov."
+    },
+    {
+      "week": 4,
+      "title": "Test – 04. týždeň",
+      "topic": "Posúdenie rozdielu aeróbnej a anaeróbnej oxidácie glukózy v mozgovom tkanive",
+      "curriculumPage": 5,
+      "coverageNote": "",
+      "previousTitles": [
+        "Biochémia 1 - Týždeň 04 - Aeróbna a anaeróbna oxidácia glukózy"
+      ],
+      "description": "Glykolýza, Krebsov cyklus, energetická bilancia oxidácie glukózy, laktát, hypoxia a Coriho cyklus."
+    },
+    {
+      "week": 5,
+      "title": "Test – 05. týždeň",
+      "topic": "Metabolizmus glykogénu a vplyv krátkodobého hladovania na hladinu glukózy v krvi a množstvo glykogénu v pečeni",
+      "curriculumPage": 6,
+      "coverageNote": "",
+      "previousTitles": [
+        "Biochémia 1 - Týždeň 05 - Glykogén a krátkodobé hladovanie"
+      ],
+      "description": "Syntéza a degradácia glykogénu, hormonálna regulácia, pečeňový a svalový glykogén, krátkodobé hladovanie."
+    },
+    {
+      "week": 6,
+      "title": "Test – 06. týždeň",
+      "topic": "Regulácia glykémie, diabetes mellitus",
+      "curriculumPage": 7,
+      "coverageNote": "",
+      "previousTitles": [
+        "Biochémia 1 - Týždeň 06 - Regulácia glykémie a diabetes mellitus"
+      ],
+      "description": "Regulácia glykémie, inzulín a glukagón, glukoneogenéza, diabetes, hypoglykémia, glykozúria a oGTT."
+    },
+    {
+      "week": 7,
+      "title": "Test – 07. týždeň",
+      "topic": "1. kontrolný test. Tvorba a význam ketolátok",
+      "curriculumPage": 8,
+      "coverageNote": "",
+      "previousTitles": [
+        "Biochémia 1 - Týždeň 07 - Acetyl-CoA a ketolátky"
+      ],
+      "description": "Zdroje a využitie acetyl-CoA, tvorba a utilizácia ketolátok, hladovanie a ketoacidóza."
+    },
+    {
+      "week": 8,
+      "title": "Test – 08. týždeň",
+      "topic": "Metabolizmus tukového tkaniva",
+      "curriculumPage": 9,
+      "coverageNote": "",
+      "previousTitles": [
+        "Biochémia 1 - Týždeň 08 - Metabolizmus tukového tkaniva"
+      ],
+      "description": "Syntéza a štiepenie triacylglycerolov, hormón-senzitívna a lipoproteínová lipáza, chylomikróny."
+    },
+    {
+      "week": 9,
+      "title": "Test – 09. týždeň",
+      "topic": "Poruchy metabolizmu lipoproteínov, diferenciálna diagnostika hyperlipoproteinémií",
+      "curriculumPage": 10,
+      "coverageNote": "",
+      "previousTitles": [
+        "Biochémia 1 - Týždeň 09 - Lipoproteíny a cholesterol"
+      ],
+      "description": "Lipoproteíny, apoproteíny, cholesterol, LDL a HDL, hyperlipoproteinémie a vyšetrenia krvných lipidov."
+    },
+    {
+      "week": 10,
+      "title": "Test – 10. týždeň",
+      "topic": "Enzýmy metabolizmu aminokyselín",
+      "curriculumPage": 11,
+      "coverageNote": "",
+      "previousTitles": [
+        "Biochémia 1 - Týždeň 10 - Metabolizmus aminokyselín"
+      ],
+      "description": "Transaminácia, deaminácia a dekarboxylácia aminokyselín, ALT a AST, glutamín a transport amoniaku."
+    },
+    {
+      "week": 11,
+      "title": "Test – 11. týždeň",
+      "topic": "Orgánová a celulárna kompartmentácia detoxikácie amoniaku. Tvorba močoviny a metabolizmus bielkovín",
+      "curriculumPage": 12,
+      "coverageNote": "",
+      "previousTitles": [
+        "Biochémia 1 - Týždeň 11 - Detoxikácia amoniaku a močovina"
+      ],
+      "description": "Toxicita amoniaku, močovinový cyklus, jeho poruchy a diagnostický význam močoviny."
+    },
+    {
+      "week": 12,
+      "title": "Test – 12. týždeň",
+      "topic": "2. kontrolný test. Vitamíny",
+      "curriculumPage": 13,
+      "coverageNote": "Otázky v zbierke sa sústreďujú na koenzýmové formy vitamínov B. Nepokrývajú všetky ciele týždňa, najmä deficit folátu/B12 a diagnostiku megaloblastickej anémie.",
+      "previousTitles": [
+        "Biochémia 1 - Týždeň 12 - Vitamíny a koenzýmy"
+      ],
+      "description": "Vitamíny B-komplexu a ich koenzýmové formy, najmä NAD a pyridoxalfosfát."
+    }
+  ],
+  "unassignedTest": {
+    "title": "Test – Na zaradenie",
+    "description": "Obličkové funkcie, biosyntéza kreatínu, metabolizmus mastných kyselín a otázky s nejasným týždenným zaradením.",
+    "previousTitles": [
+      "Biochémia 1 - Na zaradenie"
+    ]
+  },
+  "groups": [
+    {
+      "key": "w01_kompartmenty",
+      "week": 1,
+      "objectiveRefs": [
+        1
+      ],
+      "reason": "Otázka skúša lokalizáciu metabolických procesov alebo funkciu bunkových štruktúr.",
+      "sequences": [
+        8,
+        16,
+        54,
+        69
+      ],
+      "relatedWeeks": [],
+      "candidateWeeks": []
+    },
+    {
+      "key": "w01_makroergicke",
+      "week": 1,
+      "objectiveRefs": [
+        4
+      ],
+      "reason": "Otázka skúša typy makroergických väzieb, energetické nukleotidy, kreatínfosfát alebo ich využitie.",
+      "sequences": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        13,
+        14,
+        15,
+        19,
+        20,
+        21,
+        22,
+        27,
+        29,
+        34,
+        35,
+        36,
+        41,
+        42,
+        44,
+        49,
+        50,
+        51,
+        52,
+        63,
+        70,
+        71,
+        307
+      ],
+      "relatedWeeks": [],
+      "candidateWeeks": []
+    },
+    {
+      "key": "w01_oxidacie",
+      "week": 1,
+      "objectiveRefs": [
+        2,
+        3
+      ],
+      "reason": "Otázka skúša oxidoredukčné enzýmy, koenzýmy, transport elektrónov alebo terminálnu oxidáciu.",
+      "sequences": [
+        9,
+        12,
+        23,
+        24,
+        26,
+        30,
+        32,
+        37,
+        40,
+        46,
+        47,
+        48,
+        53,
+        56,
+        58,
+        80,
+        88,
+        103
+      ],
+      "relatedWeeks": [],
+      "candidateWeeks": []
+    },
+    {
+      "key": "w01_ldh",
+      "week": 1,
+      "objectiveRefs": [
+        6
+      ],
+      "reason": "Základná reakcia, substráty a koenzým laktátdehydrogenázy sú výslovným cieľom 1. týždňa.",
+      "sequences": [
+        17,
+        45,
+        55,
+        72
+      ],
+      "relatedWeeks": [
+        4
+      ],
+      "candidateWeeks": []
+    },
+    {
+      "key": "w01_tvorba_atp",
+      "week": 1,
+      "objectiveRefs": [
+        5
+      ],
+      "reason": "Porovnanie substrátovej a oxidačnej fosforylácie všeobecne, naprieč metabolickými dráhami.",
+      "sequences": [
+        271,
+        333,
+        363
+      ],
+      "relatedWeeks": [
+        4
+      ],
+      "candidateWeeks": []
+    },
+    {
+      "key": "w12_vitaminove_formy",
+      "week": 12,
+      "objectiveRefs": [
+        2
+      ],
+      "reason": "Otázka je zameraná na vitamínovú zložku alebo koenzýmovú formu vitamínu B-komplexu.",
+      "sequences": [
+        18,
+        31,
+        39,
+        62
+      ],
+      "relatedWeeks": [
+        1
+      ],
+      "candidateWeeks": []
+    },
+    {
+      "key": "nezaradene_chemicke_zaklady",
+      "week": null,
+      "objectiveRefs": [],
+      "reason": "Samostatná otázka zo štruktúrnej alebo organickej chémie; týždenný plán jej neurčuje jednoznačné miesto.",
+      "sequences": [
+        25,
+        38,
+        59,
+        60,
+        61,
+        65,
+        66,
+        68
+      ],
+      "relatedWeeks": [],
+      "candidateWeeks": [
+        1,
+        8,
+        12
+      ]
+    },
+    {
+      "key": "w02_transport",
+      "week": 2,
+      "objectiveRefs": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "reason": "Otázka priamo skúša difúziu, aktívny transport, koncentračný gradient alebo Na+/K+ ATP-ázu.",
+      "sequences": [
+        77,
+        78,
+        79,
+        85,
+        93,
+        95,
+        101,
+        102,
+        108,
+        117,
+        118,
+        119,
+        121,
+        122,
+        128,
+        129,
+        130,
+        135,
+        138,
+        143,
+        145,
+        151,
+        153
+      ],
+      "relatedWeeks": [],
+      "candidateWeeks": []
+    },
+    {
+      "key": "w02_vapnik",
+      "week": 2,
+      "objectiveRefs": [
+        4
+      ],
+      "reason": "Otázka sa týka transportu Ca2+, mechanizmu Ca2+ ATP-ázy alebo stanovenia jej aktivity.",
+      "sequences": [
+        87,
+        94,
+        109,
+        110,
+        116,
+        144,
+        146,
+        152
+      ],
+      "relatedWeeks": [],
+      "candidateWeeks": []
+    },
+    {
+      "key": "w02_glutation_transport",
+      "week": 2,
+      "objectiveRefs": [
+        2,
+        3
+      ],
+      "reason": "V možnostiach sa skúša transport aminokyselín cez membránu prostredníctvom gama-glutamylového systému.",
+      "sequences": [
+        111,
+        120,
+        137
+      ],
+      "relatedWeeks": [
+        10
+      ],
+      "candidateWeeks": []
+    },
+    {
+      "key": "w02_exocytoza",
+      "week": 2,
+      "objectiveRefs": [
+        6
+      ],
+      "reason": "Exocytóza je výslovne uvedená medzi transportmi makromolekúl.",
+      "sequences": [
+        154
+      ],
+      "relatedWeeks": [],
+      "candidateWeeks": []
+    },
+    {
+      "key": "w02_clnky",
+      "week": 2,
+      "objectiveRefs": [
+        7
+      ],
+      "reason": "Otázka zahŕňa prenos redukovaných ekvivalentov do mitochondrie glycerolfosfátovým člnkom.",
+      "sequences": [
+        285
+      ],
+      "relatedWeeks": [
+        4
+      ],
+      "candidateWeeks": []
+    },
+    {
+      "key": "w03_signalizacia",
+      "week": 3,
+      "objectiveRefs": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+      "sequences": [
+        73,
+        74,
+        75,
+        81,
+        82,
+        84,
+        89,
+        90,
+        91,
+        92,
+        97,
+        98,
+        99,
+        100,
+        104,
+        106,
+        107,
+        112,
+        113,
+        114,
+        115,
+        123,
+        124,
+        125,
+        126,
+        131,
+        132,
+        134,
+        140,
+        141,
+        142,
+        147,
+        148,
+        149,
+        150,
+        155,
+        156,
+        157,
+        158,
+        192,
+        198
+      ],
+      "relatedWeeks": [],
+      "candidateWeeks": []
+    },
+    {
+      "key": "w03_fosforylacia",
+      "week": 3,
+      "objectiveRefs": [
+        1,
+        2
+      ],
+      "reason": "Otázka skúša fosforyláciu aminokyselinových zvyškov proteínov pri regulácii enzýmov.",
+      "sequences": [
+        105,
+        133
+      ],
+      "relatedWeeks": [],
+      "candidateWeeks": []
+    },
+    {
+      "key": "w04_krebs",
+      "week": 4,
+      "objectiveRefs": [
+        3
+      ],
+      "reason": "Otázka skúša intermediáty, reakcie alebo význam Krebsovho cyklu.",
+      "sequences": [
+        33,
+        64,
+        245,
+        296,
+        304
+      ],
+      "relatedWeeks": [],
+      "candidateWeeks": []
+    },
+    {
+      "key": "w04_glykolyza",
+      "week": 4,
+      "objectiveRefs": [
+        2,
+        3,
+        4
+      ],
+      "reason": "Otázka skúša reakcie, enzýmy, intermediáty alebo energetickú bilanciu glykolýzy a oxidácie glukózy.",
+      "sequences": [
+        246,
+        253,
+        255,
+        256,
+        261,
+        270,
+        275,
+        276,
+        277,
+        278,
+        279,
+        287,
+        291,
+        303,
+        313,
+        325,
+        327,
+        334,
+        341,
+        344,
+        349,
+        350,
+        352,
+        355
+      ],
+      "relatedWeeks": [],
+      "candidateWeeks": []
+    },
+    {
+      "key": "w04_anaerobne_laktat",
+      "week": 4,
+      "objectiveRefs": [
+        4,
+        5,
+        6
+      ],
+      "reason": "Otázka skúša laktát, hypoxiu, anaeróbne podmienky, tkanivové rozdiely alebo stanovenie laktátu.",
+      "sequences": [
+        67,
+        247,
+        248,
+        262,
+        263,
+        269,
+        286,
+        298,
+        305,
+        306,
+        312,
+        314,
+        319,
+        320,
+        335,
+        336,
+        348
+      ],
+      "relatedWeeks": [],
+      "candidateWeeks": []
+    },
+    {
+      "key": "w04_cori",
+      "week": 4,
+      "objectiveRefs": [
+        5
+      ],
+      "reason": "Coriho cyklus a využitie laktátu sú explicitným cieľom 4. týždňa.",
+      "sequences": [
+        254,
+        326,
+        343
+      ],
+      "relatedWeeks": [
+        6
+      ],
+      "candidateWeeks": []
+    },
+    {
+      "key": "w05_glykogen",
+      "week": 5,
+      "objectiveRefs": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "reason": "Otázka skúša syntézu, degradáciu alebo reguláciu pečeňového a svalového glykogénu.",
+      "sequences": [
+        249,
+        250,
+        251,
+        257,
+        265,
+        266,
+        267,
+        268,
+        273,
+        274,
+        299,
+        301,
+        302,
+        310,
+        315,
+        317,
+        321,
+        322,
+        324,
+        329,
+        330,
+        331,
+        332,
+        337,
+        338,
+        340,
+        358,
+        359,
+        360,
+        361
+      ],
+      "relatedWeeks": [
+        6
+      ],
+      "candidateWeeks": []
+    },
+    {
+      "key": "w06_hormony_glykemia",
+      "week": 6,
+      "objectiveRefs": [
+        1,
+        3
+      ],
+      "reason": "Otázka skúša hormonálne ovplyvnenie glykémie, účinky inzulínu/glukagónu alebo dôsledky ich nedostatku.",
+      "sequences": [
+        252,
+        260,
+        281,
+        309,
+        323,
+        339,
+        346,
+        366,
+        368
+      ],
+      "relatedWeeks": [],
+      "candidateWeeks": []
+    },
+    {
+      "key": "w06_glukoneogeneza",
+      "week": 6,
+      "objectiveRefs": [
+        2
+      ],
+      "reason": "Reakcie a regulácia glukoneogenézy alebo recipročná hormonálna regulácia glykolýzy sú explicitným cieľom 6. týždňa.",
+      "sequences": [
+        258,
+        272,
+        280,
+        288,
+        308,
+        328,
+        345,
+        353,
+        362
+      ],
+      "relatedWeeks": [],
+      "candidateWeeks": []
+    },
+    {
+      "key": "w06_diabetes_vysetrenia",
+      "week": 6,
+      "objectiveRefs": [
+        3,
+        4,
+        5
+      ],
+      "reason": "Otázka skúša diabetes, poruchy glykémie, glykozúriu alebo oGTT.",
+      "sequences": [
+        282,
+        289,
+        290,
+        347,
+        354,
+        364,
+        365,
+        367
+      ],
+      "relatedWeeks": [],
+      "candidateWeeks": []
+    },
+    {
+      "key": "w07_acetylcoa",
+      "week": 7,
+      "objectiveRefs": [
+        1
+      ],
+      "reason": "Otázka skúša zdroje acetyl-CoA, jeho metabolické prepojenia alebo využitie.",
+      "sequences": [
+        264,
+        311
+      ],
+      "relatedWeeks": [],
+      "candidateWeeks": []
+    },
+    {
+      "key": "w07_hladovanie_ketolatky",
+      "week": 7,
+      "objectiveRefs": [
+        2,
+        4,
+        5
+      ],
+      "reason": "Otázka skúša využitie ketolátok a zmenu energetických substrátov pri dlhodobom hladovaní.",
+      "sequences": [
+        318
+      ],
+      "relatedWeeks": [
+        5,
+        8
+      ],
+      "candidateWeeks": []
+    },
+    {
+      "key": "nezaradene_hladovanie",
+      "week": null,
+      "objectiveRefs": [],
+      "reason": "Otázka porovnáva energetické substráty pri hladovaní bez jednoznačného zamerania na glykogén, ketolátky alebo lipolýzu.",
+      "sequences": [
+        300
+      ],
+      "relatedWeeks": [],
+      "candidateWeeks": [
+        5,
+        7,
+        8
+      ]
+    },
+    {
+      "key": "nezaradene_glukoza_siroko",
+      "week": null,
+      "objectiveRefs": [],
+      "reason": "Otázka spája vstrebávanie, lipogenézu, energetiku a tvorbu glukózy bez jednoznačne hlavného týždenného cieľa.",
+      "sequences": [
+        316
+      ],
+      "relatedWeeks": [],
+      "candidateWeeks": [
+        4,
+        5,
+        6,
+        8
+      ]
+    },
+    {
+      "key": "w07_ketolatky",
+      "week": 7,
+      "objectiveRefs": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "reason": "Otázka priamo skúša tvorbu, využitie, lokalizáciu, reguláciu alebo význam ketolátok.",
+      "sequences": [
+        369,
+        370,
+        371,
+        377,
+        378,
+        385,
+        386,
+        387,
+        388,
+        393,
+        395,
+        401,
+        402,
+        409,
+        411,
+        420,
+        422,
+        427,
+        430,
+        439,
+        447,
+        453,
+        454,
+        455,
+        460,
+        461,
+        462,
+        467
+      ],
+      "relatedWeeks": [
+        6,
+        8
+      ],
+      "candidateWeeks": []
+    },
+    {
+      "key": "w07_acetylcoa_dalsie",
+      "week": 7,
+      "objectiveRefs": [
+        1
+      ],
+      "reason": "Otázka skúša metabolické zdroje, transport alebo využitie acetyl-CoA, ktoré plán uvádza ako prípravu na 7. týždeň.",
+      "sequences": [
+        382,
+        410,
+        418,
+        426,
+        429,
+        443,
+        451,
+        458
+      ],
+      "relatedWeeks": [],
+      "candidateWeeks": []
+    },
+    {
+      "key": "w08_zasobne_tuky",
+      "week": 8,
+      "objectiveRefs": [
+        1,
+        2
+      ],
+      "reason": "Otázka skúša zásobné triacylglyceroly, ich syntézu a ukladanie v tukovom tkanive.",
+      "sequences": [
+        373,
+        452,
+        459
+      ],
+      "relatedWeeks": [],
+      "candidateWeeks": []
+    },
+    {
+      "key": "w08_lipolyza",
+      "week": 8,
+      "objectiveRefs": [
+        2,
+        4
+      ],
+      "reason": "Otázka priamo skúša hormón-senzitívnu lipázu a reguláciu štiepenia TAG v adipocytoch.",
+      "sequences": [
+        417,
+        445
+      ],
+      "relatedWeeks": [
+        6,
+        7
+      ],
+      "candidateWeeks": []
+    },
+    {
+      "key": "w06_hormony_glykemia_dalsie",
+      "week": 6,
+      "objectiveRefs": [
+        1,
+        3
+      ],
+      "reason": "Otázka skúša reakciu na zmenu glykémie alebo metabolické účinky inzulínu a kontraregulačných hormónov.",
+      "sequences": [
+        381,
+        389,
+        391,
+        392,
+        398,
+        400,
+        405,
+        406,
+        465
+      ],
+      "relatedWeeks": [],
+      "candidateWeeks": []
+    },
+    {
+      "key": "w06_diabetes_vysetrenia_dalsie",
+      "week": 6,
+      "objectiveRefs": [
+        3,
+        4,
+        5
+      ],
+      "reason": "Otázka skúša diabetes, glykémiu, glykozúriu alebo postup a interpretáciu oGTT.",
+      "sequences": [
+        375,
+        376,
+        383,
+        384,
+        397,
+        399,
+        407,
+        408,
+        421,
+        466
+      ],
+      "relatedWeeks": [],
+      "candidateWeeks": []
+    },
+    {
+      "key": "w06_glukoneogeneza_dalsie",
+      "week": 6,
+      "objectiveRefs": [
+        2
+      ],
+      "reason": "Otázka skúša substráty, reakcie alebo reguláciu glukoneogenézy.",
+      "sequences": [
+        374,
+        390
+      ],
+      "relatedWeeks": [],
+      "candidateWeeks": []
+    },
+    {
+      "key": "nezaradene_betaoxidacia",
+      "week": null,
+      "objectiveRefs": [],
+      "reason": "Podrobná aktivácia, transport, reakcie alebo energetika oxidácie mastných kyselín. Plán uvádza jej vzťah ku ketogenéze v 7. týždni, ale neurčuje jednoznačne týždeň pre tento samostatný rozsah.",
+      "sequences": [
+        372,
+        379,
+        380,
+        394,
+        396,
+        404,
+        412,
+        413,
+        414,
+        423,
+        432,
+        433,
+        434,
+        435,
+        438,
+        448,
+        449,
+        450,
+        456,
+        457,
+        464,
+        468
+      ],
+      "relatedWeeks": [],
+      "candidateWeeks": [
+        7,
+        8
+      ]
+    },
+    {
+      "key": "nezaradene_synteza_mk",
+      "week": null,
+      "objectiveRefs": [],
+      "reason": "Otázka skúša syntézu mastných kyselín a jej enzýmy; 8. týždeň výslovne uvádza syntézu TAG, nie samostatný rozsah syntézy mastných kyselín.",
+      "sequences": [
+        415,
+        416,
+        425,
+        436,
+        437,
+        444
+      ],
+      "relatedWeeks": [],
+      "candidateWeeks": [
+        7,
+        8
+      ]
+    },
+    {
+      "key": "nezaradene_diagnosticky_pasik",
+      "week": null,
+      "objectiveRefs": [],
+      "reason": "Všeobecný postup vyšetrenia moču pásikom; v pláne nie je explicitne priradený k praktickému cvičeniu.",
+      "sequences": [
+        403
+      ],
+      "relatedWeeks": [],
+      "candidateWeeks": [
+        6,
+        7,
+        11
+      ]
+    },
+    {
+      "key": "nezaradene_g6pfosfataza",
+      "week": null,
+      "objectiveRefs": [],
+      "reason": "Otázka skúša rovnakou mierou glukoneogenézu aj pečeňovú glykogenolýzu bez dominantného procesu.",
+      "sequences": [
+        419
+      ],
+      "relatedWeeks": [],
+      "candidateWeeks": [
+        5,
+        6
+      ]
+    },
+    {
+      "key": "nezaradene_hladovanie_dalsie",
+      "week": null,
+      "objectiveRefs": [],
+      "reason": "Súhrnné zmeny pri dlhodobom hladovaní zahŕňajú hormóny, glykémiu, lipolýzu aj ketolátky; hlavný týždeň nie je jednoznačný.",
+      "sequences": [
+        463
+      ],
+      "relatedWeeks": [],
+      "candidateWeeks": [
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "key": "w04_glykolyza_dalsie",
+      "week": 4,
+      "objectiveRefs": [
+        3
+      ],
+      "reason": "Otázka skúša substrátovú reguláciu enzýmov glykolýzy.",
+      "sequences": [
+        428
+      ],
+      "relatedWeeks": [],
+      "candidateWeeks": []
+    },
+    {
+      "key": "w09_lipoproteiny",
+      "week": 9,
+      "objectiveRefs": [
+        1,
+        4
+      ],
+      "reason": "Otázka skúša triedy, zloženie, apoproteíny alebo funkcie lipoproteínov a reverzný transport cholesterolu.",
+      "sequences": [
+        469,
+        474,
+        478,
+        480,
+        484,
+        485,
+        487,
+        493,
+        494,
+        495,
+        501,
+        502,
+        503,
+        510,
+        511,
+        517,
+        518,
+        526,
+        528,
+        533,
+        538,
+        539,
+        545,
+        561,
+        570
+      ],
+      "relatedWeeks": [],
+      "candidateWeeks": []
+    },
+    {
+      "key": "w09_cholesterol",
+      "week": 9,
+      "objectiveRefs": [
+        2,
+        3
+      ],
+      "reason": "Otázka skúša zdroje, syntézu, reguláciu, esterifikáciu alebo fyziologické využitie cholesterolu.",
+      "sequences": [
+        471,
+        477,
+        479,
+        491,
+        499,
+        500,
+        506,
+        507,
+        521,
+        524,
+        532,
+        542,
+        552
+      ],
+      "relatedWeeks": [],
+      "candidateWeeks": []
+    },
+    {
+      "key": "w09_dyslipidemie",
+      "week": 9,
+      "objectiveRefs": [
+        4,
+        5,
+        6
+      ],
+      "reason": "Otázka skúša hyperlipoproteinémie, aterogénne riziko alebo vyšetrenie sérových lipidov.",
+      "sequences": [
+        470,
+        475,
+        481,
+        482,
+        483,
+        486,
+        488,
+        492,
+        512,
+        519,
+        523,
+        529,
+        546,
+        555,
+        563
+      ],
+      "relatedWeeks": [],
+      "candidateWeeks": []
+    },
+    {
+      "key": "w08_lpl_chylomikrony",
+      "week": 8,
+      "objectiveRefs": [
+        3
+      ],
+      "reason": "Otázka skúša lipoproteínovú lipázu alebo transport a využitie exogénnych TAG v chylomikrónoch.",
+      "sequences": [
+        473,
+        489,
+        509,
+        527,
+        537,
+        569
+      ],
+      "relatedWeeks": [
+        9
+      ],
+      "candidateWeeks": []
+    },
+    {
+      "key": "w08_tag_synteza",
+      "week": 8,
+      "objectiveRefs": [
+        1,
+        2
+      ],
+      "reason": "Otázka skúša syntézu TAG, pôvod glycerolfosfátu, úlohu glycerolkinázy alebo zásobnú funkciu TAG.",
+      "sequences": [
+        498,
+        531,
+        543,
+        544,
+        547
+      ],
+      "relatedWeeks": [],
+      "candidateWeeks": []
+    },
+    {
+      "key": "w08_hsl_dalsie",
+      "week": 8,
+      "objectiveRefs": [
+        2,
+        4
+      ],
+      "reason": "Otázka je priamo zameraná na aktivitu hormón-senzitívnej lipázy a odbúranie TAG.",
+      "sequences": [
+        504,
+        540,
+        549
+      ],
+      "relatedWeeks": [
+        6,
+        7
+      ],
+      "candidateWeeks": []
+    },
+    {
+      "key": "w07_acetylcoa_530",
+      "week": 7,
+      "objectiveRefs": [
+        1
+      ],
+      "reason": "Otázka skúša zdroje a energetické využitie acetyl-CoA.",
+      "sequences": [
+        530
+      ],
+      "relatedWeeks": [],
+      "candidateWeeks": []
+    },
+    {
+      "key": "w07_ketolatky_dalsie",
+      "week": 7,
+      "objectiveRefs": [
+        3,
+        4
+      ],
+      "reason": "Otázka skúša metabolizmus acetoacetyl-CoA alebo znížené využitie acetyl-CoA pri diabete, súvisiace s ketogenézou.",
+      "sequences": [
+        535,
+        550
+      ],
+      "relatedWeeks": [],
+      "candidateWeeks": []
+    },
+    {
+      "key": "w06_diabetes_dalsie",
+      "week": 6,
+      "objectiveRefs": [
+        3,
+        4,
+        5
+      ],
+      "reason": "Otázka skúša glykozúriu alebo metabolické následky nedostatku inzulínu.",
+      "sequences": [
+        548,
+        551
+      ],
+      "relatedWeeks": [],
+      "candidateWeeks": []
+    },
+    {
+      "key": "w11_mocovina_vysetrenie",
+      "week": 11,
+      "objectiveRefs": [
+        4
+      ],
+      "reason": "Otázka je zameraná na močovinu v sére/moči alebo diagnostický význam jej pomeru ku kreatinínu.",
+      "sequences": [
+        557,
+        559
+      ],
+      "relatedWeeks": [],
+      "candidateWeeks": []
+    },
+    {
+      "key": "nezaradene_betaoxidacia_dalsie",
+      "week": null,
+      "objectiveRefs": [],
+      "reason": "Samostatné detaily oxidácie a aktivácie mastných kyselín nemajú v týždenných cieľoch jednoznačne určený týždeň.",
+      "sequences": [
+        505,
+        525,
+        553,
+        554,
+        560
+      ],
+      "relatedWeeks": [],
+      "candidateWeeks": [
+        7,
+        8
+      ]
+    },
+    {
+      "key": "nezaradene_synteza_mk_dalsie",
+      "week": null,
+      "objectiveRefs": [],
+      "reason": "Samostatná syntéza mastných kyselín a regulácia acetyl-CoA karboxylázy nie sú explicitne zaradené; plán 8. týždňa uvádza syntézu TAG.",
+      "sequences": [
+        497,
+        515,
+        516,
+        562
+      ],
+      "relatedWeeks": [],
+      "candidateWeeks": [
+        7,
+        8
+      ]
+    },
+    {
+      "key": "nezaradene_lipidove_zaklady",
+      "week": null,
+      "objectiveRefs": [],
+      "reason": "Všeobecné chemické členenie lipidov, široká syntéza lipidov alebo ich trávenie nemajú v pláne jednoznačný týždeň.",
+      "sequences": [
+        496,
+        508,
+        513,
+        522,
+        541,
+        568
+      ],
+      "relatedWeeks": [],
+      "candidateWeeks": [
+        8,
+        9
+      ]
+    },
+    {
+      "key": "nezaradene_oblicky",
+      "week": null,
+      "objectiveRefs": [],
+      "reason": "Otázka skúša klírens, glomerulárnu filtráciu alebo vylučovanie kreatinínu; plán nemá samostatný týždeň vyšetrenia funkcie obličiek.",
+      "sequences": [
+        556,
+        564,
+        565,
+        566
+      ],
+      "relatedWeeks": [],
+      "candidateWeeks": [
+        11
+      ]
+    },
+    {
+      "key": "nezaradene_synteza_kreatinu",
+      "week": null,
+      "objectiveRefs": [],
+      "reason": "Detailná biosyntéza kreatínu a guanidínacetátu nie je v pláne výslovne priradená; presahuje makroergické zlúčeniny aj všeobecné ciele metabolizmu aminokyselín.",
+      "sequences": [
+        558,
+        567
+      ],
+      "relatedWeeks": [],
+      "candidateWeeks": [
+        1,
+        10
+      ]
+    },
+    {
+      "key": "w09_lipoproteiny_dalsie",
+      "week": 9,
+      "objectiveRefs": [
+        1,
+        2,
+        4
+      ],
+      "reason": "Otázka skúša rozdelenie a štruktúru lipoproteínov, apoproteíny, LDL receptory alebo reverzný transport cholesterolu.",
+      "sequences": [
+        571,
+        577,
+        579,
+        586,
+        587,
+        592,
+        600,
+        602,
+        603,
+        609,
+        611
+      ],
+      "relatedWeeks": [],
+      "candidateWeeks": []
+    },
+    {
+      "key": "w09_dyslipidemie_584",
+      "week": 9,
+      "objectiveRefs": [
+        5
+      ],
+      "reason": "Otázka priamo skúša primárne a sekundárne hyperlipoproteinémie.",
+      "sequences": [
+        584
+      ],
+      "relatedWeeks": [],
+      "candidateWeeks": []
+    },
+    {
+      "key": "w08_tag_dalsie",
+      "week": 8,
+      "objectiveRefs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "reason": "Otázka sa týka zásobných TAG, lipolýzy v adipocytoch alebo transportu exogénnych lipidov chylomikrónmi.",
+      "sequences": [
+        576,
+        594,
+        595,
+        601,
+        610
+      ],
+      "relatedWeeks": [],
+      "candidateWeeks": []
+    },
+    {
+      "key": "w01_kreatinfosfat_dalsie",
+      "week": 1,
+      "objectiveRefs": [
+        4,
+        5
+      ],
+      "reason": "Otázka skúša tvorbu a makroergickú alebo energetickú funkciu kreatínfosfátu.",
+      "sequences": [
+        582,
+        599,
+        635
+      ],
+      "relatedWeeks": [],
+      "candidateWeeks": []
+    },
+    {
+      "key": "w11_mocovina_dalsie",
+      "week": 11,
+      "objectiveRefs": [
+        3,
+        4
+      ],
+      "reason": "Otázka skúša detoxikačnú kapacitu pečene alebo močovinu ako klinický parameter.",
+      "sequences": [
+        583,
+        597,
+        613
+      ],
+      "relatedWeeks": [],
+      "candidateWeeks": []
+    },
+    {
+      "key": "w10_enzymy_aminokyseliny",
+      "week": 10,
+      "objectiveRefs": [
+        3,
+        4,
+        6
+      ],
+      "reason": "Otázka skúša dekarboxylácie, transaminácie, deaminácie aminokyselín alebo enzýmy ALT/AST.",
+      "sequences": [
+        616,
+        617,
+        618,
+        619,
+        624,
+        625,
+        626,
+        631,
+        633,
+        634,
+        639,
+        640,
+        641,
+        646,
+        647
+      ],
+      "relatedWeeks": [],
+      "candidateWeeks": []
+    },
+    {
+      "key": "w10_fixacia_amoniaku",
+      "week": 10,
+      "objectiveRefs": [
+        5
+      ],
+      "reason": "Tvorba glutamínu a fixácia alebo transport amoniaku sú výslovným cieľom 10. týždňa.",
+      "sequences": [
+        632,
+        638,
+        649
+      ],
+      "relatedWeeks": [
+        11
+      ],
+      "candidateWeeks": []
+    },
+    {
+      "key": "w12_plp_648",
+      "week": 12,
+      "objectiveRefs": [
+        2
+      ],
+      "reason": "Otázka je postavená na koenzýmovej forme vitamínu B6 a reakciách, ktorých sa zúčastňuje.",
+      "sequences": [
+        648
+      ],
+      "relatedWeeks": [
+        10
+      ],
+      "candidateWeeks": []
+    },
+    {
+      "key": "nezaradene_betaoxidacia_zaver",
+      "week": null,
+      "objectiveRefs": [],
+      "reason": "Samostatná oxidácia mastných kyselín; jej presný rozsah nie je jednoznačne rozdelený medzi ketolátky a metabolizmus tukového tkaniva.",
+      "sequences": [
+        578,
+        585,
+        593
+      ],
+      "relatedWeeks": [],
+      "candidateWeeks": [
+        7,
+        8
+      ]
+    },
+    {
+      "key": "nezaradene_synteza_mk_zaver",
+      "week": null,
+      "objectiveRefs": [],
+      "reason": "Samostatné enzýmy a lokalizácia syntézy mastných kyselín nemajú v pláne explicitné týždenné zaradenie.",
+      "sequences": [
+        608
+      ],
+      "relatedWeeks": [],
+      "candidateWeeks": [
+        7,
+        8
+      ]
+    },
+    {
+      "key": "nezaradene_oblicky_dalsie",
+      "week": null,
+      "objectiveRefs": [],
+      "reason": "Funkcia obličiek, tvorba moču, tubulárna resorpcia, kreatinín alebo jeho stanovenie nie sú v pláne samostatnou týždennou témou.",
+      "sequences": [
+        572,
+        573,
+        574,
+        575,
+        580,
+        581,
+        590,
+        591,
+        598,
+        604,
+        606,
+        607,
+        612,
+        614,
+        615,
+        620,
+        622,
+        623,
+        627,
+        629,
+        630,
+        637,
+        642,
+        643,
+        645,
+        650
+      ],
+      "relatedWeeks": [],
+      "candidateWeeks": [
+        11
+      ]
+    },
+    {
+      "key": "nezaradene_kreatin_dalsie",
+      "week": null,
+      "objectiveRefs": [],
+      "reason": "Otázka sa týka biosyntézy kreatínu/guanidínacetátu a jej orgánovej lokalizácie; explicitný týždeň v pláne chýba.",
+      "sequences": [
+        588,
+        596,
+        621,
+        628,
+        636,
+        644
+      ],
+      "relatedWeeks": [],
+      "candidateWeeks": [
+        1,
+        10
+      ]
+    },
+    {
+      "key": "nezaradene_dusik_suhrn",
+      "week": null,
+      "objectiveRefs": [],
+      "reason": "Súhrnná otázka spája uvoľnenie, fixáciu a transport amoniaku s tvorbou a vylučovaním močoviny, teda ciele 10. aj 11. týždňa.",
+      "sequences": [
+        589
+      ],
+      "relatedWeeks": [],
+      "candidateWeeks": [
+        10,
+        11
+      ]
+    },
+    {
+      "key": "w10_reakcie_aminokyseliny_zaver",
+      "week": 10,
+      "objectiveRefs": [
+        3,
+        4,
+        6
+      ],
+      "reason": "Otázka skúša konkrétne reakcie a enzýmy metabolizmu aminokyselín, aminotransferázy, oxidačnú deamináciu alebo biogénne amíny.",
+      "sequences": [
+        654,
+        655,
+        661,
+        662,
+        669,
+        671,
+        675,
+        676,
+        677,
+        683,
+        684,
+        691,
+        692,
+        693,
+        698,
+        699,
+        700,
+        707,
+        708,
+        709,
+        715,
+        716,
+        717,
+        723
+      ],
+      "relatedWeeks": [],
+      "candidateWeeks": []
+    },
+    {
+      "key": "w10_glutamin_amoniak_zaver",
+      "week": 10,
+      "objectiveRefs": [
+        4,
+        5
+      ],
+      "reason": "Otázka skúša tvorbu amoniaku, jeho fixáciu alebo transport prostredníctvom glutamínu.",
+      "sequences": [
+        664,
+        668,
+        678,
+        706,
+        720
+      ],
+      "relatedWeeks": [
+        11
+      ],
+      "candidateWeeks": []
+    },
+    {
+      "key": "w11_mocovinovy_cyklus",
+      "week": 11,
+      "objectiveRefs": [
+        1,
+        2,
+        3
+      ],
+      "reason": "Otázka skúša reakcie, substráty, lokalizáciu alebo poruchy tvorby močoviny a toxicitu amoniaku.",
+      "sequences": [
+        679,
+        680,
+        687,
+        688,
+        689,
+        694,
+        695,
+        696,
+        703,
+        705,
+        711,
+        712,
+        713,
+        719,
+        727,
+        728,
+        729
+      ],
+      "relatedWeeks": [],
+      "candidateWeeks": []
+    },
+    {
+      "key": "w11_mocovina_klinika_zaver",
+      "week": 11,
+      "objectiveRefs": [
+        4,
+        5
+      ],
+      "reason": "Otázka skúša vlastnosti močoviny, jej koncentráciu, vylučovanie alebo diagnostický význam.",
+      "sequences": [
+        681,
+        682,
+        690,
+        697,
+        710,
+        714,
+        721,
+        722,
+        726
+      ],
+      "relatedWeeks": [],
+      "candidateWeeks": []
+    },
+    {
+      "key": "w12_koenzymy_zaver",
+      "week": 12,
+      "objectiveRefs": [
+        2
+      ],
+      "reason": "Otázka skúša vitamíny B-komplexu a ich koenzýmové formy pri typických reakciách metabolizmu aminokyselín.",
+      "sequences": [
+        656,
+        665,
+        670,
+        701,
+        702,
+        718,
+        725
+      ],
+      "relatedWeeks": [
+        10
+      ],
+      "candidateWeeks": []
+    },
+    {
+      "key": "w01_kreatinfosfat_zaver",
+      "week": 1,
+      "objectiveRefs": [
+        4,
+        5
+      ],
+      "reason": "Otázka skúša makroergickú väzbu a funkciu kreatínfosfátu pri regenerácii ATP.",
+      "sequences": [
+        657,
+        673
+      ],
+      "relatedWeeks": [],
+      "candidateWeeks": []
+    },
+    {
+      "key": "nezaradene_oblicky_zaver",
+      "week": null,
+      "objectiveRefs": [],
+      "reason": "Vyšetrenie obličkových funkcií, vylučovania kreatinínu a tubulárnej resorpcie nie je v pláne výslovne zaradené.",
+      "sequences": [
+        652,
+        658,
+        660,
+        667,
+        672
+      ],
+      "relatedWeeks": [],
+      "candidateWeeks": [
+        11
+      ]
+    },
+    {
+      "key": "nezaradene_kreatin_zaver",
+      "week": null,
+      "objectiveRefs": [],
+      "reason": "Biosyntéza kreatínu/guanidínacetátu a príslušné enzýmy nemajú v pláne explicitný týždeň.",
+      "sequences": [
+        653,
+        659,
+        663,
+        666,
+        674
+      ],
+      "relatedWeeks": [],
+      "candidateWeeks": [
+        1,
+        10
+      ]
+    },
+    {
+      "key": "nezaradene_dusik_suhrn_zaver",
+      "week": null,
+      "objectiveRefs": [],
+      "reason": "Otázka súčasne skúša fixáciu a transport amoniaku (10. týždeň) aj tvorbu a vylučovanie močoviny (11. týždeň).",
+      "sequences": [
+        651
+      ],
+      "relatedWeeks": [],
+      "candidateWeeks": [
+        10,
+        11
+      ]
+    }
+  ]
+}

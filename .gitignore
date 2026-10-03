@@ -3,18 +3,12 @@
 # Testy - lokálne súbory, neprepísať pri update
 testy/
 
-# Certbot certifikáty a kľúče
-certbot/
-
 # Python
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
 .Python
-
-# Docker
-.dockerignore
 
 # IDE
 .vscode/
@@ -24,6 +18,10 @@ __pycache__/
 
 # Environment
 .env
+.env.*
+!.env.example
+.local/
+.pytest_cache/
 
 # Local extraction outputs and intermediate files
 tools/out/
@@ -32,3 +30,4 @@ tools/pages/
 # Local source PDFs and photos (user-specific data)
 *.pdf
 foto histo/
+data/

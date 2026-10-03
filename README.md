@@ -1,6 +1,14 @@
-# LFUK tester v1.6.5
+# LFUK tester
 
 Inteligentná webová aplikácia na vytváranie a absolvovanie testov s podporou AI importu otázok z fotiek.
+
+## Práca s AI
+
+Otvorte tento projekt v Claude Code alebo Codexe a zadajte požadovanú zmenu. Kontext, KISS princíp, ochrana hotových testov, lokálne overovanie a hranica verejného nasadenia sú v [AGENTS.md](AGENTS.md). Technické detaily má riešiť AI; o termíne a mieste verejného nasadenia rozhoduje vlastník.
+
+[CLAUDE.md](CLAUDE.md) používa skutočný import `@AGENTS.md`, aby sa udržiavala iba jedna sada pokynov. Používame štandardný názov veľkými písmenami, bez druhej kópie `claude.md`. Načítanie zodpovedá [dokumentácii Claude Code](https://code.claude.com/docs/en/memory#share-one-file-with-other-coding-tools) a [pokynom pre Codex](https://learn.chatgpt.com/docs/agent-configuration/agents-md). Pri inom AI nástroji bez podpory týchto súborov treba na AGENTS výslovne odkázať.
+
+Po trvalej zmene správania, postupu alebo dohody má AI aktualizovať príslušnú existujúcu dokumentáciu. Heslá a dočasné výpisy sa do nej neukladajú. [Návrh upratania stromu](docs/STRUCTURE.md) opisuje plánované presuny; zatiaľ nie sú vykonané.
 
 ## 🎯 Hlavné funkcie
 
@@ -9,6 +17,8 @@ Inteligentná webová aplikácia na vytváranie a absolvovanie testov s podporou
 - **🔄 Rotácia fotiek** - Jednoduché otočenie fotiek pred spracovaním
 - **🔬 Pokročilé predspracovanie** - OpenCV algoritmy pre lepšie rozpoznávanie
 - **📁 Import/Export testov** - JSON formát pre jednoduchú výmenu testov
+- **🎓 Ročníky a predmety** - Najprv výber ročníka, potom predmetu; každý ročník má vlastné predmety
+- **🧪 Biochémia v 2. ročníku** - 12 týždenných testov a test Na zaradenie, spolu 684 otázok
 - **✅ Viacero správnych odpovedí** - Podpora otázok s viacerými správnymi odpoveďami
 - **📊 Štatistiky a sledovanie pokroku** - Automatické sledovanie výsledkov
 - **⏱️ Časové limity** - 20/30/60 minút alebo bez limitu
@@ -17,13 +27,59 @@ Inteligentná webová aplikácia na vytváranie a absolvovanie testov s podporou
 - **🔄 Zlučovanie testov** - Absolvujte viac testov naraz
 - **✏️ Editor testov** - Upravujte testy priamo v aplikácii
 
-## Spustenie v Dockeri
+## Lokálne spustenie
+
+Stačí Docker s Compose v2.24.4 alebo novším. Z koreňa projektu:
 
 ```bash
-docker-compose up --build
+docker compose -p tester-local -f docker-compose.yml -f docker-compose.local.yml run --rm prepare
+docker compose -p tester-local -f docker-compose.yml -f docker-compose.local.yml up -d --build --wait
 ```
 
-Aplikácia bude dostupná na: http://localhost:5000
+Otvorte **http://test.localhost** na počítači, kde beží Docker. Záložná adresa je http://localhost:8080. Netreba upravovať `/etc/hosts`. Z iného počítača či mobilu adresa `.localhost` odkazuje na dané zariadenie, nie na server.
+
+Príprava skopíruje chýbajúce JSON testy do `.local/testy/` a vytvorí `.env.local`. Existujúce lokálne súbory neprepisuje. Pôvodné `testy/` a `data/` zostávajú oddelené. Testy nie sú v Gite ani v image: na novom PC ich treba preniesť zo zálohy. Bez nich sa spustí prázdna aplikácia.
+
+Absolvovanie testov je verejné. Pre import, editor a štatistiky návštev kliknite na **Správa testov**; heslo je hodnota `ADMIN_SECRET` v `.env.local`. Lokálne je platený AI import a Cloudflare analytika vypnutá. Na testovanie AI možno výslovne nastaviť lokálny kľúč a odstrániť príslušné prázdne prepísanie v lokálnom Compose.
+
+Po zmene kódu zopakujte druhý príkaz. Verzia aplikácie je v súbore `VERSION`.
+
+```bash
+docker compose -p tester-local -f docker-compose.yml -f docker-compose.local.yml logs --tail 100 web
+docker compose -p tester-local -f docker-compose.yml -f docker-compose.local.yml down
+```
+
+**Verejné nasadenie sa robí až na pokyn vlastníka.** Postup pre `test.frantisekmasiar.sk`, zálohy a presun na iný PC sú v [DEPLOYMENT.md](DEPLOYMENT.md). Samotné lokálne spustenie neaktivuje tunnel.
+
+## Ochrana dát a overenie
+
+- Import nikdy neprepisuje existujúci názov. Editor ukladá až tlačidlom **Uložiť zmeny**.
+- Pred úpravou, pridaním otázok alebo odstránením vznikne presná záloha pôvodného súboru v `data/backups/` (lokálne `.local/data/backups/`).
+- Ukladanie je atómové, chránené zámkom a kontrolou verzie. Staré otvorené okno nesmie prepísať novšiu zmenu.
+- Zálohy sa automaticky nemažú. Je potrebná aj kópia mimo hostiteľského disku.
+
+Automatické regresné testy používajú dočasné dáta v samostatnom kontajneri:
+
+```bash
+docker compose -p tester-checks -f docker-compose.test.yml run --build --rm tests
+docker compose -p tester-checks -f docker-compose.test.yml run --rm tests pip-audit --cache-dir /tmp/pip-audit-cache
+```
+
+## Štruktúra
+
+```text
+app.py                     Flask endpointy, obrázky a analytika
+storage.py                 JSON validácia, cache, zámky a zálohy
+security.py                prihlásenie správcu, CSRF a limity
+static/                    vanilla JS + CSS bez build stepu
+templates/                 aplikácia, prihlásenie, dashboard
+VERSION                    jediný zdroj verzie
+testy/                     pôvodné JSON testy a ich archívy; mimo Gitu
+data/                      eventy a zálohy; mimo Gitu
+.local/                    samostatné lokálne dáta; mimo Gitu
+tests/                     regresné testy API a úložiska
+tools/                     príprava lokálneho prostredia a extrakčné skripty
+```
 
 ## Formát JSON súboru
 
@@ -61,12 +117,17 @@ Aplikácia bude dostupná na: http://localhost:5000
   {
     "title": "Názov testu",
     "description": "Popis testu",
+    "year": 2,
+    "category": "Fyziológia",
     "questions": [...]
   }
 ]
 ```
 
 **Pravidlá:**
+- `year` určuje ročník (`1` alebo `2`). Ak chýba, test patrí do 1. ročníka — existujúce súbory netreba meniť. Platí aj pre slovíčkové testy.
+- `category` je názov predmetu. Nový názov sa automaticky zobrazí ako predmet iba v príslušnom ročníku. Ak chýba, predmet sa odvodí z názvu testu/súboru.
+- Pre nový predmet v 2. ročníku importujte test s `"year": 2` a napr. `"category": "Fyziológia"`. Ročník ostáva dostupný aj bez testov; počty a filter „Všetky“ sa vzťahujú na vybraný ročník.
 - `correct` môže byť jedno číslo (jedna správna odpoveď) alebo pole čísel (viac správnych odpovedí)
 - Index začína od 0 (0 = prvá odpoveď, 1 = druhá, atď.)
 - Pri viacerých správnych odpovediach musia byť vybrané všetky správne odpovede
@@ -77,7 +138,7 @@ Aplikácia bude dostupná na: http://localhost:5000
 
 ### 🤖 AI Import otázok z fotky (Odporúčané)
 
-1. Kliknite na "🤖 AI Import" v hlavnom menu
+1. Prihláste sa ako správca a kliknite na "🤖 AI Import"
 2. Nahrajte fotku/fotky s otázkami (podporuje až 5 fotiek naraz)
 3. Použijte tlačidlo ↷ pre otočenie fotky (stlačte 3x pre 270°)
 4. Zapnite "Pokročilé predspracovanie" pre čiernobiele otázky
@@ -85,17 +146,17 @@ Aplikácia bude dostupná na: http://localhost:5000
 6. Skontrolujte a upravte rozpoznané otázky
 7. Uložte test
 
-**Tip:** Viacero fotiek sa automaticky spoja do jednej a spracujú naraz. Fotky sa prispôsobia API limitom (max 2048px).
+Fotky sa spracujú postupne a otázky sa spoja do jedného návrhu testu. Pred uložením skontrolujte ich obsah a správne odpovede.
 
 ### 📁 Import testov zo súborov
 
 **Spôsob 1: Automatické načítanie z priečinka (odporúčané)**
-1. Vložte JSON súbory s testami do priečinka `testy/`
-2. V aplikácii kliknite na "📁 Import testov"
+1. Vložte nové JSON súbory do `.local/testy/` pri lokálnom skúšaní alebo do `testy/` pri nasadení. Existujúce súbory neprepisujte.
+2. Prihláste sa ako správca a kliknite na "Import JSON"
 3. Kliknite na "📂 Automaticky načítať"
 
 **Spôsob 2: Manuálne nahratie súboru**
-1. Kliknite na "📁 Import testov"
+1. Prihláste sa ako správca a kliknite na "Import JSON"
 2. Vyberte JSON súbor z vášho počítača
 3. Kliknite na "📤 Nahrať súbor"
 
@@ -111,9 +172,3 @@ Aplikácia bude dostupná na: http://localhost:5000
 - **Spustenie viacerých testov:** Zaškrtnite checkboxy pri testoch a kliknite "Spustiť vybrané testy"
 - **Štatistiky:** Pri každom teste sa zobrazujú štatistiky (absolvované, posledný výsledok, priemer)
 - **Režim učenia:** Zobrazí celý test so správnymi odpoveďami
-
-## Ukončenie
-
-```bash
-docker-compose down
-```

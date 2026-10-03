@@ -1,0 +1,15 @@
+# Iba zdroje aplikácie a regresné testy, nikdy dáta ani tajomstvá.
+**
+!Dockerfile
+!requirements.txt
+!requirements-dev.txt
+!VERSION
+!app.py
+!storage.py
+!security.py
+!static/
+!static/**
+!templates/
+!templates/**
+!tests/
+!tests/**

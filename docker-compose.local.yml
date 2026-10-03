@@ -1,0 +1,44 @@
+# docker compose -p tester-local -f docker-compose.yml -f docker-compose.local.yml run --rm prepare
+# docker compose -p tester-local -f docker-compose.yml -f docker-compose.local.yml up -d --build --wait
+services:
+  cloudflared:
+    environment:
+      TUNNEL_TOKEN: ""
+  prepare:
+    profiles: [tools]
+    image: python:3.12-slim
+    user: "${APP_UID:-1000}:${APP_GID:-1000}"
+    working_dir: /workspace
+    command: [python, tools/prepare_local.py]
+    volumes:
+      - .:/workspace
+    read_only: true
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+  web:
+    env_file: !override
+      - path: .env.local
+        required: false
+    environment:
+      COOKIE_SECURE: "false"
+      TRUST_PROXY_HEADERS: "false"
+      ANTHROPIC_API_KEY: ""
+      CF_ANALYTICS_TOKEN: ""
+      CF_API_TOKEN: ""
+      CF_ACCOUNT_TAG: ""
+      CF_SITE_TAG: ""
+      CLOUDFLARE_TUNNEL_TOKEN: ""
+    ports:
+      - "127.0.0.1:80:5000"
+      - "127.0.0.1:8080:5000"
+    volumes: !override
+      - type: bind
+        source: ./.local/testy
+        target: /app/testy
+        bind:
+          create_host_path: false
+      - type: bind
+        source: ./.local/data
+        target: /app/data
+        bind:
+          create_host_path: false

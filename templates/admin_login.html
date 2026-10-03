@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="sk">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Prihlásenie správcu — LFUK tester</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <main class="container login-container">
+        <h1>Správa testov</h1>
+        <p>Prihlásenie je potrebné na import a úpravy testov.</p>
+        {% if error %}<p class="login-error" role="alert">{{ error }}</p>{% endif %}
+        <form method="post">
+            <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+            <label for="password">Heslo správcu</label>
+            <input id="password" name="password" type="password" class="ai-input" required autocomplete="current-password" autofocus>
+            <button type="submit">Prihlásiť sa</button>
+        </form>
+        <a href="{{ url_for('index') }}">Späť na testy</a>
+    </main>
+</body>
+</html>

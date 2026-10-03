@@ -1,0 +1,37 @@
+{
+  "sourceSha256": "2d928ae882b76bad2f366fe399a6a456e53ea1d7b0416c459d7000bc1dc3f050",
+  "expectedPages": 95,
+  "expectedQuestions": 729,
+  "indexPolicy": "Kľúče sú poradia otázok od 1, nie vytlačené čísla. Indexy odpovedí sú od 0.",
+  "cleanQuestionText": {
+    "367": "Obličkový prah pre glukózu:",
+    "554": "Acyl-CoA syntáza:"
+  },
+  "visualChecks": {
+    "7": {"defer": "Pri označenej možnosti d je ručná poznámka, že 2 ATP nie je správne, a oprava na 1,5 ATP."},
+    "10": {"defer": "Modré bodky pri a/c a červené podčiarknutia s výkričníkom vytvárajú nejednoznačný kľúč."},
+    "27": {"correct": [1, 2, 3], "note": "Vizuálne potvrdené modré bodky; vytlačené číslo 25."},
+    "29": {"correct": [1, 2], "note": "Vizuálne potvrdené modré bodky; vytlačené číslo 27."},
+    "57": {"defer": "Pri označenej možnosti d je ručná oprava rozpustenej látky na rozpúšťadlo."},
+    "96": {"correct": [], "note": "Modré značky c/d sú krížiky, nie označenia správnych odpovedí."},
+    "182": {"correct": [], "defer": "Možnosti c/d sú prečiarknuté modrými krížikmi a majú ručne opravené hodnoty ATP."},
+    "255": {"correct": [1], "note": "Bodka pri b; modrý krížik pri d sa nezapočítava."},
+    "259": {"defer": "Označená možnosť d je spochybnená ručnou poznámkou o VKK a glukoneogenéze."},
+    "293": {"correct": [], "note": "Modrý krížik pri b a ručné opravy počtu ATP."},
+    "294": {"correct": [0], "defer": "Modrý krížik pri c a oprava lokalizácie pri b; kľúč vyžaduje kontrolu."},
+    "297": {"correct": [], "note": "Modrý krížik pri c a ručná oprava počtu ATP."},
+    "320": {"correct": [0, 1, 2], "note": "Dve červené bodky a modrá bodka pri c; zachované podľa zdroja."},
+    "337": {"correct": [1, 3], "note": "Vizuálne potvrdené modré bodky pri b/d."},
+    "342": {"defer": "Označená možnosť d má ručne opravený energetický výťažok."},
+    "345": {"correct": [3], "note": "Modrá šípka pri a nie je označenie správnej odpovede; bodka je pri d."},
+    "356": {"correct": [], "note": "Modrý krížik pri c a ručná oprava 6–8 na 5–7 ATP."},
+    "424": {"defer": "Ručná oprava počtu ATP mení samotné zadanie otázky."},
+    "439": {"correct": [2], "note": "Vizuálne potvrdená modrá bodka pri c."},
+    "440": {"correct": [], "note": "Modrá značka pri b je krížik spojený so šípkou."},
+    "441": {"defer": "Označená možnosť a má ručne opravený typ väzby."},
+    "442": {"defer": "Označená možnosť d má ručnú opravu 3 ATP na 2,5 ATP."},
+    "499": {"correct": [1, 2, 3], "note": "Vizuálne potvrdená aj posunutá červená bodka pri b na začiatku ďalšej strany."},
+    "502": {"correct": [0], "note": "Vizuálne potvrdená modrá bodka pri a; prepis označenia, bez odbornej revízie."},
+    "686": {"defer": "Označená možnosť b má opravený názov enzýmu a neistú ručnú poznámku k uznaniu odpovede."}
+  }
+}

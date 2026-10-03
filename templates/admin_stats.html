@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LFUK tester · Analytics</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<style>
+:root {
+  --bg: #0a0d12;
+  --bg-card: #11161e;
+  --bg-card-hover: #161c26;
+  --border: #1f2937;
+  --border-hover: #2d3748;
+  --text: #e6edf3;
+  --text-dim: #8b95a7;
+  --text-faint: #5a6478;
+  --accent: #4c8eff;
+  --accent-dim: #2c5fb8;
+  --success: #34d399;
+  --warning: #fbbf24;
+  --danger: #ef4444;
+  --purple: #a78bfa;
+  --pink: #f472b6;
+  --teal: #2dd4bf;
+}
+* { box-sizing: border-box; }
+html, body {
+  margin: 0; padding: 0; background: var(--bg); color: var(--text);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 14px; line-height: 1.5; -webkit-font-smoothing: antialiased;
+}
+.container { max-width: 1400px; margin: 0 auto; padding: 32px 24px; }
+
+/* Header */
+.header {
+  display: flex; align-items: center; justify-content: space-between;
+  margin-bottom: 32px; flex-wrap: wrap; gap: 16px;
+}
+.header h1 {
+  margin: 0; font-size: 26px; font-weight: 700; letter-spacing: -0.02em;
+  display: flex; align-items: center; gap: 12px;
+}
+.header h1 .logo {
+  width: 36px; height: 36px; border-radius: 8px;
+  background: linear-gradient(135deg, var(--accent), var(--purple));
+  display: flex; align-items: center; justify-content: center;
+  font-size: 18px; font-weight: 800;
+}
+.header .sub { color: var(--text-dim); font-size: 13px; margin-top: 4px; }
+.header-actions { display: flex; gap: 12px; align-items: center; }
+.btn {
+  background: var(--bg-card); border: 1px solid var(--border);
+  color: var(--text); padding: 8px 14px; border-radius: 8px;
+  font-size: 13px; font-weight: 500; cursor: pointer;
+  text-decoration: none; display: inline-flex; align-items: center; gap: 6px;
+  transition: all 0.15s;
+}
+.btn:hover { background: var(--bg-card-hover); border-color: var(--border-hover); }
+.btn.primary { background: var(--accent); border-color: var(--accent); }
+.btn.primary:hover { background: var(--accent-dim); border-color: var(--accent-dim); }
+
+/* KPIs */
+.kpis {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 14px; margin-bottom: 28px;
+}
+.kpi {
+  background: var(--bg-card); border: 1px solid var(--border);
+  padding: 20px; border-radius: 12px;
+  position: relative; overflow: hidden;
+  transition: border-color 0.15s, transform 0.15s;
+}
+.kpi:hover { border-color: var(--border-hover); transform: translateY(-1px); }
+.kpi::before {
+  content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 3px;
+  background: var(--accent);
+}
+.kpi.green::before { background: var(--success); }
+.kpi.purple::before { background: var(--purple); }
+.kpi.orange::before { background: var(--warning); }
+.kpi .label {
+  font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em;
+  color: var(--text-dim); font-weight: 600; margin-bottom: 12px;
+}
+.kpi .value {
+  font-size: 36px; font-weight: 700; letter-spacing: -0.02em; line-height: 1;
+  font-feature-settings: "tnum";
+}
+.kpi .sub {
+  font-size: 12px; color: var(--text-faint); margin-top: 6px;
+}
+
+/* Sections */
+.section { margin-bottom: 36px; }
+.section-title {
+  font-size: 13px; font-weight: 600; text-transform: uppercase;
+  letter-spacing: 0.08em; color: var(--text-dim);
+  margin: 0 0 14px 0; padding-bottom: 8px; border-bottom: 1px solid var(--border);
+  display: flex; align-items: center; gap: 8px;
+}
+.section-title .dot {
+  width: 6px; height: 6px; border-radius: 50%; background: var(--accent);
+}
+
+/* Grid layouts */
+.grid-2 { display: grid; grid-template-columns: 2fr 1fr; gap: 16px; }
+.grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.grid-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+@media (max-width: 900px) {
+  .grid-2, .grid-3, .grid-4 { grid-template-columns: 1fr; }
+}
+
+/* Cards */
+.card {
+  background: var(--bg-card); border: 1px solid var(--border);
+  padding: 22px; border-radius: 12px; transition: border-color 0.15s;
+}
+.card:hover { border-color: var(--border-hover); }
+.card h3 {
+  margin: 0 0 4px; font-size: 15px; font-weight: 600;
+}
+.card .h-sub {
+  font-size: 12px; color: var(--text-dim); margin-bottom: 16px;
+}
+.card canvas { max-width: 100%; }
+.chart-box { position: relative; width: 100%; }
+.chart-box-line { height: 220px; }
+.chart-box-bar { height: 240px; }
+.chart-box-donut { height: 220px; }
+
+/* Tables / lists */
+.list { margin: 0; padding: 0; list-style: none; }
+.list li {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 10px 0; border-bottom: 1px solid var(--border); font-size: 13px;
+}
+.list li:last-child { border-bottom: none; }
+.list .name { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis;
+              white-space: nowrap; padding-right: 12px; }
+.list .count {
+  color: var(--text-dim); font-feature-settings: "tnum";
+  font-family: 'JetBrains Mono', monospace; font-size: 12px;
+}
+
+/* Score bar */
+.score-row {
+  display: grid; grid-template-columns: 1fr auto auto; gap: 12px;
+  align-items: center; padding: 12px 0; border-bottom: 1px solid var(--border);
+}
+.score-row:last-child { border-bottom: none; }
+.score-row .name { font-size: 13px; min-width: 0; overflow: hidden;
+                   text-overflow: ellipsis; white-space: nowrap; }
+.score-row .runs { color: var(--text-faint); font-size: 11px;
+                   font-family: 'JetBrains Mono', monospace; }
+.score-bar {
+  width: 140px; height: 8px; background: var(--bg);
+  border-radius: 4px; overflow: hidden; position: relative;
+}
+.score-bar-fill {
+  height: 100%; border-radius: 4px;
+  background: linear-gradient(90deg, var(--danger) 0%, var(--warning) 50%, var(--success) 100%);
+}
+.score-pct {
+  font-size: 13px; font-weight: 600; font-feature-settings: "tnum";
+  font-family: 'JetBrains Mono', monospace;
+  min-width: 50px; text-align: right;
+}
+
+.empty {
+  color: var(--text-faint); padding: 32px; text-align: center;
+  font-style: italic; font-size: 13px;
+}
+
+/* CF section */
+.cf-banner {
+  background: linear-gradient(135deg, rgba(244,114,182,0.08), rgba(76,142,255,0.08));
+  border: 1px solid var(--border); border-radius: 12px; padding: 24px;
+  display: flex; align-items: flex-start; gap: 16px;
+}
+.cf-banner-icon {
+  width: 48px; height: 48px; border-radius: 12px;
+  background: linear-gradient(135deg, #f6821f, #fbb040);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 22px; flex-shrink: 0;
+}
+.cf-banner-body { flex: 1; }
+.cf-banner h3 { margin: 0 0 6px; }
+.cf-banner p { margin: 0; color: var(--text-dim); font-size: 13px; }
+
+footer {
+  margin-top: 48px; padding-top: 24px; border-top: 1px solid var(--border);
+  color: var(--text-faint); font-size: 12px; text-align: center;
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+  <div class="header">
+    <div>
+      <h1>
+        <span class="logo">📊</span>
+        <span>LFUK tester <span style="color:var(--text-dim); font-weight:500">· Analytics</span></span>
+      </h1>
+      <div class="sub" id="last-updated"></div>
+    </div>
+    <div class="header-actions">
+      <a class="btn" href="https://dash.cloudflare.com/?to=/:account/web-analytics" target="_blank">
+        ☁️ CF Web Analytics
+      </a>
+      <button class="btn primary" onclick="location.reload()">⟳ Refresh</button>
+    </div>
+  </div>
+
+  <!-- KPIs -->
+  <div class="kpis">
+    <div class="kpi">
+      <div class="label">Events spolu</div>
+      <div class="value" id="kpi-events">—</div>
+      <div class="sub">naozaj zaznamenané</div>
+    </div>
+    <div class="kpi green">
+      <div class="label">Unikátnych IP</div>
+      <div class="value" id="kpi-ips">—</div>
+      <div class="sub">cez CF-Connecting-IP</div>
+    </div>
+    <div class="kpi purple">
+      <div class="label">Sessions</div>
+      <div class="value" id="kpi-sessions">—</div>
+      <div class="sub">gap &gt; 30 min</div>
+    </div>
+    <div class="kpi orange">
+      <div class="label">Dokončené testy</div>
+      <div class="value" id="kpi-finishes">—</div>
+      <div class="sub" id="kpi-finishes-sub">—</div>
+    </div>
+  </div>
+
+  <!-- Activity -->
+  <div class="section">
+    <h2 class="section-title"><span class="dot"></span> Aktivita</h2>
+    <div class="grid-2">
+      <div class="card">
+        <h3>Eventy podľa dní</h3>
+        <div class="h-sub">Celková aktivita v čase</div>
+        <div class="chart-box chart-box-line"><canvas id="dailyChart"></canvas></div>
+      </div>
+      <div class="card">
+        <h3>Hodinová špička</h3>
+        <div class="h-sub">Distribúcia naprieč 24 hodinami (UTC)</div>
+        <div class="chart-box chart-box-bar"><canvas id="hourlyChart"></canvas></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tests -->
+  <div class="section">
+    <h2 class="section-title"><span class="dot" style="background:var(--success)"></span> Testy</h2>
+    <div class="grid-2">
+      <div class="card">
+        <h3>Top testy</h3>
+        <div class="h-sub">Počet interakcií (otvorenie, štart, dokončenie)</div>
+        <div class="chart-box chart-box-bar"><canvas id="testChart"></canvas></div>
+      </div>
+      <div class="card">
+        <h3>Priemerné skóre</h3>
+        <div class="h-sub">Z dokončených testov</div>
+        <div id="scores"><div class="empty">Žiadne dokončené testy zatiaľ.</div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Audience -->
+  <div class="section">
+    <h2 class="section-title"><span class="dot" style="background:var(--purple)"></span> Audience</h2>
+    <div class="grid-3">
+      <div class="card">
+        <h3>Zariadenia</h3>
+        <div class="h-sub">Desktop, mobil, tablet</div>
+        <div class="chart-box chart-box-donut"><canvas id="deviceChart"></canvas></div>
+      </div>
+      <div class="card">
+        <h3>Operačné systémy</h3>
+        <div class="h-sub">iOS, Android, Windows…</div>
+        <div class="chart-box chart-box-donut"><canvas id="osChart"></canvas></div>
+      </div>
+      <div class="card">
+        <h3>Prehliadače</h3>
+        <div class="h-sub">Chrome, Safari, Firefox…</div>
+        <div class="chart-box chart-box-donut"><canvas id="browserChart"></canvas></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sources & Events -->
+  <div class="section">
+    <h2 class="section-title"><span class="dot" style="background:var(--warning)"></span> Zdroje & Eventy</h2>
+    <div class="grid-2">
+      <div class="card">
+        <h3>Top referrers</h3>
+        <div class="h-sub">Odkiaľ ľudia prichádzajú</div>
+        <ul class="list" id="referrers"><li class="empty">—</li></ul>
+      </div>
+      <div class="card">
+        <h3>Eventy podľa typu</h3>
+        <div class="h-sub">page_view / test_start / test_finish</div>
+        <div class="chart-box chart-box-donut"><canvas id="eventChart"></canvas></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Cloudflare integration -->
+  {% if cf_data %}
+  <div class="section">
+    <h2 class="section-title"><span class="dot" style="background:#f6821f"></span> Cloudflare Web Analytics (Live)</h2>
+    <div class="grid-4">
+      <div class="kpi"><div class="label">CF Pageviews</div><div class="value" id="cf-pv">{{ cf_data.pageviews }}</div></div>
+      <div class="kpi green"><div class="label">CF Visits</div><div class="value" id="cf-visits">{{ cf_data.visits }}</div></div>
+      <div class="kpi purple"><div class="label">CF Visitors</div><div class="value" id="cf-visitors">{{ cf_data.visitors }}</div></div>
+      <div class="kpi orange"><div class="label">Posledných 7 dní</div><div class="value" style="font-size:14px; padding-top:14px">CF Web Analytics</div></div>
+    </div>
+    <div class="grid-2">
+      <div class="card">
+        <h3>Krajiny (CF)</h3>
+        <ul class="list">
+          {% for c, n in cf_data.countries %}<li><span class="name">{{ c }}</span><span class="count">{{ n }}</span></li>{% endfor %}
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Zariadenia (CF)</h3>
+        <ul class="list">
+          {% for d, n in cf_data.devices %}<li><span class="name">{{ d }}</span><span class="count">{{ n }}</span></li>{% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+  {% else %}
+  <div class="section">
+    <h2 class="section-title"><span class="dot" style="background:#f6821f"></span> Cloudflare Web Analytics</h2>
+    <div class="cf-banner">
+      <div class="cf-banner-icon">☁️</div>
+      <div class="cf-banner-body">
+        <h3>CF Web Analytics beacon je už aktívny ✓</h3>
+        <p>Beacon je nasadený a zbiera dáta. Dáta sa zjavia v <a href="https://dash.cloudflare.com/?to=/:account/web-analytics" target="_blank" style="color:var(--accent)">Cloudflare dashboarde</a> po ~30 min.<br>
+        Pre <strong>vstavanú live integráciu</strong> sem do tejto stránky pridaj do <code style="color:var(--accent)">.env</code>:
+        </p>
+        <pre style="background:var(--bg); padding:12px; border-radius:8px; margin-top:12px; font-size:12px; overflow:auto;">CF_API_TOKEN=&lt;Cloudflare API token s permission "Account Analytics: Read"&gt;
+CF_ACCOUNT_TAG=&lt;tvoj account tag z URL: dash.cloudflare.com/XXXX/&gt;
+CF_SITE_TAG=&lt;site tag z Web Analytics → site settings&gt;</pre>
+        <p style="margin-top:12px">Token získaš v <a href="https://dash.cloudflare.com/profile/api-tokens" target="_blank" style="color:var(--accent)">CF dashboard → My Profile → API Tokens → Create token → Custom token</a>: permission <em>Account Analytics: Read</em>.</p>
+      </div>
+    </div>
+  </div>
+  {% endif %}
+
+  <footer>
+    LFUK tester · Server-side event tracking + Cloudflare Web Analytics<br>
+    <span style="color:var(--text-faint)">Updated <span id="updated-ago">just now</span></span>
+  </footer>
+
+</div>
+
+<script>
+function escapeHtml(value) {
+  return String(value).replace(/[&<>"']/g, char => ({'&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;'}[char]));
+}
+const STATS = {{ stats | tojson }};
+const updatedAt = new Date();
+document.getElementById('last-updated').textContent = 'Posledný refresh: ' + updatedAt.toLocaleString('sk-SK');
+
+document.getElementById('kpi-events').textContent = STATS.total_events.toLocaleString('sk-SK');
+document.getElementById('kpi-ips').textContent = STATS.unique_ips.toLocaleString('sk-SK');
+document.getElementById('kpi-sessions').textContent = STATS.total_sessions.toLocaleString('sk-SK');
+const finishes = STATS.by_event['test_finish'] || 0;
+document.getElementById('kpi-finishes').textContent = finishes.toLocaleString('sk-SK');
+const starts = STATS.by_event['test_start'] || 0;
+const completionRate = starts > 0 ? Math.round(finishes / starts * 100) : 0;
+document.getElementById('kpi-finishes-sub').textContent =
+  starts > 0 ? `${completionRate}% dokončenie zo ${starts} štartov` : 'žiadne testy zatiaľ';
+
+// Chart.js global config
+Chart.defaults.font.family = "'Inter', sans-serif";
+Chart.defaults.font.size = 12;
+Chart.defaults.color = '#8b95a7';
+Chart.defaults.borderColor = '#1f2937';
+Chart.defaults.plugins.tooltip.backgroundColor = '#11161e';
+Chart.defaults.plugins.tooltip.borderColor = '#1f2937';
+Chart.defaults.plugins.tooltip.borderWidth = 1;
+Chart.defaults.plugins.tooltip.padding = 10;
+Chart.defaults.plugins.tooltip.boxPadding = 4;
+
+const palette = ['#4c8eff', '#34d399', '#a78bfa', '#fbbf24', '#f472b6', '#2dd4bf', '#ef4444', '#8b95a7', '#ec4899', '#06b6d4'];
+
+function lineChart(id, labels, data, color) {
+  const el = document.getElementById(id); if (!el) return;
+  new Chart(el, {
+    type: 'line',
+    data: { labels, datasets: [{
+      data, borderColor: color, backgroundColor: color + '20',
+      fill: true, tension: 0.35, pointRadius: 3, pointBackgroundColor: color,
+      pointBorderWidth: 0, borderWidth: 2.5,
+    }] },
+    options: {
+      maintainAspectRatio: false,
+      plugins: { legend: { display: false } },
+      scales: {
+        y: { beginAtZero: true, grid: { color: '#1f2937' }, ticks: { color: '#5a6478' } },
+        x: { grid: { display: false }, ticks: { color: '#5a6478' } }
+      }
+    }
+  });
+}
+function barChart(id, labels, data, horizontal) {
+  const el = document.getElementById(id); if (!el) return;
+  new Chart(el, {
+    type: 'bar',
+    data: { labels, datasets: [{
+      data, backgroundColor: labels.map((_, i) => palette[i % palette.length]),
+      borderRadius: 6, borderSkipped: false
+    }] },
+    options: {
+      maintainAspectRatio: false, indexAxis: horizontal ? 'y' : 'x',
+      plugins: { legend: { display: false } },
+      scales: {
+        x: { grid: { color: '#1f2937' }, ticks: { color: '#5a6478' } },
+        y: { grid: { color: horizontal ? 'transparent' : '#1f2937' }, ticks: { color: '#5a6478' } }
+      }
+    }
+  });
+}
+function donut(id, labels, data) {
+  const el = document.getElementById(id); if (!el) return;
+  if (!labels.length) { el.parentNode.insertAdjacentHTML('beforeend', '<div class="empty">—</div>'); el.remove(); return; }
+  new Chart(el, {
+    type: 'doughnut',
+    data: { labels, datasets: [{ data, backgroundColor: palette, borderColor: '#11161e', borderWidth: 2 }] },
+    options: {
+      maintainAspectRatio: false, cutout: '65%',
+      plugins: {
+        legend: {
+          position: 'right',
+          labels: { boxWidth: 10, boxHeight: 10, padding: 12, usePointStyle: true, pointStyle: 'circle' }
+        }
+      }
+    }
+  });
+}
+
+lineChart('dailyChart', Object.keys(STATS.daily), Object.values(STATS.daily), '#4c8eff');
+barChart('hourlyChart',
+  Array.from({length:24}, (_,i) => String(i).padStart(2,'0')),
+  Array.from({length:24}, (_,i) => STATS.hourly[i] || 0),
+  false);
+donut('eventChart', Object.keys(STATS.by_event), Object.values(STATS.by_event));
+donut('deviceChart', Object.keys(STATS.device), Object.values(STATS.device));
+donut('osChart', Object.keys(STATS.os), Object.values(STATS.os));
+donut('browserChart', Object.keys(STATS.browser), Object.values(STATS.browser));
+barChart('testChart', Object.keys(STATS.by_test), Object.values(STATS.by_test), true);
+
+// Scores
+const scoresEl = document.getElementById('scores');
+const scores = Object.entries(STATS.avg_score).sort((a, b) => b[1] - a[1]);
+if (scores.length > 0) {
+  scoresEl.innerHTML = scores.map(([test, avg]) => {
+    const count = STATS.score_count[test] || 0;
+    return `<div class="score-row">
+      <div>
+        <div class="name">${escapeHtml(test)}</div>
+        <div class="runs">${count}× dokončené</div>
+      </div>
+      <div class="score-bar"><div class="score-bar-fill" style="width:${avg}%"></div></div>
+      <div class="score-pct">${avg}%</div>
+    </div>`;
+  }).join('');
+}
+
+// Referrers
+const refEl = document.getElementById('referrers');
+const refs = Object.entries(STATS.referrers);
+if (refs.length > 0) {
+  refEl.innerHTML = refs.map(([r, n]) =>
+    `<li><span class="name">${escapeHtml(r)}</span><span class="count">${n}</span></li>`).join('');
+}
+</script>
+</body>
+</html>

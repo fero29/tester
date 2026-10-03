@@ -11,6 +11,7 @@
     --shadow-color: rgba(0,0,0,0.1);
     --card-bg: white;
     --hover-bg: #f0f0f0;
+    --selected-bg: #e3f2fd;
     --success-bg: #e8f5e9;
     --success-text: #2e7d32;
     --error-bg: #ffebee;
@@ -31,6 +32,7 @@
     --shadow-color: rgba(0,0,0,0.3);
     --card-bg: #1f2940;
     --hover-bg: #2a3a5a;
+    --selected-bg: #1a3a5c;
     --success-bg: #1b3d2f;
     --success-text: #81c784;
     --error-bg: #3d1f1f;
@@ -52,6 +54,7 @@
         --shadow-color: rgba(0,0,0,0.3);
         --card-bg: #1f2940;
         --hover-bg: #2a3a5a;
+        --selected-bg: #1a3a5c;
         --success-bg: #1b3d2f;
         --success-text: #81c784;
         --error-bg: #3d1f1f;
@@ -178,6 +181,20 @@ button:hover {
     margin: 0;
 }
 
+.test-header-controls {
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.admin-link { color: var(--text-primary); margin-right: 12px; }
+.logout-form { display: inline-block; }
+.login-container { max-width: 440px; }
+.login-container p, .login-container form { margin: 20px 0; }
+.login-error { color: var(--error-text); }
+#editorSaveStatus { color: var(--text-primary); margin: 16px 0; }
+
+
+
 .btn-multi {
     background-color: #FF9800;
     margin-bottom: 0;
@@ -187,6 +204,14 @@ button:hover {
     background-color: #F57C00;
 }
 
+.test-filter-label {
+    color: var(--text-secondary);
+    font-size: 0.85em;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.year-tabs,
 .category-tabs {
     display: flex;
     flex-wrap: wrap;
@@ -194,6 +219,13 @@ button:hover {
     margin: 0 0 24px 0;
 }
 
+.year-tabs {
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.year-tab,
 .category-tab {
     background: var(--bg-tertiary);
     color: var(--text-secondary);
@@ -210,21 +242,50 @@ button:hover {
     transition: background 0.2s, color 0.2s, border-color 0.2s, transform 0.1s;
 }
 
+.year-tab:hover,
 .category-tab:hover {
     border-color: #4CAF50;
     color: var(--text-primary);
     transform: translateY(-1px);
 }
 
+.year-tab.active,
 .category-tab.active {
     background: #4CAF50;
     color: white;
     border-color: #4CAF50;
 }
 
+.year-tab.active:hover,
 .category-tab.active:hover {
     background: #43A047;
     transform: translateY(-1px);
+}
+
+.year-tab {
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.year-tab:hover,
+.year-tab.active {
+    border-color: #667eea;
+}
+
+.year-tab.active,
+.year-tab.active:hover {
+    background: var(--accent-gradient);
+}
+
+.year-tab:focus-visible,
+.category-tab:focus-visible {
+    outline: 2px solid var(--text-primary);
+    outline-offset: 3px;
+}
+
+.test-list-empty {
+    color: var(--text-secondary);
+    padding: 16px 0;
 }
 
 .category-tab-count {
@@ -237,6 +298,7 @@ button:hover {
     line-height: 1.4;
 }
 
+.year-tab.active .category-tab-count,
 .category-tab.active .category-tab-count {
     background: rgba(255, 255, 255, 0.25);
     color: white;
@@ -424,12 +486,8 @@ button:hover {
 }
 
 .answer.selected {
-    background: #e3f2fd;
+    background: var(--selected-bg);
     border-color: #2196F3;
-}
-
-[data-theme="dark"] .answer.selected {
-    background: #1a3a5c;
 }
 
 .answer-icon {
@@ -933,9 +991,9 @@ button:hover {
 
 /* Feedback pri otázkach (režim "each") */
 .answer-correct-selected {
-    background-color: #28a745 !important;
+    background-color: #1e7e34 !important;
     color: white !important;
-    border-color: #28a745 !important;
+    border-color: #1e7e34 !important;
     font-weight: bold;
 }
 
@@ -1003,9 +1061,9 @@ button:hover {
 
 /* Režim "end" alebo "each" - zobraz všetko */
 .result-answer-correct-selected {
-    background-color: #28a745;
+    background-color: #1e7e34;
     color: white;
-    border-color: #28a745;
+    border-color: #1e7e34;
     font-weight: bold;
 }
 
@@ -2494,4 +2552,22 @@ button:hover {
 
 [data-theme="dark"] .detail-incorrect {
     color: #ef9a9a;
+}
+
+@media (max-width: 700px) {
+    body { padding: 10px; }
+    .container { max-width: 100%; padding: 16px; }
+    .app-header { flex-wrap: wrap; }
+    .test-item-wrapper { flex-wrap: wrap; }
+    .test-item {
+        min-width: 0;
+        flex: 1 1 calc(100% - 30px);
+        flex-direction: column;
+        align-items: stretch;
+        gap: 12px;
+    }
+    .test-main-info { overflow-wrap: anywhere; }
+    .test-stats { min-width: 0; }
+    .test-item-wrapper .btn-edit { margin-left: 30px; }
+    .navigation { flex-wrap: wrap; gap: 8px; }
 }
