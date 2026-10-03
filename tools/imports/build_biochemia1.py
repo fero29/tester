@@ -2,8 +2,8 @@
 """Prevedie lokálne PDF Biochémia 1 otázky do formátu LFUK tester.
 
 Použitie z koreňa projektu:
-    python3 tools/build_biochemia1.py
-    python3 tools/build_biochemia1.py --output /tmp/biochemia-testy
+    python3 tools/imports/build_biochemia1.py
+    python3 tools/imports/build_biochemia1.py --output /tmp/biochemia-testy
 
 Vyžaduje pdftohtml, pdftoppm (Poppler), Pillow a NumPy. Nevolá AI ani sieť.
 Viditeľný text oddeľuje od skrytej OCR vrstvy ručných poznámok. Farebné bodky
@@ -28,7 +28,7 @@ import numpy as np
 from PIL import Image
 
 
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(__file__).resolve().parents[2]
 MANIFEST = Path(__file__).with_name('biochemia1_review.json')
 
 
@@ -262,7 +262,7 @@ def main():
     if args.pdf:
         pdf = args.pdf.resolve()
     else:
-        candidates = [p for p in ROOT.glob('*.pdf')
+        candidates = [p for p in (ROOT / 'sources').glob('*.pdf')
                       if unicodedata.normalize('NFC', p.name) == 'Biochémia 1 otázky.pdf']
         if len(candidates) != 1:
             parser.error('Zdrojové PDF sa nepodarilo jednoznačne nájsť; použite --pdf.')

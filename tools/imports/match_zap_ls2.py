@@ -17,7 +17,7 @@ from difflib import SequenceMatcher
 from pathlib import Path
 from collections import Counter
 
-ROOT = Path(__file__).parent.parent
+ROOT = Path(__file__).resolve().parents[2]
 TESTY_DIR = ROOT / 'testy'
 OUT_DIR = ROOT / 'tools' / 'out'
 

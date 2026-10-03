@@ -12,10 +12,10 @@ Malá slovenská aplikácia na samoštúdium: otázkové testy a latinské slov�
 
 ## Dáta majú prednosť pred upratovaním
 
-- `testy/`, jeho podadresáre, `testy_backup_aws/`, `testy_backup_clean/`, `data/`, zdrojové PDF a `foto histo/` obsahujú hotové testy, podklady alebo históriu. Pri práci na kóde ich neupravuj ani nemaž.
+- `testy/`, jeho podadresáre, `archive/tests-aws/`, `archive/tests-clean/`, `data/` a `sources/` obsahujú hotové testy, podklady alebo históriu. Pri práci na kóde ich neupravuj ani nemaž.
 - Podobné otázky v rôznych testoch nemusia byť omyl. Neodstraňuj ani neopravuj odborný obsah na základe technického review.
 - Ak zadanie zahŕňa zmenu dát, najprv zachovaj pôvodné bajty v zálohe a over zmenu na kópii. Import nesmie potichu prepísať existujúci súbor. Hromadné presuny over mapovaním ciest a SHA-256 pred/po.
-- `testy/` a `data/` nie sú súčasťou image ani bežného Git checkoutu. Chýbajúce súbory na novom stroji neznamenajú, že ich máš vytvoriť z historickej zálohy cez aktuálne dáta.
+- `testy/`, `data/` a `sources/` nie sú súčasťou image ani bežného Git checkoutu. Kód a historické kópie v `archive/` chráni Git iba po commite; kópia na vzdialenom repozitári existuje až po pushi. Lokálne `.local/backups/` sú návratové zálohy na tom istom disku, nie náhrada zálohy mimo PC. Chýbajúce súbory na novom stroji neznamenajú, že ich máš vytvoriť z historickej zálohy cez aktuálne dáta.
 - Tajomstvá z `.env` a `.env.local` nepatria do Gitu, image, dokumentácie, URL ani výpisov. Heslo správcu sa zadáva cez `/admin/login`; neuvádzaj jeho hodnotu v odpovedi.
 
 ## Prostredia a príkazy
@@ -54,7 +54,7 @@ Kód je zabudovaný v image: editácia súboru sama nezmení bežiaci kontajner.
 | `static/app.js` | zoznam, filtre, priebeh testov/slovíčok, editor, výsledky, cache prehliadača |
 | `static/style.css`, `templates/` | témy, rozloženie a obrazovky; bez frontend build kroku |
 | `tests/` | regresné kontroly; nie používateľské testy z `testy/` |
-| `tools/` | príprava prostredia a ručné extrakcie; nie sú súčasťou runtime |
+| `tools/prepare_local.py`, `tools/imports/` | príprava prostredia a oddelené ručné extrakcie; nie sú súčasťou runtime |
 | `VERSION` | jediný zdroj verzie aplikácie pre backend, šablónu aj JS |
 
 ## Kontrakty, ktoré nesmie oprava porušiť
@@ -78,4 +78,4 @@ Kód je zabudovaný v image: editácia súboru sama nezmení bežiaci kontajner.
 5. Pri zmene správania aplikácie aktualizuj `VERSION` a relevantnú používateľskú informáciu. Samotná dokumentácia či technické testy verziu nezvyšujú. Trvalé nové dohody doplň sem; postupy do existujúcej dokumentácie. Nekopíruj celý rozhovor ani dočasné výpisy.
 6. Odovzdaj čo sa zmenilo, výsledok overenia a lokálnu adresu. Verejné nasadenie vykonaj iba v rozsahu pokynu používateľa.
 
-Ďalšie čítanie podľa úlohy: [README.md](README.md) — použitie a JSON formát; [DEPLOYMENT.md](DEPLOYMENT.md) — nasadenie, zálohy a presun PC; [docs/STRUCTURE.md](docs/STRUCTURE.md) — návrh upratania stromu, nie už vykonaná migrácia.
+Ďalšie čítanie podľa úlohy: [README.md](README.md) — použitie a JSON formát; [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) — nasadenie, zálohy a presun PC; [docs/STRUCTURE.md](docs/STRUCTURE.md) — aktuálne usporiadanie a pravidlá umiestňovania súborov.

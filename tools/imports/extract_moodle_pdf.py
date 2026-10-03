@@ -26,7 +26,7 @@ from dotenv import load_dotenv  # type: ignore  # optional
 
 # Load API key from .env in project root
 try:
-    load_dotenv(Path(__file__).parent.parent / '.env')
+    load_dotenv(Path(__file__).resolve().parents[2] / '.env')
 except Exception:
     pass
 

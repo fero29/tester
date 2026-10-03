@@ -8,7 +8,7 @@ Otvorte tento projekt v Claude Code alebo Codexe a zadajte požadovanú zmenu. K
 
 [CLAUDE.md](CLAUDE.md) používa skutočný import `@AGENTS.md`, aby sa udržiavala iba jedna sada pokynov. Používame štandardný názov veľkými písmenami, bez druhej kópie `claude.md`. Načítanie zodpovedá [dokumentácii Claude Code](https://code.claude.com/docs/en/memory#share-one-file-with-other-coding-tools) a [pokynom pre Codex](https://learn.chatgpt.com/docs/agent-configuration/agents-md). Pri inom AI nástroji bez podpory týchto súborov treba na AGENTS výslovne odkázať.
 
-Po trvalej zmene správania, postupu alebo dohody má AI aktualizovať príslušnú existujúcu dokumentáciu. Heslá a dočasné výpisy sa do nej neukladajú. [Návrh upratania stromu](docs/STRUCTURE.md) opisuje plánované presuny; zatiaľ nie sú vykonané.
+Po trvalej zmene správania, postupu alebo dohody má AI aktualizovať príslušnú existujúcu dokumentáciu. Heslá a dočasné výpisy sa do nej neukladajú. [Mapa projektu](docs/STRUCTURE.md) opisuje aktuálne usporiadanie a kam ukladať nové súbory.
 
 ## 🎯 Hlavné funkcie
 
@@ -49,7 +49,7 @@ docker compose -p tester-local -f docker-compose.yml -f docker-compose.local.yml
 docker compose -p tester-local -f docker-compose.yml -f docker-compose.local.yml down
 ```
 
-**Verejné nasadenie sa robí až na pokyn vlastníka.** Postup pre `test.frantisekmasiar.sk`, zálohy a presun na iný PC sú v [DEPLOYMENT.md](DEPLOYMENT.md). Samotné lokálne spustenie neaktivuje tunnel.
+**Verejné nasadenie sa robí až na pokyn vlastníka.** Postup pre `test.frantisekmasiar.sk`, zálohy a presun na iný PC sú v [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md). Samotné lokálne spustenie neaktivuje tunnel.
 
 ## Ochrana dát a overenie
 
@@ -78,7 +78,13 @@ testy/                     pôvodné JSON testy a ich archívy; mimo Gitu
 data/                      eventy a zálohy; mimo Gitu
 .local/                    samostatné lokálne dáta; mimo Gitu
 tests/                     regresné testy API a úložiska
-tools/                     príprava lokálneho prostredia a extrakčné skripty
+tools/prepare_local.py     príprava lokálneho prostredia
+tools/imports/             ručné extrakcie a ich JSON konfigurácie
+tools/out/, tools/pages/   pracovné výstupy; mimo Gitu
+docs/                      prevádzka, zálohy a mapa projektu
+examples/                  ukážkové JSON testy
+sources/                   zdrojové PDF/fotografie; mimo Gitu
+archive/                   historické testy sledované Gitom
 ```
 
 ## Formát JSON súboru
@@ -132,7 +138,7 @@ tools/                     príprava lokálneho prostredia a extrakčné skripty
 - Index začína od 0 (0 = prvá odpoveď, 1 = druhá, atď.)
 - Pri viacerých správnych odpovediach musia byť vybrané všetky správne odpovede
 - Môžete nahrať jeden test alebo pole testov
-- Pozrite si `example_test.json` pre príklad
+- Pozrite si [examples/test.json](examples/test.json) pre príklad
 
 ## Použitie
 

@@ -29,5 +29,5 @@ tools/pages/
 
 # Local source PDFs and photos (user-specific data)
 *.pdf
-foto histo/
+sources/
 data/

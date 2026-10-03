@@ -23,7 +23,7 @@ import anthropic
 from dotenv import load_dotenv  # type: ignore
 
 try:
-    load_dotenv(Path(__file__).parent.parent / '.env')
+    load_dotenv(Path(__file__).resolve().parents[2] / '.env')
 except Exception:
     pass
 

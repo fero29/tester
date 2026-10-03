@@ -23,5 +23,6 @@ USER root
 COPY requirements-dev.txt ./
 RUN pip install --no-cache-dir -r requirements-dev.txt
 COPY tests/ ./tests/
+COPY tools/imports/ ./tools/imports/
 USER 1000:1000
 CMD ["pytest", "-q", "-p", "no:cacheprovider", "tests"]

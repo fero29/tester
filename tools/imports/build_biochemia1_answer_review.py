@@ -9,8 +9,8 @@ from pathlib import Path
 from urllib.parse import quote, urlparse
 
 
-ROOT = Path(__file__).resolve().parents[1]
-MANIFEST = ROOT / 'tools/biochemia1_answer_review.json'
+ROOT = Path(__file__).resolve().parents[2]
+MANIFEST = Path(__file__).with_name('biochemia1_answer_review.json')
 OUTPUT = ROOT / 'testy/biochemia1'
 LABELS = {
     'key_proposed': 'Návrh kľúča',

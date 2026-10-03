@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Rozdelí už extrahované otázky Biochémie 1 podľa plánu ZS 2026/2027.
 
-    python3 tools/split_biochemia1_weeks.py --output /tmp/biochemia-tyzdne
-    python3 tools/split_biochemia1_weeks.py --activate
+    python3 tools/imports/split_biochemia1_weeks.py --output /tmp/biochemia-tyzdne
+    python3 tools/imports/split_biochemia1_weeks.py --activate
 
 Zaradenie podľa obsahu je uložené v biochemia1_weeks.json. Skript nepriraďuje
 otázky podľa kľúčových slov ani ich poradia; iba vykoná a overí toto zaradenie.
@@ -13,17 +13,16 @@ Texty, možnosti, odpovede a pôvodných 45 otázok na kontrolu sa nemenia.
 """
 
 import argparse
-import ast
 from collections import Counter
 import copy
-import glob
 import hashlib
 import json
-import os
 from pathlib import Path
+import sys
+import tempfile
 
 
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(__file__).resolve().parents[2]
 ARCHIVE = Path('biochemia1/archiv_povodneho_rozdelenia')
 ANSWER_REVIEW = Path('biochemia1/na_kontrolu.json')
 REPORT = Path('biochemia1/rozdelenie_podla_tyzdnov.json')
@@ -201,21 +200,17 @@ def write_outputs(output, files):
 
 
 def verify_app_loader(folder, files):
-    # Existujúci endpoint, bez importu Flask/AI a bez spustenia webového servera.
-    tree = ast.parse((ROOT / 'app.py').read_text(encoding='utf-8'))
-    function = next(n for n in tree.body
-                    if isinstance(n, ast.FunctionDef) and n.name == 'get_tests')
-    function.decorator_list = []
-    namespace = {'tests': [], 'TESTS_DIR': str(folder), 'glob': glob, 'os': os,
-                 'json': json, 'jsonify': lambda value: value}
-    exec(compile(ast.Module(body=[function], type_ignores=[]), 'app.py', 'exec'), namespace)
-    loaded = namespace['get_tests']()
+    # Použiť skutočné úložisko aplikácie, bez Flask, AI a zápisu do živých dát.
+    sys.path.insert(0, str(ROOT))
+    from storage import TestStore
+    with tempfile.TemporaryDirectory(prefix='tester-import-check-') as data_dir:
+        loaded, _ = TestStore(folder, data_dir).catalog()
     expected = {path.name: data[0] for path, data in files.items() if path.parent == Path('.')}
     actual = {test['filename']: test for test in loaded if test['filename'] in expected}
     if set(actual) != set(expected):
         raise ValueError('Aplikácia nenačítala všetky nové testy.')
     for name, test in expected.items():
-        if actual[name] != {**test, 'filename': name}:
+        if actual[name] != {**test, 'filename': name, 'version': actual[name]['version']}:
             raise ValueError(f'Aplikácia načítala odlišné dáta testu: {name}')
     if len(actual) != 13:
         raise ValueError('Očakávaných 12 týždenných testov a jeden na zaradenie.')
@@ -229,7 +224,7 @@ def main():
     mode.add_argument('--activate', action='store_true')
     args = parser.parse_args()
     manifest = json.loads(Path(__file__).with_name('biochemia1_weeks.json').read_text())
-    if sha256((ROOT / manifest['curriculumFile']).read_bytes()) != manifest['curriculumSha256']:
+    if sha256((ROOT / 'sources' / manifest['curriculumFile']).read_bytes()) != manifest['curriculumSha256']:
         raise ValueError('Týždenný plán sa zmenil; treba skontrolovať zaradenie.')
     questions, originals, review = read_input(args.tests_dir, manifest)
     files, report = build(questions, manifest)

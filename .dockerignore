@@ -13,3 +13,7 @@
 !templates/**
 !tests/
 !tests/**
+!tools/
+!tools/imports/
+!tools/imports/*.py
+!tools/imports/*.json

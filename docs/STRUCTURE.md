@@ -1,12 +1,10 @@
-# Návrh jednoduchšieho stromu
+# Usporiadanie projektu
 
-**Stav: návrh, presuny ešte nie sú vykonané.** Aktuálne umiestnenie aplikácie opisuje [README](../README.md). Tento dokument nie je príkaz na automatickú migráciu pri ďalšej úlohe.
+Toto je aktuálny stav po reorganizácii. Spustenie a použitie sú v [README](../README.md), ochrana dát a pracovný postup v [AGENTS](../AGENTS.md), zálohy a nasadenie v [DEPLOYMENT](DEPLOYMENT.md).
 
-## Odporúčanie
+## Strom
 
-Najväčší neporiadok v koreni tvoria vstupné PDF, fotografie a dve historické zálohy. Oddeliť ich podľa účelu prinesie viac než presúvať tri Python moduly do ďalšieho balíka. Aplikácia zostane malá: Flask, vanilla JS/CSS, JSON a Docker Compose.
-
-Navrhovaný strom (vynechané interné adresáre nástrojov a cache):
+Koreň obsahuje malú aplikáciu a jej spustenie. Podklady, historické kópie a ručné importy sú oddelené podľa účelu. Interné adresáre nástrojov a cache sú v prehľade vynechané.
 
 ```text
 tester/
@@ -36,7 +34,7 @@ tester/
 ├── .local/                    oddelené lokálne testovanie
 ├── docs/
 │   ├── DEPLOYMENT.md           prevádzka, zálohy, presun PC
-│   └── STRUCTURE.md            tento návrh; po realizácii opis výsledného stavu
+│   └── STRUCTURE.md            mapa projektu a pravidlá umiestňovania
 ├── examples/
 │   └── test.json               ukážkový test
 ├── tools/
@@ -52,38 +50,46 @@ tester/
     └── tests-clean/
 ```
 
-`testy/` a `tests/` majú rozdielny účel: prvé sú učivo, druhé kontrolujú program. Názvy ani dátové mounty teraz netreba meniť. Filtre ročníkov/predmetov sa riadia JSON metadátami; podadresáre podľa ročníkov by vyžadovali zmenu načítavania, ktoré dnes číta `testy/*.json`.
+## Kam patria nové súbory
 
-## Konkrétne presuny a súvisiace zmeny
-
-| Dnes | Návrh | Čo upraviť spolu s presunom |
+| Obsah | Umiestnenie | Git |
 | --- | --- | --- |
-| `DEPLOYMENT.md` | `docs/DEPLOYMENT.md` | odkazy v README/AGENTS a relatívny odkaz späť na README |
-| `example_test.json` | `examples/test.json` | odkaz a ukážkové cesty v README |
-| PDF priamo v koreni | `sources/` s pôvodnými názvami | cesty v importných skriptoch a ich konfiguráciách; zachovať aj Unicode názvy |
-| `foto histo/` | `sources/foto histo/` | vstupné cesty extrakcie fotografií |
-| `testy_backup_aws/` | `archive/tests-aws/` | odkazy v dokumentácii; zachovať obsah a sledovanie v Gite |
-| `testy_backup_clean/` | `archive/tests-clean/` | rovnaký postup ako pri AWS archíve |
-| `tools/*.py` okrem `prepare_local.py` | `tools/imports/` | výpočet koreňa projektu, cesty k `.env`, vstupom a výstupom, príklady spustenia |
-| `tools/biochemia1_*.json` | vedľa skriptov v `tools/imports/` | odkazy na podklady a pevná cesta v `build_biochemia1_answer_review.py` |
+| Kód aplikácie | tri Python moduly, `static/`, `templates/` | áno |
+| Technické kontroly | `tests/` | áno |
+| Používateľské testy | `testy/`, pri lokálnom skúšaní `.local/testy/` | nie |
+| Eventy a automatické zálohy zápisov | `data/`, lokálne `.local/data/` | nie |
+| PDF a fotografie | `sources/` | nie; samostatne zálohovať |
+| Historické testy z pôvodných záloh | `archive/` | áno; nie sú aktívny katalóg |
+| Ručné extrakcie a ich pravidlá | `tools/imports/` | áno |
+| Vygenerované medzivýsledky | `tools/out/`, `tools/pages/` | nie |
+| Návody | `docs/`, úvodné informácie v README | áno |
+| Ukážkové vstupy | `examples/` | áno |
+| Návratové zálohy pracovného projektu | `.local/backups/` | nie; môžu obsahovať tajomstvá |
 
-Importné skripty dnes často počítajú koreň cez `Path(__file__).parent.parent`; po pridaní úrovne by ukazovali nesprávne. `build_biochemia1.py` navyše hľadá PDF priamo v koreni, `parse_quizlet_zl2.py` používa relatívnu cestu a JSON manifesty obsahujú cesty aj kontrolné súčty vstupov. Presun má zahŕňať tieto konkrétne opravy, bez vytvorenia všeobecného frameworku na konfiguráciu ciest.
+`testy/` je učivo, `tests/` kontroluje program. Aplikácia načítava priamo `testy/*.json`; hotové testy nepresúvať do ročníkových podadresárov. Ročník a predmet určujú JSON metadáta. Podadresáre pod `testy/` obsahujú zachované podklady, reporty a staršie verzie, nie ďalšie aktívne testy.
 
-Pri presune pridať `sources/` do `.gitignore`. `.dockerignore` je zoznam povolených súborov a materiály do image nepustí; po úprave skontrolovať, že to stále platí. Celý `archive/` neignorovať, pretože historické testy už sú sledované Gitom. Podadresáre vo vnútri `testy/` sa v tomto návrhu nepresúvajú.
+## Ručné nástroje
 
-## Poradie realizácie
+`tools/prepare_local.py` je súčasť bežného lokálneho spustenia cez Compose a zostáva na pôvodnej ceste. Ostatné skripty a tri konfiguračné JSON súbory sú v `tools/imports/`. Nie sú súčasťou produkčného image; testovací Docker stage ich zahŕňa pre regresné kontroly.
 
-1. **Dokumentácia a ukážka:** presunúť iba DEPLOYMENT a example JSON, opraviť odkazy. Bez zmeny runtime.
-2. **Podklady a historické zálohy:** urobiť zálohu, inventár ciest a SHA-256; presunúť bez prepisu kolidujúcich názvov a overiť obsah. Upraviť cesty ich konzumentov v tom istom kroku. Git diff samotný nestačí, pretože podklady sú z veľkej časti ignorované.
-3. **Ručné nástroje:** presunúť skripty spolu s JSON konfiguráciami, opraviť koreň a výstupné cesty. `tools/prepare_local.py`, `tools/out/` a `tools/pages/` ponechať na mieste, aby sa nemenilo bežné spustenie ani uložené medzivýsledky.
-4. **Overenie:** kontrolné súčty všetkých presunutých podkladov a archívov musia sedieť; `testy/` a `data/` zostať nezmenené. Spustiť technické regresné kontroly a lokálny Compose. Importy overovať na dočasných výstupoch, bez hromadného spustenia plateného API. Skontrolovať aj prípravu čistého lokálneho prostredia a odkazy.
-5. Aktualizovať mapu v AGENTS/README a tento dokument na skutočný výsledný stav. Verejné nasadenie je samostatná používateľom riadená vec.
+Skripty odvodzujú koreň od svojho umiestnenia, nie od aktuálneho pracovného adresára. JSON konfigurácie ležia vedľa príslušných skriptov. PDF sa hľadajú v `sources/`; názov `curriculumFile` v biochémii ostáva pôvodným názvom dokumentu, takže sa nemenia metadáta už vytvorených otázok. Obrázkové extrakcie dostávajú vstupný adresár ako argument, napríklad `sources/foto histo/`.
 
-## Čo zatiaľ nepridávať
+Pred spustením prečítať docstring konkrétneho skriptu. PDF nástroje vyžadujú Poppler, farebná extrakcia aj Pillow/NumPy, AI nástroje Anthropic SDK a kľúč. Niektoré skripty píšu nové testy alebo vykonávajú platené volania. Pri overovaní používať nový dočasný výstup. `test_ai.py` je ručný platený helper s povinnou cestou k JPEG obrázku; jeho import a `--help` API nevolajú.
 
-- `src/`, `services/`, `repositories/` alebo viac balíkov len kvôli vzhľadu stromu. Tri Python moduly sú pri tomto rozsahu prehľadné.
-- Ďalší Docker obal, Makefile alebo paralelný návod na spustenie. Existujúci Compose zvládne aplikáciu, prípravu aj kontroly.
-- Samostatné pravidlá pre každý AI nástroj, kópie architektonickej dokumentácie alebo automatické nasadzovacie hooky. Základ je AGENTS + malý CLAUDE import.
-- Mazanie záloh, PDF a podobných otázok označených za „nepotrebné“. Usporiadanie a obsah učiva sú dve samostatné zmeny.
+## Záznam presunov
 
-Toto usporiadanie je odporúčanie pre súčasnú veľkosť projektu. Aplikáciu rozdeliť ďalej až vtedy, keď konkrétna úprava ukáže praktický problém.
+| Pôvodná cesta | Aktuálna cesta |
+| --- | --- |
+| `DEPLOYMENT.md` | `docs/DEPLOYMENT.md` |
+| `example_test.json` | `examples/test.json` |
+| PDF v koreni a `foto histo/` | `sources/` s pôvodnými názvami |
+| `testy_backup_aws/` | `archive/tests-aws/` |
+| `testy_backup_clean/` | `archive/tests-clean/` |
+| `tools/*.py` okrem `prepare_local.py` | `tools/imports/` |
+| `tools/biochemia1_*.json` | `tools/imports/` |
+
+Pri migrácii sa nemení obsah hotových testov, PDF, fotografií ani historických kópií. Návratová záloha obsahuje pôvodný pracovný strom aj `.git`; `moves.json` vedľa nej mapuje staré/nové cesty a SHA-256. Ďalšie úpravy dokumentácie a kódu ciest zachytáva Git. Obnovu archívu robiť do nového prázdneho adresára, nie cez novšie živé dáta.
+
+## KISS
+
+Tri Python moduly a Compose zostávajú v koreni; nevzniká ďalší balík, framework, databáza ani obal na spúšťanie. Pravidlá pre AI majú jeden zdroj v AGENTS a krátky CLAUDE import. Nové priečinky vytvárať podľa konkrétnej potreby, nie pre hypotetický rast. Upratovanie stromu nie je dôvod mazať učivo či zálohy.

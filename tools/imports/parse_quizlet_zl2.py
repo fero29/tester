@@ -14,8 +14,9 @@ import subprocess
 import sys
 from pathlib import Path
 
-PDF = Path('quizlet.com_695005625_print.pdf')
-OUT = Path('tools/out/zl2.json')
+ROOT = Path(__file__).resolve().parents[2]
+PDF = ROOT / 'sources/quizlet.com_695005625_print.pdf'
+OUT = ROOT / 'tools/out/zl2.json'
 
 HEADER_RE = re.compile(r'(Histologia ZL 2\. zápočet|Study online at|^\s*\d+\s*/\s*\d+\s*$)')
 
