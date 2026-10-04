@@ -42,6 +42,8 @@ tester/
 │   ├── imports/               ručné extrakčné skripty aj ich JSON konfigurácie
 │   ├── out/                   pracovné výsledky, mimo Gitu
 │   └── pages/                 dočasné obrázky strán, mimo Gitu
+├── work/                      nové podklady a rozpracované úlohy, obsah mimo Gitu
+│   └── README.md              návod; jediný súbor vo work sledovaný Gitom
 ├── sources/                   vstupné materiály, mimo Gitu; zálohovať samostatne
 │   ├── *.pdf
 │   └── foto histo/
@@ -58,6 +60,7 @@ tester/
 | Technické kontroly | `tests/` | áno |
 | Používateľské testy | `testy/`, pri lokálnom skúšaní `.local/testy/` | nie |
 | Eventy a automatické zálohy zápisov | `data/`, lokálne `.local/data/` | nie |
+| Nové podklady pred spracovaním a rozpracované úlohy | `work/` | iba README; obsah zálohovať samostatne |
 | PDF a fotografie | `sources/` | nie; samostatne zálohovať |
 | Historické testy z pôvodných záloh | `archive/` | áno; nie sú aktívny katalóg |
 | Ručné extrakcie a ich pravidlá | `tools/imports/` | áno |
@@ -67,6 +70,8 @@ tester/
 | Návratové zálohy pracovného projektu | `.local/backups/` | nie; môžu obsahovať tajomstvá |
 
 `testy/` je učivo, `tests/` kontroluje program. Aplikácia načítava priamo `testy/*.json`; hotové testy nepresúvať do ročníkových podadresárov. Ročník a predmet určujú JSON metadáta. Podadresáre pod `testy/` obsahujú zachované podklady, reporty a staršie verzie, nie ďalšie aktívne testy.
+
+Nové podklady a návrhy ukladajte najprv do [work/](../work/README.md). Súbory môžu ležať priamo v ňom, podadresár podľa úlohy je voliteľný. Aplikácia ich automaticky nenačítava. Po dokončení úlohy patria uchované originály do `sources/`, trvalo používané importné pravidlá do `tools/imports/` a overené testy do príslušného dátového adresára. Rozpracovaná práca nie je cache na zmazanie.
 
 ## Ručné nástroje
 

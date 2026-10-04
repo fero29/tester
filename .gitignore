@@ -27,6 +27,10 @@ __pycache__/
 tools/out/
 tools/pages/
 
+# Rozpracované úlohy a nové podklady; v Gite zostáva iba návod
+/work/*
+!/work/README.md
+
 # Local source PDFs and photos (user-specific data)
 *.pdf
 sources/

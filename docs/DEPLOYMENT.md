@@ -50,14 +50,14 @@ docker compose -p tester start web
 tar -tzf tester-backup-YYYYMMDD-HHMM.tar.gz
 ```
 
-Tento archív obsahuje prevádzkové dáta. Pre úplnú zálohu pracovného projektu pribaľte aj `sources/`, `tools/out/`, `tools/pages/` a prípadné lokálne dáta; uchovajte tiež kód a históriu Gitu. Archív a `.env` uložte bezpečne aj mimo hostiteľského disku. Git ich neobsahuje. Pred aktualizáciou si ponechajte aj predchádzajúcu verziu zdrojového kódu alebo image. Záloha aplikácie neobsahuje osobné výsledky uložené v prehliadači.
+Tento archív obsahuje prevádzkové dáta. Pre úplnú zálohu pracovného projektu pribaľte aj `work/`, `sources/`, `tools/out/`, `tools/pages/` a prípadné lokálne dáta; uchovajte tiež kód a históriu Gitu. Archív a `.env` uložte bezpečne aj mimo hostiteľského disku. Git ich neobsahuje. Pred aktualizáciou si ponechajte aj predchádzajúcu verziu zdrojového kódu alebo image. Záloha aplikácie neobsahuje osobné výsledky uložené v prehliadači.
 
 Automatické zálohy každého zápisu sú v `data/backups/<čas>-<akcia>-<id>/<pôvodný názov>.json`. Sú to pôvodné bajty vrátane všetkých metadát. Neprerezávajú sa automaticky. Aktívny analytický log sa otáča pri 10 MB, staré súbory zostávajú; dashboard zobrazuje posledných najviac 50 000 udalostí z aktívneho súboru. Sledujte voľné miesto a zálohy odnášajte mimo disku.
 
 ## Obnova a presun na iný PC
 
 1. Zálohu rozbaľte najprv do **nového prázdneho adresára**, nie cez existujúce dáta. Overte počet testov a obsah.
-2. Na nový PC preneste kód, overené `testy/`, celé `data/` a súkromnú `.env`. Pri presune pracovného prostredia preneste aj `sources/` a potrebné pracovné výstupy nástrojov. Pripravte Docker/Compose a práva UID/GID.
+2. Na nový PC preneste kód, overené `testy/`, celé `data/` a súkromnú `.env`. Pri presune pracovného prostredia preneste aj `work/`, `sources/` a potrebné pracovné výstupy nástrojov. Pripravte Docker/Compose a práva UID/GID.
 3. Najprv spustite lokálny postup z README; ten vytvorí oddelené kópie. Overte testy a prihlásenie.
 4. Pri schválenom prechode zastavte pôvodný web/tunnel, preneste poslednú konzistentnú zálohu a spustite produkčný profil na novom stroji. Dve nezávislé zapisovateľné inštancie nesmú obsluhovať tú istú doménu.
 5. Pôvodný počítač a zálohu ponechajte pre návrat. Pri návrate použite aj zodpovedajúce dáta, nie iba starý image.
@@ -74,7 +74,7 @@ Obnova jednotlivého odstráneného testu: skopírujte vybranú revíziu z `data
 
 ## Čo chráni Git
 
-Git sleduje kód, dokumentáciu, konfigurácie bez tajomstiev, `examples/`, `tools/imports/` a historické kópie v `archive/`. Aktuálne `testy/`, `data/`, `sources/`, `.env*` okrem vzoru, `.local/` a pracovné výstupy nástrojov sú ignorované.
+Git sleduje kód, dokumentáciu vrátane `work/README.md`, konfigurácie bez tajomstiev, `examples/`, `tools/imports/` a historické kópie v `archive/`. Aktuálne `testy/`, `data/`, `sources/`, obsah `work/` okrem README, `.env*` okrem vzoru, `.local/` a pracovné výstupy nástrojov sú ignorované.
 
 - Zmena uložená v súbore ešte nie je v histórii; treba commit.
 - Lokálny commit stále žije na hostiteľskom disku. Push vytvorí kópiu kódu na vzdialenom repozitári, nepošle ignorované dáta.

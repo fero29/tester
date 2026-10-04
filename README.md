@@ -10,6 +10,8 @@ Otvorte tento projekt v Claude Code alebo Codexe a zadajte požadovanú zmenu. K
 
 Po trvalej zmene správania, postupu alebo dohody má AI aktualizovať príslušnú existujúcu dokumentáciu. Heslá a dočasné výpisy sa do nej neukladajú. [Mapa projektu](docs/STRUCTURE.md) opisuje aktuálne usporiadanie a kam ukladať nové súbory.
 
+Nové podklady pred spracovaním a rozpracované veci vkladajte do [work/](work/README.md). Stačí tam nahrať súbory a zadať AI, čo s nimi spraviť. Pracovný obsah je mimo Gitu a Docker image; pri zálohe ho treba pribaliť.
+
 ## 🎯 Hlavné funkcie
 
 - **🤖 AI Import z fotky** - Odfotíte otázky a AI ich automaticky rozpozná (Claude Sonnet 4.6 vision)
@@ -83,6 +85,7 @@ tools/imports/             ručné extrakcie a ich JSON konfigurácie
 tools/out/, tools/pages/   pracovné výstupy; mimo Gitu
 docs/                      prevádzka, zálohy a mapa projektu
 examples/                  ukážkové JSON testy
+work/                      nové podklady a rozpracované úlohy; obsah mimo Gitu
 sources/                   zdrojové PDF/fotografie; mimo Gitu
 archive/                   historické testy sledované Gitom
 ```
