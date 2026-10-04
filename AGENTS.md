@@ -54,7 +54,7 @@ Kód je zabudovaný v image: editácia súboru sama nezmení bežiaci kontajner.
 | `storage.py` | validácia, cache súborov, verzie, zámky, atómový zápis a zálohy |
 | `security.py` | prihlásenie, relácia, CSRF, limity požiadaviek |
 | `static/app.js` | zoznam, filtre, priebeh testov/slovíčok, editor, výsledky, cache prehliadača |
-| `static/style.css`, `templates/` | témy, rozloženie a obrazovky; bez frontend build kroku |
+| `static/style.css`, `templates/` | témy, rozloženie a obrazovky; v `templates/index.html` aj návod `helpPage` a história verzií `versionPage`; bez frontend build kroku |
 | `tests/` | regresné kontroly; nie používateľské testy z `testy/` |
 | `tools/prepare_local.py`, `tools/imports/` | príprava prostredia a oddelené ručné extrakcie; nie sú súčasťou runtime |
 | `VERSION` | jediný zdroj verzie aplikácie pre backend, šablónu aj JS |
@@ -77,7 +77,8 @@ Kód je zabudovaný v image: editácia súboru sama nezmení bežiaci kontajner.
 2. Urob najmenšiu zrozumiteľnú opravu vrátane príčiny problému. Nový súbor alebo závislosť má mať konkrétnu úlohu.
 3. Over rizikové správanie primeranými regresnými kontrolami; pri zmene UI aj dotknutý priebeh v prehliadači na `test.localhost`, mobil a svetlú/tmavú tému. Testuj na dočasných dátach alebo lokálnych kópiách. Pri čistej dokumentácii stačí kontrola odkazov a diffu.
 4. Zmenu závislostí over aj auditom podľa README. Ak kontrolu nemožno vykonať, presne povedz čo a prečo; neoznač ju za úspešnú.
-5. Pri zmene správania aplikácie aktualizuj `VERSION` a relevantnú používateľskú informáciu. Samotná dokumentácia či technické testy verziu nezvyšujú. Trvalé nové dohody doplň sem; postupy do existujúcej dokumentácie. Nekopíruj celý rozhovor ani dočasné výpisy.
-6. Odovzdaj čo sa zmenilo, výsledok overenia a lokálnu adresu. Verejné nasadenie vykonaj iba v rozsahu pokynu používateľa.
+5. **Pred každým commitom skontroluj a podľa zmien aktualizuj príslušné Markdown súbory:** `README.md` pre používanie a spustenie, `docs/STRUCTURE.md` pre to, čo je kde a na čo slúži, `docs/DEPLOYMENT.md` pre prevádzku, konfiguráciu, zálohy a presun, tento súbor pre trvalé dohody a kontext AI, prípadne návody pri dotknutých nástrojoch. Dokumentácia musí opisovať stav odovzdávaný v commite vrátane zmenených ciest, príkazov, formátov a obmedzení. `CLAUDE.md` naďalej importuje tieto pravidlá; nevytváraj ich kópie ani nezapisuj celý rozhovor či dočasné výpisy.
+6. **Pred commitom over aj návod a verziu priamo na stránke.** Pri zmene používateľského správania aktualizuj relevantné časti návodu `helpPage` a históriu zmien `versionPage` v `templates/index.html` a zvýš `VERSION`, ktorý zostáva jediným zdrojom čísla verzie. Podľa zmeny zosúlaď aj ukážky, konfiguračné vzory a regresné kontroly. Samotná dokumentácia či technické testy verziu nezvyšujú; nedotknuté návody netreba meniť kozmeticky.
+7. Kód, súvisiacu dokumentáciu, návod a prípadnú verziu odovzdaj spolu; ich aktualizáciu neodkladaj na ďalšiu úlohu ani na pripomenutie používateľa. Pred commitom over odkazy, diff a neprítomnosť tajomstiev. Odovzdaj čo sa zmenilo, výsledok overenia a pri zmene aplikácie lokálnu adresu. Verejné nasadenie vykonaj iba v rozsahu pokynu používateľa.
 
 Ďalšie čítanie podľa úlohy: [README.md](README.md) — použitie a JSON formát; [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) — nasadenie, zálohy a presun PC; [docs/STRUCTURE.md](docs/STRUCTURE.md) — aktuálne usporiadanie a pravidlá umiestňovania súborov.

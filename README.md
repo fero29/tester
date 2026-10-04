@@ -8,7 +8,7 @@ Otvorte tento projekt v Claude Code alebo Codexe a zadajte požadovanú zmenu. K
 
 [CLAUDE.md](CLAUDE.md) používa skutočný import `@AGENTS.md`, aby sa udržiavala iba jedna sada pokynov. Používame štandardný názov veľkými písmenami, bez druhej kópie `claude.md`. Načítanie zodpovedá [dokumentácii Claude Code](https://code.claude.com/docs/en/memory#share-one-file-with-other-coding-tools) a [pokynom pre Codex](https://learn.chatgpt.com/docs/agent-configuration/agents-md). Pri inom AI nástroji bez podpory týchto súborov treba na AGENTS výslovne odkázať.
 
-Po trvalej zmene správania, postupu alebo dohody má AI aktualizovať príslušnú existujúcu dokumentáciu. Heslá a dočasné výpisy sa do nej neukladajú. [Mapa projektu](docs/STRUCTURE.md) opisuje aktuálne usporiadanie a kam ukladať nové súbory.
+Pred každým commitom má AI skontrolovať a podľa zmeny aktualizovať príslušnú dokumentáciu, návod priamo na stránke, históriu zmien, verziu a súvisiace ukážky či konfiguráciu. Podrobný postup je v [AGENTS.md](AGENTS.md#pracovný-postup-a-odovzdanie); aktualizácie patria do rovnakého commitu ako zmena. Heslá a dočasné výpisy sa do dokumentácie neukladajú. [Mapa projektu](docs/STRUCTURE.md) opisuje aktuálne usporiadanie a kam ukladať nové súbory.
 
 Nové podklady pred spracovaním a rozpracované veci vkladajte do [work/](work/README.md). Stačí tam nahrať súbory a zadať AI, čo s nimi spraviť. Pracovný obsah je mimo Gitu a Docker image; pri zálohe ho treba pribaliť.
 
