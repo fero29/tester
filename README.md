@@ -41,7 +41,7 @@ Otvorte **http://test.localhost** na počítači, kde beží Docker. Záložná 
 
 Príprava skopíruje chýbajúce JSON testy do `.local/testy/` a vytvorí `.env.local`. Existujúce lokálne súbory neprepisuje. Pôvodné `testy/` a `data/` zostávajú oddelené. Testy nie sú v Gite ani v image: na novom PC ich treba preniesť zo zálohy. Bez nich sa spustí prázdna aplikácia.
 
-Absolvovanie testov je verejné. Pre import, editor a štatistiky návštev kliknite na **Správa testov**; heslo je hodnota `ADMIN_SECRET` v `.env.local`. Lokálne je platený AI import a Cloudflare analytika vypnutá. Na testovanie AI možno výslovne nastaviť lokálny kľúč a odstrániť príslušné prázdne prepísanie v lokálnom Compose.
+Absolvovanie testov je verejné. Pre import, editor a štatistiky návštev kliknite hore na tlačidlo **Správa testov** a prihláste sa; heslo je hodnota `ADMIN_SECRET` v `.env.local`. Po prihlásení sa pri testoch zobrazí tlačidlo **✏️ Upraviť** a hore ovládanie importu a odhlásenia. Lokálne je platený AI import a Cloudflare analytika vypnutá. Na testovanie AI možno výslovne nastaviť lokálny kľúč a odstrániť príslušné prázdne prepísanie v lokálnom Compose.
 
 Po zmene kódu zopakujte `./tools/manage.sh local up`. Skript pripraví chýbajúce lokálne dáta, zostaví image a počká na zdravý web. Verzia aplikácie je v súbore `VERSION`.
 

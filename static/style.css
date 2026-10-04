@@ -139,7 +139,7 @@ input[type="file"] {
     padding: 8px;
 }
 
-button {
+button, .admin-link {
     background-color: #4CAF50;
     color: white;
     padding: 10px 20px;
@@ -150,7 +150,7 @@ button {
     margin-right: 10px;
 }
 
-button:hover {
+button:hover, .admin-link:hover {
     background-color: #45a049;
 }
 
@@ -186,7 +186,10 @@ button:hover {
     gap: 12px;
 }
 
-.admin-link { color: var(--text-primary); margin-right: 12px; }
+.test-header-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.test-header-actions button, .test-header-actions .admin-link { margin: 0; }
+.admin-link { display: inline-flex; align-items: center; justify-content: center; text-decoration: none; }
+.test-header-actions button:focus-visible, .admin-link:focus-visible { outline: 3px solid #667eea; outline-offset: 3px; }
 .logout-form { display: inline-block; }
 .login-container { max-width: 440px; }
 .login-container p, .login-container form { margin: 20px 0; }

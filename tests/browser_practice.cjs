@@ -111,7 +111,8 @@ const fixture = {
         await send('Page.enable'); await send('Runtime.enable');
         await send('Page.navigate', {url: 'http://test.localhost'});
         await waitFor("typeof tests !== 'undefined' && tests.length > 0 && typeof PRACTICE_DEFAULTS !== 'undefined'");
-        await check('Local app serves version 1.8.0', "document.body.dataset.version === '1.8.0'");
+        const expectedVersion = fs.readFileSync(path.join(__dirname, '..', 'VERSION'), 'utf8').trim();
+        await check('Local app serves version ' + expectedVersion, `document.body.dataset.version === ${JSON.stringify(expectedVersion)}`);
         const catalogSize = await evaluate('tests.length');
 
         await mount();

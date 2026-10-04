@@ -18,18 +18,18 @@
         <div class="section">
             <div class="test-header-controls">
                 <h2>Dostupné testy</h2>
-                <div>
+                <div class="test-header-actions">
                     <button onclick="showHelpPage()" class="btn-info btn-small">📖 Návod</button>
                     {% if is_admin %}
                     <button onclick="showAIImportPage()" class="btn-ai-import btn-small">🤖 AI Import</button>
                     <button onclick="showImportPage()" class="btn-small">Import JSON</button>
-                    <a href="/admin/stats" class="admin-link">Štatistiky návštev</a>
+                    <a href="/admin/stats" class="admin-link btn-secondary btn-small">Štatistiky návštev</a>
                     <form action="/admin/logout" method="post" class="logout-form">
                         <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
                         <button type="submit" class="btn-secondary btn-small">Odhlásiť</button>
                     </form>
                     {% else %}
-                    <a href="/admin/login" class="admin-link">Správa testov</a>
+                    <a href="/admin/login" class="admin-link btn-secondary btn-small">Správa testov</a>
                     {% endif %}
                     <button onclick="startMultipleTests()" class="btn-multi" id="startMultiBtn" style="display: none;">
                         Spustiť vybrané testy
@@ -48,6 +48,13 @@
         <div id="versionPage" style="display: none;">
             <h2>ℹ️ LFUK tester v{{ app_version }}</h2>
 
+            <div class="help-section">
+                <h3>🆕 Novinky v1.8.1</h3>
+                <ul>
+                    <li>Správa testov a štatistiky návštev majú viditeľný vzhľad tlačidiel aj v tmavom režime.</li>
+                    <li>Horné ovládacie prvky majú jednotné rozostupy a prispôsobujú sa šírke obrazovky.</li>
+                </ul>
+            </div>
             <div class="help-section">
                 <h3>🆕 Novinky v1.8.0</h3>
                 <ul>
@@ -533,6 +540,7 @@
             <div class="help-section">
                 <h3>✏️ Úprava testov</h3>
                 <ol>
+                    <li>Hore klikni na tlačidlo <strong>Správa testov</strong> a prihlás sa heslom správcu. Tlačidlá úprav a importu sa zobrazia po prihlásení.</li>
                     <li>Pri teste klikni <strong>"✏️ Upraviť"</strong></li>
                     <li>Môžeš meniť <strong>otázky, odpovede aj správnu odpoveď</strong> (alebo viaceré správne)</li>
                     <li>Premenovanie testu zmení aj názov súboru na disku (ak nový názov nekoliduje)</li>
