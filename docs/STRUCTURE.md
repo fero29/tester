@@ -14,6 +14,7 @@ tester/
 ├── Dockerfile
 ├── docker-compose.yml
 ├── docker-compose.local.yml
+├── docker-compose.lan.yml
 ├── docker-compose.test.yml
 ├── requirements.txt
 ├── requirements-dev.txt
@@ -23,6 +24,7 @@ tester/
 ├── .env.example
 ├── .env                       súkromná produkčná konfigurácia, mimo Gitu
 ├── .env.local                 súkromná lokálna konfigurácia, mimo Gitu
+├── .env.lan                   súkromná LAN konfigurácia, mimo Gitu
 ├── app.py                     endpointy a AI
 ├── storage.py                 JSON úložisko
 ├── security.py                prihlásenie a ochrana požiadaviek
@@ -38,6 +40,7 @@ tester/
 ├── examples/
 │   └── test.json               ukážkový test
 ├── tools/
+│   ├── manage.sh               spustenie, stav a odstránenie nasadenia cez Compose
 │   ├── prepare_local.py        bežná príprava lokálneho prostredia
 │   ├── imports/               ručné extrakčné skripty aj ich JSON konfigurácie
 │   ├── out/                   pracovné výsledky, mimo Gitu
@@ -58,12 +61,13 @@ tester/
 | --- | --- | --- |
 | Kód aplikácie | tri Python moduly, `static/`, `templates/` | áno |
 | Technické kontroly | `tests/` | áno |
-| Používateľské testy | `testy/`, pri lokálnom skúšaní `.local/testy/` | nie |
-| Eventy a automatické zálohy zápisov | `data/`, lokálne `.local/data/` | nie |
+| Používateľské testy | `testy/`, lokálne `.local/testy/`, LAN `.local/lan/testy/` | nie |
+| Eventy a automatické zálohy zápisov | `data/`, lokálne `.local/data/`, LAN `.local/lan/data/` | nie |
 | Nové podklady pred spracovaním a rozpracované úlohy | `work/` | iba README; obsah zálohovať samostatne |
 | PDF a fotografie | `sources/` | nie; samostatne zálohovať |
 | Historické testy z pôvodných záloh | `archive/` | áno; nie sú aktívny katalóg |
 | Ručné extrakcie a ich pravidlá | `tools/imports/` | áno |
+| Správa nasadenia bez zmien konfigurácie hostiteľa | `tools/manage.sh` | áno |
 | Vygenerované medzivýsledky | `tools/out/`, `tools/pages/` | nie |
 | Návody | `docs/`, úvodné informácie v README | áno |
 | Ukážkové vstupy | `examples/` | áno |
@@ -75,7 +79,7 @@ Nové podklady a návrhy ukladajte najprv do [work/](../work/README.md). Súbory
 
 ## Ručné nástroje
 
-`tools/prepare_local.py` je súčasť bežného lokálneho spustenia cez Compose a zostáva na pôvodnej ceste. Ostatné skripty a tri konfiguračné JSON súbory sú v `tools/imports/`. Nie sú súčasťou produkčného image; testovací Docker stage ich zahŕňa pre regresné kontroly.
+`tools/manage.sh` poskytuje `local|lan|public` a akcie `up|down|status`; beží v Bashi na hostiteľovi a spája existujúce príkazy Compose. `tools/prepare_local.py` vykonáva prípravu lokálnych dát v kontajneri, s `--environment lan` vytvára oddelené LAN dáta. Ostatné skripty a tri konfiguračné JSON súbory sú v `tools/imports/`. Nie sú súčasťou produkčného image; testovací Docker stage zahŕňa importy aj správu prostredí pre regresné kontroly.
 
 Skripty odvodzujú koreň od svojho umiestnenia, nie od aktuálneho pracovného adresára. JSON konfigurácie ležia vedľa príslušných skriptov. PDF sa hľadajú v `sources/`; názov `curriculumFile` v biochémii ostáva pôvodným názvom dokumentu, takže sa nemenia metadáta už vytvorených otázok. Obrázkové extrakcie dostávajú vstupný adresár ako argument, napríklad `sources/foto histo/`.
 
@@ -97,4 +101,4 @@ Pri migrácii sa nemení obsah hotových testov, PDF, fotografií ani historick�
 
 ## KISS
 
-Tri Python moduly a Compose zostávajú v koreni; nevzniká ďalší balík, framework, databáza ani obal na spúšťanie. Pravidlá pre AI majú jeden zdroj v AGENTS a krátky CLAUDE import. Nové priečinky vytvárať podľa konkrétnej potreby, nie pre hypotetický rast. Upratovanie stromu nie je dôvod mazať učivo či zálohy.
+Tri Python moduly a Compose zostávajú v koreni; nevzniká ďalší balík, framework ani databáza. Jeden krátky `tools/manage.sh` spája príkazy potrebné na prenosné spustenie a odstránenie nasadenia. Pravidlá pre AI majú jeden zdroj v AGENTS a krátky CLAUDE import. Nové priečinky vytvárať podľa konkrétnej potreby, nie pre hypotetický rast. Upratovanie stromu nie je dôvod mazať učivo či zálohy.

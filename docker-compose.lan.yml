@@ -1,0 +1,21 @@
+# Používa sa spolu s hlavným a lokálnym Compose; dáta aj prihlásenie sú oddelené.
+services:
+  prepare:
+    command: [python, tools/prepare_local.py, --environment, lan]
+  web:
+    env_file: !override
+      - path: .env.lan
+        required: false
+    ports: !override
+      - "${LAN_BIND_ADDRESS:-0.0.0.0}:${LAN_PORT:-8081}:5000"
+    volumes: !override
+      - type: bind
+        source: ./.local/lan/testy
+        target: /app/testy
+        bind:
+          create_host_path: false
+      - type: bind
+        source: ./.local/lan/data
+        target: /app/data
+        bind:
+          create_host_path: false

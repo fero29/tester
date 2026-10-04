@@ -31,11 +31,10 @@ Nové podklady pred spracovaním a rozpracované veci vkladajte do [work/](work/
 
 ## Lokálne spustenie
 
-Stačí Docker s Compose v2.24.4 alebo novším. Z koreňa projektu:
+Stačí Docker s Compose v2.24.4 alebo novším a Bash (Linux, macOS alebo WSL2). Z koreňa projektu:
 
 ```bash
-docker compose -p tester-local -f docker-compose.yml -f docker-compose.local.yml run --rm prepare
-docker compose -p tester-local -f docker-compose.yml -f docker-compose.local.yml up -d --build --wait
+./tools/manage.sh local up
 ```
 
 Otvorte **http://test.localhost** na počítači, kde beží Docker. Záložná adresa je http://localhost:8080. Netreba upravovať `/etc/hosts`. Z iného počítača či mobilu adresa `.localhost` odkazuje na dané zariadenie, nie na server.
@@ -44,14 +43,24 @@ Príprava skopíruje chýbajúce JSON testy do `.local/testy/` a vytvorí `.env.
 
 Absolvovanie testov je verejné. Pre import, editor a štatistiky návštev kliknite na **Správa testov**; heslo je hodnota `ADMIN_SECRET` v `.env.local`. Lokálne je platený AI import a Cloudflare analytika vypnutá. Na testovanie AI možno výslovne nastaviť lokálny kľúč a odstrániť príslušné prázdne prepísanie v lokálnom Compose.
 
-Po zmene kódu zopakujte druhý príkaz. Verzia aplikácie je v súbore `VERSION`.
+Po zmene kódu zopakujte `./tools/manage.sh local up`. Skript pripraví chýbajúce lokálne dáta, zostaví image a počká na zdravý web. Verzia aplikácie je v súbore `VERSION`.
 
 ```bash
-docker compose -p tester-local -f docker-compose.yml -f docker-compose.local.yml logs --tail 100 web
-docker compose -p tester-local -f docker-compose.yml -f docker-compose.local.yml down
+./tools/manage.sh local status
+./tools/manage.sh local down
 ```
 
-**Verejné nasadenie sa robí až na pokyn vlastníka.** Postup pre `test.frantisekmasiar.sk`, zálohy a presun na iný PC sú v [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md). Samotné lokálne spustenie neaktivuje tunnel.
+`down` odstráni kontajnery a ich sieť, zachová testy, konfiguráciu aj zálohy. Na hostiteľovi sa neupravuje DNS, `/etc/hosts` ani systémové služby. Skript automaticky použije UID/GID aktuálneho používateľa; spúšťajte ho ako bežný používateľ s prístupom k Dockeru.
+
+| Režim | Spustenie | Dostupnosť | Dáta / heslo správcu |
+| --- | --- | --- | --- |
+| Tento PC | `./tools/manage.sh local up` | `http://test.localhost`, iba tento PC | `.local/testy`, `.local/data`, `.env.local` |
+| Lokálna sieť | `./tools/manage.sh lan up` | `http://IP-počítača:8081`, aj iné zariadenia | `.local/lan/testy`, `.local/lan/data`, `.env.lan` |
+| Verejný web | `./tools/manage.sh public up` | `https://test.frantisekmasiar.sk` cez Cloudflare | `testy`, `data`, `.env` |
+
+Pre každý režim fungujú aj `status` a `down`. LAN má vlastné kópie testov a prihlásenie, AI a tunnel sú vypnuté. Vyžaduje dostupný port v sieti/firewalle; predvolene počúva na všetkých IPv4 rozhraniach. Voliteľne obmedzte adresu a port, napríklad `LAN_BIND_ADDRESS=192.168.1.10 LAN_PORT=8081 ./tools/manage.sh lan up`. Na inom zariadení použite IP servera, nie `test.localhost`. Zmeny testov sa medzi režimami automaticky nesynchronizujú.
+
+**Verejné nasadenie sa robí až na pokyn vlastníka.** Pripravené sú aj príkazy `./tools/manage.sh public up`, `public status` a `public down`. Pri presune na iný PC preneste projekt, testy, dáta a súkromnú `.env`; nastavenie existujúcej domény zostáva v Cloudflare. Prvé nastavenie tunela, zálohy a presun sú v [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md). Samotné lokálne spustenie neaktivuje tunnel.
 
 ## Ochrana dát a overenie
 
@@ -81,6 +90,7 @@ data/                      eventy a zálohy; mimo Gitu
 .local/                    samostatné lokálne dáta; mimo Gitu
 tests/                     regresné testy API a úložiska
 tools/prepare_local.py     príprava lokálneho prostredia
+tools/manage.sh            správa nasadenia na PC, v LAN a verejne
 tools/imports/             ručné extrakcie a ich JSON konfigurácie
 tools/out/, tools/pages/   pracovné výstupy; mimo Gitu
 docs/                      prevádzka, zálohy a mapa projektu

@@ -25,10 +25,13 @@ Malá slovenská aplikácia na samoštúdium: otázkové testy a latinské slov�
 | Účel | Compose projekt a súbory | Dáta / konfigurácia |
 | --- | --- | --- |
 | Lokálne opravy | `tester-local`, hlavný + `docker-compose.local.yml` | `.local/testy`, `.local/data`, `.env.local` |
+| Zdieľanie v LAN | `tester-lan`, hlavný + lokálny + `docker-compose.lan.yml` | `.local/lan/testy`, `.local/lan/data`, `.env.lan` |
 | Verejné nasadenie | `tester`, hlavný Compose, výslovný profil `public` | `testy`, `data`, `.env` |
 | Regresné kontroly | `tester-checks`, `docker-compose.test.yml` | dočasné dáta v kontajneri |
 
 Lokálna adresa je **http://test.localhost** na počítači s Dockerom, záložná **http://localhost:8080**. Staršiu `test.local` už nepoužívame; nemeníme `/etc/hosts`. `.localhost` z iného zariadenia neukazuje na server.
+
+Na bežnú správu použi `./tools/manage.sh local up|down|status` (vyber jednu akciu). `up` zahŕňa prípravu aj build. Variant `lan` používa oddelené kópie a `.env.lan`, bez AI a tunela, predvolene `0.0.0.0:8081`; `LAN_BIND_ADDRESS` a `LAN_PORT` umožňujú zvoliť rozhranie a port. Prístup z iných zariadení závisí od siete/firewallu. LAN spustenie vyžaduje zadanie sprístupniť web v sieti; bežné opravy overuj cez `local`. Verejný variant `public` spúšťaj iba pri výslovnom pokyne na nasadenie. `down` zachová dáta a konfiguráciu; nič neinštalujeme do systémového DNS, `/etc/hosts` ani služieb hostiteľa. Skript odvodzuje cesty od projektu a UID/GID od aktuálneho používateľa. `TESTER_PROJECT_NAME` je výnimka pre izolované overenie; nepoužívaj rovnaký názov pre rôzne dátové sady. Doména/tunnel zostávajú v Cloudflare, súkromné `.env*` a dátové adresáre sa pri presune prenášajú samostatne, nikdy sa nezapekajú do image. Režimy dáta automaticky nesynchronizujú.
 
 Z koreňa projektu, Docker Compose v2.24.4+:
 
@@ -57,6 +60,7 @@ Kód je zabudovaný v image: editácia súboru sama nezmení bežiaci kontajner.
 | `static/style.css`, `templates/` | témy, rozloženie a obrazovky; v `templates/index.html` aj návod `helpPage` a história verzií `versionPage`; bez frontend build kroku |
 | `tests/` | regresné kontroly; nie používateľské testy z `testy/` |
 | `tools/prepare_local.py`, `tools/imports/` | príprava prostredia a oddelené ručné extrakcie; nie sú súčasťou runtime |
+| `tools/manage.sh` | pripravená správa PC, LAN a verejného Compose nasadenia; produkciu v testoch nespúšťať |
 | `VERSION` | jediný zdroj verzie aplikácie pre backend, šablónu aj JS |
 
 ## Kontrakty, ktoré nesmie oprava porušiť
