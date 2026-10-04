@@ -82,6 +82,8 @@ Aktualizácia používa rovnaký príkaz `up -d --build --wait` po lokálnych ko
 
 ## Záloha
 
+Osobné výsledky (`testResults`), nastavenia otázkových testov (`practiceSettings`) a plán opakovania (`learningProgress`) sú v `localStorage` konkrétneho prehliadača a originu. Nie sú súčasťou serverovej zálohy a pri zmene domény alebo zariadenia sa automaticky neprenesú. Pomôcky `learning` sú naopak súčasťou JSON otázok a zálohujú sa spolu s testami.
+
 Pred nasadením alebo presunom krátko zastavte web, aby bola kópia dát konzistentná. Vyberte nový názov archívu; `set -C` zabráni prepísaniu existujúceho súboru. Tieto príkazy používajú hostiteľský `tar`, ktorý je na bežnom Linuxe:
 
 ```bash

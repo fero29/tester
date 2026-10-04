@@ -14,12 +14,52 @@ from pathlib import Path
 import tempfile
 import threading
 import uuid
+from urllib.parse import urlsplit
 
 
 class StoreError(ValueError):
     def __init__(self, message, status=400):
         super().__init__(message)
         self.status = status
+
+
+def validate_learning(question):
+    if 'id' in question and (not isinstance(question['id'], str) or not question['id'].strip()):
+        raise StoreError('ID otázky musí byť neprázdny text.')
+    if 'learning' not in question:
+        return
+    learning = question['learning']
+    if not isinstance(learning, dict) or learning.get('status') not in ('draft', 'reviewed'):
+        raise StoreError('Pomôcka musí mať stav draft alebo reviewed.')
+    hints = learning.get('hints', [])
+    if not isinstance(hints, list) or not all(isinstance(h, str) and h.strip() for h in hints):
+        raise StoreError('Nápovedy musia byť zoznam neprázdnych textov.')
+    if 'explanation' not in learning:
+        return
+    explanation = learning['explanation']
+    if not isinstance(explanation, dict):
+        raise StoreError('Vysvetlenie musí byť objekt.')
+    for field in ('summary', 'memoryTip'):
+        if field in explanation and not isinstance(explanation[field], str):
+            raise StoreError('Vysvetlenie a pomôcka na zapamätanie musia byť texty.')
+    if 'byAnswer' in explanation:
+        values = explanation['byAnswer']
+        if (not isinstance(values, list) or len(values) != len(question['answers'])
+                or not all(isinstance(value, str) for value in values)):
+            raise StoreError('Počet vysvetlení možností musí zodpovedať počtu odpovedí.')
+    sources = explanation.get('sources', [])
+    if not isinstance(sources, list):
+        raise StoreError('Zdroje musia byť zoznam odkazov.')
+    for source in sources:
+        if not isinstance(source, dict) or not isinstance(source.get('title'), str) or not isinstance(source.get('url'), str):
+            raise StoreError('Zdroj musí obsahovať názov a URL.')
+        try:
+            parsed = urlsplit(source['url'])
+            valid = parsed.scheme in ('http', 'https') and bool(parsed.netloc)
+        except ValueError:
+            valid = False
+        if not valid:
+            raise StoreError('Zdroj musí byť platný HTTP alebo HTTPS odkaz.')
 
 
 def validate_tests(data):
@@ -60,6 +100,7 @@ def validate_tests(data):
                 correct = correct if isinstance(correct, list) else [correct]
                 if any(type(i) is not int or not 0 <= i < len(answers) for i in correct) or len(set(correct)) != len(correct):
                     raise StoreError('Index správnej odpovede je neplatný.')
+                validate_learning(question)
     return deepcopy(items)
 
 

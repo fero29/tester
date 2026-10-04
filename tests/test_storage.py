@@ -150,3 +150,32 @@ def test_zero_correct_answers_and_scalar_are_supported(classic):
     for correct in ([], 0, [0, 1]):
         classic['questions'][0]['correct'] = correct
         assert validate_tests(classic)[0] == classic
+
+
+def test_learning_content_survives_import_update_and_export(store, classic):
+    question = classic['questions'][0]
+    question.update(id='histo-1', learning={
+        'status': 'reviewed', 'hints': ['Prvá nápoveda', 'Druhá nápoveda'],
+        'explanation': {'summary': 'Princíp.', 'byAnswer': ['Prečo A.', 'Prečo nie B.'],
+                        'memoryTip': 'Pomôcka.', 'sources': [{'title': 'Zdroj', 'url': 'https://example.org/text'}]},
+        'reviewerNote': 'Neznáme metadáta zachovať.'})
+    created = store.save(classic['title'], classic)
+    loaded = store.load(created['filename'])
+    assert loaded['data'][0] == classic
+    loaded['data'][0]['description'] = 'Zmenený popis'
+    updated = store.update(created['filename'], loaded['data'], loaded['version'])
+    assert store.load(updated['filename'])['data'][0]['questions'][0] == question
+
+
+@pytest.mark.parametrize('learning', [
+    None, {'status': 'approved'}, {'status': 'reviewed', 'hints': 'text'},
+    {'status': 'draft', 'hints': ['']}, {'status': 'reviewed', 'explanation': 'text'},
+    {'status': 'reviewed', 'explanation': {'byAnswer': ['iba jedna']}},
+    {'status': 'reviewed', 'explanation': {'summary': 1}},
+    {'status': 'reviewed', 'explanation': {'sources': [{'title': 'X', 'url': 'javascript:alert(1)'}]}},
+    {'status': 'reviewed', 'explanation': {'sources': [{'title': 'X', 'url': 'https://[broken'}]}},
+])
+def test_invalid_learning_content_cannot_be_imported(classic, learning):
+    classic['questions'][0]['learning'] = learning
+    with pytest.raises(StoreError):
+        validate_tests(classic)

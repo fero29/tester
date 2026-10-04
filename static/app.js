@@ -41,16 +41,8 @@ let testStartTime = null;
 let currentQuestionIndex = 0;
 let userAnswers = [];
 let selectedTestIndex = null;
-let testMode = 'test'; // 'test' alebo 'learn'
 let timerInterval = null;
 let timeLeft = 0;
-let showAnswersMode = ['each']; // Array: 'each', 'end', 'retry' - môže obsahovať viac hodnôt
-let questionAnswered = false; // Pre režim 'each' - či už bola ukázaná odpoveď
-let retryStatisticsSaved = false; // Či už boli uložené štatistiky pre retry mode (pri prvom odovzdaní)
-let originalTestQuestionCount = 0; // Pôvodný počet otázok v teste (pred retry)
-let originalTestTitle = ''; // Pôvodný názov testu (bez " (Opakovanie)")
-let originalTest = null; // Pôvodný test (pre zobrazenie všetkých otázok po retry)
-let originalUserAnswers = []; // Pôvodné odpovede (pre zobrazenie po retry)
 
 // ============================================
 // IndexedDB CACHE
@@ -500,6 +492,7 @@ function renderTestListItem(test, index) {
                                 ${stats.avgPercentage}%
                             </span>
                         </div>
+                        ${stats.assistedCount ? `<small class="settings-note">S pomocou: ${stats.assistedCount} z ${stats.count} pokusov</small>` : ''}
                     ` : '<div class="no-stats">Zatiaľ neabsolvované</div>'}
                 </div>
             </div>
@@ -525,6 +518,7 @@ function getTestStatistics(testName, previousTitles = []) {
     return {
         count: testResults.length,
         lastPercentage: lastResult.percentage,
+        assistedCount: testResults.filter(r => r.assisted > 0).length,
         avgPercentage: avgPercentage
     };
 }
@@ -791,77 +785,8 @@ function showTestSettings(index) {
         document.getElementById('questionFrom').max = totalQuestions;
         document.getElementById('randomCount').max = totalQuestions;
         document.getElementById('randomCount').value = Math.min(20, totalQuestions);
+        initializePracticeSettings();
     }
-}
-
-function startTestWithSettings() {
-    const timeLimit = parseInt(document.querySelector('input[name="time"]:checked').value);
-    const shuffle = document.querySelector('input[name="shuffle"]:checked').value === 'true';
-    const questionMode = document.querySelector('input[name="questionMode"]:checked').value;
-    showAnswersMode = Array.from(document.querySelectorAll('input[name="showAnswers"]:checked')).map(cb => cb.value);
-
-    testMode = 'test';
-    questionAnswered = false;
-    retryStatisticsSaved = false; // Reset pre nový test
-    originalTest = null;
-    originalUserAnswers = [];
-    if (timerInterval) clearInterval(timerInterval);
-    timerInterval = null;
-    currentTest = JSON.parse(JSON.stringify(tests[selectedTestIndex])); // Deep copy
-    track('test_start', {test: currentTest.title, mode: questionMode});
-    testStartTime = Date.now();
-
-    // Výber otázok podľa módu
-    if (questionMode === 'range') {
-        // Rozsah otázok
-        const questionFrom = parseInt(document.getElementById('questionFrom').value) - 1;
-        const questionTo = parseInt(document.getElementById('questionTo').value);
-        currentTest.questions = currentTest.questions.slice(questionFrom, questionTo);
-    } else {
-        // Náhodný výber
-        const randomCount = parseInt(document.getElementById('randomCount').value);
-        currentTest.questions = getRandomQuestions(currentTest.questions, randomCount);
-    }
-
-    // Ulož pôvodný počet otázok a názov (pre retry mode)
-    originalTestQuestionCount = currentTest.questions.length;
-    originalTestTitle = currentTest.title;
-
-    if (currentTest.questions.length === 0) {
-        currentTest = null;
-        alert('Neplatný rozsah otázok!');
-        return;
-    }
-
-    // Mixáž otázok a odpovedí
-    if (shuffle) {
-        // Zamixuj poradie otázok
-        currentTest.questions = shuffleArray(currentTest.questions);
-
-        // Zamixuj aj odpovede v každej otázke
-        currentTest.questions = currentTest.questions.map(question => shuffleAnswers(question));
-    }
-
-    currentQuestionIndex = 0;
-    // Vždy používať pole pre odpovede (možnosť vybrať viacero)
-    userAnswers = currentTest.questions.map(q => []);
-
-    document.getElementById('testSettings').style.display = 'none';
-    document.getElementById('testInterface').style.display = 'block';
-    document.getElementById('testTitle').textContent = currentTest.title || 'Test';
-    document.getElementById('submitBtn').textContent = 'Odovzdať test'; // Reset tlačidla
-
-    // Nastaviť časovač
-    if (timeLimit > 0) {
-        timeLeft = timeLimit * 60;
-        testStartTime = Date.now();
-        document.getElementById('timer').style.display = 'block';
-        startTimer();
-    } else {
-        document.getElementById('timer').style.display = 'none';
-    }
-
-    showQuestion();
 }
 
 // Detekuje pravda/nepravda typ otázky.
@@ -991,13 +916,10 @@ function shuffleArray(array) {
 
 function toggleQuestionMode() {
     const mode = document.querySelector('input[name="questionMode"]:checked').value;
-    if (mode === 'range') {
-        document.getElementById('rangeInputs').style.display = 'block';
-        document.getElementById('randomInputs').style.display = 'none';
-    } else {
-        document.getElementById('rangeInputs').style.display = 'none';
-        document.getElementById('randomInputs').style.display = 'block';
-    }
+    document.getElementById('rangeInputs').hidden = mode !== 'range';
+    document.getElementById('randomInputs').hidden = mode !== 'random';
+    for (const id of ['questionFrom', 'questionTo']) document.getElementById(id).disabled = mode !== 'range';
+    document.getElementById('randomCount').disabled = mode !== 'random';
 }
 
 function toggleVocabMode() {
@@ -1030,6 +952,10 @@ function shuffleAnswers(question) {
     });
 
     shuffledQuestion.answers = shuffledAnswers;
+    const explanations = question.learning?.explanation?.byAnswer;
+    if (Array.isArray(explanations)) {
+        shuffledQuestion.learning.explanation.byAnswer = shuffledIndices.map(i => explanations[i]);
+    }
 
     // Aktualizuj správne odpovede
     if (Array.isArray(question.correct)) {
@@ -1076,400 +1002,6 @@ function updateTimerDisplay() {
     if (timeLeft < 60) {
         document.getElementById('timer').style.color = '#f44336';
     }
-}
-
-function showQuestion() {
-    const question = currentTest.questions[currentQuestionIndex];
-    const container = document.getElementById('questionContainer');
-    const isNoCorrect = Array.isArray(question.correct) && question.correct.length === 0;
-    const isMultiple = Array.isArray(question.correct) && question.correct.length > 1;
-    const userAnswer = userAnswers[currentQuestionIndex];
-
-    // Ak je už zodpovedané a režim "each" alebo "retry", zobraz feedback
-    const showFeedback = questionAnswered && (showAnswersMode.includes('each') || showAnswersMode.includes('retry'));
-
-    // Hint pre typ otázky
-    let questionHint = '';
-    if (isNoCorrect) {
-        questionHint = '<p class="multiple-note">Žiadna odpoveď nie je správna</p>';
-    } else if (isMultiple) {
-        questionHint = '<p class="multiple-note">Viacero správnych odpovedí</p>';
-    }
-
-    // TF (pravda/nepravda) otázky majú vlastné 2-button UI — zobrazia sa iba dve tlačidlá.
-    // Pôvodné 4-voľbové údaje obsahujú AI-generated distraktory ktoré pri 2-button UI nikdy nezobrazujeme.
-    const isTF = !isNoCorrect && isTFQuestion(question);
-
-    let answersHTML;
-    if (isTF) {
-        const pravdaIdx = question.answers.findIndex((_, i) => tfPolarityAt(question, i) === 'pravda');
-        const nepravdaIdx = question.answers.findIndex((_, i) => tfPolarityAt(question, i) === 'nepravda');
-        const correctPol = tfCorrectPolarity(question);
-        const userPol = userAnswer.length > 0 ? tfPolarityAt(question, userAnswer[0]) : null;
-
-        const renderTFButton = (label, polarity, idx) => {
-            const isSelected = userPol === polarity;
-            const isCorrect = correctPol === polarity;
-            let cssClass = '';
-            let icon = '';
-            if (showFeedback) {
-                if (isCorrect && isSelected) { cssClass = 'answer-correct-selected'; icon = ' ✓'; }
-                else if (isCorrect && !isSelected) { cssClass = 'answer-correct-missed'; icon = ' ✓ (správne)'; }
-                else if (!isCorrect && isSelected) { cssClass = 'answer-wrong-selected'; icon = ' ✗'; }
-                else { cssClass = 'answer-neutral'; }
-                return `<div class="answer ${cssClass}">${label}${icon}</div>`;
-            }
-            return `<div class="answer ${isSelected ? 'selected' : ''}" onclick="selectAnswer(${idx})">
-                <span class="answer-icon">${isSelected ? '☑' : '☐'}</span> ${label}
-            </div>`;
-        };
-
-        let tfHTML = renderTFButton('Pravda', 'pravda', pravdaIdx) + renderTFButton('Nepravda', 'nepravda', nepravdaIdx);
-
-        // Vysvetlenie (text v zátvorke správnej odpovede) zobraz po odpovedi.
-        if (showFeedback) {
-            const correctList = Array.isArray(question.correct) ? question.correct : [question.correct];
-            const explanation = tfExplanation(question.answers[correctList[0]]);
-            if (explanation) {
-                tfHTML += `<div class="tf-explanation"><strong>Vysvetlenie:</strong> ${escapeHtml(explanation)}</div>`;
-            }
-        }
-        answersHTML = tfHTML;
-    } else {
-        answersHTML = question.answers.map((answer, index) => {
-            const isSelected = userAnswer.includes(index);
-            // Pre isNoCorrect nie je žiadna odpoveď správna
-            const isCorrect = isNoCorrect ? false : isQuestionAnswerCorrect(question, index);
-
-            let cssClass = '';
-            let icon = '';
-
-            if (showFeedback) {
-                // Zobraz feedback
-                if (isNoCorrect) {
-                    // Žiadna správna odpoveď - všetky vybrané sú zlé
-                    if (isSelected) {
-                        cssClass = 'answer-wrong-selected';
-                        icon = ' ✗';
-                    } else {
-                        cssClass = 'answer-neutral';
-                    }
-                } else if (isCorrect && isSelected) {
-                    cssClass = 'answer-correct-selected';
-                    icon = ' ✓';
-                } else if (isCorrect && !isSelected) {
-                    cssClass = 'answer-correct-missed';
-                    icon = ' ✓ (správne)';
-                } else if (!isCorrect && isSelected) {
-                    cssClass = 'answer-wrong-selected';
-                    icon = ' ✗';
-                } else {
-                    cssClass = 'answer-neutral';
-                }
-
-                return `
-                    <div class="answer ${cssClass}">
-                        ${escapeHtml(answer)}${icon}
-                    </div>
-                `;
-            } else {
-                // Normálne zobrazenie s možnosťou klikať
-                const inputIcon = isSelected ? '☑' : '☐';  // Vždy checkbox
-
-                return `
-                    <div class="answer ${isSelected ? 'selected' : ''}" onclick="selectAnswer(${index})">
-                        <span class="answer-icon">${inputIcon}</span> ${escapeHtml(answer)}
-                    </div>
-                `;
-            }
-        }).join('');
-    }
-
-    let questionHTML = `
-        <div class="question">
-            <h3>Otázka ${currentQuestionIndex + 1}: ${escapeHtml(question.question)}</h3>
-            ${questionHint}
-            ${answersHTML}
-        </div>
-    `;
-
-    container.innerHTML = questionHTML;
-
-    document.getElementById('questionNumber').textContent =
-        `${currentQuestionIndex + 1} / ${currentTest.questions.length}`;
-
-    document.getElementById('prevBtn').disabled = currentQuestionIndex === 0;
-    document.getElementById('nextBtn').style.display =
-        currentQuestionIndex === currentTest.questions.length - 1 ? 'none' : 'inline-block';
-    document.getElementById('submitBtn').style.display =
-        currentQuestionIndex === currentTest.questions.length - 1 ? 'inline-block' : 'none';
-}
-
-function selectAnswer(answerIndex) {
-    const question = currentTest.questions[currentQuestionIndex];
-    const currentAnswers = userAnswers[currentQuestionIndex];
-
-    // TF otázka má radio správanie (len jeden výber): vyhoď doterajší výber a nastav nový.
-    if (isTFQuestion(question)) {
-        userAnswers[currentQuestionIndex] = [answerIndex];
-        showQuestion();
-        return;
-    }
-
-    // Klasické checkbox správanie (toggle) - dá sa vybrať viacero
-    const idx = currentAnswers.indexOf(answerIndex);
-    if (idx > -1) {
-        currentAnswers.splice(idx, 1);
-    } else {
-        currentAnswers.push(answerIndex);
-    }
-
-    showQuestion();
-}
-
-function previousQuestion() {
-    if (currentQuestionIndex > 0) {
-        currentQuestionIndex--;
-        questionAnswered = false; // Reset feedback
-        showQuestion();
-    }
-}
-
-function nextQuestion() {
-    // Ak je režim "each" alebo "retry" a ešte nebola ukázaná odpoveď, ukáž feedback
-    if ((showAnswersMode.includes('each') || showAnswersMode.includes('retry')) && !questionAnswered) {
-        questionAnswered = true;
-        showQuestion(); // Znova vykreslí otázku s vizuálnym feedbackom
-        return;
-    }
-
-    // Pokračuj na ďalšiu otázku
-    if (currentQuestionIndex < currentTest.questions.length - 1) {
-        currentQuestionIndex++;
-        questionAnswered = false;
-        showQuestion();
-    }
-}
-
-function submitTest(timedOut = false) {
-    if (!currentTest || document.getElementById('testInterface').style.display === 'none') return;
-    // Ak je režim "each" alebo "retry" a posledná otázka nebola ešte ukázaná, ukáž ju najprv
-    if (!timedOut && (showAnswersMode.includes('each') || showAnswersMode.includes('retry')) && !questionAnswered) {
-        questionAnswered = true;
-        showQuestion();
-        // Zmeň tlačidlo Submit na "Dokončiť" po zobrazení feedbacku
-        document.getElementById('submitBtn').textContent = 'Dokončiť test';
-        return;
-    }
-
-    const hasUnanswered = userAnswers.some((answer, index) =>
-        (!answer || answer.length === 0) && !(Array.isArray(currentTest.questions[index].correct) && currentTest.questions[index].correct.length === 0)
-    );
-
-    if (!timedOut && hasUnanswered) {
-        if (!confirm('Niektoré otázky nie sú zodpovedané. Chcete naozaj odovzdať test?')) {
-            return;
-        }
-    }
-
-    // Režim "retry" - opakuj nesprávne otázky
-    if (!timedOut && showAnswersMode.includes('retry')) {
-        const incorrectQuestions = [];
-        let correctCount = 0;
-
-        currentTest.questions.forEach((question, index) => {
-            const userAnswer = userAnswers[index];
-            const correct = isQuestionCorrect(question, userAnswer);
-
-            if (correct) {
-                correctCount++;
-            } else {
-                incorrectQuestions.push({ question, originalIndex: index });
-            }
-        });
-
-        // Ak sú nesprávne otázky, opakuj ich
-        if (incorrectQuestions.length > 0) {
-            // Ulož štatistiky a pôvodný test po prvom odovzdaní (iba raz)
-            if (!retryStatisticsSaved) {
-                const totalQuestions = currentTest.questions.length;
-                const percentage = Math.round((correctCount / totalQuestions) * 100);
-
-                // Zisti pôvodný názov testu (bez " (Opakovanie)")
-                const originalTitle = currentTest.title.replace(' (Opakovanie)', '');
-
-                // Ulož pôvodný test a odpovede pre zobrazenie na konci
-                originalTest = JSON.parse(JSON.stringify(currentTest));
-                originalUserAnswers = JSON.parse(JSON.stringify(userAnswers));
-
-                saveTestResult({
-                    testName: originalTitle,
-                    date: new Date().toISOString(),
-                    score: correctCount,
-                    total: totalQuestions,
-                    percentage: percentage
-                });
-
-                track('test_finish', {test: originalTitle, score: correctCount, total: totalQuestions, percent: percentage});
-                retryStatisticsSaved = true;
-                displayTestList(); // Obnoviť zobrazenie testov so štatistikami
-                console.log(`Štatistiky uložené: ${correctCount}/${totalQuestions} (${percentage}%)`);
-            }
-
-            alert(`Máte ${incorrectQuestions.length} nesprávnych odpovedí. Budete ich teraz opakovať.`);
-
-            // Vytvor nový test len s nesprávnymi otázkami
-            const retryTest = {
-                title: currentTest.title.includes('(Opakovanie)')
-                    ? currentTest.title
-                    : currentTest.title + ' (Opakovanie)',
-                questions: incorrectQuestions.map(item => item.question)
-            };
-
-            currentTest = retryTest;
-            currentQuestionIndex = 0;
-            userAnswers = currentTest.questions.map(q => []);
-            questionAnswered = false;
-
-            document.getElementById('submitBtn').textContent = 'Odovzdať test';
-            showQuestion();
-            return;
-        }
-    }
-
-    // Zastaviť časovač
-    if (timerInterval) {
-        clearInterval(timerInterval);
-        timerInterval = null;
-    }
-
-    showResults();
-}
-
-function showResults() {
-    let correctCount = 0;
-    currentTest.questions.forEach((question, index) => {
-        if (isQuestionCorrect(question, userAnswers[index])) correctCount++;
-    });
-
-    const percentage = Math.round((correctCount / currentTest.questions.length) * 100);
-
-    // Jeden záznam za prvý pokus. Opakovanie nezvyšuje počet absolvovaní.
-    if (!retryStatisticsSaved) {
-        track('test_finish', {test: currentTest.title, score: correctCount, total: currentTest.questions.length,
-            percent: percentage, duration_sec: testStartTime ? Math.round((Date.now() - testStartTime) / 1000) : null});
-        saveTestResult({testName: currentTest.title, date: new Date().toISOString(), score: correctCount,
-            total: currentTest.questions.length, percentage});
-    }
-
-    document.getElementById('testInterface').style.display = 'none';
-    document.getElementById('results').style.display = 'block';
-
-    // Určiť či zobrazíme pôvodný test (po úspešnom retry) alebo aktuálny
-    const retryCompleted = retryStatisticsSaved && correctCount === currentTest.questions.length;
-    const displayTest = retryCompleted && originalTest ? originalTest : currentTest;
-    const displayAnswers = retryCompleted && originalUserAnswers.length > 0 ? originalUserAnswers : userAnswers;
-
-    // Vypočítaj skóre z pôvodného testu pre zobrazenie
-    let displayCorrectCount = correctCount;
-    if (retryCompleted && originalTest) {
-        displayCorrectCount = 0;
-        originalTest.questions.forEach((question, index) => {
-            const userAnswer = originalUserAnswers[index];
-            const correct = isQuestionCorrect(question, userAnswer);
-            if (correct) displayCorrectCount++;
-        });
-    }
-
-    const displayScore = retryCompleted ? displayCorrectCount : correctCount;
-    const displayTotal = displayTest.questions.length;
-    const displayPercentage = Math.round((displayScore / displayTotal) * 100);
-
-    // Zobraz výsledky podobne ako learn mode - všetky otázky s odpoveďami
-    document.getElementById('resultsContainer').innerHTML = `
-        <div class="results-summary">
-            <h3>Výsledok: ${displayScore} / ${displayTotal}</h3>
-            <p style="font-size: 1.2em; margin-top: 10px;">${displayPercentage}%</p>
-            ${retryCompleted
-                ? '<p style="font-size: 0.9em; color: #4CAF50; margin-top: 5px;">🎉 Všetky otázky správne po opakovaní!</p>'
-                : ''}
-        </div>
-        ${displayTest.questions.map((question, qIndex) => {
-            const userAnswer = displayAnswers[qIndex];
-            const isNoCorrect = Array.isArray(question.correct) && question.correct.length === 0;
-            const isMultiple = Array.isArray(question.correct) && question.correct.length > 1;
-
-            const questionCorrect = isQuestionCorrect(question, userAnswer);
-
-            // Hint pre typ otázky
-            let questionHint = '';
-            if (isNoCorrect) {
-                questionHint = '<p class="multiple-note">Žiadna odpoveď nie je správna</p>';
-            } else if (isMultiple) {
-                questionHint = '<p class="multiple-note">Viacero správnych odpovedí</p>';
-            }
-
-            // TF výsledky: 2 riadky Pravda/Nepravda + vysvetlenie zo zátvorky.
-            const isTF = !isNoCorrect && isTFQuestion(question);
-            let resultAnswersBlock;
-            if (isTF) {
-                const correctPol = tfCorrectPolarity(question);
-                const userPol = userAnswer && userAnswer.length > 0 ? tfPolarityAt(question, userAnswer[0]) : null;
-                const correctList = Array.isArray(question.correct) ? question.correct : [question.correct];
-                const explanation = tfExplanation(question.answers[correctList[0]]);
-                const renderResultRow = (label, polarity) => {
-                    const isCorrect = correctPol === polarity;
-                    const isUser = userPol === polarity;
-                    let cssClass, lbl;
-                    if (isCorrect && isUser) { cssClass = 'result-answer-correct-selected'; lbl = ' ✓ SPRÁVNE - Vaša odpoveď'; }
-                    else if (isCorrect && !isUser) { cssClass = 'result-answer-correct-missed'; lbl = ' ✓ SPRÁVNE'; }
-                    else if (!isCorrect && isUser) { cssClass = 'result-answer-wrong-selected'; lbl = ' ✗ NESPRÁVNE - Vaša odpoveď'; }
-                    else { cssClass = 'result-answer-neutral'; lbl = ''; }
-                    return `<div class="result-answer ${cssClass}">${label}${lbl}</div>`;
-                };
-                resultAnswersBlock = renderResultRow('Pravda', 'pravda') + renderResultRow('Nepravda', 'nepravda');
-                if (explanation) {
-                    resultAnswersBlock += `<div class="tf-explanation"><strong>Vysvetlenie:</strong> ${escapeHtml(explanation)}</div>`;
-                }
-            } else {
-                resultAnswersBlock = question.answers.map((answer, aIndex) => {
-                    const isCorrect = isNoCorrect ? false : isQuestionAnswerCorrect(question, aIndex);
-                    const isUserAnswer = userAnswer && userAnswer.includes(aIndex);
-                    let cssClass = '';
-                    let label = '';
-                    if (isNoCorrect) {
-                        if (isUserAnswer) { cssClass = 'result-answer-wrong-selected'; label = ' ✗ NESPRÁVNE - Vaša odpoveď'; }
-                        else { cssClass = 'result-answer-neutral'; }
-                    } else if (isCorrect && isUserAnswer) {
-                        cssClass = 'result-answer-correct-selected';
-                        label = ' ✓ SPRÁVNE - Vaša odpoveď';
-                    } else if (isCorrect && !isUserAnswer) {
-                        cssClass = 'result-answer-correct-missed';
-                        label = ' ✓ SPRÁVNE';
-                    } else if (!isCorrect && isUserAnswer) {
-                        cssClass = 'result-answer-wrong-selected';
-                        label = ' ✗ NESPRÁVNE - Vaša odpoveď';
-                    } else {
-                        cssClass = 'result-answer-neutral';
-                    }
-                    return `<div class="result-answer ${cssClass}">${escapeHtml(answer)}${label}</div>`;
-                }).join('');
-            }
-
-            return `
-                <div class="result-question ${questionCorrect ? 'result-correct' : 'result-incorrect'}">
-                    <h4>Otázka ${qIndex + 1}: ${escapeHtml(question.question)}</h4>
-                    ${questionHint}
-                    <div class="result-answers">
-                        ${resultAnswersBlock}
-                    </div>
-                </div>
-            `;
-        }).join('')}
-    `;
-
-    // Obnoviť zobrazenie testov so štatistikami
-    displayTestList();
 }
 
 function saveTestResult(result) {
@@ -1519,9 +1051,7 @@ function backToList() {
     document.querySelector('.section').style.display = 'block';
     currentTest = null;
     currentVocabTest = null;
-    testMode = 'test';
-    showAnswersMode = ['each'];
-    questionAnswered = false;
+    practice = null;
     // Reset vocab timer
     if (vocabTimerInterval) {
         clearInterval(vocabTimerInterval);
@@ -2568,6 +2098,7 @@ function toggleEditCorrect(qIndex, aIndex) {
             testData.questions[qIndex].correct = [testData.questions[qIndex].correct];
         }
 
+        if (testData.questions[qIndex].learning) testData.questions[qIndex].learning.status = 'draft';
         const correctArray = testData.questions[qIndex].correct;
         const idx = correctArray.indexOf(aIndex);
 
@@ -2584,6 +2115,7 @@ function toggleEditCorrect(qIndex, aIndex) {
 function updateEditQuestion(qIndex, field, value) {
     const testData = Array.isArray(editingTestData) ? editingTestData[0] : editingTestData;
     if (testData.questions[qIndex]) {
+        if (testData.questions[qIndex].learning) testData.questions[qIndex].learning.status = 'draft';
         testData.questions[qIndex][field] = value;
         markEditorDirty();
     }
@@ -2592,6 +2124,7 @@ function updateEditQuestion(qIndex, field, value) {
 function updateEditAnswer(qIndex, aIndex, value) {
     const testData = Array.isArray(editingTestData) ? editingTestData[0] : editingTestData;
     if (testData.questions[qIndex]) {
+        if (testData.questions[qIndex].learning) testData.questions[qIndex].learning.status = 'draft';
         testData.questions[qIndex].answers[aIndex] = value;
         markEditorDirty();
     }

@@ -18,7 +18,7 @@ Malá slovenská aplikácia na samoštúdium: otázkové testy a latinské slov�
 - Podobné otázky v rôznych testoch nemusia byť omyl. Neodstraňuj ani neopravuj odborný obsah na základe technického review.
 - Ak zadanie zahŕňa zmenu dát, najprv zachovaj pôvodné bajty v zálohe a over zmenu na kópii. Import nesmie potichu prepísať existujúci súbor. Hromadné presuny over mapovaním ciest a SHA-256 pred/po.
 - `testy/`, `data/`, `sources/` a obsah `work/` okrem jeho README nie sú súčasťou image ani bežného Git checkoutu; zálohuj ich samostatne. Kód a historické kópie v `archive/` chráni Git iba po commite; kópia na vzdialenom repozitári existuje až po pushi. Lokálne `.local/backups/` sú návratové zálohy na tom istom disku, nie náhrada zálohy mimo PC. Chýbajúce súbory na novom stroji neznamenajú, že ich máš vytvoriť z historickej zálohy cez aktuálne dáta.
-- Tajomstvá z `.env` a `.env.local` nepatria do Gitu, image, dokumentácie, URL ani výpisov. Heslo správcu sa zadáva cez `/admin/login`; neuvádzaj jeho hodnotu v odpovedi.
+- Tajomstvá z `.env`, `.env.local` a `.env.lan` nepatria do Gitu, image, dokumentácie, URL ani výpisov. Heslo správcu sa zadáva cez `/admin/login`; neuvádzaj jeho hodnotu v odpovedi.
 
 ## Prostredia a príkazy
 
@@ -57,6 +57,7 @@ Kód je zabudovaný v image: editácia súboru sama nezmení bežiaci kontajner.
 | `storage.py` | validácia, cache súborov, verzie, zámky, atómový zápis a zálohy |
 | `security.py` | prihlásenie, relácia, CSRF, limity požiadaviek |
 | `static/app.js` | zoznam, filtre, priebeh testov/slovíčok, editor, výsledky, cache prehliadača |
+| `static/practice.js` | nastaviteľný otázkový test, predvoľby, nápovedy, vysvetlenia a plán opakovania |
 | `static/style.css`, `templates/` | témy, rozloženie a obrazovky; v `templates/index.html` aj návod `helpPage` a história verzií `versionPage`; bez frontend build kroku |
 | `tests/` | regresné kontroly; nie používateľské testy z `testy/` |
 | `tools/prepare_local.py`, `tools/imports/` | príprava prostredia a oddelené ručné extrakcie; nie sú súčasťou runtime |
@@ -71,6 +72,8 @@ Kód je zabudovaný v image: editácia súboru sama nezmení bežiaci kontajner.
 - Úložisko číta objekt aj pole testov, zapisuje pole. Import kolízie odmieta (409). Update/append/delete vyžadujú aktuálnu SHA-256 `version` (428 chýbajúca, 409 konflikt). Pred zmenou vzniká presná záloha, zápis je atómový pod súborovým zámkom. Editor ukladá výslovne tlačidlom.
 - `/api/tests/meta` kontroluje zmeny, `/api/tests` podporuje ETag a vracia verzie súborov spolu s obsahom. Obsah a verzie v IndexedDB musia pochádzať z tej istej odpovede, inak sa môže zafixovať zastaraná cache.
 - Osobné výsledky sú v localStorage pre konkrétny prehliadač a origin. Serverové štatistiky návštev sú samostatné eventy v `data/`. Jeden pokus má jeden výsledok; opakovanie chybných odpovedí ho nesmie počítať znova. Vypršanie času ukončí test aj slovíčka.
+- Otázkové testy majú jedno spustenie s upraviteľnými predvoľbami. Štatistiky a plánovanie učenia sú nezávislé prepínače. Odkrytie riešenia nie je správny pokus; nezodpovedané a výslovne zvolená „Žiadna z možností“ sa rozlišujú. Potvrdené odpovede s feedbackom zostávajú zamknuté aj pri návrate.
+- Pomôcky `learning` sa zobrazujú len v stave `reviewed`; editor pri zmene otázky/kľúča stav vráti do `draft`. `explanation.byAnswer` sa mieša s odpoveďami. Osobný pokrok patrí do `learningProgress`, nie do spoločného JSON testu; úplný kontrakt je v README.
 - Zápisy vyžadujú správcu a CSRF; `/api/track` je validovaná verejná výnimka s limitom. Text testov escapuj aj v HTML atribútoch. Správne odpovede sú verejné pre samoštúdium.
 - Runtime používa Gunicorn 1 worker / 4 vlákna. Limit AI a zámok event logu sú procesové; počet workerov nemeň bez zodpovedajúcej synchronizácie. Kontajner beží bez roota a s read-only koreňom, zapisuje iba do dát a `/tmp`.
 - AI import je voliteľný, momentálne Claude Sonnet 4.6, jedna súbežná požiadavka. Extrakčné skripty nespúšťaj hromadne: niektoré volajú platené API alebo aktivujú testy. Najprv prečítaj konkrétny skript a jeho cesty.

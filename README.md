@@ -20,12 +20,12 @@ Nové podklady pred spracovaním a rozpracované veci vkladajte do [work/](work/
 - **🔬 Pokročilé predspracovanie** - OpenCV algoritmy pre lepšie rozpoznávanie
 - **📁 Import/Export testov** - JSON formát pre jednoduchú výmenu testov
 - **🎓 Ročníky a predmety** - Najprv výber ročníka, potom predmetu; každý ročník má vlastné predmety
-- **🧪 Biochémia v 2. ročníku** - 12 týždenných testov a test Na zaradenie, spolu 684 otázok
+- **🧪 Biochémia v 2. ročníku** - 12 týždenných testov a test Na zaradenie, spolu 699 otázok
 - **✅ Viacero správnych odpovedí** - Podpora otázok s viacerými správnymi odpoveďami
-- **📊 Štatistiky a sledovanie pokroku** - Automatické sledovanie výsledkov
+- **📊 Štatistiky a učenie** - Samostatné voľby pre započítanie výsledku a plánovanie opakovania
 - **⏱️ Časové limity** - 20/30/60 minút alebo bez limitu
-- **🎲 Mixovanie otázok** - Náhodné poradie pre lepšiu prípravu
-- **📚 Režim učenia** - Prezeranie všetkých otázok so správnymi odpoveďami
+- **🎲 Nastaviteľný test** - Predvoľby Učenie/Tréning/Skúška, nezávislé miešanie otázok a odpovedí
+- **📚 Pomoc pri učení** - Postupné nápovedy a vysvetlenia z overeného JSON; samostatný Prehľad učiva
 - **🔄 Zlučovanie testov** - Absolvujte viac testov naraz
 - **✏️ Editor testov** - Upravujte testy priamo v aplikácii
 
@@ -76,13 +76,15 @@ docker compose -p tester-checks -f docker-compose.test.yml run --build --rm test
 docker compose -p tester-checks -f docker-compose.test.yml run --rm tests pip-audit --cache-dir /tmp/pip-audit-cache
 ```
 
+Otázkový priebeh a mobilné svetlé/tmavé zobrazenie kontroluje aj `node tests/browser_practice.cjs` proti bežiacemu lokálnemu Docker prostrediu na `test.localhost`. Táto voliteľná vývojová kontrola vyžaduje Node ≥18, modul `ws` a Google Chrome (alebo `CHROME_BIN`). Používa dočasný profil; otázky pridáva iba do pamäte prehliadača, katalóg nemení. Snímky a výsledok uloží do vypísaného adresára v `/tmp`.
+
 ## Štruktúra
 
 ```text
 app.py                     Flask endpointy, obrázky a analytika
 storage.py                 JSON validácia, cache, zámky a zálohy
 security.py                prihlásenie správcu, CSRF a limity
-static/                    vanilla JS + CSS bez build stepu
+static/                    app.js (katalóg/editor/slovíčka), practice.js (otázkový test), CSS
 templates/                 aplikácia, prihlásenie, dashboard
 VERSION                    jediný zdroj verzie
 testy/                     pôvodné JSON testy a ich archívy; mimo Gitu
@@ -181,13 +183,43 @@ Fotky sa spracujú postupne a otázky sa spoja do jedného návrhu testu. Pred u
 
 ### Absolvovanie testu
 
-1. Vyberte test zo zoznamu (zobrazí sa dialóg s nastaveniami)
-2. Nastavte parametre (čas, rozsah otázok, mixáž)
-3. Kliknite na "Spustiť test" alebo "Režim učenia"
-4. Absolvujte test a pozrite si výsledky
+1. Vyberte test alebo zlúčte viac otázkových testov.
+2. Použite predvoľbu **Učenie**, **Tréning** alebo **Skúška**, prípadne nastavte všetky voľby samostatne. Nastavenia si prehliadač pamätá.
+3. Nastavte výber otázok, miešanie otázok/odpovedí, čas, nápovedy, okamih vyhodnotenia, vysvetlenia a opakovanie.
+4. Osobitne zvoľte **Započítať výsledok do štatistík** a **Použiť odpovede na plánovanie učenia**. Potom kliknite **Spustiť**.
+5. Po vyhodnotení už odpoveď nemožno meniť. „Žiadna z možností“ je výslovná odpoveď; „Neviem / preskočiť“ a odkryté riešenie sa počítajú ako neúspešný pokus.
+
+Predvoľba Učenie zapína pomoc, automatické vysvetlenia a opakovanie, vypína štatistiky a čas. Tréning má spätnú väzbu po otázke, Skúška až na konci a limit 20 minút. Všetky nastavenia zostávajú upraviteľné. Vysvetlenie sa nikdy nezobrazí pred vyhodnotením, okrem výslovného odkrytia riešenia pri povolenej pomoci.
+
+**Štatistiky** uchovávajú posledných 200 výsledkov v `localStorage` tohto prehliadača a originu. Nový výsledok obsahuje aj nastavenia, počet otázok s použitou pomocou a samostatne správne odpovede. Priemer zahŕňa všetky započítané pokusy; počet pokusov s pomocou je pri teste označený. Opakovanie nikdy neprepíše prvý výsledok ani nepridá ďalšie absolvovanie.
+
+**Plán učenia** je oddelený (`learningProgress`). Aktualizuje sa po prvom odovzdaní, aj keď sú štatistiky vypnuté. Chyby a asistované odpovede sú hneď dostupné vo výbere **Otázky na zopakovanie**. Samostatné úspechy plánujú ďalší pokus o 1, 3, 7, 14 alebo 30 dní; interval sa predlžuje až pri úspechu s odstupom aspoň 20 hodín. Opakovanie v rámci toho istého testu tento interval nezvyšuje. Ide o jednoduché pravidlá plánovania, nie hodnotenie pripravenosti na skúšku. Predčasne opustený neodovzdaný test sa neuloží. Dáta sa medzi zariadeniami automaticky nesynchronizujú. Vymazanie štatistík nemaže plán učenia.
+
+**Nápovedy a vysvetlenia** sa čítajú z voliteľného poľa `learning`. Aplikácia ich nevytvára za behu; existujúce otázky bez nich fungujú a ukazujú dostupnosť obsahu. Zobrazuje sa iba `status: "reviewed"`; `draft` slúži na kontrolu. Pôvodné vysvetlenia v zátvorkách pravda/nepravda zostávajú podporované.
+
+```json
+{
+  "id": "ukazka-001",
+  "question": "Ktoré číslo je párne?",
+  "answers": ["2", "3"],
+  "correct": [0],
+  "learning": {
+    "status": "draft",
+    "hints": ["Pripomeňte si deliteľnosť dvoma.", "Pri delení nesmie zostať zvyšok."],
+    "explanation": {
+      "summary": "Párne číslo je deliteľné dvoma bez zvyšku.",
+      "byAnswer": ["2 je deliteľné dvoma.", "Pri delení 3 dvoma zostane zvyšok 1."],
+      "memoryTip": "Pár znamená dvojicu.",
+      "sources": []
+    }
+  }
+}
+```
+
+`hints` má ľubovoľný počet postupných úrovní. `byAnswer`, ak je prítomné, musí mať rovnaký počet položiek a poradie ako `answers`; pri miešaní sa presúvajú spolu. `sources` je zoznam objektov `title` a `url` (HTTP/HTTPS). Neznáme metadáta sa zachovávajú. Editor pri zmene otázky, možností alebo správneho kľúča vráti pomôcku do `draft`; jej novú odbornú kontrolu a doplnenie treba vykonať v JSON. ID je voliteľné; pokrok používa ID spolu s obsahovou revíziou, pri starých otázkach samotný pôvodný obsah. Miešanie a zlúčenie testov kľúč nemení, oprava obsahu vytvorí nový záznam. Pôvodné testy sa kvôli tomu automaticky neupravujú.
 
 ### Ďalšie funkcie
 
 - **Spustenie viacerých testov:** Zaškrtnite checkboxy pri testoch a kliknite "Spustiť vybrané testy"
 - **Štatistiky:** Pri každom teste sa zobrazujú štatistiky (absolvované, posledný výsledok, priemer)
-- **Režim učenia:** Zobrazí celý test so správnymi odpoveďami
+- **Prehľad učiva:** Zobrazí celý otázkový test so správnymi odpoveďami bez ukladania výsledku alebo pokroku

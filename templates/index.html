@@ -49,6 +49,15 @@
             <h2>ℹ️ LFUK tester v{{ app_version }}</h2>
 
             <div class="help-section">
+                <h3>🆕 Novinky v1.8.0</h3>
+                <ul>
+                    <li>Jedno spustenie otázkového testu s upraviteľnými predvoľbami Učenie, Tréning a Skúška.</li>
+                    <li>Nezávislé započítavanie výsledkov do štatistík a plánovanie opakovania otázok.</li>
+                    <li>Postupné nápovedy a vysvetlenia z overeného obsahu JSON, samostatné miešanie otázok a odpovedí.</li>
+                    <li>Voľba „Žiadna z možností“ je výslovná. Odkryté riešenie sa nepočíta ako správna odpoveď.</li>
+                </ul>
+            </div>
+            <div class="help-section">
                 <h3>🆕 Novinky v1.7.0</h3>
                 <ul>
                     <li>Úpravy a import spravuje prihlásený správca. Zmeny sa ukladajú až po potvrdení, s ochranou pred prepísaním iným oknom.</li>
@@ -472,13 +481,15 @@
                     <li><strong>Nastav parametre:</strong>
                         <ul>
                             <li><strong>Časový limit:</strong> 20/30/60 min alebo bez limitu</li>
-                            <li><strong>Rozsah otázok:</strong> napr. 1–50, alebo náhodný výber N otázok z testu</li>
-                            <li><strong>Poradie:</strong> po poradí / zamixované (pri zamixovaní sa miešajú aj odpovede)</li>
-                            <li><strong>Odpovede:</strong> po každej otázke / na konci / opakovať nesprávne</li>
+                            <li><strong>Predvoľby:</strong> Učenie, Tréning alebo Skúška; každú voľbu môžete upraviť</li>
+                            <li><strong>Výber otázok:</strong> všetky, rozsah, náhodný výber alebo otázky na zopakovanie</li>
+                            <li><strong>Poradie:</strong> otázky a odpovede sa miešajú nezávisle</li>
+                            <li><strong>Pomoc:</strong> voliteľné nápovedy, vysvetlenia a opakovanie chýb</li>
+                            <li><strong>Ukladanie:</strong> štatistiky a plánovanie učenia majú samostatné prepínače</li>
                         </ul>
                     </li>
-                    <li><strong>Spustiť test</strong> (s hodnotením) alebo <strong>Režim učenia</strong> (bez tlaku, vidíš správne odpovede pri každej otázke)</li>
-                    <li>Po teste sa zobrazia <strong>výsledky a štatistiky</strong></li>
+                    <li>Kliknite <strong>Spustiť</strong>. Pre čítanie všetkých riešení použite <strong>Prehľad učiva</strong>.</li>
+                    <li>Po teste sa vždy zobrazí výsledok; jeho uloženie závisí od nastavení. Pomoc a opakovanie neprepíšu pôvodný pokus.</li>
                 </ol>
             </div>
 
@@ -894,66 +905,60 @@
         <!-- Nastavenia testu -->
         <div id="testSettings" style="display: none;">
             <h2 id="settingsTitle"></h2>
-
-            <div class="settings-group">
-                <h3>Časový limit</h3>
-                <label>
-                    <input type="radio" name="time" value="20" checked> 20 minút
-                </label>
-                <label>
-                    <input type="radio" name="time" value="30"> 30 minút
-                </label>
-                <label>
-                    <input type="radio" name="time" value="60"> 60 minút
-                </label>
-                <label>
-                    <input type="radio" name="time" value="0"> Bez časového limitu
-                </label>
+            <p class="settings-note">Vyberte predvoľbu alebo si nastavte vlastný priebeh. Každú voľbu môžete zmeniť.</p>
+            <div class="practice-presets" aria-label="Rýchle predvoľby">
+                <button type="button" class="btn-secondary" data-preset="learning" onclick="applyPracticePreset('learning')">Učenie <small>Pomoc a opakovanie</small></button>
+                <button type="button" class="btn-secondary" data-preset="training" onclick="applyPracticePreset('training')">Tréning <small>Spätná väzba po otázke</small></button>
+                <button type="button" class="btn-secondary" data-preset="exam" onclick="applyPracticePreset('exam')">Skúška <small>Vyhodnotenie na konci</small></button>
             </div>
-
+            <p id="practicePresetLabel" class="settings-note" aria-live="polite"></p>
+            <form id="practiceSettingsForm" onsubmit="event.preventDefault(); startTestWithSettings()" onchange="practiceSettingsChanged()">
+            <div class="practice-settings-grid">
             <div class="settings-group">
                 <h3>Výber otázok</h3>
-                <label>
-                    <input type="radio" name="questionMode" value="range" checked onchange="toggleQuestionMode()"> Rozsah otázok
-                </label>
-                <div id="rangeInputs" style="margin-left: 20px; margin-top: 10px;">
+                <label><input type="radio" name="questionMode" value="all" checked> Všetky otázky</label>
+                <label><input type="radio" name="questionMode" value="range"> Rozsah otázok</label>
+                <div id="rangeInputs" class="settings-subfields" hidden>
                     <label>Od otázky: <input type="number" id="questionFrom" value="1" min="1"></label>
                     <label>Do otázky: <input type="number" id="questionTo" value="999" min="1"></label>
                 </div>
-                <label style="margin-top: 10px;">
-                    <input type="radio" name="questionMode" value="random" onchange="toggleQuestionMode()"> Náhodný výber
-                </label>
-                <div id="randomInputs" style="margin-left: 20px; margin-top: 10px; display: none;">
+                <label><input type="radio" name="questionMode" value="random"> Náhodný výber</label>
+                <div id="randomInputs" class="settings-subfields" hidden>
                     <label>Počet otázok: <input type="number" id="randomCount" value="20" min="1"></label>
                 </div>
+                <label><input type="radio" name="questionMode" value="due"> Otázky na zopakovanie</label>
+                <p id="practiceProgressSummary" class="settings-note"></p>
+                <label><input type="checkbox" id="shuffleQuestions"> Miešať otázky</label>
+                <label><input type="checkbox" id="shuffleOptions"> Miešať odpovede</label>
             </div>
-
             <div class="settings-group">
-                <h3>Poradie otázok</h3>
-                <label>
-                    <input type="radio" name="shuffle" value="false" checked> Po poradí
-                </label>
-                <label>
-                    <input type="radio" name="shuffle" value="true"> Zamixované
-                </label>
+                <h3>Priebeh testu</h3>
+                <label for="practiceTime">Časový limit</label>
+                <select id="practiceTime"><option value="0">Bez limitu</option><option value="20">20 minút</option><option value="30">30 minút</option><option value="60">60 minút</option></select>
+                <label for="practiceFeedback">Vyhodnotenie odpovedí</label>
+                <select id="practiceFeedback"><option value="each">Po každej otázke</option><option value="end">Po odovzdaní testu</option></select>
+                <label><input type="checkbox" id="allowHints"> Povoliť postupné nápovedy a odkrytie riešenia</label>
+                <p id="practiceContentSummary" class="settings-note"></p>
+                <label for="practiceExplanation">Vysvetlenia po vyhodnotení</label>
+                <select id="practiceExplanation"><option value="click">Na kliknutie</option><option value="auto">Automaticky</option><option value="off">Nezobrazovať</option></select>
+                <label><input type="checkbox" id="repeatMistakes"> Opakovať chyby a otázky vyriešené s pomocou</label>
             </div>
-
             <div class="settings-group">
-                <h3>Zobrazenie správnych odpovedí</h3>
-                <label>
-                    <input type="checkbox" name="showAnswers" value="each" checked> Po každej otázke
-                </label>
-                <label>
-                    <input type="checkbox" name="showAnswers" value="end"> Na konci testu
-                </label>
-                <label>
-                    <input type="checkbox" name="showAnswers" value="retry"> Opakovať nesprávne otázky
-                </label>
+                <h3>Výsledky a učenie</h3>
+                <label><input type="checkbox" id="countStatistics" checked> Započítať výsledok do štatistík</label>
+                <p class="settings-note">Zmení počet absolvovaní, posledný výsledok a priemer testu.</p>
+                <label><input type="checkbox" id="trackLearning" checked> Použiť odpovede na plánovanie učenia</label>
+                <p class="settings-note">Zapamätá si otázky na zopakovanie. Funguje aj s vypnutými štatistikami.</p>
+                <p class="settings-note">Nastavenia a osobný pokrok sa ukladajú v tomto prehliadači.</p>
             </div>
-
-            <button onclick="startTestWithSettings()">Spustiť test</button>
-            <button onclick="showLearnMode()" class="btn-learn">Režim učenia</button>
-            <button onclick="backToList()" class="btn-secondary">Zrušiť</button>
+            </div>
+            <p id="practiceSettingsError" class="practice-error" role="alert"></p>
+            <div class="practice-actions">
+                <button type="submit">Spustiť</button>
+                <button type="button" onclick="showLearnMode()" class="btn-secondary">Prehľad učiva</button>
+                <button type="button" onclick="backToList()" class="btn-secondary">Zrušiť</button>
+            </div>
+            </form>
         </div>
 
         <!-- Nastavenia pre slovíčka -->
@@ -1068,12 +1073,14 @@
                 <div id="timer" style="display: none;"></div>
             </div>
             <div id="questionContainer"></div>
+            <p id="practiceSessionNote" class="settings-note" aria-live="polite"></p>
             <div class="navigation">
                 <button onclick="previousQuestion()" id="prevBtn">Predchádzajúca</button>
                 <span id="questionNumber"></span>
                 <button onclick="nextQuestion()" id="nextBtn">Ďalšia</button>
             </div>
             <button onclick="submitTest()" id="submitBtn" style="display: none;">Odovzdať test</button>
+            <button onclick="finishPracticeRetry()" id="finishRetryBtn" class="btn-secondary" style="display: none;">Ukončiť opakovanie</button>
             <button onclick="backToList()" class="btn-secondary">Späť na zoznam</button>
         </div>
 
@@ -1087,7 +1094,7 @@
         <!-- Režim učenia -->
         <div id="learnMode" style="display: none;">
             <h2 id="learnModeTitle"></h2>
-            <p class="learn-mode-info">Režim učenia - všetky otázky so správnymi odpoveďami</p>
+            <p class="learn-mode-info">Prehľad učiva – všetky otázky so správnymi odpoveďami. Neovplyvňuje štatistiky ani plán učenia.</p>
             <div id="learnModeContainer"></div>
             <button onclick="backToList()">Späť na zoznam</button>
         </div>
@@ -1099,7 +1106,8 @@
         <span class="icon-moon">🌙</span>
     </button>
 
-    <script src="{{ url_for('static', filename='app.js', v=app_version) }}?v=1.5.6"></script>
+    <script src="{{ url_for('static', filename='app.js', v=app_version) }}"></script>
+    <script src="{{ url_for('static', filename='practice.js', v=app_version) }}"></script>
     {% if cf_analytics_token %}
     <script defer src='https://static.cloudflareinsights.com/beacon.min.js'
             data-cf-beacon='{"token": "{{ cf_analytics_token }}"}'></script>

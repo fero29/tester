@@ -57,6 +57,10 @@ tester/
 
 ## Kam patria nové súbory
 
+`static/app.js` spravuje katalóg, editor, import a slovíčka. `static/practice.js` obsahuje nastaviteľný otázkový test, predvoľby, nápovedy, vysvetlenia a plánovanie opakovania. Súbory sa načítavajú v tomto poradí bez build kroku. Voliteľné pomôcky sú súčasťou JSON otázky v `learning`; osobné voľby a pokrok sú v prehliadači (`practiceSettings`, `learningProgress`, `testResults`), nie v spoločnom učive. Kontrakt a použitie opisuje README.
+
+`tests/browser_practice.cjs` kontroluje otázkový priebeh a mobilné svetlé/tmavé rozloženie proti lokálnemu Docker prostrediu. Používa dočasný profil Chrome a otázky iba v pamäti; snímky ukladá do dočasného adresára. Automatické Python kontroly zostávajú v testovacom Compose profile.
+
 | Obsah | Umiestnenie | Git |
 | --- | --- | --- |
 | Kód aplikácie | tri Python moduly, `static/`, `templates/` | áno |
@@ -76,6 +80,8 @@ tester/
 `testy/` je učivo, `tests/` kontroluje program. Aplikácia načítava priamo `testy/*.json`; hotové testy nepresúvať do ročníkových podadresárov. Ročník a predmet určujú JSON metadáta. Podadresáre pod `testy/` obsahujú zachované podklady, reporty a staršie verzie, nie ďalšie aktívne testy.
 
 Nové podklady a návrhy ukladajte najprv do [work/](../work/README.md). Súbory môžu ležať priamo v ňom, podadresár podľa úlohy je voliteľný. Aplikácia ich automaticky nenačítava. Po dokončení úlohy patria uchované originály do `sources/`, trvalo používané importné pravidlá do `tools/imports/` a overené testy do príslušného dátového adresára. Rozpracovaná práca nie je cache na zmazanie.
+
+Príprava pomôcok biochémie je v `work/biochemia-learning/`; pri pokračovaní najprv prečítať jeho `README.md` a report kontroly. Spracovaný je zatiaľ iba 3. týždeň: 84 otázok, z toho 44 pomôcok v stave `reviewed` a 40 návrhov `draft` s poznámkami k nejednoznačným zadaniam alebo kľúčom. Pomôcky sú overené na lokálnej kópii `.local/testy/Test – 03. týždeň.json`; pôvodné otázky a správne odpovede sa nemenili, verejné dáta v `testy/` zostali bez pomôcok. Náhľad, zdroje, reporty a samostatná záloha v `.local/backups/` sú mimo Gitu. Ďalšie týždne ani opravy kľúčov nie sú týmto schválené.
 
 ## Ručné nástroje
 
