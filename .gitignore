@@ -1,8 +1,5 @@
 .claude
 
-# Testy - lokálne súbory, neprepísať pri update
-testy/
-
 # Python
 __pycache__/
 *.py[cod]

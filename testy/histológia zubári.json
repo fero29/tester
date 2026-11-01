@@ -1,0 +1,1619 @@
+[
+  {
+    "title": "histológia zubári",
+    "description": "Otázky zo zbierky \"Histologia ZL 2. zápočet\" (336 otázok) — iba témy krv, nervové tkanivo, svalové tkanivo a embryológia úvod (notochord, neurálna rúra). Texty doslovne z PDF.",
+    "category": "Histológia",
+    "questions": [
+      {
+        "question": "Ku gliovým bunkám patria pyramídové bunky v mozgu",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Ku gliovým bunkám patria fibrilárne astrocyty",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Ku gliovým bunkám patria satelitové bunky v gangliu",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Ku gliovým bunkám patria Schwannove bunky",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Motorické multipolárne neuróny sú bunky nachádzajúce sa v šedej hmote",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Motorické multipolárne neuróny sú aj v bielej hmote mozočka",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Motorické multipolárne neuróny sú bunky nachádzajúce sa v bielej hmote mozočka",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Motorické multipolárne neuróny prítomnosť neurofibril sme demonštrovali v týchto bunkách impregnáciou podľa Holmesa",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Triáda vo svalovom tkanive je zložená z T-tubulu a terminálnej cisterny sarkoplazmatického retikula",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Triáda vo svalovom tkanive je typická pre hladkú svalovinu",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Triáda vo svalovom tkanive je typická pre priečne pruhovanú kostrovú svalovinu",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Triáda vo svalovom tkanive neobsahuje drsné endoplazmatické retikulum",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Pre neurogliu platí v CNS sú prítomné astrocyty aj ependýmové bunky",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Pre neurogliu platí oligodendrocyty vytvárajú myelínové pošvy na nervových vláknach v CNS",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Pre neurogliu platí satelitové bunky sa nachádzajú v kôre mozgu",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Pre neurogliu platí v bielej hmote CNS sa nachádzajú fibrilárne astrocyty",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Pre neuróny platí v cytoplazme aj vo výbežkoch obsahujú neurofibrily, ktoré sa dajú znázorniť impregnačnou metódou podľa Holmesa",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Pre neuróny platí Nisslova substancia je miesto nahromadenia glykogénu v ich cytoplazme",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Pre neuróny platí sú to proteosynteticky aktívne bunky",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Pre neuróny platí pseudounipolárne neuróny sa nachádzajú v predných rohoch šedej hmoty miechy",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Pre šedú hmotu CNS platí je tvorená najmä nahromadením tiel neurónov a neuroglie",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Pre šedú hmotu CNS platí z neurogliových buniek sú tam prítomné najmä protoplazmatické astrocyty a mikroglia",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Pre šedú hmotu CNS platí je tvorená najmä myelinizovanými nervovými vláknami",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Pre šedú hmotu CNS platí nachádzajú sa v nej aj Schwannove bunky",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Srdcová svalovina základnou morfologickou jednotkou je priečne pruhované vlákno s viacerými jadrami",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Srdcová svalovina základnou morfologickou jednotkou je bunka vretenovitého tvaru a centrálne uloženým jadrom",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Srdcová svalovina sú tu vytvorené triády zložené z Ttubulov a dvoch cisterien sarkoplazmatického retikula",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Srdcová svalovina interkalárne disky sú tvorené nexami, dezmozómami a fasciami adherentes",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Morfologická jednotka priečne pruhovanej kostrovej svaloviny je mnohojadrové vlákno s periférne uloženými jadrami tesne pod sarkolemou",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Morfologická jednotka priečne pruhovanej kostrovej svaloviny aktínové a myozínové myofilamenty sú uložené do siete, preto je priečne pruhované",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Morfologická jednotka priečne pruhovanej kostrovej svaloviny sarkoplazmatické retikulum je špeciálny druh drsného endoplazmatického retikula",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Morfologická jednotka priečne pruhovanej kostrovej svaloviny červené svalové vlákna obsahujú veľa mitochondrií a ich kontrakcia je vytrvalejšia",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Hladké svalové bunky majú dobre vyvinutý systém T-tubulov a diád",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Hladké svalové bunky okolo bunky sa nachádza sieť kolagénových vlákien - kolagén 1",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Hladké svalové bunky obsahujú myofilamentá ukotvené do denzných teliesok",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Hladké svalové bunky medzi bunkami sa nachádzajú interkalárne disky",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Priečne pruhovaná svalovina je zložená z buniek s centrálne uloženým jadrom",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Priečne pruhovaná svalovina sarkoplazmatické retikulum po depolarizácii sarkolemy uvoľní Ca2+ ióny a výsledkom je skrátenie sarkoméry",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Priečne pruhovaná svalovina aktínové a myozínové myofilamenty sú uložené paralelne vedľa seba",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Priečne pruhovaná svalovina sú tu vytvorené diády zložené z T-tubulu a jednej cisterny sarkoplazmatického retikula",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Biela hmota CNS je tvorená najmä telami neurónov a neurogliou",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Biela hmota CNS z neurogliových buniek sú tam prítomné najmä fibrilárne astrocyty, oligodendrocyty a mikroglia",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Biela hmota CNS pri zafarbení luxulovou modrou a jadrovou červeňou prevláda tu modré zafarbenie - častí myelínu a malé jadrá neurogliových buniek sú červené",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Biela hmota CNS z neurogliových buniek sú tam prítomné najmä protoplazmatické astrocyty a mikroglia",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Pre neuróny platí ich cytoplazma je eozinofilná",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Pre neuróny platí majú pomerne veľké euchromatické jadro a výrazné bazofilné jadierko",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Pre neuróny platí ich telá sú v PNS nahromadené v oblasti ganglií",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Pre neuróny platí veľké pyramídové bunky sa nachádzajú v kôre mozočka",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Pre neurogliu platí v nervovom tkanive sa jej nachádza omnoho menej ako nervových buniek",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Pre neurogliu platí v CNS sa nachádzajú satelitové bunky",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Pre neurogliu platí v PNS Schwannove bunky vytvárajú myelínové pošvy axónov",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Pre neurogliu platí ependýmové bunky sú súčasťou monocytovo-makrofágového systému",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Priečne pruhovaná kostrová svalovina: jej základnou morfologickou jednotkou je svalové vlákno, ktoré má jadrá uložené centrálne",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Priečne pruhovaná kostrová svalovina: priečne pruhovanie v sarkoplazme je podmienené charakteristickým pravidelným usporiadaním aktínových a myozínových myofilamentov",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Priečne pruhovaná kostrová svalovina: červené svalové vlákna umožňujú maximálny výkon počas krátkej doby a zároveň sa rýchlo vyčerpajú (šprinty)",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Priečne pruhovaná kostrová svalovina: je typ svaloviny, ktorá nie je ovládaná vlastnou vôľou",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Sarkoplazma je bohatá na sarkoplamatické retikulum, z ktorého sa uvoľňujú ióny Ca2+, ktorého zvýšená hladina je potrebná na kontrakciu svalového vlákna",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Sarkoplazma obsahuje diády (T-tubulus a jedna cisterna sarkoplazmatického retikula)",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Gliové bunky: satelitové bunky sú prítomné okolo tiel neurónov v ganglion spinale",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Gliové bunky: na tvorbe hematoencefalickej bariéry sa podieľajú výbežky oligodendrocytov",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Gliové bunky: na bazálnom povrchu ependýmových buniek sa môžu nachádzať mikroklky a riasinky pôvodu",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Gliové bunky: mikroglia je neuroektodermového pôvodu",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Luxulovou modrou sa znázornia do modra myelínové pošvy axónov",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Impregnáciou podľa Holmesa sa znázornia jadrá neurónov do ružova",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Mikroglia sa znázorňuje prostredníctvom farbenia hematoxilín eozín",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Impregnáciou podľa Holmesa as znázornia myelínové pošvy periférneho nervu, ale nie nervové vlákna",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Myokard jeho svalová bunka obsahuje množstvo jadier (syncýtium)",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Myokard: sarkoplazma obsahuje triády (T-tubulus a dve cisterny sarkoplazmatického retikula)",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Myokard: myofilamenty sú usporiadané v podobe siete (vzájomne sa krížia)",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Myokard: koncové cytoplazmatické výbežky kardiomyocytov sú pospájané interkalárnymi diskami",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Pre neuróny platí: telá veľkých pyramídových buniek a protoplazmatické astrocyty sa nachádzajú v bielej hmote mozgu",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Pre neuróny platí: multipolárne neuróny predných rohov miechy majú euchromatické jadro a výrazné bazofilné jadierko",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Pre neuróny platí: purkyňove neuróny majú podobnú morfológiu ako purkyňove vlákna v srdci",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Pre neuróny platí: nisslova substancia je lokalizovaná v priebehu celého axónu a podieľa sa na neurotransmisii",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Priečne pruhovaná kostrová svalovina jej základnou jednotkou je svalové vlákno (syncýtium), ktoré má jadrá uložené tesne pod sarkolémou",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Priečne pruhovanie v sarkoplazme je podmienené charakteristickým ukotvením aktínových a myozínových myofilamentov v denzných telieskach",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Priečne pruhovaná svalovina jej typickou štruktúrou sú tzv. diády",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Impregnácia podľa Golgiho znázorní do čierna jadro, jadierko a Nisslovu substanciu v neurónoch a gliových bunkách",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Jadrovou červeňou sa farbia dendrity a axóny neurónov do fialova",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Nisslova substancia sa znázorní prostredníctvom impregnácie OsO4 do čierna",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Najčastejšie sa na impregnáciu nervového tkaniva používajú soli ťažkých kovov (napr. striebra)",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Kontrakcie hladkej svalovej bunky regulujú ióny Ca2+, ktorých prítok do sarkoplazmy zabezpečujú kaveoly",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Sarkoplazma svalovej bunky obsahuje myofibrily prerušované početnými mitochondriami",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Myokard sa vyznačuje výraznou regeneračnou schopnosťou",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Kontrakcie myokardu regulujú ióny Ca2+, ktorých prítok do sarkoplazmy zabezpečujú kaveoly",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Sarkoplazma obsahuje triády (T-tubulus a dve cisterny s/ sarkoplamatického retikula)",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Kontrahovaná hladká svalová bunka má často jadro deformované do tvaru vývrtky",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Chýbanie priečneho pruhovania v hladkej svalovej bunke je podmienená absenciou aktínového cytoskeletu",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Hladká svalovina tento typ svaloviny nájdeme napr. v pažeráku, maternici, močovode, no nevyskytuje sa v stene ciev",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Purkyňové vlákna sú tvorené husto usporiadanými hladkými svalovými bunkami",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Purkyňové vlákna sa nachádzajú v subepikardovej vrstve steny srdca",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Purkyňové vlákna sa nachádzajú v myokarde",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Purkyňové vlákna obsahujú veľké množstvo glykogénu",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Axoplazma je nahromadenie drsného endoplazmatického retikula v axónoch",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Perikaryon a dendrity obsahujú bazofilnú Nisslovu substanciu - tigroid",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Purkyňove bunky patria k najmenším neurónom CNS",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Motoneuróny predných rohov sivej hmoty miechy sú bipolárne",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Gliové bunky v nervovom tkanive sa ich nachádza omnoho menej ako nervových buniek",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "V šedej hmote CNS sa nachádzajú proteoplazmatické aj fibrilárne astrocyty",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Gliové bunky v PNS vytvárajú myelínové pošvy Schwannové bunky",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Ependýmové bunky sú súčasťou monocyto-makrofagového systému",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Vlákno priečne pruhovanej kostrovej svaloviny je obklopené endomysiom, jemnou sieťou retikulových vlákien",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Astrocyty sú podporné bunky nervového tkaniva hviezdicovitého tvaru a podieľajú sa aj na tvorbe gliovej jazvy po poškodení tkaniva",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Vlákno priečne pruhovanej kostrovej svaloviny má veľmi dobre vyvinuté hladké endoplazmové retikulum s dôležitou funkciou počas kontrakcie",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Euchromatín je dominantný typ chromatínu v jadrách neurónov",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Priečne pruhovaná kostrová svalovina obsahuje typické štruktúry nazývané diády, ktoré sú tvorené hladkým endoplazmovým retikulom a T-tubulom",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Príkladom na multipolárne neuróny sú aj Purkyňove neuróny kôry (šedej hmoty) mozočka",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Telá pseudopolárnych neurónov sú v spinálnych gangliách pokryté jednou vrstvou satelitových buniek, ktorých jadrá sú zafarbené na červeno pri použití farbenia jadrová červeň-luxolová modrá",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Priečne pruhovaná kostrová svalovina tvorí podstatnú súčasť steny maternice a je tiež prítomná v celom priebehu steny pažeráka",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Bunky hladkej svaloviny sú navzájom pospájané interkalárnymi diskami",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Kardiomyocyty srdcovej svaloviny obsahujú početné mitochondrie a tiež typické štruktúry nazývané diády, ktoré sú tvorené hladkým endoplazmovým retikulom a Ttubulom",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Perikaryon je telo neuronu, ktoré obsahuje tmavé guľovité jadro a malé množstvo drsného endoplazmového retikula",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Astrocyty sú podporné bunky nervového tkaniva hviezdicovitého tvaru a podieľajú sa aj na tvorbe hemato-encefalickej bariéry",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Sarkoméra je funkčná jednotka priečne pruhovanej kostrovej svaloviny a počas kontrakcie sa jej dĺžka zmenšuje",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Myofibrily v priečne pruhovanej kostrovej svalovine sú usporiadané do sietí",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Mikrogliové bunky nervového tkaniva majú viacero kratších výbežkov a pochádzajú z monocytov",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Základnou morfologickou jednotkou srdcovej svaloviny je priečne pruhované mnohojadrové vlákno",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Kardiomyocyty myokardu obsahujú početné mitochondrie a glykogénové granuly a sú obklopené riedkym kolagénovým väzivom s početnými cievami",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Neurofibrily a neurofilamenty neurónov môžeme pozorovať vo svetelnom mikroskope vďaka impregnácii podľa Golgiho",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Tunica adventitia je najhrubšou vrstvou steny veľkých žíl a obsahuje viac vrstiev pozdĺžne uložených hladkých svalových buniek",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Pyramídové neuróny a protoplazmatické astrocyty môžeme pozorovať v šedej hmote (kôre) mozočka (cerebellum)",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Biela hmota CNS obsahuje aj nemyelinizované axóny, protoplazmatické astrocyty a mikrogliu",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "V cytoplazme hladkej svalovej bunky je dobre vyvinuté sarkoplazmatické retikulum.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Nisslova substancia (tigroid) neurónov nie je pri farbení hematoxylínom a eozínom zreteľná",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Základnou morfologickou jednotkou hladkej svaloviny je svalové vlákno s centrálne uloženým jadrom",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Astrocyty majú vyživovaciu funkciu a tiež môžu vytvoriť gliovú jazvu v mieste deštrukcie tela neurónu",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Myokard sa vyznačuje regeneračnou schopnosťou",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Ependýmové bunky vystielajú centrálny kanál miechy a mozgové komory",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Hladká svalovina má svalové bunky pospájané bunkovými spojeniami, označenými ako interkalárne disky",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Sarkoméra je ohraničená dvoma Z líniami kostrového svalového vlákna a pri jeho kontrakcii sa skracuje",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Sarkoméra je funkčná jednotka priečne pruhovanej kostrovej svaloviny a počas kontrakcie sa skracuje",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "V periférnom nervovom systéme myelinizáciu axónov zabezpečujú Schwannove bunky",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Nisslovu substanciu v neurónoch sme pozorovali prostredníctvom OsO4, bola zafarbená do čierna",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Hladká svalová bunka je vretenovitého tvaru a obsahuje jedno centrálne uložené jadro pretiahnutého tvaru",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Na znázornenie myelínových pošiev axónov napríklad bielej hmoty miechy môžeme použit aj luxolovú modrú a jadrovú červeň, pričom myelínové pošvy sa tu farbia do modra",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Diády sú typickou štruktúrou kostrovej svaloviny a ich úloha je dôležitá pre proces kontrakcie",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Základnou morfologickou jednotkou priečne pruhovanej kostrovej svaloviny je bunka s centrálne uloženým jadrom",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Riedke kolagénové väzivo epineuria obaľuje každé nervové vlákno",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "A - prúžky sú viac elektróndenzné oblasti (obsahujú najmä myozínové filamenty), ktoré sa tmavšie farbia na úrovni svetelnej mikroskopie",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Hladké svalové bunky produkujú retikulové vlákna, ktorými sú obalené",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Myelínové pošvy v periférnom nerve je možné vizualizovať impregnáciou oxidom osmičelým (OsO4).",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Mikrogliové bunky patria k najmenším neurónom kôry mozgu",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Aktínové a myozínové myofilamenty v cytoplazme kardiomyocytu sú usporiadané paralelne vedľa seba, čoho dôsledkom je priečne pruhovanie, viditeľné vo svetelnom mikroskope",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Astrocyty majú početné výbežky a ich pôvod je v hemopoetickej kmeňovej bunke",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Oligodendrocyty tvoria myelínovú pošvu okolo nervových vlákien v periférnych nervoch",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Epimysium je riedke kolagénové väzivo tvoriace obal celého kostrového svalu",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Najčastejšie sa na znázornenie rôznych štruktúr nervového tkaniva používa impregnácia, kde sa využíva afinita štruktúr ku soliam ťažkých kovov (napr. striebra).",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Svalové vlákna kostrovej svaloviny sa v trichrómovom farbení farbia na modro",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Základnou morfologickou jednotkou myokardu je rozvetvená valcovitá bunka, kardiomyocyt",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Aktínové a myozínové myofilamenty v cytoplazme kardiomyocytu sú usporiadané paralelne vedľa seba, čoho dôsledkom je priečne pruhovanie, viditeľné na SM úrovni.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Sarkolema je funkčná jednotka kostrového svalového vlákna, dôležitá pri jeho kontrakcii",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Oligodendrocyty sú gliové bunky s výbežkami, zodpovedné za myelinizáciu axónov v CNS",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Na tvorbe hemato-encefalickej bariéry sa podieľajú výbežky mikroglie",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Oligodendrocyty tvoria myelínovú pošvu periférneho motorického axónu.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Astrocyty majú tzv. pedikly (cievne nožičky), ktorými sa zúčastňujú na tvorbe hemato-encefalickej bariéry",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Sarkoméra je funkčná jednotka kostrového svalového vlákna, dôležitá pre jeho kontrakciu",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Oligodendrocyty sú gliové bunky s výbežkami, zodpovedné za tvorbu hemato-encefalickej bariéry",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Satelitové bunky sú zodpovedné za myelinizáciu axónov v PNS",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Priečne pruhované kostrové svalové vlákno má sarkoplazmové retikulum výrazne redukované",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Cytoplazma astrocytov miechy obsahuje bazofilnú Nisslovu substanciu",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Priečne pruhované kostrové svalové vlákno je základná stavebná jednotka svaloviny steny maternice",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      }
+    ]
+  }
+]

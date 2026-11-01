@@ -1,0 +1,2347 @@
+[
+  {
+    "title": "Biochémia 1 - 03",
+    "description": "Otázky z PDF Biochémia 1 otázky, časť 03. Poradie v zdroji 201–300, strany 27–39. Odpovede podľa označenia v PDF. Otázky odložené na kontrolu: 10.",
+    "questions": [
+      {
+        "question": "Gp- proteín:",
+        "answers": [
+          "je súčasťou plazmatickej membrány bunky",
+          "je v aktívnom stave, keď je na alfa-podjednotku naviazaný GDP",
+          "je v aktívnom stave, keď je na alfa-podjednotku naviazaný GTP",
+          "v aktívnom stave zvyšuje aktivitu fosfolipázy C"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 201,
+          "questionNumber": 201,
+          "page": 27,
+          "endPage": 27,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Ca2+-závislá ATP-áza môže transportovať:",
+        "answers": [
+          "Ca2+ ióny z cytosolu do endoplazmatického retikula",
+          "Ca2+ ióny z endoplazmatického retikula do cytosolu",
+          "Ca2+ ióny z cytosolu do extracelulárneho priestoru",
+          "Ca2+ ióny z extracelulárneho priestoru do cytosolu"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 202,
+          "questionNumber": 202,
+          "page": 27,
+          "endPage": 27,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Aktívny transport je:",
+        "answers": [
+          "pohyb látok v smere koncentračného gradientu",
+          "pohyb látok proti koncentračnému gradientu",
+          "transport Na+ iónov von z bunky",
+          "transport pomocou nosiča bez potreby ATP"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 203,
+          "questionNumber": 203,
+          "page": 27,
+          "endPage": 27,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Sprostredkovaná difúzia:",
+        "answers": [
+          "vyžaduje dodanie energie",
+          "je transport látok po koncentračnom gradiente",
+          "vyžaduje transportný proteín",
+          "je to forma pasívneho transportu"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 204,
+          "questionNumber": 204,
+          "page": 27,
+          "endPage": 27,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "ATP je potrebné:",
+        "answers": [
+          "pre aktívny transport",
+          "pre sprostredkovanú difúziu",
+          "pre difúziu",
+          "pre Ca2+-závislú ATP-ázu"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 205,
+          "questionNumber": 205,
+          "page": 27,
+          "endPage": 27,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Gama-glutamyltransferáza katalyzuje:",
+        "answers": [
+          "primárny aktívny transport",
+          "sekundárny aktívny transport",
+          "sprostredkovanú difúziu",
+          "skupinovú translokáciu"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 206,
+          "questionNumber": 206,
+          "page": 27,
+          "endPage": 27,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Pri sprostredkovanej difúzii:",
+        "answers": [
+          "glukóza je transportovaná z krvi do buniek",
+          "látky sú transportované z miesta vyššej koncentrácie na miesto s nižšou koncentráciou",
+          "látky sú transportované pomocou nosičovej bielkoviny",
+          "spotrebováva sa ATP"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 207,
+          "questionNumber": 207,
+          "page": 27,
+          "endPage": 27,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Na+,K+-závislá ATP-áza transportuje:",
+        "answers": [
+          "Na+ ióny von z bunky",
+          "K+ ióny von z bunky",
+          "Na+ ióny do vnútra bunky",
+          "obidva druhy iónov do bunky"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 208,
+          "questionNumber": 208,
+          "page": 28,
+          "endPage": 28,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "α-podjednotka Gs-proteínu:",
+        "answers": [
+          "aktivuje adenylátcyklázu",
+          "aktivuje fosfolipázu C",
+          "viaže GTP v aktívnom stave",
+          "môže hydrolyzovať GTP"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 209,
+          "questionNumber": 209,
+          "page": 28,
+          "endPage": 28,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Fosfolipáza C:",
+        "answers": [
+          "nachádza sa v membránach buniek",
+          "vytvára ako produkt diacylglycerol",
+          "vytvára ako produkt inozitoltrifosfát",
+          "je aktivovaná Gs-proteínom"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 210,
+          "questionNumber": 210,
+          "page": 28,
+          "endPage": 28,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "G-proteínoch možno povedať:",
+        "answers": [
+          "sú potrebné pre účinok steroidných hormónov",
+          "sú potrebné pre účinok proteínových hormónov",
+          "nachádzajú sa v membránach endoplazmatického retikula",
+          "všetky obsahujú alfa-podjednotku s GTP-ázovou aktivitou"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 211,
+          "questionNumber": 211,
+          "page": 28,
+          "endPage": 28,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "cAMP:",
+        "answers": [
+          "aktivuje proteínkinázu A",
+          "jeho hladina sa znižuje pôsobením fosfodiesterázy",
+          "vzniká po pôsobení steroidných hormónov",
+          "vzniká po pôsobení glukagónu"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 212,
+          "questionNumber": 212,
+          "page": 28,
+          "endPage": 28,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Aktívny transport je:",
+        "answers": [
+          "pohyb látok v smere koncentračného gradientu",
+          "pohyb látok proti koncentračnému gradientu",
+          "transport Na+ iónov do buniek",
+          "transport pomocou nosiča bez dodávky energie"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 214,
+          "questionNumber": 214,
+          "page": 28,
+          "endPage": 28,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Pre transport látok difúziou je potrebné:",
+        "answers": [
+          "energia z ATP",
+          "nosičový proteín",
+          "permeabilita membrány pre danú látku",
+          "koncentračný gradient transportovanej látky"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 215,
+          "questionNumber": 215,
+          "page": 28,
+          "endPage": 28,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Rozdiel medzi jednoduchou a sprostredkovanou difúziou je:",
+        "answers": [
+          "sprostredkovaná difúzia nevyžaduje koncentračný gradient",
+          "sprostredkovaná difúzia vyžaduje energiu z ATP",
+          "sprostredkovaná difúzia je aktívny transport",
+          "sprostredkovaná difúzia vyžaduje transportný proteín"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 216,
+          "questionNumber": 216,
+          "page": 29,
+          "endPage": 29,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "cAMP:",
+        "answers": [
+          "vytvára sa pôsobením cytozolového enzýmu",
+          "na jeho degradácii sa podieľa fosfodiesteráza",
+          "aktivuje tyrozínšpecifickú proteínkinázu",
+          "sprostredkuje účinok adrenalínu po väzba na β-adrenergné receptory"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 217,
+          "questionNumber": 217,
+          "page": 29,
+          "endPage": 29,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Inozitoltrifosfát ovplyvňuje metabolické procesy tým, že:",
+        "answers": [
+          "aktivuje proteínkinázu C",
+          "vedie k vyplaveniu Ca2+ z hladkého endoplazmatického retikula v myokarde",
+          "vedie k vyplaveniu Ca2+ z hladkého endoplazmatického retikula v hladkom svale",
+          "zvyšuje priepustnosť bunkovej membrány pre Na+"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 218,
+          "questionNumber": 218,
+          "page": 29,
+          "endPage": 29,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Ktoré z uvedených aminokyselín sa môžu fosforylovať pôsobením proteínkináz:",
+        "answers": [
+          "serín",
+          "tyrozín",
+          "kyslé aminokyseliny",
+          "treonín"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 219,
+          "questionNumber": 219,
+          "page": 29,
+          "endPage": 29,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Steroidné hormóny:",
+        "answers": [
+          "viažu sa na cytozolové receptory",
+          "ich miesto účinku je v jadre",
+          "vyžadujú pri svojom účinku cAMP ako druhý posol",
+          "stimulujú štiepenie tkanivových bielkovín"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 220,
+          "questionNumber": 220,
+          "page": 29,
+          "endPage": 29,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Transport látok z miesta s vyššou koncentráciou na miesto s nižšou koncentráciou je možný:",
+        "answers": [
+          "jednoduchou difúziou",
+          "primárnym aktívnym transportom",
+          "sprostredkovanou difúziou",
+          "sekundárnym aktívnym transportom"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 221,
+          "questionNumber": 221,
+          "page": 29,
+          "endPage": 29,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Glutatión:",
+        "answers": [
+          "je tripeptid",
+          "je potrebný pre transport aminokyselín do buniek",
+          "je súčasťou systému gama-glutamyltransferázy",
+          "pozostáva z glycínu, glutamínu a cysteínu"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 223,
+          "questionNumber": 223,
+          "page": 29,
+          "endPage": 29,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Primárny aktívny transport:",
+        "answers": [
+          "je mechanizmus pre transport glukózy do buniek",
+          "je transport Na+ iónov von z bunky",
+          "vyžaduje energiu z ATP",
+          "transportuje látky proti koncentračnému gradientu"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 224,
+          "questionNumber": 224,
+          "page": 30,
+          "endPage": 30,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Inozitoltrifosfát:",
+        "answers": [
+          "vzniká účinkom fosfolipázy C",
+          "zvyšuje priepustnosť bunkovej membrány pre Na+",
+          "je aktivátorom proteínkinázy C",
+          "vzniká pomocou enzýmu prítomného v membráne buniek"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 225,
+          "questionNumber": 225,
+          "page": 30,
+          "endPage": 30,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "O G-proteínoch možno povedať:",
+        "answers": [
+          "všetky obsahujú α-podjednotku s GTP-ázovou aktivitou",
+          "nachádzajú sa v membránach endoplazmatického retikula",
+          "sú potrebné pre účinok steroidných hormónov",
+          "sú potrebné pre účinok proteínových hormónov"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 226,
+          "questionNumber": 226,
+          "page": 30,
+          "endPage": 30,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Lipofilné hormóny môžu sprostredkovať prenos signálu:",
+        "answers": [
+          "prostredníctvom druhých poslov",
+          "prostredníctvom cytozolových receptorov",
+          "prostredníctvom jadrových receptorov",
+          "prostredníctvom indukcie alebo represie génovej transkripcie"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 227,
+          "questionNumber": 227,
+          "page": 30,
+          "endPage": 30,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Hydrofilné hormóny môžu sprostredkovať prenos signálu do cieľovej bunky:",
+        "answers": [
+          "prostredníctvom cytozolového receptora",
+          "prostredníctvom jadrového receptora",
+          "prostredníctvom cAMP",
+          "prostredníctvom Ca2+ iónov"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 228,
+          "questionNumber": 228,
+          "page": 30,
+          "endPage": 30,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Sprostredkovaná difúzia:",
+        "answers": [
+          "vyžaduje donor energie",
+          "je to transport látok proti koncentračnému gradientu",
+          "vyžaduje transportný proteín",
+          "je to forma pasívneho transportu"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 229,
+          "questionNumber": 229,
+          "page": 30,
+          "endPage": 30,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Ca2+-závislá ATP-áza vyžaduje Mg2+ ióny, pretože:",
+        "answers": [
+          "Mg2+ ióny sú substrátom pre ATP-ázu",
+          "aktívne miesto enzýmu viaže ATP len ako komplex s iónmi Mg2+",
+          "Mg2+ ióny sú alosterickým aktivátorom enzýmu",
+          "ATP-áza nevyžaduje Mg2+ ióny pre svoju aktivitu"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 230,
+          "questionNumber": 230,
+          "page": 30,
+          "endPage": 30,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Sekundárny aktívny transport vyžaduje:",
+        "answers": [
+          "koncentračný gradient iónov",
+          "energiu z ATP",
+          "transportné bielkoviny pre transport iónov a transportovanú látku",
+          "transportný systém, ktorý regeneruje gradient iónov"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 231,
+          "questionNumber": 231,
+          "page": 30,
+          "endPage": 30,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Pri stanovení Ca2+-závislej ATP-ázy slúžia membrány erytrocytov ako:",
+        "answers": [
+          "substrát",
+          "tlmivý systém",
+          "zdroj enzýmu",
+          "aktivátor enzýmu"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 232,
+          "questionNumber": 232,
+          "page": 31,
+          "endPage": 31,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Gp-proteín:",
+        "answers": [
+          "je súčasť plazmatickej membrány bunky",
+          "je v aktívnom stave, keď je na α-podjednotku naviazaný GDP",
+          "je v aktívnom stave, keď je na α-podjednotku naviazaný GTP",
+          "jeho aktivácia vedie ku zvýšenej aktivite fosfolipázy C"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 233,
+          "questionNumber": 233,
+          "page": 31,
+          "endPage": 31,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Adenylátcykláza:",
+        "answers": [
+          "štiepi cyklický AMP",
+          "syntetizuje cyklický AMP z ADP",
+          "je enzým lokalizovaný v plazmatickej membráne",
+          "je enzým katalyzujúci syntézu cyklického AMP z ATP"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 234,
+          "questionNumber": 234,
+          "page": 31,
+          "endPage": 31,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Proteínkináza A:",
+        "answers": [
+          "je dimér zložený z dvoch regulačných podjednotiek",
+          "je tetramér zložený z dvoch katalytických a dvoch regulačných podjednotiek",
+          "je enzým závislý na cAMP",
+          "je enzým závislý na cGMP"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 235,
+          "questionNumber": 235,
+          "page": 31,
+          "endPage": 31,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Druhé posly:",
+        "answers": [
+          "sú zlúčeniny vznikajúce v bunkách po účinku steroidných hormónov",
+          "sú hormóny, ktoré ovplyvňujú funkcie bunky",
+          "sú napr. ATP a AMP",
+          "môžu sa tvoriť z fosfolipidov"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 236,
+          "questionNumber": 236,
+          "page": 31,
+          "endPage": 31,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Difúzia:",
+        "answers": [
+          "je, keď látky prechádzajú cez membránu z miesta s vyššou koncentráciou na miesto s nižšou koncentráciou",
+          "je, keď látky prechádzajú z miesta s nižšou koncentráciou na miesto s vyššou koncentráciou",
+          "vyžaduje prívod energie",
+          "je to jedna z foriem aktívneho transportu"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 237,
+          "questionNumber": 237,
+          "page": 31,
+          "endPage": 31,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Ca2+-závislá ATP-áza:",
+        "answers": [
+          "je hydroláza, ktorá katalyzuje štiepenie ATP",
+          "je zodpovedná za transport kalciových iónov do bunky",
+          "je prítomná aj v erytrocytoch",
+          "v bunkách kostrového svalu transportuje Ca2+ z cytozolu do sarkoplazmatického retikula"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 238,
+          "questionNumber": 238,
+          "page": 31,
+          "endPage": 31,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Malé nepolárne molekuly sú transportované cez membrány hlavne:",
+        "answers": [
+          "difúziou",
+          "uľahčenou difúziou",
+          "pomocou transportných proteínov",
+          "aktívnym transportom"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 239,
+          "questionNumber": 239,
+          "page": 31,
+          "endPage": 32,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Exocytózou sú transportované:",
+        "answers": [
+          "proteíny do bunky",
+          "ióny von z bunky",
+          "proteíny von z bunky",
+          "exocytóza nie je transportný systém"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 240,
+          "questionNumber": 240,
+          "page": 32,
+          "endPage": 32,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "cAMP:",
+        "answers": [
+          "vzniká v pečeni po pôsobení inzulínu",
+          "vzniká po pôsobení steroidných hormónov",
+          "jeho hladina sa znižuje pôsobením fosfodiesterázy",
+          "aktivuje proteínkinázu C"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 241,
+          "questionNumber": 241,
+          "page": 32,
+          "endPage": 32,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Hydrofóbne látky:",
+        "answers": [
+          "ovplyvňujú bunkové procesy po ich vstupe do buniek",
+          "viažu sa na intracelulárne receptory",
+          "zvyšujú syntézu cAMP",
+          "môžu meniť permeabilitu bunkových membrán pre ióny"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 242,
+          "questionNumber": 242,
+          "page": 32,
+          "endPage": 32,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Druhé posly:",
+        "answers": [
+          "sú látky vznikajúce v bunkách po účinku vo vode rozpustných regulačných látok",
+          "sú cyklické nukleotidy ako napr. cAMP, cGMP",
+          "sú látky, ktoré sa tvoria účinkom cytozolových enzýmov",
+          "sú potrebné pre účinok tyroxínu"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 243,
+          "questionNumber": 243,
+          "page": 32,
+          "endPage": 32,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Cytozolové receptory:",
+        "answers": [
+          "aktivujú sa cAMP",
+          "uplatňujú sa pri účinku vitamínu D",
+          "sú potrebné pre sprostredkovanie účinku kortizolu",
+          "po väzbe hormónu vstupujú do jadra a regulujú expresiu génov"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 244,
+          "questionNumber": 244,
+          "page": 32,
+          "endPage": 32,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "K produktom a medziproduktom Krebsovho cyklu nepatrí:",
+        "answers": [
+          "acetyl CoA",
+          "pyruvát",
+          "2-oxoglutarát",
+          "1,3-bis-fosfoglutarát"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 245,
+          "questionNumber": 245,
+          "page": 32,
+          "endPage": 32,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Enolfosfátová väzba vzniká v reakcii:",
+        "answers": [
+          "katalyzovanej pyruvátkinázou",
+          "katalyzovanej 3-fosfoglycerátdehydrogenázou",
+          "pri ktorej dochádza k dehydratácii",
+          "pri ktorej dochádza k dehydrogenácii"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 246,
+          "questionNumber": 246,
+          "page": 32,
+          "endPage": 32,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Anaeróbne podmienky sú charakterizované:",
+        "answers": [
+          "alkalózou zapríčinenou laktátom",
+          "zvýšenou tvorbou laktátu",
+          "zníženou tvorbou ATP v mitochondriách",
+          "zvýšenou oxidáciou VKK"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 247,
+          "questionNumber": 247,
+          "page": 32,
+          "endPage": 33,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Už krátka anoxia CNS vedie k:",
+        "answers": [
+          "poklesu glykogénu",
+          "poklesu glukózy",
+          "zvýšeniu laktátu",
+          "zvýšeniu ATP"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 248,
+          "questionNumber": 248,
+          "page": 33,
+          "endPage": 33,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Ktorá zlúčenina je tvorená priamo pôsobením glykogénfosforylázy:",
+        "answers": [
+          "glukóza-1-fosfát",
+          "glukóza-6-fosfát",
+          "voľná glukóza",
+          "UDP-glukóza"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 249,
+          "questionNumber": 249,
+          "page": 33,
+          "endPage": 33,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Vytvorené cAMP v bunke fosforyláciou ovplyvňuje aktivity enzýmov metabolizmu glykogénu:",
+        "answers": [
+          "UDP-glukóza-pyrofosforyláza",
+          "glykogénsyntáza",
+          "glykogénfosforyláza",
+          "1,6-glukozidáza"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 250,
+          "questionNumber": 250,
+          "page": 33,
+          "endPage": 33,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Glukóza-6-fosfát:",
+        "answers": [
+          "vzniká priamo odbúravaním glykogénu",
+          "je koncový produkt odbúravania glykogénu vo svale",
+          "je koncový produkt odbúravania glykogénu v pečeni",
+          "vzniká v reakcii katalyzovanej 1,6-glukozidázou"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 251,
+          "questionNumber": 251,
+          "page": 33,
+          "endPage": 33,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Glukagón zvyšuje:",
+        "answers": [
+          "syntézu glykogénu",
+          "glukoneogenézu",
+          "degradáciu glykogénu v pečeni",
+          "oxidáciu glukózy v pečeni"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 252,
+          "questionNumber": 252,
+          "page": 33,
+          "endPage": 33,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Za aeróbnych podmienok:",
+        "answers": [
+          "je konečným produktom glykolýzy kyselina mliečna",
+          "redukované koenzýmy sú oxidované v mitochondriách",
+          "stúpa v bunkách laktát",
+          "nemôže prebiehať citrátový cyklus"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 253,
+          "questionNumber": 253,
+          "page": 33,
+          "endPage": 33,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Počas Coriho cyklu:",
+        "answers": [
+          "dochádza k tvorbe pyruvátu vo svale a jeho uvoľneniu do krvi",
+          "dochádza k tvorbe laktátu vo svale a jeho uvoľneniu do krvi",
+          "sa z produktu uvoľneného zo svalu môže v pečeni vytvárať glukóza",
+          "dochádza k priamej oxidácii glukózy na 6-fosfoglukolaktón"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 254,
+          "questionNumber": 254,
+          "page": 33,
+          "endPage": 33,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Z glykolýzy (za aeróbnych podmienok) získame ATP:",
+        "answers": [
+          "len substrátovou fosforyláciou",
+          "substrátovou fosforyláciou a v terminálnej oxidácii oxidáciou NADH2",
+          "2 moly ATP/1 mol glukózy",
+          "8 molov ATP/1 mol glukózy"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 255,
+          "questionNumber": 255,
+          "page": 34,
+          "endPage": 34,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "K medziproduktom glykolýzy patrí:",
+        "answers": [
+          "acetyl CoA",
+          "citrát",
+          "dihydroxyacetón fosfát",
+          "1,3-bis-fosfoglycerát"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 256,
+          "questionNumber": 256,
+          "page": 34,
+          "endPage": 34,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Glykogénsyntáza využíva ako bezprostredný donor glukózových jednotiek v syntéze glykogénu:",
+        "answers": [
+          "glukóza-1-fosfát",
+          "glukóza-6-fosfát",
+          "UDP-glukóza",
+          "glycerol"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 257,
+          "questionNumber": 257,
+          "page": 34,
+          "endPage": 34,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Glukoneogenéza je syntéza glukózy z:",
+        "answers": [
+          "karboxylových kyselín",
+          "aminokyselín",
+          "glykogénu",
+          "glycerolu"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 258,
+          "questionNumber": 258,
+          "page": 34,
+          "endPage": 34,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "cAMP, ako druhý posol sa tvorí v bunke:",
+        "answers": [
+          "po väzbe inzulínu na receptor v membráne",
+          "po väzbe glukagónu na receptor v membráne",
+          "pri hyperglykémii",
+          "pri hypoglykémii"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 260,
+          "questionNumber": 260,
+          "page": 34,
+          "endPage": 34,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Koncové produkty glykolýzy môžu byť (podľa dostupnosti O2):",
+        "answers": [
+          "laktát + NADH + H+",
+          "pyruvát + NADH + H+",
+          "laktát + NAD+",
+          "pyruvát + NAD+"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 261,
+          "questionNumber": 261,
+          "page": 34,
+          "endPage": 34,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Za anaeróbnych podmienok sa v bunke:",
+        "answers": [
+          "tvorí ATP len substrátovou fosforyláciou",
+          "regeneruje NAD+ v terminálnej oxidácii",
+          "regeneruje NAD+ v reakcii katalyzovanej pyruvátkinázou",
+          "zvyšuje pH"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 262,
+          "questionNumber": 262,
+          "page": 34,
+          "endPage": 34,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Laktátdehydrogenáza je aktívna:",
+        "answers": [
+          "v erytrocytoch aj za aeróbnych podmienok",
+          "vo svaloch aj pri nedostatku kyslíka",
+          "vo svaloch hlavne za anaeróbnych podmienok",
+          "vo forme tetraméru"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 263,
+          "questionNumber": 263,
+          "page": 35,
+          "endPage": 35,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Spoločným medziproduktom metabolizmu cukrov, tukov a bielkovín je:",
+        "answers": [
+          "zlúčenina vstupujúca do Krebsovho cyklu",
+          "acetyl-CoA tvorený v cytosole a následne transportovaný do mitochondrií",
+          "CO2 a H2O",
+          "za anaeróbnych podmienok laktát"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 264,
+          "questionNumber": 264,
+          "page": 35,
+          "endPage": 35,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "V stave dobrej výživy môže pečeňový glykogén predstaviť:",
+        "answers": [
+          "4-5% hmotnosti pečene",
+          "20% hmotnosti pečene",
+          "1-2% hmotnosti pečene",
+          "v pečeni sa glykogén neukladá"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 265,
+          "questionNumber": 265,
+          "page": 35,
+          "endPage": 35,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Počas krátkodobého hladovania:",
+        "answers": [
+          "glykogén zo svalov je zdrojom glukózy v krvi",
+          "z glykogénu v pečeni sa uvoľňuje glukóza",
+          "vyššie karboxylové kyseliny z tukového tkaniva sú oxidované v erytrocytoch",
+          "pečeň využíva vyššie karboxylové kyseliny pre glukoneogenézu"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 266,
+          "questionNumber": 266,
+          "page": 35,
+          "endPage": 35,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "UDP-glukóza:",
+        "answers": [
+          "je tvorená pri degradácii glykogénu",
+          "je aktívna forma glukózy pre syntézu glykogénu",
+          "je intermediát glukoneogenézy",
+          "podieľa sa na regulácii glykolýzy"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 267,
+          "questionNumber": 267,
+          "page": 35,
+          "endPage": 35,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Tvorbu α-1,4-glykozidových väzieb katalyzuje:",
+        "answers": [
+          "glykogénfosforyláza",
+          "vetviaci enzým",
+          "glykogénsyntáza",
+          "glukozidáza"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 268,
+          "questionNumber": 268,
+          "page": 35,
+          "endPage": 35,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Laktát:",
+        "answers": [
+          "je tvorený redukciou pyruvátu",
+          "je koncový produkt aeróbnej glykolýzy",
+          "je tvorený v anaeróbnych podmienkach počas oxidácie NADH2",
+          "v bunkách stúpa v anaeróbnych podmienkach"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 269,
+          "questionNumber": 269,
+          "page": 35,
+          "endPage": 35,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "K medziproduktom glykolýzy patrí:",
+        "answers": [
+          "acetyl-CoA",
+          "citrát",
+          "dihydroxyacetónfosfát",
+          "1,3-bisfosfoglycerát"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 270,
+          "questionNumber": 270,
+          "page": 35,
+          "endPage": 35,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Oxidáciou substrátov vzniká:",
+        "answers": [
+          "ATP priamo v Krebsovom cykle",
+          "ATP priamo v β-oxidácii",
+          "ATP a NADH2 v glykolýze",
+          "ATP z redukovaných koenzýmov v terminálnej oxidácii a oxidatívnej fosforylácii"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 271,
+          "questionNumber": 271,
+          "page": 36,
+          "endPage": 36,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Pre glukoneogenézu sa vyžadujú ako zdroj energie:",
+        "answers": [
+          "UTP",
+          "CTP",
+          "GTP",
+          "ATP"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 272,
+          "questionNumber": 272,
+          "page": 36,
+          "endPage": 36,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Pôsobením α-1,6-glukozidázy je tvorená:",
+        "answers": [
+          "glukóza-1-fosfát",
+          "glukóza-6-fosfát",
+          "voľná glukóza",
+          "maltóza"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 273,
+          "questionNumber": 273,
+          "page": 36,
+          "endPage": 36,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Pre degradáciu glykogénu v pečeni je potrebná:",
+        "answers": [
+          "fosfoglukomutáza",
+          "glukóza-6-bisfosfátfosfatáza",
+          "fosforyláza",
+          "glukokináza"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 274,
+          "questionNumber": 274,
+          "page": 36,
+          "endPage": 36,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "K ireverzibilným reakciám glykolýzy patrí:",
+        "answers": [
+          "všetky reakcie, ktoré spotrebúvajú ATP",
+          "obidve reakcie, v ktorých sa v glykolýze tvorí ATP",
+          "reakcia vzniku fosfoenolpyruvátu",
+          "reakcia, ktorá je v glykolýze aktivovaná ATP"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 275,
+          "questionNumber": 275,
+          "page": 36,
+          "endPage": 36,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Reakcia glykolýzy, v ktorej dochádza k štiepeniu fosforylovanej hexózy:",
+        "answers": [
+          "je katalyzovaná enzýmom, ktorý patrí medzi lyázy",
+          "syntetizuje dve fosforylované aldotriózy",
+          "vedie k vzniku glyceraldehyd-3-fosfátu, ktorý sa ďalej metabolizuje v glykolýze",
+          "reakcia je inhibovaná ATP"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 276,
+          "questionNumber": 276,
+          "page": 36,
+          "endPage": 36,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Fosfoglycerátkináza je enzým, ktorý:",
+        "answers": [
+          "katalyzuje tvorbu 1,3-bisfosfoglycerátu v glykolýze",
+          "katalyzuje vratnú reakciu",
+          "podieľa sa na tvorbe ATP substrátovou fosforyláciou",
+          "umožňuje tvorbu ATP aj za anaeróbnych podmienok"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 277,
+          "questionNumber": 277,
+          "page": 36,
+          "endPage": 36,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Pri úplnej oxidácii glukózy za aeróbnych podmienok:",
+        "answers": [
+          "2 CO2 vznikajú pôsobením pyruvátdehydrogenázy",
+          "pri oxidácii acetyl-CoA v Krebsovom cykle vznikajú 4 mol CO2 na 1 mol glukózy",
+          "oxidatívnou fosforyláciou v glykolýze sa tvorí 8 ATP",
+          "substrátovou fosforyláciou v glykolýze sa tvoria 4 ATP"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 278,
+          "questionNumber": 278,
+          "page": 36,
+          "endPage": 37,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Substrátovej regulácie glykolýzy sa zúčastňuje:",
+        "answers": [
+          "ATP tak, že inhibuje pyruvátkinázu",
+          "ADP tak, že aktivuje fosfofruktokinázu",
+          "glukóza-6-fosfát tak, že inhibuje glukokinázu aj hexokinázu",
+          "fruktóza-1,6-bisfosfát tak, že aktivuje fosfofruktokinázu"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 279,
+          "questionNumber": 279,
+          "page": 37,
+          "endPage": 37,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Priebeh glukoneogenézy je ovplyvnený:",
+        "answers": [
+          "glukagónom, ktorý po väzbe na membránový receptor s následným vzostupom cAMP vedie k fosforylácii pyruvátkinázy a tým k jej inaktivácii",
+          "kortizolom, ktorý fosforyláciou aktivuje enzýmy glukoneogenézy v pečeni",
+          "kortizolom, ktorý indukuje enzýmy glukoneogenézy v pečeni",
+          "acetyl-CoA, ktorý je priamym aktivátorom fosfoenolpyruvátkarboxykinázy"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 280,
+          "questionNumber": 280,
+          "page": 37,
+          "endPage": 37,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Na regulácii glykémie sa podieľa:",
+        "answers": [
+          "kortizol",
+          "kalcitonín",
+          "testosterón",
+          "glukagón"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 281,
+          "questionNumber": 281,
+          "page": 37,
+          "endPage": 37,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Orálny glukózový tolerančný test:",
+        "answers": [
+          "robí sa u každého pacienta s diabetes mellitus",
+          "sa nerobí ak glykémia nalačno je väčšia ako 8mmol/l",
+          "vyžaduje podanie inzulínu pacientovi",
+          "je potrebné u pacienta s diabetom pravidelne opakovať"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 282,
+          "questionNumber": 282,
+          "page": 37,
+          "endPage": 37,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Premena dihydroxyacetónfosfátu na glycerolfosfát:",
+        "answers": [
+          "je vratná reakcia",
+          "je katalyzovaná glycerolfosfátdehydrogenázou",
+          "nemá význam pre proces glukoneogenézy",
+          "je aj súčasťou transportu vodíkov z NADH2 vytvorených napr. v glykolýze do mitochondrie"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 285,
+          "questionNumber": 285,
+          "page": 37,
+          "endPage": 37,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Hypoxia buniek a tkanív:",
+        "answers": [
+          "spôsobuje pokles tvorby ATP substrátovou fosforyláciou",
+          "znižuje priebeh terminálnej oxidácie a oxidačnej fosforylácie",
+          "neovplyvňuje tvorbu protónového gradientu v mitochondriách",
+          "neovplyvňuje priebeh reakcií anaeróbnej glykolýzy"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 286,
+          "questionNumber": 286,
+          "page": 37,
+          "endPage": 38,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Pyruvátkináza:",
+        "answers": [
+          "katalyzuje reakciu, ktorá je ireverzibilná, pretože obsah energie v ATP je vyšší ako obsah energie v substráte reakcie",
+          "katalyzuje reakciu, ktorá je dôležitá pre tvorbu ATP v anaeróbnych podmienkach",
+          "je aktivovaná defosforyláciou, k čomu dochádza počas hladovania",
+          "zodpovedá za tvorbu fosfoenolpyruvátu v glukoneogenéze"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 287,
+          "questionNumber": 287,
+          "page": 38,
+          "endPage": 38,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Glukoneogenéza:",
+        "answers": [
+          "je proces, pri ktorom sa syntetizuje glukóza z vyšších karboxylových kyselín",
+          "prebieha v pečeni a obličkách",
+          "zabezpečuje tvorbu glukózy v podmienkach hladovania",
+          "je proces, ktorý je aktivovaný glukokortikoidmi"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 288,
+          "questionNumber": 288,
+          "page": 38,
+          "endPage": 38,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Orálny glukózo-tolerančný test je vyšetrenie, ktoré:",
+        "answers": [
+          "informuje o množstve glukózy prijatej potravou",
+          "sa robí vždy, ak glykémia nalačno presahuje hodnoty 8 mmol/l",
+          "sa robí na zistenie porúch regulácie metabolizmu glukózy",
+          "sa nesmie uskutočniť, ak glykémia nalačno je viac ako 6mmol/l"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 289,
+          "questionNumber": 289,
+          "page": 38,
+          "endPage": 38,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Hypoglykémia:",
+        "answers": [
+          "je stav, keď koncentrácia glukózy v krvi klesá pod 5,6 mmol/l",
+          "je dôsledkom zníženej sekrécie inzulínu",
+          "môže nastať u pacienta so zlyhaním kôry nadobličiek",
+          "poškodzuje predovšetkým tkanivo CNS"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 290,
+          "questionNumber": 290,
+          "page": 38,
+          "endPage": 38,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Aktivácia glukózy:",
+        "answers": [
+          "vyžaduje zdroj energie ATP",
+          "znamená premenu glukózy na glukóza-6-P",
+          "je potrebná pre zapojenie glukózy do glykolýzy, syntézy glykogénu i do pentózového cyklu",
+          "v pečeni je katalyzovaná najmä hexokinázou, ktorá má vysokú afinitu ku glukóze"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 291,
+          "questionNumber": 291,
+          "page": 38,
+          "endPage": 38,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Spoločná metabolická dráha oxidácie cukrov, tukov a bielkovín je:",
+        "answers": [
+          "glykolýza",
+          "Krebsov cyklus",
+          "β-oxidácia",
+          "citrátový cyklus"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 296,
+          "questionNumber": 296,
+          "page": 39,
+          "endPage": 39,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Za anaeróbnych podmienok dochádza v bunkách:",
+        "answers": [
+          "k vzostupu glukózy",
+          "k vzostupu laktátu",
+          "k poklesu ATP",
+          "k acidóze"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 298,
+          "questionNumber": 298,
+          "page": 39,
+          "endPage": 39,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Na regulácii syntézy glykogénu sa podieľa:",
+        "answers": [
+          "glukagón",
+          "inzulín",
+          "cAMP",
+          "regulačný enzým glykogénfosforyláza"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 299,
+          "questionNumber": 299,
+          "page": 39,
+          "endPage": 39,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Pri hladovaní je hlavným zdrojom energie:",
+        "answers": [
+          "v pečeni glukóza",
+          "vo svale glukóza",
+          "vo svale VKK",
+          "v mozgu VKK"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 300,
+          "questionNumber": 300,
+          "page": 39,
+          "endPage": 39,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      }
+    ]
+  }
+]

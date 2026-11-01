@@ -1,0 +1,156 @@
+# Mapovanie strana → otázka (Chémia A)
+
+- str.11 [kontrola]: Osmotický tlak π:
+- str.12 [kontrola]: Účinnou zložkou hydrogénuhličitanového tlmivého systému na úrovni organizmu je
+- str.13 [kontrola]: Keď sa v priebehu enzýmovej reakcie hromadí produkt, reakcia sa spomaľuje. Tento proces 
+- str.14 [test]: Kladný indukčný efekt majú atómy alebo atómové skupiny:
+- str.15 [test]: Tlmivá schopnosť proteínov je daná
+- str.16 [kontrola]: Bilirubín:
+- str.17 [kontrola]: O vlastnostiach deoxyribonukleových kyselín platí:
+- str.18 [test]: Štruktúra nikotínamidu je odvodená od:
+- str.19 [test]: Osmotický tlak roztokov závisí:
+- str.20 [test]: O niacíne môžeme povedať:
+- str.21 [test]: K významným tlmivým systémom krvi patrí:
+- str.22 [kontrola]: Mechanizmus dvojsubstrátových reakcií, pri ktorom sa naviažu oba substráty skôr ako sa u
+- str.23 [test]: Koncentrácia látkového množstva látky B je:
+- str.24 [test]: O medi platí:
+- str.25 [test]: Medzi hydroxy-aminokyseliny patrí:
+- str.26 [test]: Glykozidová väzba vzniká reakciou medzi:
+- str.27 [test]: O alkoholoch a fenoloch môžeme povedať:
+- str.28 [test]: Glykolipidy:
+- str.29 [test]: Ktorý z vitamínov je zložkou koenzýmov pre oxidačno-redukčné enzýmy:
+- str.30 [test]: Redukciou ketóz vzniká:
+- str.31 [test]: Kyselina mliečna:
+- str.32 [test]: O glykokonjugátoch môžeme povedať:
+- str.33 [test]: Zložené lipidy môžu byť:
+- str.34 [kontrola]: K funkčným derivátom karboxylových kyselín nepatria:
+- str.35 [test]: Označte správne tvrdenie o steroidoch:
+- str.36 [test]: O primárnej a sekundárnej štruktúre bielkovín môžeme povedať:
+- str.37 [test]: Enzýmy:
+- str.38 [test]: Informáciu o poradí aminokyselín v reťazci bielkoviny majú bunky zakódovanú:
+- str.39 [test]: V nukleotide, ktorý je stavebnou jednotkou RNA sa nachádza viazaná:
+- str.40 [test]: Tokoferol:
+- str.41 [test]: Pre nasledovnú reakciu Glukóza + ATP → Glukóza-6-fosfát + ADP rozhodni, ktoré z tvrdení 
+- str.42 [test]: Po rozpustení CH3COONH4 v destilovanej vode bude vo vzniknutom roztoku:
+- str.43 [test]: Rýchlosť enzýmovej reakcie ovplyvňuje:
+- str.44 [test]: Izomérne štruktúry sú:
+- str.45 [test]: Tyrozín:
+- str.46 [kontrola]: Monosacharidy poskytujú reakcie:
+- str.47 [kontrola]: Zinok ako biogénny prvok:
+- str.48 [test]: Látka sa môže prejaviť ako kyselina a zásada:
+- str.49 [kontrola]: Pre kyseliny označené skratkami 18:2(9,12); 20:4(5,8,11,14); 24:0 platí:
+- str.50 [kontrola]: Pri akompetitívnej inhibícii:
+- str.51 [kontrola]: O laktóze môžeme povedať:
+- str.52 [kontrola]: Vitamín D3:
+- str.53 [test]: Reakčné teplo premeny reaktantov na koncové produkty závisí od:
+- str.54 [test]: Špecifickosť enzýmov:
+- str.55 [test]: Kyselina jantárová:
+- str.56 [test]: Najjednoduchšia dikarboxylová kyselina je:
+- str.57 [test]: O feritíne platí:
+- str.58 [kontrola]: K derivátom močoviny patrí:
+- str.59 [test]: Označte redukujúci sacharid:
+- str.60 [test]: Z uvedených zlúčenín vyberte tie, v ktorých sú atómy prvkov viazané polárnou kovalentnou
+- str.61 [test]: Vitamíny:
+- str.62 [test]: Osmóza:
+- str.63 [kontrola]: Pre exergonické reakcie platí:
+- str.64 [test]: Sfingozín:
+- str.65 [test]: O deoxyribonukleovej kyseline môžeme povedať:
+- str.66 [test]: O lipoproteínoch platí:
+- str.67 [test]: Pri kompetitívnej inhibícii:
+- str.68 [kontrola]: O heterocyklických dusíkových zásadách nachádzajúcich sa v nukleových kyselinách môžeme 
+- str.69 [kontrola]: Dvojvláknovú závitnicu DNA (sekundárna štruktúra DNA) stabilizujú:
+- str.70 [test]: Interakcia enzýmu so substrátom sa vysvetľuje ako:
+- str.71 [test]: Posun chemickej rovnováhy:
+- str.72 [test]: Kyselina vínna:
+- str.73 [kontrola]: O aktivačnej energii E_a platí, že:
+- str.74 [test]: O preklade poradia nukleotidov z mRNA do poradia aminokyselín pri proteosyntéze môžeme p
+- str.75 [test]: Horčík:
+- str.76 [test]: Nukleofilné činidlo:
+- str.77 [test]: Indukčný efekt:
+- str.78 [test]: Pravé roztoky môžu byť:
+- str.79 [test]: Peptidová väzba:
+- str.80 [kontrola]: O dusíku a jeho zlúčeninách platí:
+- str.81 [kontrola]: Po rozpustení CH3COONa v destilovanej vode bude vo vzniknutom roztoku:
+- str.82 [kontrola]: Vitamín B12:
+- str.83 [kontrola]: Enzýmy:
+- str.84 [test]: Acylpyrín:
+- str.85 [test]: Závislosť medzi rýchlosťou enzýmovej reakcie a koncentráciou substrátu vyjadruje:
+- str.86 [test]: O zložení bielkovín môžeme povedať:
+- str.87 [kontrola]: O štruktúre DNA a RNA môžeme povedať:
+- str.88 [test]: K substitučným derivátom karboxylových kyselín patria:
+- str.89 [test]: K reaktívnym metabolitom kyslíka patrí:
+- str.90 [NESPRACOVANÉ]: 
+- str.91 [kontrola]: O hexózach môžeme povedať:
+- str.92 [test]: Izoenzýmy:
+- str.93 [kontrola]: O železe ako biogénnom prvku platí:
+- str.94 [test]: Antioxidačné účinky môže mať:
+- str.95 [kontrola]: Mutarotácia je:
+- str.96 [test]: Molekula peroxidu vodíka môže podliehať:
+- str.97 [test]: Kyselina izocitrónová:
+- str.98 [kontrola]: K makroergickým zlúčeninám patrí:
+- str.99 [test]: Fosfatidylkolamíny:
+- str.100 [NESPRACOVANÉ]: 
+- str.101 [NESPRACOVANÉ]: 
+- str.102 [kontrola]: O vlastnostiach deoxyribonukleových kyselín platí:
+- str.103 [test]: Keď sa v priebehu enzýmovej reakcie hromadí produkt, reakcia sa spomaľuje. Tento proces 
+- str.104 [test]: Tlmivá schopnosť proteínov je daná:
+- str.105 [kontrola]: Kyselina citrónová :
+- str.106 [kontrola]: Retinal:
+- str.107 [kontrola]: Disperzné systémy sa vyznačujú:
+- str.108 [test]: Autoprotolýza vody:
+- str.109 [test]: Rovnovážny stav chemických a biochemických reakcií ovplyvňuje:
+- str.110 [test]: O glutatióne môžeme povedať:
+- str.111 [kontrola]: Horčík:
+- str.112 [kontrola]: Alanín pri pH = 3 je prevažne v štruktúrnej forme:
+- str.113 [test]: Zlúčenina vzorca HOOC-CO-CH2-COOH:
+- str.114 [test]: O triacylglyceroloch môžeme povedať:
+- str.115 [test]: O lipidoch možno tvrdiť, že:
+- str.116 [NESPRACOVANÉ]: 
+- str.117 [kontrola]: Keď sa molekula viaže na miesto mimo aktívneho centra enzýmu a dochádza k takej konforma
+- str.118 [NESPRACOVANÉ]: 
+- str.119 [kontrola]: Označte správne tvrdenie o superhelixe:
+- str.120 [kontrola]: O nukleozóme platí tvrdenie:
+- str.121 [kontrola]: Kyselina fumarová:
+- str.122 [kontrola]: Izomérnymi zlúčeninami sú:
+- str.123 [NESPRACOVANÉ]: 
+- str.124 [test]: Draslík:
+- str.125 [kontrola]: O lipázach platí tvrdenie:
+- str.126 [kontrola]: O kyseline glukurónovej v organizme môžeme povedať:
+- str.127 [kontrola]: Funkčné skupiny sú prenášané:
+- str.128 [kontrola]: Indukcia enzýmu:
+- str.129 [kontrola]: O aminokyselinách môžeme povedať:
+- str.130 [kontrola]: Označte správne tvrdenie o monosacharidoch:
+- str.131 [kontrola]: O vitamíne E môžeme tvrdiť:
+- str.132 [test]: O toxických prvkoch a ich zlúčeninách platí:
+- str.133 [kontrola]: Po rozpustení Na2CO3 v destilovanej vode bude vo vzniknutom roztoku:
+- str.134 [test]: Lipidy v organizme môžu mať funkciu:
+- str.135 [test]: O glykolipidoch platí:
+- str.136 [test]: Reaktívne metabolity:
+- str.137 [test]: Limitovaná proteolýza:
+- str.138 [test]: O polysacharidoch môžeme povedať:
+- str.139 [test]: Medzi dikarboxylové kyseliny patrí:
+- str.140 [test]: Michaelisova-Mentenovej konštanta:
+- str.141 [test]: O steroidoch platí:
+- str.142 [nie-kvíz]: 
+- str.143 [nie-kvíz]: 
+- str.144 [nie-kvíz]: 
+- str.145 [kontrola]: Aktivačná energia
+- str.146 [nie-kvíz]: 
+- str.147 [NESPRACOVANÉ]: 
+- str.148 [NESPRACOVANÉ]: 
+- str.149 [kontrola]: Tokoferol:
+- str.150 [kontrola]: Mechanizmus dvojsubstrátových reakcií, pri ktorom sa naviažu oba substráty skôr ako sa u
+- str.151 [kontrola]: O niacíne môžeme povedať:
+- str.152 [kontrola]: Kyselina jantárová:
+- str.153 [kontrola]: Z uvedených zlúčenín vyberte tie, v ktorých sú atómy prvkov viazané polárnou kovalentnou
+- str.154 [kontrola]: O glykokonjugátoch môžeme povedať:
+- str.155 [NESPRACOVANÉ]: 
+- str.156 [NESPRACOVANÉ]: 
+- str.157 [NESPRACOVANÉ]: 
+- str.158 [NESPRACOVANÉ]: 
+- str.159 [NESPRACOVANÉ]: 
+- str.160 [NESPRACOVANÉ]: 
+- str.161 [NESPRACOVANÉ]: 
+- str.162 [NESPRACOVANÉ]: 
+- str.163 [NESPRACOVANÉ]: 
+- str.164 [NESPRACOVANÉ]: 

@@ -1,0 +1,309 @@
+[
+  {
+    "title": "histo zápočet foto",
+    "description": "Otázky z 14 fotiek z Moodle testu — extrahované cez Vision API (preverené texty)",
+    "category": "Histológia",
+    "questions": [
+      {
+        "question": "Impregnácia podľa Holmesa zvýrazňuje neurofibrily vo výbežkoch neurónu.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Retikulocyt je nezrelá forma erytrocytu v periférnej krvi.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Hladká svalová bunka obsahuje diady.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Enzýmy potrebné na preniknutie spermie cez obaly oocytu sú ukladané v akrozóme.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Pri implantácii embrya bunky embryoblastu enzymaticky rozrušujú sliznicu maternice.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Sarkoplazmatické retikulum v svalovom vlákne slúži ako zásobáreň Ca2+",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Malé lymfocyty majú tmavé okrúhle jadro a úzky pás bazofilnej cytoplazmy.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Kardiomyocyty obsahujú výlučne iba jedno jadro.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Cytoplazma astrocytov obsahuje bazofilnú Nisslovu substanciu.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Po implantácii sa fibroblasty endometria menia na veľké deciduálne bunky.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Kardiomyocyt je valcovitá bunka nepravidelného tvaru.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Monocyty tvoria približne 43% leukocytov.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Myokard obsahuje triády.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Špecifické granuly granulocytov sú lyzozómy so litickými enzýmami.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Ependýmové bunky vystielajú mozgové komory.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Nisslova substancia nie je pozorovateľná pri farbení hematoxylínom a eozínom.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Satelitové bunky majú početné výbežky viditeľné svetelným mikroskopom.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Pseudounipolárny neurón má jeden výbežok, ktorý sa delí na dve vetvy.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Eozinofilný granulocyt je väčší ako erytrocyt.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Základnou morfologickou jednotkou priečne pruhovanej kostrovej svaloviny je svalová bunka.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Základnou morfologickou jednotkou myokardu sú aktínové a myozínové myofilamenty.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Multipolárne neuróny sú prítomné v kôre mozočka.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Bazofilné granulocyty obsahujú histamín a heparín v špecifických granulách.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Neutrofily sú označované aj ako 'mikrofágy'.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Satelitové bunky zabezpečujú výživu neurónov v PNS.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Neutrofilné granulocyty sú najväčšie biele krvinky periférnej krvi.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Cytoplazma lymfocytu je eozinofilná.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Šedá hmota CNS obsahuje kapiláry.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Z línia je miesto ukotvenia myozínových filamentov.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Svalové vlákna sa trichrómom farbia na modro.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      }
+    ]
+  }
+]

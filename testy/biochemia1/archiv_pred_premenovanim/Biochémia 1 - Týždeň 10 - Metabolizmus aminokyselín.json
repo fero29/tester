@@ -1,0 +1,1915 @@
+[
+  {
+    "title": "Biochémia 1 - Týždeň 10 - Metabolizmus aminokyselín",
+    "description": "10. týždeň, ZS 2026/2027: Enzýmy metabolizmu aminokyselín. Otázky zaradené podľa cieľov týždenného programu; odpovede podľa zdrojového PDF.",
+    "questions": [
+      {
+        "question": "Dekarboxylácia serínu:",
+        "answers": [
+          "vedie k tvorbe látky potrebnej pre syntézu fosfolipidov",
+          "vyžaduje ako koenzým pyridoxalfosfát",
+          "prebieha mechanizmom Schiffovej bázy",
+          "vyžaduje ATP ako zdroj energie"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 616,
+          "questionNumber": 616,
+          "page": 80,
+          "endPage": 80,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 10,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w10_enzymy_aminokyseliny",
+          "reason": "Otázka skúša dekarboxylácie, transaminácie, deaminácie aminokyselín alebo enzýmy ALT/AST.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 11,
+          "objectiveRefs": [
+            3,
+            4,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Ktoré zlúčeniny sú tvorené pôsobením alanínaminotransferázy:",
+        "answers": [
+          "pyruvát a glutamín",
+          "alanín a glutamát",
+          "oxalacetát a glutamát",
+          "alanín a 2-oxoglutarát"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 617,
+          "questionNumber": 617,
+          "page": 80,
+          "endPage": 80,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 10,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w10_enzymy_aminokyseliny",
+          "reason": "Otázka skúša dekarboxylácie, transaminácie, deaminácie aminokyselín alebo enzýmy ALT/AST.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 11,
+          "objectiveRefs": [
+            3,
+            4,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Glutamátdehydrogenáza je enzým, ktorý:",
+        "answers": [
+          "môže katalyzovať syntézu glutamátu",
+          "má koenzým pyridoxalfosfát",
+          "je enzýmom 2. kroku nepriamej deaminácie aminokyselín",
+          "katalyzuje oxidačnú deamináciu glutamátu za uvoľnenia amoniaku"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 618,
+          "questionNumber": 618,
+          "page": 81,
+          "endPage": 81,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 10,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w10_enzymy_aminokyseliny",
+          "reason": "Otázka skúša dekarboxylácie, transaminácie, deaminácie aminokyselín alebo enzýmy ALT/AST.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 11,
+          "objectiveRefs": [
+            3,
+            4,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Aminotransferázy:",
+        "answers": [
+          "sú významné pre syntézu esenciálnych aminokyselín",
+          "vyžadujú pyridoxalfosfát ako koenzým",
+          "sú enzýmy 1. kroku nepriamej deaminácie aminokyselín",
+          "nepatria medzi funkčné enzýmy plazmy"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 619,
+          "questionNumber": 619,
+          "page": 81,
+          "endPage": 81,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 10,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w10_enzymy_aminokyseliny",
+          "reason": "Otázka skúša dekarboxylácie, transaminácie, deaminácie aminokyselín alebo enzýmy ALT/AST.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 11,
+          "objectiveRefs": [
+            3,
+            4,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Priama deaminácia aminokyselín:",
+        "answers": [
+          "vyžaduje koenzým FMN",
+          "vedie k tvorbe ATP",
+          "je katalyzovaná oxidázami aminokyselín",
+          "vodíky sa prenášajú na koenzým NAD a z neho priamo na kyslík"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 624,
+          "questionNumber": 624,
+          "page": 81,
+          "endPage": 81,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 10,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w10_enzymy_aminokyseliny",
+          "reason": "Otázka skúša dekarboxylácie, transaminácie, deaminácie aminokyselín alebo enzýmy ALT/AST.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 11,
+          "objectiveRefs": [
+            3,
+            4,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Glutamátdehydrogenáza:",
+        "answers": [
+          "katalyzuje oxidačnú deamináciu glutamátu za uvoľnenia amoniaku",
+          "má koenzým pyridoxalfosfát",
+          "je enzýmom 2. kroku nepriamej deaminácie aminokyselín",
+          "má koenzým NAD"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 625,
+          "questionNumber": 625,
+          "page": 81,
+          "endPage": 82,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 10,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w10_enzymy_aminokyseliny",
+          "reason": "Otázka skúša dekarboxylácie, transaminácie, deaminácie aminokyselín alebo enzýmy ALT/AST.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 11,
+          "objectiveRefs": [
+            3,
+            4,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Dekarboxylácia serínu:",
+        "answers": [
+          "vedie k tvorbe látky potrebnej pre syntézu fosfolipidov",
+          "je reakcia, ktorá nevyžaduje koenzým",
+          "prebieha mechanizmom Schiffovej bázy",
+          "vedie k tvorbe etanolamínu"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 626,
+          "questionNumber": 626,
+          "page": 82,
+          "endPage": 82,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 10,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w10_enzymy_aminokyseliny",
+          "reason": "Otázka skúša dekarboxylácie, transaminácie, deaminácie aminokyselín alebo enzýmy ALT/AST.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 11,
+          "objectiveRefs": [
+            3,
+            4,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Ktoré enzýmy a koenzýmy sú potrebné pre nepriamu deamináciu aminokyselín:",
+        "answers": [
+          "transamináza a NAD",
+          "glutamátdehydrogenáza a NAD",
+          "dekarboxyláza a pyridoxalfosfát",
+          "transamináza a pyridoxalfosfát"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 631,
+          "questionNumber": 631,
+          "page": 82,
+          "endPage": 82,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 10,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w10_enzymy_aminokyseliny",
+          "reason": "Otázka skúša dekarboxylácie, transaminácie, deaminácie aminokyselín alebo enzýmy ALT/AST.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 11,
+          "objectiveRefs": [
+            3,
+            4,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Glutamín:",
+        "answers": [
+          "jeho tvorbu katalyzuje glutamináza",
+          "transportuje amoniak do pečene a obličky",
+          "vzniká v reakcii katalyzovanej glutamínsyntázou",
+          "v pečeni je štiepený glutaminázou"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 632,
+          "questionNumber": 632,
+          "page": 82,
+          "endPage": 82,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 10,
+          "relatedWeeks": [
+            11
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w10_fixacia_amoniaku",
+          "reason": "Tvorba glutamínu a fixácia alebo transport amoniaku sú výslovným cieľom 10. týždňa.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 11,
+          "objectiveRefs": [
+            5
+          ]
+        }
+      },
+      {
+        "question": "Dekarboxylácia glutamátu:",
+        "answers": [
+          "vyžaduje pyridoxalfosfát ako koenzým",
+          "vedie k tvorbe kyseliny gama-aminomaslovej",
+          "je katalyzovaná glutamátdehydrogenázou",
+          "je potrebná k syntéze etanolamínu"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 633,
+          "questionNumber": 633,
+          "page": 83,
+          "endPage": 83,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 10,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w10_enzymy_aminokyseliny",
+          "reason": "Otázka skúša dekarboxylácie, transaminácie, deaminácie aminokyselín alebo enzýmy ALT/AST.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 11,
+          "objectiveRefs": [
+            3,
+            4,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Pri transaminačných reakciách:",
+        "answers": [
+          "2-oxoglutarát je akceptorom NH2- skupiny",
+          "enzým alanínaminotransferáza vyžaduje koenzým NAD",
+          "je potrebný pyridoxalfosfát ako koenzým",
+          "dochádza k deaminácii glutamátu"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 634,
+          "questionNumber": 634,
+          "page": 83,
+          "endPage": 83,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 10,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w10_enzymy_aminokyseliny",
+          "reason": "Otázka skúša dekarboxylácie, transaminácie, deaminácie aminokyselín alebo enzýmy ALT/AST.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 11,
+          "objectiveRefs": [
+            3,
+            4,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Glutamínsyntáza je enzým, ktorý:",
+        "answers": [
+          "môže katalyzovať syntézu glutamátu",
+          "vyžaduje ATP pre tvorbu glutamínu",
+          "katalyzuje uvoľňovanie amoniaku z glutamínu",
+          "je potrebný pre detoxikáciu amoniaku"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 638,
+          "questionNumber": 638,
+          "page": 83,
+          "endPage": 83,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 10,
+          "relatedWeeks": [
+            11
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w10_fixacia_amoniaku",
+          "reason": "Tvorba glutamínu a fixácia alebo transport amoniaku sú výslovným cieľom 10. týždňa.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 11,
+          "objectiveRefs": [
+            5
+          ]
+        }
+      },
+      {
+        "question": "Ktoré z uvedených zlúčenín sú potrebné pre nepriamu deamináciu:",
+        "answers": [
+          "pyridoxalfosfát",
+          "2-oxoglutarát",
+          "glutamát",
+          "koenzým NAD"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 639,
+          "questionNumber": 639,
+          "page": 83,
+          "endPage": 83,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 10,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w10_enzymy_aminokyseliny",
+          "reason": "Otázka skúša dekarboxylácie, transaminácie, deaminácie aminokyselín alebo enzýmy ALT/AST.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 11,
+          "objectiveRefs": [
+            3,
+            4,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Alanínaminotransferáza:",
+        "answers": [
+          "využíva pyridoxalfosfát ako koenzým",
+          "je enzým typický pre pečeňové tkanivo",
+          "utilizuje pyruvát a glutamát ako substráty",
+          "vytvára alanín v extrahepatálnych tkanivách"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 640,
+          "questionNumber": 640,
+          "page": 83,
+          "endPage": 83,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 10,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w10_enzymy_aminokyseliny",
+          "reason": "Otázka skúša dekarboxylácie, transaminácie, deaminácie aminokyselín alebo enzýmy ALT/AST.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 11,
+          "objectiveRefs": [
+            3,
+            4,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Priama deaminácia aminokyselín:",
+        "answers": [
+          "využíva koenzým NAD na deamináciu glutamátu",
+          "umožňuje vznik ATP účinkom oxidáz aminokyselín",
+          "vedie k tvorbe H2O2 účinkom oxidáz aminokyselín",
+          "vyžaduje FMN ako koenzým"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 641,
+          "questionNumber": 641,
+          "page": 84,
+          "endPage": 84,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 10,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w10_enzymy_aminokyseliny",
+          "reason": "Otázka skúša dekarboxylácie, transaminácie, deaminácie aminokyselín alebo enzýmy ALT/AST.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 11,
+          "objectiveRefs": [
+            3,
+            4,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Oxidačná deaminácia glutamátu:",
+        "answers": [
+          "vyžaduje koenzým NADH",
+          "je druhý stupeň nepriamej deaminácie aminokyselín",
+          "vedie k tvorbe 2-oxoglutarátu",
+          "vedie k tvorbe ATP"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 646,
+          "questionNumber": 646,
+          "page": 84,
+          "endPage": 84,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 10,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w10_enzymy_aminokyseliny",
+          "reason": "Otázka skúša dekarboxylácie, transaminácie, deaminácie aminokyselín alebo enzýmy ALT/AST.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 11,
+          "objectiveRefs": [
+            3,
+            4,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Alanínaminotransferáza je enzým, ktorý:",
+        "answers": [
+          "sa zúčastňuje tvorby látky potrebnej pre glukoneogenézu",
+          "využíva pyruvát a 2-oxoglutarát ako substráty",
+          "je potrebný pre syntézu neesenciálnych aminokyselín",
+          "využíva 2-oxoglutarát a alanín ako substráty"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 647,
+          "questionNumber": 647,
+          "page": 84,
+          "endPage": 84,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 10,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w10_enzymy_aminokyseliny",
+          "reason": "Otázka skúša dekarboxylácie, transaminácie, deaminácie aminokyselín alebo enzýmy ALT/AST.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 11,
+          "objectiveRefs": [
+            3,
+            4,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Glutamín:",
+        "answers": [
+          "vyžaduje pre svoju tvorbu enzým glutaminázu a ATP",
+          "transportuje amoniak do pečene",
+          "jeho tvorba je katalyzovaná glutamínsyntázou",
+          "je netoxická transportná forma amoniaku"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 649,
+          "questionNumber": 649,
+          "page": 85,
+          "endPage": 85,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 10,
+          "relatedWeeks": [
+            11
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w10_fixacia_amoniaku",
+          "reason": "Tvorba glutamínu a fixácia alebo transport amoniaku sú výslovným cieľom 10. týždňa.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 11,
+          "objectiveRefs": [
+            5
+          ]
+        }
+      },
+      {
+        "question": "Alanínaminotransferáza je enzým, ktorý:",
+        "answers": [
+          "je súčasťou malátaspartátového člnku",
+          "ako substráty využíva alanín a 2-oxoglutarát",
+          "sa zúčastňuje tvorby látky potrebnej pre glukoneogenézu",
+          "je potrebný pre syntézu neesenciálnych aminokyselín"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 654,
+          "questionNumber": 654,
+          "page": 85,
+          "endPage": 85,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 10,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w10_reakcie_aminokyseliny_zaver",
+          "reason": "Otázka skúša konkrétne reakcie a enzýmy metabolizmu aminokyselín, aminotransferázy, oxidačnú deamináciu alebo biogénne amíny.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 11,
+          "objectiveRefs": [
+            3,
+            4,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Ktoré zlúčeniny sú tvorené pôsobením aspartátaminotransferázy:",
+        "answers": [
+          "oxalacetát a glutamín",
+          "alanín a glutamát",
+          "oxalacetát a glutamát",
+          "aspartát a 2-oxoglutarát"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 655,
+          "questionNumber": 655,
+          "page": 85,
+          "endPage": 85,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 10,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w10_reakcie_aminokyseliny_zaver",
+          "reason": "Otázka skúša konkrétne reakcie a enzýmy metabolizmu aminokyselín, aminotransferázy, oxidačnú deamináciu alebo biogénne amíny.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 11,
+          "objectiveRefs": [
+            3,
+            4,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Aspartátaminotransferáza je enzým, ktorý:",
+        "answers": [
+          "sa zúčastňuje tvorby látky potrebnej pre glukoneogenézu",
+          "využíva aspartát a glutamát ako substráty",
+          "je súčasťou malát-aspartátového člnku",
+          "využíva 2-oxoglutarát a aspartát ako substráty"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 661,
+          "questionNumber": 661,
+          "page": 86,
+          "endPage": 86,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 10,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w10_reakcie_aminokyseliny_zaver",
+          "reason": "Otázka skúša konkrétne reakcie a enzýmy metabolizmu aminokyselín, aminotransferázy, oxidačnú deamináciu alebo biogénne amíny.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 11,
+          "objectiveRefs": [
+            3,
+            4,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Biogénne amíny vznikajú:",
+        "answers": [
+          "dehydratáciou aminokyselín",
+          "dekarboxyláciou glutamátu",
+          "dehydrogenáciou enzýmom glutamátdehydrogenáza",
+          "transamináciou aminokyselín"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 662,
+          "questionNumber": 662,
+          "page": 86,
+          "endPage": 86,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 10,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w10_reakcie_aminokyseliny_zaver",
+          "reason": "Otázka skúša konkrétne reakcie a enzýmy metabolizmu aminokyselín, aminotransferázy, oxidačnú deamináciu alebo biogénne amíny.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 11,
+          "objectiveRefs": [
+            3,
+            4,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Glutamín:",
+        "answers": [
+          "je amid kyseliny glutámovej",
+          "transportuje amoniak z pečene do extrahepatálnych tkanív",
+          "vzniká väzbou amoniaku na kyselinu glutárovú",
+          "v pečeni je hydrolyzovaný glutaminázou"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 664,
+          "questionNumber": 664,
+          "page": 86,
+          "endPage": 87,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 10,
+          "relatedWeeks": [
+            11
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w10_glutamin_amoniak_zaver",
+          "reason": "Otázka skúša tvorbu amoniaku, jeho fixáciu alebo transport prostredníctvom glutamínu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 11,
+          "objectiveRefs": [
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Glutamín:",
+        "answers": [
+          "v pečeni je štiepený glutaminázou",
+          "vyžaduje pre svoju tvorbu enzým glutaminázu a ATP",
+          "jeho tvorba je katalyzovaná glutamínsyntetázou",
+          "je to netoxická transportná forma amoniaku v organizme"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 668,
+          "questionNumber": 668,
+          "page": 87,
+          "endPage": 87,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 10,
+          "relatedWeeks": [
+            11
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w10_glutamin_amoniak_zaver",
+          "reason": "Otázka skúša tvorbu amoniaku, jeho fixáciu alebo transport prostredníctvom glutamínu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 11,
+          "objectiveRefs": [
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Aspartátaminotransferáza je enzým, ktorý:",
+        "answers": [
+          "je súčasťou malát-aspartátového člnku",
+          "využíva 2-oxoglutarát a aspartát ako substráty",
+          "sa zúčastňuje tvorby látky potrebnej pre glukoneogenézu",
+          "patrí medzi funkčné enzýmy plazmy"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 669,
+          "questionNumber": 669,
+          "page": 87,
+          "endPage": 87,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 10,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w10_reakcie_aminokyseliny_zaver",
+          "reason": "Otázka skúša konkrétne reakcie a enzýmy metabolizmu aminokyselín, aminotransferázy, oxidačnú deamináciu alebo biogénne amíny.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 11,
+          "objectiveRefs": [
+            3,
+            4,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Dekarboxylácia aspartátu:",
+        "answers": [
+          "vedie k tvorbe látky potrebnej pre syntézu koenzýmu A",
+          "je reakcia, ktorá vyžaduje koenzým NAD",
+          "prebieha mechanizmom Schiffovej bázy",
+          "vedie k tvorbe beta-alanínu"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 671,
+          "questionNumber": 671,
+          "page": 87,
+          "endPage": 87,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 10,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w10_reakcie_aminokyseliny_zaver",
+          "reason": "Otázka skúša konkrétne reakcie a enzýmy metabolizmu aminokyselín, aminotransferázy, oxidačnú deamináciu alebo biogénne amíny.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 11,
+          "objectiveRefs": [
+            3,
+            4,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Prvá reakcia potrebná pre zapojenie glukogénnych aminokyselín do glukoneogenézy je:",
+        "answers": [
+          "transaminačná, vyžadujúca ako koenzým tiamindifosfát",
+          "transaminačná, vyžadujúca ako koenzým pyridoxalfosfát",
+          "reakcia, v ktorej akceptorom aminoskupiny je kyselina acetoctová",
+          "reakcia spojená s oxidačnou deamináciou kyseliny glutámovej"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 675,
+          "questionNumber": 675,
+          "page": 88,
+          "endPage": 88,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 10,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w10_reakcie_aminokyseliny_zaver",
+          "reason": "Otázka skúša konkrétne reakcie a enzýmy metabolizmu aminokyselín, aminotransferázy, oxidačnú deamináciu alebo biogénne amíny.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 11,
+          "objectiveRefs": [
+            3,
+            4,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Aminokyselina s piatimi uhlíkmi, ktorá vzniká transamináciou väčšiny aminokyselín:",
+        "answers": [
+          "je dikarboxylová bázická aminokyselina",
+          "je neutrálna aminokyselina",
+          "je kyselina glutámová",
+          "je aminokyselina, ktorá sa môže oxidačne deaminovať glutamátdehydrogenázou s koenzýmom FAD"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 676,
+          "questionNumber": 676,
+          "page": 88,
+          "endPage": 88,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 10,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w10_reakcie_aminokyseliny_zaver",
+          "reason": "Otázka skúša konkrétne reakcie a enzýmy metabolizmu aminokyselín, aminotransferázy, oxidačnú deamináciu alebo biogénne amíny.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 11,
+          "objectiveRefs": [
+            3,
+            4,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Pre reakciu oxidačnej deaminácie glutamátu je potrebné:",
+        "answers": [
+          "enzým, ktorého koenzýmom je FAD",
+          "enzým, ktorého koenzýmom je NAD resp. NADP",
+          "glutamátdehydrogenáza",
+          "nedostatok kyslíka"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 677,
+          "questionNumber": 677,
+          "page": 88,
+          "endPage": 88,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 10,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w10_reakcie_aminokyseliny_zaver",
+          "reason": "Otázka skúša konkrétne reakcie a enzýmy metabolizmu aminokyselín, aminotransferázy, oxidačnú deamináciu alebo biogénne amíny.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 11,
+          "objectiveRefs": [
+            3,
+            4,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Amoniak je transportovaný z tkanív do pečene prostredníctvom:",
+        "answers": [
+          "močoviny",
+          "kyseliny močovej",
+          "látky, ktorá ma v molekule amidovú väzbu a je transportnou netoxickou formou amoniaku",
+          "glutamínu"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 678,
+          "questionNumber": 678,
+          "page": 88,
+          "endPage": 88,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 10,
+          "relatedWeeks": [
+            11
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w10_glutamin_amoniak_zaver",
+          "reason": "Otázka skúša tvorbu amoniaku, jeho fixáciu alebo transport prostredníctvom glutamínu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 11,
+          "objectiveRefs": [
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Substrátom pre glukoneogenézu môže byť 2-oxokyselina s tromi uhlíkami, ktorá vzniká:",
+        "answers": [
+          "transamináciou alanínu",
+          "priamou deamináciou alanínu",
+          "priamou deamináciou cysteínu, kde koenzýmom je tiamindifosfát",
+          "z cysteínu cysteindesulfhydrázou"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 683,
+          "questionNumber": 683,
+          "page": 89,
+          "endPage": 89,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 10,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w10_reakcie_aminokyseliny_zaver",
+          "reason": "Otázka skúša konkrétne reakcie a enzýmy metabolizmu aminokyselín, aminotransferázy, oxidačnú deamináciu alebo biogénne amíny.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 11,
+          "objectiveRefs": [
+            3,
+            4,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Aminokyselina s piatimi uhlíkmi, ktorá vzniká transamináciou väčšiny aminokyselín:",
+        "answers": [
+          "je aminokyselina, ktorá sa môže oxidačne deaminovať glutamátdehydrogenázou s koenzýmom NAD",
+          "je aminokyselina, ktorá je súčasťou glutatiónu",
+          "je aminokyselina, ktorá sa oxidačne deaminuje v mitochondriách",
+          "je ústredná monoaminodikarboxylová aminokyselina v metabolizme aminokyselín"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 684,
+          "questionNumber": 684,
+          "page": 89,
+          "endPage": 89,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 10,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w10_reakcie_aminokyseliny_zaver",
+          "reason": "Otázka skúša konkrétne reakcie a enzýmy metabolizmu aminokyselín, aminotransferázy, oxidačnú deamináciu alebo biogénne amíny.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 11,
+          "objectiveRefs": [
+            3,
+            4,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Univerzálnym akceptorom aminoskupiny z väčšiny aminokyselín môže byť:",
+        "answers": [
+          "kyselina acetoctová",
+          "kyselina oxaloctová",
+          "kyselina 2-oxoglutárová",
+          "oxokyselina, ktorá vzniká v metabolizme ketolátok"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 691,
+          "questionNumber": 691,
+          "page": 90,
+          "endPage": 90,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 10,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w10_reakcie_aminokyseliny_zaver",
+          "reason": "Otázka skúša konkrétne reakcie a enzýmy metabolizmu aminokyselín, aminotransferázy, oxidačnú deamináciu alebo biogénne amíny.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 11,
+          "objectiveRefs": [
+            3,
+            4,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Pre tvorbu glutamátu redukčnou amináciou sú potrebné:",
+        "answers": [
+          "2-oxoglutarát, pyridoxal-5-fosfát, NH3",
+          "2-oxoglutarát, NAD",
+          "2-oxoglutarát, NADH+H+, (NADPH+H+), NH3",
+          "2-oxoglutarát, NADH+H+, NH3, glutamátdehydrogenáza"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 692,
+          "questionNumber": 692,
+          "page": 90,
+          "endPage": 90,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 10,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w10_reakcie_aminokyseliny_zaver",
+          "reason": "Otázka skúša konkrétne reakcie a enzýmy metabolizmu aminokyselín, aminotransferázy, oxidačnú deamináciu alebo biogénne amíny.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 11,
+          "objectiveRefs": [
+            3,
+            4,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Nepriama deaminácia aminokyselín vyžaduje:",
+        "answers": [
+          "koenzým pyridoxal-5-fosfát (v prvej fáze)",
+          "koenzým NAD+ (v druhej fáze)",
+          "špecifickú transaminázu",
+          "kyselinu acetoctovú"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 693,
+          "questionNumber": 693,
+          "page": 90,
+          "endPage": 90,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 10,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w10_reakcie_aminokyseliny_zaver",
+          "reason": "Otázka skúša konkrétne reakcie a enzýmy metabolizmu aminokyselín, aminotransferázy, oxidačnú deamináciu alebo biogénne amíny.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 11,
+          "objectiveRefs": [
+            3,
+            4,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Alanínaminotransferáza (ALT):",
+        "answers": [
+          "je bunkový enzým, vyžadujúci ako koenzým tiamindifosfát",
+          "lokalizovaná je hlavne v cytoplazme bunky",
+          "dôležitá je pre syntézu neutrálnej aminokyseliny, ktorá sprostredkuje transport amoniaku v krvi",
+          "ako oxokyselinu využíva 2-oxopropiónovú kyselinu vytvorenú v aeróbnej glykolýze"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 698,
+          "questionNumber": 698,
+          "page": 91,
+          "endPage": 91,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 10,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w10_reakcie_aminokyseliny_zaver",
+          "reason": "Otázka skúša konkrétne reakcie a enzýmy metabolizmu aminokyselín, aminotransferázy, oxidačnú deamináciu alebo biogénne amíny.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 11,
+          "objectiveRefs": [
+            3,
+            4,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Pri nepriamej deaminácii aminokyselín:",
+        "answers": [
+          "v prvej časti reakcie, aminoskupina sa prenáša na oxokyselinu za vzniku amidu",
+          "aminoskupina sa sústreďuje do spoločného medziproduktu, ktorým je kyselina asparágová",
+          "aminoskupina sa sústreďuje do spoločného medziproduktu, ktorým je kyselina glutámová",
+          "koenzýmom glutamátdehydrogenázy je NAD resp. NADP"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 699,
+          "questionNumber": 699,
+          "page": 91,
+          "endPage": 91,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 10,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w10_reakcie_aminokyseliny_zaver",
+          "reason": "Otázka skúša konkrétne reakcie a enzýmy metabolizmu aminokyselín, aminotransferázy, oxidačnú deamináciu alebo biogénne amíny.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 11,
+          "objectiveRefs": [
+            3,
+            4,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Transaminázy, ktoré majú v klinike diagnostický význam sú:",
+        "answers": [
+          "enzýmy, ktorých aktivity v krvi stúpajú pri poškodení buniek",
+          "aktivita ALT, ktorá stúpa hlavne pri poškodení pečene",
+          "aktivita AST, ktorá stúpa hlavne pri poškodení myokardu",
+          "enzýmy, ktoré majú koenzým tiamindifosfát"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 700,
+          "questionNumber": 700,
+          "page": 91,
+          "endPage": 91,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 10,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w10_reakcie_aminokyseliny_zaver",
+          "reason": "Otázka skúša konkrétne reakcie a enzýmy metabolizmu aminokyselín, aminotransferázy, oxidačnú deamináciu alebo biogénne amíny.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 11,
+          "objectiveRefs": [
+            3,
+            4,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Amoniak:",
+        "answers": [
+          "v krvi je transportovaný prostredníctvom glutamínu resp. alanínu",
+          "zažívací trakt je jeho dôležitým zdrojom",
+          "v hrubom čreve vzniká z močoviny ureázou",
+          "v zažívacom trakte sa ho vytvorí približne 23 molov za deň"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 706,
+          "questionNumber": 706,
+          "page": 92,
+          "endPage": 92,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 10,
+          "relatedWeeks": [
+            11
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w10_glutamin_amoniak_zaver",
+          "reason": "Otázka skúša tvorbu amoniaku, jeho fixáciu alebo transport prostredníctvom glutamínu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 11,
+          "objectiveRefs": [
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Kyselina glutámová:",
+        "answers": [
+          "oxidačnou deamináciou s koenzýmom FAD vzniká oxoglutarát, ktorý sa môže zapojiť do glukoneogenézy",
+          "je oxidačnou deamináciou premenená na 2-oxoglutarát pomocou glutamátdehydrogenázy",
+          "oxidačnou deamináciou poskytuje NH3, oxalacetát a NADH+H+",
+          "môže vzniknúť redukčnou amináciou jedného z medziproduktov Krebsovho cyklu"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 707,
+          "questionNumber": 707,
+          "page": 92,
+          "endPage": 92,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 10,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w10_reakcie_aminokyseliny_zaver",
+          "reason": "Otázka skúša konkrétne reakcie a enzýmy metabolizmu aminokyselín, aminotransferázy, oxidačnú deamináciu alebo biogénne amíny.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 11,
+          "objectiveRefs": [
+            3,
+            4,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Glutamátdehydrogenáza:",
+        "answers": [
+          "lokalizovaná je v cytoplazme bunky",
+          "katalyzuje nevratnú reakciu deaminácie glutamátu",
+          "redukovaná forma jej koenzýmu poskytuje v dýchacom reťazci 3 ATP",
+          "katalyzuje vratnú reakciu lokalizovanú v mitochondriách"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 708,
+          "questionNumber": 708,
+          "page": 92,
+          "endPage": 92,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 10,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w10_reakcie_aminokyseliny_zaver",
+          "reason": "Otázka skúša konkrétne reakcie a enzýmy metabolizmu aminokyselín, aminotransferázy, oxidačnú deamináciu alebo biogénne amíny.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 11,
+          "objectiveRefs": [
+            3,
+            4,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Pri nepriamej deaminácii sa aminoskupiny aminokyselín naviažu na spoločný medziprodukt:",
+        "answers": [
+          "v kyseline pyrohroznovej",
+          "v jednom z medziproduktov Krebsovho cyklu",
+          "v kyseline acetoctovej",
+          "v kyseline 2-oxoglutárovej"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 709,
+          "questionNumber": 709,
+          "page": 92,
+          "endPage": 92,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 10,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w10_reakcie_aminokyseliny_zaver",
+          "reason": "Otázka skúša konkrétne reakcie a enzýmy metabolizmu aminokyselín, aminotransferázy, oxidačnú deamináciu alebo biogénne amíny.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 11,
+          "objectiveRefs": [
+            3,
+            4,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Oxidázy aminokyselín:",
+        "answers": [
+          "majú koenzým pyridoxal-5-fosfát",
+          "oxidačne deaminujú všetky L-aminokyseliny",
+          "majú koenzým FAD resp. FMN",
+          "pri oxidačnej deaminácii vzniká H2O2 a príslušná oxokyselina"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 715,
+          "questionNumber": 715,
+          "page": 93,
+          "endPage": 93,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 10,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w10_reakcie_aminokyseliny_zaver",
+          "reason": "Otázka skúša konkrétne reakcie a enzýmy metabolizmu aminokyselín, aminotransferázy, oxidačnú deamináciu alebo biogénne amíny.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 11,
+          "objectiveRefs": [
+            3,
+            4,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Glutamátdehydrogenáza:",
+        "answers": [
+          "katalyzuje reakciu, rovnováhu ktorej ovplyvňuje koncentrácia substrátov a produktov",
+          "pri vysokej koncentrácii NADH, reakcia prebieha v smere tvorby oxoglutarátu",
+          "pre syntézu neesenciálnych aminokyselín je dôležitá redukčná aminácia oxoglutarátu",
+          "pri vysokej koncentrácii NAD+, ADP, reakcia katalyzovaná týmto enzýmom prebieha v smere tvorby oxoglutarátu a NH3"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 716,
+          "questionNumber": 716,
+          "page": 93,
+          "endPage": 93,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 10,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w10_reakcie_aminokyseliny_zaver",
+          "reason": "Otázka skúša konkrétne reakcie a enzýmy metabolizmu aminokyselín, aminotransferázy, oxidačnú deamináciu alebo biogénne amíny.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 11,
+          "objectiveRefs": [
+            3,
+            4,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Pri nepriamej deaminácii sa aminoskupiny aminokyselín naviažu na spoločný medziprodukt:",
+        "answers": [
+          "v dikarboxylovej 2-oxokyseline s piatimi uhlíkmi",
+          "v medziprodukte metabolizmu VKK",
+          "v 2-oxokyseline, ktorá vzniká v aeróbnej glykolýze",
+          "v 2-oxokyseline, ktorá oxidačnou dekarboxyláciou poskytuje sukcinyl-CoA"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 717,
+          "questionNumber": 717,
+          "page": 93,
+          "endPage": 93,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 10,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w10_reakcie_aminokyseliny_zaver",
+          "reason": "Otázka skúša konkrétne reakcie a enzýmy metabolizmu aminokyselín, aminotransferázy, oxidačnú deamináciu alebo biogénne amíny.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 11,
+          "objectiveRefs": [
+            3,
+            4,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Amoniak:",
+        "answers": [
+          "tvorí sa deamináciou aminokyselín, deamináciou nukleotidov a nukleozidov",
+          "detoxikovaný je väzbou na alanín za vzniku amidu",
+          "s 2-oxoglutarátom tvorí amid kyseliny glutámovej enzýmom glutaminázou",
+          "viazaný môže byť na kyselinu glutámovú za vzniku glutamínu v reakcii vyžadujúcej ATP"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 720,
+          "questionNumber": 720,
+          "page": 94,
+          "endPage": 94,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 10,
+          "relatedWeeks": [
+            11
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w10_glutamin_amoniak_zaver",
+          "reason": "Otázka skúša tvorbu amoniaku, jeho fixáciu alebo transport prostredníctvom glutamínu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 11,
+          "objectiveRefs": [
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Oxidázy aminokyselín:",
+        "answers": [
+          "patria medzi aeróbne dehydrogenázy",
+          "katalyzujú hlavne oxidačnú deamináciu D-aminokyselín",
+          "lokalizované sú hlavne v mitochondriách pečene",
+          "lokalizované sú hlavne v peroxizómoch hepatocytov"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 723,
+          "questionNumber": 723,
+          "page": 94,
+          "endPage": 94,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 10,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w10_reakcie_aminokyseliny_zaver",
+          "reason": "Otázka skúša konkrétne reakcie a enzýmy metabolizmu aminokyselín, aminotransferázy, oxidačnú deamináciu alebo biogénne amíny.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 11,
+          "objectiveRefs": [
+            3,
+            4,
+            6
+          ]
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,2411 @@
+[
+  {
+    "title": "Biochémia 1 - 05",
+    "description": "Otázky z PDF Biochémia 1 otázky, časť 05. Poradie v zdroji 401–500, strany 52–66. Odpovede podľa označenia v PDF. Otázky odložené na kontrolu: 8.",
+    "questions": [
+      {
+        "question": "Tvorba ketolátok:",
+        "answers": [
+          "prebieha aj vo fyziologických podmienkach",
+          "prebieha len počas hladovania",
+          "pri diabetes mellitus sa zvyšuje",
+          "je lokalizovaná extrahepatálne"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 401,
+          "questionNumber": 401,
+          "page": 52,
+          "endPage": 52,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Acetoacetyl-CoA sa tiolázou mení na:",
+        "answers": [
+          "2 molekuly acetoacetátu",
+          "2 molekuly acetyl-CoA",
+          "acetyl-CoA a acetón",
+          "kyselinu oxaloctovú"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 402,
+          "questionNumber": 402,
+          "page": 52,
+          "endPage": 52,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Pri vyšetrovaní moču diagnostickými pásikmi sa hneď po namočení odčítava hodnota:",
+        "answers": [
+          "glukózy",
+          "pH",
+          "urobilinogénu",
+          "ketolátok"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 403,
+          "questionNumber": 403,
+          "page": 52,
+          "endPage": 53,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Tioklastické štiepenie oxidovaného reťazca karboxylovej kyseliny je katalyzované:",
+        "answers": [
+          "β-ketotiolázou",
+          "tioesterázou",
+          "acyl-CoA-dehydratázou",
+          "enoyl-CoA-hydratázou"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 404,
+          "questionNumber": 404,
+          "page": 53,
+          "endPage": 53,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Pri nedostatku inzulínu:",
+        "answers": [
+          "je v bunkách nízka hladina glukózy",
+          "sú energetické požiadavky buniek citlivých na inzulín kryté oxidáciou tukov",
+          "v krvnom riečisku môže hladina glukózy stúpnuť nad fyziologickú hodinu",
+          "je priepustnosť bunkových membrán pre glukózu zvýšená"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 405,
+          "questionNumber": 405,
+          "page": 53,
+          "endPage": 53,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Glukóza-6-fosfátfosfatáza je enzým, ktorý:",
+        "answers": [
+          "je prítomný vo všetkých bunkách",
+          "jeho pôsobením sa uvoľňuje do krvi voľná glukóza",
+          "zohráva úlohu v regulácii glykémie",
+          "nachádza sa v pečeni"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 406,
+          "questionNumber": 406,
+          "page": 53,
+          "endPage": 53,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Patologickú zmenu funkcie hormonálnych regulačných mechanizmov glykémie zistíme pomocou:",
+        "answers": [
+          "jednorázového stanovenia glykémie po jedle",
+          "opakovaným stanovením glykémie po jedle",
+          "oGTT",
+          "jednorázovej vysokej dávky glukózy do organizmu"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 407,
+          "questionNumber": 407,
+          "page": 53,
+          "endPage": 53,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Hypoglykemická fáza na glykemickej krivke je:",
+        "answers": [
+          "spôsobená účinkom inzulínu",
+          "spôsobená účinkom glukagónu",
+          "charakteristická pre zdravého človeka",
+          "chýba u pacientov s DM"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 408,
+          "questionNumber": 408,
+          "page": 53,
+          "endPage": 53,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Na hromadení ketolátok pri diabetes mellitus sa podieľa:",
+        "answers": [
+          "zvýšené odbúranie karboxylových kyselín",
+          "znížená hladina acetyl-CoA v bunkách",
+          "zvýšená utilizácia acetyl-CoA v citrátovom cykle",
+          "znížené využitie acetyl-CoA v syntéze VKK"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 409,
+          "questionNumber": 409,
+          "page": 53,
+          "endPage": 53,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Acetyl-CoA:",
+        "answers": [
+          "môže vznikať z glukogénnych aminokyselín",
+          "sa využíva v ketogenéze",
+          "vzniká priamo metabolizovaním ketogénnych aminokyselín",
+          "pri jeho spaľovaní v citrátovom cykle sa netvorí energia"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 410,
+          "questionNumber": 410,
+          "page": 53,
+          "endPage": 53,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Hydroxybutyrátdehydrogenáza je enzým, ktorý:",
+        "answers": [
+          "má ako koenzým FAD",
+          "katalyzuje oxidáciu acetoacetátu na kyselinu β-hydroxymaslovú",
+          "redukuje kyselinu acetoctovú na β-hydroxybutyrát",
+          "má význam pri utilizácii ketolátok v periférnych tkanivách"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 411,
+          "questionNumber": 411,
+          "page": 53,
+          "endPage": 54,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "β-oxidácia je:",
+        "answers": [
+          "jeden zo spôsobov krytia energetických požiadaviek bunky",
+          "katabolický proces štiepenia karboxylových kyselín na aktivovanú kyselinu octovú",
+          "zvýšená pri hladovaní",
+          "proces prebiehajúci v mitochondriách"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 412,
+          "questionNumber": 412,
+          "page": 54,
+          "endPage": 54,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "karnitínacyltransferáze I platí:",
+        "answers": [
+          "nachádza sa na vonkajšej strane vnútornej mitochondriovej membrány",
+          "ako substráty využíva acyl-CoA a karnitín",
+          "katalyzuje prenos zvyšku karboxylovej kyseliny na COOH skupinu karnitínu",
+          "jej inhibícia malonyl-CoA je dôležitá pre reguláciu oxidácie karboxylových kyselín"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 413,
+          "questionNumber": 413,
+          "page": 54,
+          "endPage": 54,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Vznik 3 ATP pri reoxidácii koenzýmu vytvoreného v β-oxidácii umožňuje:",
+        "answers": [
+          "reakcia katalyzovaná acyl-CoA dehydrogenázou",
+          "premena enoyl-CoA na β-hydroxyacyl-CoA",
+          "reakcia vzniku β-keto-acyl-CoA",
+          "reakcia, ktorá je charakteristická pre erytrocyty a tkanivo CNS"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 414,
+          "questionNumber": 414,
+          "page": 54,
+          "endPage": 54,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "ATP citrátlyáza a citrátsyntáza sa líšia tým, že:",
+        "answers": [
+          "ATP citrátlyáza sa zúčastňuje oxidácie VKK a citrátsyntáza ich syntézy",
+          "citrátsyntáza je potrebná pre syntézu VKK a priebeh Krebsovho cyklu, zatiaľčo ATP citrátlyáza len pre syntézu VKK",
+          "ATP citrátlyáza sa nachádza v cytosole bunky a citrátsyntáza v mitochondriách",
+          "citrátsyntáza je inhibovaná ATP a ATP-citrátlyáza vyžaduje ATP ako zdroj energie"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 415,
+          "questionNumber": 415,
+          "page": 54,
+          "endPage": 54,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Reakcia vzniku malonyl-CoA:",
+        "answers": [
+          "je regulačným miestom syntézy VKK",
+          "je aktivovaná citrátom",
+          "je katalyzovaná enzýmom, ktorý je inhibovaný fosforyláciou v prítomnosti glukagónu",
+          "vyžaduje biotín ako koenzým"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 416,
+          "questionNumber": 416,
+          "page": 54,
+          "endPage": 54,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Štiepenie TAG v tukovom tkanive:",
+        "answers": [
+          "zabezpečuje enzým, ktorý hydrolyticky odštiepuje zvyšky karboxylových kyselín za vzniku VKK a glycerolfosfátu",
+          "je aktivované počas hladovania",
+          "je aktivované v strese hormónom adrenalínom, ktorý sprostredkovane spôsobuje premenu hormonsenzitívnej lipázy na aktívnu - fosforylovanú formu",
+          "je inhibované antilipolytickým hormónom inzulínom tak, že po jeho pôsobení dochádza k premene hormónsenzitívnej lipázy na inaktívnu - defosforylovanú formu"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 417,
+          "questionNumber": 417,
+          "page": 54,
+          "endPage": 54,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "K metabolickým možnostiam utilizácie acetylCoA patria:",
+        "answers": [
+          "reakcia s intermediátom vzniknutým oxidáciou malátu",
+          "tvorba hydroxymetylglutarylCoA pri syntéze kyseliny mevalonovej",
+          "vznik cholínergného mediátora za katalýzy transferázy",
+          "biosyntéza cholesterolu"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 418,
+          "questionNumber": 418,
+          "page": 55,
+          "endPage": 55,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Glukóza-6-P-fosfatáza:",
+        "answers": [
+          "je enzým prítomný len v pečeni",
+          "je enzým potrebný pre glukoneogenézu",
+          "je enzým, ktorý sa zúčastňuje degradácie glykogénu v pečeni",
+          "katalyzuje vznik voľnej glukózy a ATP"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 419,
+          "questionNumber": 419,
+          "page": 55,
+          "endPage": 55,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Na aktivácii tvorby ketolátok sa podieľa:",
+        "answers": [
+          "beta - oxidácia karboxylových kyselín po ich vstupe do cytozolu hepatocytu",
+          "zvýšená hladina intracelulárnej glukózy pri diabete",
+          "defosforylácia hormónsenzitívnej lipázy, vedúca k jej stimulácii",
+          "oxidácia karboxylových kyselín po ich transporte do mitochondrie hepatocytov"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 420,
+          "questionNumber": 420,
+          "page": 55,
+          "endPage": 55,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Diabetes mellitus:",
+        "answers": [
+          "je podmienený absolútnym alebo relatívnym nedostatkom inzulínu",
+          "je každé zvýšenie glykémie nad 6 mmol/l",
+          "je sprevádzaný respiračnou acidózou",
+          "môže byť sprevádzaný polyúriou"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 421,
+          "questionNumber": 421,
+          "page": 55,
+          "endPage": 55,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Kyselina acetoctová:",
+        "answers": [
+          "po odštiepení CoA vzniká v cytozole z betahydroxybetametylsukcinylCoA",
+          "obsahuje karboxylovú aj karbonylovú funkčnú skupinu",
+          "ako látka kyslej povahy môže prispievať k vzniku poruchy ABR",
+          "tvorí sa aj extrahepatálne v reakcii utilizácie beta – hydroxybutyrátu"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 422,
+          "questionNumber": 422,
+          "page": 55,
+          "endPage": 55,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "O aktivácii kyseliny palmitovej pri beta-oxidácii platí:",
+        "answers": [
+          "na aktiváciu sa spotrebuje energia 2 makroergických väzieb",
+          "medziproduktom aktivácie je látka s acylfosfátovou makroergickou väzbou",
+          "produkt reakcie sa prenáša z mitochondrie do cytosolu difúziou",
+          "produkt aktivácie sa prenáša z cytosolu do mitochondrie pomocou karnitínu"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 423,
+          "questionNumber": 423,
+          "page": 55,
+          "endPage": 55,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Syntéza malonyl CoA:",
+        "answers": [
+          "vyžaduje ako substráty acetyl-CoA a biotín",
+          "prebieha v cytosole bunky",
+          "je regulačné miesto degradácie karboxylových kyselín",
+          "vyžaduje ako koenzým vitamín B12"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 425,
+          "questionNumber": 425,
+          "page": 55,
+          "endPage": 56,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Bezprostredný vznik acetyl KoA v cytosole, ktorý je potrebný na syntézu karboxylových kyselín:",
+        "answers": [
+          "je katalyzovaný ATP-citrátlyázou",
+          "prebieha bez potreby energie",
+          "substrátom reakcie je látka tvorená v mitochondriách",
+          "enzým, ktorý reakciu katalyzuje je aktivovaný fosforyláciou v prítomnosti inzulínu"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 426,
+          "questionNumber": 426,
+          "page": 56,
+          "endPage": 56,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "AcetoacetylCoA - tioláza:",
+        "answers": [
+          "katalyzuje vznik aktívneho acetátu z acetoacetylCoA pri extrahepatálnej utilizácii ketolátok",
+          "jeho absencia je príčinou toho, že utilizácia ketolátok v pečeni neprebieha",
+          "zabezpečuje priamu premenu acetoacetylCoA na kyselinu mevalónovú",
+          "v priebehu beta-oxidácie štiepi ketoacylCoA"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 427,
+          "questionNumber": 427,
+          "page": 56,
+          "endPage": 56,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Fruktóza-1,6-bisfosfát ovplyvňuje enzýmy glykolýzy tak, že:",
+        "answers": [
+          "inhibuje fosfofruktokinázu I",
+          "aktivuje fosfofruktokinázu II",
+          "aktivuje reakciu glykolýzy, v ktorej sa tvorí fosfoenolpyruvát",
+          "aktivuje pyruvát kinázu"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 428,
+          "questionNumber": 428,
+          "page": 56,
+          "endPage": 56,
+          "answerLabels": [
+            "e",
+            "f",
+            "g",
+            "h"
+          ]
+        }
+      },
+      {
+        "question": "K metabolickým možnostiam utilizácie acetylCoA patria:",
+        "answers": [
+          "syntéza látok ketónovej povahy v mitochondriách pečene",
+          "biosyntéza hlavného mediátora sympatika",
+          "vznik cholínergného mediátora za katalýzy transferázy",
+          "biosyntéza cholesterolu"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 429,
+          "questionNumber": 429,
+          "page": 56,
+          "endPage": 56,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Ketogenéza:",
+        "answers": [
+          "ako výsledný produkt využíva betahydroxybetametylsukcinylCoA",
+          "prebieha výlučne za patologických podmienok",
+          "nemá výraznejší vplyv na acidobázickú homeostázu",
+          "je stimulovaná hormónom aktivujúcim HSL v adipocytoch"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 430,
+          "questionNumber": 430,
+          "page": 56,
+          "endPage": 56,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Na regulácii hladiny glukózy v krvi sa zúčastňuje:",
+        "answers": [
+          "tyroxín",
+          "kalcitonín",
+          "glukagón",
+          "hormón, ktorý sa vyplavuje v strese"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 431,
+          "questionNumber": 431,
+          "page": 56,
+          "endPage": 56,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Tioklastické štiepenie:",
+        "answers": [
+          "prebieha za katalýzy enzýmu betaketotiolázy",
+          "je proces, pri ktorom z ketoacylCoA vzniká aktívny acetát a acylCoA",
+          "umožňuje premenu acetoacetylCoA na dve molekuly látky vstupujúcej do KC",
+          "je v procese utilizácie ketolátok zabezpečené acetoacetylCoA – tiolázou"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 432,
+          "questionNumber": 432,
+          "page": 56,
+          "endPage": 56,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Enzýmy, ktoré sa zúčastňujú aktivácie karboxylových kyselín pri β-oxidácii môžu byť:",
+        "answers": [
+          "acyl-CoA transferáza",
+          "CoA transferáza v prípade karboxylových kyselín s krátkym reťazcom",
+          "oktanoyl-CoA syntáza lokalizovaná vo vnútornej mitochondriovej membráne",
+          "CoA-transferáza lokalizovaná v matrix mitochondrie"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 433,
+          "questionNumber": 433,
+          "page": 56,
+          "endPage": 57,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "V β-oxidácii dochádza k adícii vody v reakcii:",
+        "answers": [
+          "ktorej substrátom je cis-enoyl-CoA",
+          "v ktorej vzniká substrát pre β-hydroxyacyl-CoA dehydrogenázu",
+          "v ktorej vzniká látka, na premenu ktorej je potrebný ako koenzým FAD",
+          "ktorú katalyzuje enoláza"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 434,
+          "questionNumber": 434,
+          "page": 57,
+          "endPage": 57,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Úplná oxidácia kyseliny stearovej umožní:",
+        "answers": [
+          "celkove vznik 146 ATP",
+          "vznik 40 ATP pri oxidácii redukovaných koenzýmov tvorených v β-oxidácii",
+          "vznik 9 ATP substrátovou fosforyláciou pri oxidácii acetyl-CoA v Krebsovom cykle",
+          "vznik menej ATP než oxidácia kyseliny myristovej"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 435,
+          "questionNumber": 435,
+          "page": 57,
+          "endPage": 57,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Porovnaním β-oxidácie a syntézy VKK možno konštatovať:",
+        "answers": [
+          "obidva procesy sú lokalizované v tom istom kompartmente",
+          "líšia sa typom koenzýmu - β-oxidácia využíva NAD a FAD, syntéza VKK využíva NADPH2",
+          "regulačným enzýmom pre oba procesy je β-ketotioláza",
+          "obidva procesy sú aktivované inzulínom"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 436,
+          "questionNumber": 436,
+          "page": 57,
+          "endPage": 57,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "O pôsobení hormónov na proces syntézy VKK platí:",
+        "answers": [
+          "glukagón priamo fosforyláciou inhibuje ATP-citrátlyázu",
+          "po pôsobení inzulínu dochádza k defosforylácii acetyl-CoA karboxylázy a tým k jej aktivácii",
+          "pôsobenie inzulínu zvyšuje priepustnosť bunkových membrán pre glukózu, čím sa zvyšuje ponuka NADPH2 a acetyl-CoA potrebných pre syntézu VKK",
+          "hormón, ktorý sa vyplavuje z α-buniek pankreasu počas hladovania vedie k fosforylácii acetyl-CoA karboxylázy a tým k jej inhibícii"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 437,
+          "questionNumber": 437,
+          "page": 57,
+          "endPage": 57,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Tioklastické štiepenie:",
+        "answers": [
+          "prebieha za katalýzy enzýmu betaketotiolázy",
+          "v jeho priebehu dochádza k uvoľneniu koenzýmu A",
+          "je proces, v ktorom z ketoacylCoA vzniká aktívny acetát a acylCoA",
+          "vyžaduje prítomnosť HS CoA"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 438,
+          "questionNumber": 438,
+          "page": 57,
+          "endPage": 57,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "JantarylCoA-transferáza:",
+        "answers": [
+          "sa zúčastňuje tvorby jantarylCoA z metylmalonylCoA",
+          "patrí medzi dôležité aktivity ketogenézy v pečeni",
+          "katalyzuje premenu acetoacetátu na acetoacetylCoA v extrahepatálnych tkanivách",
+          "v reakčnom mechanizme KC premieňa sukcinylCoA na sukcinát"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 439,
+          "questionNumber": 439,
+          "page": 57,
+          "endPage": 57,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Vznik acetyl-CoA v cytosole bunky, ktorý sa využíva na syntézu VKK:",
+        "answers": [
+          "katalyzuje ATP-citrátlyáza",
+          "katalyzuje acetyl-CoA karboxyláza",
+          "využíva ako substrát látku, ktorá vzniká v cytosole",
+          "je katalyzovaný enzýmom, ktorý je aktivovaný fosforyláciou v prítomnosti inzulínu"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 443,
+          "questionNumber": 443,
+          "page": 58,
+          "endPage": 58,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Syntáza VKK:",
+        "answers": [
+          "je multienzýmový komplex lokalizovaný v cytosole bunky",
+          "pozostáva zo štyroch katalytických podjednotiek",
+          "syntetizuje VKK s maximálnou dĺžkou reťazca 18 uhlíkov",
+          "ako hlavný regulačný enzým syntézy VKK je aktivovaná inzulínom"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 444,
+          "questionNumber": 444,
+          "page": 58,
+          "endPage": 58,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Hormónsenzitívna lipáza je enzým, ktorý:",
+        "answers": [
+          "zodpovedá za fosforolytické štiepenie TAG v tukovom tkanive",
+          "zodpovedá za štiepenie TAG prijatých potravou",
+          "je aktivovaná glukagónom tak, že po jeho pôsobení dochádza k jej premene na aktívnu - fosforylovanú formu",
+          "je inhibovaná v podmienkach hladovania, pretože dochádza k jej premene na inaktívnu - defosforylovanú formu"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 445,
+          "questionNumber": 445,
+          "page": 58,
+          "endPage": 58,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Malonyl CoA:",
+        "answers": [
+          "môže vznikať z aktívnej kyseliny octovej aktivitou karboxylázy",
+          "moduluje aktivitu acylkarnitíntransferázy",
+          "v stave nedostatočnej výživy stimuluje tvorbu ketolátok",
+          "v regulačnom mechanizme tvorby ketolátok nemá význam"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 447,
+          "questionNumber": 447,
+          "page": 59,
+          "endPage": 59,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Keď sa aktivuje kyselina palmitová pri β-oxidácii:",
+        "answers": [
+          "ako substráty sú potrebné C?? karboxylová kyselina, ATP a CoA",
+          "spotrebuje sa energia 1 makroergickej väzby",
+          "vzniká ako medziprodukt látka s obsahom makroergickej difosfátovej väzby",
+          "produkt aktivácie - palmitoyl-CoA je transportovaný do mitochondrie difúziou"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 448,
+          "questionNumber": 448,
+          "page": 59,
+          "endPage": 59,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Prenos aktivovanej karboxylovej kyseliny do matrix mitochondrie zabezpečuje:",
+        "answers": [
+          "karnitín",
+          "látka, na ktorej syntézu sa využíva lyzín a metionín",
+          "látka, na ktorú sa karboxylová kyselina viaže pôsobením enzýmu karnitínacyltransferázy I",
+          "látka, ktorá je dôležitá pre tvorbu energie napr. v myokarde"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 449,
+          "questionNumber": 449,
+          "page": 59,
+          "endPage": 59,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Reakcia β-oxidácie, ktorej koenzým umožní vznik 2 ATP oxidatívnou fosforyláciou:",
+        "answers": [
+          "je reakcia premeny acyl-CoA na enoyl-CoA",
+          "využíva rovnaký koenzým ako sukcinátdehydrogenáza",
+          "je katalyzovaná enoyl-CoA hydratázou",
+          "je reakcia, pri ktorej vzniká substrát ketotiolázy"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 450,
+          "questionNumber": 450,
+          "page": 59,
+          "endPage": 59,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Acetyl-CoA pri syntéze vyšších karboxylových kyselín vzniká v cytosole z:",
+        "answers": [
+          "acylkarnitínu",
+          "hydroxybutántriovej kyseliny",
+          "zlúčeniny, ktorá v mitochondriách vzniká citrátsyntázou",
+          "zlúčeniny, ktorá sa do cytosolu prenáša aktívnym transportom"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 451,
+          "questionNumber": 451,
+          "page": 59,
+          "endPage": 59,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Pri syntéze triacylglycerolov:",
+        "answers": [
+          "sú potrebné VKK v aktívnej forme ako acyl-CoA",
+          "je potrebný enzým fosfatidátfosfatáza",
+          "ako medziprodukt vzniká 2-monoacylglycerol",
+          "zdrojom alkoholovej zložky v pečeni môže byť voľný glycerol a v tukovom tkanive dihydroxyacetónfosfát"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 452,
+          "questionNumber": 452,
+          "page": 59,
+          "endPage": 59,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "AcetoacetylCoA - tioláza:",
+        "answers": [
+          "katalyzuje vznik aktívneho acetátu z acetoacetylCoA pri extrahepatálnej utilizácii ketolátok",
+          "je aktivita zúčastňujúca sa syntézy acetylCoA počas biosyntézy cholesterolu",
+          "jeho absencia je príčinou toho, že utilizácia ketolátok v pečeni neprebieha",
+          "je zodpovedná za prenos karboxylových kyselín z cytozolu do mitochondrie"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 453,
+          "questionNumber": 453,
+          "page": 59,
+          "endPage": 59,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Enzým hydroxybutyrátdehydrogenáza:",
+        "answers": [
+          "katalyzuje premenu intermediátu vzniknutého z betahydroxybetametylglutarylCoA po odštiepenie aktívneho acetylu",
+          "je aktivita dependentná na koenzýme obsahujúcom izoaloxazínovú štruktúru",
+          "má aktivitu enzýmu LD 1,2",
+          "patrí medzi oxidoredukčné enzýmy"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 454,
+          "questionNumber": 454,
+          "page": 59,
+          "endPage": 60,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "V systéme tvorby ketolátok:",
+        "answers": [
+          "znížená hladina glukagónu aktivuje lipolýzu",
+          "je aktivita karnitínacyltransferázy inhibovaná zníženou hladinou malonyl-CoA",
+          "sa acetyl-CoA-karboxyláza fosforyluje na neaktívnu formu",
+          "dochádza v tukovom tkanive ku zvýšenému štiepeniu TAG"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 455,
+          "questionNumber": 455,
+          "page": 60,
+          "endPage": 60,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Aktivovaná karboxylová kyselina sa do mitochondrie prenáša:",
+        "answers": [
+          "aktívnym transportom",
+          "využitím karnitínacyltransferázy I na vonkajšej strane vnútornej mitochondriovej membrány",
+          "využitím karnitínacyltransferázy II na vnútornej strane vnútornej mitochondriovej membrány",
+          "pomocou CoA"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 456,
+          "questionNumber": 456,
+          "page": 60,
+          "endPage": 60,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Pri oxidácii kyseliny palmitovej v procese β-oxidácie:",
+        "answers": [
+          "cyklus β-oxidácie prebehne 7 krát",
+          "sa vytvára 7 NADH+H+, 7 FADH2 a 8 acetyl-CoA",
+          "oxidáciou vytvoreného acetyl-CoA v Krebsovom cykle vzniká 88 ATP",
+          "sa na celkovom energetickom zisku podieľa aj substrátová fosforylácia"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 457,
+          "questionNumber": 457,
+          "page": 60,
+          "endPage": 60,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "ATP citrátlyáza a citrátsyntáza sú enzýmy, ktoré:",
+        "answers": [
+          "zúčastňujú sa oxidácie VKK",
+          "sú súčasťou transportu acetyl-CoA z mitochondrie do cytosolu",
+          "sú aktivované inzulínom",
+          "sú inhibované ATP"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 458,
+          "questionNumber": 458,
+          "page": 60,
+          "endPage": 60,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Ktoré bunky ľudského organizmu syntetizujú a skladujú triacylglyceroly:",
+        "answers": [
+          "všetky bez výnimky",
+          "pečeňové bunky",
+          "bunky tukového tkaniva",
+          "enterocyty"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 459,
+          "questionNumber": 459,
+          "page": 60,
+          "endPage": 60,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Ketogenéza:",
+        "answers": [
+          "nemá výraznejší vplyv na acidobázickú homeostázu",
+          "je stimulovaná hormónom aktivujúcim HSL v adipocytoch",
+          "enzým jantarylCoA - transferáza je jej dôležitou súčasťou",
+          "prebieha najmä pri noninzulíndependentnom diabete"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 460,
+          "questionNumber": 460,
+          "page": 60,
+          "endPage": 60,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "AcetoacetylCoA:",
+        "answers": [
+          "aktivitou jantarylCoA - transferázy vzniká z kyseliny acetoctovej a sukcinyl CoA",
+          "pri syntéze ketolátok v mitochondrii sa mení na betahydroxybetametylglutarylCoA",
+          "predstavuje substrát pre tiolázu, pričom sa tioklastickým štiepením mení na dve molekuly aktívneho acetátu",
+          "sukcinylCoA - transferáza je enzým jeho tvorby v ketogenéze"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 461,
+          "questionNumber": 461,
+          "page": 60,
+          "endPage": 61,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Kyselina β-hydroxymaslová:",
+        "answers": [
+          "je produktom degradácie pyrimidínových nukleotidov",
+          "jej vznik aj využitie prebieha v mitochondrii",
+          "jej premena na acetoacetát pri utilizácii ketolátok je energeticky nevýznamná",
+          "sa laboratórne stanovuje spolu s acetónom"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 462,
+          "questionNumber": 462,
+          "page": 61,
+          "endPage": 61,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Počas dlhodobého hladovania dochádza v sére k zmenám:",
+        "answers": [
+          "stúpa glugagón",
+          "klesajú ketolátky",
+          "KK sa zvyšujú aktiváciou hormónsenzitívnej lipázy",
+          "glykémia vo fyziologických hodnotách"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 463,
+          "questionNumber": 463,
+          "page": 61,
+          "endPage": 61,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Pri nedostatku glukózy nemôžu využívať KK ako zdroj energie:",
+        "answers": [
+          "erytrocyty",
+          "tkanivo CNS",
+          "pečeň",
+          "sval"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 464,
+          "questionNumber": 464,
+          "page": 61,
+          "endPage": 61,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Hormóny, ktoré môžu zvýšiť glykémiu sú:",
+        "answers": [
+          "parathormón",
+          "adrenalín",
+          "kortizol",
+          "glukagón"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 465,
+          "questionNumber": 465,
+          "page": 61,
+          "endPage": 61,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Grafické vyjadrenie zmien glykémie po podaní glukózy označujeme ako:",
+        "answers": [
+          "glykemický profil",
+          "glykémia",
+          "glykemická krivka",
+          "glukózotolerančný test"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 466,
+          "questionNumber": 466,
+          "page": 61,
+          "endPage": 61,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Hydroxybutyrátdehydrogenáza je enzým:",
+        "answers": [
+          "tvorí acetón z kyseliny acetoctovej",
+          "oxiduje acetoacetát na kyselinu β-hydroxymaslovú",
+          "katalyzuje enzým. redukciu kyseliny acetoctovej na β-hydroxybutyrát",
+          "má ako koenzým NAD"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 467,
+          "questionNumber": 467,
+          "page": 61,
+          "endPage": 61,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Po aktiváciu KK vstupuje do β-oxidácie:",
+        "answers": [
+          "acyladenylát",
+          "aminoacyladenylát",
+          "aminoacyl",
+          "acylCoA"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 468,
+          "questionNumber": 468,
+          "page": 61,
+          "endPage": 61,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Lipoproteíny sa môžu deliť:",
+        "answers": [
+          "ultracentrifugáciou podľa veľkosti častíc",
+          "gélovou filtráciou podľa hustoty",
+          "elektroforézou podľa pohyblivosti v elektrickom poli",
+          "na základe veľkosti náboja, ktorý je závislý k bielkovinovej zložke častice"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 469,
+          "questionNumber": 469,
+          "page": 61,
+          "endPage": 62,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Zvýšená hladina LDL v sére:",
+        "answers": [
+          "sa prejaví vzostupom alfa-frakcie pri elektroforéze",
+          "je často spojená so zvýšeným rizikom aterosklerózy",
+          "môže byť spôsobená geneticky podmieneným defektom LDL receptorov",
+          "nad 4,2 mmol/l je vysoko riziková"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 470,
+          "questionNumber": 470,
+          "page": 62,
+          "endPage": 62,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Zvýšená hladina voľného cholesterolu v bunkách:",
+        "answers": [
+          "ovplyvní syntézu LDL receptorov",
+          "ovplyvní aktivitu HMG-CoA-reduktázy",
+          "ovplyvní aktivitu enzýmu, ktorý esterifikuje cholesterol",
+          "ovplyvní aktivitu hormón senzitívnej lipázy"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 471,
+          "questionNumber": 471,
+          "page": 62,
+          "endPage": 62,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Lipoproteínová lipáza:",
+        "answers": [
+          "zúčastňuje sa lipolýzy v adipocytoch",
+          "v defosforylovanom stave je neaktívna",
+          "štiepi TAG v glykoproteínoch",
+          "jej aktivátorom je apoproteín C"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 473,
+          "questionNumber": 473,
+          "page": 62,
+          "endPage": 62,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Chylomikróny:",
+        "answers": [
+          "sa syntetizujú v hepatocytoch",
+          "v ich metabolizme vznikajú povrchové a jadrové remnanty",
+          "nie sú metabolizované u pacientov s hyperlipoproteinémiou typu I",
+          "transportujú v krvi exogénne TAG"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 474,
+          "questionNumber": 474,
+          "page": 62,
+          "endPage": 62,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Pri hyperlipoproteinémií typu I:",
+        "answers": [
+          "je najvyššie riziko aterosklerózy",
+          "je zvýšená hladina TAG v sére",
+          "sérum je skalené",
+          "je zvýšená endogénna syntéza TAG"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 475,
+          "questionNumber": 475,
+          "page": 62,
+          "endPage": 62,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Voľný cholesterol:",
+        "answers": [
+          "je v bunkách syntetizovaný z acetyl-CoA v cytosole a hladkom ER",
+          "je zlúčenina, ktorá sa v lipoproteínových časticiach nachádza v jadre",
+          "môže byť z tela vylúčenýžlčou po premene na soli žlčových kyslín",
+          "je hlavnou lipidovou zložkou LDL častice"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 477,
+          "questionNumber": 477,
+          "page": 63,
+          "endPage": 63,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "LDL lipoproteínové častice:",
+        "answers": [
+          "sú syntetizované hlavne v hepatocytoch",
+          "transportujú v krvi endogénne TAG",
+          "obsahujú ako dôležitý apoproteín apoB100",
+          "ich obsah štiepi lipoproteínová lipáz"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 478,
+          "questionNumber": 478,
+          "page": 63,
+          "endPage": 63,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Lecitín- cholesterol-acyltransferáza:",
+        "answers": [
+          "je enzým umožňujúci transport cholesterolu z pečene do periférnych tkanív, čím sa podieľa na antiaterogénnom efekte HDL",
+          "katalyzuje tvorbu glykozidovej väzby medzi -OH skupinou cholesterolu a COOH skupinou väčšinou nenasýtenej vyššej karboxylovej kyseliny",
+          "využíva ako substrát karboxylovú kyselinu z fosfatidylcholínu",
+          "je enzým syntetizovaný v krvnej plazme"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 479,
+          "questionNumber": 479,
+          "page": 63,
+          "endPage": 63,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "LDL receptory:",
+        "answers": [
+          "v prípade potreby cholesterolu v bunkách periférnych tkanív sú zvyčajne po prijatí častice do bunky recyklované späť do membrány",
+          "rozpoznávajú lipoproteínové častice na základe funkčného apoproteínu apoCII",
+          "ich množstvo tvorené v bunkách je regulované hladinou voľného cholesterolu v bunke",
+          "zabezpečujú transport cholesterolu do periférnych tkanív"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 480,
+          "questionNumber": 480,
+          "page": 63,
+          "endPage": 63,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Sekundárne hyperlipoproteinémie:",
+        "answers": [
+          "väčšinou sú podmienené genetickým defektom v metabolizme lipidov",
+          "sprevádzajú iné základné ochorenia",
+          "sú častým sprievodným znakom pri diabetes mellitus",
+          "sa podľa Fredericksonovej diferenciálnej diagnostiky rozdeľujú na typy I, IIa,IIb,III,IV"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 481,
+          "questionNumber": 481,
+          "page": 63,
+          "endPage": 63,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Hyperlipoproteinémia typu IV:",
+        "answers": [
+          "je často sa vyskytujúcou hyperlipoproteinémiou v našej populácii",
+          "je porucha spojená s hypertriacylglycerolémiou",
+          "je sekundárna porucha metabolizmu lipidov spojená so zvýšenou hladinou exogénnych TAG v sére",
+          "je spojená s nálezom zvýšenej beta-frakcie na elektroforeograme"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 482,
+          "questionNumber": 482,
+          "page": 63,
+          "endPage": 63,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Hladina celkového cholesterolu v krvnej plazme:",
+        "answers": [
+          "nie je dôležitá pri podozrení na poruchu v metabolizme lipoproteínov",
+          "je pre dospelú populáciu 3,8-5,2 mmol/l",
+          "u detí je nižšia ako u dospelých",
+          "nie je ovplyvnená pohlavím"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 483,
+          "questionNumber": 483,
+          "page": 63,
+          "endPage": 63,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Lipoproteíny, ktoré majú najnižšiu hustotu:",
+        "answers": [
+          "sa tvoria v hepatocytoch",
+          "transportujú v krvi cholesterol",
+          "do obehu sa dostávajú exocytozóu",
+          "sú metabolizované lipoproteínovou lipázou"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 484,
+          "questionNumber": 484,
+          "page": 63,
+          "endPage": 64,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "HDL častice:",
+        "answers": [
+          "ich najviac zastúpenou lipidovou zložkou sú fosfolipidy",
+          "ich súčasťou je lipoproteínová lipáza potrebná pre ich metabolizmus",
+          "je dostatočná hladina v krvi znižuje riziko aterosklerózy",
+          "sú zodpovedné za transport cholesterolu z periférnych tkanív do pečene"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 485,
+          "questionNumber": 485,
+          "page": 64,
+          "endPage": 64,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Pri stanovení celkového cholesterolu v sére:",
+        "answers": [
+          "cholesterol oxidáza katalyzuje reakciu oxidácie cholesterolu uvoľneného z cholesterolesterov",
+          "oxidáciou cholesterolu vzniká peroxid vodíka",
+          "treba pri interpretácii zohľadniť aj pohlavie",
+          "ak je hodnota do 5,2 mmol/l hovoríme o hypercholesterolémii"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 486,
+          "questionNumber": 486,
+          "page": 64,
+          "endPage": 64,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Najvyšší obsah fosfolipidov je v:",
+        "answers": [
+          "LDL",
+          "v chylomikrónoch",
+          "nascentných HDL",
+          "IDL"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 487,
+          "questionNumber": 487,
+          "page": 64,
+          "endPage": 64,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Hladina TAG v sére je:",
+        "answers": [
+          "potrebná vyšetriť pri podozrení na poruchu metabolizmu lipoproteínov",
+          "závislá od veku a pohlavia",
+          "približne 1-3 mmol/l",
+          "pri hyperlipoproteinémií typu IIa výrazne zvýšená"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 488,
+          "questionNumber": 488,
+          "page": 64,
+          "endPage": 64,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Chylomikróny:",
+        "answers": [
+          "sú secernované do lymfatického obehu",
+          "obsahujú ako bielkovinovú zložku aj apoB48",
+          "na ich metabolizovaní sa podieľa hormónsenzitívna lipáza",
+          "ich degradáciou vznikajú remnanty"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 489,
+          "questionNumber": 489,
+          "page": 64,
+          "endPage": 64,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "O endogénnej syntéze cholesterolu platí:",
+        "answers": [
+          "ako zdroj uhlíkov pre steránový kruh sa využíva acetyl-CoA",
+          "vyžaduje GTP ako špecifický zdroj energie",
+          "hlavným regulačným enzýmom je HMG-CoA-syntáza",
+          "na subcelulárnej úrovni je lokalizovaná v cytosole a hER"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 491,
+          "questionNumber": 491,
+          "page": 64,
+          "endPage": 65,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Hyperlipoproteinémie:",
+        "answers": [
+          "môžu byť podľa príčiny vzniku primárne alebo sekundárne",
+          "primárneho typu sú podmienené genetickým defektom",
+          "sú sprevádzané znížením jednej alebo viacerých lipoproteínových frakcií v sére",
+          "typu IV patria medzi najmenej časté"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 492,
+          "questionNumber": 492,
+          "page": 65,
+          "endPage": 65,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Medzi hlavné apoproteíny patrí:",
+        "answers": [
+          "apoproteín C",
+          "apoproteín B",
+          "apoproteín A",
+          "apoproteín D"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 493,
+          "questionNumber": 493,
+          "page": 65,
+          "endPage": 65,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "VLDL sa syntetizujú:",
+        "answers": [
+          "v tukovom tkanive",
+          "v pečeni",
+          "v tenkom čreve",
+          "platí všetko uvedené"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 494,
+          "questionNumber": 494,
+          "page": 65,
+          "endPage": 65,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Obsah fosfolipidov je najvyšší v lipoproteínovej častici:",
+        "answers": [
+          "chylomikrón",
+          "VLDL",
+          "HDL",
+          "LDL"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 495,
+          "questionNumber": 495,
+          "page": 65,
+          "endPage": 65,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Medzi jednoduché lipidy nepatrí:",
+        "answers": [
+          "cholesterol",
+          "TAG",
+          "fosfolipidy",
+          "cerebrozidy"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 496,
+          "questionNumber": 496,
+          "page": 65,
+          "endPage": 65,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Syntéza VKK:",
+        "answers": [
+          "vyžaduje pri oxido-redukčných reakciách koenzým NAD+/NADH2",
+          "je aktivovaná inzulínom",
+          "miestom jej regulácie je aktivita acetyl-CoA-karboxylázy",
+          "začína naviazaním acetyl-CoA a malonyl-CoA na syntázu VKK"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 497,
+          "questionNumber": 497,
+          "page": 65,
+          "endPage": 65,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Triacylglyceroly:",
+        "answers": [
+          "patria medzi polárne tuky",
+          "syntetizujú sa v adipocytoch, hepatocytoch a tenkom čreve",
+          "degradujú sa účinkom inzulínu",
+          "exogénne sa transportujú v chylomikrónoch"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 498,
+          "questionNumber": 498,
+          "page": 65,
+          "endPage": 65,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "HMG-CoA reduktáza:",
+        "answers": [
+          "je enzým zúčastňujúci sa tvorby ketolátok",
+          "je lokalizovaná v endoplazmatickom retikule",
+          "jej aktívna forma je defosforylovaná",
+          "je inhibovaná glukagónom"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 499,
+          "questionNumber": 499,
+          "page": 65,
+          "endPage": 66,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Z cholesterolu sa syntetizuje:",
+        "answers": [
+          "progesterón",
+          "kyseliny cholová",
+          "lanosterol",
+          "cholekalciferol"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 500,
+          "questionNumber": 500,
+          "page": 66,
+          "endPage": 66,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      }
+    ]
+  }
+]

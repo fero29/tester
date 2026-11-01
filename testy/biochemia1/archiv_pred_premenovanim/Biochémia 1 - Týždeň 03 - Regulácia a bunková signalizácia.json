@@ -1,0 +1,3460 @@
+[
+  {
+    "title": "Biochémia 1 - Týždeň 03 - Regulácia a bunková signalizácia",
+    "description": "3. týždeň, ZS 2026/2027: Základné princípy regulácie metabolických procesov. Otázky zaradené podľa cieľov týždenného programu; odpovede podľa zdrojového PDF.",
+    "questions": [
+      {
+        "question": "Gp- proteín:",
+        "answers": [
+          "nachádza sa v bunkovej membráne",
+          "aktivuje sa účinkom steroidných hormónov",
+          "skladá sa z 3 podjednotiek",
+          "jeho alfa-podjednotka aktivuje fosfolipázu A"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 73,
+          "questionNumber": 73,
+          "page": 10,
+          "endPage": 10,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "cAMP:",
+        "answers": [
+          "vzniká pôsobením inzulínu",
+          "vzniká pôsobením steroidných hormónov",
+          "jeho hladina sa znižuje pôsobením fosfodiesterázy",
+          "aktivuje proteínkinázu C"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 74,
+          "questionNumber": 74,
+          "page": 11,
+          "endPage": 11,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Hydrofóbne hormóny:",
+        "answers": [
+          "ovplyvňujú bunkové procesy po vstupe do buniek",
+          "viažu sa na intracelulárne receptory",
+          "zvyšujú syntézu cAMP",
+          "môžu meniť permeabilitu bunkových membrán pre ióny"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 75,
+          "questionNumber": 75,
+          "page": 11,
+          "endPage": 11,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Gi proteín:",
+        "answers": [
+          "skladá sa z troch podjednotiek",
+          "je v aktívnom stave, keď je na alfa-podjednotku naviazaný na GDP",
+          "je v aktívnom stave, keď je na alfa-podjednotku naviazaný GTP",
+          "jeho aktivácia vedie k poklesu cAMP v cytosole"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 81,
+          "questionNumber": 81,
+          "page": 11,
+          "endPage": 11,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Inozitoltrifosfát:",
+        "answers": [
+          "vzniká účinkom fosfolipázy C",
+          "zvyšuje priepustnosť bunkovej membrány pre Na+",
+          "je aktivátorom proteínkinázy C",
+          "vzniká pomocou enzýmu prítomného v membráne buniek"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 82,
+          "questionNumber": 82,
+          "page": 12,
+          "endPage": 12,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Hydrofilné hormóny môžu sprostredkovať prenos signálu do cieľovej bunky:",
+        "answers": [
+          "prostredníctvom cytosolového receptoru",
+          "prostredníctvom jadrového receptoru",
+          "prostredníctvom cAMP",
+          "prostredníctvom Ca2+ iónov"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 84,
+          "questionNumber": 84,
+          "page": 12,
+          "endPage": 12,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "alfa- podjednotka Gs- proteínu:",
+        "answers": [
+          "aktivuje adenylátcyklázu",
+          "aktivuje fosfolipázu C",
+          "viaže GTP v aktívnom stave",
+          "môže hydrolyzovať GTP"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 89,
+          "questionNumber": 89,
+          "page": 12,
+          "endPage": 13,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "cAMP:",
+        "answers": [
+          "degraduje sa účinkom adenylátcyklázy",
+          "vzniká účinkom hormónov štítnej žľazy",
+          "fosfodiesterázou sa štiepi na AMP",
+          "jeho syntéza je katalyzovaná cytosolovým enzýmom"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 90,
+          "questionNumber": 90,
+          "page": 13,
+          "endPage": 13,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "G-proteínom možno povedať:",
+        "answers": [
+          "všetky obsahujú alfa-podjednotku s GTP-ázovou aktivitou",
+          "nachádzajú sa v membráne endoplazmatického retikula",
+          "sú potrebné pre účinok niektorých steroidných hormónov",
+          "sú potrebné pre účinok niektorých peptidových hormónov"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 91,
+          "questionNumber": 91,
+          "page": 13,
+          "endPage": 13,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Adenylátcykláza:",
+        "answers": [
+          "priamo aktivuje proteínkinázu C",
+          "syntetizuje cAMP z ADP",
+          "je enzým lokalizovaný v plazmatickej membráne",
+          "je enzým katalyujúci syntézu cAMP z ATP"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 92,
+          "questionNumber": 92,
+          "page": 13,
+          "endPage": 13,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Proteínkináza A:",
+        "answers": [
+          "jej aktivácii predchádza aktivácia Gs proteínu",
+          "jej aktivácii predchádza aktivácia fosfolipázy C",
+          "je enzým aktivovaný pomocou cAMP",
+          "je enzým aktivovaný pomocou cGMP"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 97,
+          "questionNumber": 97,
+          "page": 13,
+          "endPage": 14,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Fosfolipáza C:",
+        "answers": [
+          "je lokalizovaná v cytosole",
+          "je aktivovaná hormónmi štítnej žľazy",
+          "produkuje diacylglycerol",
+          "zodpovedá za vznik fosfodiesterovej väzby"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 98,
+          "questionNumber": 98,
+          "page": 14,
+          "endPage": 14,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "cAMP:",
+        "answers": [
+          "vzniká účinkom cytosolového enzýmu",
+          "vzniká v bunkách po účinku steroidných hormónov",
+          "jeho koncentrácia sa zvyšuje účinkom adenylátcyklázy",
+          "aktivuje proteínkinázu C"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 99,
+          "questionNumber": 99,
+          "page": 14,
+          "endPage": 14,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Steroidné hormóny:",
+        "answers": [
+          "viažu sa na membránové receptory",
+          "po väzbe na receptor sú aktivátormi transkripcie",
+          "po väzbe na receptor spôsobujú zmeny génovej expresie",
+          "sú aktivátormi proteínkinázy C"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 100,
+          "questionNumber": 100,
+          "page": 14,
+          "endPage": 14,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "cAMP:",
+        "answers": [
+          "aktivuje proteínkinázu A",
+          "jeho hladina sa znižuje pôsobením fosfodiesterázy",
+          "vzniká pôsobením niektorých steroidných hormónov",
+          "vzniká pôsobením niektorých polypeptidových hormónov"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 104,
+          "questionNumber": 104,
+          "page": 14,
+          "endPage": 14,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Ktoré aminokyseliny v proteínoch je možné fosforylovať pôsobením proteokináz:",
+        "answers": [
+          "lyzín",
+          "tyrozín",
+          "prolín",
+          "treonín"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 105,
+          "questionNumber": 105,
+          "page": 14,
+          "endPage": 15,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_fosforylacia",
+          "reason": "Otázka skúša fosforyláciu aminokyselinových zvyškov proteínov pri regulácii enzýmov.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            1,
+            2
+          ]
+        }
+      },
+      {
+        "question": "G- proteínoch platí:",
+        "answers": [
+          "sú membránové proteíny",
+          "skladajú sa z troch podjednotiek",
+          "podjednotka gama môže viazať GTP alebo GDP",
+          "typ podjednotky alfa určuje, aký enzým a ako bude ovplyvnený G- proteínmi"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 106,
+          "questionNumber": 106,
+          "page": 15,
+          "endPage": 15,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Vo vode rozpustné regulačné látky:",
+        "answers": [
+          "môžu ovplyvňovať funkcie buniek po svojom vstupe do bunky",
+          "viažu sa na membránové receptory",
+          "môžu využívať IP3 ako druhého posla",
+          "môžu meniť priepustnosť bunkových membrán pre niektoré ióny"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 107,
+          "questionNumber": 107,
+          "page": 15,
+          "endPage": 15,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "G- proteínoch možno povedať:",
+        "answers": [
+          "sú potrebné pre účinok niektorých steroidných hormónov",
+          "sú potrebné pre účinok niektorých polypeptidových hormónov",
+          "nachádzajú sa v membránach endoplazmatického retikula",
+          "obsahujú alfa-podjednotku s GTP-ázovou aktivitou"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 112,
+          "questionNumber": 112,
+          "page": 15,
+          "endPage": 15,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Steroidné hormóny:",
+        "answers": [
+          "sa môžu viazať na receptory v cytosole",
+          "využívajú pri svojom účinku cAMP ako druhý posol",
+          "po naviazaní na receptor aktivujú Gp proteín",
+          "po naviazaní na receptor ovplyvňujú génovú expresiu v jadre"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 113,
+          "questionNumber": 113,
+          "page": 16,
+          "endPage": 16,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Inozitoltrifosfát (IP3) ovplyvňuje metabolické procesy tým, že:",
+        "answers": [
+          "aktivuje proteínkinázu C",
+          "znižuje koncentráciu Ca2+ v cytosole",
+          "zvyšuje koncentráciu Ca2+ v cytosole",
+          "sa naviaže na Na+ kanály na membráne hladkého endoplazmatického retikula"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 114,
+          "questionNumber": 114,
+          "page": 16,
+          "endPage": 16,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Gp- proteín:",
+        "answers": [
+          "je súčasťou plazmatickej membrány bunky",
+          "je v aktívnom stave, keď je na alfa-podjednotku naviazaný GDP",
+          "je v aktívnom stave, keď je na alfa-podjednotku naviazaný GTP",
+          "v aktívnom stave zvyšuje aktivitu fosfolipázy C"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 115,
+          "questionNumber": 115,
+          "page": 16,
+          "endPage": 16,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "α-podjednotka Gs-proteínu:",
+        "answers": [
+          "aktivuje adenylátcyklázu",
+          "aktivuje fosfolipázu C",
+          "viaže GTP v aktívnom stave",
+          "môže hydrolyzovať GTP"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 123,
+          "questionNumber": 123,
+          "page": 17,
+          "endPage": 17,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Fosfolipáza C:",
+        "answers": [
+          "nachádza sa v membránach buniek",
+          "vytvára ako produkt diacylglycerol",
+          "vytvára ako produkt inozitoltrifosfát",
+          "je aktivovaná Gs-proteínom"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 124,
+          "questionNumber": 124,
+          "page": 17,
+          "endPage": 17,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "G-proteínoch možno povedať:",
+        "answers": [
+          "sú potrebné pre účinok steroidných hormónov",
+          "sú potrebné pre účinok proteínových hormónov",
+          "nachádzajú sa v membránach endoplazmatického retikula",
+          "všetky obsahujú alfa-podjednotku s GTP-ázovou aktivitou"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 125,
+          "questionNumber": 125,
+          "page": 17,
+          "endPage": 17,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "cAMP:",
+        "answers": [
+          "aktivuje proteínkinázu A",
+          "jeho hladina sa znižuje pôsobením fosfodiesterázy",
+          "vzniká po pôsobení steroidných hormónov",
+          "vzniká po pôsobení glukagónu"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 126,
+          "questionNumber": 126,
+          "page": 17,
+          "endPage": 17,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "cAMP:",
+        "answers": [
+          "vytvára sa pôsobením cytozolového enzýmu",
+          "na jeho degradácii sa podieľa fosfodiesteráza",
+          "aktivuje tyrozínšpecifickú proteínkinázu",
+          "sprostredkuje účinok adrenalínu po väzba na β-adrenergné receptory"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 131,
+          "questionNumber": 131,
+          "page": 18,
+          "endPage": 18,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Inozitoltrifosfát ovplyvňuje metabolické procesy tým, že:",
+        "answers": [
+          "aktivuje proteínkinázu C",
+          "vedie k vyplaveniu Ca2+ z hladkého endoplazmatického retikula v myokarde",
+          "vedie k vyplaveniu Ca2+ z hladkého endoplazmatického retikula v hladkom svale",
+          "zvyšuje priepustnosť bunkovej membrány pre Na+"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 132,
+          "questionNumber": 132,
+          "page": 18,
+          "endPage": 18,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Ktoré z uvedených aminokyselín sa môžu fosforylovať pôsobením proteínkináz:",
+        "answers": [
+          "serín",
+          "tyrozín",
+          "kyslé aminokyseliny",
+          "treonín"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 133,
+          "questionNumber": 133,
+          "page": 18,
+          "endPage": 18,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_fosforylacia",
+          "reason": "Otázka skúša fosforyláciu aminokyselinových zvyškov proteínov pri regulácii enzýmov.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            1,
+            2
+          ]
+        }
+      },
+      {
+        "question": "Steroidné hormóny:",
+        "answers": [
+          "viažu sa na cytozolové receptory",
+          "ich miesto účinku je v jadre",
+          "vyžadujú pri svojom účinku cAMP ako druhý posol",
+          "stimulujú štiepenie tkanivových bielkovín"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 134,
+          "questionNumber": 134,
+          "page": 18,
+          "endPage": 18,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Inozitoltrifosfát:",
+        "answers": [
+          "vzniká účinkom fosfolipázy C",
+          "zvyšuje priepustnosť bunkovej membrány pre Na+",
+          "je aktivátorom proteínkinázy C",
+          "vzniká pomocou enzýmu prítomného v membráne buniek"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 139,
+          "questionNumber": 139,
+          "page": 19,
+          "endPage": 19,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "O G-proteínoch možno povedať:",
+        "answers": [
+          "všetky obsahujú α-podjednotku s GTP-ázovou aktivitou",
+          "nachádzajú sa v membránach endoplazmatického retikula",
+          "sú potrebné pre účinok steroidných hormónov",
+          "sú potrebné pre účinok proteínových hormónov"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 140,
+          "questionNumber": 140,
+          "page": 19,
+          "endPage": 19,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Lipofilné hormóny môžu sprostredkovať prenos signálu:",
+        "answers": [
+          "prostredníctvom druhých poslov",
+          "prostredníctvom cytozolových receptorov",
+          "prostredníctvom jadrových receptorov",
+          "prostredníctvom indukcie alebo represie génovej transkripcie"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 141,
+          "questionNumber": 141,
+          "page": 19,
+          "endPage": 19,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Hydrofilné hormóny môžu sprostredkovať prenos signálu do cieľovej bunky:",
+        "answers": [
+          "prostredníctvom cytozolového receptora",
+          "prostredníctvom jadrového receptora",
+          "prostredníctvom cAMP",
+          "prostredníctvom Ca2+ iónov"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 142,
+          "questionNumber": 142,
+          "page": 19,
+          "endPage": 19,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Gp-proteín:",
+        "answers": [
+          "je súčasť plazmatickej membrány bunky",
+          "je v aktívnom stave, keď je na α-podjednotku naviazaný GDP",
+          "je v aktívnom stave, keď je na α-podjednotku naviazaný GTP",
+          "jeho aktivácia vedie ku zvýšenej aktivite fosfolipázy C"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 147,
+          "questionNumber": 147,
+          "page": 20,
+          "endPage": 20,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Adenylátcykláza:",
+        "answers": [
+          "štiepi cyklický AMP",
+          "syntetizuje cyklický AMP z ADP",
+          "je enzým lokalizovaný v plazmatickej membráne",
+          "je enzým katalyzujúci syntézu cyklického AMP z ATP"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 148,
+          "questionNumber": 148,
+          "page": 20,
+          "endPage": 20,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Proteínkináza A:",
+        "answers": [
+          "je dimér zložený z dvoch regulačných podjednotiek",
+          "je tetramér zložený z dvoch katalytických a dvoch regulačných podjednotiek",
+          "je enzým závislý na cAMP",
+          "je enzým závislý na cGMP"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 149,
+          "questionNumber": 149,
+          "page": 20,
+          "endPage": 20,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Druhé posly:",
+        "answers": [
+          "sú zlúčeniny vznikajúce v bunkách po účinku steroidných hormónov",
+          "sú hormóny, ktoré ovplyvňujú funkcie bunky",
+          "sú napr. ATP a AMP",
+          "môžu sa tvoriť z fosfolipidov"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 150,
+          "questionNumber": 150,
+          "page": 20,
+          "endPage": 20,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "cAMP:",
+        "answers": [
+          "vzniká v pečeni po pôsobení inzulínu",
+          "vzniká po pôsobení steroidných hormónov",
+          "jeho hladina sa znižuje pôsobením fosfodiesterázy",
+          "aktivuje proteínkinázu C"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 155,
+          "questionNumber": 155,
+          "page": 21,
+          "endPage": 21,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Hydrofóbne látky:",
+        "answers": [
+          "ovplyvňujú bunkové procesy po ich vstupe do buniek",
+          "viažu sa na intracelulárne receptory",
+          "zvyšujú syntézu cAMP",
+          "môžu meniť permeabilitu bunkových membrán pre ióny"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 156,
+          "questionNumber": 156,
+          "page": 21,
+          "endPage": 21,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Druhé posly:",
+        "answers": [
+          "sú látky vznikajúce v bunkách po účinku vo vode rozpustných regulačných látok",
+          "sú cyklické nukleotidy ako napr. cAMP, cGMP",
+          "sú látky, ktoré sa tvoria účinkom cytozolových enzýmov",
+          "sú potrebné pre účinok tyroxínu"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 157,
+          "questionNumber": 157,
+          "page": 21,
+          "endPage": 21,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Cytozolové receptory:",
+        "answers": [
+          "aktivujú sa cAMP",
+          "uplatňujú sa pri účinku vitamínu D",
+          "sú potrebné pre sprostredkovanie účinku kortizolu",
+          "po väzbe hormónu vstupujú do jadra a regulujú expresiu génov"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 158,
+          "questionNumber": 158,
+          "page": 21,
+          "endPage": 21,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Gp- proteín:",
+        "answers": [
+          "nachádza sa v bunkovej membráne",
+          "aktivuje sa účinkom steroidných hormónov",
+          "skladá sa z 3 podjednotiek",
+          "jeho alfa-podjednotka aktivuje fosfolipázu A"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 159,
+          "questionNumber": 159,
+          "page": 21,
+          "endPage": 21,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "cAMP:",
+        "answers": [
+          "vzniká pôsobením inzulínu",
+          "vzniká pôsobením steroidných hormónov",
+          "jeho hladina sa znižuje pôsobením fosfodiesterázy",
+          "aktivuje proteínkinázu C"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 160,
+          "questionNumber": 160,
+          "page": 21,
+          "endPage": 22,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Hydrofóbne hormóny:",
+        "answers": [
+          "ovplyvňujú bunkové procesy po vstupe do buniek",
+          "viažu sa na intracelulárne receptory",
+          "zvyšujú syntézu cAMP",
+          "môžu meniť permeabilitu bunkových membrán pre ióny"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 161,
+          "questionNumber": 161,
+          "page": 22,
+          "endPage": 22,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Gi proteín:",
+        "answers": [
+          "skladá sa z troch podjednotiek",
+          "je v aktívnom stave, keď je na alfa-podjednotku naviazaný na GDP",
+          "je v aktívnom stave, keď je na alfa-podjednotku naviazaný GTP",
+          "jeho aktivácia vedie k poklesu cAMP v cytosole"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 167,
+          "questionNumber": 167,
+          "page": 22,
+          "endPage": 22,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Inozitoltrifosfát:",
+        "answers": [
+          "vzniká účinkom fosfolipázy C",
+          "zvyšuje priepustnosť bunkovej membrány pre Na+",
+          "je aktivátorom proteínkinázy C",
+          "vzniká pomocou enzýmu prítomného v membráne buniek"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 168,
+          "questionNumber": 168,
+          "page": 22,
+          "endPage": 23,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Hydrofilné hormóny môžu sprostredkovať prenos signálu do cieľovej bunky:",
+        "answers": [
+          "prostredníctvom cytosolového receptoru",
+          "prostredníctvom jadrového receptoru",
+          "prostredníctvom cAMP",
+          "prostredníctvom Ca2+ iónov"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 170,
+          "questionNumber": 170,
+          "page": 23,
+          "endPage": 23,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "alfa- podjednotka Gs- proteínu:",
+        "answers": [
+          "aktivuje adenylátcyklázu",
+          "aktivuje fosfolipázu C",
+          "viaže GTP v aktívnom stave",
+          "môže hydrolyzovať GTP"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 175,
+          "questionNumber": 175,
+          "page": 23,
+          "endPage": 23,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "cAMP:",
+        "answers": [
+          "degraduje sa účinkom adenylátcyklázy",
+          "vzniká účinkom hormónov štítnej žľazy",
+          "fosfodiesterázou sa štiepi na AMP",
+          "jeho syntéza je katalyzovaná cytosolovým enzýmom"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 176,
+          "questionNumber": 176,
+          "page": 23,
+          "endPage": 24,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "G-proteínom možno povedať:",
+        "answers": [
+          "všetky obsahujú alfa-podjednotku s GTP-ázovou aktivitou",
+          "nachádzajú sa v membráne endoplazmatického retikula",
+          "sú potrebné pre účinok niektorých steroidných hormónov",
+          "sú potrebné pre účinok niektorých peptidových hormónov"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 177,
+          "questionNumber": 177,
+          "page": 24,
+          "endPage": 24,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Adenylátcykláza:",
+        "answers": [
+          "priamo aktivuje proteínkinázu C",
+          "syntetizuje cAMP z ADP",
+          "je enzým lokalizovaný v plazmatickej membráne",
+          "je enzým katalyujúci syntézu cAMP z ATP"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 178,
+          "questionNumber": 178,
+          "page": 24,
+          "endPage": 24,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Proteínkináza A:",
+        "answers": [
+          "jej aktivácii predchádza aktivácia Gs proteínu",
+          "jej aktivácii predchádza aktivácia fosfolipázy C",
+          "je enzým aktivovaný pomocou cAMP",
+          "je enzým aktivovaný pomocou cGMP"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 183,
+          "questionNumber": 183,
+          "page": 24,
+          "endPage": 24,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Fosfolipáza C:",
+        "answers": [
+          "je lokalizovaná v cytosole",
+          "je aktivovaná hormónmi štítnej žľazy",
+          "produkuje diacylglycerol",
+          "zodpovedá za vznik fosfodiesterovej väzby"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 184,
+          "questionNumber": 184,
+          "page": 24,
+          "endPage": 25,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "cAMP:",
+        "answers": [
+          "vzniká účinkom cytosolového enzýmu",
+          "vzniká v bunkách po účinku steroidných hormónov",
+          "jeho koncentrácia sa zvyšuje účinkom adenylátcyklázy",
+          "aktivuje proteínkinázu C"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 185,
+          "questionNumber": 185,
+          "page": 25,
+          "endPage": 25,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Steroidné hormóny:",
+        "answers": [
+          "viažu sa na membránové receptory",
+          "po väzbe na receptor sú aktivátormi transkripcie",
+          "po väzbe na receptor spôsobujú zmeny génovej expresie",
+          "sú aktivátormi proteínkinázy C"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 186,
+          "questionNumber": 186,
+          "page": 25,
+          "endPage": 25,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "cAMP:",
+        "answers": [
+          "aktivuje proteínkinázu A",
+          "jeho hladina sa znižuje pôsobením fosfodiesterázy",
+          "vzniká pôsobením niektorých steroidných hormónov",
+          "vzniká pôsobením niektorých polypeptidových hormónov"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 190,
+          "questionNumber": 190,
+          "page": 25,
+          "endPage": 25,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Ktoré aminokyseliny v proteínoch je možné fosforylovať pôsobením proteokináz:",
+        "answers": [
+          "lyzín",
+          "tyrozín",
+          "prolín",
+          "treonín"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 191,
+          "questionNumber": 191,
+          "page": 25,
+          "endPage": 25,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_fosforylacia",
+          "reason": "Otázka skúša fosforyláciu aminokyselinových zvyškov proteínov pri regulácii enzýmov.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            1,
+            2
+          ]
+        }
+      },
+      {
+        "question": "O G- proteínoch platí:",
+        "answers": [
+          "sú membránové proteíny",
+          "skladajú sa z troch podjednotiek",
+          "podjednotka gama môže viazať GTP alebo GDP",
+          "typ podjednotky alfa určuje, aký enzým a ako bude ovplyvnený G- proteínmi"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 192,
+          "questionNumber": 192,
+          "page": 25,
+          "endPage": 26,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Vo vode rozpustné regulačné látky:",
+        "answers": [
+          "môžu ovplyvňovať funkcie buniek po svojom vstupe do bunky",
+          "viažu sa na membránové receptory",
+          "môžu využívať IP3 ako druhého posla",
+          "môžu meniť priepustnosť bunkových membrán pre niektoré ióny"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 193,
+          "questionNumber": 193,
+          "page": 26,
+          "endPage": 26,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "O G- proteínoch možno povedať:",
+        "answers": [
+          "sú potrebné pre účinok niektorých steroidných hormónov",
+          "sú potrebné pre účinok niektorých polypeptidových hormónov",
+          "nachádzajú sa v membránach endoplazmatického retikula",
+          "obsahujú alfa-podjednotku s GTP-ázovou aktivitou"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 198,
+          "questionNumber": 198,
+          "page": 26,
+          "endPage": 26,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Steroidné hormóny:",
+        "answers": [
+          "sa môžu viazať na receptory v cytosole",
+          "využívajú pri svojom účinku cAMP ako druhý posol",
+          "po naviazaní na receptor aktivujú Gp proteín",
+          "po naviazaní na receptor ovplyvňujú génovú expresiu v jadre"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 199,
+          "questionNumber": 199,
+          "page": 26,
+          "endPage": 26,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Inozitoltrifosfát (IP3) ovplyvňuje metabolické procesy tým, že:",
+        "answers": [
+          "aktivuje proteínkinázu C",
+          "znižuje koncentráciu Ca2+ v cytosole",
+          "zvyšuje koncentráciu Ca2+ v cytosole",
+          "sa naviaže na Na+ kanály na membráne hladkého endoplazmatického retikula"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 200,
+          "questionNumber": 200,
+          "page": 27,
+          "endPage": 27,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Gp- proteín:",
+        "answers": [
+          "je súčasťou plazmatickej membrány bunky",
+          "je v aktívnom stave, keď je na alfa-podjednotku naviazaný GDP",
+          "je v aktívnom stave, keď je na alfa-podjednotku naviazaný GTP",
+          "v aktívnom stave zvyšuje aktivitu fosfolipázy C"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 201,
+          "questionNumber": 201,
+          "page": 27,
+          "endPage": 27,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "α-podjednotka Gs-proteínu:",
+        "answers": [
+          "aktivuje adenylátcyklázu",
+          "aktivuje fosfolipázu C",
+          "viaže GTP v aktívnom stave",
+          "môže hydrolyzovať GTP"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 209,
+          "questionNumber": 209,
+          "page": 28,
+          "endPage": 28,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Fosfolipáza C:",
+        "answers": [
+          "nachádza sa v membránach buniek",
+          "vytvára ako produkt diacylglycerol",
+          "vytvára ako produkt inozitoltrifosfát",
+          "je aktivovaná Gs-proteínom"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 210,
+          "questionNumber": 210,
+          "page": 28,
+          "endPage": 28,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "G-proteínoch možno povedať:",
+        "answers": [
+          "sú potrebné pre účinok steroidných hormónov",
+          "sú potrebné pre účinok proteínových hormónov",
+          "nachádzajú sa v membránach endoplazmatického retikula",
+          "všetky obsahujú alfa-podjednotku s GTP-ázovou aktivitou"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 211,
+          "questionNumber": 211,
+          "page": 28,
+          "endPage": 28,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "cAMP:",
+        "answers": [
+          "aktivuje proteínkinázu A",
+          "jeho hladina sa znižuje pôsobením fosfodiesterázy",
+          "vzniká po pôsobení steroidných hormónov",
+          "vzniká po pôsobení glukagónu"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 212,
+          "questionNumber": 212,
+          "page": 28,
+          "endPage": 28,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "cAMP:",
+        "answers": [
+          "vytvára sa pôsobením cytozolového enzýmu",
+          "na jeho degradácii sa podieľa fosfodiesteráza",
+          "aktivuje tyrozínšpecifickú proteínkinázu",
+          "sprostredkuje účinok adrenalínu po väzba na β-adrenergné receptory"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 217,
+          "questionNumber": 217,
+          "page": 29,
+          "endPage": 29,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Inozitoltrifosfát ovplyvňuje metabolické procesy tým, že:",
+        "answers": [
+          "aktivuje proteínkinázu C",
+          "vedie k vyplaveniu Ca2+ z hladkého endoplazmatického retikula v myokarde",
+          "vedie k vyplaveniu Ca2+ z hladkého endoplazmatického retikula v hladkom svale",
+          "zvyšuje priepustnosť bunkovej membrány pre Na+"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 218,
+          "questionNumber": 218,
+          "page": 29,
+          "endPage": 29,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Ktoré z uvedených aminokyselín sa môžu fosforylovať pôsobením proteínkináz:",
+        "answers": [
+          "serín",
+          "tyrozín",
+          "kyslé aminokyseliny",
+          "treonín"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 219,
+          "questionNumber": 219,
+          "page": 29,
+          "endPage": 29,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_fosforylacia",
+          "reason": "Otázka skúša fosforyláciu aminokyselinových zvyškov proteínov pri regulácii enzýmov.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            1,
+            2
+          ]
+        }
+      },
+      {
+        "question": "Steroidné hormóny:",
+        "answers": [
+          "viažu sa na cytozolové receptory",
+          "ich miesto účinku je v jadre",
+          "vyžadujú pri svojom účinku cAMP ako druhý posol",
+          "stimulujú štiepenie tkanivových bielkovín"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 220,
+          "questionNumber": 220,
+          "page": 29,
+          "endPage": 29,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Inozitoltrifosfát:",
+        "answers": [
+          "vzniká účinkom fosfolipázy C",
+          "zvyšuje priepustnosť bunkovej membrány pre Na+",
+          "je aktivátorom proteínkinázy C",
+          "vzniká pomocou enzýmu prítomného v membráne buniek"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 225,
+          "questionNumber": 225,
+          "page": 30,
+          "endPage": 30,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "O G-proteínoch možno povedať:",
+        "answers": [
+          "všetky obsahujú α-podjednotku s GTP-ázovou aktivitou",
+          "nachádzajú sa v membránach endoplazmatického retikula",
+          "sú potrebné pre účinok steroidných hormónov",
+          "sú potrebné pre účinok proteínových hormónov"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 226,
+          "questionNumber": 226,
+          "page": 30,
+          "endPage": 30,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Lipofilné hormóny môžu sprostredkovať prenos signálu:",
+        "answers": [
+          "prostredníctvom druhých poslov",
+          "prostredníctvom cytozolových receptorov",
+          "prostredníctvom jadrových receptorov",
+          "prostredníctvom indukcie alebo represie génovej transkripcie"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 227,
+          "questionNumber": 227,
+          "page": 30,
+          "endPage": 30,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Hydrofilné hormóny môžu sprostredkovať prenos signálu do cieľovej bunky:",
+        "answers": [
+          "prostredníctvom cytozolového receptora",
+          "prostredníctvom jadrového receptora",
+          "prostredníctvom cAMP",
+          "prostredníctvom Ca2+ iónov"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 228,
+          "questionNumber": 228,
+          "page": 30,
+          "endPage": 30,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Gp-proteín:",
+        "answers": [
+          "je súčasť plazmatickej membrány bunky",
+          "je v aktívnom stave, keď je na α-podjednotku naviazaný GDP",
+          "je v aktívnom stave, keď je na α-podjednotku naviazaný GTP",
+          "jeho aktivácia vedie ku zvýšenej aktivite fosfolipázy C"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 233,
+          "questionNumber": 233,
+          "page": 31,
+          "endPage": 31,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Adenylátcykláza:",
+        "answers": [
+          "štiepi cyklický AMP",
+          "syntetizuje cyklický AMP z ADP",
+          "je enzým lokalizovaný v plazmatickej membráne",
+          "je enzým katalyzujúci syntézu cyklického AMP z ATP"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 234,
+          "questionNumber": 234,
+          "page": 31,
+          "endPage": 31,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Proteínkináza A:",
+        "answers": [
+          "je dimér zložený z dvoch regulačných podjednotiek",
+          "je tetramér zložený z dvoch katalytických a dvoch regulačných podjednotiek",
+          "je enzým závislý na cAMP",
+          "je enzým závislý na cGMP"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 235,
+          "questionNumber": 235,
+          "page": 31,
+          "endPage": 31,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Druhé posly:",
+        "answers": [
+          "sú zlúčeniny vznikajúce v bunkách po účinku steroidných hormónov",
+          "sú hormóny, ktoré ovplyvňujú funkcie bunky",
+          "sú napr. ATP a AMP",
+          "môžu sa tvoriť z fosfolipidov"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 236,
+          "questionNumber": 236,
+          "page": 31,
+          "endPage": 31,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "cAMP:",
+        "answers": [
+          "vzniká v pečeni po pôsobení inzulínu",
+          "vzniká po pôsobení steroidných hormónov",
+          "jeho hladina sa znižuje pôsobením fosfodiesterázy",
+          "aktivuje proteínkinázu C"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 241,
+          "questionNumber": 241,
+          "page": 32,
+          "endPage": 32,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Hydrofóbne látky:",
+        "answers": [
+          "ovplyvňujú bunkové procesy po ich vstupe do buniek",
+          "viažu sa na intracelulárne receptory",
+          "zvyšujú syntézu cAMP",
+          "môžu meniť permeabilitu bunkových membrán pre ióny"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 242,
+          "questionNumber": 242,
+          "page": 32,
+          "endPage": 32,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Druhé posly:",
+        "answers": [
+          "sú látky vznikajúce v bunkách po účinku vo vode rozpustných regulačných látok",
+          "sú cyklické nukleotidy ako napr. cAMP, cGMP",
+          "sú látky, ktoré sa tvoria účinkom cytozolových enzýmov",
+          "sú potrebné pre účinok tyroxínu"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 243,
+          "questionNumber": 243,
+          "page": 32,
+          "endPage": 32,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Cytozolové receptory:",
+        "answers": [
+          "aktivujú sa cAMP",
+          "uplatňujú sa pri účinku vitamínu D",
+          "sú potrebné pre sprostredkovanie účinku kortizolu",
+          "po väzbe hormónu vstupujú do jadra a regulujú expresiu génov"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 244,
+          "questionNumber": 244,
+          "page": 32,
+          "endPage": 32,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w03_signalizacia",
+          "reason": "Otázka skúša hormonálne receptory, G-proteíny, druhých poslov alebo prenos signálu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 4,
+          "objectiveRefs": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      }
+    ]
+  }
+]

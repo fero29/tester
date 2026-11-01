@@ -1,0 +1,1116 @@
+[
+  {
+    "title": "Histológia – 05. týždeň – Lymfatický systém",
+    "description": "Appendix, podnebná a jazyková mandľa, lymfatická uzlina, týmus, slezina a MALT.",
+    "year": 2,
+    "category": "Histológia",
+    "sortOrder": 5,
+    "questions": [
+      {
+        "question": "Slezina je obalená väzivovým puzdrom",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 4,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-002.jpg",
+            "img-162.jpg",
+            "img-166.jpg",
+            "img-193.jpg",
+            "img-194.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 5,
+          "topic": "Lymfatický systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Vnútorná stróma mandlí je tvorená retikulárnym tkanivom",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 6,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-003.jpg",
+            "img-177.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 5,
+          "topic": "Lymfatický systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Lymfatické uzliny sú opuzdrené orgány",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 13,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-006.jpg",
+            "img-168.jpg",
+            "img-187.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 5,
+          "topic": "Lymfatický systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Dreň týmusu je pri farbení HE svetlejšia ako kôra",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 14,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-007.jpg",
+            "img-167.jpg",
+            "img-188.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 5,
+          "topic": "Lymfatický systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Plazmatické bunky sú prítomné v primárnych lymfatických uzlíkoch",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 16,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-008.jpg",
+            "img-174.jpg",
+            "img-196.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 5,
+          "topic": "Lymfatický systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Jemnú strómu lymfatickej uzliny tvoria retikulárne bunky spolu s retikulárnymi vláknami",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 32,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-016.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 5,
+          "topic": "Lymfatický systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Mandle majú úplné púzdro, ktoré ich oddeľuje od okolitých tkanív",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 33,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-016.jpg",
+            "img-027.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 5,
+          "topic": "Lymfatický systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "V lymfatických folikuloch sa naivné B bunky aktivujú po stretnutí so svojím špecifickým antigénom",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 47,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-021.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 5,
+          "topic": "Lymfatický systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Lymfatické folikuly sa nachádzajú len v lymfatických uzlinách",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 62,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-028.jpg",
+            "img-037.jpg",
+            "img-199.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 5,
+          "topic": "Lymfatický systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Slezina neobsahuje aferentné lymfatické cievy, preto sa nepodieľa na filtrácii lymfy",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 63,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-028.jpg",
+            "img-037.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 5,
+          "topic": "Lymfatický systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Kôra týmusu je v HE tmavšia pre množstvo B-lymfocytov, ktoré ju osídľujú",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 64,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-029.jpg",
+            "img-155.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 5,
+          "topic": "Lymfatický systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Hassallove telieska sa nachádzajú v dreni týmusu",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 70,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-032.jpg",
+            "img-038.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 5,
+          "topic": "Lymfatický systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Hassallove telieska sú uložené v kôre týmusu",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 73,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-043.jpg",
+            "img-052.jpg",
+            "img-081.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 5,
+          "topic": "Lymfatický systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Biela pulpa sleziny obsahuje iba B-lymfocyty",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 76,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-045.jpg",
+            "img-060.jpg",
+            "img-075.jpg",
+            "img-082.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 5,
+          "topic": "Lymfatický systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Appendix vermiformis patrí medzi opuzdrené lymfatické orgány",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 77,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-045.jpg",
+            "img-053.jpg",
+            "img-078.jpg",
+            "img-102.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 5,
+          "topic": "Lymfatický systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Billrothove povrazce sleziny sa vďaka prítomnosti makrofágov podieľajú na odstraňovaní starých a poškodených červených krviniek v slezine",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 87,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-051.jpg",
+            "img-055.jpg",
+            "img-081.jpg",
+            "img-085.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 5,
+          "topic": "Lymfatický systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Nahromadenie lymfatického tkaniva v radix linguae sa označuje ako tonsilla lingualis",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 88,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-053.jpg",
+            "img-074.jpg",
+            "img-089.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 5,
+          "topic": "Lymfatický systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "MALT (mucose-associated lymphoid tissue) sa nachádza v slizniciach niektorých orgánov tráviaceho, dýchacieho a urogenitálneho systému",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 89,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-054.jpg",
+            "img-082.jpg",
+            "img-083.jpg",
+            "img-095.jpg",
+            "img-138.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 5,
+          "topic": "Lymfatický systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Lymfatické uzlíky v appendix vermiformis vytvárajú zhluky - skupiny uzlíkov a sú známe ako Peyerove plaky",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 94,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-042.jpg",
+            "img-056.jpg",
+            "img-059.jpg",
+            "img-078.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 5,
+          "topic": "Lymfatický systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "V primárnych lymfatických uzlíkoch dochádza k aktivácii a diferenciácii B-lymfocytov, čo sa prejaví ako svetlo sa farbiace zárodočné centrum",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 99,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-059.jpg",
+            "img-065.jpg",
+            "img-074.jpg",
+            "img-084.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 5,
+          "topic": "Lymfatický systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "T-lymfocyty vytvárajú periarteriolárnu lymfatickú pošvu v slezine",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 104,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-062.jpg",
+            "img-074.jpg",
+            "img-090.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 5,
+          "topic": "Lymfatický systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Sekundárne lymfatické uzlíky môžeme nájsť v appendixe, lymfatickej uzline, slezine a v podnebnej mandli",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 107,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-064.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 5,
+          "topic": "Lymfatický systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Stróma lymfatickej uzliny je tvorená retikulovým epitelom",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 120,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-071.jpg",
+            "img-072.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 5,
+          "topic": "Lymfatický systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Kôra lymfatickej uzliny obsahuje lymfatické uzlíky a retikulové väzivo",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 124,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-096.jpg",
+            "img-099.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 5,
+          "topic": "Lymfatický systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Väzivové septá rozdeľujú parenchým týmusu na nepravé lalôčiky",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 128,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-097.jpg",
+            "img-104.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 5,
+          "topic": "Lymfatický systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Radix linguae obsahuje množstvo lymfatických uzlíkov a tiež mucinózne Weberove žliazky",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 137,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-099.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 5,
+          "topic": "Lymfatický systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Podnebná mandľa (tonsilla palatina) je pokrytá viacvrstvovým plochým epitelom, jej spodinu tvorí väzivová kapsula",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 139,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-099.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 5,
+          "topic": "Lymfatický systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Retikuloepitelové bunky tvoria vnútornú strómu týmusu",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 147,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-103.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 5,
+          "topic": "Lymfatický systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Parakortex lymfatickej uzliny je sídlom najmä T-lymfocytov",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 153,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-107.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 5,
+          "topic": "Lymfatický systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Parenchým týmusu je v dospelosti redukovaný a nahrádzaný tukovým väzivom",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 157,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-109.jpg",
+            "img-120.jpg",
+            "img-121.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 5,
+          "topic": "Lymfatický systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Lymfatické uzlíky vo všetkých sekundárnych lymfatických orgánoch sa označuju aj ako Malpighiho telieska",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 158,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-110.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 5,
+          "topic": "Lymfatický systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Riedke kolagénové väzivo v sliznici appendix vermiformis obsahuje zhluky lymfatického tkaniva",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 161,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-113.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 5,
+          "topic": "Lymfatický systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Kortex lymfatickej uzliny obsahuje najmä štruktúry s prevahou B-lymfocytov - lymfatické uzlíky",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 168,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-117.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 5,
+          "topic": "Lymfatický systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Súčasťou bielej pulpy v slezine je arteriola centralis",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 171,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-120.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 5,
+          "topic": "Lymfatický systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Vnútornú strómu týmusu tvoria retikulové bunky a retikulové vlákna",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 180,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-127.jpg",
+            "img-128.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 5,
+          "topic": "Lymfatický systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Marginálna zóna oddeľuje bielu a červenú pulpu sleziny",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 181,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-128.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 5,
+          "topic": "Lymfatický systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Výbežky retikuloepitelových buniek spolu s endotelom kapilár v kôre týmusu vytvárajú krvno-týmusovú bariéru dôležitú pre vyvíjajúce sa T-lymfocyty",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 188,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-132.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 5,
+          "topic": "Lymfatický systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Periarteriolárna lymfatická pošva (PALS) sa nachádza v lymfatickej uzline",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 190,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-133.jpg",
+            "img-134.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 5,
+          "topic": "Lymfatický systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Súčasťou parenchýmu podnebnej mandle sú lymfatické uzlíky s B-lymfocytmi",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 194,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-141.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 5,
+          "topic": "Lymfatický systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Lymfatické folikuly možno histologicky vizualizovať ako zhluky buniek v lymfatických tkanivách",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 200,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-154.jpg",
+            "img-155.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 5,
+          "topic": "Lymfatický systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Lymfatické folikuly neobsahujú žiadne podporné stromálne bunky",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 203,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-155.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 5,
+          "topic": "Lymfatický systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Prítomnosť zárodočných centier v lymfatických uzlíkoch naznačuje aktívnu imunitnú odpoveď",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 221,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-201.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 5,
+          "topic": "Lymfatický systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Mandle sú súčasťou slizničného lymfatického tkaniva (MALT)",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 225,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-204.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 5,
+          "topic": "Lymfatický systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "MALT (mucosa-associated lymphoid tissue) je dôležitou súčasťou tunica submucosa niektorých orgánov aj tráviaceho systému.",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "1. zapocet.pdf",
+          "images": [
+            "img-103.jpg"
+          ],
+          "keyFrom": "Forms"
+        },
+        "curriculum": {
+          "week": 5,
+          "topic": "Lymfatický systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Podnebná mandľa (tonsilla palatina) je pokrytá viacradovým cylindrickým epitelom s riasinkami a pohárikovými bunkami.",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "1. zapocet.pdf",
+          "images": [
+            "img-112.jpg"
+          ],
+          "keyFrom": "Forms"
+        },
+        "curriculum": {
+          "week": 5,
+          "topic": "Lymfatický systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Dreň týmusu neobsahuje žiadne zrelé T-lymfocyty, preto je svetlejšia v porovnaní s kôrou vo farbení HE.",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "1. zapocet.pdf",
+          "images": [
+            "img-205.jpg"
+          ],
+          "keyFrom": "Moodle"
+        },
+        "curriculum": {
+          "week": 5,
+          "topic": "Lymfatický systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      }
+    ]
+  }
+]

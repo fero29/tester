@@ -1,0 +1,973 @@
+[
+  {
+    "title": "Biochémia 1 - Týždeň 08 - Metabolizmus tukového tkaniva",
+    "description": "8. týždeň, ZS 2026/2027: Metabolizmus tukového tkaniva. Otázky zaradené podľa cieľov týždenného programu; odpovede podľa zdrojového PDF.",
+    "questions": [
+      {
+        "question": "Organizmus má najväčšie zásoby energie vo forme:",
+        "answers": [
+          "glukózy",
+          "glykogénu",
+          "tukov",
+          "aminokyselín a bielkovín"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 373,
+          "questionNumber": 373,
+          "page": 49,
+          "endPage": 49,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 8,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w08_zasobne_tuky",
+          "reason": "Otázka skúša zásobné triacylglyceroly, ich syntézu a ukladanie v tukovom tkanive.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 9,
+          "objectiveRefs": [
+            1,
+            2
+          ]
+        }
+      },
+      {
+        "question": "Štiepenie TAG v tukovom tkanive:",
+        "answers": [
+          "zabezpečuje enzým, ktorý hydrolyticky odštiepuje zvyšky karboxylových kyselín za vzniku VKK a glycerolfosfátu",
+          "je aktivované počas hladovania",
+          "je aktivované v strese hormónom adrenalínom, ktorý sprostredkovane spôsobuje premenu hormonsenzitívnej lipázy na aktívnu - fosforylovanú formu",
+          "je inhibované antilipolytickým hormónom inzulínom tak, že po jeho pôsobení dochádza k premene hormónsenzitívnej lipázy na inaktívnu - defosforylovanú formu"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 417,
+          "questionNumber": 417,
+          "page": 54,
+          "endPage": 54,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 8,
+          "relatedWeeks": [
+            6,
+            7
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w08_lipolyza",
+          "reason": "Otázka priamo skúša hormón-senzitívnu lipázu a reguláciu štiepenia TAG v adipocytoch.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 9,
+          "objectiveRefs": [
+            2,
+            4
+          ]
+        }
+      },
+      {
+        "question": "Hormónsenzitívna lipáza je enzým, ktorý:",
+        "answers": [
+          "zodpovedá za fosforolytické štiepenie TAG v tukovom tkanive",
+          "zodpovedá za štiepenie TAG prijatých potravou",
+          "je aktivovaná glukagónom tak, že po jeho pôsobení dochádza k jej premene na aktívnu - fosforylovanú formu",
+          "je inhibovaná v podmienkach hladovania, pretože dochádza k jej premene na inaktívnu - defosforylovanú formu"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 445,
+          "questionNumber": 445,
+          "page": 58,
+          "endPage": 58,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 8,
+          "relatedWeeks": [
+            6,
+            7
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w08_lipolyza",
+          "reason": "Otázka priamo skúša hormón-senzitívnu lipázu a reguláciu štiepenia TAG v adipocytoch.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 9,
+          "objectiveRefs": [
+            2,
+            4
+          ]
+        }
+      },
+      {
+        "question": "Pri syntéze triacylglycerolov:",
+        "answers": [
+          "sú potrebné VKK v aktívnej forme ako acyl-CoA",
+          "je potrebný enzým fosfatidátfosfatáza",
+          "ako medziprodukt vzniká 2-monoacylglycerol",
+          "zdrojom alkoholovej zložky v pečeni môže byť voľný glycerol a v tukovom tkanive dihydroxyacetónfosfát"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 452,
+          "questionNumber": 452,
+          "page": 59,
+          "endPage": 59,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 8,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w08_zasobne_tuky",
+          "reason": "Otázka skúša zásobné triacylglyceroly, ich syntézu a ukladanie v tukovom tkanive.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 9,
+          "objectiveRefs": [
+            1,
+            2
+          ]
+        }
+      },
+      {
+        "question": "Ktoré bunky ľudského organizmu syntetizujú a skladujú triacylglyceroly:",
+        "answers": [
+          "všetky bez výnimky",
+          "pečeňové bunky",
+          "bunky tukového tkaniva",
+          "enterocyty"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 459,
+          "questionNumber": 459,
+          "page": 60,
+          "endPage": 60,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 8,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w08_zasobne_tuky",
+          "reason": "Otázka skúša zásobné triacylglyceroly, ich syntézu a ukladanie v tukovom tkanive.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 9,
+          "objectiveRefs": [
+            1,
+            2
+          ]
+        }
+      },
+      {
+        "question": "Lipoproteínová lipáza:",
+        "answers": [
+          "zúčastňuje sa lipolýzy v adipocytoch",
+          "v defosforylovanom stave je neaktívna",
+          "štiepi TAG v glykoproteínoch",
+          "jej aktivátorom je apoproteín C"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 473,
+          "questionNumber": 473,
+          "page": 62,
+          "endPage": 62,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 8,
+          "relatedWeeks": [
+            9
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w08_lpl_chylomikrony",
+          "reason": "Otázka skúša lipoproteínovú lipázu alebo transport a využitie exogénnych TAG v chylomikrónoch.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 9,
+          "objectiveRefs": [
+            3
+          ]
+        }
+      },
+      {
+        "question": "Chylomikróny:",
+        "answers": [
+          "sú secernované do lymfatického obehu",
+          "obsahujú ako bielkovinovú zložku aj apoB48",
+          "na ich metabolizovaní sa podieľa hormónsenzitívna lipáza",
+          "ich degradáciou vznikajú remnanty"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 489,
+          "questionNumber": 489,
+          "page": 64,
+          "endPage": 64,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 8,
+          "relatedWeeks": [
+            9
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w08_lpl_chylomikrony",
+          "reason": "Otázka skúša lipoproteínovú lipázu alebo transport a využitie exogénnych TAG v chylomikrónoch.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 9,
+          "objectiveRefs": [
+            3
+          ]
+        }
+      },
+      {
+        "question": "Triacylglyceroly:",
+        "answers": [
+          "patria medzi polárne tuky",
+          "syntetizujú sa v adipocytoch, hepatocytoch a tenkom čreve",
+          "degradujú sa účinkom inzulínu",
+          "exogénne sa transportujú v chylomikrónoch"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 498,
+          "questionNumber": 498,
+          "page": 65,
+          "endPage": 65,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 8,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w08_tag_synteza",
+          "reason": "Otázka skúša syntézu TAG, pôvod glycerolfosfátu, úlohu glycerolkinázy alebo zásobnú funkciu TAG.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 9,
+          "objectiveRefs": [
+            1,
+            2
+          ]
+        }
+      },
+      {
+        "question": "Pre hormónsenzitívnu lipázu platí:",
+        "answers": [
+          "nachádza sa v hepatocytoch",
+          "hydrolyticky štiepi endogénne TAG",
+          "je aktivovaná inzulínom",
+          "fosforylovaná je aktívna"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 504,
+          "questionNumber": 504,
+          "page": 66,
+          "endPage": 66,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 8,
+          "relatedWeeks": [
+            6,
+            7
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w08_hsl_dalsie",
+          "reason": "Otázka je priamo zameraná na aktivitu hormón-senzitívnej lipázy a odbúranie TAG.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 9,
+          "objectiveRefs": [
+            2,
+            4
+          ]
+        }
+      },
+      {
+        "question": "Na aktiváciu lipoproteínovej lipázy je potrebný:",
+        "answers": [
+          "apoproteín B",
+          "apoproteín E",
+          "apoproteín C",
+          "apoproteín A"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 509,
+          "questionNumber": 509,
+          "page": 67,
+          "endPage": 67,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 8,
+          "relatedWeeks": [
+            9
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w08_lpl_chylomikrony",
+          "reason": "Otázka skúša lipoproteínovú lipázu alebo transport a využitie exogénnych TAG v chylomikrónoch.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 9,
+          "objectiveRefs": [
+            3
+          ]
+        }
+      },
+      {
+        "question": "Lipoproteínová lipáza je aktivovaná:",
+        "answers": [
+          "apoproteínom A",
+          "apoproteínom C",
+          "apoproteínom B",
+          "apoproteínom D"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 527,
+          "questionNumber": 527,
+          "page": 69,
+          "endPage": 69,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 8,
+          "relatedWeeks": [
+            9
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w08_lpl_chylomikrony",
+          "reason": "Otázka skúša lipoproteínovú lipázu alebo transport a využitie exogénnych TAG v chylomikrónoch.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 9,
+          "objectiveRefs": [
+            3
+          ]
+        }
+      },
+      {
+        "question": "Glycerolkináza:",
+        "answers": [
+          "je potrebná pre aktiváciu VKK",
+          "jej substrátom je ATP",
+          "je aktívna v adipocytoch",
+          "nachádza sa v mitochondriách"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 531,
+          "questionNumber": 531,
+          "page": 70,
+          "endPage": 70,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 8,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w08_tag_synteza",
+          "reason": "Otázka skúša syntézu TAG, pôvod glycerolfosfátu, úlohu glycerolkinázy alebo zásobnú funkciu TAG.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 9,
+          "objectiveRefs": [
+            1,
+            2
+          ]
+        }
+      },
+      {
+        "question": "Chylomikróny:",
+        "answers": [
+          "transportujú cholesterol prijímaný v potrave do pečene",
+          "ich základnou zložkou sú endogénne TAG",
+          "TAG sa z nich uvoľňujú pomocou LPL",
+          "sú lipoproteíny s najnižšou hustotou"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 537,
+          "questionNumber": 537,
+          "page": 70,
+          "endPage": 70,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 8,
+          "relatedWeeks": [
+            9
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w08_lpl_chylomikrony",
+          "reason": "Otázka skúša lipoproteínovú lipázu alebo transport a využitie exogénnych TAG v chylomikrónoch.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 9,
+          "objectiveRefs": [
+            3
+          ]
+        }
+      },
+      {
+        "question": "Hormónsenzitívna lipáza:",
+        "answers": [
+          "nachádza sa v hepatocytoch",
+          "je aktívna defosforylovaná",
+          "je aktivovaná glukagónom",
+          "štiepi exogénne TAG"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 540,
+          "questionNumber": 540,
+          "page": 71,
+          "endPage": 71,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 8,
+          "relatedWeeks": [
+            6,
+            7
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w08_hsl_dalsie",
+          "reason": "Otázka je priamo zameraná na aktivitu hormón-senzitívnej lipázy a odbúranie TAG.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 9,
+          "objectiveRefs": [
+            2,
+            4
+          ]
+        }
+      },
+      {
+        "question": "Hlavnou funkciou triacylglycerolov je, že sú:",
+        "answers": [
+          "stavebnou zložkou membrán",
+          "tepelnou izoláciou",
+          "zdrojom energie",
+          "mechanickou ochranou pre niektoré tkanivá"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 543,
+          "questionNumber": 543,
+          "page": 71,
+          "endPage": 71,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 8,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w08_tag_synteza",
+          "reason": "Otázka skúša syntézu TAG, pôvod glycerolfosfátu, úlohu glycerolkinázy alebo zásobnú funkciu TAG.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 9,
+          "objectiveRefs": [
+            1,
+            2
+          ]
+        }
+      },
+      {
+        "question": "Miestom syntézy endogénnych triacylglycerolov je najmä:",
+        "answers": [
+          "tenké črevo",
+          "oblička",
+          "pankreas",
+          "pečeň"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 544,
+          "questionNumber": 544,
+          "page": 71,
+          "endPage": 71,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 8,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w08_tag_synteza",
+          "reason": "Otázka skúša syntézu TAG, pôvod glycerolfosfátu, úlohu glycerolkinázy alebo zásobnú funkciu TAG.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 9,
+          "objectiveRefs": [
+            1,
+            2
+          ]
+        }
+      },
+      {
+        "question": "Glycerolkináza:",
+        "answers": [
+          "nachádza sa v tukovom tkanive",
+          "nachádza sa v pečeni",
+          "je potrebná pre aktiváciu vyšších karboxylových kyselín",
+          "potrebuje ATP ako substrát"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 547,
+          "questionNumber": 547,
+          "page": 72,
+          "endPage": 72,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 8,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w08_tag_synteza",
+          "reason": "Otázka skúša syntézu TAG, pôvod glycerolfosfátu, úlohu glycerolkinázy alebo zásobnú funkciu TAG.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 9,
+          "objectiveRefs": [
+            1,
+            2
+          ]
+        }
+      },
+      {
+        "question": "Hormónsenzitívna lipáza štiepi:",
+        "answers": [
+          "cholesterolestery",
+          "chylomikróny",
+          "VLDL",
+          "TAG"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 549,
+          "questionNumber": 549,
+          "page": 72,
+          "endPage": 72,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 8,
+          "relatedWeeks": [
+            6,
+            7
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w08_hsl_dalsie",
+          "reason": "Otázka je priamo zameraná na aktivitu hormón-senzitívnej lipázy a odbúranie TAG.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 9,
+          "objectiveRefs": [
+            2,
+            4
+          ]
+        }
+      },
+      {
+        "question": "Lipoproteinová lipáza:",
+        "answers": [
+          "má úlohu pre využitie karboxylových kyselín v resyntéze TAG v adipocytoch",
+          "sa nachádza na endoteli kapilár",
+          "štiepi chylomikróny transportujúce exogénne TAG",
+          "je prítomná v adipocytoch"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 569,
+          "questionNumber": 569,
+          "page": 74,
+          "endPage": 74,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 8,
+          "relatedWeeks": [
+            9
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w08_lpl_chylomikrony",
+          "reason": "Otázka skúša lipoproteínovú lipázu alebo transport a využitie exogénnych TAG v chylomikrónoch.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 9,
+          "objectiveRefs": [
+            3
+          ]
+        }
+      },
+      {
+        "question": "Hormónsenzitívna lipáza:",
+        "answers": [
+          "je aktívna v defosforylovanom stave",
+          "štiepi TAG adipocytov tukového tkaniva",
+          "hydrolyzuje TAG chylomikrónov",
+          "aktivuje sa mechanizmami sprostredkovanými zvýšenou hladinou inzulínu"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 576,
+          "questionNumber": 576,
+          "page": 75,
+          "endPage": 75,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 8,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w08_tag_dalsie",
+          "reason": "Otázka sa týka zásobných TAG, lipolýzy v adipocytoch alebo transportu exogénnych lipidov chylomikrónmi.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 9,
+          "objectiveRefs": [
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      },
+      {
+        "question": "Chylomikróny sú lipoproteínové častice, o ktorých platí:",
+        "answers": [
+          "sú syntetizované v enterocytoch tenkého čreva",
+          "ich transport do lymfy sa uskutočňuje exocytózou",
+          "transportujú endogénne lipidy",
+          "štiepi ich hormónsenzitívna lipáza"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 594,
+          "questionNumber": 594,
+          "page": 78,
+          "endPage": 78,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 8,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w08_tag_dalsie",
+          "reason": "Otázka sa týka zásobných TAG, lipolýzy v adipocytoch alebo transportu exogénnych lipidov chylomikrónmi.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 9,
+          "objectiveRefs": [
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      },
+      {
+        "question": "Neutrálne tuky:",
+        "answers": [
+          "sú zásobnou látkou v organizme",
+          "sú dôležité z hľadiska zisku energie pre organizmus",
+          "sú najvýznamnejšou stavebnou zložkou membrán buniek",
+          "majú aj funkciu tepelného izolátora"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 595,
+          "questionNumber": 595,
+          "page": 78,
+          "endPage": 78,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 8,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w08_tag_dalsie",
+          "reason": "Otázka sa týka zásobných TAG, lipolýzy v adipocytoch alebo transportu exogénnych lipidov chylomikrónmi.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 9,
+          "objectiveRefs": [
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      },
+      {
+        "question": "Hormónsenzitívna lipáza:",
+        "answers": [
+          "sa zúčastňuje lipolýzy v tukovom tkanive",
+          "v defosforylovanom stave je neaktívna",
+          "štiepi aj lipidy lipoproteínov",
+          "aktivuje sa glukagónom"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 601,
+          "questionNumber": 601,
+          "page": 78,
+          "endPage": 78,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 8,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w08_tag_dalsie",
+          "reason": "Otázka sa týka zásobných TAG, lipolýzy v adipocytoch alebo transportu exogénnych lipidov chylomikrónmi.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 9,
+          "objectiveRefs": [
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      },
+      {
+        "question": "Triacylglyceroly v tukovom tkanive:",
+        "answers": [
+          "sú hydrolyzované pankreatickou lipázou",
+          "štiepi ich lipoproteínová lipáza",
+          "na ich degradácii sa zúčastňuje hormónsenzitívna lipáza",
+          "ich syntéza sa znižuje pri nedostatku inzulínu"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 610,
+          "questionNumber": 610,
+          "page": 80,
+          "endPage": 80,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 8,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w08_tag_dalsie",
+          "reason": "Otázka sa týka zásobných TAG, lipolýzy v adipocytoch alebo transportu exogénnych lipidov chylomikrónmi.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 9,
+          "objectiveRefs": [
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      }
+    ]
+  }
+]

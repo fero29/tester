@@ -1,0 +1,828 @@
+[
+  {
+    "title": "Latinské frázy a slovné spojenia",
+    "description": "Anatomické a medicínske latinské frázy",
+    "testType": "vocabulary",
+    "vocabulary": [
+      {
+        "latin": "fovea pterygoidea",
+        "slovak": "krídlovitá jamka",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "tunica conjunctiva",
+        "slovak": "spojovka",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "ulna dextra",
+        "slovak": "pravá lakťová kosť",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "fascia lata",
+        "slovak": "široká pokrývka",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "fossa iliaca",
+        "slovak": "bedrová jama",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "lamina interna",
+        "slovak": "vnútorná platnička",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "substantia nigra",
+        "slovak": "čierna hmota",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "substantia grisea",
+        "slovak": "šedá hmota",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "arteria gastrica dextra",
+        "slovak": "pravá žalúdková tepna",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "sutura palatina transversa",
+        "slovak": "priečny podnebný šev",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "plica venae cavae sinistrae",
+        "slovak": "záhyb ľavej dutej žily",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "raphe medullae oblongatae",
+        "slovak": "šev predĺženej miechy",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "vena profunda linguae",
+        "slovak": "hlboká žila jazyka",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "arteria transversa scapulae",
+        "slovak": "priečna tepna lopatky",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "tunica mucosa tracheae",
+        "slovak": "sliznica priedušnice",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "rami hepatici",
+        "slovak": "pečeňové vetvy",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "ganglia thoracica",
+        "slovak": "hrudníkové nervové uzly",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "trochlea humeri",
+        "slovak": "kladka ramennej kosti",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "ala nasi",
+        "slovak": "krídlo nosa",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "fundus uteri",
+        "slovak": "dno maternice",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "bulbus oculi",
+        "slovak": "guľa oka, očná guľa",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "collum tali",
+        "slovak": "krček členkovej kosti",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "isthmus glandulae thyroideae",
+        "slovak": "úžina štítnej žľazy",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "sulcus venae cavae",
+        "slovak": "žliabok dutej žily",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "collum anatomicum humeri",
+        "slovak": "anatomický krček ramennej kosti",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "ligamentum latum uteri",
+        "slovak": "široký väz maternice",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "tela choroidea ventriculi quarti",
+        "slovak": "cievovkové tkanivo štvrtej komory",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "apertura canaliculi cochleae",
+        "slovak": "otvor kanálika slimáka",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "icterus neonatorum",
+        "slovak": "žltačka novorodencov",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "fractura colli chirurgici humeri",
+        "slovak": "zlomenina chirurgického krčka ramennej kosti",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "ruptura cerebri neonati",
+        "slovak": "prasknutie mozgu novorodenca",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "fractura radii loco typico",
+        "slovak": "zlomenina vretennej kosti na typickom mieste",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "morbilli cum pneumonia",
+        "slovak": "osýpky so zápalom pľúc",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "hernia in recto",
+        "slovak": "prietrž v konečníku",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "vena cerebri magna",
+        "slovak": "veľká žila mozgu",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "flexura coli dextra",
+        "slovak": "pravý ohyb hrubého čreva",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "fossa vestibuli vaginae",
+        "slovak": "jama predsiene pošvy",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "anomalia bulbi oculi congenita",
+        "slovak": "vrodená anomália očnej gule",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "fractura colli radii aperta",
+        "slovak": "otvorená zlomenina krčka vretennej kosti",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "ligamentum transversum scapulae",
+        "slovak": "priečny väz lopatky",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "flexura coli sinistra",
+        "slovak": "ľavý ohyb hrubého čreva",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "nodi lymphatici iliaci interni",
+        "slovak": "vnútorné bedrové lymfatické uzly",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "vagina externa nervi optici",
+        "slovak": "vonkajšia pošva zrakového nervu",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "venae cerebri internae",
+        "slovak": "vnútorné mozgové žily",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "regiones corporis",
+        "slovak": "oblasti tela",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "vasa vasorum",
+        "slovak": "cievy ciev",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "cartilago tubae auditivae",
+        "slovak": "chrupka sluchovej trubice",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "articulatio tarsi transversa",
+        "slovak": "priečny kĺb priehlavku",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "ossa digitorum pedis",
+        "slovak": "kosti prstov nohy",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "margo interosseus radii",
+        "slovak": "medzikostný okraj vretennej kosti",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "crus dextrum",
+        "slovak": "pravé predkolenie",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "musculus levator anguli oris",
+        "slovak": "zdvíhač kútika úst",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "lobus hepatis sinister",
+        "slovak": "ľavý lalok pečene",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "medulla ossium flava",
+        "slovak": "žltá kostná dreň",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "caput obliquum musculi adductoris hallucis",
+        "slovak": "šikmá hlava priťahovača palca na nohe",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "musculus extensor pollicis longus",
+        "slovak": "dlhý vystierač palca na ruke",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "vagina musculi recti abdominis",
+        "slovak": "pošva priameho svalu brucha",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "angina pectoris",
+        "slovak": "tlaková zvieravá bolesť za hrudnou kosťou",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "contusio thoracis",
+        "slovak": "pomliaždenie hrudníka",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "gangraena pulmonum",
+        "slovak": "sneť pľúc",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "ulcus mucosae oris",
+        "slovak": "vred sliznice úst",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "musculus obliquus abdominis externus",
+        "slovak": "vonkajší šikmý sval brucha",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "margo interosseus ulnae",
+        "slovak": "medzikostný okraj lakťovej kosti",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "caput transversum musculi adductoris pollicis",
+        "slovak": "priečna hlava priťahovača palca",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "cartilagines laryngis",
+        "slovak": "hrtanové chrupky",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "vagina tendinis musculi extensoris pollicis longi",
+        "slovak": "pošva šľachy dlhého vystierača palca",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "tumor ovarii lateris dextri",
+        "slovak": "nádor pravého vaječníka",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "amputatio mammae lateris utriusque",
+        "slovak": "amputácia oboch prsníkov",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "vulnus lacerum cum laesione tendinum",
+        "slovak": "tržná rana s poškodením šliach",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "vitium cordis congenitum",
+        "slovak": "vrodená chyba srdca",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "contusio corticis cerebri",
+        "slovak": "zmliaždenie mozgovej kôry",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "pus in vulnere operativo",
+        "slovak": "hnis v operačnej rane",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "appendix fibrosa hepatis",
+        "slovak": "väzivový prívesok pečene",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "ligamentum arcuatum pubis",
+        "slovak": "oblúkovitý väz lona",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "pars ossea tubae auditivae",
+        "slovak": "kostená časť zvukovodu",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "lobus medius pulmonis dextri",
+        "slovak": "stredný lalok pravých pľúc",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "fibrae pontis transversae",
+        "slovak": "priečne vlákna mosta",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "rami isthmi faucium",
+        "slovak": "vetvy úžiny hrdla",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "vasa sanguinea auris internae",
+        "slovak": "krvné cievy vnútorného ucha",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "ossicula auditoria",
+        "slovak": "sluchové kostičky",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "extractio dentium deciduorum",
+        "slovak": "vytrhnutie mliečnych zubov",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "anomalia congenita radicum dentium",
+        "slovak": "vrodená anomália koreňov zubov",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "infectio vulneris chirurgici",
+        "slovak": "infekcia chirurgickej rany",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "lege artis",
+        "slovak": "podľa pravidiel",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "ante finem",
+        "slovak": "pred smrťou",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "restitutio ad integrum",
+        "slovak": "úplné vyhojenie",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "dislocatio ad axim",
+        "slovak": "posunutie od osi",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "diameter pelvis transversa",
+        "slovak": "priečny priemer panvy",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "pars uterina tubae uterinae",
+        "slovak": "maternicová časť vajíčkovodu",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "fila transversa pontis",
+        "slovak": "priečne vlákna mosta",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "dura mater encephali",
+        "slovak": "tvrdá plena mozgu",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "pars membranacea urethrae",
+        "slovak": "blanitá časť močovej rúry",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "articulationes ossiculorum auditorum",
+        "slovak": "kĺby sluchových kostičiek",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "luxatio phalangum digitorum pedis complicata",
+        "slovak": "komplikované vykĺbenie článkov prstov nohy",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "deformitas articulationis coxae congenita cum luxatione",
+        "slovak": "vrodená deformácia bedrového kĺbu s vykĺbením",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "corpus alienum auris",
+        "slovak": "cudzie teleso ucha",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "recessus membranae tympani",
+        "slovak": "záhyb blany bubienka",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "musculi ossiculorum auditus",
+        "slovak": "svaly sluchových kostičiek",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "vena transversa faciei",
+        "slovak": "priečna žila tváre",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "structurae accessoriae oculi",
+        "slovak": "prídavné štruktúry oka",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "ramus deltoideus arteriae profundae brachii",
+        "slovak": "deltovitá vetva hlbokej tepny ramena",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "aditus ad antrum mastoideum",
+        "slovak": "vchod do hlávkovej dutiny",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "abscessus glandulae thyreoideae",
+        "slovak": "absces štítnej žľazy",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "prolapsus recti",
+        "slovak": "prepadnutie konečníka",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "infarctus myocardii acutus",
+        "slovak": "akútny infarkt srdcového svalu",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "situs fetus transversus",
+        "slovak": "priečna poloha plodu",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "decubitus sine gangraena",
+        "slovak": "preležanina bez snete",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "collapsus circulatorius post partum",
+        "slovak": "zlyhanie činnosti obehu po pôrode",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "musculus extensor carpi radialis brevis",
+        "slovak": "krátky vretenný vystierač zápästia",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "fissura ligamenti teretis",
+        "slovak": "ryha oblého väzu",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "arteriae perforantes",
+        "slovak": "prevŕtavajúce tepny",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "musculus flexor pollicis brevis",
+        "slovak": "krátky ohýbač palca",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "facies cerebri medialis",
+        "slovak": "prístredná plocha mozgu",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "musculus biceps femoris",
+        "slovak": "dvojhlavý sval stehna",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "ganglia spinalia",
+        "slovak": "miechové gangliá",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "ampulla ductus deferentis",
+        "slovak": "banka semenovodu",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      },
+      {
+        "latin": "ramus communicans cum nervo ulnari",
+        "slovak": "vetva spájajúca s lakťovým nervom",
+        "type": "phrase",
+        "genitive": "",
+        "gender": ""
+      }
+    ]
+  }
+]

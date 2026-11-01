@@ -15,6 +15,7 @@
 !tests/**
 !tools/
 !tools/manage.sh
+!tools/deploy.sh
 !tools/prepare_local.py
 !tools/imports/
 !tools/imports/*.py

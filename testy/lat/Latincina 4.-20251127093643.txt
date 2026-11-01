@@ -1,0 +1,109 @@
+#separator:tab
+#html:true
+#guid column:1
+#notetype column:2
+#deck column:3
+#tags column:6
+"hbR}#b2`dN"	Základná	Latincina 4.	abdomen inis n.	Brucho	
+vVLjYUOnQ8	Základná	Latincina 4.	abductor oris m. 	Odťahovač	
+wzR@C)$K)r	Základná	Latincina 4.	adductor oris m.	Priťahovač	
+"jz|&q#81%n"	Základná	Latincina 4.	adiposus a um	Tukový	
+C.GcJta^px	Základná	Latincina 4.	alienus a um	Cudzí	
+"C&#>9oC(Zg"	Základná	Latincina 4.	angina ae f.	Prudký zápal mandlí, angína	
+hVD=yO{Jmf	Základná	Latincina 4.	angina pectoris	Tlaková zvieravá bolesť za hrudnou kosťou	
+eJLdEknCN-	Základná	Latincina 4.	apex icis m.	Hrot	
+CFem-P36Ro	Základná	Latincina 4.	articulatio onis f.	Kĺb	
+tNIDcXrrel	Základná	Latincina 4.	auditivus a um	Sluchový	
+K/?)0Gq/0Q	Základná	Latincina 4.	benignus a um	Nezhubný	
+wx.KUFt17-	Základná	Latincina 4.	calcaneus a um	Pätový	
+"vS#p+/3HYZ"	Základná	Latincina 4.	calcaneus i m.	Pätová kosť	
+Lboo]F2ScE	Základná	Latincina 4.	caput itis n.	Hlava, hlavica	
+zOnFQ]G8.)	Základná	Latincina 4.	cartilagineus a um	Chrupkový	
+MqQxxh*s.w	Základná	Latincina 4.	cartilago inis f.	Chrupka	
+ey1b^:mhfW	Základná	Latincina 4.	cavitas atis f.	Dutina	
+xUIyuh)k.-	Základná	Latincina 4.	cervix icis f.	1. Krk, 2. Krček ( na vnútorných dutých orgánoch)	
+iEp}UejF@K	Základná	Latincina 4.	china ae f.	Chinínovník	
+vgkoJnX7XE	Základná	Latincina 4.	cicatrix icis f.	Jazva	
+y9Sqp5Fs;E	Základná	Latincina 4.	compositus a um	Zložený	
+i%uUG91$7i	Základná	Latincina 4.	contusio onis f.	Pomliaždenie	
+PcoT(6C$Gw	Základná	Latincina 4.	contusus a um	Pomliaždený	
+Q<$BZnG^Pd	Základná	Latincina 4.	cor, cordis, n. 	Srdce	
+Hd![/dE+gM	Základná	Latincina 4.	corpus oris n.	Telo, teleso	
+BZdM~n9jap	Základná	Latincina 4.	cortex icis m.	Kôra	
+d{YyUD(EvE	Základná	Latincina 4.	crus cruris n.	1. Predkolenie 2. Ramienko (štruktúra podovná na rameno) 	
+e;.w~X:;im	Základná	Latincina 4.	depressor oris m.	Stlačovač	
+Rg`8$gcl[3	Základná	Latincina 4.	dislocatio onis f.	Posunutie, premiestnenie 	
+yjCP$r[k0C	Základná	Latincina 4.	dolor oris m.	Bolesť	
+yo+q=%gljR	Základná	Latincina 4.	e, ex (s abl.)	z, zo, pre	
+vkwFxEcnTK	Základná	Latincina 4.	extensor oris m.	Vystierač	
+NCu>|z:>~b	Základná	Latincina 4.	femininus a um	Ženský	
+u%(jxWjU$|	Základná	Latincina 4.	femur oris n.	1. Stehno, 2. Stehnová kosť	
+fM[(gm6|rd	Základná	Latincina 4.	flavus a um	Žltý	
+m~J^%DH7}Y	Základná	Latincina 4.	flexor oris m.	Ohýbač	
+qr7Z<33yH%	Základná	Latincina 4.	foramen inis n.	Otvor	
+p*Qq/5G^X6	Základná	Latincina 4.	functio onis f.	Funkcia, činnosť	
+KN2NAV:qvw	Základná	Latincina 4.	graviditas atis f.	Ťarchavosť, tehotnosť	
+h8Wh1:|wBf	Základná	Latincina 4.	hallux cis m.	Veľký palec (na nohe)	
+I&38mX@Abj	Základná	Latincina 4.	Hepar atis n.	Pečeň	
+Q`wR@vV&y.	Základná	Latincina 4.	ileus i m.	Črevná nepriechodnosť	
+F3R0s5$=9N	Základná	Latincina 4.	index icis m.	ukazovák	
+N}Y*wE{gKY	Základná	Latincina 4.	infectio onis f.	infekcia, nákaza	
+w>L2[-xJ_|	Základná	Latincina 4.	injectio onis f.	Injekcia	
+L>DJvS+ZqC	Základná	Latincina 4.	isotonicus a um	izotonický	
+oDI;uQw&ek	Základná	Latincina 4.	junctura ae f.	Spojenie	
+fG&pf0!S,F	Základná	Latincina 4.	lacer a um	Tržný	
+DN;0``E}Oj	Základná	Latincina 4.	laesio onis f.	Poškodenie	
+EqHev]ATI&	Základná	Latincina 4.	laesus a um	Poškodený	
+Alt;^DG<C0	Základná	Latincina 4.	larynx gis m.	Hrtan	
+s!MmG@I$/^	Základná	Latincina 4.	latus eris n.	Strana, bok	
+w[w%M$EHe*	Základná	Latincina 4.	levator oris m.	Zdvíhač	
+"beODSZ)#VR"	Základná	Latincina 4.	longitudo inis f.	dĺžka	
+oJ6LFtO[c.	Základná	Latincina 4.	longus a um	Dlhý	
+p!XBUm{82b	Základná	Latincina 4.	malignus a um	Zhubný	
+"yE(#,>+tx?"	Základná	Latincina 4.	margo inis m.	Okraj, hrana	
+"kz6lH[#h90"	Základná	Latincina 4.	masculinus a um	Mužský	
+PhWUntFk<:	Základná	Latincina 4.	medius a um	Stredný	
+BYaVfmsW8H	Základná	Latincina 4.	nutricius a um	Vyživujúci	
+2]K53{zbk	Základná	Latincina 4.	operatio onis f.	Operácia	
+kO}o[c`>0u	Základná	Latincina 4.	operativus a um	Operačný	
+t*e3/9r.xG	Základná	Latincina 4.	os, oris n.	Ústa	
+qB_zt=i:%t	Základná	Latincina 4.	os ossis n.	Kosť	
+dC0PX1&h.3	Základná	Latincina 4.	os hyoideum	Jazylka	
+pw[de{xtu*	Základná	Latincina 4.	ovarium i n.	Vaječník	
+GaR:{V@Kyl	Základná	Latincina 4.	paries etis m.	Stena	
+K%~~q,2bLv	Základná	Latincina 4.	pectus oris n.	Prsia, hruď	
+eo+v-T+TV9	Základná	Latincina 4.	pes, pedis m.	noha	
+OC@FnBbx?=	Základná	Latincina 4.	phalanx gis f.	Článok	
+vOgw{jTBWT	Základná	Latincina 4.	pharynx gis m.	Hltan	
+D4uO1s[*Yv	Základná	Latincina 4.	planus a um	Plochý	
+"B:S>/|b#|{"	Základná	Latincina 4.	pollex icis m.	Palec (na ruke)	
+dM?@nGwygU	Základná	Latincina 4.	postoperativus a um	Pooperačný	
+Lhox%3;,GW	Základná	Latincina 4.	primarius a um	Prvotný	
+Qsn3?39:df	Základná	Latincina 4.	propter (s ak.)	pre, kvôli	
+e]r:6/~.Bv	Základná	Latincina 4.	pulmo onis m.	Pľúca	
+A]R)SiOWJ[	Základná	Latincina 4.	pulvis eris m.	Prášok	
+Hhbtmae+S)	Základná	Latincina 4.	pus puris n.	Hnis	
+"ngNVtxei#>"	Základná	Latincina 4.	Radix icis f.	Koreň	
+)$Ne%TjIa	Základná	Latincina 4.	regio onis f.	Oblasť	
+y(DD;igL2%	Základná	Latincina 4.	ren renis m.	Oblička	
+h*U$lyH|Gm	Základná	Latincina 4.	secundarius a um	Druhotný	
+j:S/}/EH_o	Základná	Latincina 4.	solutio onis f.	Roztok	
+sW@]IX82<e	Základná	Latincina 4.	sterilitas atis f.	Sterilita, neplodnosť	
+"t?Zsn+6Y#x"	Základná	Latincina 4.	tarsus i m.	Priehlavok	
+"tV^{rH#*kG"	Základná	Latincina 4.	tempora um n.	Spánky	
+A=QbnA}u=(	Základná	Latincina 4.	tendo inis m.	Šľacha	
+B%Z44pRu]^	Základná	Latincina 4.	thorax acis m.	Hrudník	
+F)vQ&n<,+9	Základná	Latincina 4.	tuba ae f. 	1. Trubica 2. Tuba (farmak.)	
+o-Q]h*$8@1	Základná	Latincina 4.	tuba audativa	Sluchová trubica	
+kEKhc^0=|K	Základná	Latincina 4.	tuba uterina	Vajíčkovod 	
+FkB}){x8WO	Základná	Latincina 4.	tuber eris n.	Hrboľ (najčastejšie na kostiach)	
+j_g|Jl7rFW	Základná	Latincina 4.	tuberositas atis f.	Drsnatina	
+AYy<`4,L5E	Základná	Latincina 4.	tumor oris m.	Nádor	
+J:uO;+H.:I	Základná	Latincina 4.	ulcus eris n.	Vred	
+PWD1HAaE_4	Základná	Latincina 4.	urethra ae f.	Močová rúra	
+rjxRQJmntm	Základná	Latincina 4.	uterinus a um	Maternicový	
+wWkOG=i~R:	Základná	Latincina 4.	vas is n.	Cieva	
+JCn9Yl]aUZ	Základná	Latincina 4.	valeriana ae f.	Valeriána	
+yVMW7*j0w=	Základná	Latincina 4.	viscera um n. 	Vnútorné orgány (v brušnej a hrudníkovej dutine)	
+tg5g5l7ZP3	Základná	Latincina 4.	vitium ii n.	Chyba	
+vv6X8<K5T-	Základná	Latincina 4.	vulnus eris n.	Rana	

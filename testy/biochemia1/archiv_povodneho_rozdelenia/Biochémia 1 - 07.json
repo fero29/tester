@@ -1,0 +1,2547 @@
+[
+  {
+    "title": "Biochémia 1 - 07",
+    "description": "Otázky z PDF Biochémia 1 otázky, časť 07. Poradie v zdroji 601–700, strany 78–91. Odpovede podľa označenia v PDF. Otázky odložené na kontrolu: 3.",
+    "questions": [
+      {
+        "question": "Hormónsenzitívna lipáza:",
+        "answers": [
+          "sa zúčastňuje lipolýzy v tukovom tkanive",
+          "v defosforylovanom stave je neaktívna",
+          "štiepi aj lipidy lipoproteínov",
+          "aktivuje sa glukagónom"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 601,
+          "questionNumber": 601,
+          "page": 78,
+          "endPage": 78,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Lipoproteíny s veľmi nízkou hustotou:",
+        "answers": [
+          "sa syntetizujú v pečeni",
+          "tvoria sa v tenkom čreve",
+          "transportujú endogénne TAG",
+          "môžu sa meniť na HDL častice"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 602,
+          "questionNumber": 602,
+          "page": 79,
+          "endPage": 79,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Apoproteín B je:",
+        "answers": [
+          "potrebný pre aktiváciu hormónsenzitívnej lipázy",
+          "nutný na viazanie HDL častíc na receptory",
+          "aktivátorom enzýmu LCAT",
+          "nevyhnutný pre väzbu LDL častíc na receptory"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 603,
+          "questionNumber": 603,
+          "page": 79,
+          "endPage": 79,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Obličky vytvoria za jednu minútu približne:",
+        "answers": [
+          "120 ml glomerulárneho filtrátu",
+          "120 ml definitívneho moča",
+          "120 ml primárneho moča",
+          "neplatí ani jedna z uvedených možností"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 604,
+          "questionNumber": 604,
+          "page": 79,
+          "endPage": 79,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Spätná tubulárna resorpcia:",
+        "answers": [
+          "sa počíta pomocou rozdielu hodnôt glomerulárnej filtrácie za 24 hodín a diurézy",
+          "vyjadruje sa v percentách",
+          "má hodnotu 99,3-99,5%",
+          "má hodnotu 90-95% ,"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 606,
+          "questionNumber": 606,
+          "page": 79,
+          "endPage": 79,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Na sledovanie filtračnej funkcie obličky môžeme využiť kreatinín, lebo:",
+        "answers": [
+          "jeho syntéza prebieha len v obličke",
+          "sa vylučuje len glomerulárnou filtráciou",
+          "v tubuloch sa spätne neresorbuje",
+          "v tubuloch sa vylučuje"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 607,
+          "questionNumber": 607,
+          "page": 79,
+          "endPage": 79,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Biosyntéza karboxylových kyselín:",
+        "answers": [
+          "je subcelulárne lokalizovaná v mitochondriách",
+          "môže prebiehať v tukovom tkanive",
+          "jej regulačnú reakciu katalyzuje acetyl-CoA karboxyláza",
+          "vyžaduje viaceré enzýmové systémy"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 608,
+          "questionNumber": 608,
+          "page": 79,
+          "endPage": 79,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Väzba LDL na receptor:",
+        "answers": [
+          "umožňuje ju hociktorý z apoproteínov",
+          "je zabezpečovaná prítomnosťou apo B",
+          "je dôležitá z hľadiska transportu TAG do pečene",
+          "je podmienená aktiváciou enzýmu LCAT"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 609,
+          "questionNumber": 609,
+          "page": 79,
+          "endPage": 79,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Triacylglyceroly v tukovom tkanive:",
+        "answers": [
+          "sú hydrolyzované pankreatickou lipázou",
+          "štiepi ich lipoproteínová lipáza",
+          "na ich degradácii sa zúčastňuje hormónsenzitívna lipáza",
+          "ich syntéza sa znižuje pri nedostatku inzulínu"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 610,
+          "questionNumber": 610,
+          "page": 80,
+          "endPage": 80,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Enzým LCAT:",
+        "answers": [
+          "je syntetizovaný v pečeni",
+          "reguluje endogénnu tvorbu cholesterolu",
+          "ako substrát využíva cholín",
+          "esterifikuje cholesterol prostredníctvom lecitínu"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 611,
+          "questionNumber": 611,
+          "page": 80,
+          "endPage": 80,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Za 24 hodín sa v obličke vytvorí:",
+        "answers": [
+          "1500 ml glomerulárneho filtrátu",
+          "120 ml primárneho moču",
+          "180 l glomerulárneho filtrátu",
+          "120 ml definitívneho moču"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 612,
+          "questionNumber": 612,
+          "page": 80,
+          "endPage": 80,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Detoxikácia amoniaku na močovinu je zachovaná ešte pri:",
+        "answers": [
+          "25% funkčnej kapacity pečene",
+          "75% funkčnej kapacity pečene",
+          "50% funkčnej kapacity pečene",
+          "100% funkčnej kapacity pečene"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 613,
+          "questionNumber": 613,
+          "page": 80,
+          "endPage": 80,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Jaffeho reakcia:",
+        "answers": [
+          "sa využíva pri stanovení močoviny",
+          "je reakcia kyseliny močovej s kyselinou pikrovou",
+          "je reakcia kreatinínu s kyselinou pikrovou v alkalickom prostredí",
+          "sa využíva pri stanoveniach amoniaku v sére aj v moči"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 614,
+          "questionNumber": 614,
+          "page": 80,
+          "endPage": 80,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "O obličkách môžeme povedať, že:",
+        "answers": [
+          "syntetizujú bielkoviny krvnej plazmy",
+          "môžu syntetizovať glukózu",
+          "sa zúčastňujú regulácie acidobázickej rovnováhy",
+          "obsahujú asi pol milióna nefrónov"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 615,
+          "questionNumber": 615,
+          "page": 80,
+          "endPage": 80,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Dekarboxylácia serínu:",
+        "answers": [
+          "vedie k tvorbe látky potrebnej pre syntézu fosfolipidov",
+          "vyžaduje ako koenzým pyridoxalfosfát",
+          "prebieha mechanizmom Schiffovej bázy",
+          "vyžaduje ATP ako zdroj energie"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 616,
+          "questionNumber": 616,
+          "page": 80,
+          "endPage": 80,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Ktoré zlúčeniny sú tvorené pôsobením alanínaminotransferázy:",
+        "answers": [
+          "pyruvát a glutamín",
+          "alanín a glutamát",
+          "oxalacetát a glutamát",
+          "alanín a 2-oxoglutarát"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 617,
+          "questionNumber": 617,
+          "page": 80,
+          "endPage": 80,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Glutamátdehydrogenáza je enzým, ktorý:",
+        "answers": [
+          "môže katalyzovať syntézu glutamátu",
+          "má koenzým pyridoxalfosfát",
+          "je enzýmom 2. kroku nepriamej deaminácie aminokyselín",
+          "katalyzuje oxidačnú deamináciu glutamátu za uvoľnenia amoniaku"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 618,
+          "questionNumber": 618,
+          "page": 81,
+          "endPage": 81,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Aminotransferázy:",
+        "answers": [
+          "sú významné pre syntézu esenciálnych aminokyselín",
+          "vyžadujú pyridoxalfosfát ako koenzým",
+          "sú enzýmy 1. kroku nepriamej deaminácie aminokyselín",
+          "nepatria medzi funkčné enzýmy plazmy"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 619,
+          "questionNumber": 619,
+          "page": 81,
+          "endPage": 81,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Fyziologická hodnota klírens kreatinínu je:",
+        "answers": [
+          "2ml/min",
+          "120ml/s",
+          "120ml/min",
+          "2ml/s"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 620,
+          "questionNumber": 620,
+          "page": 81,
+          "endPage": 81,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Guanidínacetát je látka, ktorá:",
+        "answers": [
+          "sa metyluje v obličkách prostredníctvom S-adenozylmetionínu",
+          "vzniká z arginínu a glycínu v pečeni",
+          "transportuje sa z obličky do pečene",
+          "vzniká z arginínu a ornitínu v obličke"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 621,
+          "questionNumber": 621,
+          "page": 81,
+          "endPage": 81,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "V obličke sú lokalizované metabolické dráhy:",
+        "answers": [
+          "syntéza kreatínu z guanidínacetátu",
+          "aktivácia vitamínu D",
+          "fosforylácia kreatínu enzýmom kreatínkináza",
+          "syntéza guanidínacetátu"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 622,
+          "questionNumber": 622,
+          "page": 81,
+          "endPage": 81,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Zvýšené množstvo kreatinínu vylúčeného do moču je:",
+        "answers": [
+          "pri zníženej glomerulárnej filtrácii",
+          "pri zvýšenej svalovej námahe",
+          "pri ťažkej funkčnej poruche obličiek",
+          "pri hladovaní"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 623,
+          "questionNumber": 623,
+          "page": 81,
+          "endPage": 81,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Priama deaminácia aminokyselín:",
+        "answers": [
+          "vyžaduje koenzým FMN",
+          "vedie k tvorbe ATP",
+          "je katalyzovaná oxidázami aminokyselín",
+          "vodíky sa prenášajú na koenzým NAD a z neho priamo na kyslík"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 624,
+          "questionNumber": 624,
+          "page": 81,
+          "endPage": 81,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Glutamátdehydrogenáza:",
+        "answers": [
+          "katalyzuje oxidačnú deamináciu glutamátu za uvoľnenia amoniaku",
+          "má koenzým pyridoxalfosfát",
+          "je enzýmom 2. kroku nepriamej deaminácie aminokyselín",
+          "má koenzým NAD"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 625,
+          "questionNumber": 625,
+          "page": 81,
+          "endPage": 82,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Dekarboxylácia serínu:",
+        "answers": [
+          "vedie k tvorbe látky potrebnej pre syntézu fosfolipidov",
+          "je reakcia, ktorá nevyžaduje koenzým",
+          "prebieha mechanizmom Schiffovej bázy",
+          "vedie k tvorbe etanolamínu"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 626,
+          "questionNumber": 626,
+          "page": 82,
+          "endPage": 82,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Fyziologická hladina kreatinínu v krvi je:",
+        "answers": [
+          "zvýšená pri hladovaní",
+          "50 - 110 µmol/l",
+          "znížená pri ochorení obličiek",
+          "7 - 20 mmol/l"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 627,
+          "questionNumber": 627,
+          "page": 82,
+          "endPage": 82,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Guanidín-acetát metyltransferáza:",
+        "answers": [
+          "je enzým potrebný pre tvorbu guanidínacetátu v obličke",
+          "zabezpečuje tvorbu kreatínu v pečeni",
+          "ako substráty využíva arginín a glycín",
+          "zabezpečuje metyláciu guanidínacetátu v obličke"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 628,
+          "questionNumber": 628,
+          "page": 82,
+          "endPage": 82,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "O obličkách môžeme povedať, že:",
+        "answers": [
+          "sa zúčastňujú na regulácii acidobázickej rovnováhy",
+          "sú miestom aktivácie vitamínu D",
+          "sú miestom syntézy bielkovín krvnej plazmy počas hladovania",
+          "môžu syntetizovať glukózu počas hladovania"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 629,
+          "questionNumber": 629,
+          "page": 82,
+          "endPage": 82,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Klírens kreatinínu:",
+        "answers": [
+          "je ukazovateľom glomerulárnej filtrácie",
+          "má fyziologickú hodnotu 120 ml/s",
+          "pri ťažkej funkčnej poruche môže byť nižší ako 20 ml/min",
+          "závisí od svalovej hmoty a veku"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 630,
+          "questionNumber": 630,
+          "page": 82,
+          "endPage": 82,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Ktoré enzýmy a koenzýmy sú potrebné pre nepriamu deamináciu aminokyselín:",
+        "answers": [
+          "transamináza a NAD",
+          "glutamátdehydrogenáza a NAD",
+          "dekarboxyláza a pyridoxalfosfát",
+          "transamináza a pyridoxalfosfát"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 631,
+          "questionNumber": 631,
+          "page": 82,
+          "endPage": 82,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Glutamín:",
+        "answers": [
+          "jeho tvorbu katalyzuje glutamináza",
+          "transportuje amoniak do pečene a obličky",
+          "vzniká v reakcii katalyzovanej glutamínsyntázou",
+          "v pečeni je štiepený glutaminázou"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 632,
+          "questionNumber": 632,
+          "page": 82,
+          "endPage": 82,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Dekarboxylácia glutamátu:",
+        "answers": [
+          "vyžaduje pyridoxalfosfát ako koenzým",
+          "vedie k tvorbe kyseliny gama-aminomaslovej",
+          "je katalyzovaná glutamátdehydrogenázou",
+          "je potrebná k syntéze etanolamínu"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 633,
+          "questionNumber": 633,
+          "page": 83,
+          "endPage": 83,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Pri transaminačných reakciách:",
+        "answers": [
+          "2-oxoglutarát je akceptorom NH2- skupiny",
+          "enzým alanínaminotransferáza vyžaduje koenzým NAD",
+          "je potrebný pyridoxalfosfát ako koenzým",
+          "dochádza k deaminácii glutamátu"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 634,
+          "questionNumber": 634,
+          "page": 83,
+          "endPage": 83,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Kreatínfosfát je látka, ktorá:",
+        "answers": [
+          "je potrebná pre regeneráciu ATP počas práce svalu",
+          "vyžaduje pre svoju tvorbu ATP",
+          "obsahuje guanidínfosfátovú makroergickú väzbu",
+          "sa vylučuje obličkami"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 635,
+          "questionNumber": 635,
+          "page": 83,
+          "endPage": 83,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "V obličke sú lokalizované metabolické dráhy:",
+        "answers": [
+          "syntéza kreatínu z guanidínacetátu",
+          "metylácia guanidínacetátu za účasti S-adenozylmetionínu",
+          "fosforylácia kreatínu enzýmom kreatínkináza",
+          "syntéza guanidínacetátu"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 636,
+          "questionNumber": 636,
+          "page": 83,
+          "endPage": 83,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Klírens kreatinínu:",
+        "answers": [
+          "udáva množstvo vytvoreného glomerulárneho filtrátu za 24 hodín",
+          "má fyziologickú hodnotu 120 ml/s",
+          "je znížený pri ochoreniach obličiek",
+          "závisí od veku a váhy"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 637,
+          "questionNumber": 637,
+          "page": 83,
+          "endPage": 83,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Glutamínsyntáza je enzým, ktorý:",
+        "answers": [
+          "môže katalyzovať syntézu glutamátu",
+          "vyžaduje ATP pre tvorbu glutamínu",
+          "katalyzuje uvoľňovanie amoniaku z glutamínu",
+          "je potrebný pre detoxikáciu amoniaku"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 638,
+          "questionNumber": 638,
+          "page": 83,
+          "endPage": 83,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Ktoré z uvedených zlúčenín sú potrebné pre nepriamu deamináciu:",
+        "answers": [
+          "pyridoxalfosfát",
+          "2-oxoglutarát",
+          "glutamát",
+          "koenzým NAD"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 639,
+          "questionNumber": 639,
+          "page": 83,
+          "endPage": 83,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Alanínaminotransferáza:",
+        "answers": [
+          "využíva pyridoxalfosfát ako koenzým",
+          "je enzým typický pre pečeňové tkanivo",
+          "utilizuje pyruvát a glutamát ako substráty",
+          "vytvára alanín v extrahepatálnych tkanivách"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 640,
+          "questionNumber": 640,
+          "page": 83,
+          "endPage": 83,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Priama deaminácia aminokyselín:",
+        "answers": [
+          "využíva koenzým NAD na deamináciu glutamátu",
+          "umožňuje vznik ATP účinkom oxidáz aminokyselín",
+          "vedie k tvorbe H2O2 účinkom oxidáz aminokyselín",
+          "vyžaduje FMN ako koenzým"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 641,
+          "questionNumber": 641,
+          "page": 84,
+          "endPage": 84,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Klírens kreatinínu je parameter, ktorý:",
+        "answers": [
+          "s vekom jeho hodnota klesá",
+          "je ukazovateľom glomerulárnej filtrácie",
+          "závisí od veku a pohlavia",
+          "vyžaduje vyšetrenie hladiny kreatinínu v sére a v moči"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 642,
+          "questionNumber": 642,
+          "page": 84,
+          "endPage": 84,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Znížené množstvo kreatinínu vylúčeného do moču je:",
+        "answers": [
+          "pri hladovaní",
+          "pri zvýšenej svalovej námahe",
+          "pri ťažkej funkčnej poruche obličiek",
+          "pri zníženej glomerulárnej filtrácii"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 643,
+          "questionNumber": 643,
+          "page": 84,
+          "endPage": 84,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Z guanidínacetátu sa kreatín tvorí:",
+        "answers": [
+          "metylačnou reakciou v obličke",
+          "za vzniku homocysteínu a ornitínu",
+          "metyláciou prostredníctvom S-adenozylmetionínu",
+          "v pečeni z arginínu a glycínu"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 644,
+          "questionNumber": 644,
+          "page": 84,
+          "endPage": 84,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Fyziologická funkcia obličiek zabezpečuje:",
+        "answers": [
+          "tvorbu renínu",
+          "reguláciu množstva a vzájomného pomeru iónov",
+          "syntézu bielkovín krvnej plazmy počas hladovania",
+          "významnú úlohu v regulácii krvného tlaku"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 645,
+          "questionNumber": 645,
+          "page": 84,
+          "endPage": 84,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Oxidačná deaminácia glutamátu:",
+        "answers": [
+          "vyžaduje koenzým NADH",
+          "je druhý stupeň nepriamej deaminácie aminokyselín",
+          "vedie k tvorbe 2-oxoglutarátu",
+          "vedie k tvorbe ATP"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 646,
+          "questionNumber": 646,
+          "page": 84,
+          "endPage": 84,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Alanínaminotransferáza je enzým, ktorý:",
+        "answers": [
+          "sa zúčastňuje tvorby látky potrebnej pre glukoneogenézu",
+          "využíva pyruvát a 2-oxoglutarát ako substráty",
+          "je potrebný pre syntézu neesenciálnych aminokyselín",
+          "využíva 2-oxoglutarát a alanín ako substráty"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 647,
+          "questionNumber": 647,
+          "page": 84,
+          "endPage": 84,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Pyridoxalfosfát je koenzýmom:",
+        "answers": [
+          "glutamátdehydrogenázy",
+          "alanínaminotransferázy",
+          "glutamátdekarboxylázy",
+          "glutamínsyntetázy"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 648,
+          "questionNumber": 648,
+          "page": 84,
+          "endPage": 84,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Glutamín:",
+        "answers": [
+          "vyžaduje pre svoju tvorbu enzým glutaminázu a ATP",
+          "transportuje amoniak do pečene",
+          "jeho tvorba je katalyzovaná glutamínsyntázou",
+          "je netoxická transportná forma amoniaku"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 649,
+          "questionNumber": 649,
+          "page": 85,
+          "endPage": 85,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Primárny moč:",
+        "answers": [
+          "obsahuje nízkomolekulové látky krvnej plazmy",
+          "obsahuje kreatinín",
+          "obsahuje vysokomolekulové látky krvnej plazmy",
+          "neobsahuje kreatinín"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 650,
+          "questionNumber": 650,
+          "page": 85,
+          "endPage": 85,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Medzi základné pochody v metabolizme dusíka v organizme patria:",
+        "answers": [
+          "fixácia uvoľneného amoniaku",
+          "transport amoniaku vo forme glutamínu do pečene",
+          "uvoľňovanie amoniaku v transaminačných reakciách",
+          "tvorba močoviny a jej vylučovanie močom"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 651,
+          "questionNumber": 651,
+          "page": 85,
+          "endPage": 85,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Odpad kreatinínu močom:",
+        "answers": [
+          "klesá pri ťažkej funkčnej poruche obličiek",
+          "je 7-20 mmol/24 hodín",
+          "zvyšuje sa pri zníženej filtračnej schopnosti obličiek",
+          "je 7-20 µmol/l"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 652,
+          "questionNumber": 652,
+          "page": 85,
+          "endPage": 85,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Arginínglycíntransamidináza je:",
+        "answers": [
+          "enzým potrebný pre tvorbu arginínu",
+          "zabezpečuje tvorbu metylovaného guanidínacetátu v pečeni",
+          "ako substráty využíva arginín a ornitín",
+          "zabezpečuje tvorbu guanidínacetátu v obličke"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 653,
+          "questionNumber": 653,
+          "page": 85,
+          "endPage": 85,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Alanínaminotransferáza je enzým, ktorý:",
+        "answers": [
+          "je súčasťou malátaspartátového člnku",
+          "ako substráty využíva alanín a 2-oxoglutarát",
+          "sa zúčastňuje tvorby látky potrebnej pre glukoneogenézu",
+          "je potrebný pre syntézu neesenciálnych aminokyselín"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 654,
+          "questionNumber": 654,
+          "page": 85,
+          "endPage": 85,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Ktoré zlúčeniny sú tvorené pôsobením aspartátaminotransferázy:",
+        "answers": [
+          "oxalacetát a glutamín",
+          "alanín a glutamát",
+          "oxalacetát a glutamát",
+          "aspartát a 2-oxoglutarát"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 655,
+          "questionNumber": 655,
+          "page": 85,
+          "endPage": 85,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Pyridoxalfosfát je koenzýmom, ktorý je potrebný pre:",
+        "answers": [
+          "reakcie katalyzované glutamátdehydrogenázou",
+          "pre tvorbu etanolamínu",
+          "reakcie katalyzované alanínaminotransferázou",
+          "tvorbu neesenciálnych aminokyselín"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 656,
+          "questionNumber": 656,
+          "page": 85,
+          "endPage": 85,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Kreatínfosfát:",
+        "answers": [
+          "obsahuje guanidínfosfátovú makroergickú väzbu",
+          "vzniká enzýmom kreatínkináza pri svalovej práci",
+          "pri jeho tvorbe dochádza k regenerácii ATP",
+          "využíva sa na regeneráciu ATP pri svalovej práci"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 657,
+          "questionNumber": 657,
+          "page": 86,
+          "endPage": 86,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Pri ťažkom funkčnom defekte obličiek:",
+        "answers": [
+          "môže hodnota klírens kreatinínu stúpať",
+          "hodnota klírens kreatinínu je vyššia ako 20 ml/min",
+          "hodnota klírens kreatinínu je znížená",
+          "môžu byť hodnoty klírens kreatinínu nižšie ako 40 ml/min"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 658,
+          "questionNumber": 658,
+          "page": 86,
+          "endPage": 86,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Guanidín-acetát metyltransferáza:",
+        "answers": [
+          "je enzým lokalizovaný v obličke",
+          "zabezpečuje tvorbu kreatínu v pečeni",
+          "ako substráty využíva arginín a glycín",
+          "zabezpečuje metyláciu guanidínacetátu v obličke"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 659,
+          "questionNumber": 659,
+          "page": 86,
+          "endPage": 86,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Klírens kreatinínu:",
+        "answers": [
+          "udáva množstvo vytvoreného glomerulárneho filtrátu za 24 hodín",
+          "má fyziologickú hodnotu 120 ml/s",
+          "je znížený pri ochoreniach obličiek",
+          "má fyziologickú hodnotu 2 ml/min"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 660,
+          "questionNumber": 660,
+          "page": 86,
+          "endPage": 86,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Aspartátaminotransferáza je enzým, ktorý:",
+        "answers": [
+          "sa zúčastňuje tvorby látky potrebnej pre glukoneogenézu",
+          "využíva aspartát a glutamát ako substráty",
+          "je súčasťou malát-aspartátového člnku",
+          "využíva 2-oxoglutarát a aspartát ako substráty"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 661,
+          "questionNumber": 661,
+          "page": 86,
+          "endPage": 86,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Biogénne amíny vznikajú:",
+        "answers": [
+          "dehydratáciou aminokyselín",
+          "dekarboxyláciou glutamátu",
+          "dehydrogenáciou enzýmom glutamátdehydrogenáza",
+          "transamináciou aminokyselín"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 662,
+          "questionNumber": 662,
+          "page": 86,
+          "endPage": 86,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "V obličke sú lokalizované metabolické dráhy:",
+        "answers": [
+          "syntéza kreatínu z guanidínacetátu",
+          "metylácia guanidínacetátu za účasti S-adenozylmetionínu",
+          "tvorba kreatínfosfátu enzýmom kreatínkináza",
+          "syntéza guanidínacetátu z arginínu a glycínu"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 663,
+          "questionNumber": 663,
+          "page": 86,
+          "endPage": 86,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Glutamín:",
+        "answers": [
+          "je amid kyseliny glutámovej",
+          "transportuje amoniak z pečene do extrahepatálnych tkanív",
+          "vzniká väzbou amoniaku na kyselinu glutárovú",
+          "v pečeni je hydrolyzovaný glutaminázou"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 664,
+          "questionNumber": 664,
+          "page": 86,
+          "endPage": 87,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Pre transamináciu aminokyselín je potrebný vitamín:",
+        "answers": [
+          "riboflavín",
+          "vitamín B1",
+          "vitamín B6",
+          "pyridoxín"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 665,
+          "questionNumber": 665,
+          "page": 87,
+          "endPage": 87,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Guanidínacetát je látka, ktorá:",
+        "answers": [
+          "sa transportuje z obličky do pečene",
+          "vzniká z arginínu a glycínu v pečeni",
+          "vzniká z arginínu a ornitínu v obličke",
+          "sa metyluje v obličkách prostredníctvom S-adenozylmetionínu"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 666,
+          "questionNumber": 666,
+          "page": 87,
+          "endPage": 87,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Pri ťažkom funkčnom defekte obličiek:",
+        "answers": [
+          "hodnota klírens kreatinínu je znížená",
+          "môžu byť hodnoty klírens kreatinínu nižšie ako 20 ml/min",
+          "hodnota klírens kreatinínu je zvýšená",
+          "môžu byť hodnoty klírens kreatinínu nižšie ako 40 ml/min"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 667,
+          "questionNumber": 667,
+          "page": 87,
+          "endPage": 87,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Glutamín:",
+        "answers": [
+          "v pečeni je štiepený glutaminázou",
+          "vyžaduje pre svoju tvorbu enzým glutaminázu a ATP",
+          "jeho tvorba je katalyzovaná glutamínsyntetázou",
+          "je to netoxická transportná forma amoniaku v organizme"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 668,
+          "questionNumber": 668,
+          "page": 87,
+          "endPage": 87,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Aspartátaminotransferáza je enzým, ktorý:",
+        "answers": [
+          "je súčasťou malát-aspartátového člnku",
+          "využíva 2-oxoglutarát a aspartát ako substráty",
+          "sa zúčastňuje tvorby látky potrebnej pre glukoneogenézu",
+          "patrí medzi funkčné enzýmy plazmy"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 669,
+          "questionNumber": 669,
+          "page": 87,
+          "endPage": 87,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Pyridoxalfosfát je koenzýmom:",
+        "answers": [
+          "aspartátaminotransferázy",
+          "alanínaminotransferázy",
+          "glutamátdekarboxylázy",
+          "glutamínsyntetázy"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 670,
+          "questionNumber": 670,
+          "page": 87,
+          "endPage": 87,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Dekarboxylácia aspartátu:",
+        "answers": [
+          "vedie k tvorbe látky potrebnej pre syntézu koenzýmu A",
+          "je reakcia, ktorá vyžaduje koenzým NAD",
+          "prebieha mechanizmom Schiffovej bázy",
+          "vedie k tvorbe beta-alanínu"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 671,
+          "questionNumber": 671,
+          "page": 87,
+          "endPage": 87,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Pre výpočet percenta spätnej tubulárnej resorpcie potrebujeme:",
+        "answers": [
+          "hladinu kreatinínu v sére a v moči",
+          "diurézu pacienta",
+          "klírens kreatinínu",
+          "množstvo vytvoreného glomerulárneho filtrátu za 24 hodín"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 672,
+          "questionNumber": 672,
+          "page": 87,
+          "endPage": 88,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Kreatínfosfát:",
+        "answers": [
+          "patrí medzi makroergické zlúčeniny",
+          "jeho tvorba vyžaduje kreatinín a ATP",
+          "vzniká aktivitou kreatínkinázy v pracujúcom svale",
+          "je potrebný pre regeneráciu ATP pri práci svalu"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 673,
+          "questionNumber": 673,
+          "page": 88,
+          "endPage": 88,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Arginínglycíntransamidináza je enzým, ktorý:",
+        "answers": [
+          "je potrebný pre tvorbu metylovaného guanidínacetátu",
+          "zabezpečuje tvorbu guanidínacetátu v pečeni",
+          "ako substráty využíva arginín a ornitín",
+          "zabezpečuje tvorbu guanidínacetátu v obličke"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 674,
+          "questionNumber": 674,
+          "page": 88,
+          "endPage": 88,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Prvá reakcia potrebná pre zapojenie glukogénnych aminokyselín do glukoneogenézy je:",
+        "answers": [
+          "transaminačná, vyžadujúca ako koenzým tiamindifosfát",
+          "transaminačná, vyžadujúca ako koenzým pyridoxalfosfát",
+          "reakcia, v ktorej akceptorom aminoskupiny je kyselina acetoctová",
+          "reakcia spojená s oxidačnou deamináciou kyseliny glutámovej"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 675,
+          "questionNumber": 675,
+          "page": 88,
+          "endPage": 88,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Aminokyselina s piatimi uhlíkmi, ktorá vzniká transamináciou väčšiny aminokyselín:",
+        "answers": [
+          "je dikarboxylová bázická aminokyselina",
+          "je neutrálna aminokyselina",
+          "je kyselina glutámová",
+          "je aminokyselina, ktorá sa môže oxidačne deaminovať glutamátdehydrogenázou s koenzýmom FAD"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 676,
+          "questionNumber": 676,
+          "page": 88,
+          "endPage": 88,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Pre reakciu oxidačnej deaminácie glutamátu je potrebné:",
+        "answers": [
+          "enzým, ktorého koenzýmom je FAD",
+          "enzým, ktorého koenzýmom je NAD resp. NADP",
+          "glutamátdehydrogenáza",
+          "nedostatok kyslíka"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 677,
+          "questionNumber": 677,
+          "page": 88,
+          "endPage": 88,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Amoniak je transportovaný z tkanív do pečene prostredníctvom:",
+        "answers": [
+          "močoviny",
+          "kyseliny močovej",
+          "látky, ktorá ma v molekule amidovú väzbu a je transportnou netoxickou formou amoniaku",
+          "glutamínu"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 678,
+          "questionNumber": 678,
+          "page": 88,
+          "endPage": 88,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Hlavné miesto tvorby močoviny:",
+        "answers": [
+          "je oblička",
+          "je pečeň",
+          "tvorí sa v každej bunke",
+          "je pečeň so subcelulárnou lokalizáciou výlučne v cytoplazme"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 679,
+          "questionNumber": 679,
+          "page": 88,
+          "endPage": 88,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Argininosukcinátsyntáza:",
+        "answers": [
+          "patrí medzi enzýmy Krebsovho cyklu",
+          "je lokalizovaná v cytoplazme každej živočíšnej bunky",
+          "lokalizovaná je v cytoplazme periportálneho hepatocytu",
+          "katalyzuje reakciu, ktorá vyžaduje energiu vo forme GTP"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 680,
+          "questionNumber": 680,
+          "page": 88,
+          "endPage": 89,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Močovina:",
+        "answers": [
+          "môže byťštiepená urátoxidázou v hrubom čreve",
+          "môže byťštiepená ureázou, ktorú produkujú mikroorganizmy črevnej flóry",
+          "do zažívacieho traktu sa môže dostať aj potravou",
+          "nemá náboj, ľahko difunduje cez membrány preto sa dobre vylučuje obličkou"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 681,
+          "questionNumber": 681,
+          "page": 89,
+          "endPage": 89,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Koncentrácia močoviny v sére:",
+        "answers": [
+          "je 1,5 až 5 mmol/l",
+          "je 2,5 až 8,4 mmol/l",
+          "stúpa pri anabolických procesoch po vyplavení kortizolu",
+          "klesá po vyplavení inzulínu"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 682,
+          "questionNumber": 682,
+          "page": 89,
+          "endPage": 89,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Substrátom pre glukoneogenézu môže byť 2-oxokyselina s tromi uhlíkami, ktorá vzniká:",
+        "answers": [
+          "transamináciou alanínu",
+          "priamou deamináciou alanínu",
+          "priamou deamináciou cysteínu, kde koenzýmom je tiamindifosfát",
+          "z cysteínu cysteindesulfhydrázou"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 683,
+          "questionNumber": 683,
+          "page": 89,
+          "endPage": 89,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Aminokyselina s piatimi uhlíkmi, ktorá vzniká transamináciou väčšiny aminokyselín:",
+        "answers": [
+          "je aminokyselina, ktorá sa môže oxidačne deaminovať glutamátdehydrogenázou s koenzýmom NAD",
+          "je aminokyselina, ktorá je súčasťou glutatiónu",
+          "je aminokyselina, ktorá sa oxidačne deaminuje v mitochondriách",
+          "je ústredná monoaminodikarboxylová aminokyselina v metabolizme aminokyselín"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 684,
+          "questionNumber": 684,
+          "page": 89,
+          "endPage": 89,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Hlavné miesto tvorby močoviny:",
+        "answers": [
+          "je pečeň so subcelulárnou lokalizáciou syntézy karbamoylfosfátu v cytoplazme",
+          "je pečeň so subcelulárnou lokalizáciou syntézy karbamoylfosfátu v mitochondrii",
+          "sú periportálne hepatocyty",
+          "sú perivenózne hepatocyty"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 687,
+          "questionNumber": 687,
+          "page": 89,
+          "endPage": 89,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Argininosukcinátlyáza:",
+        "answers": [
+          "je enzým lokalizovaný v cytoplazme hepatocytu",
+          "je lyáza, ktorá katalyzuje reakciu tvorby fumarátu a citrulínu",
+          "katalyzuje tvorbu fumarátu a močoviny",
+          "katalyzuje reakciu tvorby arginínu a fumarátu"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 688,
+          "questionNumber": 688,
+          "page": 89,
+          "endPage": 90,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Genetické poruchy enzýmov cyklu tvorby močoviny:",
+        "answers": [
+          "môžu viesť ku vzostupu koncentrácie amoniaku až na 10-6 mol/l, ktorá je pre organizmus toxická",
+          "môžu viesť ku vzostupu amoniaku rádove až nad 10-3 mol/l",
+          "prejavujú sa až v staršom veku najmä v dôsledku acidózy",
+          "prejavujú sa už u novorodencov a detí"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 689,
+          "questionNumber": 689,
+          "page": 90,
+          "endPage": 90,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Koncentrácia močoviny v sére:",
+        "answers": [
+          "závisí hlavne od potreby detoxikovať amoniak",
+          "závisí od množstva uvoľneného amoniaku",
+          "zvyšuje sa pri anabolických procesoch",
+          "závisí od funkčnej spôsobilosti obličky"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 690,
+          "questionNumber": 690,
+          "page": 90,
+          "endPage": 90,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Univerzálnym akceptorom aminoskupiny z väčšiny aminokyselín môže byť:",
+        "answers": [
+          "kyselina acetoctová",
+          "kyselina oxaloctová",
+          "kyselina 2-oxoglutárová",
+          "oxokyselina, ktorá vzniká v metabolizme ketolátok"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 691,
+          "questionNumber": 691,
+          "page": 90,
+          "endPage": 90,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Pre tvorbu glutamátu redukčnou amináciou sú potrebné:",
+        "answers": [
+          "2-oxoglutarát, pyridoxal-5-fosfát, NH3",
+          "2-oxoglutarát, NAD",
+          "2-oxoglutarát, NADH+H+, (NADPH+H+), NH3",
+          "2-oxoglutarát, NADH+H+, NH3, glutamátdehydrogenáza"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 692,
+          "questionNumber": 692,
+          "page": 90,
+          "endPage": 90,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Nepriama deaminácia aminokyselín vyžaduje:",
+        "answers": [
+          "koenzým pyridoxal-5-fosfát (v prvej fáze)",
+          "koenzým NAD+ (v druhej fáze)",
+          "špecifickú transaminázu",
+          "kyselinu acetoctovú"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 693,
+          "questionNumber": 693,
+          "page": 90,
+          "endPage": 90,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "V procese tvorby močoviny:",
+        "answers": [
+          "využíva sa približne 95 % aminodusíka uvoľneného pri degradácii pyrimidínových báz",
+          "využíva sa približne 50 % aminodusíka uvoľneného pri deaminačných reakciách",
+          "využíva sa približne 95 % aminodusíka uvoľneného pri deaminačných reakciách",
+          "zúčastňuje sa 6 aminokyselín"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 694,
+          "questionNumber": 694,
+          "page": 90,
+          "endPage": 90,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Ornitíntranskarbamyláza:",
+        "answers": [
+          "je enzým lokalizovaný v mitochondrii periportálneho hepatocytu",
+          "katalyzuje tvorbu arginínu z ornitínu a karbamoylfosfátu",
+          "katalyzuje vznik jedného substrátu pre reakciu, ktorú katalyzuje argininosukcinátsyntáza",
+          "katalyzuje tvorbu citrulínu z ornitínu a karbamoylfosfátu v mitochondriách hepatocytov"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 695,
+          "questionNumber": 695,
+          "page": 90,
+          "endPage": 90,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "O aktivite enzýmov cyklu tvorby močoviny môžeme povedať:",
+        "answers": [
+          "najnižšia je v pečeni",
+          "v pečeni je najvyššia",
+          "v obličke je nízka aktivita najmä argininosukcinátsyntázy",
+          "v mozgu je nízka aktivita najmä ornitíntranskarbamoylázy"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 696,
+          "questionNumber": 696,
+          "page": 90,
+          "endPage": 91,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Močovina sa v krvi zvyšuje:",
+        "answers": [
+          "v období rastu",
+          "pri krvácaní do zažívacieho traktu",
+          "pri vysokých dávkach rastového hormónu",
+          "pri dlhodobom hladovaní"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 697,
+          "questionNumber": 697,
+          "page": 91,
+          "endPage": 91,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Alanínaminotransferáza (ALT):",
+        "answers": [
+          "je bunkový enzým, vyžadujúci ako koenzým tiamindifosfát",
+          "lokalizovaná je hlavne v cytoplazme bunky",
+          "dôležitá je pre syntézu neutrálnej aminokyseliny, ktorá sprostredkuje transport amoniaku v krvi",
+          "ako oxokyselinu využíva 2-oxopropiónovú kyselinu vytvorenú v aeróbnej glykolýze"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 698,
+          "questionNumber": 698,
+          "page": 91,
+          "endPage": 91,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Pri nepriamej deaminácii aminokyselín:",
+        "answers": [
+          "v prvej časti reakcie, aminoskupina sa prenáša na oxokyselinu za vzniku amidu",
+          "aminoskupina sa sústreďuje do spoločného medziproduktu, ktorým je kyselina asparágová",
+          "aminoskupina sa sústreďuje do spoločného medziproduktu, ktorým je kyselina glutámová",
+          "koenzýmom glutamátdehydrogenázy je NAD resp. NADP"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 699,
+          "questionNumber": 699,
+          "page": 91,
+          "endPage": 91,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Transaminázy, ktoré majú v klinike diagnostický význam sú:",
+        "answers": [
+          "enzýmy, ktorých aktivity v krvi stúpajú pri poškodení buniek",
+          "aktivita ALT, ktorá stúpa hlavne pri poškodení pečene",
+          "aktivita AST, ktorá stúpa hlavne pri poškodení myokardu",
+          "enzýmy, ktoré majú koenzým tiamindifosfát"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 700,
+          "questionNumber": 700,
+          "page": 91,
+          "endPage": 91,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      }
+    ]
+  }
+]

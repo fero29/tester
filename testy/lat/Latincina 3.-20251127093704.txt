@@ -1,0 +1,112 @@
+#separator:tab
+#html:true
+#guid column:1
+#notetype column:2
+#deck column:3
+#tags column:6
+c8%|,ARLg)	Základná	Latincina 3.	acquisitus, a,um	Získaný	
+dgsX_X<zoJ	Základná	Latincina 3.	Acromion, ii, n.	Nadplecok (na lopatke)	
+uJ;w)t3Kf>	Základná	Latincina 3.	Adultus, i, m.	Dospelý	
+PED&NnrFw[	Základná	Latincina 3.	Aegrotus, a, um	Chorý	
+AnD5M$M-cR	Základná	Latincina 3.	Ala, ae, f.	Krídlo	
+j%_Jzn)dA[	Základná	Latincina 3.	Amygdala, ae, f.	Mandľa (plod)	
+C?vC;o222c	Základná	Latincina 3.	Anatomicus, a, um	Anatomický	
+g/T%yar/+O	Základná	Latincina 3.	Angulus, i, m.	Uhol	
+"ie9wu1N-2#"	Základná	Latincina 3.	Anomalia, ae, f.	Anomália, nepravidelnosť, odchýlka od normy	
+M6/bjcHEE;	Základná	Latincina 3.	Atrium, ii, n.	Predsieň (v srdci)	
+NH,o,G+N6M	Základná	Latincina 3.	Bronchus, i, m.	Prieduška	
+JZ.C2Qz;;3	Základná	Latincina 3.	Bulbus, i, m.	Guľa, hľuza	
+iko9TqZEWr	Základná	Latincina 3.	Caecus, a, um	Slepý	
+B~(gRENs1U	Základná	Latincina 3.	Canaliculus, i, m.	Kanálik	
+Lk9:LFo6aW	Základná	Latincina 3.	Cancer, cri, m.	Rakovina	
+J!d3FMk<Dq	Základná	Latincina 3.	Capitulum, i, n. 	Hlavička	
+jfb:*-d%$+	Základná	Latincina 3.	Cerebrum, i, n.	Mozog	
+dea_Mz2Um$	Základná	Latincina 3.	Chirurgicus, a, um	Chirurgický	
+fwHTRZN2uA	Základná	Latincina 3.	Choroideus a um	Cievovkový	
+iA~E3nZ2c>	Základná	Latincina 3.	Chronicus a um	Chronický	
+j|U@03O}>L	Základná	Latincina 3.	Cochlea ae f 	Slimák	
+n6UR!(!,9R	Základná	Latincina 3.	Colon i n 	Úsek hrubého čreva, vlastné hrubé črevo	
+C:(D/%mUha	Základná	Latincina 3.	Collum i n	1. Krk; 2.krček (najmä na kostiach)	
+bNY9%J(LNo	Základná	Latincina 3.	Cranium ii n 	Lebka	
+PQFKI6ES_7	Základná	Latincina 3.	Crassus a um 	Hrubý; tučný	
+cO[tDQyU{[	Základná	Latincina 3.	Cum (s abl.)	s, so 	
+CjwGvL[O9<	Základná	Latincina 3.	Diabetes, ae, m <br>Diabetes mellitus	Diabetes, cukrovka<br>Cukrovka	
+Oq<(:1-7Ma	Základná	Latincina 3.	Diameter, tri, f	Priemer	
+Kq_V@P!kJz	Základná	Latincina 3.	Digitus i m 	Prst	
+t1JwE~5:UJ	Základná	Latincina 3.	Dorsum i n 	Chrbát 	
+QPsF&ydtj2	Základná	Latincina 3.	Durus a um 	Tvrdý	
+D]/ycmj+bl	Základná	Latincina 3.	Encephalon i n 	Mozog	
+rXz$;(}Eu~	Základná	Latincina 3.	Extractum i n 	Výťažok 	
+pK&7[tA0wV	Základná	Latincina 3.	Femina ae f 	Žena 	
+r%60c=UcS}	Základná	Latincina 3.	flexura ae f	Ohyb	
+nP]a*=&:<G	Základná	Latincina 3.	fundus i m.	Dno	
+I7>|Avsf5;	Základná	Latincina 3.	ganglion ii n.	Ganglion, nervový uzol	
+tTqeL5J2pf	Základná	Latincina 3.	gravida ae f.	Ťarchavá, tehotná	
+idLv=7r*K(	Základná	Latincina 3.	hepaticus a um	Pečeňový	
+hcd[[xB}@C	Základná	Latincina 3.	hernia ae f. 	Prietrž	
+r$f_FY6V0M	Základná	Latincina 3.	humerus i m.	ramenná kosť	
+"u#vfw>rN~d"	Základná	Latincina 3.	icterus i m.	Žltačka	
+tD7kQ9_-S6	Základná	Latincina 3.	interosseus a um	Medzikostný	
+rw|4L&]G<X	Základná	Latincina 3.	intestinum i n.	Črevo	
+jtS@ujEa>*	Základná	Latincina 3.	(intestinum) caecum 	Slepé črevo	
+K23ui:InGD	Základná	Latincina 3.	intestinum crassum	Hrubé črevo	
+yvKft0?1Nd	Základná	Latincina 3.	(intestinum) ileum	Bedrovník	
+b*ce=3^?/N	Základná	Latincina 3.	(intestinum) jejunum	Lačník	
+Evz}Q0|:;v	Základná	Latincina 3.	(intestinum) rectum	Konečník	
+fKhe-T)r`E	Základná	Latincina 3.	isthmus i m.	Úžina	
+H]:wP`+Ro|	Základná	Latincina 3.	labium ii n.	1. pera, 2. pysk, 3. hrana, val	
+t.~&H.*WZ}	Základná	Latincina 3.	ligamentum i n.	Väz	
+l~>l!xq]*(	Základná	Latincina 3.	locus i m.	Miesto	
+l|W*:/w}[i	Základná	Latincina 3.	lymphaticus a um	Lymfatický, miazgový	
+HG-$^i)XOf	Základná	Latincina 3.	lymphocytus i m.	Lymfocyt, miazgová bunka	
+CBchCeZpZ_	Základná	Latincina 3.	manubrium, ii, n.	Rukoväť	
+uV|:t+*N.A	Základná	Latincina 3.	mellitus a um	Sladký, medový	
+Pb6zUo=tVv	Základná	Latincina 3.	membrana ae f.	Membrána, blana	
+PI-HzgXE%N	Základná	Latincina 3.	methodus i f.	Metóda	
+d]c=;Ku_78	Základná	Latincina 3.	Morbilli, orum, m.	Osýpky	
+Q!EkLH.k&[	Základná	Latincina 3.	morbus i m. 	Choroba	
+fk9NMdC0IA	Základná	Latincina 3.	musculus i m.	Sval	
+uR[L^NS!&=	Základná	Latincina 3.	nasus i m.	Nos	
+Ink2L_XZuu	Základná	Latincina 3.	neonatus i m.	Novorodenec	
+"y^u}u#(9ft"	Základná	Latincina 3.	nervus i m.	Nerv	
+EYDw,.>XM:	Základná	Latincina 3.	nodus i m.	Uzol, uzlina	
+I~f1WS?M3U	Základná	Latincina 3.	nucleus i m.	Jadro	
+d`K6G+mRR9	Základná	Latincina 3.	obliquus a um	Šikmý	
+BQ$B)F0fXx	Základná	Latincina 3.	oculus i m.	Oko	
+M1rUc{B,B,	Základná	Latincina 3.	olecranon i n.	lakťový výbežok	
+F/sv`@Z;?W	Základná	Latincina 3.	oleum i n.	Olej	
+:E1^PvkCP	Základná	Latincina 3.	opticus a um	Zrakový	
+"B@k~xhA7#B"	Základná	Latincina 3.	osseus a um	Kostný	
+Qi*rZ&A!;Z	Základná	Latincina 3.	ostium ii n.	Ústie	
+AH3LpWL`tM	Základná	Latincina 3.	palatum i n.	Podnebie	
+eaA0WW1bY*	Základná	Latincina 3.	per (s ak.)	cez	
+os]/Om1$@.	Základná	Latincina 3.	polypus i m.	Polyp (stopkatý útvar na sliznici)	
+HQBpuO],V7	Základná	Latincina 3.	pro (s abl.)	Pre	
+feTucbsscS	Základná	Latincina 3.	quartus a um	Štvrtý	
+O`TPit.^=7	Základná	Latincina 3.	radius ii m.	Vretenná kosť, lúč	
+lr(4?s;Mvp	Základná	Latincina 3.	ramus i m.	Vetva (nervov alebo ciev)	
+hBhm!QF5qR	Základná	Latincina 3.	rectus a um	Priamy, rovný	
+FKX/z8_g2U	Základná	Latincina 3.	remedium ii n.	Liek	
+qEysHHu_xX	Základná	Latincina 3.	ruber, bra, brum	Červený	
+nv}FsJ-!cU	Základná	Latincina 3.	sedativus a um	Utišujúci, uspávajúci	
+y]a^pz<*fE	Základná	Latincina 3.	septum i n.	Priehradka	
+F!YB56-Hc|	Základná	Latincina 3.	siccus a um	Suchý	
+f*$m$09ss5	Základná	Latincina 3.	signum i n.	Znak, označenie	
+"G%w10[#{zq"	Základná	Latincina 3.	skeleton i n.	Kostra	
+Bs8jdGoJ{E	Základná	Latincina 3.	spasmus i m.	Kŕč	
+QE6t8RuPg<	Základná	Latincina 3.	sternum i n.	Hrudná kosť, mostík	
+P:$`??*Pz	Základná	Latincina 3.	sulcus i m.	Brázda, žliabok	
+GrwPztJc-X	Základná	Latincina 3.	suppositorium ii n.	Čapík	
+giv)t?J6`g	Základná	Latincina 3.	talus i m.	Členková kosť	
+v(yxY(TckF	Základná	Latincina 3.	tela ae f.	Tkanivo	
+e+NFR%TsT{	Základná	Latincina 3.	thyroideus a um	Štítny	
+bo:G!(b8=~	Základná	Latincina 3.	trochlea ae f.	Kladka	
+Dhl^YJ>UGo	Základná	Latincina 3.	tuberculum i n.	hrbček	
+waG2D_WuXZ	Základná	Latincina 3.	tympanum i n.	Bubienok	
+z^l%yZLRFs	Základná	Latincina 3.	typicus a um	Typický	
+o/q16If?Jl	Základná	Latincina 3.	uterus i m.	Maternica	
+P/s;:%,GI0	Základná	Latincina 3.	venenum i n.	Jed	
+vZ=dC`0!oP	Základná	Latincina 3.	ventriculus i m.	1. (anat.) komora, 2. (klin.) žalúdok	
+"g50_3<#>*,"	Základná	Latincina 3.	vestibulum i n.	Predsieň (každá okrem srdca)	
+"rS@_~sqD#0"	Základná	Latincina 3.	vir i m. 	muž	
+Fo){F7=j}5	Základná	Latincina 3.	vitrum i n.	Fľaša	

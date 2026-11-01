@@ -1,0 +1,1993 @@
+[
+  {
+    "title": "Biochémia 1 - Týždeň 04 - Aeróbna a anaeróbna oxidácia glukózy",
+    "description": "4. týždeň, ZS 2026/2027: Posúdenie rozdielu aeróbnej a anaeróbnej oxidácie glukózy v mozgovom tkanive. Otázky zaradené podľa cieľov týždenného programu; odpovede podľa zdrojového PDF.",
+    "questions": [
+      {
+        "question": "Dehydrogenáciou kyseliny jantárovej vznikne kyselina:",
+        "answers": [
+          "jablčná",
+          "fumárová",
+          "buténdiová",
+          "oxaloctová"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 33,
+          "questionNumber": 31,
+          "page": 5,
+          "endPage": 5,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 4,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w04_krebs",
+          "reason": "Otázka skúša intermediáty, reakcie alebo význam Krebsovho cyklu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 5,
+          "objectiveRefs": [
+            3
+          ]
+        }
+      },
+      {
+        "question": "Kyselina oxaloctová:",
+        "answers": [
+          "obsahuje hydroxyskupinu",
+          "sa v Krebsovom cykle zlučuje s acetyl-koenzýmom A (acetyl-Coa)",
+          "obsahuje 1 karboxylovú skupinu",
+          "obsahuje 4 uhlíkové atómy"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 64,
+          "questionNumber": 64,
+          "page": 9,
+          "endPage": 9,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 4,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w04_krebs",
+          "reason": "Otázka skúša intermediáty, reakcie alebo význam Krebsovho cyklu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 5,
+          "objectiveRefs": [
+            3
+          ]
+        }
+      },
+      {
+        "question": "Laktát:",
+        "answers": [
+          "je anión kyseliny octovej",
+          "je to anión kyseliny 2-hydroxypropánovej",
+          "vzniká oxidáciou pyruvátu",
+          "v bunkách vzniká z kyseliny etánovej"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 67,
+          "questionNumber": 67,
+          "page": 10,
+          "endPage": 10,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 4,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w04_anaerobne_laktat",
+          "reason": "Otázka skúša laktát, hypoxiu, anaeróbne podmienky, tkanivové rozdiely alebo stanovenie laktátu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 5,
+          "objectiveRefs": [
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "K produktom a medziproduktom Krebsovho cyklu nepatrí:",
+        "answers": [
+          "acetyl CoA",
+          "pyruvát",
+          "2-oxoglutarát",
+          "1,3-bis-fosfoglutarát"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 245,
+          "questionNumber": 245,
+          "page": 32,
+          "endPage": 32,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 4,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w04_krebs",
+          "reason": "Otázka skúša intermediáty, reakcie alebo význam Krebsovho cyklu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 5,
+          "objectiveRefs": [
+            3
+          ]
+        }
+      },
+      {
+        "question": "Enolfosfátová väzba vzniká v reakcii:",
+        "answers": [
+          "katalyzovanej pyruvátkinázou",
+          "katalyzovanej 3-fosfoglycerátdehydrogenázou",
+          "pri ktorej dochádza k dehydratácii",
+          "pri ktorej dochádza k dehydrogenácii"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 246,
+          "questionNumber": 246,
+          "page": 32,
+          "endPage": 32,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 4,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w04_glykolyza",
+          "reason": "Otázka skúša reakcie, enzýmy, intermediáty alebo energetickú bilanciu glykolýzy a oxidácie glukózy.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 5,
+          "objectiveRefs": [
+            2,
+            3,
+            4
+          ]
+        }
+      },
+      {
+        "question": "Anaeróbne podmienky sú charakterizované:",
+        "answers": [
+          "alkalózou zapríčinenou laktátom",
+          "zvýšenou tvorbou laktátu",
+          "zníženou tvorbou ATP v mitochondriách",
+          "zvýšenou oxidáciou VKK"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 247,
+          "questionNumber": 247,
+          "page": 32,
+          "endPage": 33,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 4,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w04_anaerobne_laktat",
+          "reason": "Otázka skúša laktát, hypoxiu, anaeróbne podmienky, tkanivové rozdiely alebo stanovenie laktátu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 5,
+          "objectiveRefs": [
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Už krátka anoxia CNS vedie k:",
+        "answers": [
+          "poklesu glykogénu",
+          "poklesu glukózy",
+          "zvýšeniu laktátu",
+          "zvýšeniu ATP"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 248,
+          "questionNumber": 248,
+          "page": 33,
+          "endPage": 33,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 4,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w04_anaerobne_laktat",
+          "reason": "Otázka skúša laktát, hypoxiu, anaeróbne podmienky, tkanivové rozdiely alebo stanovenie laktátu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 5,
+          "objectiveRefs": [
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Za aeróbnych podmienok:",
+        "answers": [
+          "je konečným produktom glykolýzy kyselina mliečna",
+          "redukované koenzýmy sú oxidované v mitochondriách",
+          "stúpa v bunkách laktát",
+          "nemôže prebiehať citrátový cyklus"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 253,
+          "questionNumber": 253,
+          "page": 33,
+          "endPage": 33,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 4,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w04_glykolyza",
+          "reason": "Otázka skúša reakcie, enzýmy, intermediáty alebo energetickú bilanciu glykolýzy a oxidácie glukózy.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 5,
+          "objectiveRefs": [
+            2,
+            3,
+            4
+          ]
+        }
+      },
+      {
+        "question": "Počas Coriho cyklu:",
+        "answers": [
+          "dochádza k tvorbe pyruvátu vo svale a jeho uvoľneniu do krvi",
+          "dochádza k tvorbe laktátu vo svale a jeho uvoľneniu do krvi",
+          "sa z produktu uvoľneného zo svalu môže v pečeni vytvárať glukóza",
+          "dochádza k priamej oxidácii glukózy na 6-fosfoglukolaktón"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 254,
+          "questionNumber": 254,
+          "page": 33,
+          "endPage": 33,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 4,
+          "relatedWeeks": [
+            6
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w04_cori",
+          "reason": "Coriho cyklus a využitie laktátu sú explicitným cieľom 4. týždňa.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 5,
+          "objectiveRefs": [
+            5
+          ]
+        }
+      },
+      {
+        "question": "Z glykolýzy (za aeróbnych podmienok) získame ATP:",
+        "answers": [
+          "len substrátovou fosforyláciou",
+          "substrátovou fosforyláciou a v terminálnej oxidácii oxidáciou NADH2",
+          "2 moly ATP/1 mol glukózy",
+          "8 molov ATP/1 mol glukózy"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 255,
+          "questionNumber": 255,
+          "page": 34,
+          "endPage": 34,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 4,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w04_glykolyza",
+          "reason": "Otázka skúša reakcie, enzýmy, intermediáty alebo energetickú bilanciu glykolýzy a oxidácie glukózy.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 5,
+          "objectiveRefs": [
+            2,
+            3,
+            4
+          ]
+        }
+      },
+      {
+        "question": "K medziproduktom glykolýzy patrí:",
+        "answers": [
+          "acetyl CoA",
+          "citrát",
+          "dihydroxyacetón fosfát",
+          "1,3-bis-fosfoglycerát"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 256,
+          "questionNumber": 256,
+          "page": 34,
+          "endPage": 34,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 4,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w04_glykolyza",
+          "reason": "Otázka skúša reakcie, enzýmy, intermediáty alebo energetickú bilanciu glykolýzy a oxidácie glukózy.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 5,
+          "objectiveRefs": [
+            2,
+            3,
+            4
+          ]
+        }
+      },
+      {
+        "question": "Koncové produkty glykolýzy môžu byť (podľa dostupnosti O2):",
+        "answers": [
+          "laktát + NADH + H+",
+          "pyruvát + NADH + H+",
+          "laktát + NAD+",
+          "pyruvát + NAD+"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 261,
+          "questionNumber": 261,
+          "page": 34,
+          "endPage": 34,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 4,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w04_glykolyza",
+          "reason": "Otázka skúša reakcie, enzýmy, intermediáty alebo energetickú bilanciu glykolýzy a oxidácie glukózy.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 5,
+          "objectiveRefs": [
+            2,
+            3,
+            4
+          ]
+        }
+      },
+      {
+        "question": "Za anaeróbnych podmienok sa v bunke:",
+        "answers": [
+          "tvorí ATP len substrátovou fosforyláciou",
+          "regeneruje NAD+ v terminálnej oxidácii",
+          "regeneruje NAD+ v reakcii katalyzovanej pyruvátkinázou",
+          "zvyšuje pH"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 262,
+          "questionNumber": 262,
+          "page": 34,
+          "endPage": 34,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 4,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w04_anaerobne_laktat",
+          "reason": "Otázka skúša laktát, hypoxiu, anaeróbne podmienky, tkanivové rozdiely alebo stanovenie laktátu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 5,
+          "objectiveRefs": [
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Laktátdehydrogenáza je aktívna:",
+        "answers": [
+          "v erytrocytoch aj za aeróbnych podmienok",
+          "vo svaloch aj pri nedostatku kyslíka",
+          "vo svaloch hlavne za anaeróbnych podmienok",
+          "vo forme tetraméru"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 263,
+          "questionNumber": 263,
+          "page": 35,
+          "endPage": 35,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 4,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w04_anaerobne_laktat",
+          "reason": "Otázka skúša laktát, hypoxiu, anaeróbne podmienky, tkanivové rozdiely alebo stanovenie laktátu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 5,
+          "objectiveRefs": [
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Laktát:",
+        "answers": [
+          "je tvorený redukciou pyruvátu",
+          "je koncový produkt aeróbnej glykolýzy",
+          "je tvorený v anaeróbnych podmienkach počas oxidácie NADH2",
+          "v bunkách stúpa v anaeróbnych podmienkach"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 269,
+          "questionNumber": 269,
+          "page": 35,
+          "endPage": 35,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 4,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w04_anaerobne_laktat",
+          "reason": "Otázka skúša laktát, hypoxiu, anaeróbne podmienky, tkanivové rozdiely alebo stanovenie laktátu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 5,
+          "objectiveRefs": [
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "K medziproduktom glykolýzy patrí:",
+        "answers": [
+          "acetyl-CoA",
+          "citrát",
+          "dihydroxyacetónfosfát",
+          "1,3-bisfosfoglycerát"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 270,
+          "questionNumber": 270,
+          "page": 35,
+          "endPage": 35,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 4,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w04_glykolyza",
+          "reason": "Otázka skúša reakcie, enzýmy, intermediáty alebo energetickú bilanciu glykolýzy a oxidácie glukózy.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 5,
+          "objectiveRefs": [
+            2,
+            3,
+            4
+          ]
+        }
+      },
+      {
+        "question": "K ireverzibilným reakciám glykolýzy patrí:",
+        "answers": [
+          "všetky reakcie, ktoré spotrebúvajú ATP",
+          "obidve reakcie, v ktorých sa v glykolýze tvorí ATP",
+          "reakcia vzniku fosfoenolpyruvátu",
+          "reakcia, ktorá je v glykolýze aktivovaná ATP"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 275,
+          "questionNumber": 275,
+          "page": 36,
+          "endPage": 36,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 4,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w04_glykolyza",
+          "reason": "Otázka skúša reakcie, enzýmy, intermediáty alebo energetickú bilanciu glykolýzy a oxidácie glukózy.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 5,
+          "objectiveRefs": [
+            2,
+            3,
+            4
+          ]
+        }
+      },
+      {
+        "question": "Reakcia glykolýzy, v ktorej dochádza k štiepeniu fosforylovanej hexózy:",
+        "answers": [
+          "je katalyzovaná enzýmom, ktorý patrí medzi lyázy",
+          "syntetizuje dve fosforylované aldotriózy",
+          "vedie k vzniku glyceraldehyd-3-fosfátu, ktorý sa ďalej metabolizuje v glykolýze",
+          "reakcia je inhibovaná ATP"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 276,
+          "questionNumber": 276,
+          "page": 36,
+          "endPage": 36,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 4,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w04_glykolyza",
+          "reason": "Otázka skúša reakcie, enzýmy, intermediáty alebo energetickú bilanciu glykolýzy a oxidácie glukózy.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 5,
+          "objectiveRefs": [
+            2,
+            3,
+            4
+          ]
+        }
+      },
+      {
+        "question": "Fosfoglycerátkináza je enzým, ktorý:",
+        "answers": [
+          "katalyzuje tvorbu 1,3-bisfosfoglycerátu v glykolýze",
+          "katalyzuje vratnú reakciu",
+          "podieľa sa na tvorbe ATP substrátovou fosforyláciou",
+          "umožňuje tvorbu ATP aj za anaeróbnych podmienok"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 277,
+          "questionNumber": 277,
+          "page": 36,
+          "endPage": 36,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 4,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w04_glykolyza",
+          "reason": "Otázka skúša reakcie, enzýmy, intermediáty alebo energetickú bilanciu glykolýzy a oxidácie glukózy.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 5,
+          "objectiveRefs": [
+            2,
+            3,
+            4
+          ]
+        }
+      },
+      {
+        "question": "Pri úplnej oxidácii glukózy za aeróbnych podmienok:",
+        "answers": [
+          "2 CO2 vznikajú pôsobením pyruvátdehydrogenázy",
+          "pri oxidácii acetyl-CoA v Krebsovom cykle vznikajú 4 mol CO2 na 1 mol glukózy",
+          "oxidatívnou fosforyláciou v glykolýze sa tvorí 8 ATP",
+          "substrátovou fosforyláciou v glykolýze sa tvoria 4 ATP"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 278,
+          "questionNumber": 278,
+          "page": 36,
+          "endPage": 37,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 4,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w04_glykolyza",
+          "reason": "Otázka skúša reakcie, enzýmy, intermediáty alebo energetickú bilanciu glykolýzy a oxidácie glukózy.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 5,
+          "objectiveRefs": [
+            2,
+            3,
+            4
+          ]
+        }
+      },
+      {
+        "question": "Substrátovej regulácie glykolýzy sa zúčastňuje:",
+        "answers": [
+          "ATP tak, že inhibuje pyruvátkinázu",
+          "ADP tak, že aktivuje fosfofruktokinázu",
+          "glukóza-6-fosfát tak, že inhibuje glukokinázu aj hexokinázu",
+          "fruktóza-1,6-bisfosfát tak, že aktivuje fosfofruktokinázu"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 279,
+          "questionNumber": 279,
+          "page": 37,
+          "endPage": 37,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 4,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w04_glykolyza",
+          "reason": "Otázka skúša reakcie, enzýmy, intermediáty alebo energetickú bilanciu glykolýzy a oxidácie glukózy.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 5,
+          "objectiveRefs": [
+            2,
+            3,
+            4
+          ]
+        }
+      },
+      {
+        "question": "Hypoxia buniek a tkanív:",
+        "answers": [
+          "spôsobuje pokles tvorby ATP substrátovou fosforyláciou",
+          "znižuje priebeh terminálnej oxidácie a oxidačnej fosforylácie",
+          "neovplyvňuje tvorbu protónového gradientu v mitochondriách",
+          "neovplyvňuje priebeh reakcií anaeróbnej glykolýzy"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 286,
+          "questionNumber": 286,
+          "page": 37,
+          "endPage": 38,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 4,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w04_anaerobne_laktat",
+          "reason": "Otázka skúša laktát, hypoxiu, anaeróbne podmienky, tkanivové rozdiely alebo stanovenie laktátu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 5,
+          "objectiveRefs": [
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Pyruvátkináza:",
+        "answers": [
+          "katalyzuje reakciu, ktorá je ireverzibilná, pretože obsah energie v ATP je vyšší ako obsah energie v substráte reakcie",
+          "katalyzuje reakciu, ktorá je dôležitá pre tvorbu ATP v anaeróbnych podmienkach",
+          "je aktivovaná defosforyláciou, k čomu dochádza počas hladovania",
+          "zodpovedá za tvorbu fosfoenolpyruvátu v glukoneogenéze"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 287,
+          "questionNumber": 287,
+          "page": 38,
+          "endPage": 38,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 4,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w04_glykolyza",
+          "reason": "Otázka skúša reakcie, enzýmy, intermediáty alebo energetickú bilanciu glykolýzy a oxidácie glukózy.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 5,
+          "objectiveRefs": [
+            2,
+            3,
+            4
+          ]
+        }
+      },
+      {
+        "question": "Aktivácia glukózy:",
+        "answers": [
+          "vyžaduje zdroj energie ATP",
+          "znamená premenu glukózy na glukóza-6-P",
+          "je potrebná pre zapojenie glukózy do glykolýzy, syntézy glykogénu i do pentózového cyklu",
+          "v pečeni je katalyzovaná najmä hexokinázou, ktorá má vysokú afinitu ku glukóze"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 291,
+          "questionNumber": 291,
+          "page": 38,
+          "endPage": 38,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 4,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w04_glykolyza",
+          "reason": "Otázka skúša reakcie, enzýmy, intermediáty alebo energetickú bilanciu glykolýzy a oxidácie glukózy.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 5,
+          "objectiveRefs": [
+            2,
+            3,
+            4
+          ]
+        }
+      },
+      {
+        "question": "Spoločná metabolická dráha oxidácie cukrov, tukov a bielkovín je:",
+        "answers": [
+          "glykolýza",
+          "Krebsov cyklus",
+          "β-oxidácia",
+          "citrátový cyklus"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 296,
+          "questionNumber": 296,
+          "page": 39,
+          "endPage": 39,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 4,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w04_krebs",
+          "reason": "Otázka skúša intermediáty, reakcie alebo význam Krebsovho cyklu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 5,
+          "objectiveRefs": [
+            3
+          ]
+        }
+      },
+      {
+        "question": "Za anaeróbnych podmienok dochádza v bunkách:",
+        "answers": [
+          "k vzostupu glukózy",
+          "k vzostupu laktátu",
+          "k poklesu ATP",
+          "k acidóze"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 298,
+          "questionNumber": 298,
+          "page": 39,
+          "endPage": 39,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 4,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w04_anaerobne_laktat",
+          "reason": "Otázka skúša laktát, hypoxiu, anaeróbne podmienky, tkanivové rozdiely alebo stanovenie laktátu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 5,
+          "objectiveRefs": [
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "V priebehu glykolýzy vzniká:",
+        "answers": [
+          "acetyl CoA",
+          "GTP",
+          "1,3-bis-fosfoglycerát",
+          "sukcinyl CoA"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 303,
+          "questionNumber": 303,
+          "page": 40,
+          "endPage": 40,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 4,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w04_glykolyza",
+          "reason": "Otázka skúša reakcie, enzýmy, intermediáty alebo energetickú bilanciu glykolýzy a oxidácie glukózy.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 5,
+          "objectiveRefs": [
+            2,
+            3,
+            4
+          ]
+        }
+      },
+      {
+        "question": "Pre priebeh Krebsovho cyklu je potrebný:",
+        "answers": [
+          "oxalacetát",
+          "laktát",
+          "kyslík",
+          "ATP"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 304,
+          "questionNumber": 304,
+          "page": 40,
+          "endPage": 40,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 4,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w04_krebs",
+          "reason": "Otázka skúša intermediáty, reakcie alebo význam Krebsovho cyklu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 5,
+          "objectiveRefs": [
+            3
+          ]
+        }
+      },
+      {
+        "question": "Za anaeróbnych podmienok v organizme:",
+        "answers": [
+          "vzniká acidóza",
+          "klesá tvorba ATP",
+          "neprebieha substrátová fosforylácia",
+          "znižuje sa priebeh terminálnej oxidácie"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 305,
+          "questionNumber": 305,
+          "page": 40,
+          "endPage": 40,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 4,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w04_anaerobne_laktat",
+          "reason": "Otázka skúša laktát, hypoxiu, anaeróbne podmienky, tkanivové rozdiely alebo stanovenie laktátu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 5,
+          "objectiveRefs": [
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Laktátdehydrogenáza je aktívna:",
+        "answers": [
+          "v erytrocytoch za aeróbnych aj anaeróbnych podmienok",
+          "vo svaloch pri dostatku kyslíka",
+          "vo svaloch hlavne za anaeróbnych podmienok",
+          "vo forme diméru"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 306,
+          "questionNumber": 306,
+          "page": 40,
+          "endPage": 40,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 4,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w04_anaerobne_laktat",
+          "reason": "Otázka skúša laktát, hypoxiu, anaeróbne podmienky, tkanivové rozdiely alebo stanovenie laktátu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 5,
+          "objectiveRefs": [
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Za anaeróbnych podmienok:",
+        "answers": [
+          "sa zastavujú reakcie citrátového cyklu",
+          "neprebieha glykolýza",
+          "sa získava energia oxidačnou fosforyláciou",
+          "sa získava energia substrátovou fosforyláciou"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 312,
+          "questionNumber": 312,
+          "page": 41,
+          "endPage": 41,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 4,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w04_anaerobne_laktat",
+          "reason": "Otázka skúša laktát, hypoxiu, anaeróbne podmienky, tkanivové rozdiely alebo stanovenie laktátu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 5,
+          "objectiveRefs": [
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Oxidáciou glukózy sa získava:",
+        "answers": [
+          "ATP oxidačnou fosforyláciou",
+          "ATP substrátovou fosforyláciou",
+          "129 molov ATP/1 mol glukózy",
+          "ATP len v mitochondriách"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 313,
+          "questionNumber": 313,
+          "page": 41,
+          "endPage": 41,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 4,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w04_glykolyza",
+          "reason": "Otázka skúša reakcie, enzýmy, intermediáty alebo energetickú bilanciu glykolýzy a oxidácie glukózy.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 5,
+          "objectiveRefs": [
+            2,
+            3,
+            4
+          ]
+        }
+      },
+      {
+        "question": "Laktát:",
+        "answers": [
+          "je oxokyselina",
+          "je kyselina hydroxymaslová",
+          "je tvorený viac za anaeróbnych podmienok",
+          "sa využíva vo svaloch"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 314,
+          "questionNumber": 314,
+          "page": 41,
+          "endPage": 41,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 4,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w04_anaerobne_laktat",
+          "reason": "Otázka skúša laktát, hypoxiu, anaeróbne podmienky, tkanivové rozdiely alebo stanovenie laktátu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 5,
+          "objectiveRefs": [
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Kyselina mliečna je látka, ktorá:",
+        "answers": [
+          "vzniká ako koncový produkt glykolýzy za anaeróbnych podmienok",
+          "vzniká ako koncový produkt vo všetkých bunkách organizmu",
+          "vzniká účinkom laktátdehydrogenázy",
+          "za anaeróbnych podmienok vzniká pri regenerácii NAD+ laktátdehydrogenázou"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 319,
+          "questionNumber": 319,
+          "page": 42,
+          "endPage": 42,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 4,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w04_anaerobne_laktat",
+          "reason": "Otázka skúša laktát, hypoxiu, anaeróbne podmienky, tkanivové rozdiely alebo stanovenie laktátu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 5,
+          "objectiveRefs": [
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Laktátdehydrogenáza je aktívna:",
+        "answers": [
+          "v erytrocytoch za aeróbnych aj anaeróbnych podmienok",
+          "vo svaloch hlavne za anaeróbnych podmienok a katalyzuje tu tvorbu laktátu",
+          "v pečeni hlavne za anaeróbnych podmienok a katalyzuje tu tvorbu laktátu",
+          "vo forme diméru"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 320,
+          "questionNumber": 320,
+          "page": 42,
+          "endPage": 42,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 4,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w04_anaerobne_laktat",
+          "reason": "Otázka skúša laktát, hypoxiu, anaeróbne podmienky, tkanivové rozdiely alebo stanovenie laktátu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 5,
+          "objectiveRefs": [
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Na oxidácii glukózy na CO2 a H2O sa v organizme podieľajú mechanizmy:",
+        "answers": [
+          "spojené s odoberaním vodíkov zo substrátov",
+          "spojené so vznikom redukovaných koenzýmov",
+          "naväzujúce O2 na medziprodukty oxidácie glukózy",
+          "β-oxidácia a Krebsov cyklus"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 325,
+          "questionNumber": 325,
+          "page": 42,
+          "endPage": 42,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 4,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w04_glykolyza",
+          "reason": "Otázka skúša reakcie, enzýmy, intermediáty alebo energetickú bilanciu glykolýzy a oxidácie glukózy.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 5,
+          "objectiveRefs": [
+            2,
+            3,
+            4
+          ]
+        }
+      },
+      {
+        "question": "Počas Coriho cyklu:",
+        "answers": [
+          "dochádza k tvorbe pyruvátu vo svale a jeho uvoľneniu do krvi",
+          "dochádza k tvorbe laktátu vo svale a jeho uvoľneniu do krvi",
+          "sa z produktu uvoľneného zo svalu môže v pečeni vytvárať glukóza",
+          "dochádza k priamej oxidácii glukózy v Pentózovom cykle"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 326,
+          "questionNumber": 326,
+          "page": 43,
+          "endPage": 43,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 4,
+          "relatedWeeks": [
+            6
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w04_cori",
+          "reason": "Coriho cyklus a využitie laktátu sú explicitným cieľom 4. týždňa.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 5,
+          "objectiveRefs": [
+            5
+          ]
+        }
+      },
+      {
+        "question": "Z glykolýzy za anaerobných podmienok získame ATP:",
+        "answers": [
+          "len substrátovou fosforyláciou",
+          "substrátovou fosforyláciou v terminálnej oxidácii a oxidatívnej fosforylácii oxidáciou NADH + H+",
+          "36-38 molov ATP/ 1 mol glukózy",
+          "6-8 molov ATP/ 1 mol glukózy"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 327,
+          "questionNumber": 327,
+          "page": 43,
+          "endPage": 43,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 4,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w04_glykolyza",
+          "reason": "Otázka skúša reakcie, enzýmy, intermediáty alebo energetickú bilanciu glykolýzy a oxidácie glukózy.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 5,
+          "objectiveRefs": [
+            2,
+            3,
+            4
+          ]
+        }
+      },
+      {
+        "question": "Glyceraldehyd-3-fosfát-dehydrogenáza:",
+        "answers": [
+          "využíva NAD+ ako koenzým",
+          "katalyzuje vratnú reakciu",
+          "využíva vo svojom reakčnom cykle anorganický fosfát",
+          "katalyzuje tvorbu zlúčeniny s makroergickou väzbou na treťom uhlíku"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 334,
+          "questionNumber": 334,
+          "page": 44,
+          "endPage": 44,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 4,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w04_glykolyza",
+          "reason": "Otázka skúša reakcie, enzýmy, intermediáty alebo energetickú bilanciu glykolýzy a oxidácie glukózy.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 5,
+          "objectiveRefs": [
+            2,
+            3,
+            4
+          ]
+        }
+      },
+      {
+        "question": "Laktát v bunkách:",
+        "answers": [
+          "stúpa za aeróbnych podmienok",
+          "stúpa pri intenzívnej svalovej práci",
+          "vzniká stále v erytrocytoch",
+          "znižuje pH"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 335,
+          "questionNumber": 335,
+          "page": 44,
+          "endPage": 44,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 4,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w04_anaerobne_laktat",
+          "reason": "Otázka skúša laktát, hypoxiu, anaeróbne podmienky, tkanivové rozdiely alebo stanovenie laktátu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 5,
+          "objectiveRefs": [
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Pri stanovení laktátu:",
+        "answers": [
+          "využívame aktivitu pridanej laktátdehydrogenázy",
+          "vytvorený laktát reaguje s ferrifenantrolínom",
+          "vytvorený pyruvát reaguje s ferrifenantrolínom",
+          "sa elektróny z NADH + H+ prenášajú na umelý akceptor elektrónov"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 336,
+          "questionNumber": 336,
+          "page": 44,
+          "endPage": 44,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 4,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w04_anaerobne_laktat",
+          "reason": "Otázka skúša laktát, hypoxiu, anaeróbne podmienky, tkanivové rozdiely alebo stanovenie laktátu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 5,
+          "objectiveRefs": [
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Kyselina pyrohroznová:",
+        "answers": [
+          "je koncovým produktom úplnej oxidácie glukózy v erytrocytoch",
+          "vzniká ako koncový produkt glykolýzy v bunkách CNS",
+          "vzniká ako koncový produkt glykolýzy za aeróbnych podmienok",
+          "je látka, ktorej vznik prebieha v cytozole"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 341,
+          "questionNumber": 341,
+          "page": 44,
+          "endPage": 44,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 4,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w04_glykolyza",
+          "reason": "Otázka skúša reakcie, enzýmy, intermediáty alebo energetickú bilanciu glykolýzy a oxidácie glukózy.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 5,
+          "objectiveRefs": [
+            2,
+            3,
+            4
+          ]
+        }
+      },
+      {
+        "question": "Coriho cyklus je proces, o ktorom možno povedať:",
+        "answers": [
+          "prebieha len v pečeni",
+          "využíva na glukoneogenézu laktát, ktorý sa tvorí predovšetkým v tkanive CNS",
+          "pre uskutočnenie kompletného cyklu je v pečeni potrebný enzým, ktorý hydrolyticky štiepi glukóza-6- fosfát na voľnú glukózu",
+          "ide v ňom o využitie laktátu tvoreného glykolýzou v svale na glukoneogenézu v pečeni"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 343,
+          "questionNumber": 343,
+          "page": 45,
+          "endPage": 45,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 4,
+          "relatedWeeks": [
+            6
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w04_cori",
+          "reason": "Coriho cyklus a využitie laktátu sú explicitným cieľom 4. týždňa.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 5,
+          "objectiveRefs": [
+            5
+          ]
+        }
+      },
+      {
+        "question": "Fruktóza-1,6-bisfosfát ovplyvňuje enzýmy glykolýzy tak, že:",
+        "answers": [
+          "inhibuje fosfofruktokinázu I",
+          "aktivuje fosfofruktokinázu II",
+          "aktivuje reakciu glykolýzy, v ktorej sa tvorí fosfoenolpyruvát",
+          "aktivuje pyruvátkinázu"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 344,
+          "questionNumber": 344,
+          "page": 45,
+          "endPage": 45,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 4,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w04_glykolyza",
+          "reason": "Otázka skúša reakcie, enzýmy, intermediáty alebo energetickú bilanciu glykolýzy a oxidácie glukózy.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 5,
+          "objectiveRefs": [
+            2,
+            3,
+            4
+          ]
+        }
+      },
+      {
+        "question": "Ktoré z tkanív ľudského organizmu je takmer plne závislé na glukóze ako zdroji energie:",
+        "answers": [
+          "tkanivo CNS, ktoré počas hladovania využíva aj ketolátky",
+          "erytrocyty, ktoré počas hladovania dokážu oxidovať aj karboxylové kyseliny",
+          "erytrocyty, ktoré si môžu energiu získavať aj oxidáciou glukózy v pentózovom cykle",
+          "tkanivo CNS, pretože neobsahuje mitochondrie"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 348,
+          "questionNumber": 348,
+          "page": 45,
+          "endPage": 45,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 4,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w04_anaerobne_laktat",
+          "reason": "Otázka skúša laktát, hypoxiu, anaeróbne podmienky, tkanivové rozdiely alebo stanovenie laktátu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 5,
+          "objectiveRefs": [
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "V priebehu glykolýzy za aeróbnych podmienok:",
+        "answers": [
+          "na aktiváciu glukózy sa spotrebujú 2 ATP",
+          "4 ATP sa tvoria substrátovou fosforyláciou",
+          "ATP sa netvorí prenosom vodíkov do terminálnej oxidácie",
+          "vzniká acetyl-CoA ako koncový produkt aeróbnej glykolýzy"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 349,
+          "questionNumber": 349,
+          "page": 45,
+          "endPage": 46,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 4,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w04_glykolyza",
+          "reason": "Otázka skúša reakcie, enzýmy, intermediáty alebo energetickú bilanciu glykolýzy a oxidácie glukózy.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 5,
+          "objectiveRefs": [
+            2,
+            3,
+            4
+          ]
+        }
+      },
+      {
+        "question": "Z výrokov o glukokináze a hexokináze platí:",
+        "answers": [
+          "glukokináza má nižšiu hodnotu Km",
+          "glukokináza využíva glukózu ako jediný substrát",
+          "hexokináza, na rozdiel od glukokinázy, je prítomná jedine v pečeni",
+          "ich distribúcia v tkanivách je rozdielna, pričom ostatné ich vlastnosti sú rovnaké"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 350,
+          "questionNumber": 350,
+          "page": 46,
+          "endPage": 46,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 4,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w04_glykolyza",
+          "reason": "Otázka skúša reakcie, enzýmy, intermediáty alebo energetickú bilanciu glykolýzy a oxidácie glukózy.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 5,
+          "objectiveRefs": [
+            2,
+            3,
+            4
+          ]
+        }
+      },
+      {
+        "question": "O zlúčenine, ktorá sa v glykolýze premieňa pôsobením fosfoglycerátkinázy, možno povedať:",
+        "answers": [
+          "je to látka s obsahom makroergickej enolfosfátovej väzby",
+          "látka vzniká pôsobením glycerolfosfátdehydrogenázy",
+          "je to látka, ktorá na tvorbu ATP využíva makroergickú acylfosfátovú väzbu",
+          "je to látka, ktorú možno využiť na tvorbu ATP v mitochondriách"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 352,
+          "questionNumber": 352,
+          "page": 46,
+          "endPage": 46,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 4,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w04_glykolyza",
+          "reason": "Otázka skúša reakcie, enzýmy, intermediáty alebo energetickú bilanciu glykolýzy a oxidácie glukózy.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 5,
+          "objectiveRefs": [
+            2,
+            3,
+            4
+          ]
+        }
+      },
+      {
+        "question": "Hlavným regulačným miestom glykolýzy je:",
+        "answers": [
+          "regulácia katalyzovaná hexokinázou",
+          "reakcia katalyzovaná fosfofruktokinázou I",
+          "tvorba fruktózy-1,6-bisfosfátu",
+          "tvorba glukóza-6-fosfátu"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 355,
+          "questionNumber": 355,
+          "page": 46,
+          "endPage": 46,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 4,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w04_glykolyza",
+          "reason": "Otázka skúša reakcie, enzýmy, intermediáty alebo energetickú bilanciu glykolýzy a oxidácie glukózy.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 5,
+          "objectiveRefs": [
+            2,
+            3,
+            4
+          ]
+        }
+      },
+      {
+        "question": "Fruktóza-1,6-bisfosfát ovplyvňuje enzýmy glykolýzy tak, že:",
+        "answers": [
+          "inhibuje fosfofruktokinázu I",
+          "aktivuje fosfofruktokinázu II",
+          "aktivuje reakciu glykolýzy, v ktorej sa tvorí fosfoenolpyruvát",
+          "aktivuje pyruvát kinázu"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 428,
+          "questionNumber": 428,
+          "page": 56,
+          "endPage": 56,
+          "answerLabels": [
+            "e",
+            "f",
+            "g",
+            "h"
+          ]
+        },
+        "curriculum": {
+          "week": 4,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w04_glykolyza_dalsie",
+          "reason": "Otázka skúša substrátovú reguláciu enzýmov glykolýzy.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 5,
+          "objectiveRefs": [
+            3
+          ]
+        }
+      }
+    ]
+  }
+]

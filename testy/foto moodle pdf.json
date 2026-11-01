@@ -1,0 +1,389 @@
+[
+  {
+    "title": "foto moodle pdf",
+    "description": "Otázky zo zápočetného PDF (zápočet LS 2, 395 strán screenshotov). Filtrované: len krv, nervové tkanivo, svalové tkanivo a embryológia úvod (notochord, neurálna rúra). Nezahrnuté otázky, ktoré sú už v iných existujúcich histo testoch. Vylúčené Vision chyby a sporné OCR. Spolu 38 otázok.",
+    "category": "Histológia",
+    "questions": [
+      {
+        "question": "Erytrocyty majú tmavé oválne jadro.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Sarkoplazmové retikulum je v hladkej svalovej bunke slabo vyvinuté.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Monocyty majú jadro obličkovitého tvaru a v cytoplazme azurofilné granuly.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Epimysium je riedke kolagénové väzivo tvoriace obal celého kostrového svalu.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Sarkoplazmové retikulum je druh endoplazmové retikulum v svalových vláknach.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Ku gliovým bunkám CNS patria astrocyty, oligodendrocyty a ependýmové bunky.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Základnou morfologickou jednotkou priečne pruhovanej kostrovej svaloviny je vretenovitá bunka s centrálne uloženým jadrom.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "B-lymfocyty sú formované krvné elementy schopné uvoľňovať histamín a heparín.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Bazofilné granulocyty obsahujú iba nešpecifické granuly.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Cytoplazma zrelých eozinofilov obsahuje špecifické aj nešpecifické granuly.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Metachromázia súvisí s vysokou koncentráciou histamínu a heparínu v špecifických granulách bazofilov.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Nisslova substancia (tigroid) neurónov nie je vôbec pozorovateľná pri zafarbení hematoxylínom a eozínom.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Myofilamenty hladkej svalovej bunky tvoria priestorové siete.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Najväčším typom leukocytov sú lymfocyty strednej veľkosti.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Nisslova substancia je prítomná v axóne, avšak nie v dendritoch neurónu.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Veľkosť trombocytu je 8-10 μm.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Veľkosť monocytu je menšia ako veľkosť erytrocytu.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Medzi protoplazmatickými a fibrilárnymi astrocytmi nie je žiadny morfologický rozdiel, iba funkčný.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Cytoplazma hladkých svalových buniek je eozinofilná v základnom farbení hematoxylinom-eozinom.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Podstatou priečneho pruhovania v hladkej svalovine a v svalovom vlákne kostrovej svaloviny je pravidelné paralelné striedanie myofibríl.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Satelitové bunky sú súčasťou spinálnych ganglií.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Enzýmy potrebné na penetráciu spermie cez obaly oocytu sú uložené v akrozóme.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Veľkosť trombocytu je približne 2-4 µm.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Pseudounipolárny neurón má jeden výbežok, ktorý sa po istom úseku rozdelí na dva výbežky a je uložený napríklad v spinálnych gangliách.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Cytoplazma kardiomyocytu je bohatá na obsah drsného endoplazmatického retikula, čo jej dodáva bazofiliu.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Histiotrofné štádium výžive embrya znamená, že syncytiotrofoblast získava živiny narušením endometria, priamo z buniek väziva endometria.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Epimýzium je husté kolagénové väzivo tvoriace obal celého kostrového svalu.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Sarkoplazmatické retikulum, ako špeciálny typ drsného endoplazmatického retikula, je slabo vyvinuté v hladkej svalovine.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Priečne pruhovanie svalového vlákna je zrejmé z priečnych rezov tkanivom.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Špecifické granuly granulocytov sú lyzozómy so štiepiacimi enzýmami.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Myofilamenty kardiomyocytov sú usporiadané v podobe siete (vzájomne sa krížia).",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Vo vajíčkovode prežívajú spermie len menej ako 12 hodín.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Priečne pruhované kostrové svalové vlákno je cylindrický útvar s nepravidelne usporiadanými myofibrilami.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Kostrové svalové vlákno je základná stavebná jednotka svaloviny maternice.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Purkyňove neuróny majú podobnú stavbu ako astrocyty.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Dcérske bunky zygóty sa nazývajú blastoméry.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Špecifcké granuly neutrofilov sú malé a v Pappenheimovom farbení sú tmavomodré.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Retikulocyt je senescentný nadmerne veľký erytrocyt s priemerom 8 µm.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      }
+    ]
+  }
+]

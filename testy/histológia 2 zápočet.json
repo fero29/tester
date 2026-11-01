@@ -1,0 +1,2009 @@
+[
+  {
+    "title": "histológia 2 zápočet",
+    "description": "200 pravda/nepravda otázok (Quizlet set _jgvon0)",
+    "questions": [
+      {
+        "question": "V šedej hmote CNS sa nachádzajú aj nemyelinizované axóny, protoplazmatické astrocyty a mikroglia.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Lymfocyty obsahujú okrúhle tmavé jadro a nešpecifické granuly v cytoplazme.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Cytoplazma hladkých svalových buniek je bazofilná v základnom farbení hematoxylínom-eozínom.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Nisslova substancia je prítomná v dendritoch, avšak nie v axóne neurónu.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Megakaryocyty sú prekurzorové bunky pre vývin krvných doštičiek (trombocytov).",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Multipolárne neuróny sú prítomné v kôre mozgu, napríklad ako pyramídové neuróny.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Jadro lymfocytu má 2 segmenty.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Satelitové bunky sa nachádzajú v periférnych nervoch ako súčasť myelínových pošiev.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Ku gliovým bunkám CNS patria astrocyty, oligodendrocyty, mikroglia a ependýmové bunky.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Kortikálne granuly sú súčasťou cytoplazmy oocytu/vajíčka.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Monocyty majú typicky viac laločnaté jadro (2 až 5 lalokov).",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Spinálne ganglion obsahuje aj myelinizované axóny a Schwannove bunky.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Neutrofilný granulocyt má guľovité tmavé jadro (pri farbení Pappenheimovou metódou).",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Získanie schopnosti oplodnenia spermií sa označuje ako kapacitácia spermií.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Kostrové svalové vlákno je v základnom farbení HE bazofilné.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Aktínové myofilamenty kardiomyocytov sú ukotvené do denzných teliesok.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Hladká svalová bunka nejaví priečne pruhovanie.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Kardiomyocyt je valcovitá bunka nepravidelného tvaru, ktorá sa vetví v tvare písmen X, Y alebo Z.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Typickým miestom výskytu hladkej svaloviny je jazyk, pažerák a črevo.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Erytrocyty majú veľkosť približne 10μm.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Cytoplazma zrelých eozinofilov obsahuje iba nešpecifické granuly.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "I prúžky sú málo elektróndenzné oblasti (obsahujú aktínové filamenty), ktoré sa svetlejšie farbia na úrovni svetelnej mikroskopie.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Svalové vlákna kostrovej svaloviny sú pospájané interkalárnymi diskami.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Štádium vývinu embrya 3. deň po oplodnení sa označuje ako morula.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Axoplazma je iný názov pre telo neurónov.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Kostrová svalovina sa nachádza napríklad v jazyku a nie je ovládaná vôľou.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Jadro multipolárnych neurónov je veľké, okrúhle a svetlé.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Agranulocyty obsahujú špecifické aj nešpecifické granuly.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Sarkoplazmatické retikulum je v hladkej svalovej bunke slabo vyvinuté.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Žĺtkový vak sa podieľa pri vývine neurálnej rúry, ako základu centrálneho nervového systému.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Impregnáciou podľa Holmesa sa znázornia neurofibrily neurónov prítomné v celom rozsahu neurónu.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Telá multipolárnych neurónov sa nachádzajú v bielej hmote miechy.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Interkalárne disky sú spojovacie komplexy medzi jednotlivými kardiomyocytmi, ktoré nie je možné pozorovať na úrovni svetelnej mikroskopie.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Monocyty majú bledo sa farbiace jadro obličkovitého tvaru a v cytoplazme azurofilné granuly.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Myokard obsahuje triády (T-tubulus a dve cisterny sarkoplazmatického retikula)",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Kostrová svalovina sa nachádza v spodnej tretine dĺžky pažeráka.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Pri oligozoospermii má pacient menej pohyblivé spermie v ejakuláte.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Špecializované medzibunkové spojenia kardiomyocytov obsahujú zonulae adherentes, dezmozómy a nexy.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "V rámci blastocysty možno odlíšiť dve rôzne bunkové populácie, jedna bude dôležitá pre vývin tela embrya, druhá pre vývin časti placenty a plodových obalov.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "T-tubuly (hlboké invaginácie sarkolémy) sú súčasťou tzv. triády priečne prihovaného kostrového svalového vlákna.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Megakaryocyty sú krvné elementy periférnej krvi a môžu sa diferencovať na plazmatické bunky.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Na začiatku tretieho týždňa vývinu telo embrya pozostáva z troch zárodkových listov, ktoré sa nazývajú ektoderma, endoderma a skleroderma.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Ako ovulácia sa označuje hormonálne prísne regulované zahniezdenie embrya do sliznice maternice.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "K oplodneniu dochádza najčastejšie v tele maternice, menej často v oblasti krčku maternice.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Neutrofilný granulocyt je najpočetnejším typom leukocytov, zodpovedný za boj proti baktériám.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Embryonálne obdobie vývinu končí 12. týždňom po oplodnení. Následne sa už jedná o fetálne obdobie vývinu.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Bazofilné granulocyty sú formované krvé elementy schopné uvoľňovať histamín a heparín.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Hladká svalovina má svalové bunky pospájané špeciálnymi bunkovými spojeniami, ktoré sú označované ako interkalárne disky.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Priečne pruhované kostrové svalové vlákno je základná stavebná jednotka svaloviny steny maternice.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Cytoplazma kardiomyocytu obsahuje veľmi málo mitochondrií.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Kapacitácia spermií prebieha v nadsemenníku muža, rádovo niekoľko hodín pred samotným oplodnením.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Veľkosť neutrofilov je približne 20μm.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Perikaryon je telo neurónu, obsahujúce tmavé oválne jadro a slabo viditeľné jadierko.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "V periférnom nervovom systéme myelinizáciu axónov zabezpečujú Schwannove bunky.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Priečne pruhované kostrové svalové vlákno má sarkoplazmové retikulum výrazne redukované.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Najčastejšie sa na znázornenie rôznych štruktúr nervového tkaniva používa impregnácia, kde sa využíva afinita štruktúr ku soliam ťažkých kovov (napr. striebra).",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Aktínové a myozínové myofilamenty v cytoplazme kardiomyocytu sú usporiadané paralelne vedľa seba, čoho dôsledkom je priečne pruhovanie, viditeľné na svetelnomikroskopickej úrovni.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Myelínové pošvy periférnych nervov sú zafarbené na čierno pri použití OsO4 impregnačnej metódy.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Siamské (zrastené) dvojčatá sú dvojvaječné (dizygotné), preto môžu mať aj rôzne pohlavie.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Svalové vlákna kostrovej svaloviny sa v trichomovom farbení farbia na modro.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Kardiomyocyt obsahuje výlučne iba jedno jadro a málo mitochondrií.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Eozinofilný granulocyt má laločnaté (segmentované) jadro v tvare okuliarov.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Neuróny majú výraznú proteosyntetickú aktivitu, preto ich cytoplazma je bazofilná.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Impregnácia podľa Golgiho znázorní do čierna zafarbené jadro, jadierko a Nisslovu substanciu v neurónoch a gliových bunkách.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Monocyty sú najväčšie biele krvinky periférnej krvi.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Stena žĺtkového vaku u ľudského embrya je prvým miestom hematopoézy (najmä tvorby červených krviniek).",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Monocyty obsahujú špecifické granuly.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Špecifické granuly eozinofilného granulocytu sa v Pappenheimovej metóde farbia na tmavomodro.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Bazofilné granulocyty sa môžu vyznačovať tzv. metachromáziou, kedy sa odtieň zafarbených granúl líši od odtieňa použitej farbičky.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Agranulocyty neobsahujú žiadne granuly.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Pri siamských dvojčatách môžu byť jedince rovnakého aj rozličného pohlavia.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Na tvorbe plodových obalov sa podieľajú bunky embryoblastu.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Transport spermií smerom k uvoľnenému oocytu je zabezpečovaný jednak pohybom bičíkov samotných spermií, ale aj kmitaním stereocílií epitelu a peristaltikou svaloviny maternice a vajíčkovodu.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Základnou morfologickou jednotkou hladkej svaloviny je svalové vlákno s centrálne uloženým vretenovitým jadrom.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Sarkoplazmatické retikulum je dobre vyvinuté v hladkej svalovej bunke a slúži ako zásobáreň vápenatých iónov pre kontrakčné procesy.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Kardiomyocyt obsahuje jedno alebo dve svetlo sa farbiace centrálne uložené oválne jadrá.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Najmenšie bunky krvi sú erytrocyty.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Hyaloméra erytrocytu je väzobné miesto pre hemoglobín.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Sarkoméra je anizotropný úsek myofibrily.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Purkyňove neuróny sú bipolárne neuróny a patria k najmenším neurónom CNS.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Počas ovulácie dochádza k prasknutiu sekundárneho folikulu a uvoľneniu sekundárneho oocytu.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Priečne pruhovaná viscerálna svalovina je prítomná aj v pažeráku.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Neuróny majú proteosyntetickú aktivitu, preto je ich cytoplazma bazofilná.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Cytoplazma granulocytov je bazofilná.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Mikrogliové bunky patria k najmenším neurónom kôry mozgu.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Luxolovou modrou sa znázornia do modra myelinizované pošvy nervových vlákien napríklad v bielej hmote miechy.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Na bazálnom povrchu ependymocytov sa môžu nachádzať mikroklky a riasinky.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Trombocyty sú odštiepené fragmenty cytoplazmy megakaryocytov.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Kyselina listová má ochranný účinok pri vývine embrya.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Dcérske bunky zygoty sa nazývajú blastocysty.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Individuálne svalové vlákna sú obalené perimysiom.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Gliové bunky sú menej početnými typmi buniek nervového tkaniva v porovnaní s neurónmi a majú schopnosť mitotickej aktivity.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Primitívne črevo vzniká z ektodermálnej zárodkovej vrstvy.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Malý lymfocyt je približne veľkosti erytrocytu.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Astrocyty majú početné výbežky a ich pôvod je v hematopoetickej kmeňovej bunke.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Bazofilné granulocyty sú krvné elementy krvi, ktoré svojou štruktúrou pripomínajú žírne bunky väziva.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Lymfocyty sú početnejšie zastúpené v tkanive a lymfatických orgánoch ako v periférnej krvi.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "V periférnom nervovom systéme tvorí jedna Schwannova bunka časť myelínovej pošvy iba jednému axónu.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Monocyty majú bledomodro sa farbiace jadro obličkovitého tvaru a v cytoplazme azurofilné granuly.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Pod pojmom akrozómová reakcia sa rozumie splývanie ženského a mužského prvojadra.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Erytrocyty majú bikonvexný tvar.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Palička je pomenovanie neutrofilných granulocytov s jadrom, ktoré ešte nie je segmentované.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Megakaryocyt patrí medzi formované krvné elementy.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Satelitové bunky sú prítomné okolo tiel neurónov v ganglion spinale.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "A-prúžky sú viac elektróndenzné oblasti (obsahujú najmä myozínové filamenty), ktoré sa tmavšie farbia na úrovni svetelnej mikroskopie.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Strop žĺtkového vaku tvoria bunky hypoblastu.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Ganglion spinale obsahuje pseudounipolárne neuróny, z tela ktorých odstupuje krátky spoločný výbežok (dendraxon) vetviaci sa do tvaru písmena T.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Cumulus oophorus reprezentujú bunky väziva kôry vaječníka, uložené v okolí folikulu.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Epimysium je riedke kolagénové väzivo tvoriace obal celého kostrového svalu.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Sarkoméra je ohraničená dvoma Z líniami kostrového svalového vlákna a pri jeho kontrakcií sa skracuje.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Myelínové pošvy v periférnom nerve je možné vizualizovať impregnáciou oxidom osmičelým (OsO4).",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Blastocysta sa môže začať implantovať, keď sa \"vyzlečie\" zo svojho obalu zona pellucida.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Sarkoplazmové retikulum je drsné endoplazmatické retikulum v svalovom vlákne.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Hladké svalové bunky produkujú retikulové vlákna, ktorými sú obalené.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Oligodendrocyty tvoria myelínovú pošvu okolo nervových vlákien v periférnych nervoch.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Mikroglia sú súčasťou monocyto-makrofágového systému.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "V krvnom nátere sa trombocyty nachádzajú medzi ostatnými krvnými elementami najčastejšie v malých skupinách.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Po preniknutí prvej spermie cez obaly oocytu dôjde ku kortikálnej reakcii a bloku zona pellucida, aby sa zabránilo polyspermatickému oblodneniu.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Eozinofilný granulocyt má v cytoplazme výrazné tehlovočervené granuly (pri farbení Pappenheimovou metódou).",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Fibrilárne astrocyty sú početne zastúpené v šedej hmote CNS.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Eozinofilný granulocyt je najpočetnejší leukocyt v krvi, predstavuje 70% leukocytov.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Akrozóm obsahuje početné mitochondrie potrebné na pohyb bičíka spermie.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Percentuálne zastúpenie eozinofilných granulocytov v diferenciálnom krvnom obraze je 12-15% u zdravého jedinca.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Nisslova substancia (tigroid) je súborný názov pre zhluky drsného endplazmatického retikula a polyribozómov v cytoplazme neurónu, pozorovateľné na úrovni svetelnej mikroskopie.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Euchromatické jadro kardiomyocytu je uložené výlučne na periférii bunky.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Bunky epiblastu sa množia a migrujú, aby vytvorili všetky zárodkové listy, cez štruktúry zvané primitívny prúžok a primitívna jamka.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Ependýmové bunky sú bunky zväčša kubického tvaru s mikroklkmi alebo riasinkami na povrchu.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Perikaryon je telo neurónu, obsahujúce svetlé okrúhle jadro, dominantné jadierko a bazofilnú cytoplazmu.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Medzi agranulocyty zaraďujeme monocyty a lymfocyty.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Erytrocyty majú veľkosť 15μm.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Impregnácia podľa Golgiho znázorní do čierna kontúry/povrchy neurónov a astrocytov s ich výbežkami.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Testosterón v rámci semenníkov produkujú Sertoliho bunky.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Oligodendrocyty tvoria myelínovú pošvu periférneho motorického axónu.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Neurálna rúra je základom pre mozog a miechu.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Podstatou priečneho pruhovania myokardu je pravidelné paralelné usporiadanie aktínu a myozínu v myofibrilách kardiomyocytov.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Základnou morfologickou jednotkou myokardu je mnohojadrové bunkové syncýtium.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Žlté teliesko (corpus luteum) je dočasný endokrinný orgán v stene maternice.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Triády sú nevyhnutné pre akumuláciu glykogénu vo všetkých typoch svalového tkaniva.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Telá multipolárnych neurónov sa nachádzajú aj v predných rohoch šedej hmoty miechy.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Multipolárne neuróny obsahujú 1 axón a viac ako 1 dendrit.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Purkyňove neuróny sú bipolárne neuróny a patria k najmenším neurónom v CNS.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Monocyty majú dvojlaločné jadro a diferencujú sa vo väzive na plazmatické bunky.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Chorión je základom pre placentu aj pre časť plodových obalov.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Trombocyty majú tmavé oválne jadro.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Veľkosť neutrofilného granulocytu je takmer 2-krát väčšia ako veľkosť erytrocytu.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Neurálna rúra je základom pre tráviaci a dýchací systém.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "V blastocyste je možné odlíšiť bunky endotropoblastu a bunky ektotropoblastu.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Cytoplazma erytrocytu je výrazne bazofilná pre obsah hemoglobínu.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Ependýmové bunky sú bunky neuroglie, ktoré môžu mať na svojom apikálnom povrchu riasinky alebo aj mikroklky a zúčastňujú sa na regulácii toku mozgovo-miechového moku.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "V šedej hmote CNS sa nachádzajú protoplazmatické aj fibrilárne astrocyty.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Ku kapacitácii spermií dochádza v rámci vnútorných orgánov ženy.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Dno amniónovej dutiny tvoria bunky epiblastu.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Endometrium reaguje na embryo morfologickými zmenami, ktoré sa označujú ako \"deciduálna reakcia\".",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Aktínové a myozínové myofilamenty v cytoplazme kardiomyocytu sú usporiadané paralelne vedľa seba, čoho dôsledkom je priečne pruhovanie, viditeľné na SM úrovni.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Neutrofilné granulocyty majú okrúhle tmavo sa farbiace jadro a ich percentuálny podiel v diferenciálnom krvnom obraze zdravého jedinca je v rozmedzí 20-30%.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Mitochondrie v priečne pruhovanom kostrovom svalovom vlákne a kardiomyocyte spôsobujú intenzívnu eozinofíliu ich cytoplazmy.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Percentuálne zastúpenie monocytov medzi leukocytmi v periférnej krvi je približne 0,5%.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "V tkanive myokardu je pomedzi kardiomyocyty rozptýlená bohatá sieť kapilár.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Pojmom gastrulácia označujeme proces vývinu definitívneho žĺtkového vaku.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Astrocyty, hviezdicovité bunky s výbežkami, majú výživovú funkciu a tiež tvoria gliovú jazvu v mieste deštrukcie tela neurónu.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Impregnácia podľa Golgiho znázorní na čierno povrchy tiel aj výbežkov neurónov a gliových buniek.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Bunky Heuserovej membrány vznikajú z buniek hypoblastu a podieľajú sa na vývine žĺtkového vaku.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Hladká svalovina je prítomná v pažeráku, maternici, močovode a v stene ciev.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Monozygotné (jednovaječné) dvojčatá vznikajú postzygotickým rozdelením raného embrya.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Aktivované malé mikrogliové bunky majú schopnosť fagocytózy, oploštené telo a početné krátke výbežky.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Vnútromaternicový vývin človeka od oplodnenia po pôrod trvá priemerne asi 36 týždňov, teda 252 dní.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Trojvrstvový zárodkový štít je tvorený trofoblastom, epiblastom a hypoblastom.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Oligodendrocyty sú gliové bunky s výbežkami, zodpovedné za tvorbu hematoencefalickej bariéry.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Hranicou medzi embryonálnym a fetálnym obdobím vývinu je koniec 8. týždňa od oplodnenia.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Bazofilné granulocyty sa v Pappenheimovej metóde farbia do ružova, obsahujú iba nešpecifické granuly.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Cytoplazma trombocytov neobsahuje žiadne granuly.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Ako chorión sa označuje vrstva okolo embrya/plodu tvorená syncytiotrofoblastom, cytotrofoblastom a primitívnym väzivom zvaným mezenchým.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Euchromatín je dominantný typ chromatínu jadra neurónu.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Veľkosť neutrofilného granulocytu je menšia ako veľkosť erytrocytu.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Jadro zrelého neutrofilného granulocytu môže mať až 5 segmentov.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Amniónová dutina sa vyvíja najprv ako štrbina medzi bunkami epiblastu a bunkami hypoblastu.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Blastocysta pri implantácií produkuje hormón hCG, ktorý slúži aj na laboratórne potvrdenie tehotnosti.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Neutrofilné granulocyty majú polymorfné jadro buď nesegmentované alebo zložené z 2 alebo viacerých segmentov.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Ku kapacitácii spermií dochádza v nadsemenníku.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Sarkoléma je funkčná jednotka kostrového svalového vlákna, dôležitá pri jeho kontrakcii.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Špecializované medzibunkové spojenia kardiomyocytov obsahujú fasciae adherentes, dezmozómy a nexy.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Sarkoplazmové retikulum je dobre vyvinuté v hladkej svalovej bunke a slúži ako zásobáreň vápnikových iônov pre kontrakčné procesy.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Veľké pyramídové neuróny a protoplazmatické astrocyty sa nachádzajú v bielej hmote mozgu.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Astrocyty majú tzv. pedikuly (cievne nožičky), ktorými sa zúčastňujú na tvorbe hematoencefalickej bariéry.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Spermie prenikajú cez obaly vajíčka - nimi sú corona radiata, theka folliculi a zona pellucida.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Dvojvrstvový zárodkový štít pozostáva z epiblastu a hypoblastu.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Nexy sú elektrickým typom synáps.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Žĺtkový vak je základom pre placentu aj pre časť plodových obalov.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Kardiomyocyty myokardu obsahujú početné mitochondrie a glykogénové granuly a sú obklopené riedkym kolagénovým väzivom s početnými cievami.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Nervové tkanivo (vo všeobecnosti) je bezcievne, aby bolo adekvátne chránené pred patogénmi okolia.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Svalové vlákna kostrovej svaloviny sa v trichrómovom farbení farbia na čierno.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Perikaryon je telo neurónu, obsahujúce svetlé okrúhle jadro, dominantné jadierko a bazofilnú cytoplazmu - Nisslova substancia.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Kardiomyocyty srdcovej svaloviny obsahujú početné mitochondrie a tiež typické štruktúry nazývané diády, ktoré sú tvorené hladkým endoplazmovým retikulom (terminálna cisterna) a T-tubulom.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Priečne pruhovanie svalového vlákna je zrejmé pri pozorovaní ich pozdĺžnych rezov.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Biela hmota CNS obsahuje telá neurónov, protoplazmatické astrocyty aj kontinuálne kapiláry.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Neutrofilný granulocyt tvorí iba 5% z celkového počtu leukocytov.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Kortikálne granuly sú súčasťou hlavičky spermie.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Faryngová membrána je miesto, kde sa netvorí mezoderma (ektoderma je pevne spojená s endodermou).",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Perikaryon je telo neurónu, obsahujúce tmavé oválne jadro a slabo viditeľné jadierko",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Oligodendrocyty sú nervové bunky CNS, ktoré obsahujú viacero výbežkov.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      }
+    ],
+    "category": "Histológia"
+  }
+]

@@ -1,0 +1,1101 @@
+[
+  {
+    "title": "Histológia – 06. týždeň – Dýchací systém",
+    "description": "Epiglottis, hrtan, priedušnica, bronchy, bronchioly a pľúca.",
+    "year": 2,
+    "category": "Histológia",
+    "sortOrder": 6,
+    "questions": [
+      {
+        "question": "Lúmen hrtana je vystlaný viacradovým cylindrickým riasinkovým epitelom s pohárikovými bunkami.",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 5,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-002.jpg",
+            "img-025.jpg",
+            "img-036.jpg",
+            "img-166.jpg",
+            "img-194.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "topic": "Dýchací systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Musculus trachealis sa nachádza na zadnej strane priedušnice",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 9,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-004.jpg",
+            "img-169.jpg",
+            "img-191.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "topic": "Dýchací systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Terminálne bronchioly sú posledným úsekom vodiacej časti dýchacích ciest",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 10,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-005.jpg",
+            "img-032.jpg",
+            "img-038.jpg",
+            "img-175.jpg",
+            "img-182.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "topic": "Dýchací systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Pneumocyty typu II vylučujú pľúcny surfaktant",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 18,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-009.jpg",
+            "img-171.jpg",
+            "img-185.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "topic": "Dýchací systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Epiglottis obsahuje hyalínovú chrupku",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 22,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-011.jpg",
+            "img-179.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "topic": "Dýchací systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Prechod z bronchov na bronchioly zahŕňa úplnú stratu chrupky",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 37,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-018.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "topic": "Dýchací systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Alveolárne póry (Kohnove póry) umožňujú kolaterálnu ventiláciu medzi alveolami",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 38,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-018.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "topic": "Dýchací systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Za výmenu plynov v alveolách sú zodpovedné pneumocyty typu I.",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 44,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-020.jpg",
+            "img-035.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "topic": "Dýchací systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Dýchací systém sa skladá z vodiacej a dýchacej časti",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 48,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-021.jpg",
+            "img-023.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "topic": "Dýchací systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Riasinky na apikálnom povrchu epitelových buniek trachey bijú koordinovane a rytmicky, aby posúvali hlien smerom nahor k hltanu",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 51,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-023.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "topic": "Dýchací systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Terminálne bronchioly sú vystlané viacvrstvovým plochým epitelom, ktorý odoláva treniu pri prúdení vzduchu",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 66,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-030.jpg",
+            "img-041.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "topic": "Dýchací systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Hladký sval (musculus vocalis) je súčasťou pravých hlasivkových väzov hrtana",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 78,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-046.jpg",
+            "img-063.jpg",
+            "img-079.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "topic": "Dýchací systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Stena bronchiolov obsahuje priečne pruhovanú svalovinu, ktorá reguluje ich priesvit/lumen",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 80,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-047.jpg",
+            "img-053.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "topic": "Dýchací systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Mikroklky epitelovej výstelky trachey sa podieľajú na mukociliárnom transporte nečistôt",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 86,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-051.jpg",
+            "img-061.jpg",
+            "img-083.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "topic": "Dýchací systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Stena terminálnych bronchiolov obsahuje už len fragmenty hyalínovej chrupky",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 91,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-054.jpg",
+            "img-058.jpg",
+            "img-065.jpg",
+            "img-083.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "topic": "Dýchací systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Na vonkajšom povrchu priedušnice (trachea) sa nachádza riedke kolagénové väzivo s krvnými a lymfatickými cievami a nervami a nazýva sa tunica adventitia",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 97,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-057.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "topic": "Dýchací systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Stena pľúcneho alveolu je obklopená hustou sieťou fenestrovaných kapilár",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 102,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-061.jpg",
+            "img-088.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "topic": "Dýchací systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Pneumocyty II. typu sú ploché bunky produkujúce surfaktant",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 103,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-062.jpg",
+            "img-085.jpg",
+            "img-089.jpg",
+            "img-092.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "topic": "Dýchací systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Plicae vocales hrtana sú pokryté vrstevnatým dlaždicovým epitelom nerohovatejúcim",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 106,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-064.jpg",
+            "img-096.jpg",
+            "img-125.jpg",
+            "img-133.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "topic": "Dýchací systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Epiglottis obsahuje dva typy epitelov, elastickú chrupku a riedke kolagénové väzivo so žliazkami",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 114,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-068.jpg",
+            "img-075.jpg",
+            "img-091.jpg",
+            "img-127.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "topic": "Dýchací systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Bariéra krv-vzduch je tvorená pneumocytom II. typu, endotelovou bunkou kapiláry a ich splynutými laminae basales",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 115,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-069.jpg",
+            "img-100.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "topic": "Dýchací systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "V stene respiračných bronchiolov sa nachádzajú aj Clara bunky",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 116,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-069.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "topic": "Dýchací systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Hrtanová plocha epiglottis je čiastočne pokrytá viacradovým epitelom s riasinkami a vmedzerenými pohárikovými bunkami",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 132,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-097.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "topic": "Dýchací systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Terciárne bronchy sú posledným úsekom vodiacej časti dýchacích ciest",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 143,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-101.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "topic": "Dýchací systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Clara (kyjakové) bunky sú prítomné v epitelovej výstelke priedušnice",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 145,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-102.jpg",
+            "img-110.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "topic": "Dýchací systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Stena terminálnych bronchiolov obsahuje poohárikové bunky, seromucinózne žliazky a fragmenty hyalínovej chrupky",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 148,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-103.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "topic": "Dýchací systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Väzivo priedušnice obsahuje početné seromucinózne žliazky",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 160,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-112.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "topic": "Dýchací systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Epiglottis je pokrytá dvoma typmi epitelov s centrálne uloženou hyalínovou chrupkou",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 164,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-115.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "topic": "Dýchací systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Surfaktant je produkovaný pohárikovými bunkami výstelky respiračných bronchiolov",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 165,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-116.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "topic": "Dýchací systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Stena hlavných bronchov sa líši od sliznice bronchiolov najmä v početnosti krvných ciev",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 174,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-122.jpg",
+            "img-141.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "topic": "Dýchací systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Intraalevolové septá pľúc obsahujú aj elastické vlákna",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 175,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-123.jpg",
+            "img-125.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "topic": "Dýchací systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Epitelová výstelka trachey je tvorená epitelom, v ktorom len niektoré bunky ležia na bazálnej membráne",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 176,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-124.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "topic": "Dýchací systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Hrtan obsahuje najmä väzivové chrupky na rozdiel od epiglottis, kde sa nachádza hyalínová chrupka",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 187,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-131.jpg",
+            "img-134.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "topic": "Dýchací systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Stena respiračného bronchiolu je prerušovaná pľúcnymi alveolami, preto je považovaná za začiatok tzv. dýchacieho oddielu pľúc",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 189,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-133.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "topic": "Dýchací systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Stena priedušnice obsahuje hyalínovú chrupku, hladkú svalovinu a fibroelastické tkanivo",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 201,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-154.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "topic": "Dýchací systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Clarove (kyjakové, \"club cells\") bunky sú exokrinné bunky prítomné v bronchioloch s dôležitými obrannými funkciami",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 219,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-201.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "topic": "Dýchací systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Kapiláry obklopujúce alveoly sú fenestrovaného typu",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 220,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-201.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "topic": "Dýchací systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Chrupka v bronchoch poskytuje štrukturálnu podporu a udržiava priechodnosť dýchacích ciest",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 232,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-207.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "topic": "Dýchací systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Pneumocyty typu I. obsahujú lamelárne telieska, v ktorých sa ukladá surfaktant",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 235,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-208.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "topic": "Dýchací systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Terminálne bronchioly tvoria začiatok dýchacieho oddielu pľúc.",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "1. zapocet.pdf",
+          "images": [
+            "img-052.jpg"
+          ],
+          "keyFrom": "Forms"
+        },
+        "curriculum": {
+          "week": 6,
+          "topic": "Dýchací systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Terminálne bronchioly patria k vodiacej časti dýchacích ciest.",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "1. zapocet.pdf",
+          "images": [
+            "img-153.jpg"
+          ],
+          "keyFrom": "Moodle"
+        },
+        "curriculum": {
+          "week": 6,
+          "topic": "Dýchací systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Clara (kyjakové) bunky sú sekrečné bunky prítomné v epitelovej výstelke horných dýchacích ciest.",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "1. zapocet.pdf",
+          "images": [
+            "img-144.jpg"
+          ],
+          "keyFrom": "Forms"
+        },
+        "curriculum": {
+          "week": 6,
+          "topic": "Dýchací systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Bunky s mikroklkami v dýchacom epiteli fungujú ako chemosenzorické receptory.",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "1. zapocet.pdf",
+          "images": [
+            "img-156.jpg"
+          ],
+          "keyFrom": "Moodle"
+        },
+        "curriculum": {
+          "week": 6,
+          "topic": "Dýchací systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Pohyblivé riasinky v epiteli dýchacích ciest plnia funkciu posúvania hlienu a zachytených častíc smerom nahor.",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "1. zapocet.pdf",
+          "images": [
+            "img-199.jpg"
+          ],
+          "keyFrom": "Moodle"
+        },
+        "curriculum": {
+          "week": 6,
+          "topic": "Dýchací systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Epitel priedušnice obsahuje pohárikové bunky, ktoré vylučujú hlien.",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "1. zapocet.pdf",
+          "images": [
+            "img-202.jpg"
+          ],
+          "keyFrom": "Moodle"
+        },
+        "curriculum": {
+          "week": 6,
+          "topic": "Dýchací systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Pravé hlasivky sú vystlané viacradovým cylindrickým riasinkovým epitelom.",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "1. zapocet.pdf",
+          "images": [
+            "img-211.jpg"
+          ],
+          "keyFrom": "Moodle"
+        },
+        "curriculum": {
+          "week": 6,
+          "topic": "Dýchací systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      }
+    ]
+  }
+]

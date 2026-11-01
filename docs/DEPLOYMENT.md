@@ -1,6 +1,6 @@
 # Nasadenie, zálohy a presun
 
-O verejnom nasadení a hostiteľskom počítači rozhoduje vlastník. Opravy sa najprv overujú na `http://test.localhost`; lokálny postup je v [README.md](../README.md). Nižšie uvedené produkčné príkazy sa používajú až pri schválenom nasadení.
+O verejnom nasadení a hostiteľskom počítači rozhoduje vlastník. Opravy sa najprv overujú na `http://test.localhost`; lokálny postup je v [README.md](../README.md). Verejné nasadenie sa robí iba postupom [Nasadenie verzie](#nasadenie-verzie-notebook--localhost--server) a až pri schválenom nasadení.
 
 ## Prostredia
 
@@ -14,6 +14,43 @@ O verejnom nasadení a hostiteľskom počítači rozhoduje vlastník. Opravy sa 
 Compose v2.24.4+ je potrebný kvôli `!override`. Runtime je Python 3.12 + Gunicorn (1 worker, 4 vlákna), bez Flask debug servera. Jeden worker udržiava jednotný limit AI požiadaviek a analytických zápisov; nezvyšovať ho bez úpravy synchronizácie. Kód je v image, zmena vyžaduje rebuild. Image neobsahuje `.env`, testy, zdrojové fotografie ani analytiku.
 
 Kontajner má koreňový systém iba na čítanie a nemá Linux capabilities. Zapisuje len do dátových mountov a dočasného `/tmp`. Pri priamom použití Compose je predvolené UID/GID 1000; `tools/manage.sh` automaticky použije UID/GID aktuálneho používateľa, prípadne explicitné premenné `APP_UID` a `APP_GID` z prostredia shellu. Spúšťajte ho ako bežný používateľ s prístupom k Dockeru. Prenesené dátové adresáre musia tomuto používateľovi umožniť zápis; nepoužívajte `chmod 777`.
+
+## Nasadenie verzie: notebook → localhost → server
+
+Zdrojom pravdy pre kód aj testy je tento Git repozitár. Na serveri sa nič needituje ručne; editor na verejnom webe slúži iba na výnimočné opravy, ktoré sa potom prenesú do repozitára. Server vždy beží jeden Git tag `vX.Y.Z`. Kód a testy sa nasadzujú spolu, `data/` a `.env` zostávajú iba na serveri.
+
+1. Zmena, aktualizácia dokumentácie a pri zmene pre používateľa aj `VERSION` a `versionPage`. Nový obsah testov je zmena pre používateľa, preto tiež zvyšuje verziu.
+2. Commit, tag rovnaký ako `VERSION` a push:
+
+   ```bash
+   git tag v1.8.2 && git push origin main v1.8.2
+   ```
+
+3. Lokálny test presne tohto tagu:
+
+   ```bash
+   ./tools/deploy.sh local v1.8.2
+   ```
+
+   Spustí regresné kontroly, nahradí `.local/testy` testami z tagu (predchádzajúca kópia ide do `.local/backups/`), spustí `tester-local` a overí, že `http://localhost:8080` hlási verziu tagu a poskytuje presne jeho testové súbory (SHA-256 cez `/api/tests/meta`). Potom treba skontrolovať priebeh v prehliadači na `http://test.localhost` vrátane mobilu a oboch tém.
+4. Server:
+
+   ```bash
+   ./tools/deploy.sh server v1.8.2
+   ```
+
+   - Pokračuje iba po úspešnom `local` pre ten istý commit, s čistým pracovným stromom a pushnutým tagom.
+   - Porovná server s `RELEASE.sha256` posledného nasadenia. Ručne zmenený súbor alebo nový test zo serverového editora/importu nasadenie zastaví; kópie sa stiahnu do `.local/server-changes/<čas>/`. Najprv ich preneste do repozitára (nový release) alebo vedome zamietnite.
+   - Krátko zastaví web a uloží celý projektový adresár servera vrátane `data/` a `.env` do `~/tester-backups/<čas>-before-vX.Y.Z.tar.gz`, potom web znova spustí.
+   - Rozbalí release z `git archive` (s `RELEASE` a `RELEASE.sha256`), overí hashe a spustí `tools/manage.sh public up`. Súbory, ktoré nová verzia neobsahuje, iba vypíše; nemaže ich.
+   - Overí, že `https://test.frantisekmasiar.sk` hlási verziu tagu a poskytuje presne testy z releasu. Záznam uloží do `.local/deployments/<čas>-vX.Y.Z/` a release archív na server do `~/tester-releases/`.
+5. Kópiu serverových štatistík a záloh zápisov stiahne na požiadanie `./tools/deploy.sh fetch-data` do `.local/server-data/<čas>/`.
+
+Návrat na predchádzajúcu verziu: `./tools/deploy.sh local vPREDOŠLÁ` a `./tools/deploy.sh server vPREDOŠLÁ` po `git checkout vPREDOŠLÁ`. Dáta zo zálohy sa obnovujú iba výslovným rozhodnutím vlastníka.
+
+Cieľ sa dá zmeniť premennými `TESTER_SERVER` (predvolene `ferom@fero-server.local`), `TESTER_REMOTE_DIR` (`/home/ferom/tester`), `TESTER_PUBLIC_URL` a `TESTER_LOCAL_URL`. Skript potrebuje na notebooku Bash, Git, Docker, `ssh`/`scp` s prístupom kľúčom a `curl`; na serveri Bash, `tar`, `sha256sum` a Docker Compose.
+
+Prvé nasadenie na server bez `RELEASE.sha256` (nový stroj alebo inštalácia spred tohto postupu): over obsah servera proti repozitáru a potom vytvor referenčný manifest z aktuálneho stavu servera pre súbory, ktoré obsahuje release. Až potom spusti `deploy.sh server`. Skript bez referencie odmietne pokračovať.
 
 ## Prenosné spustenie a odstránenie
 
@@ -63,7 +100,7 @@ prehliadač → HTTPS Cloudflare → cloudflared → http://web:5000 → Gunicor
 
 Hlavný Compose nezverejňuje porty hostiteľa. Služba `cloudflared` je iba v profile `public`. Cloudflare poskytuje HTTPS; hostiteľ nepotrebuje prichádzajúce porty z internetu. [Dokumentácia tunela](https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/).
 
-1. Preneste aktuálne adresáre `testy/` a `data/` vrátane podadresárov. Nestačí Git clone. Na prvom nasadení vytvorte prázdny `data/`, ak ešte neexistuje.
+1. Kód a testy prenáša `tools/deploy.sh` z Git tagu. Pri presune na nový stroj preneste aj celý `data/` vrátane podadresárov; na prvom nasadení vytvorte prázdny `data/`, ak ešte neexistuje.
 2. Pripravte `.env` podľa `.env.example`. Zachovajte už používané tajomstvá; existujúcu konfiguráciu neprepisujte vzorom. Súbor obmedzte právami `chmod 600 .env`.
 3. Nastavte rôzne náhodné `SECRET_KEY` (podpis relácie) a `ADMIN_SECRET` (heslo správcu). Generátor bez lokálneho Pythonu: `docker run --rm python:3.12-slim python -c "import secrets; print(secrets.token_urlsafe(48))"`. Spustite dvakrát a hodnoty uchovajte súkromne.
 4. Nastavte `COOKIE_SECURE=true`, `TRUST_PROXY_HEADERS=true` a token tunnela. AI a analytika sú voliteľné.

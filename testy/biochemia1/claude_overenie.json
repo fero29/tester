@@ -1,0 +1,1741 @@
+{
+ "note": "Nezávislé posúdenie Claude (Opus 5.5), 2026-10-04. Vytvorené pred otvorením tools/biochemia1_answer_review.json. Indexy kľúča od 0; [] = žiadna správna, null = nedá sa uzavrieť.",
+ "questions": [
+  {
+   "sequence": 7,
+   "questionNumber": 7,
+   "duplicateOf": null,
+   "evaluation": {
+    "A": {
+     "verdict": "nesprávna",
+     "reason": "FMN je v komplexe I – vstup NADH, nie FADH2."
+    },
+    "B": {
+     "verdict": "správna",
+     "reason": "FADH2 (komplex II/ETF) odovzdáva cez Fe-S na CoQ; CoQ je prvý akceptor vodíkov (Fe-S prenášajú len elektróny)."
+    },
+    "C": {
+     "verdict": "závisí od výkladu",
+     "reason": "Komplex III 4 H+ + komplex IV 2 H+ = 6 H+ – platí v súčasnom modeli; starší model počítal 4 H+."
+    },
+    "D": {
+     "verdict": "závisí od výkladu",
+     "reason": "2 ATP podľa klasického modelu; súčasný 1,5 ATP."
+    }
+   },
+   "proposedKey": null,
+   "keyNote": "C a D patria do dvoch nezlučiteľných modelov; jednotný kľúč bez určenia modelu nejde.",
+   "alternativeKeys": {
+    "klasický model: NADH=3 ATP, FADH2=2 ATP": [
+     1,
+     3
+    ],
+    "súčasný model: NADH≈2,5 ATP, FADH2≈1,5 ATP": [
+     1,
+     2
+    ]
+   },
+   "confidence": {
+    "biochemistry": "vysoká",
+    "examKey": "nízka"
+   },
+   "assumptionsOrTextFix": "Doplniť do zadania model bilancie.",
+   "sources": [
+    "https://uh.edu/dtu/08-Oxipho-2-07.htm (P/O 2,5 NADH / 1,5 FADH2; 10 resp. 6 H+, ~4 H+/ATP)",
+    "https://www.ncbi.nlm.nih.gov/books/NBK526105/ (StatPearls: Electron Transport Chain)"
+   ]
+  },
+  {
+   "sequence": 10,
+   "questionNumber": 10,
+   "duplicateOf": null,
+   "evaluation": {
+    "A": {
+     "verdict": "závisí od výkladu",
+     "reason": "FMN ribitol aj fosfát obsahuje, ale chýba izoaloxazín – ako úplné zloženie nesprávne."
+    },
+    "B": {
+     "verdict": "nesprávna",
+     "reason": "Má aj fosfát."
+    },
+    "C": {
+     "verdict": "správna",
+     "reason": "FMN = riboflavín-5'-fosfát."
+    },
+    "D": {
+     "verdict": "nesprávna",
+     "reason": "To je FAD (a 2 fosfáty)."
+    }
+   },
+   "proposedKey": [
+    2
+   ],
+   "keyNote": "A je neúplný výpočet zložiek; v skúškovom zmysle nesprávna.",
+   "alternativeKeys": {},
+   "confidence": {
+    "biochemistry": "vysoká",
+    "examKey": "stredná"
+   },
+   "assumptionsOrTextFix": "",
+   "sources": [
+    "učebnicové poznatky (Harper/Lehninger/Berg) – bez konkrétnej overenej citácie"
+   ]
+  },
+  {
+   "sequence": 11,
+   "questionNumber": 11,
+   "duplicateOf": null,
+   "evaluation": {
+    "A": {
+     "verdict": "nesprávna",
+     "reason": "Acetaldehyd nie; acylfosfát vzniká na karboxyle/acyle."
+    },
+    "B": {
+     "verdict": "nesprávna",
+     "reason": "Väzba fosfátu na -OH je fosfoester."
+    },
+    "C": {
+     "verdict": "správna",
+     "reason": "Fosfát atakuje acyl-tioester (acyl-CoA / tioacyl-enzým) -> zmiešaný anhydrid (napr. sukcinyl-P pri sukcinyl-CoA syntetáze, acetyl-P; v GAPDH na tioacyl-enzým)."
+    },
+    "D": {
+     "verdict": "nesprávna",
+     "reason": "Acyl na glycerolfosfát = karboxylový ester (kys. fosfatidová)."
+    }
+   },
+   "proposedKey": [
+    2
+   ],
+   "keyNote": "C je správna, ak sa 'na acyl-CoA' číta ako väzba na acyl s uvoľnením CoA.",
+   "alternativeKeys": {},
+   "confidence": {
+    "biochemistry": "stredná",
+    "examKey": "stredná"
+   },
+   "assumptionsOrTextFix": "Formulácia C je nepresná ('na acyl z acyl-CoA').",
+   "sources": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC8615399/ (fosfát atakuje tioester -> 1,3-BPG, acylfosfát)",
+    "učebnicové poznatky (Harper/Lehninger/Berg) – bez konkrétnej overenej citácie"
+   ]
+  },
+  {
+   "sequence": 28,
+   "questionNumber": 26,
+   "duplicateOf": null,
+   "evaluation": {
+    "A": {
+     "verdict": "nesprávna",
+     "reason": "ATP má fosfoanhydridové väzby."
+    },
+    "B": {
+     "verdict": "nesprávna",
+     "reason": "3-fosfoglycerát má len fosfoester na C3; acylfosfát má 1,3-bisfosfoglycerát."
+    },
+    "C": {
+     "verdict": "nesprávna",
+     "reason": "PEP – enolfosfát."
+    },
+    "D": {
+     "verdict": "nesprávna",
+     "reason": "TAG – karboxylové estery."
+    }
+   },
+   "proposedKey": [],
+   "keyNote": "Pravdepodobne chyba zadania (1,3-BPG -> 3-PG). Zlá gramatika ('väzba obsahuje').",
+   "alternativeKeys": {
+    "po oprave B na 1,3-bisfosfoglycerát": [
+     1
+    ]
+   },
+   "confidence": {
+    "biochemistry": "vysoká",
+    "examKey": "stredná"
+   },
+   "assumptionsOrTextFix": "Ak bolo zamýšľané '1,3-bisfosfoglycerát', kľúč [1].",
+   "sources": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC8615399/ (fosfát atakuje tioester -> 1,3-BPG, acylfosfát)",
+    "učebnicové poznatky (Harper/Lehninger/Berg) – bez konkrétnej overenej citácie"
+   ]
+  },
+  {
+   "sequence": 43,
+   "questionNumber": 43,
+   "duplicateOf": null,
+   "evaluation": {
+    "A": {
+     "verdict": "nesprávna",
+     "reason": "Fosfoanhydrid."
+    },
+    "B": {
+     "verdict": "nesprávna",
+     "reason": "Fosfoester (acylfosfát je v 1,3-BPG)."
+    },
+    "C": {
+     "verdict": "nesprávna",
+     "reason": "Enolfosfát."
+    },
+    "D": {
+     "verdict": "nesprávna",
+     "reason": "Fosfoguanidínová (fosfoamidová) väzba."
+    }
+   },
+   "proposedKey": [],
+   "keyNote": "Rovnaká pravdepodobná chyba ako seq 28.",
+   "alternativeKeys": {
+    "po oprave B na 1,3-bisfosfoglycerát": [
+     1
+    ]
+   },
+   "confidence": {
+    "biochemistry": "vysoká",
+    "examKey": "stredná"
+   },
+   "assumptionsOrTextFix": "Ak bolo zamýšľané '1,3-bisfosfoglyceráte', kľúč [1].",
+   "sources": [
+    "učebnicové poznatky (Harper/Lehninger/Berg) – bez konkrétnej overenej citácie"
+   ]
+  },
+  {
+   "sequence": 57,
+   "questionNumber": 57,
+   "duplicateOf": null,
+   "evaluation": {
+    "A": {
+     "verdict": "nesprávna",
+     "reason": "Pri osmóze sa presúva rozpúšťadlo."
+    },
+    "B": {
+     "verdict": "nesprávna",
+     "reason": "Polopriepustná membrána rozpustenú látku neprepúšťa."
+    },
+    "C": {
+     "verdict": "správna",
+     "reason": "Rozpúšťadlo ide k vyššej koncentrácii rozpustenej látky."
+    },
+    "D": {
+     "verdict": "nesprávna",
+     "reason": "Vyrovnávanie presunom rozpúšťadla, nie rozpustenej látky."
+    }
+   },
+   "proposedKey": [
+    2
+   ],
+   "keyNote": "",
+   "alternativeKeys": {},
+   "confidence": {
+    "biochemistry": "vysoká",
+    "examKey": "vysoká"
+   },
+   "assumptionsOrTextFix": "",
+   "sources": [
+    "učebnicové poznatky (Harper/Lehninger/Berg) – bez konkrétnej overenej citácie"
+   ]
+  },
+  {
+   "sequence": 76,
+   "questionNumber": 76,
+   "duplicateOf": null,
+   "evaluation": {
+    "A": {
+     "verdict": "správna",
+     "reason": "Text v PDF je useknutý ('regulačných....'); zrejme '…molekúl/hormónov' – potom správna."
+    },
+    "B": {
+     "verdict": "správna",
+     "reason": "cAMP, cGMP sú druhé posly."
+    },
+    "C": {
+     "verdict": "závisí od výkladu",
+     "reason": "cAMP, IP3, DAG tvoria membránové enzýmy; cGMP aj rozpustná (cytosolová) guanylátcykláza – ako všeobecné tvrdenie nesprávne."
+    },
+    "D": {
+     "verdict": "nesprávna",
+     "reason": "Tyroxín pôsobí cez jadrové receptory."
+    }
+   },
+   "proposedKey": [
+    0,
+    1
+   ],
+   "keyNote": "A je doplnená z kontextu; C je čiastočne pravdivé len pre cGMP.",
+   "alternativeKeys": {},
+   "confidence": {
+    "biochemistry": "vysoká",
+    "examKey": "stredná"
+   },
+   "assumptionsOrTextFix": "Doplniť koniec A.",
+   "sources": [
+    "učebnicové poznatky (Harper/Lehninger/Berg) – bez konkrétnej overenej citácie"
+   ]
+  },
+  {
+   "sequence": 162,
+   "questionNumber": 162,
+   "duplicateOf": 76,
+   "evaluation": {
+    "A": {
+     "verdict": "správna",
+     "reason": "Text v PDF je useknutý ('regulačných....'); zrejme '…molekúl/hormónov' – potom správna."
+    },
+    "B": {
+     "verdict": "správna",
+     "reason": "cAMP, cGMP sú druhé posly."
+    },
+    "C": {
+     "verdict": "závisí od výkladu",
+     "reason": "cAMP, IP3, DAG tvoria membránové enzýmy; cGMP aj rozpustná (cytosolová) guanylátcykláza – ako všeobecné tvrdenie nesprávne."
+    },
+    "D": {
+     "verdict": "nesprávna",
+     "reason": "Tyroxín pôsobí cez jadrové receptory."
+    }
+   },
+   "proposedKey": [
+    0,
+    1
+   ],
+   "keyNote": "A je doplnená z kontextu; C je čiastočne pravdivé len pre cGMP.",
+   "alternativeKeys": {},
+   "confidence": {
+    "biochemistry": "vysoká",
+    "examKey": "stredná"
+   },
+   "assumptionsOrTextFix": "Doplniť koniec A.",
+   "sources": [
+    "učebnicové poznatky (Harper/Lehninger/Berg) – bez konkrétnej overenej citácie"
+   ]
+  },
+  {
+   "sequence": 83,
+   "questionNumber": 83,
+   "duplicateOf": null,
+   "evaluation": {
+    "A": {
+     "verdict": "nesprávna",
+     "reason": "Typicky nie, pôsobia transkripčne."
+    },
+    "B": {
+     "verdict": "závisí od výkladu",
+     "reason": "Intracelulárne receptory: GR/MR/AR/PR v cytoplazme bez ligandu, ER prevažne v jadre; 'spravidla cytosolové' je učebnicové zjednodušenie."
+    },
+    "C": {
+     "verdict": "nesprávna",
+     "reason": "To sú hydrofilné hormóny (existujú negenomické výnimky, napr. GPER)."
+    },
+    "D": {
+     "verdict": "správna",
+     "reason": "Indukcia/represia génovej expresie (text useknutý)."
+    }
+   },
+   "proposedKey": [
+    1,
+    3
+   ],
+   "keyNote": "B prijateľné ako učebnicové 'spravidla'.",
+   "alternativeKeys": {},
+   "confidence": {
+    "biochemistry": "vysoká",
+    "examKey": "stredná"
+   },
+   "assumptionsOrTextFix": "Doplniť koniec D ('…expresie').",
+   "sources": [
+    "https://digitum.um.es/digitum/bitstream/10201/19023/1/Localization%20and%20functions%20of%20steroid%20hormone%20receptors.pdf (GR bez ligandu v cytoplazme, ER v jadre)"
+   ]
+  },
+  {
+   "sequence": 169,
+   "questionNumber": 169,
+   "duplicateOf": 83,
+   "evaluation": {
+    "A": {
+     "verdict": "nesprávna",
+     "reason": "Typicky nie, pôsobia transkripčne."
+    },
+    "B": {
+     "verdict": "závisí od výkladu",
+     "reason": "Intracelulárne receptory: GR/MR/AR/PR v cytoplazme bez ligandu, ER prevažne v jadre; 'spravidla cytosolové' je učebnicové zjednodušenie."
+    },
+    "C": {
+     "verdict": "nesprávna",
+     "reason": "To sú hydrofilné hormóny (existujú negenomické výnimky, napr. GPER)."
+    },
+    "D": {
+     "verdict": "správna",
+     "reason": "Indukcia/represia génovej expresie (text useknutý)."
+    }
+   },
+   "proposedKey": [
+    1,
+    3
+   ],
+   "keyNote": "B prijateľné ako učebnicové 'spravidla'.",
+   "alternativeKeys": {},
+   "confidence": {
+    "biochemistry": "vysoká",
+    "examKey": "stredná"
+   },
+   "assumptionsOrTextFix": "Doplniť koniec D ('…expresie').",
+   "sources": [
+    "https://digitum.um.es/digitum/bitstream/10201/19023/1/Localization%20and%20functions%20of%20steroid%20hormone%20receptors.pdf (GR bez ligandu v cytoplazme, ER v jadre)"
+   ]
+  },
+  {
+   "sequence": 86,
+   "questionNumber": 86,
+   "duplicateOf": null,
+   "evaluation": {
+    "A": {
+     "verdict": "nesprávna",
+     "reason": "Pasívny transport."
+    },
+    "B": {
+     "verdict": "správna",
+     "reason": "Prenášač/kanál."
+    },
+    "C": {
+     "verdict": "nesprávna",
+     "reason": "Nie."
+    },
+    "D": {
+     "verdict": "správna",
+     "reason": "Čistý tok len po (elektro)chemickom gradiente."
+    }
+   },
+   "proposedKey": [
+    1,
+    3
+   ],
+   "keyNote": "",
+   "alternativeKeys": {},
+   "confidence": {
+    "biochemistry": "vysoká",
+    "examKey": "vysoká"
+   },
+   "assumptionsOrTextFix": "",
+   "sources": [
+    "učebnicové poznatky (Harper/Lehninger/Berg) – bez konkrétnej overenej citácie"
+   ]
+  },
+  {
+   "sequence": 172,
+   "questionNumber": 172,
+   "duplicateOf": 86,
+   "evaluation": {
+    "A": {
+     "verdict": "nesprávna",
+     "reason": "Pasívny transport."
+    },
+    "B": {
+     "verdict": "správna",
+     "reason": "Prenášač/kanál."
+    },
+    "C": {
+     "verdict": "nesprávna",
+     "reason": "Nie."
+    },
+    "D": {
+     "verdict": "správna",
+     "reason": "Čistý tok len po (elektro)chemickom gradiente."
+    }
+   },
+   "proposedKey": [
+    1,
+    3
+   ],
+   "keyNote": "",
+   "alternativeKeys": {},
+   "confidence": {
+    "biochemistry": "vysoká",
+    "examKey": "vysoká"
+   },
+   "assumptionsOrTextFix": "",
+   "sources": [
+    "učebnicové poznatky (Harper/Lehninger/Berg) – bez konkrétnej overenej citácie"
+   ]
+  },
+  {
+   "sequence": 96,
+   "questionNumber": 96,
+   "duplicateOf": null,
+   "evaluation": {
+    "A": {
+     "verdict": "nesprávna",
+     "reason": "Elektróny idú z REDUKOVANÝCH koenzýmov; pravdepodobne preklep v zadaní."
+    },
+    "B": {
+     "verdict": "nesprávna",
+     "reason": "Dýchací reťazec pumpuje z matrix do medzimembránového priestoru; opačný tok je ATP syntáza (ox. fosforylácia)."
+    },
+    "C": {
+     "verdict": "závisí od výkladu",
+     "reason": "Klasicky 2 ATP, súčasne ~1,5."
+    },
+    "D": {
+     "verdict": "závisí od výkladu",
+     "reason": "Klasicky 3 ATP, súčasne ~2,5."
+    }
+   },
+   "proposedKey": null,
+   "keyNote": "Pôvodné znenie: kľúč závisí od modelu a od preklepu v A.",
+   "alternativeKeys": {
+    "klasický model: NADH=3 ATP, FADH2=2 ATP": [
+     2,
+     3
+    ],
+    "súčasný model: NADH≈2,5 ATP, FADH2≈1,5 ATP": [],
+    "klasický model: NADH=3 ATP, FADH2=2 ATP + oprava A": [
+     0,
+     2,
+     3
+    ],
+    "súčasný model: NADH≈2,5 ATP, FADH2≈1,5 ATP + oprava A": [
+     0
+    ]
+   },
+   "confidence": {
+    "biochemistry": "vysoká",
+    "examKey": "nízka"
+   },
+   "assumptionsOrTextFix": "Ak A opravíme na 'redukovaných', A je správna v oboch modeloch.",
+   "sources": [
+    "https://uh.edu/dtu/08-Oxipho-2-07.htm (P/O 2,5 NADH / 1,5 FADH2; 10 resp. 6 H+, ~4 H+/ATP)",
+    "https://www.ncbi.nlm.nih.gov/books/NBK526105/ (StatPearls: Electron Transport Chain)"
+   ]
+  },
+  {
+   "sequence": 182,
+   "questionNumber": 182,
+   "duplicateOf": 96,
+   "evaluation": {
+    "A": {
+     "verdict": "nesprávna",
+     "reason": "Elektróny idú z REDUKOVANÝCH koenzýmov; pravdepodobne preklep v zadaní."
+    },
+    "B": {
+     "verdict": "nesprávna",
+     "reason": "Dýchací reťazec pumpuje z matrix do medzimembránového priestoru; opačný tok je ATP syntáza (ox. fosforylácia)."
+    },
+    "C": {
+     "verdict": "závisí od výkladu",
+     "reason": "Klasicky 2 ATP, súčasne ~1,5."
+    },
+    "D": {
+     "verdict": "závisí od výkladu",
+     "reason": "Klasicky 3 ATP, súčasne ~2,5."
+    }
+   },
+   "proposedKey": null,
+   "keyNote": "Pôvodné znenie: kľúč závisí od modelu a od preklepu v A.",
+   "alternativeKeys": {
+    "klasický model: NADH=3 ATP, FADH2=2 ATP": [
+     2,
+     3
+    ],
+    "súčasný model: NADH≈2,5 ATP, FADH2≈1,5 ATP": [],
+    "klasický model: NADH=3 ATP, FADH2=2 ATP + oprava A": [
+     0,
+     2,
+     3
+    ],
+    "súčasný model: NADH≈2,5 ATP, FADH2≈1,5 ATP + oprava A": [
+     0
+    ]
+   },
+   "confidence": {
+    "biochemistry": "vysoká",
+    "examKey": "nízka"
+   },
+   "assumptionsOrTextFix": "Ak A opravíme na 'redukovaných', A je správna v oboch modeloch.",
+   "sources": [
+    "https://uh.edu/dtu/08-Oxipho-2-07.htm (P/O 2,5 NADH / 1,5 FADH2; 10 resp. 6 H+, ~4 H+/ATP)",
+    "https://www.ncbi.nlm.nih.gov/books/NBK526105/ (StatPearls: Electron Transport Chain)"
+   ]
+  },
+  {
+   "sequence": 127,
+   "questionNumber": 127,
+   "duplicateOf": null,
+   "evaluation": {
+    "A": {
+     "verdict": "správna",
+     "reason": "SERCA pumpuje Ca2+ z cytosolu do SR (relaxácia)."
+    },
+    "B": {
+     "verdict": "nesprávna",
+     "reason": "To je ryanodínový receptor (kanál)."
+    },
+    "C": {
+     "verdict": "nesprávna",
+     "reason": "Nie."
+    },
+    "D": {
+     "verdict": "nesprávna",
+     "reason": "PMCA pumpuje von, nie dnu."
+    }
+   },
+   "proposedKey": [
+    0
+   ],
+   "keyNote": "Zadanie 'pri kontrakcii' je nepresné – SERCA ukončuje kontrakciu.",
+   "alternativeKeys": {},
+   "confidence": {
+    "biochemistry": "vysoká",
+    "examKey": "vysoká"
+   },
+   "assumptionsOrTextFix": "",
+   "sources": [
+    "UniProt P16615 ATP2A2 – transport Ca2+ z cytosolu do lúmenu SR"
+   ]
+  },
+  {
+   "sequence": 213,
+   "questionNumber": 213,
+   "duplicateOf": 127,
+   "evaluation": {
+    "A": {
+     "verdict": "správna",
+     "reason": "SERCA pumpuje Ca2+ z cytosolu do SR (relaxácia)."
+    },
+    "B": {
+     "verdict": "nesprávna",
+     "reason": "To je ryanodínový receptor (kanál)."
+    },
+    "C": {
+     "verdict": "nesprávna",
+     "reason": "Nie."
+    },
+    "D": {
+     "verdict": "nesprávna",
+     "reason": "PMCA pumpuje von, nie dnu."
+    }
+   },
+   "proposedKey": [
+    0
+   ],
+   "keyNote": "Zadanie 'pri kontrakcii' je nepresné – SERCA ukončuje kontrakciu.",
+   "alternativeKeys": {},
+   "confidence": {
+    "biochemistry": "vysoká",
+    "examKey": "vysoká"
+   },
+   "assumptionsOrTextFix": "",
+   "sources": [
+    "UniProt P16615 ATP2A2 – transport Ca2+ z cytosolu do lúmenu SR"
+   ]
+  },
+  {
+   "sequence": 136,
+   "questionNumber": 136,
+   "duplicateOf": null,
+   "evaluation": {
+    "A": {
+     "verdict": "správna",
+     "reason": "PMCA, SERCA."
+    },
+    "B": {
+     "verdict": "nesprávna",
+     "reason": "Cytosol ~100 nM, extracelulárne ~1–2 mM."
+    },
+    "C": {
+     "verdict": "závisí od výkladu",
+     "reason": "Ca2+ vstupuje kanálmi pasívne; či kanály patria pod 'sprostredkovanú difúziu', sa v učebniciach líši (Guyton: kanály = jednoduchá difúzia)."
+    },
+    "D": {
+     "verdict": "správna",
+     "reason": "ER/SR je zásobník Ca2+."
+    }
+   },
+   "proposedKey": [
+    0,
+    3
+   ],
+   "keyNote": "C rozhoduje; kľúč [0,3] pri striktnej definícii (prenášače), [0,2,3] pri širšej.",
+   "alternativeKeys": {
+    "široká definícia (aj kanály)": [
+     0,
+     2,
+     3
+    ]
+   },
+   "confidence": {
+    "biochemistry": "vysoká",
+    "examKey": "stredná"
+   },
+   "assumptionsOrTextFix": "",
+   "sources": [
+    "UniProt P16615 ATP2A2 – transport Ca2+ z cytosolu do lúmenu SR",
+    "učebnicové poznatky (Harper/Lehninger/Berg) – bez konkrétnej overenej citácie"
+   ]
+  },
+  {
+   "sequence": 222,
+   "questionNumber": 222,
+   "duplicateOf": 136,
+   "evaluation": {
+    "A": {
+     "verdict": "správna",
+     "reason": "PMCA, SERCA."
+    },
+    "B": {
+     "verdict": "nesprávna",
+     "reason": "Cytosol ~100 nM, extracelulárne ~1–2 mM."
+    },
+    "C": {
+     "verdict": "závisí od výkladu",
+     "reason": "Ca2+ vstupuje kanálmi pasívne; či kanály patria pod 'sprostredkovanú difúziu', sa v učebniciach líši (Guyton: kanály = jednoduchá difúzia)."
+    },
+    "D": {
+     "verdict": "správna",
+     "reason": "ER/SR je zásobník Ca2+."
+    }
+   },
+   "proposedKey": [
+    0,
+    3
+   ],
+   "keyNote": "C rozhoduje; kľúč [0,3] pri striktnej definícii (prenášače), [0,2,3] pri širšej.",
+   "alternativeKeys": {
+    "široká definícia (aj kanály)": [
+     0,
+     2,
+     3
+    ]
+   },
+   "confidence": {
+    "biochemistry": "vysoká",
+    "examKey": "stredná"
+   },
+   "assumptionsOrTextFix": "",
+   "sources": [
+    "UniProt P16615 ATP2A2 – transport Ca2+ z cytosolu do lúmenu SR",
+    "učebnicové poznatky (Harper/Lehninger/Berg) – bez konkrétnej overenej citácie"
+   ]
+  },
+  {
+   "sequence": 259,
+   "questionNumber": 259,
+   "duplicateOf": null,
+   "evaluation": {
+    "A": {
+     "verdict": "nesprávna",
+     "reason": "Sval nemá glukóza-6-fosfatázu."
+    },
+    "B": {
+     "verdict": "správna",
+     "reason": "Glykogenolýza v pečeni (krátkodobé hladovanie)."
+    },
+    "C": {
+     "verdict": "nesprávna",
+     "reason": "Erytrocyty nemajú mitochondrie."
+    },
+    "D": {
+     "verdict": "nesprávna",
+     "reason": "Z mastných kyselín nevzniká netto glukóza."
+    }
+   },
+   "proposedKey": [
+    1
+   ],
+   "keyNote": "",
+   "alternativeKeys": {},
+   "confidence": {
+    "biochemistry": "vysoká",
+    "examKey": "vysoká"
+   },
+   "assumptionsOrTextFix": "",
+   "sources": [
+    "učebnicové poznatky (Harper/Lehninger/Berg) – bez konkrétnej overenej citácie"
+   ]
+  },
+  {
+   "sequence": 283,
+   "questionNumber": 283,
+   "duplicateOf": null,
+   "evaluation": {
+    "A": {
+     "verdict": "nesprávna",
+     "reason": "Na C1 je acylfosfát (anhydrid), nie fosfomonoester."
+    },
+    "B": {
+     "verdict": "nesprávna",
+     "reason": "Acylfosfát je na C1, nie C3."
+    },
+    "C": {
+     "verdict": "nesprávna",
+     "reason": "Na C3 je fosfomonoester."
+    },
+    "D": {
+     "verdict": "nesprávna",
+     "reason": "Len jedna makroergická (C1)."
+    }
+   },
+   "proposedKey": [],
+   "keyNote": "Možno zámerne prehodené C1/C3.",
+   "alternativeKeys": {},
+   "confidence": {
+    "biochemistry": "vysoká",
+    "examKey": "vysoká"
+   },
+   "assumptionsOrTextFix": "",
+   "sources": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC8615399/ (fosfát atakuje tioester -> 1,3-BPG, acylfosfát)"
+   ]
+  },
+  {
+   "sequence": 284,
+   "questionNumber": 284,
+   "duplicateOf": null,
+   "evaluation": {
+    "A": {
+     "verdict": "nesprávna",
+     "reason": "Laktát – anaeróbne."
+    },
+    "B": {
+     "verdict": "nesprávna",
+     "reason": "Acetyl-CoA vzniká v PDH, mimo glykolýzy."
+    },
+    "C": {
+     "verdict": "nesprávna",
+     "reason": "CO2 v PDH, glykolýza CO2 netvorí."
+    },
+    "D": {
+     "verdict": "závisí od výkladu",
+     "reason": "2 NADH: klasicky 4 ATP (glycerolfosfátový člnok) až 6; súčasne 3–5."
+    }
+   },
+   "proposedKey": [
+    3
+   ],
+   "keyNote": "Platí za klasického modelu a striktného ponímania glykolýzy (po pyruvát).",
+   "alternativeKeys": {
+    "súčasný model: NADH≈2,5 ATP, FADH2≈1,5 ATP": []
+   },
+   "confidence": {
+    "biochemistry": "vysoká",
+    "examKey": "stredná"
+   },
+   "assumptionsOrTextFix": "",
+   "sources": [
+    "https://www.ncbi.nlm.nih.gov/books/NBK470170/ (StatPearls: Aerobic Glycolysis)",
+    "https://uh.edu/dtu/08-Oxipho-2-07.htm (P/O 2,5 NADH / 1,5 FADH2; 10 resp. 6 H+, ~4 H+/ATP)"
+   ]
+  },
+  {
+   "sequence": 292,
+   "questionNumber": 292,
+   "duplicateOf": null,
+   "evaluation": {
+    "A": {
+     "verdict": "nesprávna",
+     "reason": "Ireverzibilná."
+    },
+    "B": {
+     "verdict": "nesprávna",
+     "reason": "Obchádza ju fruktóza-1,6-bisfosfatáza."
+    },
+    "C": {
+     "verdict": "nesprávna",
+     "reason": "F6P je substrát, vzniká F1,6BP."
+    },
+    "D": {
+     "verdict": "nesprávna",
+     "reason": "Aktivuje ju AMP, F2,6BP (najedený stav); pri hladovaní v pečeni je utlmená."
+    }
+   },
+   "proposedKey": [],
+   "keyNote": "",
+   "alternativeKeys": {},
+   "confidence": {
+    "biochemistry": "vysoká",
+    "examKey": "vysoká"
+   },
+   "assumptionsOrTextFix": "",
+   "sources": [
+    "učebnicové poznatky (Harper/Lehninger/Berg) – bez konkrétnej overenej citácie"
+   ]
+  },
+  {
+   "sequence": 293,
+   "questionNumber": 293,
+   "duplicateOf": null,
+   "evaluation": {
+    "A": {
+     "verdict": "nesprávna",
+     "reason": "Aeróbne navyše NADH."
+    },
+    "B": {
+     "verdict": "závisí od výkladu",
+     "reason": "Klasicky 3 ATP (malát-aspartát) + 1 ATP (PGK); súčasne 2,5+1."
+    },
+    "C": {
+     "verdict": "nesprávna",
+     "reason": "Max. 4 na 1 GAP."
+    },
+    "D": {
+     "verdict": "nesprávna",
+     "reason": "1 ATP – pyruvátkináza je až za 3-PG."
+    }
+   },
+   "proposedKey": [
+    1
+   ],
+   "keyNote": "Klasický model.",
+   "alternativeKeys": {
+    "súčasný model: NADH≈2,5 ATP, FADH2≈1,5 ATP": []
+   },
+   "confidence": {
+    "biochemistry": "vysoká",
+    "examKey": "stredná"
+   },
+   "assumptionsOrTextFix": "",
+   "sources": [
+    "https://uh.edu/dtu/08-Oxipho-2-07.htm (P/O 2,5 NADH / 1,5 FADH2; 10 resp. 6 H+, ~4 H+/ATP)",
+    "https://www.ncbi.nlm.nih.gov/books/NBK470170/ (StatPearls: Aerobic Glycolysis)"
+   ]
+  },
+  {
+   "sequence": 294,
+   "questionNumber": 294,
+   "duplicateOf": null,
+   "evaluation": {
+    "A": {
+     "verdict": "správna",
+     "reason": "Pyruvát ako medziprodukt."
+    },
+    "B": {
+     "verdict": "nesprávna",
+     "reason": "PDH je v mitochondriálnej matrix."
+    },
+    "C": {
+     "verdict": "závisí od výkladu",
+     "reason": "Klasicky 2 obrátky = 24 ATP vrátane reoxidácie NADH/FADH2; samotný cyklus 2 GTP."
+    },
+    "D": {
+     "verdict": "nesprávna",
+     "reason": "Ox. fosforylácia klasicky 34 (32), súčasne ~26–28."
+    }
+   },
+   "proposedKey": [
+    0,
+    2
+   ],
+   "keyNote": "Klasický model a 'v Krebsovom cykle' vrátane reoxidácie koenzýmov.",
+   "alternativeKeys": {
+    "súčasný model: NADH≈2,5 ATP, FADH2≈1,5 ATP": [
+     0
+    ]
+   },
+   "confidence": {
+    "biochemistry": "vysoká",
+    "examKey": "stredná"
+   },
+   "assumptionsOrTextFix": "",
+   "sources": [
+    "https://uh.edu/dtu/08-Oxipho-2-07.htm (P/O 2,5 NADH / 1,5 FADH2; 10 resp. 6 H+, ~4 H+/ATP)"
+   ]
+  },
+  {
+   "sequence": 295,
+   "questionNumber": 295,
+   "duplicateOf": null,
+   "evaluation": {
+    "A": {
+     "verdict": "nesprávna",
+     "reason": "Laktát nestačí pri dlhom hladovaní."
+    },
+    "B": {
+     "verdict": "nesprávna",
+     "reason": "Proteolýza hlavne vo svaloch."
+    },
+    "C": {
+     "verdict": "nesprávna",
+     "reason": "AK sa menia na 2-oxokyseliny (ketokyseliny), nie hydroxykyseliny."
+    },
+    "D": {
+     "verdict": "nesprávna",
+     "reason": "Alanín -> pyruvát cez ALT, LDH netreba."
+    }
+   },
+   "proposedKey": [],
+   "keyNote": "C možno preklep 'ketokyseliny' – potom [2].",
+   "alternativeKeys": {
+    "oprava C na oxo/ketokyseliny": [
+     2
+    ]
+   },
+   "confidence": {
+    "biochemistry": "vysoká",
+    "examKey": "stredná"
+   },
+   "assumptionsOrTextFix": "",
+   "sources": [
+    "učebnicové poznatky (Harper/Lehninger/Berg) – bez konkrétnej overenej citácie"
+   ]
+  },
+  {
+   "sequence": 297,
+   "questionNumber": 297,
+   "duplicateOf": null,
+   "evaluation": {
+    "A": {
+     "verdict": "nesprávna",
+     "reason": "2 ATP je čistý zisk len SLP / anaeróbne."
+    },
+    "B": {
+     "verdict": "nesprávna",
+     "reason": "Úplná oxidácia."
+    },
+    "C": {
+     "verdict": "závisí od výkladu",
+     "reason": "Klasicky 2 + 6 = 8 (malát-aspartát)."
+    },
+    "D": {
+     "verdict": "nesprávna",
+     "reason": ""
+    }
+   },
+   "proposedKey": [
+    2
+   ],
+   "keyNote": "Klasický model.",
+   "alternativeKeys": {
+    "súčasný model: NADH≈2,5 ATP, FADH2≈1,5 ATP": []
+   },
+   "confidence": {
+    "biochemistry": "vysoká",
+    "examKey": "stredná"
+   },
+   "assumptionsOrTextFix": "",
+   "sources": [
+    "https://uh.edu/dtu/08-Oxipho-2-07.htm (P/O 2,5 NADH / 1,5 FADH2; 10 resp. 6 H+, ~4 H+/ATP)",
+    "https://www.ncbi.nlm.nih.gov/books/NBK470170/ (StatPearls: Aerobic Glycolysis)"
+   ]
+  },
+  {
+   "sequence": 356,
+   "questionNumber": 356,
+   "duplicateOf": null,
+   "evaluation": {
+    "A": {
+     "verdict": "nesprávna",
+     "reason": ""
+    },
+    "B": {
+     "verdict": "nesprávna",
+     "reason": ""
+    },
+    "C": {
+     "verdict": "závisí od výkladu",
+     "reason": "Klasicky 6–8 podľa člnku – správne."
+    },
+    "D": {
+     "verdict": "nesprávna",
+     "reason": ""
+    }
+   },
+   "proposedKey": [
+    2
+   ],
+   "keyNote": "Klasický model; varianta seq 297 ('pre' = 'po').",
+   "alternativeKeys": {
+    "súčasný model: NADH≈2,5 ATP, FADH2≈1,5 ATP": []
+   },
+   "confidence": {
+    "biochemistry": "vysoká",
+    "examKey": "stredná"
+   },
+   "assumptionsOrTextFix": "",
+   "sources": [
+    "https://uh.edu/dtu/08-Oxipho-2-07.htm (P/O 2,5 NADH / 1,5 FADH2; 10 resp. 6 H+, ~4 H+/ATP)"
+   ]
+  },
+  {
+   "sequence": 342,
+   "questionNumber": 342,
+   "duplicateOf": null,
+   "evaluation": {
+    "A": {
+     "verdict": "nesprávna",
+     "reason": ""
+    },
+    "B": {
+     "verdict": "závisí od výkladu",
+     "reason": "Hrubý zisk 4 ATP SLP – správne."
+    },
+    "C": {
+     "verdict": "závisí od výkladu",
+     "reason": "Čistý zisk 2 ATP SLP – správne."
+    },
+    "D": {
+     "verdict": "závisí od výkladu",
+     "reason": "2 NADH × 3 = 6 (klasicky, malát-aspartát); súčasne 5."
+    }
+   },
+   "proposedKey": [
+    1,
+    2,
+    3
+   ],
+   "keyNote": "B a C sú hrubý vs čistý zisk – obe pravdivé.",
+   "alternativeKeys": {
+    "súčasný model: NADH≈2,5 ATP, FADH2≈1,5 ATP": [
+     1,
+     2
+    ]
+   },
+   "confidence": {
+    "biochemistry": "vysoká",
+    "examKey": "stredná"
+   },
+   "assumptionsOrTextFix": "",
+   "sources": [
+    "https://www.ncbi.nlm.nih.gov/books/NBK470170/ (StatPearls: Aerobic Glycolysis)",
+    "https://uh.edu/dtu/08-Oxipho-2-07.htm (P/O 2,5 NADH / 1,5 FADH2; 10 resp. 6 H+, ~4 H+/ATP)"
+   ]
+  },
+  {
+   "sequence": 351,
+   "questionNumber": 351,
+   "duplicateOf": null,
+   "evaluation": {
+    "A": {
+     "verdict": "správna",
+     "reason": "PGK krok: 1 ATP na 1 GAP."
+    },
+    "B": {
+     "verdict": "nesprávna",
+     "reason": ""
+    },
+    "C": {
+     "verdict": "nesprávna",
+     "reason": "Aeróbne navyše NADH."
+    },
+    "D": {
+     "verdict": "závisí od výkladu",
+     "reason": "Klasicky 1+3=4."
+    }
+   },
+   "proposedKey": [
+    0,
+    3
+   ],
+   "keyNote": "Klasický model.",
+   "alternativeKeys": {
+    "súčasný model: NADH≈2,5 ATP, FADH2≈1,5 ATP": [
+     0
+    ]
+   },
+   "confidence": {
+    "biochemistry": "vysoká",
+    "examKey": "stredná"
+   },
+   "assumptionsOrTextFix": "",
+   "sources": [
+    "https://uh.edu/dtu/08-Oxipho-2-07.htm (P/O 2,5 NADH / 1,5 FADH2; 10 resp. 6 H+, ~4 H+/ATP)"
+   ]
+  },
+  {
+   "sequence": 357,
+   "questionNumber": 357,
+   "duplicateOf": null,
+   "evaluation": {
+    "A": {
+     "verdict": "závisí od výkladu",
+     "reason": "Oxidácia MK vyžaduje O2 – v porovnaní s anaeróbiou áno; bez porovnávacej bázy vágne."
+    },
+    "B": {
+     "verdict": "nesprávna",
+     "reason": ""
+    },
+    "C": {
+     "verdict": "nesprávna",
+     "reason": ""
+    },
+    "D": {
+     "verdict": "nesprávna",
+     "reason": ""
+    }
+   },
+   "proposedKey": [
+    0
+   ],
+   "keyNote": "Vágne zadanie.",
+   "alternativeKeys": {},
+   "confidence": {
+    "biochemistry": "stredná",
+    "examKey": "stredná"
+   },
+   "assumptionsOrTextFix": "",
+   "sources": [
+    "učebnicové poznatky (Harper/Lehninger/Berg) – bez konkrétnej overenej citácie"
+   ]
+  },
+  {
+   "sequence": 424,
+   "questionNumber": 424,
+   "duplicateOf": null,
+   "evaluation": {
+    "A": {
+     "verdict": "správna",
+     "reason": "FADH2 z acyl-CoA DH."
+    },
+    "B": {
+     "verdict": "nesprávna",
+     "reason": "Tvorí NADH (3 ATP)."
+    },
+    "C": {
+     "verdict": "správna",
+     "reason": ""
+    },
+    "D": {
+     "verdict": "nesprávna",
+     "reason": "Produkt (enoyl-CoA) je substrát hydratázy, nie tiolázy."
+    }
+   },
+   "proposedKey": [
+    0,
+    2
+   ],
+   "keyNote": "Premisa '2 ATP' je klasická; reakcia je jednoznačná.",
+   "alternativeKeys": {},
+   "confidence": {
+    "biochemistry": "vysoká",
+    "examKey": "vysoká"
+   },
+   "assumptionsOrTextFix": "",
+   "sources": [
+    "https://www.ncbi.nlm.nih.gov/books/NBK556002/ (StatPearls: Fatty Acid Oxidation)"
+   ]
+  },
+  {
+   "sequence": 440,
+   "questionNumber": 440,
+   "duplicateOf": null,
+   "evaluation": {
+    "A": {
+     "verdict": "nesprávna",
+     "reason": "HMG-CoA lyáza dáva acetoacetát + acetyl-CoA."
+    },
+    "B": {
+     "verdict": "závisí od výkladu",
+     "reason": "Ketolátka, ale chemicky nie ketón (hydroxykyselina)."
+    },
+    "C": {
+     "verdict": "nesprávna",
+     "reason": "Redukcia acetoacetátu spotrebuje NADH."
+    },
+    "D": {
+     "verdict": "nesprávna",
+     "reason": "Prvý krok: oxidácia na acetoacetát; acetoacetyl-CoA až potom (SCOT)."
+    }
+   },
+   "proposedKey": [],
+   "keyNote": "B pravdepodobne zámerný chyták.",
+   "alternativeKeys": {
+    "B ako 'ketolátka'": [
+     1
+    ]
+   },
+   "confidence": {
+    "biochemistry": "vysoká",
+    "examKey": "stredná"
+   },
+   "assumptionsOrTextFix": "",
+   "sources": [
+    "učebnicové poznatky (Harper/Lehninger/Berg) – bez konkrétnej overenej citácie"
+   ]
+  },
+  {
+   "sequence": 441,
+   "questionNumber": 441,
+   "duplicateOf": null,
+   "evaluation": {
+    "A": {
+     "verdict": "správna",
+     "reason": "Acyl-AMP (acyl-adenylát) = zmiešaný anhydrid karboxyl–fosfát, makroergický."
+    },
+    "B": {
+     "verdict": "nesprávna",
+     "reason": "Štiepi sa fosfoanhydridová väzba (α–β) -> PPi."
+    },
+    "C": {
+     "verdict": "správna",
+     "reason": "Acyl-CoA – tioester."
+    },
+    "D": {
+     "verdict": "nesprávna",
+     "reason": "Acyl-CoA je produkt, nie medziprodukt."
+    }
+   },
+   "proposedKey": [
+    0,
+    2
+   ],
+   "keyNote": "",
+   "alternativeKeys": {},
+   "confidence": {
+    "biochemistry": "vysoká",
+    "examKey": "stredná"
+   },
+   "assumptionsOrTextFix": "",
+   "sources": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/pmid/20851904 (acyl-CoA syntetáza, acyl-AMP medziprodukt, PPi)"
+   ]
+  },
+  {
+   "sequence": 442,
+   "questionNumber": 442,
+   "duplicateOf": null,
+   "evaluation": {
+    "A": {
+     "verdict": "správna",
+     "reason": ""
+    },
+    "B": {
+     "verdict": "správna",
+     "reason": "Acyl-CoA DH -> ETF -> ETF-QO -> CoQ."
+    },
+    "C": {
+     "verdict": "nesprávna",
+     "reason": "Hydratáza nie je dehydrogenáza."
+    },
+    "D": {
+     "verdict": "závisí od výkladu",
+     "reason": "NADH: klasicky 3 ATP."
+    }
+   },
+   "proposedKey": [
+    0,
+    1,
+    3
+   ],
+   "keyNote": "Klasický model.",
+   "alternativeKeys": {
+    "súčasný model: NADH≈2,5 ATP, FADH2≈1,5 ATP": [
+     0,
+     1
+    ]
+   },
+   "confidence": {
+    "biochemistry": "vysoká",
+    "examKey": "stredná"
+   },
+   "assumptionsOrTextFix": "",
+   "sources": [
+    "https://www.ncbi.nlm.nih.gov/books/NBK556002/ (StatPearls: Fatty Acid Oxidation)",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC7949704/ (ETF/ETF-QO -> ubichinón)"
+   ]
+  },
+  {
+   "sequence": 446,
+   "questionNumber": 446,
+   "duplicateOf": null,
+   "evaluation": {
+    "A": {
+     "verdict": "nesprávna",
+     "reason": "Mevalonát cez HMG-CoA syntázu a reduktázu."
+    },
+    "B": {
+     "verdict": "závisí od výkladu",
+     "reason": "ACAT1 štiepi 3-oxoacyl-CoA v beta-oxidácii (UniProt); hlavná 3-ketoacyl-CoA tioláza je ACAA2/MTP – izoformy sa líšia."
+    },
+    "C": {
+     "verdict": "nesprávna",
+     "reason": "Nie je súčasť PDH."
+    },
+    "D": {
+     "verdict": "nesprávna",
+     "reason": "Tvorí acetoacetyl-CoA; HMG-CoA tvorí HMG-CoA syntáza."
+    }
+   },
+   "proposedKey": [
+    1
+   ],
+   "keyNote": "",
+   "alternativeKeys": {},
+   "confidence": {
+    "biochemistry": "vysoká",
+    "examKey": "stredná"
+   },
+   "assumptionsOrTextFix": "",
+   "sources": [
+    "UniProt P24752 ACAT1 – posledný krok beta-oxidácie aj tvorba acetoacetyl-CoA (https://www.ebi.ac.uk/proteins/api/proteins/P24752)"
+   ]
+  },
+  {
+   "sequence": 472,
+   "questionNumber": 472,
+   "duplicateOf": null,
+   "evaluation": {
+    "A": {
+     "verdict": "správna",
+     "reason": ""
+    },
+    "B": {
+     "verdict": "správna",
+     "reason": ""
+    },
+    "C": {
+     "verdict": "nesprávna",
+     "reason": "TAG sú v jadre."
+    },
+    "D": {
+     "verdict": "správna",
+     "reason": "Amfipatické apolipoproteíny (text useknutý)."
+    }
+   },
+   "proposedKey": [
+    0,
+    1,
+    3
+   ],
+   "keyNote": "",
+   "alternativeKeys": {},
+   "confidence": {
+    "biochemistry": "vysoká",
+    "examKey": "vysoká"
+   },
+   "assumptionsOrTextFix": "",
+   "sources": [
+    "učebnicové poznatky (Harper/Lehninger/Berg) – bez konkrétnej overenej citácie"
+   ]
+  },
+  {
+   "sequence": 476,
+   "questionNumber": 476,
+   "duplicateOf": null,
+   "evaluation": {
+    "A": {
+     "verdict": "závisí od výkladu",
+     "reason": "Dyslipoproteinémie = kvantitatívne aj kvalitatívne zmeny; A je neúplné, nie nepravdivé."
+    },
+    "B": {
+     "verdict": "nesprávna",
+     "reason": "Primárne = geneticky podmienené."
+    },
+    "C": {
+     "verdict": "správna",
+     "reason": "TAG, cholesterol, vzhľad séra (text useknutý)."
+    },
+    "D": {
+     "verdict": "závisí od výkladu",
+     "reason": "Chýbajúce = abeta-, znížené = hypobetalipoproteinémia."
+    }
+   },
+   "proposedKey": null,
+   "keyNote": "A a D sú neúplné formulácie; kľúč nejde uzavrieť bez znalosti zdroja kurzu.",
+   "alternativeKeys": {
+    "prísne": [
+     2
+    ],
+    "benevolentne": [
+     0,
+     2,
+     3
+    ]
+   },
+   "confidence": {
+    "biochemistry": "stredná",
+    "examKey": "nízka"
+   },
+   "assumptionsOrTextFix": "",
+   "sources": [
+    "https://pubmed.ncbi.nlm.nih.gov/21874758/ (hypobetalipoproteinémia vs abetalipoproteinémia)",
+    "učebnicové poznatky (Harper/Lehninger/Berg) – bez konkrétnej overenej citácie"
+   ]
+  },
+  {
+   "sequence": 490,
+   "questionNumber": 490,
+   "duplicateOf": null,
+   "evaluation": {
+    "A": {
+     "verdict": "závisí od výkladu",
+     "reason": "LDL vzniká z IDL hlavne pečeňovou lipázou; LPL (kapiláry) robí VLDL->IDL."
+    },
+    "B": {
+     "verdict": "závisí od výkladu",
+     "reason": "Neobsahujú apoC-II a málo TAG – podstata správna (text useknutý)."
+    },
+    "C": {
+     "verdict": "nesprávna",
+     "reason": "To je HDL."
+    },
+    "D": {
+     "verdict": "nesprávna",
+     "reason": "Hlavná zložka cholesterol (estery)."
+    }
+   },
+   "proposedKey": [
+    1
+   ],
+   "keyNote": "A prísne nesprávne.",
+   "alternativeKeys": {
+    "A ako 'v krvnom obehu'": [
+     0,
+     1
+    ]
+   },
+   "confidence": {
+    "biochemistry": "vysoká",
+    "examKey": "stredná"
+   },
+   "assumptionsOrTextFix": "",
+   "sources": [
+    "učebnicové poznatky (Harper/Lehninger/Berg) – bez konkrétnej overenej citácie"
+   ]
+  },
+  {
+   "sequence": 514,
+   "questionNumber": 514,
+   "duplicateOf": null,
+   "evaluation": {
+    "A": {
+     "verdict": "nesprávna",
+     "reason": "Mononenasýtená C18:1 cis-Δ9."
+    },
+    "B": {
+     "verdict": "nesprávna",
+     "reason": "18 C."
+    },
+    "C": {
+     "verdict": "nesprávna",
+     "reason": "Syntetizuje sa (SCD1)."
+    },
+    "D": {
+     "verdict": "nesprávna",
+     "reason": "Samotná beta-oxidácia: klasicky 36 netto, 38 hrubé; súčasne ~28,5; s CK 144/~118. 24 nesedí v žiadnom modeli."
+    }
+   },
+   "proposedKey": [],
+   "keyNote": "",
+   "alternativeKeys": {},
+   "confidence": {
+    "biochemistry": "vysoká",
+    "examKey": "vysoká"
+   },
+   "assumptionsOrTextFix": "",
+   "sources": [
+    "https://www.ncbi.nlm.nih.gov/books/NBK556002/ (StatPearls: Fatty Acid Oxidation)",
+    "učebnicové poznatky (Harper/Lehninger/Berg) – bez konkrétnej overenej citácie"
+   ]
+  },
+  {
+   "sequence": 520,
+   "questionNumber": 520,
+   "duplicateOf": 514,
+   "evaluation": {
+    "A": {
+     "verdict": "nesprávna",
+     "reason": "Mononenasýtená C18:1 cis-Δ9."
+    },
+    "B": {
+     "verdict": "nesprávna",
+     "reason": "18 C."
+    },
+    "C": {
+     "verdict": "nesprávna",
+     "reason": "Syntetizuje sa (SCD1)."
+    },
+    "D": {
+     "verdict": "nesprávna",
+     "reason": "Samotná beta-oxidácia: klasicky 36 netto, 38 hrubé; súčasne ~28,5; s CK 144/~118. 24 nesedí v žiadnom modeli."
+    }
+   },
+   "proposedKey": [],
+   "keyNote": "",
+   "alternativeKeys": {},
+   "confidence": {
+    "biochemistry": "vysoká",
+    "examKey": "vysoká"
+   },
+   "assumptionsOrTextFix": "",
+   "sources": [
+    "https://www.ncbi.nlm.nih.gov/books/NBK556002/ (StatPearls: Fatty Acid Oxidation)",
+    "učebnicové poznatky (Harper/Lehninger/Berg) – bez konkrétnej overenej citácie"
+   ]
+  },
+  {
+   "sequence": 605,
+   "questionNumber": 605,
+   "duplicateOf": null,
+   "evaluation": {
+    "A": {
+     "verdict": "nesprávna",
+     "reason": "1,3–2,8 ml/s je normálne."
+    },
+    "B": {
+     "verdict": "nesprávna",
+     "reason": "0,33–0,67 ml/s (20–40 ml/min) – stredná/ťažká, nie ľahká."
+    },
+    "C": {
+     "verdict": "nesprávna",
+     "reason": "1,0–1,34 (60–80 ml/min) – ľahké zníženie."
+    },
+    "D": {
+     "verdict": "nesprávna",
+     "reason": "<0,33 (<20 ml/min) – ťažká."
+    }
+   },
+   "proposedKey": [],
+   "keyNote": "Zlé priradenia v každej schéme (K/DOQI aj staršia 20/40/80 ml/min).",
+   "alternativeKeys": {},
+   "confidence": {
+    "biochemistry": "vysoká",
+    "examKey": "vysoká"
+   },
+   "assumptionsOrTextFix": "",
+   "sources": [
+    "https://nemocnicaskalica.agel.sk/pracoviska/laboratoria/okbh/dalsie-informacie/odborne-informacie/subory/odhad-glomerulrnej-filtrcie-gf.pdf (K/DOQI v ml/s: I ≥1,5; II 1,00–1,49; III 0,50–0,99; IV 0,25–0,49; V <0,25)"
+   ]
+  },
+  {
+   "sequence": 685,
+   "questionNumber": 685,
+   "duplicateOf": null,
+   "evaluation": {
+    "A": {
+     "verdict": "nesprávna",
+     "reason": "Deaminácia používa NAD(P)+, nie NADPH."
+    },
+    "B": {
+     "verdict": "nesprávna",
+     "reason": "Transaminácia OAA dáva aspartát; glutamát z 2-oxoglutarátu."
+    },
+    "C": {
+     "verdict": "nesprávna",
+     "reason": "GDH je mitochondriálna, bez O2."
+    },
+    "D": {
+     "verdict": "nesprávna",
+     "reason": "Nie."
+    }
+   },
+   "proposedKey": [],
+   "keyNote": "",
+   "alternativeKeys": {},
+   "confidence": {
+    "biochemistry": "vysoká",
+    "examKey": "vysoká"
+   },
+   "assumptionsOrTextFix": "",
+   "sources": [
+    "UniProt P00367 GLUD1 – mitochondriálna, NAD+/NADP+ (čítané cez https://www.ebi.ac.uk/proteins/api/proteins/P00367)"
+   ]
+  },
+  {
+   "sequence": 686,
+   "questionNumber": 686,
+   "duplicateOf": null,
+   "evaluation": {
+    "A": {
+     "verdict": "správna",
+     "reason": "Glutamín."
+    },
+    "B": {
+     "verdict": "správna",
+     "reason": ""
+    },
+    "C": {
+     "verdict": "závisí od výkladu",
+     "reason": "Glutamín je zdroj NH4+ v obličke pre vylučovanie kyselín – 'neutralizácia moča' je nepresné."
+    },
+    "D": {
+     "verdict": "nesprávna",
+     "reason": "ATP, nie GTP."
+    }
+   },
+   "proposedKey": [
+    0,
+    1,
+    2
+   ],
+   "keyNote": "C prijateľná ako zámer.",
+   "alternativeKeys": {
+    "C prísne": [
+     0,
+     1
+    ]
+   },
+   "confidence": {
+    "biochemistry": "vysoká",
+    "examKey": "stredná"
+   },
+   "assumptionsOrTextFix": "",
+   "sources": [
+    "učebnicové poznatky (Harper/Lehninger/Berg) – bez konkrétnej overenej citácie"
+   ]
+  },
+  {
+   "sequence": 704,
+   "questionNumber": 704,
+   "duplicateOf": null,
+   "evaluation": {
+    "A": {
+     "verdict": "nesprávna",
+     "reason": "Spotrebuje energiu."
+    },
+    "B": {
+     "verdict": "nesprávna",
+     "reason": "Inducibilné (bielkoviny, glukokortikoidy)."
+    },
+    "C": {
+     "verdict": "nesprávna",
+     "reason": "3 ATP (4 makroergické väzby), bez GTP."
+    },
+    "D": {
+     "verdict": "nesprávna",
+     "reason": "Pri poškodení obličiek sa retinuje."
+    }
+   },
+   "proposedKey": [],
+   "keyNote": "",
+   "alternativeKeys": {},
+   "confidence": {
+    "biochemistry": "vysoká",
+    "examKey": "vysoká"
+   },
+   "assumptionsOrTextFix": "",
+   "sources": [
+    "https://www.ncbi.nlm.nih.gov/books/NBK513323/ (StatPearls: Urea Cycle; CPS1 2 ATP, ASS 1 ATP)"
+   ]
+  },
+  {
+   "sequence": 724,
+   "questionNumber": 724,
+   "duplicateOf": null,
+   "evaluation": {
+    "A": {
+     "verdict": "nesprávna",
+     "reason": "Nie je transamináza."
+    },
+    "B": {
+     "verdict": "závisí od výkladu",
+     "reason": "AST má cytosolovú aj mitochondriálnu izoformu – tvrdenie čiastočne pravdivé."
+    },
+    "C": {
+     "verdict": "nesprávna",
+     "reason": "ALT hlavne cytosolová."
+    },
+    "D": {
+     "verdict": "nesprávna",
+     "reason": "Nie sú plazmaticky špecifické."
+    }
+   },
+   "proposedKey": [
+    1
+   ],
+   "keyNote": "",
+   "alternativeKeys": {},
+   "confidence": {
+    "biochemistry": "vysoká",
+    "examKey": "stredná"
+   },
+   "assumptionsOrTextFix": "",
+   "sources": [
+    "UniProt P17174 GOT1 (cytoplazma), P00505 GOT2 (mitochondriálna matrix)",
+    "UniProt P24298 GPT1 (cytoplazma), Q8TD30 GPT2"
+   ]
+  }
+ ]
+}

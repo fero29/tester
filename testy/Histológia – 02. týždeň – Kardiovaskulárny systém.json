@@ -1,0 +1,647 @@
+[
+  {
+    "title": "Histológia – 02. týždeň – Kardiovaskulárny systém",
+    "description": "Srdce, Purkyňove vlákna, aorta, artérie, vény, kapiláry a iné cievy.",
+    "year": 2,
+    "category": "Histológia",
+    "sortOrder": 2,
+    "questions": [
+      {
+        "question": "Arterioly majú dobre vyvinutú laminu elasticu externu",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 11,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-005.jpg",
+            "img-175.jpg",
+            "img-182.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "topic": "Kardiovaskulárny systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Srdcové komory majú hrubšiu vrstvu myokardu ako predsiene",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 19,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-009.jpg",
+            "img-171.jpg",
+            "img-185.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "topic": "Kardiovaskulárny systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Žily majú širší lúmen ako artérie pri rovnakom priemere cievy",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 28,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-014.jpg",
+            "img-172.jpg",
+            "img-197.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "topic": "Kardiovaskulárny systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Lamina elastica interna oddeľuje navzájom tunica media od tunica adventitia",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 31,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-016.jpg",
+            "img-022.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "topic": "Kardiovaskulárny systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Tunica intima v stene veľkých žíl tvorí chlopne kryté endotelom",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 34,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-017.jpg",
+            "img-034.jpg",
+            "img-202.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "topic": "Kardiovaskulárny systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Lamina elastica externa je dobre vyvinutá vo všetkých typoch artérii",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 40,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-019.jpg",
+            "img-023.jpg",
+            "img-040.jpg",
+            "img-200.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "topic": "Kardiovaskulárny systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "V stene srdca sa nenachádzajú žiadne hladké svalové bunky",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 46,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-021.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "topic": "Kardiovaskulárny systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Endokard je vonkajší serózny obal srdca pokrytý mezotelom",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 56,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-025.jpg",
+            "img-036.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "topic": "Kardiovaskulárny systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Tunica media je dominantnou vrstvou steny veľkých žíl a obsahuje početné hladké svalové bunky",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 58,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-026.jpg",
+            "img-039.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "topic": "Kardiovaskulárny systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Priemer kontinuálnych kapilár je približne 30-40μm",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 60,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-027.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "topic": "Kardiovaskulárny systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Chlopne veľkých a stredných tepien sú tvorené záhybmi tunica intima pokryté endotelom",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 69,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-032.jpg",
+            "img-038.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "topic": "Kardiovaskulárny systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Venuly majú širší priesvit ako postkapiláry",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 170,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-119.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "topic": "Kardiovaskulárny systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Postkapiláry sú najmenšie vény tvorené iba endotelom a pericytmi",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 173,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-122.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "topic": "Kardiovaskulárny systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Purkyňove vlákna sú lokalizované v subendokardovej vrstve srdcových komôr",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 177,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-126.jpg",
+            "img-132.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "topic": "Kardiovaskulárny systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Stena žíl na rozdiel od steny artérií neobsahuje vasa vasorum",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 184,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-130.jpg",
+            "img-131.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "topic": "Kardiovaskulárny systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Tunica media arteriol je tvorená 1-5 vrstvami hladkých svalových buniek",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 185,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-130.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "topic": "Kardiovaskulárny systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Hladké svalové bunky steny vén dokážu produkovať všetky komponenty extracelulárnej matrix",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 192,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-135.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "topic": "Kardiovaskulárny systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Elastické komponenty v stene elastických artérii sa demonštrujú trichrómovým farbením",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 198,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-152.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "topic": "Kardiovaskulárny systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Sínusoidy sú kapiláry s najmenším priemerom",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 210,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-164.jpg",
+            "img-190.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "topic": "Kardiovaskulárny systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Endokard sa zúčastňuje na tvorbe srdcových chlopní",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 217,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-199.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "topic": "Kardiovaskulárny systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Dôležitou súčasťou steny aorty sú membranae fenestratae, ktoré možno demonštrovať použitím orceínu",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 224,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-203.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "topic": "Kardiovaskulárny systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Štruktúra srdcových chlopní pozostáva prevažne z hladkého svalového tkaniva",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 229,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-206.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "topic": "Kardiovaskulárny systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Sínusoidné kapiláry majú kontinuálnu bazálnu laminu a početné fenestrácie",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 233,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-208.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "topic": "Kardiovaskulárny systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Tunica adventitia veľkých vén je tenšia ako ich tunica media",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 240,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-210.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "topic": "Kardiovaskulárny systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Membrana elastica externa je najlepšie vyvinutá v arteriolách.",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "1. zapocet.pdf",
+          "images": [
+            "img-123.jpg"
+          ],
+          "keyFrom": "Forms"
+        },
+        "curriculum": {
+          "week": 2,
+          "topic": "Kardiovaskulárny systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Medzi tunica intima a tunica media muskulárnych artérií sa nachádza lamina elastica interna.",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "1. zapocet.pdf",
+          "images": [
+            "img-138.jpg"
+          ],
+          "keyFrom": "Forms"
+        },
+        "curriculum": {
+          "week": 2,
+          "topic": "Kardiovaskulárny systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Sínusoidné kapiláry majú priesvit (lúmen) približne 5–10 µm.",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "1. zapocet.pdf",
+          "images": [
+            "img-153.jpg"
+          ],
+          "keyFrom": "Moodle"
+        },
+        "curriculum": {
+          "week": 2,
+          "topic": "Kardiovaskulárny systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      }
+    ]
+  }
+]

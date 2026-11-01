@@ -1,0 +1,653 @@
+[
+  {
+    "title": "biocap8",
+    "description": "",
+    "questions": [
+      {
+        "answers": [
+          "dedi sa paternálne",
+          "je veľká kruhová molekula",
+          "obsahuje 37 génov",
+          "neobsahuje intróny"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "positionPercent": 10,
+        "question": "Čo platí o mitochondriálnej DNA?"
+      },
+      {
+        "answers": [
+          "je ľavotočivá",
+          "je pravotočivá",
+          "vyskytuje sa pri nadbytku vody",
+          "vyskytuje sa pri nedostatku soli"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 20,
+        "question": "O A forme DNA platí:"
+      },
+      {
+        "answers": [
+          "cukor",
+          "fosfát",
+          "bázu",
+          "glykozidickú väzbu"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "positionPercent": 30,
+        "question": "Nukleozid obsahuje:"
+      },
+      {
+        "answers": [
+          "takmer vo všetkých bunkách",
+          "v jadre",
+          "v mitochondriách",
+          "v endoplazmatickom retikule"
+        ],
+        "correct": [
+          2,
+          0,
+          1
+        ],
+        "positionPercent": 40,
+        "question": "DNA sa nachádza:"
+      },
+      {
+        "answers": [
+          "cytozín",
+          "uracil",
+          "tymín",
+          "guanín"
+        ],
+        "correct": [
+          1,
+          2,
+          0
+        ],
+        "positionPercent": 50,
+        "question": "Pyrimidínové bázy sú:"
+      },
+      {
+        "answers": [
+          "adenínom",
+          "guanínom",
+          "tymínom",
+          "uracilom"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "positionPercent": 60,
+        "question": "Adenín sa podľa pravidiel komplementarity páruje s:"
+      },
+      {
+        "answers": [
+          "množstvo adenínu = množstvu tymínu",
+          "množstvo guanínu = množstvu cytozínu",
+          "množstvo purínov sa rovná množstvu pyrimidínov",
+          "množstvo purínov sa rovná množstvu purínov"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "positionPercent": 70,
+        "question": "Chargaffovo pravidlo znamená, že:"
+      },
+      {
+        "answers": [
+          "len Z",
+          "len A",
+          "len B",
+          "A aj B"
+        ],
+        "correct": [
+          3
+        ],
+        "positionPercent": 5,
+        "question": "Pravotočivé konformácie DNA sú:"
+      },
+      {
+        "answers": [
+          "N – glykozidickou",
+          "3' a 5' – glykozidickou",
+          "3' a 5' – fosfátovou",
+          "3' a 5' – fosfodiesterovou"
+        ],
+        "correct": [
+          3
+        ],
+        "positionPercent": 15,
+        "question": "V polynukleotidovom reťazci sú nukleotidy navzájom spojené väzbou:"
+      },
+      {
+        "answers": [
+          "B – DNA",
+          "Z – DNA",
+          "A – DNA",
+          "C – DNA"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 25,
+        "question": "Aký typ DNA je významný pri regulácii expresie génov?"
+      },
+      {
+        "answers": [
+          "kódujúce gény (proteíny, rRNA, tRNA)",
+          "nekódujúce úseky (pseudogény, promótory, repetitívne sekvencie)",
+          "mitochondriálna DNA",
+          "histónové proteíny"
+        ],
+        "correct": [
+          1,
+          0
+        ],
+        "positionPercent": 35,
+        "question": "Ktoré úseky DNA tvoria jadrový genóm?"
+      },
+      {
+        "answers": [
+          "LINE",
+          "SINE – Alu",
+          "satelitná DNA",
+          "histónové gény"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "positionPercent": 45,
+        "question": "Ktoré úseky genómu patria medzi vysoko repetitívne sekvencie?"
+      },
+      {
+        "answers": [
+          "má intróny",
+          "má mierne odlišný genetický kód od jadrovej DNA",
+          "kóduje všetky mitochondriálne proteíny",
+          "dedí sa výhradne maternálnou líniou"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "positionPercent": 55,
+        "question": "Čo platí pre mitochondriálnu DNA (mtDNA)?"
+      },
+      {
+        "answers": [
+          "13 pre kódujúce proteíny",
+          "22 pre tRNA",
+          "2 pre rRNA",
+          "celkovo 46"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "positionPercent": 65,
+        "question": "Koľko génov obsahuje ľudská mtDNA?"
+      },
+      {
+        "answers": [
+          "rovnaké množstvo purínov a purínov",
+          "stabilitu DNA štruktúry",
+          "presnosť replikácie",
+          "tvorbu superšpirál"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "positionPercent": 75,
+        "question": "Čo zabezpečuje Chargaffovo pravidlo?"
+      },
+      {
+        "answers": [
+          "LINE",
+          "SINE",
+          "satelitná DNA",
+          "pseudogény"
+        ],
+        "correct": [
+          2
+        ],
+        "positionPercent": 5,
+        "question": "Aký typ repetitívnych sekvencií predstavujú minisatelity a mikrosatelity?"
+      },
+      {
+        "answers": [
+          "DNA",
+          "RNA",
+          "proteíny",
+          "lipidy"
+        ],
+        "correct": [
+          0
+        ],
+        "positionPercent": 15,
+        "question": "Ktorá molekula je u väčšiny organizmov hlavným nositeľom genetickej informácie?"
+      },
+      {
+        "answers": [
+          "dusíkatá báza",
+          "pentóza",
+          "fosfátová skupina",
+          "aminokyselina"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "positionPercent": 25,
+        "question": "Z čoho sa skladá nukleotid?"
+      },
+      {
+        "answers": [
+          "deoxyribóza v DNA",
+          "ribóza v RNA",
+          "glukóza v DNA",
+          "fruktóza v RNA"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "positionPercent": 35,
+        "question": "Aký cukor sa nachádza v DNA a aký v RNA?"
+      },
+      {
+        "answers": [
+          "adenín",
+          "guanín",
+          "cytozín",
+          "tymín"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "positionPercent": 45,
+        "question": "Ktoré bázy patria medzi puríny?"
+      },
+      {
+        "answers": [
+          "adenín",
+          "guanín",
+          "uracil",
+          "tymín"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "positionPercent": 55,
+        "question": "Ktoré bázy sa nachádzajú v RNA?"
+      },
+      {
+        "answers": [
+          "peptidovou väzbou",
+          "3’ – 5’ fosfodiesterovou väzbou",
+          "vodíkovou väzbou",
+          "disulfidovým mostíkom"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 65,
+        "question": "Ako sú nukleotidy spojené v polynukleotidovom reťazci?"
+      },
+      {
+        "answers": [
+          "nukleozid neobsahuje fosfát",
+          "nukleozid obsahuje vždy tymín",
+          "nukleotid nemá ribózu",
+          "nukleotid obsahuje fosfát"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "positionPercent": 75,
+        "question": "Čím sa líši nukleozid od nukleotidu?"
+      },
+      {
+        "answers": [
+          "10",
+          "10,5",
+          "11",
+          "12,5"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 5,
+        "question": "Koľko bázových párov má jedna otočka B – DNA?"
+      },
+      {
+        "answers": [
+          "A – T",
+          "G – C",
+          "A – U",
+          "T – U"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 15,
+        "question": "Ktorý pár báz je spojený tromi vodíkovými väzbami?"
+      },
+      {
+        "answers": [
+          "je pravotočivá",
+          "má 12 bp na otočku",
+          "schopnosť regulácie génovej expresie",
+          "vzniká pri dehydratácii"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "positionPercent": 25,
+        "question": "Aké vlastnosti má Z – DNA?"
+      },
+      {
+        "answers": [
+          "je ľavotočivá",
+          "vzniká pri dehydratácii",
+          "má 11 bp na otočku",
+          "nachádza sa v mitochondriách"
+        ],
+        "correct": [
+          2,
+          1
+        ],
+        "positionPercent": 35,
+        "question": "Aká je charakteristická vlastnosť A – DNA?"
+      },
+      {
+        "answers": [
+          "promótory",
+          "intróny",
+          "rRNA gény",
+          "exóny"
+        ],
+        "correct": [
+          1,
+          0
+        ],
+        "positionPercent": 45,
+        "question": "Ktoré sekvencie patria medzi nekódujúce oblasti DNA?"
+      },
+      {
+        "answers": [
+          "5 %",
+          "13 %",
+          "21 %",
+          "40 %"
+        ],
+        "correct": [
+          2
+        ],
+        "positionPercent": 55,
+        "question": "Aký je podiel LINE prvkov v ľudskom genóme?"
+      },
+      {
+        "answers": [
+          "oblasť kódujúca rRNA",
+          "oblasť kódujúca tRNA",
+          "regulačná oblasť pre replikáciu a transkripciu",
+          "kodón pre tryptofán"
+        ],
+        "correct": [
+          2
+        ],
+        "positionPercent": 65,
+        "question": "Čo je D – loop v mitochondriálnej DNA?"
+      },
+      {
+        "answers": [
+          "sú to lineárne molekuly DNA",
+          "replikujú sa nezávisle od hlavného chromozómu",
+          "prenášajú mitochondriálne gény",
+          "nemajú vlastný replikačný začiatok"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 75,
+        "question": "Čo je typická vlastnosť plazmidov?"
+      },
+      {
+        "answers": [
+          "gény rezistencie na antibiotiká",
+          "gény pre špecifické enzýmy",
+          "gén pre hemoglobín",
+          "gén pre históny"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "positionPercent": 5,
+        "question": "Aké gény môžu obsahovať plazmidy?"
+      },
+      {
+        "answers": [
+          "deoxyribóza",
+          "ribóza",
+          "glukóza",
+          "fruktóza"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 15,
+        "question": "Aký cukor je súčasťou ribonukleotidu?"
+      },
+      {
+        "answers": [
+          "fosfodiesterové väzby",
+          "vodíkové väzby medzi komplementárnymi bázami",
+          "disulfidové mostíky",
+          "interakcie s proteínmi"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 25,
+        "question": "Čo umožňuje vznik sekundárnej štruktúry RNA?"
+      },
+      {
+        "answers": [
+          "prispievajú k tomu aj Hoogsteenove párovania",
+          "interakcie s iónmi kovov",
+          "najmä peptidové väzby",
+          "väzba histónov"
+        ],
+        "correct": [
+          1,
+          0
+        ],
+        "positionPercent": 35,
+        "question": "Čo stabilizuje terciárnu štruktúru RNA?"
+      },
+      {
+        "answers": [
+          "18S",
+          "28S",
+          "45S",
+          "5S"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "positionPercent": 45,
+        "question": "Ktoré rRNA sú prítomné v eukaryotických ribozómoch?"
+      },
+      {
+        "answers": [
+          "helikálna špirála",
+          "písmeno L v 3D",
+          "tvar štvorlistka v 2D",
+          "tvar Y"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "positionPercent": 55,
+        "question": "Aký tvar má priestorová štruktúra tRNA?"
+      },
+      {
+        "answers": [
+          "miRNA",
+          "XIST",
+          "snoRNA",
+          "siRNA"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 65,
+        "question": "Ktorá lncRNA sa podieľa na inaktivácii chromozómu X?"
+      },
+      {
+        "answers": [
+          "prenos aminokyselín",
+          "blokovanie translácie mRNA",
+          "oprava DNA",
+          "aktivácia transkripcie"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 75,
+        "question": "Aké sú funkcie miRNA?"
+      },
+      {
+        "answers": [
+          "je dvojvláknová",
+          "spôsobuje posttranskripčné umlčanie génov",
+          "aktivuje transpozóny",
+          "podieľa sa na tvorbe ribozómov"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "positionPercent": 5,
+        "question": "Čo je typické pre siRNA?"
+      },
+      {
+        "answers": [
+          "regulácia viac než tretiny génov",
+          "ochrana genómu pohlavných buniek pred transpozónmi",
+          "sprostredkovanie translácie",
+          "tvorba poly-A chvosta"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 15,
+        "question": "Čo je hlavnou funkciou piRNA?"
+      },
+      {
+        "answers": [
+          "20 – 40",
+          "50 – 60",
+          "74 – 95",
+          "120 – 150"
+        ],
+        "correct": [
+          2
+        ],
+        "positionPercent": 25,
+        "question": "Aký je približný počet nukleotidov v tRNA?"
+      },
+      {
+        "answers": [
+          "AUG",
+          "CCA",
+          "UGA",
+          "GCU"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 35,
+        "question": "Aká sekvencia sa nachádza na 3’ konci tRNA a slúži na naviazanie aminokyseliny?"
+      },
+      {
+        "answers": [
+          "snRNA",
+          "snoRNA",
+          "miRNA",
+          "rRNA"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "positionPercent": 45,
+        "question": "Ktoré malé nekódujúce RNA sa podieľajú na spracovaní a modifikácii RNA?"
+      },
+      {
+        "answers": [
+          "slúžia ako templát pre syntézu histónov",
+          "pôsobia ako „špongie“ viažuce miRNA",
+          "rozkladajú ribozómy",
+          "aktivujú transláciu v mitochondriách"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 55,
+        "question": "Aká je hlavná funkcia niektorých circRNA v regulácii génovej expresie?"
+      },
+      {
+        "answers": [
+          "je dvojvláknová",
+          "je jednovláknová",
+          "je stabilnejšia než DNA",
+          "neobsahuje uracil"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 65,
+        "question": "Čo je základnou vlastnosťou RNA?"
+      },
+      {
+        "answers": [
+          "dvojzávitnicová špirála",
+          "písmeno L",
+          "trojzávitnicová špirála",
+          "guľovitý globulín"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 75,
+        "question": "Aký je typický tvar transferovej RNA (tRNA) v priestore?"
+      }
+    ]
+  }
+]

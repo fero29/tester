@@ -1,0 +1,1059 @@
+[
+  {
+    "title": "Chémia A",
+    "category": "Chémia",
+    "description": "Lekárska chémia VL+ZL — strany 11–164 PDF. Multi-agent Vision extrakcia (3 nezávislé čítania + konsenzus). 79 overených otázok; 53 na kontrolu; 4 non-kvíz; 18 nespracovaných (limit).",
+    "questions": [
+      {
+        "question": "Kladný indukčný efekt majú atómy alebo atómové skupiny:",
+        "answers": [
+          "-NO₂",
+          "-C(CH₃)₃",
+          "-Cl",
+          "-O-"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Tlmivá schopnosť proteínov je daná",
+        "answers": [
+          "schopnosťou ionizácie voľných -COOH skupín",
+          "schopnosťou protonizácie voľných -NH2 skupín",
+          "amfolytickým charakterom stavebných jednotiek niektorých aminokyselín",
+          "prítomnosťou peptidových väzieb"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "question": "Štruktúra nikotínamidu je odvodená od:",
+        "answers": [
+          "kyseliny nikotínovej",
+          "pyridínu",
+          "xantínu",
+          "tryptofánu"
+        ],
+        "correct": [
+          0,
+          1
+        ]
+      },
+      {
+        "question": "Osmotický tlak roztokov závisí:",
+        "answers": [
+          "od veľkosti dispergovaných častíc",
+          "od počtu dispergovaných častíc",
+          "od štruktúry dispergovaných látok",
+          "od teploty"
+        ],
+        "correct": [
+          1,
+          3
+        ]
+      },
+      {
+        "question": "O niacíne môžeme povedať:",
+        "answers": [
+          "jeho nedostatok spôsobuje ochorenie beri-beri",
+          "je súčasťou koenzýmov FAD a FMN",
+          "je súčasťou koenzýmov NAD+ a NADP+",
+          "môže byť syntetizovaný v organizme z tryptofánu"
+        ],
+        "correct": [
+          2,
+          3
+        ]
+      },
+      {
+        "question": "K významným tlmivým systémom krvi patrí:",
+        "answers": [
+          "octanový tlmivý systém",
+          "hemoglobínový tlmivý systém",
+          "fosforečnanový tlmivý systém",
+          "hydrogénuhličitanový tlmivý systém"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "question": "Koncentrácia látkového množstva látky B je:",
+        "answers": [
+          "látková koncentrácia",
+          "určená podielom látkového množstva rozpustenej látky n(B) a objemu roztoku (V)",
+          "počet mólov látky B v jednom dm3 roztoku",
+          "počet mólov látky B v 1000 ml rozpúšťadla"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "question": "O medi platí:",
+        "answers": [
+          "ovplyvňuje metabolizmus železa",
+          "podobne ako železo môže byť viazaná v strede porfyrínového kruhu",
+          "patrí medzi biogénne stopové prvky",
+          "zúčastňuje sa prenosu elektrónov v dýchacom reťazci"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "question": "Medzi hydroxy-aminokyseliny patrí:",
+        "answers": [
+          "serín",
+          "fenylalanín",
+          "cysteín",
+          "treonín"
+        ],
+        "correct": [
+          0,
+          3
+        ]
+      },
+      {
+        "question": "Glykozidová väzba vzniká reakciou medzi:",
+        "answers": [
+          "poloacetálovou –OH skupinou monosacharidu a –OH skupinou alkoholu",
+          "poloacetálovou –OH skupinou monosacharidu a –NH– skupinou heterocyklickej dusíkovej zásady",
+          "poloacetálovou –OH skupinou jedného monosacharidu a –OH skupinou iného sacharidu za vzniku hologlykozidu",
+          "hologlykozidom a heteroglykozidom"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "question": "O alkoholoch a fenoloch môžeme povedať:",
+        "answers": [
+          "fenoly sú silnejšie kyseliny ako alkoholy",
+          "alkoholy tvoria s kyselinami alkoxóniové soli",
+          "alkoholy tvoria s hydroxidmi alkoxóniové soli",
+          "alkoholy sú silnejšie kyseliny ako fenoly"
+        ],
+        "correct": [
+          0,
+          1
+        ]
+      },
+      {
+        "question": "Glykolipidy:",
+        "answers": [
+          "majú amfifilný charakter, na hydrofóbnu lipidovú zložku je glykozidovou väzbou naviazaná sacharidová zložka, ktorá predstavuje hydrofilnú časť molekuly",
+          "sú aj zlúčeniny odvodené od 1,2-diacylglycerolu, ktorý má v polohe C-3 glycerolu glykozidovou väzbou viazaný mono- alebo disacharid",
+          "v polárnej časti molekuly môžu mať viazanú ionizovanú kyselinu sírovú",
+          "vyskytujú sa viazané v lipoproteínových časticiach"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "question": "Ktorý z vitamínov je zložkou koenzýmov pre oxidačno-redukčné enzýmy:",
+        "answers": [
+          "tiamín",
+          "retinol",
+          "niacín",
+          "riboflavín"
+        ],
+        "correct": [
+          2,
+          3
+        ]
+      },
+      {
+        "question": "Redukciou ketóz vzniká:",
+        "answers": [
+          "viacsýtne alkoholy",
+          "urónová kyselina",
+          "nové centrum asymetrie",
+          "karboxylová kyselina"
+        ],
+        "correct": [
+          0,
+          2
+        ]
+      },
+      {
+        "question": "Kyselina mliečna:",
+        "answers": [
+          "má dva optické izoméry",
+          "dehydrogenáciou poskytuje kyselinu pyrohroznovú",
+          "je hydroxykarboxylová kyselina",
+          "oxidáciou poskytuje kyselinu pyrohroznovú"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "question": "O glykokonjugátoch môžeme povedať:",
+        "answers": [
+          "sú zložené zo sacharidovej a nesacharidovej zložky",
+          "patria k nim proteoglykány",
+          "patria k nim glykolipidy",
+          "sú to homopolysacharidy zložené z galaktóz"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "question": "Zložené lipidy môžu byť:",
+        "answers": [
+          "zložené z ceramidu a monosacharidu",
+          "fosfolipidy a glykolipidy",
+          "zložené z glycerolu, troch molekúl vyšších karboxylových kyselín, kyseliny fosforečnej a etanolamínu",
+          "fosfolipidy s viazaným glycerolom alebo sfingozínom"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ]
+      },
+      {
+        "question": "Označte správne tvrdenie o steroidoch:",
+        "answers": [
+          "medzi steroidy patria žlčové farbivá",
+          "cyklopentanoperhydrofenantrén je základný uhľovodík, od ktorého sú odvodené všetky steroidy",
+          "základná látka, z ktorej sa odvodzujú mužské pohlavné hormóny (androgény) je cholán",
+          "medzi steroidy patria deriváty purínu, napr. kyselina močová"
+        ],
+        "correct": [
+          1,
+          2
+        ]
+      },
+      {
+        "question": "O primárnej a sekundárnej štruktúre bielkovín môžeme povedať:",
+        "answers": [
+          "sekundárna štruktúra môže mať formu skladaného listu alebo alfa-helixu",
+          "primárna štruktúra udáva aminokyselinové zloženie proteínu a poradie aminokyselín v peptidovom reťazci",
+          "primárnu štruktúru charakterizuje peptidová väzba",
+          "sekundárnu štruktúru stabilizujú hydrofóbne interakcie"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "question": "Enzýmy:",
+        "answers": [
+          "obsahujú v molekule aj nukleové kyseliny",
+          "zvyšujú aktivačnú energiu katalyzovanej reakcie",
+          "môžu byť syntetizované v neaktívnej forme",
+          "zvyšujú rýchlosť chemickej reakcie"
+        ],
+        "correct": [
+          2,
+          3
+        ]
+      },
+      {
+        "question": "Informáciu o poradí aminokyselín v reťazci bielkoviny majú bunky zakódovanú:",
+        "answers": [
+          "v poradí nukleotidov v tRNA",
+          "v primárnej štruktúre DNA",
+          "v DNA tak, že jeden nukleotid určuje jednu aminokyselinu",
+          "v poradí deoxyribonukleotidov v DNA"
+        ],
+        "correct": [
+          1,
+          3
+        ]
+      },
+      {
+        "question": "V nukleotide, ktorý je stavebnou jednotkou RNA sa nachádza viazaná:",
+        "answers": [
+          "ribóza, H3PO4 a heterocyklická zlúčenina obsahujúca síru",
+          "heterocyklická dusíková zásada priamo na kyselinu trihydrogenfosforečnú",
+          "napríklad dusíková zásada guanín s ribózou, na ktorú sa viaže kyselina trihydrogenfosforečná esterovou väzbou",
+          "napríklad dusíková zásada uracil, β-deoxyribofuranóza a H3PO4"
+        ],
+        "correct": [
+          2
+        ]
+      },
+      {
+        "question": "Tokoferol:",
+        "answers": [
+          "jeho hydrofóbny bočný reťazec umožňuje penetráciu tokoferolu do biologických membrán",
+          "po uplatnení svojej antioxidačnej funkcie je regenerovaný vitamínom C",
+          "vyskytuje sa len vo forme α-tokoferolu",
+          "inhibuje zrážanie krvných doštičiek"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ]
+      },
+      {
+        "question": "Pre nasledovnú reakciu Glukóza + ATP → Glukóza-6-fosfát + ADP rozhodni, ktoré z tvrdení sú správne:",
+        "answers": [
+          "reakcia je exergonická",
+          "enzým, katalyzujúci reakciu, patrí do skupiny oxido-reduktáz",
+          "reakcia môže prebiehať aj opačným smerom",
+          "enzým, katalyzujúci reakciu, je kináza"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ]
+      },
+      {
+        "question": "Po rozpustení CH3COONH4 v destilovanej vode bude vo vzniknutom roztoku:",
+        "answers": [
+          "prebiehať nezávislá hydrolýza na katióny aj anióny",
+          "hodnota pH blízka 7",
+          "prebiehať hydrolýza soli",
+          "hodnota pH < 7"
+        ],
+        "correct": [
+          1,
+          2
+        ]
+      },
+      {
+        "question": "Rýchlosť enzýmovej reakcie ovplyvňuje:",
+        "answers": [
+          "teplota a pH prostredia",
+          "aktivátor a inhibítor",
+          "sekundárna štruktúra enzýmu",
+          "koncentrácia enzýmu"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ]
+      },
+      {
+        "question": "Izomérne štruktúry sú:",
+        "answers": [
+          "kyselina citrónová a kyselina izocitrónová",
+          "kyselina jablčná a kyselina vínna",
+          "kyselina oxáloctová a kyselina jantárová",
+          "kyselina malónová a kyselina a fumarová"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Tyrozín:",
+        "answers": [
+          "má štruktúru (zobrazený vzorec: benzénové jadro –CH2–CH(NH2)–COOH)",
+          "je aminokyselina, ktorá vzniká hydroxyláciou fenylalanínu",
+          "je heterocyklická zlúčenina",
+          "je zásaditá aminokyselina"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Látka sa môže prejaviť ako kyselina a zásada:",
+        "answers": [
+          "v priebehu acidobázických reakcií",
+          "v priebehu neutralizačných reakcií",
+          "v priebehu eliminačných reakcií",
+          "v priebehu všetkých oxidačno-redukčných reakcií"
+        ],
+        "correct": [
+          0,
+          1
+        ]
+      },
+      {
+        "question": "Reakčné teplo premeny reaktantov na koncové produkty závisí od:",
+        "answers": [
+          "počiatočného a koncového stavu reakcie",
+          "konštanty stability medziproduktov reakcie",
+          "rýchlosti tvorby medziproduktov reakcie",
+          "spôsobu (mechanizmu), akým tento proces prebieha"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Špecifickosť enzýmov:",
+        "answers": [
+          "je podmienená presnými interakciami substrátu s enzýmom",
+          "znamená, že každý enzým katalyzuje len určitý typ chemickej reakcie",
+          "znamená, že jeden substrát môže byť premieňaný len jedným enzýmom",
+          "môže byť účinková, za ktorú zodpovedá apoenzým"
+        ],
+        "correct": [
+          0,
+          1
+        ]
+      },
+      {
+        "question": "Kyselina jantárová:",
+        "answers": [
+          "je hydroxykyselina",
+          "je trikarboxylová kyselina",
+          "vzniká oxidačnou dekarboxyláciou 2-oxoglutarátu",
+          "je dikarboxylová kyselina"
+        ],
+        "correct": [
+          3
+        ]
+      },
+      {
+        "question": "Najjednoduchšia dikarboxylová kyselina je:",
+        "answers": [
+          "kyselina etándiová",
+          "kyselina malónová",
+          "kyselina šťavelová",
+          "kyselina oxálová"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ]
+      },
+      {
+        "question": "O feritíne platí:",
+        "answers": [
+          "železo sa vo feritíne nachádza viazané v oxidačnom stupni III",
+          "je hlavný zásobný proteín pre železo",
+          "železo sa vo feritíne nachádza viazané v oxidačnom stupni II",
+          "je hlavný transportný proteín pre železo"
+        ],
+        "correct": [
+          0,
+          1
+        ]
+      },
+      {
+        "question": "Označte redukujúci sacharid:",
+        "answers": [
+          "sacharóza",
+          "glukóza",
+          "celobióza",
+          "laktóza"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "question": "Z uvedených zlúčenín vyberte tie, v ktorých sú atómy prvkov viazané polárnou kovalentnou väzbou:",
+        "answers": [
+          "O₂",
+          "Br₂",
+          "HCl",
+          "H₂O"
+        ],
+        "correct": [
+          2,
+          3
+        ]
+      },
+      {
+        "question": "Vitamíny:",
+        "answers": [
+          "riboflavín, niacín a pyridoxín potrebujú na svoje vstrebávanie správnu činnosť pečene, žlčníka a vstrebávanie tukov",
+          "ako napr. kyselina lipoová a pantoténová sú dobre rozpustné vo vode",
+          "B1 a A nemusia byť dodávané potravou; ich tvorba v čreve je dostatočná",
+          "napomáhajú pri získavaní energie zo štiepenia nukleových kyselín"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Osmóza:",
+        "answers": [
+          "je prechod molekúl rozpúšťadla cez semipermeabilnú membránu z roztoku s nižšou koncentráciou do roztoku s vyššou koncentráciou rozpustenej látky",
+          "je vlastnosťou systému tvoreného rozpúšťadlom a roztokmi oddelenými semipermeabilnou membránou",
+          "nastane, keď sú dva roztoky NaCl s rôznou koncentráciou oddelené semipermeabilnou membránou",
+          "nie je ovplyvnená koncentračným gradientom"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "question": "Sfingozín:",
+        "answers": [
+          "má vzorec: CH3–(CH2)12–CH=CH–CH(OH)–CH(NH2)–CH2NH2",
+          "má vzorec: CH3–(CH2)12–CH=CH–CH(OH)–CH(NH2)–CH2OH",
+          "je nenasýtený alkohol s 18 atómami uhlíka, jednou –NH2 a dvomi –OH skupinami",
+          "môže byť viazaný v cerebrozidoch a plazmalogénoch"
+        ],
+        "correct": [
+          1,
+          2
+        ]
+      },
+      {
+        "question": "O deoxyribonukleovej kyseline môžeme povedať:",
+        "answers": [
+          "jej teplotu topenia ovplyvňuje zastúpenie zásad v molekule, ich modifikácia a koncentrácia solí v roztoku",
+          "dve vlákna DNA sú paralelne usporiadané",
+          "je nositeľkou genetickej informácie",
+          "ak obsahuje viac G-C párov topí sa pri vyššej teplote než DNA, ktorá obsahuje viac A-T párov"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ]
+      },
+      {
+        "question": "O lipoproteínoch platí:",
+        "answers": [
+          "LDL transportujú cholesterol k bunkám periférnych tkanív",
+          "chylomikróny obsahujú najmä cholesterol",
+          "v lipidových zložkách neobsahujú nenasýtené mastné kyseliny, a preto nepodliehajú lipoperoxidácii",
+          "HDL majú antiaterogénny účinok"
+        ],
+        "correct": [
+          3
+        ]
+      },
+      {
+        "question": "Pri kompetitívnej inhibícii:",
+        "answers": [
+          "sa inhibítor viaže na substrát",
+          "sa inhibítor viaže na koenzým",
+          "má inhibítor podobnú štruktúru ako substrát",
+          "sa inhibítor viaže na aktívne centrum enzýmu"
+        ],
+        "correct": [
+          2,
+          3
+        ]
+      },
+      {
+        "question": "Interakcia enzýmu so substrátom sa vysvetľuje ako:",
+        "answers": [
+          "Fischerovej teória kľúča a zámky",
+          "Koshlandova teória \"induced-fit\" (teória indukovaného prispôsobenia)",
+          "väzby monosacharidov",
+          "väzby nukleotidov"
+        ],
+        "correct": [
+          0,
+          1
+        ]
+      },
+      {
+        "question": "Posun chemickej rovnováhy:",
+        "answers": [
+          "je daný dynamickým charakterom rovnovážneho stavu reakcie",
+          "možno dosiahnúť zmenou teploty",
+          "sa dosiahne zmenou koncentrácie reaktantov v reakčnej zmesi",
+          "môže byť vyvolaný prítomnosťou katalyzátorov"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "question": "Kyselina vínna:",
+        "answers": [
+          "je opticky aktívna látka",
+          "vzniká v metabolickom cykle trikarboxylových kyselín (Krebsovom cykle)",
+          "patrí medzi dihydroxydikarboxylové kyseliny",
+          "má tri optické izoméry"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ]
+      },
+      {
+        "question": "O preklade poradia nukleotidov z mRNA do poradia aminokyselín pri proteosyntéze môžeme povedať:",
+        "answers": [
+          "volá sa transaminácia",
+          "volá sa replikácia",
+          "proces sa volá translácia",
+          "zabezpečuje ho komplementarita kodónu a antikodónu"
+        ],
+        "correct": [
+          2,
+          3
+        ]
+      },
+      {
+        "question": "Horčík:",
+        "answers": [
+          "spolu s vápnikom sa nachádza v kostiach",
+          "je biogénny mikroelement",
+          "je kofaktorom kináz a fosfatáz",
+          "podieľa sa na prenose nervového vzruchu"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ]
+      },
+      {
+        "question": "Nukleofilné činidlo:",
+        "answers": [
+          "je napríklad H2O",
+          "je donorom elektrónov substrátu pri tvorbe väzby",
+          "je napríklad OH-",
+          "je akceptorom elektrónov zo substrátu pri tvorbe väzby"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "question": "Indukčný efekt:",
+        "answers": [
+          "znamená posun elektrónov s väzieb",
+          "znižuje reaktivitu molekuly",
+          "zvyšuje reaktivitu molekuly",
+          "môže byť kladný a záporný"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ]
+      },
+      {
+        "question": "Pravé roztoky môžu byť:",
+        "answers": [
+          "makromolekulové ako napr. roztok škrobu",
+          "roztoky elektrolytov",
+          "roztoky neelektrolytov",
+          "iónové a molekulové"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "question": "Peptidová väzba:",
+        "answers": [
+          "sa volá aj amidová väzba",
+          "sa tvorí medzi karboxylovou skupinou a aminoskupinou tej istej aminokyseliny",
+          "je väzba zložená z atómov -CO-NH-",
+          "spája aminokyseliny v bielkovinách"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ]
+      },
+      {
+        "question": "Acylpyrín:",
+        "answers": [
+          "je kyselina acetylsalicylová",
+          "v molekule má esterovú väzbu medzi –COOH skupinou a etanolom",
+          "patrí k aminofenolom",
+          "v molekule má esterovú väzbu medzi fenolovou skupinou a kyselinou octovou"
+        ],
+        "correct": [
+          0,
+          3
+        ]
+      },
+      {
+        "question": "Závislosť medzi rýchlosťou enzýmovej reakcie a koncentráciou substrátu vyjadruje:",
+        "answers": [
+          "rovnovážna konštanta",
+          "Michaelisova-Mentenovej rovnica",
+          "Lineweaverova-Bürkova rovnica",
+          "oxidačno-redukčný potenciál"
+        ],
+        "correct": [
+          1,
+          2
+        ]
+      },
+      {
+        "question": "O zložení bielkovín môžeme povedať:",
+        "answers": [
+          "ak sa molekula bielkoviny skladá z bielkovinovej časti a nebielkovinovej časti, hovoríme o heteroproteínoch",
+          "podľa zloženia hetero-zložky delíme heteroproteíny na: glykoproteíny, lipoproteíny, nukleové kyseliny, metaloglykozidy",
+          "ak sa molekula skladá len z peptidového reťazca, hovoríme o holoproteíne",
+          "heteroproteíny obsahujú rôzne nebielkovinové zložky viazané k bielkovinovej časti výlučne disulfidovou väzbou"
+        ],
+        "correct": [
+          0,
+          2
+        ]
+      },
+      {
+        "question": "K substitučným derivátom karboxylových kyselín patria:",
+        "answers": [
+          "hydroxykyseliny",
+          "ketokyseliny",
+          "chloridy kyselín",
+          "anhydridy kyselín"
+        ],
+        "correct": [
+          0,
+          1
+        ]
+      },
+      {
+        "question": "K reaktívnym metabolitom kyslíka patrí:",
+        "answers": [
+          "H2O2",
+          "CO",
+          "NO",
+          "H2O"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Izoenzýmy:",
+        "answers": [
+          "majú rôznu primárnu štruktúru a katalyzujú rôzne reakcie",
+          "majú rôznu primárnu štruktúru, ale katalyzujú rovnaký typ reakcií",
+          "majú rovnakú primárnu štruktúru, ale katalyzujú rôzne reakcie",
+          "sú pojmom na označenie enzýmu a koenzýmu"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Antioxidačné účinky môže mať:",
+        "answers": [
+          "vitamín B12",
+          "vitamín C",
+          "vitamín E",
+          "β-karotén"
+        ],
+        "correct": [
+          1,
+          2
+        ]
+      },
+      {
+        "question": "Molekula peroxidu vodíka môže podliehať:",
+        "answers": [
+          "oxidačným zmenám za tvorby O₂",
+          "štruktúrnym zmenám za tvorby radikálu ·OH",
+          "štruktúrnym zmenám za tvorby superoxidu",
+          "redukčným zmenám za tvorby H₂O"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "question": "Kyselina izocitrónová:",
+        "answers": [
+          "existuje v dvoch opticky aktívnych izomérnych formách",
+          "je dikarboxylová kyselina",
+          "dehydrogenáciou poskytuje kyselinu 2-oxoglutárovú",
+          "je trikarboxylová kyselina"
+        ],
+        "correct": [
+          0,
+          3
+        ]
+      },
+      {
+        "question": "Fosfatidylkolamíny:",
+        "answers": [
+          "sú zložené z ceramidu a kolamínu",
+          "sú zložené z glycerolu, 2 molekúl vyššej karboxylovej kyseliny, H3PO4 a H2N–CH2–CH2–OH",
+          "v molekule majú medzi jednotlivými zložkami esterové väzby",
+          "sú zložené z glycerolu, 2 molekúl napr. kyseliny propiónovej, H3PO4 a etanolamínu"
+        ],
+        "correct": [
+          1,
+          2
+        ]
+      },
+      {
+        "question": "Keď sa v priebehu enzýmovej reakcie hromadí produkt, reakcia sa spomaľuje. Tento proces sa... [koniec otázky nečitateľný - prekrytý odleskom]",
+        "answers": [
+          "izosterická regulácia",
+          "kompetitívna inhibícia",
+          "feedback inhibícia",
+          "nekompetitívna inhibícia"
+        ],
+        "correct": [
+          2
+        ]
+      },
+      {
+        "question": "Tlmivá schopnosť proteínov je daná:",
+        "answers": [
+          "schopnosťou ionizácie voľných –COOH skupín",
+          "schopnosťou protonizácie voľných –NH2 skupín",
+          "amfolytickým charakterom stavebných jednotiek niektorých aminokyselín",
+          "prítomnosťou peptidových väzieb"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "question": "Autoprotolýza vody:",
+        "answers": [
+          "nevyplýva z amfotérnych vlastností vody",
+          "určuje rozsah rovnovážnej koncentrácie iónov H₃O⁺ a OH⁻ vo vodnom prostredí",
+          "kvantitatívne je vyjadrená hodnotou iónového súčinu vody",
+          "vyplýva z amfotérnych vlastností vody"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "question": "Rovnovážny stav chemických a biochemických reakcií ovplyvňuje:",
+        "answers": [
+          "teplota",
+          "veľkosť aktivačnej energie",
+          "zmena koncentrácie reaktantov",
+          "prítomnosť katalyzátora"
+        ],
+        "correct": [
+          0,
+          2
+        ]
+      },
+      {
+        "question": "O glutatióne môžeme povedať:",
+        "answers": [
+          "nezasahuje do redoxného stavu buniek",
+          "skladá sa z troch aminokyselín: kys. glutámová, cysteín, glycín",
+          "skladá sa z troch aminokyselín: kys. glutámová, cysteín, alanín",
+          "v oxidovanej forme sa označuje ako GSSG"
+        ],
+        "correct": [
+          1,
+          3
+        ]
+      },
+      {
+        "question": "Zlúčenina vzorca HOOC-CO-CH2-COOH:",
+        "answers": [
+          "hydrogenáciou poskytuje kyselinu mliečnu",
+          "je kyselina oxáloctová",
+          "hydrogenáciou poskytuje kyselinu jablčnú",
+          "je kyselina pyrohroznová"
+        ],
+        "correct": [
+          1,
+          2
+        ]
+      },
+      {
+        "question": "O triacylglyceroloch môžeme povedať:",
+        "answers": [
+          "sú to hydrolyzovateľné jednoduché lipidy, ktoré sa môžu v prítomnosti kyseliny, zásady alebo tráviaceho enzýmu štiepiť na dve alebo viac zložiek",
+          "sú to estery glycerolu a troch molekúl vyšších karboxylových kyselín s počtom atómov uhlíka 12 a viac",
+          "nie sú zdrojom energie, slúžia ako zásobná látka v adipocytoch",
+          "sú to estery glycerolu a trikarboxylovej kyseliny"
+        ],
+        "correct": [
+          0,
+          1
+        ]
+      },
+      {
+        "question": "O lipidoch možno tvrdiť, že:",
+        "answers": [
+          "vo forme fosfolipidov zabezpečujú transport prakticky všetkých lipidov v organizme",
+          "sa delia na jednoduché, zložené a odvodené",
+          "jednoduché lipidy sú po chemickej stránke estery alkoholu a vyšších karboxylových kyselín",
+          "hlavným zdrojom energie v organizme sú zložené lipidy"
+        ],
+        "correct": [
+          1,
+          2
+        ]
+      },
+      {
+        "question": "Draslík:",
+        "answers": [
+          "je významný intracelulárny katión",
+          "patrí medzi stále sekundárne biogénne makroelementy",
+          "je významný extracelulárny katión",
+          "patrí medzi stále primárne biogénne makroelementy"
+        ],
+        "correct": [
+          0,
+          1
+        ]
+      },
+      {
+        "question": "O toxických prvkoch a ich zlúčeninách platí:",
+        "answers": [
+          "toxicitu neovplyvňuje oxidačné číslo prvku v zlúčenine",
+          "môžu substituovať esenciálne kovové ióny v aktívnom centre enzýmov",
+          "Ba(NO3)2 je menej toxický ako BaSO4",
+          "organokovové zlúčeniny sú spravidla najmenej toxickou formou"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Lipidy v organizme môžu mať funkciu:",
+        "answers": [
+          "významného zdroja energie (predovšetkým triacylglyceroly)",
+          "druhých poslov v bunkovej signalizácii",
+          "nositeľa genetickej informácie",
+          "rozpúšťadla vitamínov A, B1, C, B6 a iných vo vode nerozpustných látok"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "O glykolipidoch platí:",
+        "answers": [
+          "glyceroglykolipidy môžu obsahovať v molekule galaktózu, viazanú esterovou väzbou",
+          "patria medzi heteroglykozidy",
+          "v ich štruktúre sa môže nachádzať ceramid",
+          "po odštiepení jednej molekuly vyššej karboxylovej kyseliny z nich vznikajú lyzolecitíny"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "question": "Reaktívne metabolity:",
+        "answers": [
+          "môžu spôsobiť poškodenie DNA",
+          "môžu spôsobiť peroxidáciu lipidov",
+          "stabilizujú bunkové membrány",
+          "majú výlučne negatívny účinok na organizmus"
+        ],
+        "correct": [
+          0,
+          1
+        ]
+      },
+      {
+        "question": "Limitovaná proteolýza:",
+        "answers": [
+          "aktivujú sa ňou tráviace enzýmy",
+          "je proteolytické štiepenie neaktívnej formy enzýmu",
+          "odštiepenie časti polypeptidového reťazca s nízkou molekulovou hmotnosťou",
+          "inhibuje sa ňou prístup substrátu k aktívnemu miestu enzýmu"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "question": "O polysacharidoch môžeme povedať:",
+        "answers": [
+          "patrí k nim napr. inzulín",
+          "škrob a glykogén sú látky zásobného charakteru",
+          "sú napr. celulóza a glykogén",
+          "majú len nerozvetvenú štruktúru"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "question": "Medzi dikarboxylové kyseliny patrí:",
+        "answers": [
+          "kyselina malónová",
+          "kyselina valérová",
+          "kyselina glutárová",
+          "kyselina maleínová"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ]
+      },
+      {
+        "question": "Michaelisova-Mentenovej konštanta:",
+        "answers": [
+          "je u všetkých enzýmov rovnaká",
+          "udáva koncentráciu enzýmu, pri ktorej enzýmová reakcia prebieha maximálnou rýchlosťou",
+          "sa označuje skratkou Mk",
+          "je základnou kinetickou veličinou pre dvojicu enzým-substrát"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "question": "O steroidoch platí:",
+        "answers": [
+          "soli žlčových kyselín majú veľkú hydrofóbnu časť (steroidný systém kruhov) a malé hydrofilné časti reprezentované iónom karboxylovej skupiny alebo zvyškom kyseliny sírovej",
+          "základná látka, od ktorej sa odvodzujú, je nenasýtený cyklický uhľovodík so štyrmi kruhmi",
+          "glukokortikoid kortizol má spolu s inzulínom úlohu v kontrole fyziologickej koncentrácie glukózy v krvi - podporuje glukoneogenézu a tvorbu glykogénu",
+          "jednotlivé základné uhľovodíky steroidov sú odvodené od steránu"
+        ],
+        "correct": [
+          2,
+          3
+        ]
+      }
+    ]
+  }
+]

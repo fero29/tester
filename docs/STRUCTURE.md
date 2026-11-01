@@ -31,7 +31,7 @@ tester/
 ├── static/                    JS a CSS
 ├── templates/                 HTML
 ├── tests/                     technické regresné kontroly
-├── testy/                     hotové používateľské testy; zachovať aj podadresáre
+├── testy/                     hotové používateľské testy v Gite (bez PDF); zachovať aj podadresáre
 ├── data/                      eventy a automatické zálohy
 ├── .local/                    oddelené lokálne testovanie
 ├── docs/
@@ -41,6 +41,7 @@ tester/
 │   └── test.json               ukážkový test
 ├── tools/
 │   ├── manage.sh               spustenie, stav a odstránenie nasadenia cez Compose
+│   ├── deploy.sh               nasadenie Git tagu na localhost a server
 │   ├── prepare_local.py        bežná príprava lokálneho prostredia
 │   ├── imports/               ručné extrakčné skripty aj ich JSON konfigurácie
 │   ├── out/                   pracovné výsledky, mimo Gitu
@@ -65,13 +66,13 @@ tester/
 | --- | --- | --- |
 | Kód aplikácie | tri Python moduly, `static/`, `templates/` | áno |
 | Technické kontroly | `tests/` | áno |
-| Používateľské testy | `testy/`, lokálne `.local/testy/`, LAN `.local/lan/testy/` | nie |
+| Používateľské testy | `testy/`; lokálne kópie `.local/testy/`, LAN `.local/lan/testy/` | `testy/` áno (bez PDF), kópie nie |
 | Eventy a automatické zálohy zápisov | `data/`, lokálne `.local/data/`, LAN `.local/lan/data/` | nie |
 | Nové podklady pred spracovaním a rozpracované úlohy | `work/` | iba README; obsah zálohovať samostatne |
 | PDF a fotografie | `sources/` | nie; samostatne zálohovať |
 | Historické testy z pôvodných záloh | `archive/` | áno; nie sú aktívny katalóg |
 | Ručné extrakcie a ich pravidlá | `tools/imports/` | áno |
-| Správa nasadenia bez zmien konfigurácie hostiteľa | `tools/manage.sh` | áno |
+| Správa nasadenia bez zmien konfigurácie hostiteľa | `tools/manage.sh`, `tools/deploy.sh` | áno |
 | Vygenerované medzivýsledky | `tools/out/`, `tools/pages/` | nie |
 | Návody | `docs/`, úvodné informácie v README | áno |
 | Ukážkové vstupy | `examples/` | áno |

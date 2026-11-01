@@ -1,0 +1,4288 @@
+[
+  {
+    "title": "Biochémia 1 - Na zaradenie",
+    "description": "Otázky s nejasným týždenným zaradením alebo mimo explicitných cieľov plánu ZS 2026/2027. Najmä obličky, biosyntéza kreatínu, metabolizmus mastných kyselín a otázky s presahom medzi týždňami. Dôvody a možné týždne sú uvedené v JSON pri každej otázke. Odpovede zostali podľa zdrojového PDF.",
+    "questions": [
+      {
+        "question": "Redukciou butanolu vznikne:",
+        "answers": [
+          "sekundárny alkohol",
+          "1-butanol",
+          "primárny alkohol",
+          "butanón"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 25,
+          "questionNumber": 23,
+          "page": 4,
+          "endPage": 4,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            1,
+            8,
+            12
+          ],
+          "topicGroup": "nezaradene_chemicke_zaklady",
+          "reason": "Samostatná otázka zo štruktúrnej alebo organickej chémie; týždenný plán jej neurčuje jednoznačné miesto.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Redukciou butanónu vznikne:",
+        "answers": [
+          "butanal",
+          "sekundárny alkohol",
+          "butanol",
+          "primárny alkohol"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 38,
+          "questionNumber": 36,
+          "page": 6,
+          "endPage": 6,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            1,
+            8,
+            12
+          ],
+          "topicGroup": "nezaradene_chemicke_zaklady",
+          "reason": "Samostatná otázka zo štruktúrnej alebo organickej chémie; týždenný plán jej neurčuje jednoznačné miesto.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Kyselina linolová:",
+        "answers": [
+          "obsahuje 16 atómov uhlíka",
+          "obsahuje 3 násobné väzby",
+          "obsahuje 18 atómov uhlíka",
+          "patrí medzi nenasýtené karboxylové kyseliny"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 59,
+          "questionNumber": 59,
+          "page": 8,
+          "endPage": 8,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            1,
+            8,
+            12
+          ],
+          "topicGroup": "nezaradene_chemicke_zaklady",
+          "reason": "Samostatná otázka zo štruktúrnej alebo organickej chémie; týždenný plán jej neurčuje jednoznačné miesto.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Pyrimidínové a zároveň imidazolové jadro je súčasťou štruktúry:",
+        "answers": [
+          "guanidínu",
+          "aminokyseliny tryptofánu",
+          "purínu",
+          "adenínu"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 60,
+          "questionNumber": 60,
+          "page": 9,
+          "endPage": 9,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            1,
+            8,
+            12
+          ],
+          "topicGroup": "nezaradene_chemicke_zaklady",
+          "reason": "Samostatná otázka zo štruktúrnej alebo organickej chémie; týždenný plán jej neurčuje jednoznačné miesto.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Fosfoesterová väzba sa nachádza:",
+        "answers": [
+          "v glukóza-6-fosfáte",
+          "v 2,3-bisfosfoglyceráte",
+          "v ADP",
+          "vo fosfatidylcholíne"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 61,
+          "questionNumber": 61,
+          "page": 9,
+          "endPage": 9,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            1,
+            8,
+            12
+          ],
+          "topicGroup": "nezaradene_chemicke_zaklady",
+          "reason": "Samostatná otázka zo štruktúrnej alebo organickej chémie; týždenný plán jej neurčuje jednoznačné miesto.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Naviazaním kyseliny fosforečnej na glycerol vzniká:",
+        "answers": [
+          "karboxyesterová väzba",
+          "acylfosfátová väzba",
+          "fosfoesterová väzba",
+          "glyceraldehydfosfát"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 65,
+          "questionNumber": 65,
+          "page": 9,
+          "endPage": 9,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            1,
+            8,
+            12
+          ],
+          "topicGroup": "nezaradene_chemicke_zaklady",
+          "reason": "Samostatná otázka zo štruktúrnej alebo organickej chémie; týždenný plán jej neurčuje jednoznačné miesto.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Hydrochinón:",
+        "answers": [
+          "patrí medzi fenoly",
+          "je aromatický alkohol",
+          "obsahuje dve -OH skupiny",
+          "redukciou sa mení benzochinón"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 66,
+          "questionNumber": 66,
+          "page": 9,
+          "endPage": 9,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            1,
+            8,
+            12
+          ],
+          "topicGroup": "nezaradene_chemicke_zaklady",
+          "reason": "Samostatná otázka zo štruktúrnej alebo organickej chémie; týždenný plán jej neurčuje jednoznačné miesto.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Kyselina fosfatidová:",
+        "answers": [
+          "obsahuje fosfoesterovú väzbu",
+          "vzniká z dvojsýtneho alkoholu",
+          "obsahuje karboxyesterovú väzbu",
+          "vzniká z trojsýtneho alkoholu"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 68,
+          "questionNumber": 68,
+          "page": 10,
+          "endPage": 10,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            1,
+            8,
+            12
+          ],
+          "topicGroup": "nezaradene_chemicke_zaklady",
+          "reason": "Samostatná otázka zo štruktúrnej alebo organickej chémie; týždenný plán jej neurčuje jednoznačné miesto.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Pri hladovaní je hlavným zdrojom energie:",
+        "answers": [
+          "v pečeni glukóza",
+          "vo svale glukóza",
+          "vo svale VKK",
+          "v mozgu VKK"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 300,
+          "questionNumber": 300,
+          "page": 39,
+          "endPage": 39,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            5,
+            7,
+            8
+          ],
+          "topicGroup": "nezaradene_hladovanie",
+          "reason": "Otázka porovnáva energetické substráty pri hladovaní bez jednoznačného zamerania na glykogén, ketolátky alebo lipolýzu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Glukóza:",
+        "answers": [
+          "sa vstrebáva z GIT a venou portae sa dostáva do pečene",
+          "sa pri vysokých koncentráciach využíva na tvorbu tukov",
+          "je v bunkách zdrojom energie, pri jej úplnej oxidácii sa získa 12 ATP z jednej glukózy",
+          "sa v bunkách pečene a obličiek môže tvoriť z uhlíkov VKK"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 316,
+          "questionNumber": 316,
+          "page": 41,
+          "endPage": 41,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            4,
+            5,
+            6,
+            8
+          ],
+          "topicGroup": "nezaradene_glukoza_siroko",
+          "reason": "Otázka spája vstrebávanie, lipogenézu, energetiku a tvorbu glukózy bez jednoznačne hlavného týždenného cieľa.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Aktivácia karboxylových kyselín pred ich vstupom do β-oxidácie prebieha:",
+        "answers": [
+          "za prítomnosti ATP a HS-CoA",
+          "na vonkajšej mitochondriálnej membráne a v endoplazmatickom retikule",
+          "pri tvorbe enzým-acyladenylátového medziproduktu",
+          "platí všetko uvedené"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 372,
+          "questionNumber": 372,
+          "page": 49,
+          "endPage": 49,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            7,
+            8
+          ],
+          "topicGroup": "nezaradene_betaoxidacia",
+          "reason": "Podrobná aktivácia, transport, reakcie alebo energetika oxidácie mastných kyselín. Plán uvádza jej vzťah ku ketogenéze v 7. týždni, ale neurčuje jednoznačne týždeň pre tento samostatný rozsah.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Produktom reakcie katalyzovanej enzýmom tioláza môže byť:",
+        "answers": [
+          "β-hydroxybutyrát",
+          "acetyl-CoA",
+          "acyl-CoA",
+          "β-hydroxy-β-metylglutaryl-CoA"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 379,
+          "questionNumber": 379,
+          "page": 49,
+          "endPage": 50,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            7,
+            8
+          ],
+          "topicGroup": "nezaradene_betaoxidacia",
+          "reason": "Podrobná aktivácia, transport, reakcie alebo energetika oxidácie mastných kyselín. Plán uvádza jej vzťah ku ketogenéze v 7. týždni, ale neurčuje jednoznačne týždeň pre tento samostatný rozsah.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Na energetickom zisku oxidácie karboxylových kyselín sa podieľa:",
+        "answers": [
+          "oxidácia NADH",
+          "oxidácia FADH2",
+          "oxidácia acetyl-CoA v citrátovom cykle",
+          "β-oxidácia"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 380,
+          "questionNumber": 380,
+          "page": 50,
+          "endPage": 50,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            7,
+            8
+          ],
+          "topicGroup": "nezaradene_betaoxidacia",
+          "reason": "Podrobná aktivácia, transport, reakcie alebo energetika oxidácie mastných kyselín. Plán uvádza jej vzťah ku ketogenéze v 7. týždni, ale neurčuje jednoznačne týždeň pre tento samostatný rozsah.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Pri oxidácii karboxylových kyselín sa energia získava:",
+        "answers": [
+          "aktiváciou karboxylovej kyseliny",
+          "oxidáciou NADH",
+          "prostredníctvom β-oxidácie a citrátového cyklu",
+          "oxidáciou FADH2 a acetyl-CoA"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 394,
+          "questionNumber": 394,
+          "page": 51,
+          "endPage": 51,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            7,
+            8
+          ],
+          "topicGroup": "nezaradene_betaoxidacia",
+          "reason": "Podrobná aktivácia, transport, reakcie alebo energetika oxidácie mastných kyselín. Plán uvádza jej vzťah ku ketogenéze v 7. týždni, ale neurčuje jednoznačne týždeň pre tento samostatný rozsah.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Na transporte karboxylovej kyseliny do mitochondrie sa zúčastňuje:",
+        "answers": [
+          "citrát",
+          "karnitín",
+          "karnitíntranslokáza",
+          "acyl-CoA"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 396,
+          "questionNumber": 396,
+          "page": 52,
+          "endPage": 52,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            7,
+            8
+          ],
+          "topicGroup": "nezaradene_betaoxidacia",
+          "reason": "Podrobná aktivácia, transport, reakcie alebo energetika oxidácie mastných kyselín. Plán uvádza jej vzťah ku ketogenéze v 7. týždni, ale neurčuje jednoznačne týždeň pre tento samostatný rozsah.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Pri vyšetrovaní moču diagnostickými pásikmi sa hneď po namočení odčítava hodnota:",
+        "answers": [
+          "glukózy",
+          "pH",
+          "urobilinogénu",
+          "ketolátok"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 403,
+          "questionNumber": 403,
+          "page": 52,
+          "endPage": 53,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            6,
+            7,
+            11
+          ],
+          "topicGroup": "nezaradene_diagnosticky_pasik",
+          "reason": "Všeobecný postup vyšetrenia moču pásikom; v pláne nie je explicitne priradený k praktickému cvičeniu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Tioklastické štiepenie oxidovaného reťazca karboxylovej kyseliny je katalyzované:",
+        "answers": [
+          "β-ketotiolázou",
+          "tioesterázou",
+          "acyl-CoA-dehydratázou",
+          "enoyl-CoA-hydratázou"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 404,
+          "questionNumber": 404,
+          "page": 53,
+          "endPage": 53,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            7,
+            8
+          ],
+          "topicGroup": "nezaradene_betaoxidacia",
+          "reason": "Podrobná aktivácia, transport, reakcie alebo energetika oxidácie mastných kyselín. Plán uvádza jej vzťah ku ketogenéze v 7. týždni, ale neurčuje jednoznačne týždeň pre tento samostatný rozsah.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "β-oxidácia je:",
+        "answers": [
+          "jeden zo spôsobov krytia energetických požiadaviek bunky",
+          "katabolický proces štiepenia karboxylových kyselín na aktivovanú kyselinu octovú",
+          "zvýšená pri hladovaní",
+          "proces prebiehajúci v mitochondriách"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 412,
+          "questionNumber": 412,
+          "page": 54,
+          "endPage": 54,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            7,
+            8
+          ],
+          "topicGroup": "nezaradene_betaoxidacia",
+          "reason": "Podrobná aktivácia, transport, reakcie alebo energetika oxidácie mastných kyselín. Plán uvádza jej vzťah ku ketogenéze v 7. týždni, ale neurčuje jednoznačne týždeň pre tento samostatný rozsah.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "karnitínacyltransferáze I platí:",
+        "answers": [
+          "nachádza sa na vonkajšej strane vnútornej mitochondriovej membrány",
+          "ako substráty využíva acyl-CoA a karnitín",
+          "katalyzuje prenos zvyšku karboxylovej kyseliny na COOH skupinu karnitínu",
+          "jej inhibícia malonyl-CoA je dôležitá pre reguláciu oxidácie karboxylových kyselín"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 413,
+          "questionNumber": 413,
+          "page": 54,
+          "endPage": 54,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            7,
+            8
+          ],
+          "topicGroup": "nezaradene_betaoxidacia",
+          "reason": "Podrobná aktivácia, transport, reakcie alebo energetika oxidácie mastných kyselín. Plán uvádza jej vzťah ku ketogenéze v 7. týždni, ale neurčuje jednoznačne týždeň pre tento samostatný rozsah.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Vznik 3 ATP pri reoxidácii koenzýmu vytvoreného v β-oxidácii umožňuje:",
+        "answers": [
+          "reakcia katalyzovaná acyl-CoA dehydrogenázou",
+          "premena enoyl-CoA na β-hydroxyacyl-CoA",
+          "reakcia vzniku β-keto-acyl-CoA",
+          "reakcia, ktorá je charakteristická pre erytrocyty a tkanivo CNS"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 414,
+          "questionNumber": 414,
+          "page": 54,
+          "endPage": 54,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            7,
+            8
+          ],
+          "topicGroup": "nezaradene_betaoxidacia",
+          "reason": "Podrobná aktivácia, transport, reakcie alebo energetika oxidácie mastných kyselín. Plán uvádza jej vzťah ku ketogenéze v 7. týždni, ale neurčuje jednoznačne týždeň pre tento samostatný rozsah.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "ATP citrátlyáza a citrátsyntáza sa líšia tým, že:",
+        "answers": [
+          "ATP citrátlyáza sa zúčastňuje oxidácie VKK a citrátsyntáza ich syntézy",
+          "citrátsyntáza je potrebná pre syntézu VKK a priebeh Krebsovho cyklu, zatiaľčo ATP citrátlyáza len pre syntézu VKK",
+          "ATP citrátlyáza sa nachádza v cytosole bunky a citrátsyntáza v mitochondriách",
+          "citrátsyntáza je inhibovaná ATP a ATP-citrátlyáza vyžaduje ATP ako zdroj energie"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 415,
+          "questionNumber": 415,
+          "page": 54,
+          "endPage": 54,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            7,
+            8
+          ],
+          "topicGroup": "nezaradene_synteza_mk",
+          "reason": "Otázka skúša syntézu mastných kyselín a jej enzýmy; 8. týždeň výslovne uvádza syntézu TAG, nie samostatný rozsah syntézy mastných kyselín.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Reakcia vzniku malonyl-CoA:",
+        "answers": [
+          "je regulačným miestom syntézy VKK",
+          "je aktivovaná citrátom",
+          "je katalyzovaná enzýmom, ktorý je inhibovaný fosforyláciou v prítomnosti glukagónu",
+          "vyžaduje biotín ako koenzým"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 416,
+          "questionNumber": 416,
+          "page": 54,
+          "endPage": 54,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            7,
+            8
+          ],
+          "topicGroup": "nezaradene_synteza_mk",
+          "reason": "Otázka skúša syntézu mastných kyselín a jej enzýmy; 8. týždeň výslovne uvádza syntézu TAG, nie samostatný rozsah syntézy mastných kyselín.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Glukóza-6-P-fosfatáza:",
+        "answers": [
+          "je enzým prítomný len v pečeni",
+          "je enzým potrebný pre glukoneogenézu",
+          "je enzým, ktorý sa zúčastňuje degradácie glykogénu v pečeni",
+          "katalyzuje vznik voľnej glukózy a ATP"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 419,
+          "questionNumber": 419,
+          "page": 55,
+          "endPage": 55,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            5,
+            6
+          ],
+          "topicGroup": "nezaradene_g6pfosfataza",
+          "reason": "Otázka skúša rovnakou mierou glukoneogenézu aj pečeňovú glykogenolýzu bez dominantného procesu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "O aktivácii kyseliny palmitovej pri beta-oxidácii platí:",
+        "answers": [
+          "na aktiváciu sa spotrebuje energia 2 makroergických väzieb",
+          "medziproduktom aktivácie je látka s acylfosfátovou makroergickou väzbou",
+          "produkt reakcie sa prenáša z mitochondrie do cytosolu difúziou",
+          "produkt aktivácie sa prenáša z cytosolu do mitochondrie pomocou karnitínu"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 423,
+          "questionNumber": 423,
+          "page": 55,
+          "endPage": 55,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            7,
+            8
+          ],
+          "topicGroup": "nezaradene_betaoxidacia",
+          "reason": "Podrobná aktivácia, transport, reakcie alebo energetika oxidácie mastných kyselín. Plán uvádza jej vzťah ku ketogenéze v 7. týždni, ale neurčuje jednoznačne týždeň pre tento samostatný rozsah.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Syntéza malonyl CoA:",
+        "answers": [
+          "vyžaduje ako substráty acetyl-CoA a biotín",
+          "prebieha v cytosole bunky",
+          "je regulačné miesto degradácie karboxylových kyselín",
+          "vyžaduje ako koenzým vitamín B12"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 425,
+          "questionNumber": 425,
+          "page": 55,
+          "endPage": 56,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            7,
+            8
+          ],
+          "topicGroup": "nezaradene_synteza_mk",
+          "reason": "Otázka skúša syntézu mastných kyselín a jej enzýmy; 8. týždeň výslovne uvádza syntézu TAG, nie samostatný rozsah syntézy mastných kyselín.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Tioklastické štiepenie:",
+        "answers": [
+          "prebieha za katalýzy enzýmu betaketotiolázy",
+          "je proces, pri ktorom z ketoacylCoA vzniká aktívny acetát a acylCoA",
+          "umožňuje premenu acetoacetylCoA na dve molekuly látky vstupujúcej do KC",
+          "je v procese utilizácie ketolátok zabezpečené acetoacetylCoA – tiolázou"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 432,
+          "questionNumber": 432,
+          "page": 56,
+          "endPage": 56,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            7,
+            8
+          ],
+          "topicGroup": "nezaradene_betaoxidacia",
+          "reason": "Podrobná aktivácia, transport, reakcie alebo energetika oxidácie mastných kyselín. Plán uvádza jej vzťah ku ketogenéze v 7. týždni, ale neurčuje jednoznačne týždeň pre tento samostatný rozsah.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Enzýmy, ktoré sa zúčastňujú aktivácie karboxylových kyselín pri β-oxidácii môžu byť:",
+        "answers": [
+          "acyl-CoA transferáza",
+          "CoA transferáza v prípade karboxylových kyselín s krátkym reťazcom",
+          "oktanoyl-CoA syntáza lokalizovaná vo vnútornej mitochondriovej membráne",
+          "CoA-transferáza lokalizovaná v matrix mitochondrie"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 433,
+          "questionNumber": 433,
+          "page": 56,
+          "endPage": 57,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            7,
+            8
+          ],
+          "topicGroup": "nezaradene_betaoxidacia",
+          "reason": "Podrobná aktivácia, transport, reakcie alebo energetika oxidácie mastných kyselín. Plán uvádza jej vzťah ku ketogenéze v 7. týždni, ale neurčuje jednoznačne týždeň pre tento samostatný rozsah.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "V β-oxidácii dochádza k adícii vody v reakcii:",
+        "answers": [
+          "ktorej substrátom je cis-enoyl-CoA",
+          "v ktorej vzniká substrát pre β-hydroxyacyl-CoA dehydrogenázu",
+          "v ktorej vzniká látka, na premenu ktorej je potrebný ako koenzým FAD",
+          "ktorú katalyzuje enoláza"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 434,
+          "questionNumber": 434,
+          "page": 57,
+          "endPage": 57,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            7,
+            8
+          ],
+          "topicGroup": "nezaradene_betaoxidacia",
+          "reason": "Podrobná aktivácia, transport, reakcie alebo energetika oxidácie mastných kyselín. Plán uvádza jej vzťah ku ketogenéze v 7. týždni, ale neurčuje jednoznačne týždeň pre tento samostatný rozsah.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Úplná oxidácia kyseliny stearovej umožní:",
+        "answers": [
+          "celkove vznik 146 ATP",
+          "vznik 40 ATP pri oxidácii redukovaných koenzýmov tvorených v β-oxidácii",
+          "vznik 9 ATP substrátovou fosforyláciou pri oxidácii acetyl-CoA v Krebsovom cykle",
+          "vznik menej ATP než oxidácia kyseliny myristovej"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 435,
+          "questionNumber": 435,
+          "page": 57,
+          "endPage": 57,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            7,
+            8
+          ],
+          "topicGroup": "nezaradene_betaoxidacia",
+          "reason": "Podrobná aktivácia, transport, reakcie alebo energetika oxidácie mastných kyselín. Plán uvádza jej vzťah ku ketogenéze v 7. týždni, ale neurčuje jednoznačne týždeň pre tento samostatný rozsah.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Porovnaním β-oxidácie a syntézy VKK možno konštatovať:",
+        "answers": [
+          "obidva procesy sú lokalizované v tom istom kompartmente",
+          "líšia sa typom koenzýmu - β-oxidácia využíva NAD a FAD, syntéza VKK využíva NADPH2",
+          "regulačným enzýmom pre oba procesy je β-ketotioláza",
+          "obidva procesy sú aktivované inzulínom"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 436,
+          "questionNumber": 436,
+          "page": 57,
+          "endPage": 57,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            7,
+            8
+          ],
+          "topicGroup": "nezaradene_synteza_mk",
+          "reason": "Otázka skúša syntézu mastných kyselín a jej enzýmy; 8. týždeň výslovne uvádza syntézu TAG, nie samostatný rozsah syntézy mastných kyselín.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "O pôsobení hormónov na proces syntézy VKK platí:",
+        "answers": [
+          "glukagón priamo fosforyláciou inhibuje ATP-citrátlyázu",
+          "po pôsobení inzulínu dochádza k defosforylácii acetyl-CoA karboxylázy a tým k jej aktivácii",
+          "pôsobenie inzulínu zvyšuje priepustnosť bunkových membrán pre glukózu, čím sa zvyšuje ponuka NADPH2 a acetyl-CoA potrebných pre syntézu VKK",
+          "hormón, ktorý sa vyplavuje z α-buniek pankreasu počas hladovania vedie k fosforylácii acetyl-CoA karboxylázy a tým k jej inhibícii"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 437,
+          "questionNumber": 437,
+          "page": 57,
+          "endPage": 57,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            7,
+            8
+          ],
+          "topicGroup": "nezaradene_synteza_mk",
+          "reason": "Otázka skúša syntézu mastných kyselín a jej enzýmy; 8. týždeň výslovne uvádza syntézu TAG, nie samostatný rozsah syntézy mastných kyselín.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Tioklastické štiepenie:",
+        "answers": [
+          "prebieha za katalýzy enzýmu betaketotiolázy",
+          "v jeho priebehu dochádza k uvoľneniu koenzýmu A",
+          "je proces, v ktorom z ketoacylCoA vzniká aktívny acetát a acylCoA",
+          "vyžaduje prítomnosť HS CoA"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 438,
+          "questionNumber": 438,
+          "page": 57,
+          "endPage": 57,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            7,
+            8
+          ],
+          "topicGroup": "nezaradene_betaoxidacia",
+          "reason": "Podrobná aktivácia, transport, reakcie alebo energetika oxidácie mastných kyselín. Plán uvádza jej vzťah ku ketogenéze v 7. týždni, ale neurčuje jednoznačne týždeň pre tento samostatný rozsah.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Syntáza VKK:",
+        "answers": [
+          "je multienzýmový komplex lokalizovaný v cytosole bunky",
+          "pozostáva zo štyroch katalytických podjednotiek",
+          "syntetizuje VKK s maximálnou dĺžkou reťazca 18 uhlíkov",
+          "ako hlavný regulačný enzým syntézy VKK je aktivovaná inzulínom"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 444,
+          "questionNumber": 444,
+          "page": 58,
+          "endPage": 58,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            7,
+            8
+          ],
+          "topicGroup": "nezaradene_synteza_mk",
+          "reason": "Otázka skúša syntézu mastných kyselín a jej enzýmy; 8. týždeň výslovne uvádza syntézu TAG, nie samostatný rozsah syntézy mastných kyselín.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Keď sa aktivuje kyselina palmitová pri β-oxidácii:",
+        "answers": [
+          "ako substráty sú potrebné C?? karboxylová kyselina, ATP a CoA",
+          "spotrebuje sa energia 1 makroergickej väzby",
+          "vzniká ako medziprodukt látka s obsahom makroergickej difosfátovej väzby",
+          "produkt aktivácie - palmitoyl-CoA je transportovaný do mitochondrie difúziou"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 448,
+          "questionNumber": 448,
+          "page": 59,
+          "endPage": 59,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            7,
+            8
+          ],
+          "topicGroup": "nezaradene_betaoxidacia",
+          "reason": "Podrobná aktivácia, transport, reakcie alebo energetika oxidácie mastných kyselín. Plán uvádza jej vzťah ku ketogenéze v 7. týždni, ale neurčuje jednoznačne týždeň pre tento samostatný rozsah.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Prenos aktivovanej karboxylovej kyseliny do matrix mitochondrie zabezpečuje:",
+        "answers": [
+          "karnitín",
+          "látka, na ktorej syntézu sa využíva lyzín a metionín",
+          "látka, na ktorú sa karboxylová kyselina viaže pôsobením enzýmu karnitínacyltransferázy I",
+          "látka, ktorá je dôležitá pre tvorbu energie napr. v myokarde"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 449,
+          "questionNumber": 449,
+          "page": 59,
+          "endPage": 59,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            7,
+            8
+          ],
+          "topicGroup": "nezaradene_betaoxidacia",
+          "reason": "Podrobná aktivácia, transport, reakcie alebo energetika oxidácie mastných kyselín. Plán uvádza jej vzťah ku ketogenéze v 7. týždni, ale neurčuje jednoznačne týždeň pre tento samostatný rozsah.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Reakcia β-oxidácie, ktorej koenzým umožní vznik 2 ATP oxidatívnou fosforyláciou:",
+        "answers": [
+          "je reakcia premeny acyl-CoA na enoyl-CoA",
+          "využíva rovnaký koenzým ako sukcinátdehydrogenáza",
+          "je katalyzovaná enoyl-CoA hydratázou",
+          "je reakcia, pri ktorej vzniká substrát ketotiolázy"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 450,
+          "questionNumber": 450,
+          "page": 59,
+          "endPage": 59,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            7,
+            8
+          ],
+          "topicGroup": "nezaradene_betaoxidacia",
+          "reason": "Podrobná aktivácia, transport, reakcie alebo energetika oxidácie mastných kyselín. Plán uvádza jej vzťah ku ketogenéze v 7. týždni, ale neurčuje jednoznačne týždeň pre tento samostatný rozsah.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Aktivovaná karboxylová kyselina sa do mitochondrie prenáša:",
+        "answers": [
+          "aktívnym transportom",
+          "využitím karnitínacyltransferázy I na vonkajšej strane vnútornej mitochondriovej membrány",
+          "využitím karnitínacyltransferázy II na vnútornej strane vnútornej mitochondriovej membrány",
+          "pomocou CoA"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 456,
+          "questionNumber": 456,
+          "page": 60,
+          "endPage": 60,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            7,
+            8
+          ],
+          "topicGroup": "nezaradene_betaoxidacia",
+          "reason": "Podrobná aktivácia, transport, reakcie alebo energetika oxidácie mastných kyselín. Plán uvádza jej vzťah ku ketogenéze v 7. týždni, ale neurčuje jednoznačne týždeň pre tento samostatný rozsah.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Pri oxidácii kyseliny palmitovej v procese β-oxidácie:",
+        "answers": [
+          "cyklus β-oxidácie prebehne 7 krát",
+          "sa vytvára 7 NADH+H+, 7 FADH2 a 8 acetyl-CoA",
+          "oxidáciou vytvoreného acetyl-CoA v Krebsovom cykle vzniká 88 ATP",
+          "sa na celkovom energetickom zisku podieľa aj substrátová fosforylácia"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 457,
+          "questionNumber": 457,
+          "page": 60,
+          "endPage": 60,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            7,
+            8
+          ],
+          "topicGroup": "nezaradene_betaoxidacia",
+          "reason": "Podrobná aktivácia, transport, reakcie alebo energetika oxidácie mastných kyselín. Plán uvádza jej vzťah ku ketogenéze v 7. týždni, ale neurčuje jednoznačne týždeň pre tento samostatný rozsah.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Počas dlhodobého hladovania dochádza v sére k zmenám:",
+        "answers": [
+          "stúpa glugagón",
+          "klesajú ketolátky",
+          "KK sa zvyšujú aktiváciou hormónsenzitívnej lipázy",
+          "glykémia vo fyziologických hodnotách"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 463,
+          "questionNumber": 463,
+          "page": 61,
+          "endPage": 61,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "topicGroup": "nezaradene_hladovanie_dalsie",
+          "reason": "Súhrnné zmeny pri dlhodobom hladovaní zahŕňajú hormóny, glykémiu, lipolýzu aj ketolátky; hlavný týždeň nie je jednoznačný.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Pri nedostatku glukózy nemôžu využívať KK ako zdroj energie:",
+        "answers": [
+          "erytrocyty",
+          "tkanivo CNS",
+          "pečeň",
+          "sval"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 464,
+          "questionNumber": 464,
+          "page": 61,
+          "endPage": 61,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            7,
+            8
+          ],
+          "topicGroup": "nezaradene_betaoxidacia",
+          "reason": "Podrobná aktivácia, transport, reakcie alebo energetika oxidácie mastných kyselín. Plán uvádza jej vzťah ku ketogenéze v 7. týždni, ale neurčuje jednoznačne týždeň pre tento samostatný rozsah.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Po aktiváciu KK vstupuje do β-oxidácie:",
+        "answers": [
+          "acyladenylát",
+          "aminoacyladenylát",
+          "aminoacyl",
+          "acylCoA"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 468,
+          "questionNumber": 468,
+          "page": 61,
+          "endPage": 61,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            7,
+            8
+          ],
+          "topicGroup": "nezaradene_betaoxidacia",
+          "reason": "Podrobná aktivácia, transport, reakcie alebo energetika oxidácie mastných kyselín. Plán uvádza jej vzťah ku ketogenéze v 7. týždni, ale neurčuje jednoznačne týždeň pre tento samostatný rozsah.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Medzi jednoduché lipidy nepatrí:",
+        "answers": [
+          "cholesterol",
+          "TAG",
+          "fosfolipidy",
+          "cerebrozidy"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 496,
+          "questionNumber": 496,
+          "page": 65,
+          "endPage": 65,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            8,
+            9
+          ],
+          "topicGroup": "nezaradene_lipidove_zaklady",
+          "reason": "Všeobecné chemické členenie lipidov, široká syntéza lipidov alebo ich trávenie nemajú v pláne jednoznačný týždeň.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Syntéza VKK:",
+        "answers": [
+          "vyžaduje pri oxido-redukčných reakciách koenzým NAD+/NADH2",
+          "je aktivovaná inzulínom",
+          "miestom jej regulácie je aktivita acetyl-CoA-karboxylázy",
+          "začína naviazaním acetyl-CoA a malonyl-CoA na syntázu VKK"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 497,
+          "questionNumber": 497,
+          "page": 65,
+          "endPage": 65,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            7,
+            8
+          ],
+          "topicGroup": "nezaradene_synteza_mk_dalsie",
+          "reason": "Samostatná syntéza mastných kyselín a regulácia acetyl-CoA karboxylázy nie sú explicitne zaradené; plán 8. týždňa uvádza syntézu TAG.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "β-oxidácia:",
+        "answers": [
+          "prebieha v mitochondriách",
+          "prebieha v cytoplazme",
+          "glukagón ju znižuje",
+          "inzulín ju zvyšuje"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 505,
+          "questionNumber": 505,
+          "page": 66,
+          "endPage": 66,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            7,
+            8
+          ],
+          "topicGroup": "nezaradene_betaoxidacia_dalsie",
+          "reason": "Samostatné detaily oxidácie a aktivácie mastných kyselín nemajú v týždenných cieľoch jednoznačne určený týždeň.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Medzi zložené lipidy patria:",
+        "answers": [
+          "cholesterol",
+          "triacylglycerol",
+          "fosfolipidy",
+          "sfingozín"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 508,
+          "questionNumber": 508,
+          "page": 67,
+          "endPage": 67,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            8,
+            9
+          ],
+          "topicGroup": "nezaradene_lipidove_zaklady",
+          "reason": "Všeobecné chemické členenie lipidov, široká syntéza lipidov alebo ich trávenie nemajú v pláne jednoznačný týždeň.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Medzi jednoduché lipidy patrí:",
+        "answers": [
+          "kyselina palmitová",
+          "kyselina fosfatidová",
+          "cholesterol",
+          "inozitolfosfatidy"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 513,
+          "questionNumber": 513,
+          "page": 67,
+          "endPage": 67,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            8,
+            9
+          ],
+          "topicGroup": "nezaradene_lipidove_zaklady",
+          "reason": "Všeobecné chemické členenie lipidov, široká syntéza lipidov alebo ich trávenie nemajú v pláne jednoznačný týždeň.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Pre aktivitu acetyl-CoA karboxylázy platí:",
+        "answers": [
+          "jej substrátovým aktivátorom môže byť citrát",
+          "je potrebná pre β-oxidáciu VKK",
+          "jej aktivitu zvyšuje glukagón",
+          "fosforylovaná je neaktívna"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 515,
+          "questionNumber": 515,
+          "page": 68,
+          "endPage": 68,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            7,
+            8
+          ],
+          "topicGroup": "nezaradene_synteza_mk_dalsie",
+          "reason": "Samostatná syntéza mastných kyselín a regulácia acetyl-CoA karboxylázy nie sú explicitne zaradené; plán 8. týždňa uvádza syntézu TAG.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Syntéza VKK:",
+        "answers": [
+          "prebieha v mitochondriách",
+          "prebieha v cytoplazme",
+          "glukagón ju zvyšuje",
+          "inzulín ju znižuje"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 516,
+          "questionNumber": 516,
+          "page": 68,
+          "endPage": 68,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            7,
+            8
+          ],
+          "topicGroup": "nezaradene_synteza_mk_dalsie",
+          "reason": "Samostatná syntéza mastných kyselín a regulácia acetyl-CoA karboxylázy nie sú explicitne zaradené; plán 8. týždňa uvádza syntézu TAG.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "K medziproduktom syntézy lipidov patrí:",
+        "answers": [
+          "kyselina fosfatidová",
+          "kyselina cholová",
+          "sfingozín",
+          "karnitín"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 522,
+          "questionNumber": 522,
+          "page": 68,
+          "endPage": 68,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            8,
+            9
+          ],
+          "topicGroup": "nezaradene_lipidove_zaklady",
+          "reason": "Všeobecné chemické členenie lipidov, široká syntéza lipidov alebo ich trávenie nemajú v pláne jednoznačný týždeň.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "β-oxidácia:",
+        "answers": [
+          "je proces prebiehajúci v cytoplazme všetkých buniek",
+          "jedným z jej produktov je malonyl-CoA",
+          "je cyklus zahrňujúci proces hydratácie",
+          "jej vysoká aktivita je hlavne v srdci a kostrovom svale"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 525,
+          "questionNumber": 525,
+          "page": 69,
+          "endPage": 69,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            7,
+            8
+          ],
+          "topicGroup": "nezaradene_betaoxidacia_dalsie",
+          "reason": "Samostatné detaily oxidácie a aktivácie mastných kyselín nemajú v týždenných cieľoch jednoznačne určený týždeň.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Medzi zložené lipidy nepatria:",
+        "answers": [
+          "cholesterol",
+          "sfingozín",
+          "cerebrozidy",
+          "triacylglyceroly"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 541,
+          "questionNumber": 541,
+          "page": 71,
+          "endPage": 71,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            8,
+            9
+          ],
+          "topicGroup": "nezaradene_lipidove_zaklady",
+          "reason": "Všeobecné chemické členenie lipidov, široká syntéza lipidov alebo ich trávenie nemajú v pláne jednoznačný týždeň.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Na energetickom zisku z oxidácie karboxylových kyselín sa podieľa:",
+        "answers": [
+          "oxidácia acetyl-CoA v citrátovom cykle",
+          "oxidácia redukovaného NAD v dýchacom reťazci",
+          "beta-oxidácia karboxylových kyselín",
+          "proces katalyzovaný pyruvátdehydrogenázovým komplexom"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 553,
+          "questionNumber": 553,
+          "page": 72,
+          "endPage": 72,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            7,
+            8
+          ],
+          "topicGroup": "nezaradene_betaoxidacia_dalsie",
+          "reason": "Samostatné detaily oxidácie a aktivácie mastných kyselín nemajú v týždenných cieľoch jednoznačne určený týždeň.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Acyl-CoA syntáza:",
+        "answers": [
+          "je enzým oxidácie karboxylových kyselín",
+          "sa využíva pri aktivácii karboxylových kyselín",
+          "zúčastňuje sa premeny karboxylovej kyseliny na acyl-CoA",
+          "je enzým syntézy VKK"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 554,
+          "questionNumber": 554,
+          "page": 72,
+          "endPage": 73,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            7,
+            8
+          ],
+          "topicGroup": "nezaradene_betaoxidacia_dalsie",
+          "reason": "Samostatné detaily oxidácie a aktivácie mastných kyselín nemajú v týždenných cieľoch jednoznačne určený týždeň.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Pri ťažkom funkčnom defekte obličiek:",
+        "answers": [
+          "je hodnota klírens kreatinínu 120 ml/24 hodín",
+          "je hodnota klírens kreatinínu 30 ml/min",
+          "hodnota klírens stúpa",
+          "hodnota klírens klesá"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 556,
+          "questionNumber": 556,
+          "page": 73,
+          "endPage": 73,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            11
+          ],
+          "topicGroup": "nezaradene_oblicky",
+          "reason": "Otázka skúša klírens, glomerulárnu filtráciu alebo vylučovanie kreatinínu; plán nemá samostatný týždeň vyšetrenia funkcie obličiek.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Donorom metylovej skupiny pri syntéze kreatínu je:",
+        "answers": [
+          "metionín",
+          "cysteín",
+          "S-adenozylmetionín",
+          "metylovaný guanidínacetát"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 558,
+          "questionNumber": 558,
+          "page": 73,
+          "endPage": 73,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            1,
+            10
+          ],
+          "topicGroup": "nezaradene_synteza_kreatinu",
+          "reason": "Detailná biosyntéza kreatínu a guanidínacetátu nie je v pláne výslovne priradená; presahuje makroergické zlúčeniny aj všeobecné ciele metabolizmu aminokyselín.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Aktivácia karboxylovej kyseliny pred vstupom do beta-oxidácie:",
+        "answers": [
+          "vyžaduje prítomnosť látky s fosfoanhydridovou makroergickou väzbou",
+          "je spojená s tvorbou enzým-aminoacyladenylátového medziproduktu",
+          "vzniká pri nej látka s tioesterovou makroergickou väzbou",
+          "je premena karboxylovej kyseliny na acyl-CoA"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 560,
+          "questionNumber": 560,
+          "page": 73,
+          "endPage": 73,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            7,
+            8
+          ],
+          "topicGroup": "nezaradene_betaoxidacia_dalsie",
+          "reason": "Samostatné detaily oxidácie a aktivácie mastných kyselín nemajú v týždenných cieľoch jednoznačne určený týždeň.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Syntéza karboxylových kyselín:",
+        "answers": [
+          "prebieha v adipocytoch tukového tkaniva",
+          "ako substráty využíva acetyl-CoA a malonyl-CoA",
+          "fosforyláciou acetyl-CoA karboxylázy je znížená pri hladovaní",
+          "je lokalizovaná v mitochondriách"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 562,
+          "questionNumber": 562,
+          "page": 73,
+          "endPage": 74,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            7,
+            8
+          ],
+          "topicGroup": "nezaradene_synteza_mk_dalsie",
+          "reason": "Samostatná syntéza mastných kyselín a regulácia acetyl-CoA karboxylázy nie sú explicitne zaradené; plán 8. týždňa uvádza syntézu TAG.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Klírens udáva:",
+        "answers": [
+          "rýchlosť, s akou sa určité množstvo plazmy úplne zbaví určitej látky",
+          "množstvo plazmy, ktorá sa za časovú jednotku v obličkách očistí od sledovanej látky",
+          "množstvo odpadových produktov, ktorých sa plazma zbaví",
+          "množstvo produkovaného definitívneho moča za 24 hodín"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 564,
+          "questionNumber": 564,
+          "page": 74,
+          "endPage": 74,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            11
+          ],
+          "topicGroup": "nezaradene_oblicky",
+          "reason": "Otázka skúša klírens, glomerulárnu filtráciu alebo vylučovanie kreatinínu; plán nemá samostatný týždeň vyšetrenia funkcie obličiek.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Fyziologická hodnota klírens kreatinínu je:",
+        "answers": [
+          "125 ml/min",
+          "2 ml/s",
+          "2 ml/min",
+          "pri ochoreniach obličiek zvýšená"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 565,
+          "questionNumber": 565,
+          "page": 74,
+          "endPage": 74,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            11
+          ],
+          "topicGroup": "nezaradene_oblicky",
+          "reason": "Otázka skúša klírens, glomerulárnu filtráciu alebo vylučovanie kreatinínu; plán nemá samostatný týždeň vyšetrenia funkcie obličiek.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Na vylučovaní endogénneho kreatinínu sa podieľa:",
+        "answers": [
+          "tubulárna resorpcia",
+          "glomerulárna filtrácia",
+          "tubulárna exkrécia",
+          "všetky uvedené mechanizmy"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 566,
+          "questionNumber": 566,
+          "page": 74,
+          "endPage": 74,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            11
+          ],
+          "topicGroup": "nezaradene_oblicky",
+          "reason": "Otázka skúša klírens, glomerulárnu filtráciu alebo vylučovanie kreatinínu; plán nemá samostatný týždeň vyšetrenia funkcie obličiek.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Guanidínacetát je látká, ktorá:",
+        "answers": [
+          "vzniká z arginínu a ornitínu v obličke",
+          "sa metyluje v pečeni prostredníctvom S-adenozylmetionínu",
+          "vzniká za katalýzy arginínglycíntransamidinázy",
+          "sa transportuje z pečene krvou do obličky"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 567,
+          "questionNumber": 567,
+          "page": 74,
+          "endPage": 74,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            1,
+            10
+          ],
+          "topicGroup": "nezaradene_synteza_kreatinu",
+          "reason": "Detailná biosyntéza kreatínu a guanidínacetátu nie je v pláne výslovne priradená; presahuje makroergické zlúčeniny aj všeobecné ciele metabolizmu aminokyselín.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "O lipidoch prítomných v potrave možno povedať, že:",
+        "answers": [
+          "tvoria asi 40% denného energetického príjmu",
+          "v procese trávenia dochádza k ich premene na lipoproteíny",
+          "majú energeticky nižšiu hodnotu v porovnaní s cukrami",
+          "ich trávenie prebieha hlavne v žalúdku"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 568,
+          "questionNumber": 568,
+          "page": 74,
+          "endPage": 74,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            8,
+            9
+          ],
+          "topicGroup": "nezaradene_lipidove_zaklady",
+          "reason": "Všeobecné chemické členenie lipidov, široká syntéza lipidov alebo ich trávenie nemajú v pláne jednoznačný týždeň.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Primárny moč:",
+        "answers": [
+          "obsahuje nízkomolekulové zložky krvnej plazmy",
+          "obsahuje vysokomolekulové látky",
+          "neobsahuje kreatinín",
+          "obsahuje kreatínfosfát"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 572,
+          "questionNumber": 572,
+          "page": 75,
+          "endPage": 75,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            11
+          ],
+          "topicGroup": "nezaradene_oblicky_dalsie",
+          "reason": "Funkcia obličiek, tvorba moču, tubulárna resorpcia, kreatinín alebo jeho stanovenie nie sú v pláne samostatnou týždennou témou.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Len glomerulárnou filtráciou sa do moča vylučuje:",
+        "answers": [
+          "glukóza",
+          "endogénny kreatinín",
+          "inulín",
+          "metylovaný guanidínacetát"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 573,
+          "questionNumber": 573,
+          "page": 75,
+          "endPage": 75,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            11
+          ],
+          "topicGroup": "nezaradene_oblicky_dalsie",
+          "reason": "Funkcia obličiek, tvorba moču, tubulárna resorpcia, kreatinín alebo jeho stanovenie nie sú v pláne samostatnou týždennou témou.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Fyziologická funkcia obličiek v organizme zabezpečuje:",
+        "answers": [
+          "udržiavanie stability vnútorného prostredia",
+          "reguláciu množstva a vzájomného pomeru iónov",
+          "udržiavanie stáleho pH v organizme",
+          "vylučovanie odpadových látok z metabolizmu buniek"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 574,
+          "questionNumber": 574,
+          "page": 75,
+          "endPage": 75,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            11
+          ],
+          "topicGroup": "nezaradene_oblicky_dalsie",
+          "reason": "Funkcia obličiek, tvorba moču, tubulárna resorpcia, kreatinín alebo jeho stanovenie nie sú v pláne samostatnou týždennou témou.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Pre výpočet percenta spätnej tubulárnej resorpcie treba poznať:",
+        "answers": [
+          "diurézu",
+          "hladinu močoviny v sére",
+          "množstvo glomerulárneho filtrátu za 24 hodín",
+          "hladinu močoviny v moči"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 575,
+          "questionNumber": 575,
+          "page": 75,
+          "endPage": 75,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            11
+          ],
+          "topicGroup": "nezaradene_oblicky_dalsie",
+          "reason": "Funkcia obličiek, tvorba moču, tubulárna resorpcia, kreatinín alebo jeho stanovenie nie sú v pláne samostatnou týždennou témou.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Beta-oxidácia karboxylových kyselín:",
+        "answers": [
+          "môže prebiehať len za anaeróbnych podmienok",
+          "vyžaduje jej premenu na acyl-CoA",
+          "prebieha v mitochondriách",
+          "z hľadiska energetického zisku je pre bunku nevýznamná"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 578,
+          "questionNumber": 578,
+          "page": 76,
+          "endPage": 76,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            7,
+            8
+          ],
+          "topicGroup": "nezaradene_betaoxidacia_zaver",
+          "reason": "Samostatná oxidácia mastných kyselín; jej presný rozsah nie je jednoznačne rozdelený medzi ketolátky a metabolizmus tukového tkaniva.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Glomerulárnou filtráciou v obličke:",
+        "answers": [
+          "sa tvorí primárny moč",
+          "vzniká filtrát obsahujúci nízkomolekulové zložky plazmy",
+          "sa tvorí glomerulárny filtrát",
+          "vo fyziologických podmienkach sa nedostávajú bielkoviny do moča"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 580,
+          "questionNumber": 580,
+          "page": 76,
+          "endPage": 76,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            11
+          ],
+          "topicGroup": "nezaradene_oblicky_dalsie",
+          "reason": "Funkcia obličiek, tvorba moču, tubulárna resorpcia, kreatinín alebo jeho stanovenie nie sú v pláne samostatnou týždennou témou.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Hladina kreatinínu v sére je:",
+        "answers": [
+          "0-110 µmol/l",
+          "50-110 mmol/l",
+          "50-110 µmol/l",
+          "iná"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 581,
+          "questionNumber": 581,
+          "page": 76,
+          "endPage": 76,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            11
+          ],
+          "topicGroup": "nezaradene_oblicky_dalsie",
+          "reason": "Funkcia obličiek, tvorba moču, tubulárna resorpcia, kreatinín alebo jeho stanovenie nie sú v pláne samostatnou týždennou témou.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Pri úplnej oxidácii karboxylových kyselín sa energia získava:",
+        "answers": [
+          "pri aktivácii karboxylovej kyseliny",
+          "pomocou beta-oxidácie, terminálnej oxidácie a oxidačnej fosforylácie",
+          "oxidáciou redukovaných koenzýmov",
+          "počas premeny karboxylovej kyseliny na acyl-CoA"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 585,
+          "questionNumber": 585,
+          "page": 76,
+          "endPage": 76,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            7,
+            8
+          ],
+          "topicGroup": "nezaradene_betaoxidacia_zaver",
+          "reason": "Samostatná oxidácia mastných kyselín; jej presný rozsah nie je jednoznačne rozdelený medzi ketolátky a metabolizmus tukového tkaniva.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Z guanidínacetátu sa kreatín tvorí:",
+        "answers": [
+          "najmä v pečeni",
+          "najmä v obličke",
+          "metylačnou reakciou prostredníctvom S-adenozylmetionínu",
+          "za vzniku homocysteínu"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 588,
+          "questionNumber": 588,
+          "page": 77,
+          "endPage": 77,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            1,
+            10
+          ],
+          "topicGroup": "nezaradene_kreatin_dalsie",
+          "reason": "Otázka sa týka biosyntézy kreatínu/guanidínacetátu a jej orgánovej lokalizácie; explicitný týždeň v pláne chýba.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Medzi základné pochody v metabolizme dusíka v organizme patria:",
+        "answers": [
+          "uvoľňovanie amoniaku v deaminačných reakciách aminokyselín",
+          "fixácia uvoľneného amoniaku",
+          "transport vo forme glutamínu do pečene",
+          "tvorba močoviny a jej vylučovanie močom"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 589,
+          "questionNumber": 589,
+          "page": 77,
+          "endPage": 77,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            10,
+            11
+          ],
+          "topicGroup": "nezaradene_dusik_suhrn",
+          "reason": "Súhrnná otázka spája uvoľnenie, fixáciu a transport amoniaku s tvorbou a vylučovaním močoviny, teda ciele 10. aj 11. týždňa.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Klírens kreatinínu je parameter, ktorý:",
+        "answers": [
+          "poukazuje na funkčný stav obličiek",
+          "s vekom jeho hodnota stúpa",
+          "má fyziologickú hladinu 2 ml/s",
+          "má výpovednú hodnotu o kvalite glomerulárnej filtrácie"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 590,
+          "questionNumber": 590,
+          "page": 77,
+          "endPage": 77,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            11
+          ],
+          "topicGroup": "nezaradene_oblicky_dalsie",
+          "reason": "Funkcia obličiek, tvorba moču, tubulárna resorpcia, kreatinín alebo jeho stanovenie nie sú v pláne samostatnou týždennou témou.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Odpad kreatinínu močom:",
+        "answers": [
+          "je 7-20 µmol/24h",
+          "je 50-110 mmol/24h",
+          "je 7-20 mmol/24h",
+          "klesá pri zníženej filtračnej schopnosti obličiek"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 591,
+          "questionNumber": 591,
+          "page": 77,
+          "endPage": 77,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            11
+          ],
+          "topicGroup": "nezaradene_oblicky_dalsie",
+          "reason": "Funkcia obličiek, tvorba moču, tubulárna resorpcia, kreatinín alebo jeho stanovenie nie sú v pláne samostatnou týždennou témou.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Beta-oxidácia karboxylových kyselín:",
+        "answers": [
+          "je proces štiepenia acyl-CoA v mitochondriách",
+          "sa znižuje počas hladovania",
+          "je z aspektu ketogenézy bezvýznamná",
+          "využíva aktivovanú karboxylovú kyselinu"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 593,
+          "questionNumber": 593,
+          "page": 77,
+          "endPage": 77,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            7,
+            8
+          ],
+          "topicGroup": "nezaradene_betaoxidacia_zaver",
+          "reason": "Samostatná oxidácia mastných kyselín; jej presný rozsah nie je jednoznačne rozdelený medzi ketolátky a metabolizmus tukového tkaniva.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Z metabolických dráh je v obličke lokalizovaná:",
+        "answers": [
+          "syntéza guanidínacetátu",
+          "fosforylácia metylovaného guanidínacetátu",
+          "metylácia guanidínacetátu",
+          "fosforylácia kreatínu"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 596,
+          "questionNumber": 596,
+          "page": 78,
+          "endPage": 78,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            1,
+            10
+          ],
+          "topicGroup": "nezaradene_kreatin_dalsie",
+          "reason": "Otázka sa týka biosyntézy kreatínu/guanidínacetátu a jej orgánovej lokalizácie; explicitný týždeň v pláne chýba.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Množstvo kreatinínu vylúčeného močom sa zvyšuje pri:",
+        "answers": [
+          "hladovaní",
+          "horúčkovitých ochoreniach",
+          "zvýšenej svalovej práci",
+          "zníženej glomerulárnej filtrácii"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 598,
+          "questionNumber": 598,
+          "page": 78,
+          "endPage": 78,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            11
+          ],
+          "topicGroup": "nezaradene_oblicky_dalsie",
+          "reason": "Funkcia obličiek, tvorba moču, tubulárna resorpcia, kreatinín alebo jeho stanovenie nie sú v pláne samostatnou týždennou témou.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Obličky vytvoria za jednu minútu približne:",
+        "answers": [
+          "120 ml glomerulárneho filtrátu",
+          "120 ml definitívneho moča",
+          "120 ml primárneho moča",
+          "neplatí ani jedna z uvedených možností"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 604,
+          "questionNumber": 604,
+          "page": 79,
+          "endPage": 79,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            11
+          ],
+          "topicGroup": "nezaradene_oblicky_dalsie",
+          "reason": "Funkcia obličiek, tvorba moču, tubulárna resorpcia, kreatinín alebo jeho stanovenie nie sú v pláne samostatnou týždennou témou.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Spätná tubulárna resorpcia:",
+        "answers": [
+          "sa počíta pomocou rozdielu hodnôt glomerulárnej filtrácie za 24 hodín a diurézy",
+          "vyjadruje sa v percentách",
+          "má hodnotu 99,3-99,5%",
+          "má hodnotu 90-95% ,"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 606,
+          "questionNumber": 606,
+          "page": 79,
+          "endPage": 79,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            11
+          ],
+          "topicGroup": "nezaradene_oblicky_dalsie",
+          "reason": "Funkcia obličiek, tvorba moču, tubulárna resorpcia, kreatinín alebo jeho stanovenie nie sú v pláne samostatnou týždennou témou.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Na sledovanie filtračnej funkcie obličky môžeme využiť kreatinín, lebo:",
+        "answers": [
+          "jeho syntéza prebieha len v obličke",
+          "sa vylučuje len glomerulárnou filtráciou",
+          "v tubuloch sa spätne neresorbuje",
+          "v tubuloch sa vylučuje"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 607,
+          "questionNumber": 607,
+          "page": 79,
+          "endPage": 79,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            11
+          ],
+          "topicGroup": "nezaradene_oblicky_dalsie",
+          "reason": "Funkcia obličiek, tvorba moču, tubulárna resorpcia, kreatinín alebo jeho stanovenie nie sú v pláne samostatnou týždennou témou.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Biosyntéza karboxylových kyselín:",
+        "answers": [
+          "je subcelulárne lokalizovaná v mitochondriách",
+          "môže prebiehať v tukovom tkanive",
+          "jej regulačnú reakciu katalyzuje acetyl-CoA karboxyláza",
+          "vyžaduje viaceré enzýmové systémy"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 608,
+          "questionNumber": 608,
+          "page": 79,
+          "endPage": 79,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            7,
+            8
+          ],
+          "topicGroup": "nezaradene_synteza_mk_zaver",
+          "reason": "Samostatné enzýmy a lokalizácia syntézy mastných kyselín nemajú v pláne explicitné týždenné zaradenie.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Za 24 hodín sa v obličke vytvorí:",
+        "answers": [
+          "1500 ml glomerulárneho filtrátu",
+          "120 ml primárneho moču",
+          "180 l glomerulárneho filtrátu",
+          "120 ml definitívneho moču"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 612,
+          "questionNumber": 612,
+          "page": 80,
+          "endPage": 80,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            11
+          ],
+          "topicGroup": "nezaradene_oblicky_dalsie",
+          "reason": "Funkcia obličiek, tvorba moču, tubulárna resorpcia, kreatinín alebo jeho stanovenie nie sú v pláne samostatnou týždennou témou.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Jaffeho reakcia:",
+        "answers": [
+          "sa využíva pri stanovení močoviny",
+          "je reakcia kyseliny močovej s kyselinou pikrovou",
+          "je reakcia kreatinínu s kyselinou pikrovou v alkalickom prostredí",
+          "sa využíva pri stanoveniach amoniaku v sére aj v moči"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 614,
+          "questionNumber": 614,
+          "page": 80,
+          "endPage": 80,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            11
+          ],
+          "topicGroup": "nezaradene_oblicky_dalsie",
+          "reason": "Funkcia obličiek, tvorba moču, tubulárna resorpcia, kreatinín alebo jeho stanovenie nie sú v pláne samostatnou týždennou témou.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "O obličkách môžeme povedať, že:",
+        "answers": [
+          "syntetizujú bielkoviny krvnej plazmy",
+          "môžu syntetizovať glukózu",
+          "sa zúčastňujú regulácie acidobázickej rovnováhy",
+          "obsahujú asi pol milióna nefrónov"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 615,
+          "questionNumber": 615,
+          "page": 80,
+          "endPage": 80,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            11
+          ],
+          "topicGroup": "nezaradene_oblicky_dalsie",
+          "reason": "Funkcia obličiek, tvorba moču, tubulárna resorpcia, kreatinín alebo jeho stanovenie nie sú v pláne samostatnou týždennou témou.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Fyziologická hodnota klírens kreatinínu je:",
+        "answers": [
+          "2ml/min",
+          "120ml/s",
+          "120ml/min",
+          "2ml/s"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 620,
+          "questionNumber": 620,
+          "page": 81,
+          "endPage": 81,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            11
+          ],
+          "topicGroup": "nezaradene_oblicky_dalsie",
+          "reason": "Funkcia obličiek, tvorba moču, tubulárna resorpcia, kreatinín alebo jeho stanovenie nie sú v pláne samostatnou týždennou témou.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Guanidínacetát je látka, ktorá:",
+        "answers": [
+          "sa metyluje v obličkách prostredníctvom S-adenozylmetionínu",
+          "vzniká z arginínu a glycínu v pečeni",
+          "transportuje sa z obličky do pečene",
+          "vzniká z arginínu a ornitínu v obličke"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 621,
+          "questionNumber": 621,
+          "page": 81,
+          "endPage": 81,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            1,
+            10
+          ],
+          "topicGroup": "nezaradene_kreatin_dalsie",
+          "reason": "Otázka sa týka biosyntézy kreatínu/guanidínacetátu a jej orgánovej lokalizácie; explicitný týždeň v pláne chýba.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "V obličke sú lokalizované metabolické dráhy:",
+        "answers": [
+          "syntéza kreatínu z guanidínacetátu",
+          "aktivácia vitamínu D",
+          "fosforylácia kreatínu enzýmom kreatínkináza",
+          "syntéza guanidínacetátu"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 622,
+          "questionNumber": 622,
+          "page": 81,
+          "endPage": 81,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            11
+          ],
+          "topicGroup": "nezaradene_oblicky_dalsie",
+          "reason": "Funkcia obličiek, tvorba moču, tubulárna resorpcia, kreatinín alebo jeho stanovenie nie sú v pláne samostatnou týždennou témou.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Zvýšené množstvo kreatinínu vylúčeného do moču je:",
+        "answers": [
+          "pri zníženej glomerulárnej filtrácii",
+          "pri zvýšenej svalovej námahe",
+          "pri ťažkej funkčnej poruche obličiek",
+          "pri hladovaní"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 623,
+          "questionNumber": 623,
+          "page": 81,
+          "endPage": 81,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            11
+          ],
+          "topicGroup": "nezaradene_oblicky_dalsie",
+          "reason": "Funkcia obličiek, tvorba moču, tubulárna resorpcia, kreatinín alebo jeho stanovenie nie sú v pláne samostatnou týždennou témou.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Fyziologická hladina kreatinínu v krvi je:",
+        "answers": [
+          "zvýšená pri hladovaní",
+          "50 - 110 µmol/l",
+          "znížená pri ochorení obličiek",
+          "7 - 20 mmol/l"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 627,
+          "questionNumber": 627,
+          "page": 82,
+          "endPage": 82,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            11
+          ],
+          "topicGroup": "nezaradene_oblicky_dalsie",
+          "reason": "Funkcia obličiek, tvorba moču, tubulárna resorpcia, kreatinín alebo jeho stanovenie nie sú v pláne samostatnou týždennou témou.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Guanidín-acetát metyltransferáza:",
+        "answers": [
+          "je enzým potrebný pre tvorbu guanidínacetátu v obličke",
+          "zabezpečuje tvorbu kreatínu v pečeni",
+          "ako substráty využíva arginín a glycín",
+          "zabezpečuje metyláciu guanidínacetátu v obličke"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 628,
+          "questionNumber": 628,
+          "page": 82,
+          "endPage": 82,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            1,
+            10
+          ],
+          "topicGroup": "nezaradene_kreatin_dalsie",
+          "reason": "Otázka sa týka biosyntézy kreatínu/guanidínacetátu a jej orgánovej lokalizácie; explicitný týždeň v pláne chýba.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "O obličkách môžeme povedať, že:",
+        "answers": [
+          "sa zúčastňujú na regulácii acidobázickej rovnováhy",
+          "sú miestom aktivácie vitamínu D",
+          "sú miestom syntézy bielkovín krvnej plazmy počas hladovania",
+          "môžu syntetizovať glukózu počas hladovania"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 629,
+          "questionNumber": 629,
+          "page": 82,
+          "endPage": 82,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            11
+          ],
+          "topicGroup": "nezaradene_oblicky_dalsie",
+          "reason": "Funkcia obličiek, tvorba moču, tubulárna resorpcia, kreatinín alebo jeho stanovenie nie sú v pláne samostatnou týždennou témou.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Klírens kreatinínu:",
+        "answers": [
+          "je ukazovateľom glomerulárnej filtrácie",
+          "má fyziologickú hodnotu 120 ml/s",
+          "pri ťažkej funkčnej poruche môže byť nižší ako 20 ml/min",
+          "závisí od svalovej hmoty a veku"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 630,
+          "questionNumber": 630,
+          "page": 82,
+          "endPage": 82,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            11
+          ],
+          "topicGroup": "nezaradene_oblicky_dalsie",
+          "reason": "Funkcia obličiek, tvorba moču, tubulárna resorpcia, kreatinín alebo jeho stanovenie nie sú v pláne samostatnou týždennou témou.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "V obličke sú lokalizované metabolické dráhy:",
+        "answers": [
+          "syntéza kreatínu z guanidínacetátu",
+          "metylácia guanidínacetátu za účasti S-adenozylmetionínu",
+          "fosforylácia kreatínu enzýmom kreatínkináza",
+          "syntéza guanidínacetátu"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 636,
+          "questionNumber": 636,
+          "page": 83,
+          "endPage": 83,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            1,
+            10
+          ],
+          "topicGroup": "nezaradene_kreatin_dalsie",
+          "reason": "Otázka sa týka biosyntézy kreatínu/guanidínacetátu a jej orgánovej lokalizácie; explicitný týždeň v pláne chýba.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Klírens kreatinínu:",
+        "answers": [
+          "udáva množstvo vytvoreného glomerulárneho filtrátu za 24 hodín",
+          "má fyziologickú hodnotu 120 ml/s",
+          "je znížený pri ochoreniach obličiek",
+          "závisí od veku a váhy"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 637,
+          "questionNumber": 637,
+          "page": 83,
+          "endPage": 83,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            11
+          ],
+          "topicGroup": "nezaradene_oblicky_dalsie",
+          "reason": "Funkcia obličiek, tvorba moču, tubulárna resorpcia, kreatinín alebo jeho stanovenie nie sú v pláne samostatnou týždennou témou.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Klírens kreatinínu je parameter, ktorý:",
+        "answers": [
+          "s vekom jeho hodnota klesá",
+          "je ukazovateľom glomerulárnej filtrácie",
+          "závisí od veku a pohlavia",
+          "vyžaduje vyšetrenie hladiny kreatinínu v sére a v moči"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 642,
+          "questionNumber": 642,
+          "page": 84,
+          "endPage": 84,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            11
+          ],
+          "topicGroup": "nezaradene_oblicky_dalsie",
+          "reason": "Funkcia obličiek, tvorba moču, tubulárna resorpcia, kreatinín alebo jeho stanovenie nie sú v pláne samostatnou týždennou témou.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Znížené množstvo kreatinínu vylúčeného do moču je:",
+        "answers": [
+          "pri hladovaní",
+          "pri zvýšenej svalovej námahe",
+          "pri ťažkej funkčnej poruche obličiek",
+          "pri zníženej glomerulárnej filtrácii"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 643,
+          "questionNumber": 643,
+          "page": 84,
+          "endPage": 84,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            11
+          ],
+          "topicGroup": "nezaradene_oblicky_dalsie",
+          "reason": "Funkcia obličiek, tvorba moču, tubulárna resorpcia, kreatinín alebo jeho stanovenie nie sú v pláne samostatnou týždennou témou.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Z guanidínacetátu sa kreatín tvorí:",
+        "answers": [
+          "metylačnou reakciou v obličke",
+          "za vzniku homocysteínu a ornitínu",
+          "metyláciou prostredníctvom S-adenozylmetionínu",
+          "v pečeni z arginínu a glycínu"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 644,
+          "questionNumber": 644,
+          "page": 84,
+          "endPage": 84,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            1,
+            10
+          ],
+          "topicGroup": "nezaradene_kreatin_dalsie",
+          "reason": "Otázka sa týka biosyntézy kreatínu/guanidínacetátu a jej orgánovej lokalizácie; explicitný týždeň v pláne chýba.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Fyziologická funkcia obličiek zabezpečuje:",
+        "answers": [
+          "tvorbu renínu",
+          "reguláciu množstva a vzájomného pomeru iónov",
+          "syntézu bielkovín krvnej plazmy počas hladovania",
+          "významnú úlohu v regulácii krvného tlaku"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 645,
+          "questionNumber": 645,
+          "page": 84,
+          "endPage": 84,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            11
+          ],
+          "topicGroup": "nezaradene_oblicky_dalsie",
+          "reason": "Funkcia obličiek, tvorba moču, tubulárna resorpcia, kreatinín alebo jeho stanovenie nie sú v pláne samostatnou týždennou témou.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Primárny moč:",
+        "answers": [
+          "obsahuje nízkomolekulové látky krvnej plazmy",
+          "obsahuje kreatinín",
+          "obsahuje vysokomolekulové látky krvnej plazmy",
+          "neobsahuje kreatinín"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 650,
+          "questionNumber": 650,
+          "page": 85,
+          "endPage": 85,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            11
+          ],
+          "topicGroup": "nezaradene_oblicky_dalsie",
+          "reason": "Funkcia obličiek, tvorba moču, tubulárna resorpcia, kreatinín alebo jeho stanovenie nie sú v pláne samostatnou týždennou témou.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Medzi základné pochody v metabolizme dusíka v organizme patria:",
+        "answers": [
+          "fixácia uvoľneného amoniaku",
+          "transport amoniaku vo forme glutamínu do pečene",
+          "uvoľňovanie amoniaku v transaminačných reakciách",
+          "tvorba močoviny a jej vylučovanie močom"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 651,
+          "questionNumber": 651,
+          "page": 85,
+          "endPage": 85,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            10,
+            11
+          ],
+          "topicGroup": "nezaradene_dusik_suhrn_zaver",
+          "reason": "Otázka súčasne skúša fixáciu a transport amoniaku (10. týždeň) aj tvorbu a vylučovanie močoviny (11. týždeň).",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Odpad kreatinínu močom:",
+        "answers": [
+          "klesá pri ťažkej funkčnej poruche obličiek",
+          "je 7-20 mmol/24 hodín",
+          "zvyšuje sa pri zníženej filtračnej schopnosti obličiek",
+          "je 7-20 µmol/l"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 652,
+          "questionNumber": 652,
+          "page": 85,
+          "endPage": 85,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            11
+          ],
+          "topicGroup": "nezaradene_oblicky_zaver",
+          "reason": "Vyšetrenie obličkových funkcií, vylučovania kreatinínu a tubulárnej resorpcie nie je v pláne výslovne zaradené.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Arginínglycíntransamidináza je:",
+        "answers": [
+          "enzým potrebný pre tvorbu arginínu",
+          "zabezpečuje tvorbu metylovaného guanidínacetátu v pečeni",
+          "ako substráty využíva arginín a ornitín",
+          "zabezpečuje tvorbu guanidínacetátu v obličke"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 653,
+          "questionNumber": 653,
+          "page": 85,
+          "endPage": 85,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            1,
+            10
+          ],
+          "topicGroup": "nezaradene_kreatin_zaver",
+          "reason": "Biosyntéza kreatínu/guanidínacetátu a príslušné enzýmy nemajú v pláne explicitný týždeň.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Pri ťažkom funkčnom defekte obličiek:",
+        "answers": [
+          "môže hodnota klírens kreatinínu stúpať",
+          "hodnota klírens kreatinínu je vyššia ako 20 ml/min",
+          "hodnota klírens kreatinínu je znížená",
+          "môžu byť hodnoty klírens kreatinínu nižšie ako 40 ml/min"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 658,
+          "questionNumber": 658,
+          "page": 86,
+          "endPage": 86,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            11
+          ],
+          "topicGroup": "nezaradene_oblicky_zaver",
+          "reason": "Vyšetrenie obličkových funkcií, vylučovania kreatinínu a tubulárnej resorpcie nie je v pláne výslovne zaradené.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Guanidín-acetát metyltransferáza:",
+        "answers": [
+          "je enzým lokalizovaný v obličke",
+          "zabezpečuje tvorbu kreatínu v pečeni",
+          "ako substráty využíva arginín a glycín",
+          "zabezpečuje metyláciu guanidínacetátu v obličke"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 659,
+          "questionNumber": 659,
+          "page": 86,
+          "endPage": 86,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            1,
+            10
+          ],
+          "topicGroup": "nezaradene_kreatin_zaver",
+          "reason": "Biosyntéza kreatínu/guanidínacetátu a príslušné enzýmy nemajú v pláne explicitný týždeň.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Klírens kreatinínu:",
+        "answers": [
+          "udáva množstvo vytvoreného glomerulárneho filtrátu za 24 hodín",
+          "má fyziologickú hodnotu 120 ml/s",
+          "je znížený pri ochoreniach obličiek",
+          "má fyziologickú hodnotu 2 ml/min"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 660,
+          "questionNumber": 660,
+          "page": 86,
+          "endPage": 86,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            11
+          ],
+          "topicGroup": "nezaradene_oblicky_zaver",
+          "reason": "Vyšetrenie obličkových funkcií, vylučovania kreatinínu a tubulárnej resorpcie nie je v pláne výslovne zaradené.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "V obličke sú lokalizované metabolické dráhy:",
+        "answers": [
+          "syntéza kreatínu z guanidínacetátu",
+          "metylácia guanidínacetátu za účasti S-adenozylmetionínu",
+          "tvorba kreatínfosfátu enzýmom kreatínkináza",
+          "syntéza guanidínacetátu z arginínu a glycínu"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 663,
+          "questionNumber": 663,
+          "page": 86,
+          "endPage": 86,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            1,
+            10
+          ],
+          "topicGroup": "nezaradene_kreatin_zaver",
+          "reason": "Biosyntéza kreatínu/guanidínacetátu a príslušné enzýmy nemajú v pláne explicitný týždeň.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Guanidínacetát je látka, ktorá:",
+        "answers": [
+          "sa transportuje z obličky do pečene",
+          "vzniká z arginínu a glycínu v pečeni",
+          "vzniká z arginínu a ornitínu v obličke",
+          "sa metyluje v obličkách prostredníctvom S-adenozylmetionínu"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 666,
+          "questionNumber": 666,
+          "page": 87,
+          "endPage": 87,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            1,
+            10
+          ],
+          "topicGroup": "nezaradene_kreatin_zaver",
+          "reason": "Biosyntéza kreatínu/guanidínacetátu a príslušné enzýmy nemajú v pláne explicitný týždeň.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Pri ťažkom funkčnom defekte obličiek:",
+        "answers": [
+          "hodnota klírens kreatinínu je znížená",
+          "môžu byť hodnoty klírens kreatinínu nižšie ako 20 ml/min",
+          "hodnota klírens kreatinínu je zvýšená",
+          "môžu byť hodnoty klírens kreatinínu nižšie ako 40 ml/min"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 667,
+          "questionNumber": 667,
+          "page": 87,
+          "endPage": 87,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            11
+          ],
+          "topicGroup": "nezaradene_oblicky_zaver",
+          "reason": "Vyšetrenie obličkových funkcií, vylučovania kreatinínu a tubulárnej resorpcie nie je v pláne výslovne zaradené.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Pre výpočet percenta spätnej tubulárnej resorpcie potrebujeme:",
+        "answers": [
+          "hladinu kreatinínu v sére a v moči",
+          "diurézu pacienta",
+          "klírens kreatinínu",
+          "množstvo vytvoreného glomerulárneho filtrátu za 24 hodín"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 672,
+          "questionNumber": 672,
+          "page": 87,
+          "endPage": 88,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            11
+          ],
+          "topicGroup": "nezaradene_oblicky_zaver",
+          "reason": "Vyšetrenie obličkových funkcií, vylučovania kreatinínu a tubulárnej resorpcie nie je v pláne výslovne zaradené.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      },
+      {
+        "question": "Arginínglycíntransamidináza je enzým, ktorý:",
+        "answers": [
+          "je potrebný pre tvorbu metylovaného guanidínacetátu",
+          "zabezpečuje tvorbu guanidínacetátu v pečeni",
+          "ako substráty využíva arginín a ornitín",
+          "zabezpečuje tvorbu guanidínacetátu v obličke"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 674,
+          "questionNumber": 674,
+          "page": 88,
+          "endPage": 88,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": null,
+          "relatedWeeks": [],
+          "candidateWeeks": [
+            1,
+            10
+          ],
+          "topicGroup": "nezaradene_kreatin_zaver",
+          "reason": "Biosyntéza kreatínu/guanidínacetátu a príslušné enzýmy nemajú v pláne explicitný týždeň.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": null,
+          "objectiveRefs": []
+        }
+      }
+    ]
+  }
+]

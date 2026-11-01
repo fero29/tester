@@ -1,0 +1,690 @@
+{
+  "sourceFile": "Biochémia 1 otázky.pdf",
+  "sourceSha256": "2d928ae882b76bad2f366fe399a6a456e53ea1d7b0416c459d7000bc1dc3f050",
+  "sourcePages": 95,
+  "totalQuestions": 729,
+  "importedQuestions": 684,
+  "deferredQuestions": 45,
+  "tests": [
+    {
+      "file": "Biochémia 1 - 01.json",
+      "questions": 90,
+      "deferred": 10
+    },
+    {
+      "file": "Biochémia 1 - 02.json",
+      "questions": 94,
+      "deferred": 6
+    },
+    {
+      "file": "Biochémia 1 - 03.json",
+      "questions": 90,
+      "deferred": 10
+    },
+    {
+      "file": "Biochémia 1 - 04.json",
+      "questions": 96,
+      "deferred": 4
+    },
+    {
+      "file": "Biochémia 1 - 05.json",
+      "questions": 92,
+      "deferred": 8
+    },
+    {
+      "file": "Biochémia 1 - 06.json",
+      "questions": 98,
+      "deferred": 2
+    },
+    {
+      "file": "Biochémia 1 - 07.json",
+      "questions": 97,
+      "deferred": 3
+    },
+    {
+      "file": "Biochémia 1 - 08.json",
+      "questions": 27,
+      "deferred": 2
+    }
+  ],
+  "answerPolicy": "Prepis vyznačených odpovedí v PDF, bez odbornej revízie.",
+  "reviewPolicy": "Nejasné, neoznačené, neúplné a protichodné otázky sú mimo testov. correct=null v kontrolnom súbore znamená neoverený kľúč; detectedCorrect zachováva pracovnú detekciu, nie schválené odpovede.",
+  "numberingPolicy": "source.sequence je poradie 1–729; source.questionNumber je pôvodné, miestami duplicitné alebo preskočené číslo v PDF.",
+  "duplicatePolicy": "Opakované otázky sú zachované v pôvodnom poradí.",
+  "emptyNumberingArtifacts": [
+    {
+      "number": 20,
+      "page": 3
+    },
+    {
+      "number": 19,
+      "page": 3
+    },
+    {
+      "number": 38,
+      "page": 6
+    },
+    {
+      "number": 42,
+      "page": 6
+    },
+    {
+      "number": 45,
+      "page": 6
+    },
+    {
+      "number": 47,
+      "page": 7
+    },
+    {
+      "number": 52,
+      "page": 7
+    }
+  ],
+  "duplicateGroups": [
+    {
+      "sequences": [
+        73,
+        159
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        74,
+        160
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        75,
+        161
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        76,
+        162
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        77,
+        163
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        78,
+        164
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        79,
+        165
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        80,
+        166
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        81,
+        167
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        82,
+        139,
+        168,
+        225
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        83,
+        169
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        84,
+        170
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        85,
+        171
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        86,
+        172
+      ],
+      "conflictingAnswers": true
+    },
+    {
+      "sequences": [
+        87,
+        173
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        88,
+        174
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        89,
+        175
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        90,
+        176
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        91,
+        177
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        92,
+        178
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        93,
+        179
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        94,
+        180
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        95,
+        181
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        96,
+        182
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        97,
+        183
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        98,
+        184
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        99,
+        185
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        100,
+        186
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        101,
+        187
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        102,
+        188
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        103,
+        189
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        104,
+        190
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        105,
+        191
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        107,
+        193
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        108,
+        194
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        109,
+        195
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        110,
+        196
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        111,
+        197
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        113,
+        199
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        114,
+        200
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        115,
+        201
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        116,
+        202
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        117,
+        203
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        118,
+        204
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        119,
+        205
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        120,
+        206
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        121,
+        207
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        122,
+        208
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        123,
+        209
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        124,
+        210
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        125,
+        211
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        126,
+        212
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        127,
+        213
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        128,
+        214
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        129,
+        215
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        130,
+        216
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        131,
+        217
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        132,
+        218
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        133,
+        219
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        134,
+        220
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        135,
+        221
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        136,
+        222
+      ],
+      "conflictingAnswers": true
+    },
+    {
+      "sequences": [
+        137,
+        223
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        138,
+        224
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        140,
+        226
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        141,
+        227
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        142,
+        228
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        143,
+        229
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        144,
+        230
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        145,
+        231
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        146,
+        232
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        147,
+        233
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        148,
+        234
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        149,
+        235
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        150,
+        236
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        151,
+        237
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        152,
+        238
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        153,
+        239
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        154,
+        240
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        155,
+        241
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        156,
+        242
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        157,
+        243
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        158,
+        244
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        346,
+        431
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        460,
+        534
+      ],
+      "conflictingAnswers": false
+    },
+    {
+      "sequences": [
+        462,
+        536
+      ],
+      "conflictingAnswers": false
+    }
+  ]
+}

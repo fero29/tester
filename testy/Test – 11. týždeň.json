@@ -1,0 +1,1296 @@
+[
+  {
+    "title": "Test – 11. týždeň",
+    "description": "Toxicita amoniaku, močovinový cyklus, jeho poruchy a diagnostický význam močoviny.",
+    "year": 2,
+    "category": "Biochémia",
+    "sortOrder": 11,
+    "previousTitles": [
+      "Biochémia 1 - Týždeň 11 - Detoxikácia amoniaku a močovina"
+    ],
+    "questions": [
+      {
+        "question": "Pomer koncentrácie močoviny v sére ku koncentrácii kreatinínu v sére nás informuje o:",
+        "answers": [
+          "degradácii purínových nukleotidov",
+          "príčinách oligúrie",
+          "katabolizme bielkovín",
+          "všetkom uvedenom"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 557,
+          "questionNumber": 557,
+          "page": 73,
+          "endPage": 73,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 11,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w11_mocovina_vysetrenie",
+          "reason": "Otázka je zameraná na močovinu v sére/moči alebo diagnostický význam jej pomeru ku kreatinínu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 12,
+          "objectiveRefs": [
+            4
+          ]
+        }
+      },
+      {
+        "question": "Fyziologická hladina močoviny v moči je:",
+        "answers": [
+          "2,5-8,4 mmol/l",
+          "2,5-8,4 mmol/24h",
+          "120-386 mmol/24 hodín",
+          "320-568 mmol/24 hodín"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 559,
+          "questionNumber": 559,
+          "page": 73,
+          "endPage": 73,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 11,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w11_mocovina_vysetrenie",
+          "reason": "Otázka je zameraná na močovinu v sére/moči alebo diagnostický význam jej pomeru ku kreatinínu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 12,
+          "objectiveRefs": [
+            4
+          ]
+        }
+      },
+      {
+        "question": "Fyziologická koncentrácia močoviny v sére je:",
+        "answers": [
+          "2,5-8,4 mmol/l",
+          "2,5-8,4 µmol/l",
+          "závislá od aktivity urátoxidázy",
+          "závisí od intenzity degradácie aminokyselín"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 583,
+          "questionNumber": 583,
+          "page": 76,
+          "endPage": 76,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 11,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w11_mocovina_dalsie",
+          "reason": "Otázka skúša detoxikačnú kapacitu pečene alebo močovinu ako klinický parameter.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 12,
+          "objectiveRefs": [
+            3,
+            4
+          ]
+        }
+      },
+      {
+        "question": "Pri posudzovaní príčin oligúrie možno využiť:",
+        "answers": [
+          "pomer kyseliny močovej v sére ku kyseline močovej v moči",
+          "pomer močoviny v sére k močovine v moči",
+          "pomer močoviny v moči k močovine v sére",
+          "nič z uvedeného"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 597,
+          "questionNumber": 597,
+          "page": 78,
+          "endPage": 78,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 11,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w11_mocovina_dalsie",
+          "reason": "Otázka skúša detoxikačnú kapacitu pečene alebo močovinu ako klinický parameter.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 12,
+          "objectiveRefs": [
+            3,
+            4
+          ]
+        }
+      },
+      {
+        "question": "Detoxikácia amoniaku na močovinu je zachovaná ešte pri:",
+        "answers": [
+          "25% funkčnej kapacity pečene",
+          "75% funkčnej kapacity pečene",
+          "50% funkčnej kapacity pečene",
+          "100% funkčnej kapacity pečene"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 613,
+          "questionNumber": 613,
+          "page": 80,
+          "endPage": 80,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 11,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w11_mocovina_dalsie",
+          "reason": "Otázka skúša detoxikačnú kapacitu pečene alebo močovinu ako klinický parameter.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 12,
+          "objectiveRefs": [
+            3,
+            4
+          ]
+        }
+      },
+      {
+        "question": "Hlavné miesto tvorby močoviny:",
+        "answers": [
+          "je oblička",
+          "je pečeň",
+          "tvorí sa v každej bunke",
+          "je pečeň so subcelulárnou lokalizáciou výlučne v cytoplazme"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 679,
+          "questionNumber": 679,
+          "page": 88,
+          "endPage": 88,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 11,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w11_mocovinovy_cyklus",
+          "reason": "Otázka skúša reakcie, substráty, lokalizáciu alebo poruchy tvorby močoviny a toxicitu amoniaku.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 12,
+          "objectiveRefs": [
+            1,
+            2,
+            3
+          ]
+        }
+      },
+      {
+        "question": "Argininosukcinátsyntáza:",
+        "answers": [
+          "patrí medzi enzýmy Krebsovho cyklu",
+          "je lokalizovaná v cytoplazme každej živočíšnej bunky",
+          "lokalizovaná je v cytoplazme periportálneho hepatocytu",
+          "katalyzuje reakciu, ktorá vyžaduje energiu vo forme GTP"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 680,
+          "questionNumber": 680,
+          "page": 88,
+          "endPage": 89,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 11,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w11_mocovinovy_cyklus",
+          "reason": "Otázka skúša reakcie, substráty, lokalizáciu alebo poruchy tvorby močoviny a toxicitu amoniaku.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 12,
+          "objectiveRefs": [
+            1,
+            2,
+            3
+          ]
+        }
+      },
+      {
+        "question": "Močovina:",
+        "answers": [
+          "môže byťštiepená urátoxidázou v hrubom čreve",
+          "môže byťštiepená ureázou, ktorú produkujú mikroorganizmy črevnej flóry",
+          "do zažívacieho traktu sa môže dostať aj potravou",
+          "nemá náboj, ľahko difunduje cez membrány preto sa dobre vylučuje obličkou"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 681,
+          "questionNumber": 681,
+          "page": 89,
+          "endPage": 89,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 11,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w11_mocovina_klinika_zaver",
+          "reason": "Otázka skúša vlastnosti močoviny, jej koncentráciu, vylučovanie alebo diagnostický význam.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 12,
+          "objectiveRefs": [
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Koncentrácia močoviny v sére:",
+        "answers": [
+          "je 1,5 až 5 mmol/l",
+          "je 2,5 až 8,4 mmol/l",
+          "stúpa pri anabolických procesoch po vyplavení kortizolu",
+          "klesá po vyplavení inzulínu"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 682,
+          "questionNumber": 682,
+          "page": 89,
+          "endPage": 89,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 11,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w11_mocovina_klinika_zaver",
+          "reason": "Otázka skúša vlastnosti močoviny, jej koncentráciu, vylučovanie alebo diagnostický význam.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 12,
+          "objectiveRefs": [
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Hlavné miesto tvorby močoviny:",
+        "answers": [
+          "je pečeň so subcelulárnou lokalizáciou syntézy karbamoylfosfátu v cytoplazme",
+          "je pečeň so subcelulárnou lokalizáciou syntézy karbamoylfosfátu v mitochondrii",
+          "sú periportálne hepatocyty",
+          "sú perivenózne hepatocyty"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 687,
+          "questionNumber": 687,
+          "page": 89,
+          "endPage": 89,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 11,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w11_mocovinovy_cyklus",
+          "reason": "Otázka skúša reakcie, substráty, lokalizáciu alebo poruchy tvorby močoviny a toxicitu amoniaku.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 12,
+          "objectiveRefs": [
+            1,
+            2,
+            3
+          ]
+        }
+      },
+      {
+        "question": "Argininosukcinátlyáza:",
+        "answers": [
+          "je enzým lokalizovaný v cytoplazme hepatocytu",
+          "je lyáza, ktorá katalyzuje reakciu tvorby fumarátu a citrulínu",
+          "katalyzuje tvorbu fumarátu a močoviny",
+          "katalyzuje reakciu tvorby arginínu a fumarátu"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 688,
+          "questionNumber": 688,
+          "page": 89,
+          "endPage": 90,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 11,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w11_mocovinovy_cyklus",
+          "reason": "Otázka skúša reakcie, substráty, lokalizáciu alebo poruchy tvorby močoviny a toxicitu amoniaku.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 12,
+          "objectiveRefs": [
+            1,
+            2,
+            3
+          ]
+        }
+      },
+      {
+        "question": "Genetické poruchy enzýmov cyklu tvorby močoviny:",
+        "answers": [
+          "môžu viesť ku vzostupu koncentrácie amoniaku až na 10-6 mol/l, ktorá je pre organizmus toxická",
+          "môžu viesť ku vzostupu amoniaku rádove až nad 10-3 mol/l",
+          "prejavujú sa až v staršom veku najmä v dôsledku acidózy",
+          "prejavujú sa už u novorodencov a detí"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 689,
+          "questionNumber": 689,
+          "page": 90,
+          "endPage": 90,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 11,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w11_mocovinovy_cyklus",
+          "reason": "Otázka skúša reakcie, substráty, lokalizáciu alebo poruchy tvorby močoviny a toxicitu amoniaku.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 12,
+          "objectiveRefs": [
+            1,
+            2,
+            3
+          ]
+        }
+      },
+      {
+        "question": "Koncentrácia močoviny v sére:",
+        "answers": [
+          "závisí hlavne od potreby detoxikovať amoniak",
+          "závisí od množstva uvoľneného amoniaku",
+          "zvyšuje sa pri anabolických procesoch",
+          "závisí od funkčnej spôsobilosti obličky"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 690,
+          "questionNumber": 690,
+          "page": 90,
+          "endPage": 90,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 11,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w11_mocovina_klinika_zaver",
+          "reason": "Otázka skúša vlastnosti močoviny, jej koncentráciu, vylučovanie alebo diagnostický význam.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 12,
+          "objectiveRefs": [
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "V procese tvorby močoviny:",
+        "answers": [
+          "využíva sa približne 95 % aminodusíka uvoľneného pri degradácii pyrimidínových báz",
+          "využíva sa približne 50 % aminodusíka uvoľneného pri deaminačných reakciách",
+          "využíva sa približne 95 % aminodusíka uvoľneného pri deaminačných reakciách",
+          "zúčastňuje sa 6 aminokyselín"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 694,
+          "questionNumber": 694,
+          "page": 90,
+          "endPage": 90,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 11,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w11_mocovinovy_cyklus",
+          "reason": "Otázka skúša reakcie, substráty, lokalizáciu alebo poruchy tvorby močoviny a toxicitu amoniaku.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 12,
+          "objectiveRefs": [
+            1,
+            2,
+            3
+          ]
+        }
+      },
+      {
+        "question": "Ornitíntranskarbamyláza:",
+        "answers": [
+          "je enzým lokalizovaný v mitochondrii periportálneho hepatocytu",
+          "katalyzuje tvorbu arginínu z ornitínu a karbamoylfosfátu",
+          "katalyzuje vznik jedného substrátu pre reakciu, ktorú katalyzuje argininosukcinátsyntáza",
+          "katalyzuje tvorbu citrulínu z ornitínu a karbamoylfosfátu v mitochondriách hepatocytov"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 695,
+          "questionNumber": 695,
+          "page": 90,
+          "endPage": 90,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 11,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w11_mocovinovy_cyklus",
+          "reason": "Otázka skúša reakcie, substráty, lokalizáciu alebo poruchy tvorby močoviny a toxicitu amoniaku.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 12,
+          "objectiveRefs": [
+            1,
+            2,
+            3
+          ]
+        }
+      },
+      {
+        "question": "O aktivite enzýmov cyklu tvorby močoviny môžeme povedať:",
+        "answers": [
+          "najnižšia je v pečeni",
+          "v pečeni je najvyššia",
+          "v obličke je nízka aktivita najmä argininosukcinátsyntázy",
+          "v mozgu je nízka aktivita najmä ornitíntranskarbamoylázy"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 696,
+          "questionNumber": 696,
+          "page": 90,
+          "endPage": 91,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 11,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w11_mocovinovy_cyklus",
+          "reason": "Otázka skúša reakcie, substráty, lokalizáciu alebo poruchy tvorby močoviny a toxicitu amoniaku.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 12,
+          "objectiveRefs": [
+            1,
+            2,
+            3
+          ]
+        }
+      },
+      {
+        "question": "Močovina sa v krvi zvyšuje:",
+        "answers": [
+          "v období rastu",
+          "pri krvácaní do zažívacieho traktu",
+          "pri vysokých dávkach rastového hormónu",
+          "pri dlhodobom hladovaní"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 697,
+          "questionNumber": 697,
+          "page": 91,
+          "endPage": 91,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 11,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w11_mocovina_klinika_zaver",
+          "reason": "Otázka skúša vlastnosti močoviny, jej koncentráciu, vylučovanie alebo diagnostický význam.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 12,
+          "objectiveRefs": [
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Aminokyselina, ktorá je donorom jednej aminoskupiny v močovine:",
+        "answers": [
+          "po transaminácii za prítomnosti alanínaminotransferázy slúži ako substrát pre glukoneogenézu",
+          "po transaminácii s 2-oxoglutarátom, môže sa zapojiť do Krebsovho cyklu",
+          "je aminokyselina, ktorá tvorí väčšiu časť uhlíkovej kostry pyrimidínového jadra",
+          "je kyselina aminojantárová"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 703,
+          "questionNumber": 703,
+          "page": 91,
+          "endPage": 91,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 11,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w11_mocovinovy_cyklus",
+          "reason": "Otázka skúša reakcie, substráty, lokalizáciu alebo poruchy tvorby močoviny a toxicitu amoniaku.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 12,
+          "objectiveRefs": [
+            1,
+            2,
+            3
+          ]
+        }
+      },
+      {
+        "question": "Amoniak je toxický:",
+        "answers": [
+          "tým, že môže vyväzovať protóny, zvyšuje pH prostredia",
+          "lebo pri vysokých koncentráciách sa viaže na oxalacetát, ktorý je dôležitý medziprodukt Krebsovho cyklu",
+          "lebo sa viaže na 2-oxoglutarát redukčnou amináciou a tým odčerpáva dôležitý energetický substrát pre Krebsov cyklus",
+          "pri koncentrácii rádovo 10-3 mmol/l"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 705,
+          "questionNumber": 705,
+          "page": 92,
+          "endPage": 92,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 11,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w11_mocovinovy_cyklus",
+          "reason": "Otázka skúša reakcie, substráty, lokalizáciu alebo poruchy tvorby močoviny a toxicitu amoniaku.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 12,
+          "objectiveRefs": [
+            1,
+            2,
+            3
+          ]
+        }
+      },
+      {
+        "question": "Močovina (NH2)2CO:",
+        "answers": [
+          "v krvnom riečisku je dobre transportovateľná",
+          "je dobre rozpustná vo vode a ľahko prechádza membránami",
+          "je zlúčenina, ktorá obsahuje 40% dusíka",
+          "syntetizuje sa v pečeni a obličke"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 710,
+          "questionNumber": 710,
+          "page": 92,
+          "endPage": 92,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 11,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w11_mocovina_klinika_zaver",
+          "reason": "Otázka skúša vlastnosti močoviny, jej koncentráciu, vylučovanie alebo diagnostický význam.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 12,
+          "objectiveRefs": [
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Pre syntézu močoviny sú potrebné substráty:",
+        "answers": [
+          "NH4+ , HCO3-",
+          "kyselina asparágová, NH3+, HCO3-",
+          "NH4+ , HCO3- , kyselina jantárová, H2O, 3 ATP",
+          "NH4+ , HCO3- , kyselina asparágová, H2O, 3 ATP"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 711,
+          "questionNumber": 711,
+          "page": 92,
+          "endPage": 93,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 11,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w11_mocovinovy_cyklus",
+          "reason": "Otázka skúša reakcie, substráty, lokalizáciu alebo poruchy tvorby močoviny a toxicitu amoniaku.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 12,
+          "objectiveRefs": [
+            1,
+            2,
+            3
+          ]
+        }
+      },
+      {
+        "question": "Argináza:",
+        "answers": [
+          "hydrolyticky štiepi argininosukcinát na arginín a močovinu",
+          "patrí do kompletnej výbavy enzýmov cyklu tvorby močoviny v obličke",
+          "lokalizovaná je v cytoplazme hepatocytu",
+          "hydrolyticky štiepi arginín na ornitín a močovinu v cytoplazme hepatocytu"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 712,
+          "questionNumber": 712,
+          "page": 93,
+          "endPage": 93,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 11,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w11_mocovinovy_cyklus",
+          "reason": "Otázka skúša reakcie, substráty, lokalizáciu alebo poruchy tvorby močoviny a toxicitu amoniaku.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 12,
+          "objectiveRefs": [
+            1,
+            2,
+            3
+          ]
+        }
+      },
+      {
+        "question": "Amoniak:",
+        "answers": [
+          "využíva sa čiastočne na syntézu neesenciálnych aminokyselín prostredníctvom glutamátu",
+          "väčšia časť sa vylučuje z organizmu prostredníctvom kyseliny močovej",
+          "pre organizmus je toxický v koncentrácii rádove 10-3 mol/l",
+          "u ureotelných organizmov fixuje sa do močoviny, prostredníctvom ktorej sa vylúči u človeka 25 až 35 g"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 713,
+          "questionNumber": 713,
+          "page": 93,
+          "endPage": 93,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 11,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w11_mocovinovy_cyklus",
+          "reason": "Otázka skúša reakcie, substráty, lokalizáciu alebo poruchy tvorby močoviny a toxicitu amoniaku.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 12,
+          "objectiveRefs": [
+            1,
+            2,
+            3
+          ]
+        }
+      },
+      {
+        "question": "Stanovenie koncentrácie močoviny v sére a v moči:",
+        "answers": [
+          "môže nás informovať len o funkcii obličky",
+          "môže nás informovať len o miere katabolizmu bielkovín",
+          "je dvakrát citlivejšie pre posúdenie poškodenia obličky ako stanovenie kreatinínu",
+          "informuje nás o príčinách oligúrie"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 714,
+          "questionNumber": 714,
+          "page": 93,
+          "endPage": 93,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 11,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w11_mocovina_klinika_zaver",
+          "reason": "Otázka skúša vlastnosti močoviny, jej koncentráciu, vylučovanie alebo diagnostický význam.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 12,
+          "objectiveRefs": [
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Pre syntézu močoviny sú potrebné substráty:",
+        "answers": [
+          "NH4+ uvoľnený len glutamátdehydrogenázou",
+          "NH4+ uvoľnený len glutaminázou",
+          "voľný amoniak a aminodusík z kyseliny asparágovej",
+          "NH4 , HCO3- , kyselina asparágová, H2O, 2 ATP, 1 GTP"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 719,
+          "questionNumber": 719,
+          "page": 94,
+          "endPage": 94,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 11,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w11_mocovinovy_cyklus",
+          "reason": "Otázka skúša reakcie, substráty, lokalizáciu alebo poruchy tvorby močoviny a toxicitu amoniaku.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 12,
+          "objectiveRefs": [
+            1,
+            2,
+            3
+          ]
+        }
+      },
+      {
+        "question": "Močovina:",
+        "answers": [
+          "na jej tvorbu postačuje približne 25% funkčnej kapacity pečene",
+          "za deň sa jej vylúči približne 30g, čo zodpovedá 14 gramom dusíka",
+          "vylučuje sa len glomerulárnou filtráciou",
+          "na jej tvorbu postačuje približne 25% funkčnej kapacity obličky"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 721,
+          "questionNumber": 721,
+          "page": 94,
+          "endPage": 94,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 11,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w11_mocovina_klinika_zaver",
+          "reason": "Otázka skúša vlastnosti močoviny, jej koncentráciu, vylučovanie alebo diagnostický význam.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 12,
+          "objectiveRefs": [
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Stanovenie koncentrácie močoviny v sére a v moči:",
+        "answers": [
+          "informuje nás o miere katabolizmu bielkovín a funkcií obličky",
+          "zvýšené vylučovanie močom je spojené so zvýšeným katabolizmom bielkovín",
+          "zvýšená hladina v sére, znížené vylučovanie svedčí o poškodení obličiek",
+          "slúži ako najvýznamnejší parameter pre posúdenie glomerulárnej filtrácie a spätnej tubulárnej sekrécie"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 722,
+          "questionNumber": 722,
+          "page": 94,
+          "endPage": 94,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 11,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w11_mocovina_klinika_zaver",
+          "reason": "Otázka skúša vlastnosti močoviny, jej koncentráciu, vylučovanie alebo diagnostický význam.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 12,
+          "objectiveRefs": [
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Močovina (NH2)2CO:",
+        "answers": [
+          "je u človeka koncový produkt degradácie purínových nukleotidov",
+          "u ureotelných organizmov je koncový produkt degradácie amoniaku",
+          "vylučuje sa len glomerulárnou filtráciou",
+          "je výborným klinickým parametrom pre sledovanie funkčnej spôsobilosti obličky"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 726,
+          "questionNumber": 726,
+          "page": 94,
+          "endPage": 95,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 11,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w11_mocovina_klinika_zaver",
+          "reason": "Otázka skúša vlastnosti močoviny, jej koncentráciu, vylučovanie alebo diagnostický význam.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 12,
+          "objectiveRefs": [
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Aminokyselina, ktorá je donorom jednej aminoskupiny v močovine:",
+        "answers": [
+          "vzniká redukčnou amináciou kyseliny oxaloctovej",
+          "vzniká transamináciou kyseliny pyrohroznovej",
+          "vzniká transamináciou kyseliny oxaloctovej, kde donorom aminoskupiny je kyselina glutámová",
+          "patrí medzi neutrálne aminokyseliny"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 727,
+          "questionNumber": 727,
+          "page": 95,
+          "endPage": 95,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 11,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w11_mocovinovy_cyklus",
+          "reason": "Otázka skúša reakcie, substráty, lokalizáciu alebo poruchy tvorby močoviny a toxicitu amoniaku.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 12,
+          "objectiveRefs": [
+            1,
+            2,
+            3
+          ]
+        }
+      },
+      {
+        "question": "Amoniak:",
+        "answers": [
+          "transportovaný je prostredníctvom glutamínu do pečene cca 5 % a do obličky 95 %",
+          "toxický je v koncentrácii 10-3 mol/l",
+          "v obličke uvoľnený glutaminázou slúži na reguláciu acidobázickej rovnováhy",
+          "u ureotelných živočíchov sa vylučuje prostredníctvom močoviny"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 728,
+          "questionNumber": 728,
+          "page": 95,
+          "endPage": 95,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 11,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w11_mocovinovy_cyklus",
+          "reason": "Otázka skúša reakcie, substráty, lokalizáciu alebo poruchy tvorby močoviny a toxicitu amoniaku.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 12,
+          "objectiveRefs": [
+            1,
+            2,
+            3
+          ]
+        }
+      },
+      {
+        "question": "Genetické poruchy enzýmov cyklu tvorby močoviny:",
+        "answers": [
+          "súvisia s poklesom amoniaku",
+          "vedú ku vzostupom amoniaku v krvi",
+          "úplna strata ich aktivity nie je zlučiteľná so životom",
+          "ich čiastočná strata aktivity sa prejavuje vracaním, poruchami rastu, kŕčami, zastavením duševného vývoja"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 729,
+          "questionNumber": 729,
+          "page": 95,
+          "endPage": 95,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 11,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w11_mocovinovy_cyklus",
+          "reason": "Otázka skúša reakcie, substráty, lokalizáciu alebo poruchy tvorby močoviny a toxicitu amoniaku.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 12,
+          "objectiveRefs": [
+            1,
+            2,
+            3
+          ]
+        }
+      },
+      {
+        "question": "Močovina:",
+        "answers": [
+          "vzniká v cyklickom metabolickom procese, ktorý vedie k tvorbe energie",
+          "enzýmy, ktoré sa zúčastňujú jej syntézy sú konštitučné",
+          "jej syntéza si vyžaduje 2 ATP a 1 GTP",
+          "pri poškodení obličky, vylučuje sa vo zvýšenej miere močom"
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 704,
+          "questionNumber": 704,
+          "page": 92,
+          "endPage": 92,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "detectedCorrect": [],
+        "correct": [],
+        "reviewReasons": [
+          "V PDF nie je jednoznačne označená správna odpoveď."
+        ],
+        "curriculum": {
+          "week": 11,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w11_mocovinovy_cyklus",
+          "reason": "Otázka skúša reakcie, substráty, lokalizáciu alebo poruchy tvorby močoviny a toxicitu amoniaku.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 12,
+          "objectiveRefs": [
+            1,
+            2,
+            3
+          ]
+        },
+        "answerReview": {
+          "status": "accepted",
+          "date": "2026-10-04",
+          "acceptanceFile": "tools/imports/biochemia1_accepted_review.json",
+          "confidence": "high",
+          "atpModel": "2.5 ATP/NADH; 1.5 ATP/FADH2",
+          "reason": "Močovinový cyklus energiu spotrebúva: 3 ATP, spolu 4 makroergické fosfátové väzby. Expresia jeho enzýmov sa môže zvýšiť pri vyššom príjme bielkovín. Poškodenie obličiek samo osebe nie je dôvodom zvýšeného vylučovania močoviny.",
+          "sources": [
+            {
+              "title": "NCBI Bookshelf: Physiology, Urea Cycle",
+              "url": "https://www.ncbi.nlm.nih.gov/books/NBK513323/"
+            },
+            {
+              "title": "Regulácia expresie enzýmov močovinového cyklu príjmom bielkovín",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/31177541/"
+            }
+          ],
+          "note": "Pôvodné detectedCorrect a reviewReasons sú história extrakcie. Platný kľúč je correct."
+        }
+      }
+    ]
+  }
+]

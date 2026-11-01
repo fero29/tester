@@ -1,0 +1,1284 @@
+[
+  {
+    "question": "Keď donorom vodíkov pre dýchací reťazec je FADH2, potom:",
+    "answers": [
+      "FMN je prvým akceptorom vodíkov",
+      "koenzým Q je prvým akceptorom vodíkov",
+      "6 protónov je prenášaných do medzimembránového priestoru mitochondrie",
+      "2 molekuly ATP sa môžu vytvoriť pri oxidačnej fosforylácii"
+    ],
+    "source": {
+      "file": "Biochémia 1 otázky.pdf",
+      "sequence": 7,
+      "questionNumber": 7,
+      "page": 1,
+      "endPage": 1,
+      "answerLabels": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "detectedCorrect": [
+      1,
+      2,
+      3
+    ],
+    "correct": null,
+    "reviewReasons": [
+      "Pri označenej možnosti d je ručná poznámka, že 2 ATP nie je správne, a oprava na 1,5 ATP."
+    ]
+  },
+  {
+    "question": "Molekula FMN obsahuje:",
+    "answers": [
+      "ribitol + fosfát",
+      "iba riboflavín",
+      "riboflavín + fosfát",
+      "riboflavín + adenozín + fosfát"
+    ],
+    "source": {
+      "file": "Biochémia 1 otázky.pdf",
+      "sequence": 10,
+      "questionNumber": 10,
+      "page": 2,
+      "endPage": 2,
+      "answerLabels": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "detectedCorrect": [
+      0,
+      2,
+      3
+    ],
+    "correct": null,
+    "reviewReasons": [
+      "Modré bodky pri a/c a červené podčiarknutia s výkričníkom vytvárajú nejednoznačný kľúč."
+    ]
+  },
+  {
+    "question": "Acylfosfátová makroergická väzba vzniká väzbou:",
+    "answers": [
+      "fosfátu na acetaldehyd",
+      "fosfátu na -OH skupinu glyceraldehydu",
+      "fosfátu na acyl-Coa",
+      "acylu na glycerolfosfát"
+    ],
+    "source": {
+      "file": "Biochémia 1 otázky.pdf",
+      "sequence": 11,
+      "questionNumber": 11,
+      "page": 2,
+      "endPage": 2,
+      "answerLabels": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "detectedCorrect": [],
+    "correct": null,
+    "reviewReasons": [
+      "V PDF nie je jednoznačne označená správna odpoveď."
+    ]
+  },
+  {
+    "question": "Acylfosfátová väzba obsahuje:",
+    "answers": [
+      "adenozíntrifosfát",
+      "3-fosfoglycerát",
+      "fosfoenolpyruvát",
+      "triacylglycerol"
+    ],
+    "source": {
+      "file": "Biochémia 1 otázky.pdf",
+      "sequence": 28,
+      "questionNumber": 26,
+      "page": 4,
+      "endPage": 4,
+      "answerLabels": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "detectedCorrect": [],
+    "correct": null,
+    "reviewReasons": [
+      "V PDF nie je jednoznačne označená správna odpoveď."
+    ]
+  },
+  {
+    "question": "Acylfosfátová makroergická väzba je prítomná v:",
+    "answers": [
+      "ATP",
+      "3-fosfoglyceráte",
+      "fosfoenolpyruváte",
+      "kreatínfosfáte"
+    ],
+    "source": {
+      "file": "Biochémia 1 otázky.pdf",
+      "sequence": 43,
+      "questionNumber": 43,
+      "page": 6,
+      "endPage": 6,
+      "answerLabels": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "detectedCorrect": [],
+    "correct": null,
+    "reviewReasons": [
+      "V PDF nie je jednoznačne označená správna odpoveď."
+    ]
+  },
+  {
+    "question": "Ktoré z uvedených tvrdení platí:",
+    "answers": [
+      "pri osmóze prechádza rozpustená látka na miesto s nižšou koncentráciou rozpustenej látky",
+      "pri osmóze prechádza rozpustená látka cez polopriepustnú membránu",
+      "pri osmóze prechádza rozpúšťadlo na miesto s vyššou koncentráciou rozpustenej látky",
+      "pri osmóze dochádza k vyrovnávaniu koncentrácií presunom rozpustenej látky"
+    ],
+    "source": {
+      "file": "Biochémia 1 otázky.pdf",
+      "sequence": 57,
+      "questionNumber": 57,
+      "page": 8,
+      "endPage": 8,
+      "answerLabels": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "detectedCorrect": [
+      2,
+      3
+    ],
+    "correct": null,
+    "reviewReasons": [
+      "Pri označenej možnosti d je ručná oprava rozpustenej látky na rozpúšťadlo."
+    ]
+  },
+  {
+    "question": "Druhé posly:",
+    "answers": [
+      "sú látky vznikajúce v bunkách po účinku vo vode rozpustných regulačných....",
+      "sú cyklické nukleotidy ako napr. cAMP, cGMP",
+      "sú látky, ktoré sa tvoria účinkom cytosolových enzýmov",
+      "sú potrebné pre účinok tyroxínu"
+    ],
+    "source": {
+      "file": "Biochémia 1 otázky.pdf",
+      "sequence": 76,
+      "questionNumber": 76,
+      "page": 11,
+      "endPage": 11,
+      "answerLabels": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "detectedCorrect": [
+      0,
+      1
+    ],
+    "correct": null,
+    "reviewReasons": [
+      "Zdroj obsahuje nedokončený text možnosti (výpustku)."
+    ]
+  },
+  {
+    "question": "Steroidné hormóny:",
+    "answers": [
+      "spravidla zvyšujú koncentráciu vápenatých iónov v bunke",
+      "spravidla využívajú cytosolové receptory",
+      "spravidla využívajú membránové receptory spriahnuté s G- proteínom",
+      "ich pôsobením dochádza v bunke k indukcii alebo represii génovej..."
+    ],
+    "source": {
+      "file": "Biochémia 1 otázky.pdf",
+      "sequence": 83,
+      "questionNumber": 83,
+      "page": 12,
+      "endPage": 12,
+      "answerLabels": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "detectedCorrect": [
+      1,
+      3
+    ],
+    "correct": null,
+    "reviewReasons": [
+      "Zdroj obsahuje nedokončený text možnosti (výpustku)."
+    ]
+  },
+  {
+    "question": "Pre transport látok sprostredkovanou difúziou:",
+    "answers": [
+      "je nevyhnutná prítomnosť ATP",
+      "je nevyhnutný transportný proteín",
+      "je nevyhnutná prítomnosť druhého posla cAMP",
+      "je nevyhnutný koncentračný gradient transportnej látky"
+    ],
+    "source": {
+      "file": "Biochémia 1 otázky.pdf",
+      "sequence": 86,
+      "questionNumber": 86,
+      "page": 12,
+      "endPage": 12,
+      "answerLabels": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "detectedCorrect": [
+      1,
+      3
+    ],
+    "correct": null,
+    "reviewReasons": [
+      "Rovnaký text má rozdielne označenia odpovedí; poradia [86, 172]."
+    ]
+  },
+  {
+    "question": "V procese terminálnej oxidácie:",
+    "answers": [
+      "sú elektróny prenášané z oxidovaných koenzýmov až na kyslík",
+      "sú protóny transportované z medzimembránového priestoru do matrix",
+      "prenosom elektrónov z 1 molekuly FADH2 sa uvoľní energia pre syntézu 2 molekúl ATP",
+      "prenosom elektrónov z 1 molekuly NADH sa uvoľní energia pre syntézu 3 molekúl ATP"
+    ],
+    "source": {
+      "file": "Biochémia 1 otázky.pdf",
+      "sequence": 96,
+      "questionNumber": 96,
+      "page": 13,
+      "endPage": 13,
+      "answerLabels": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "detectedCorrect": [],
+    "correct": null,
+    "reviewReasons": [
+      "V PDF nie je jednoznačne označená správna odpoveď."
+    ]
+  },
+  {
+    "question": "Ca2+-závislá ATP-áza pri kontrakcii svalovej bunky:",
+    "answers": [
+      "transportuje Ca2+ z cytozolu do sarkoplazmatického retikula",
+      "transportuje Ca2+ zo sarkoplazmatického retikula do cytozolu",
+      "transportuje Ca2+ z mitochondrie do cytozolu",
+      "transportuje Ca2+ do cytozolu z vonkajšieho prostredia"
+    ],
+    "source": {
+      "file": "Biochémia 1 otázky.pdf",
+      "sequence": 127,
+      "questionNumber": 127,
+      "page": 17,
+      "endPage": 17,
+      "answerLabels": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "detectedCorrect": [],
+    "correct": null,
+    "reviewReasons": [
+      "V PDF nie je jednoznačne označená správna odpoveď."
+    ]
+  },
+  {
+    "question": "Ca2+ ióny:",
+    "answers": [
+      "sú transportované Ca2+-závislou ATP-ázou",
+      "ich koncentrácia v cytozole je vyššia ako mimo bunku",
+      "sú transportované do bunky sprostredkovanou difúziou",
+      "ich koncentrácia v endoplazmatickom retikule je vyššia ako v cytozole"
+    ],
+    "source": {
+      "file": "Biochémia 1 otázky.pdf",
+      "sequence": 136,
+      "questionNumber": 136,
+      "page": 18,
+      "endPage": 18,
+      "answerLabels": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "detectedCorrect": [
+      0,
+      3
+    ],
+    "correct": null,
+    "reviewReasons": [
+      "Rovnaký text má rozdielne označenia odpovedí; poradia [136, 222]."
+    ]
+  },
+  {
+    "question": "Druhé posly:",
+    "answers": [
+      "sú látky vznikajúce v bunkách po účinku vo vode rozpustných regulačných....",
+      "sú cyklické nukleotidy ako napr. cAMP, cGMP",
+      "sú látky, ktoré sa tvoria účinkom cytosolových enzýmov",
+      "sú potrebné pre účinok tyroxínu"
+    ],
+    "source": {
+      "file": "Biochémia 1 otázky.pdf",
+      "sequence": 162,
+      "questionNumber": 162,
+      "page": 22,
+      "endPage": 22,
+      "answerLabels": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "detectedCorrect": [
+      0,
+      1
+    ],
+    "correct": null,
+    "reviewReasons": [
+      "Zdroj obsahuje nedokončený text možnosti (výpustku)."
+    ]
+  },
+  {
+    "question": "Steroidné hormóny:",
+    "answers": [
+      "spravidla zvyšujú koncentráciu vápenatých iónov v bunke",
+      "spravidla využívajú cytosolové receptory",
+      "spravidla využívajú membránové receptory spriahnuté s G- proteínom",
+      "ich pôsobením dochádza v bunke k indukcii alebo represii génovej..."
+    ],
+    "source": {
+      "file": "Biochémia 1 otázky.pdf",
+      "sequence": 169,
+      "questionNumber": 169,
+      "page": 23,
+      "endPage": 23,
+      "answerLabels": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "detectedCorrect": [
+      1,
+      3
+    ],
+    "correct": null,
+    "reviewReasons": [
+      "Zdroj obsahuje nedokončený text možnosti (výpustku)."
+    ]
+  },
+  {
+    "question": "Pre transport látok sprostredkovanou difúziou:",
+    "answers": [
+      "je nevyhnutná prítomnosť ATP",
+      "je nevyhnutný transportný proteín",
+      "je nevyhnutná prítomnosť druhého posla cAMP",
+      "je nevyhnutný koncentračný gradient transportnej látky"
+    ],
+    "source": {
+      "file": "Biochémia 1 otázky.pdf",
+      "sequence": 172,
+      "questionNumber": 172,
+      "page": 23,
+      "endPage": 23,
+      "answerLabels": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "detectedCorrect": [
+      1
+    ],
+    "correct": null,
+    "reviewReasons": [
+      "Rovnaký text má rozdielne označenia odpovedí; poradia [86, 172]."
+    ]
+  },
+  {
+    "question": "V procese terminálnej oxidácie:",
+    "answers": [
+      "sú elektróny prenášané z oxidovaných koenzýmov až na kyslík",
+      "sú protóny transportované z medzimembránového priestoru do matrix",
+      "prenosom elektrónov z 1 molekuly FADH2 sa uvoľní energia pre syntézu 2 molekúl ATP",
+      "prenosom elektrónov z 1 molekuly NADH sa uvoľní energia pre syntézu 3 molekúl ATP"
+    ],
+    "source": {
+      "file": "Biochémia 1 otázky.pdf",
+      "sequence": 182,
+      "questionNumber": 182,
+      "page": 24,
+      "endPage": 24,
+      "answerLabels": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "detectedCorrect": [],
+    "correct": null,
+    "reviewReasons": [
+      "Možnosti c/d sú prečiarknuté modrými krížikmi a majú ručne opravené hodnoty ATP.",
+      "V PDF nie je jednoznačne označená správna odpoveď."
+    ]
+  },
+  {
+    "question": "Ca2+-závislá ATP-áza pri kontrakcii svalovej bunky:",
+    "answers": [
+      "transportuje Ca2+ z cytozolu do sarkoplazmatického retikula",
+      "transportuje Ca2+ zo sarkoplazmatického retikula do cytozolu",
+      "transportuje Ca2+ z mitochondrie do cytozolu",
+      "transportuje Ca2+ do cytozolu z vonkajšieho prostredia"
+    ],
+    "source": {
+      "file": "Biochémia 1 otázky.pdf",
+      "sequence": 213,
+      "questionNumber": 213,
+      "page": 28,
+      "endPage": 28,
+      "answerLabels": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "detectedCorrect": [],
+    "correct": null,
+    "reviewReasons": [
+      "V PDF nie je jednoznačne označená správna odpoveď."
+    ]
+  },
+  {
+    "question": "Ca2+ ióny:",
+    "answers": [
+      "sú transportované Ca2+-závislou ATP-ázou",
+      "ich koncentrácia v cytozole je vyššia ako mimo bunku",
+      "sú transportované do bunky sprostredkovanou difúziou",
+      "ich koncentrácia v endoplazmatickom retikule je vyššia ako v cytozole"
+    ],
+    "source": {
+      "file": "Biochémia 1 otázky.pdf",
+      "sequence": 222,
+      "questionNumber": 222,
+      "page": 29,
+      "endPage": 29,
+      "answerLabels": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "detectedCorrect": [
+      0,
+      2,
+      3
+    ],
+    "correct": null,
+    "reviewReasons": [
+      "Rovnaký text má rozdielne označenia odpovedí; poradia [136, 222]."
+    ]
+  },
+  {
+    "question": "Počas hladovania:",
+    "answers": [
+      "glykogén zo svalov je zdroj glukózy v krvi",
+      "z glykogénu v pečeni sa uvoľňuje glukóza do krvi",
+      "karboxylové kyseliny z tukového tkaniva sa oxidujú v erytrocytoch",
+      "pečeň využíva karboxylové kyseliny pre glukoneogenézu"
+    ],
+    "source": {
+      "file": "Biochémia 1 otázky.pdf",
+      "sequence": 259,
+      "questionNumber": 259,
+      "page": 34,
+      "endPage": 34,
+      "answerLabels": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "detectedCorrect": [
+      1,
+      3
+    ],
+    "correct": null,
+    "reviewReasons": [
+      "Označená možnosť d je spochybnená ručnou poznámkou o VKK a glukoneogenéze."
+    ]
+  },
+  {
+    "question": "1,3-bisfosfoglycerát obsahuje fosfát viazaný:",
+    "answers": [
+      "fosfomonoesterovou väzbou na C1",
+      "acylfosfátovou makroergickou väzbou na C3",
+      "fosfodiesterovou väzbou na C3",
+      "dvomi makroergickými väzbami"
+    ],
+    "source": {
+      "file": "Biochémia 1 otázky.pdf",
+      "sequence": 283,
+      "questionNumber": 283,
+      "page": 37,
+      "endPage": 37,
+      "answerLabels": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "detectedCorrect": [],
+    "correct": null,
+    "reviewReasons": [
+      "V PDF nie je jednoznačne označená správna odpoveď."
+    ]
+  },
+  {
+    "question": "Za aeróbnych podmienok v glykolýze:",
+    "answers": [
+      "na 1 mol glukózy vznikajú 2 mol laktátu",
+      "vznikajú na 1 mol glukózy 2 acetyl-CoA",
+      "vznikajú na 1 mol glukózy 2 CO2",
+      "reoxidáciou redukovaného koenzýmu vytvoreného premenou 1 mol glukózy môžu vznikať 4 ATP"
+    ],
+    "source": {
+      "file": "Biochémia 1 otázky.pdf",
+      "sequence": 284,
+      "questionNumber": 284,
+      "page": 37,
+      "endPage": 37,
+      "answerLabels": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "detectedCorrect": [],
+    "correct": null,
+    "reviewReasons": [
+      "V PDF nie je jednoznačne označená správna odpoveď."
+    ]
+  },
+  {
+    "question": "Fosfofruktokináza katalyzuje reakciu:",
+    "answers": [
+      "ktorá je vratná",
+      "ktorá sa v glukoneogenéze obchádza glukóza-6-fosfátfosfatázou",
+      "v ktorej vzniká fruktóza-6-fosfát",
+      "k aktivácii ktorej dochádza najmä pri nedostatku glukózy"
+    ],
+    "source": {
+      "file": "Biochémia 1 otázky.pdf",
+      "sequence": 292,
+      "questionNumber": 292,
+      "page": 38,
+      "endPage": 38,
+      "answerLabels": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "detectedCorrect": [],
+    "correct": null,
+    "reviewReasons": [
+      "V PDF nie je jednoznačne označená správna odpoveď."
+    ]
+  },
+  {
+    "question": "Pri oxidácii jedného glyceraldehyd-3-fosfátu na 3-fosfoglycerát za aeróbnych podmienok:",
+    "answers": [
+      "sa získa rovnaké množstvo ATP ako za anaeróbnych podmienok",
+      "sa môžu získať 3 ATP oxidatívnou fosforyláciou a 1 ATP substrátovou fosforyláciou",
+      "môže vzniknúť celkove 6 ATP",
+      "môžu vzniknúť 2 ATP substrátovou fosforyláciou"
+    ],
+    "source": {
+      "file": "Biochémia 1 otázky.pdf",
+      "sequence": 293,
+      "questionNumber": 293,
+      "page": 38,
+      "endPage": 38,
+      "answerLabels": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "detectedCorrect": [],
+    "correct": null,
+    "reviewReasons": [
+      "V PDF nie je jednoznačne označená správna odpoveď."
+    ]
+  },
+  {
+    "question": "Pri úplnej aeróbnej oxidácii glukózy:",
+    "answers": [
+      "vznikajú 2 mol pyruvátu",
+      "vzniká 2 CO2 v procese, ktorý si vyžaduje tiamíndifosfát a prebieha v cytozole bunky",
+      "vzniká 24 ATP v Krebsovom cykle",
+      "procesom oxidatívnej fosforylácie sa celkove tvorí 24 ATP"
+    ],
+    "source": {
+      "file": "Biochémia 1 otázky.pdf",
+      "sequence": 294,
+      "questionNumber": 294,
+      "page": 38,
+      "endPage": 39,
+      "answerLabels": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "detectedCorrect": [
+      0
+    ],
+    "correct": null,
+    "reviewReasons": [
+      "Modrý krížik pri c a oprava lokalizácie pri b; kľúč vyžaduje kontrolu."
+    ]
+  },
+  {
+    "question": "Zapojenie bielkovín do glukoneogenézy:",
+    "answers": [
+      "nie je potrebné, pretože dostatočným substrátom je laktát",
+      "si vyžaduje proteázy predovšetkým v pečeni",
+      "si vyžaduje reakcie, ktorými sa aminokyseliny menia na hydroxykyseliny",
+      "si vyžaduje enzým laktátdehydrogenázu"
+    ],
+    "source": {
+      "file": "Biochémia 1 otázky.pdf",
+      "sequence": 295,
+      "questionNumber": 295,
+      "page": 39,
+      "endPage": 39,
+      "answerLabels": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "detectedCorrect": [],
+    "correct": null,
+    "reviewReasons": [
+      "V PDF nie je jednoznačne označená správna odpoveď."
+    ]
+  },
+  {
+    "question": "Ak sa oxiduje glukóza aeróbne, jej oxidáciou po pyruvát získame na 1 mol glukózy:",
+    "answers": [
+      "2 moly ATP",
+      "36-38 molov ATP",
+      "8 molov ATP",
+      "12 molov ATP"
+    ],
+    "source": {
+      "file": "Biochémia 1 otázky.pdf",
+      "sequence": 297,
+      "questionNumber": 297,
+      "page": 39,
+      "endPage": 39,
+      "answerLabels": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "detectedCorrect": [],
+    "correct": null,
+    "reviewReasons": [
+      "V PDF nie je jednoznačne označená správna odpoveď."
+    ]
+  },
+  {
+    "question": "Aeróbna glykolýza:",
+    "answers": [
+      "vedie k vzniku 1 mol pyruvátu a 1 mol laktátu na 1 mol glukózy",
+      "umožňuje vznik 4 ATP substrátovou fosforyláciou",
+      "umožňuje vznik 2 ATP substrátovou fosforyláciou",
+      "pri reoxidácii redukovaného koenzýmu vytvoreného v reakcii katalyzovanej glyceraldehyd-3- fosfátdehydrogenázou umožňuje vznik 6 mol ATP na 1 mol glukózy"
+    ],
+    "source": {
+      "file": "Biochémia 1 otázky.pdf",
+      "sequence": 342,
+      "questionNumber": 342,
+      "page": 45,
+      "endPage": 45,
+      "answerLabels": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "detectedCorrect": [
+      1,
+      3
+    ],
+    "correct": null,
+    "reviewReasons": [
+      "Označená možnosť d má ručne opravený energetický výťažok."
+    ]
+  },
+  {
+    "question": "Pri oxidácii glyceraldehyd-3-fosfátu v glykolýze:",
+    "answers": [
+      "vzniká za aeróbnych podmienok 1 ATP substrátovou fosforyláciou",
+      "vzniká ATP substrátovou fosforyláciou len za anaeróbnych podmienok",
+      "nie je rozdiel v energetickej bilancii za aeróbnych a anaeróbnych podmienok",
+      "môžu za aeróbnych podmienok vznikať celkove 4 ATP"
+    ],
+    "source": {
+      "file": "Biochémia 1 otázky.pdf",
+      "sequence": 351,
+      "questionNumber": 351,
+      "page": 46,
+      "endPage": 46,
+      "answerLabels": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "detectedCorrect": [],
+    "correct": null,
+    "reviewReasons": [
+      "V PDF nie je jednoznačne označená správna odpoveď."
+    ]
+  },
+  {
+    "question": "Ak sa oxiduje glukóza aeróbne jej oxidáciou pre pyruvát získame na 1 mol glukózy:",
+    "answers": [
+      "2 moly ATP",
+      "36-38 molov ATP",
+      "6-8 molov ATP",
+      "12 molov ATP"
+    ],
+    "source": {
+      "file": "Biochémia 1 otázky.pdf",
+      "sequence": 356,
+      "questionNumber": 356,
+      "page": 46,
+      "endPage": 47,
+      "answerLabels": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "detectedCorrect": [],
+    "correct": null,
+    "reviewReasons": [
+      "V PDF nie je jednoznačne označená správna odpoveď."
+    ]
+  },
+  {
+    "question": "Za aeróbnych podmienok dochádza v bunkách:",
+    "answers": [
+      "k zvýšeniu utilizácie tukov",
+      "vzostupe laktátu",
+      "k poklesu ATP",
+      "k acidóze"
+    ],
+    "source": {
+      "file": "Biochémia 1 otázky.pdf",
+      "sequence": 357,
+      "questionNumber": 357,
+      "page": 47,
+      "endPage": 47,
+      "answerLabels": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "detectedCorrect": [],
+    "correct": null,
+    "reviewReasons": [
+      "V PDF nie je jednoznačne označená správna odpoveď."
+    ]
+  },
+  {
+    "question": "V reakcii beta-oxidácie, ktorej produkt reakcie umožní v dýchacom reťazci vznik dvoch molekúl ATP:",
+    "answers": [
+      "je potrebný enzým acyl-CoA dehydrogenáza",
+      "je potrebný enzým beta-hydroxyacyl-CoA dehydrogenáza",
+      "je potrebný FAD ako koenzým",
+      "vzniká látka, ktorá je substrátom beta-ketotiolázy"
+    ],
+    "source": {
+      "file": "Biochémia 1 otázky.pdf",
+      "sequence": 424,
+      "questionNumber": 424,
+      "page": 55,
+      "endPage": 55,
+      "answerLabels": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "detectedCorrect": [
+      0,
+      2
+    ],
+    "correct": null,
+    "reviewReasons": [
+      "Ručná oprava počtu ATP mení samotné zadanie otázky."
+    ]
+  },
+  {
+    "question": "Kyselina β-hydroxymaslová:",
+    "answers": [
+      "vzniká z β-hydroxy-β-metylglutarylCoA po odštiepení HS CoA",
+      "patrí medzi typické látky ketónovej povahy",
+      "pri jeho tvorbe z acetoacetátu vzniká redukovaný FAD",
+      "sa v prvej reakcii utilizácie ketolátok mení na acetoacetylCoA"
+    ],
+    "source": {
+      "file": "Biochémia 1 otázky.pdf",
+      "sequence": 440,
+      "questionNumber": 440,
+      "page": 57,
+      "endPage": 58,
+      "answerLabels": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "detectedCorrect": [],
+    "correct": null,
+    "reviewReasons": [
+      "V PDF nie je jednoznačne označená správna odpoveď."
+    ]
+  },
+  {
+    "question": "Pri aktivácii karboxylových kyselín pred ich vstupom do β-oxidácie:",
+    "answers": [
+      "vzniká ako medziprodukt látka s obsahom makroergickej acylfosfátovej väzby",
+      "dochádza k štiepeniu fosfodiesterovej väzby v ATP",
+      "produkt aktivácie obsahuje tioesterovú makroergickú väzbu",
+      "ako medziprodukt vzniká acyl-CoA"
+    ],
+    "source": {
+      "file": "Biochémia 1 otázky.pdf",
+      "sequence": 441,
+      "questionNumber": 441,
+      "page": 58,
+      "endPage": 58,
+      "answerLabels": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "detectedCorrect": [
+      0,
+      2
+    ],
+    "correct": null,
+    "reviewReasons": [
+      "Označená možnosť a má ručne opravený typ väzby."
+    ]
+  },
+  {
+    "question": "Dehydrogenačné reakcie v β-oxidácii katalyzuje:",
+    "answers": [
+      "acyl-CoA dehydrogenáza, ktorá ako koenzým využíva FAD",
+      "enzým, ktorý umožňuje vznik enoyl-CoA a vodíky odovzdáva do terminálnej oxidácie na koenzým Q",
+      "enoyl-CoA hydratáza s koenzýmom NAD",
+      "β-hydroxyacyl-CoA dehydrogenáza, ktorej koenzým umožní tvorbu 3 ATP v dýchacom reťazci"
+    ],
+    "source": {
+      "file": "Biochémia 1 otázky.pdf",
+      "sequence": 442,
+      "questionNumber": 442,
+      "page": 58,
+      "endPage": 58,
+      "answerLabels": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "detectedCorrect": [
+      0,
+      1,
+      3
+    ],
+    "correct": null,
+    "reviewReasons": [
+      "Označená možnosť d má ručnú opravu 3 ATP na 2,5 ATP."
+    ]
+  },
+  {
+    "question": "AcetoacetylCoA - tioláza:",
+    "answers": [
+      "zabezpečuje priamu premenu acetoacetylCoA na kyselinu mevalónovú",
+      "v priebehu beta-oxidácie štiepi ketoacylCoA",
+      "je súčasťou pyruvátdehydrogenázového komplexu",
+      "pri syntéze ketolátok v pečeni katalyzuje tvorbu glutarylCoA"
+    ],
+    "source": {
+      "file": "Biochémia 1 otázky.pdf",
+      "sequence": 446,
+      "questionNumber": 446,
+      "page": 58,
+      "endPage": 58,
+      "answerLabels": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "detectedCorrect": [],
+    "correct": null,
+    "reviewReasons": [
+      "V PDF nie je jednoznačne označená správna odpoveď."
+    ]
+  },
+  {
+    "question": "Štruktúra lipoproteínových častíc:",
+    "answers": [
+      "voľný cholesterol sa nachádza v obale",
+      "hydrofóbne zložky sa nachádzajú v jadre častice",
+      "triacylglyceroly sú povrchové častice",
+      "bielkoviny svojim hydrofilným charakterom umožňujú transport lipidov v..."
+    ],
+    "source": {
+      "file": "Biochémia 1 otázky.pdf",
+      "sequence": 472,
+      "questionNumber": 472,
+      "page": 62,
+      "endPage": 62,
+      "answerLabels": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "detectedCorrect": [
+      0,
+      1,
+      3
+    ],
+    "correct": null,
+    "reviewReasons": [
+      "Zdroj obsahuje nedokončený text možnosti (výpustku)."
+    ]
+  },
+  {
+    "question": "O poruchách metabolizmu lipoproteínov platí:",
+    "answers": [
+      "kvantitatívne zmeny sa označujú dyslipoproteinémie",
+      "primárne hyperlipoproteinémie sú najčastejšie podmienené stravou",
+      "pri ich zisťovaní sa vyšetrujú: hladiny TAG a cholesterolu v sére, vzhľad...",
+      "znížená až chýbajúca frakcia beta- lipoproteínov sa označuje abetalipoproteinémia"
+    ],
+    "source": {
+      "file": "Biochémia 1 otázky.pdf",
+      "sequence": 476,
+      "questionNumber": 476,
+      "page": 62,
+      "endPage": 62,
+      "answerLabels": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "detectedCorrect": [
+      2,
+      3
+    ],
+    "correct": null,
+    "reviewReasons": [
+      "Zdroj obsahuje nedokončený text možnosti (výpustku)."
+    ]
+  },
+  {
+    "question": "LDL častice:",
+    "answers": [
+      "tvoria sa v krvných kapilárach",
+      "nie sú metabolizované lipoproteínovou lipázou, kedže už neobsahujú vo svojom jadre...",
+      "sú zodpovedné za reverzný transport cholesterolu",
+      "ich hlavnou zložkou sú endogénne TAG"
+    ],
+    "source": {
+      "file": "Biochémia 1 otázky.pdf",
+      "sequence": 490,
+      "questionNumber": 490,
+      "page": 64,
+      "endPage": 64,
+      "answerLabels": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "detectedCorrect": [
+      0,
+      1
+    ],
+    "correct": null,
+    "reviewReasons": [
+      "Zdroj obsahuje nedokončený text možnosti (výpustku)."
+    ]
+  },
+  {
+    "question": "Kyselina olejová:",
+    "answers": [
+      "je nasýtená VKK",
+      "má 17 uhlíkov vo svojom reťazci",
+      "je esenciálna VKK",
+      "jej β-oxidáciou sa získa 24 ATP"
+    ],
+    "source": {
+      "file": "Biochémia 1 otázky.pdf",
+      "sequence": 514,
+      "questionNumber": 514,
+      "page": 67,
+      "endPage": 67,
+      "answerLabels": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "detectedCorrect": [],
+    "correct": null,
+    "reviewReasons": [
+      "V PDF nie je jednoznačne označená správna odpoveď."
+    ]
+  },
+  {
+    "question": "Kyselina olejová:",
+    "answers": [
+      "je nasýtená VKK",
+      "má 17 uhlíkov vo svojom reťazci",
+      "je esenciálna VKK",
+      "jej β-oxidáciou sa získava 24 ATP"
+    ],
+    "source": {
+      "file": "Biochémia 1 otázky.pdf",
+      "sequence": 520,
+      "questionNumber": 520,
+      "page": 68,
+      "endPage": 68,
+      "answerLabels": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "detectedCorrect": [],
+    "correct": null,
+    "reviewReasons": [
+      "V PDF nie je jednoznačne označená správna odpoveď."
+    ]
+  },
+  {
+    "question": "Hodnota glomerulárnej filtrácie udaná v ml/s:",
+    "answers": [
+      "1,3-2,8 informuje o renálnej insuficiencii",
+      "0,33-0,67 informuje o ľahko zníženej funkcii obličiek",
+      "1,0-1,34 informuje o ťažkej funkčnej poruche obličiek",
+      "pod 0,33 informuje o stredne ťažkej poruche obličiek"
+    ],
+    "source": {
+      "file": "Biochémia 1 otázky.pdf",
+      "sequence": 605,
+      "questionNumber": 605,
+      "page": 79,
+      "endPage": 79,
+      "answerLabels": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "detectedCorrect": [],
+    "correct": null,
+    "reviewReasons": [
+      "V PDF nie je jednoznačne označená správna odpoveď."
+    ]
+  },
+  {
+    "question": "Pre reakciu oxidačnej deaminácie glutamátu je potrebné:",
+    "answers": [
+      "dostatočný prísun substrátov napr. NADPH+H+",
+      "glutamát, ktorý vzniká transamináciou oxalacetátu",
+      "NAD+, O2, cytosólová glutamátdehydrogenáza",
+      "vyplavenie inzulínu"
+    ],
+    "source": {
+      "file": "Biochémia 1 otázky.pdf",
+      "sequence": 685,
+      "questionNumber": 685,
+      "page": 89,
+      "endPage": 89,
+      "answerLabels": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "detectedCorrect": [],
+    "correct": null,
+    "reviewReasons": [
+      "V PDF nie je jednoznačne označená správna odpoveď."
+    ]
+  },
+  {
+    "question": "Amoniak je transportovaný z tkanív do pečene prostredníctvom:",
+    "answers": [
+      "amidu kyseliny glutámovej",
+      "látky vznikajúcej enzýmom glutamínsyntázou vyžadujúcou ATP",
+      "látky, ktorá je potrebná na neutralizáciu moča",
+      "látky, pre syntézu ktorej je potrebná energia vo forme GTP"
+    ],
+    "source": {
+      "file": "Biochémia 1 otázky.pdf",
+      "sequence": 686,
+      "questionNumber": 686,
+      "page": 89,
+      "endPage": 89,
+      "answerLabels": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "detectedCorrect": [
+      0,
+      1
+    ],
+    "correct": null,
+    "reviewReasons": [
+      "Označená možnosť b má opravený názov enzýmu a neistú ručnú poznámku k uznaniu odpovede."
+    ]
+  },
+  {
+    "question": "Močovina:",
+    "answers": [
+      "vzniká v cyklickom metabolickom procese, ktorý vedie k tvorbe energie",
+      "enzýmy, ktoré sa zúčastňujú jej syntézy sú konštitučné",
+      "jej syntéza si vyžaduje 2 ATP a 1 GTP",
+      "pri poškodení obličky, vylučuje sa vo zvýšenej miere močom"
+    ],
+    "source": {
+      "file": "Biochémia 1 otázky.pdf",
+      "sequence": 704,
+      "questionNumber": 704,
+      "page": 92,
+      "endPage": 92,
+      "answerLabels": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "detectedCorrect": [],
+    "correct": null,
+    "reviewReasons": [
+      "V PDF nie je jednoznačne označená správna odpoveď."
+    ]
+  },
+  {
+    "question": "Transaminázy, ktoré majú v klinike diagnostický význam, sú:",
+    "answers": [
+      "glutamátdehydrogenáza lokalizovaná v cytoplazme",
+      "aspartátaminotransferáza (AST) lokalizovaná v cytoplazme",
+      "alanínaminotransferáza (ALT) lokalizovaná v mitochondriách",
+      "enzýmy krvnej plazmy"
+    ],
+    "source": {
+      "file": "Biochémia 1 otázky.pdf",
+      "sequence": 724,
+      "questionNumber": 724,
+      "page": 94,
+      "endPage": 94,
+      "answerLabels": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "detectedCorrect": [],
+    "correct": null,
+    "reviewReasons": [
+      "V PDF nie je jednoznačne označená správna odpoveď."
+    ]
+  }
+]

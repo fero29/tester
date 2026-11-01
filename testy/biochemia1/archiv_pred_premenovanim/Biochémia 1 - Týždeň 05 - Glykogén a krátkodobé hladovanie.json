@@ -1,0 +1,1353 @@
+[
+  {
+    "title": "Biochémia 1 - Týždeň 05 - Glykogén a krátkodobé hladovanie",
+    "description": "5. týždeň, ZS 2026/2027: Metabolizmus glykogénu a vplyv krátkodobého hladovania na hladinu glukózy v krvi a množstvo glykogénu v pečeni. Otázky zaradené podľa cieľov týždenného programu; odpovede podľa zdrojového PDF.",
+    "questions": [
+      {
+        "question": "Ktorá zlúčenina je tvorená priamo pôsobením glykogénfosforylázy:",
+        "answers": [
+          "glukóza-1-fosfát",
+          "glukóza-6-fosfát",
+          "voľná glukóza",
+          "UDP-glukóza"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 249,
+          "questionNumber": 249,
+          "page": 33,
+          "endPage": 33,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 5,
+          "relatedWeeks": [
+            6
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w05_glykogen",
+          "reason": "Otázka skúša syntézu, degradáciu alebo reguláciu pečeňového a svalového glykogénu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 6,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      },
+      {
+        "question": "Vytvorené cAMP v bunke fosforyláciou ovplyvňuje aktivity enzýmov metabolizmu glykogénu:",
+        "answers": [
+          "UDP-glukóza-pyrofosforyláza",
+          "glykogénsyntáza",
+          "glykogénfosforyláza",
+          "1,6-glukozidáza"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 250,
+          "questionNumber": 250,
+          "page": 33,
+          "endPage": 33,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 5,
+          "relatedWeeks": [
+            6
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w05_glykogen",
+          "reason": "Otázka skúša syntézu, degradáciu alebo reguláciu pečeňového a svalového glykogénu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 6,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      },
+      {
+        "question": "Glukóza-6-fosfát:",
+        "answers": [
+          "vzniká priamo odbúravaním glykogénu",
+          "je koncový produkt odbúravania glykogénu vo svale",
+          "je koncový produkt odbúravania glykogénu v pečeni",
+          "vzniká v reakcii katalyzovanej 1,6-glukozidázou"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 251,
+          "questionNumber": 251,
+          "page": 33,
+          "endPage": 33,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 5,
+          "relatedWeeks": [
+            6
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w05_glykogen",
+          "reason": "Otázka skúša syntézu, degradáciu alebo reguláciu pečeňového a svalového glykogénu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 6,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      },
+      {
+        "question": "Glykogénsyntáza využíva ako bezprostredný donor glukózových jednotiek v syntéze glykogénu:",
+        "answers": [
+          "glukóza-1-fosfát",
+          "glukóza-6-fosfát",
+          "UDP-glukóza",
+          "glycerol"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 257,
+          "questionNumber": 257,
+          "page": 34,
+          "endPage": 34,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 5,
+          "relatedWeeks": [
+            6
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w05_glykogen",
+          "reason": "Otázka skúša syntézu, degradáciu alebo reguláciu pečeňového a svalového glykogénu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 6,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      },
+      {
+        "question": "V stave dobrej výživy môže pečeňový glykogén predstaviť:",
+        "answers": [
+          "4-5% hmotnosti pečene",
+          "20% hmotnosti pečene",
+          "1-2% hmotnosti pečene",
+          "v pečeni sa glykogén neukladá"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 265,
+          "questionNumber": 265,
+          "page": 35,
+          "endPage": 35,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 5,
+          "relatedWeeks": [
+            6
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w05_glykogen",
+          "reason": "Otázka skúša syntézu, degradáciu alebo reguláciu pečeňového a svalového glykogénu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 6,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      },
+      {
+        "question": "Počas krátkodobého hladovania:",
+        "answers": [
+          "glykogén zo svalov je zdrojom glukózy v krvi",
+          "z glykogénu v pečeni sa uvoľňuje glukóza",
+          "vyššie karboxylové kyseliny z tukového tkaniva sú oxidované v erytrocytoch",
+          "pečeň využíva vyššie karboxylové kyseliny pre glukoneogenézu"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 266,
+          "questionNumber": 266,
+          "page": 35,
+          "endPage": 35,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 5,
+          "relatedWeeks": [
+            6
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w05_glykogen",
+          "reason": "Otázka skúša syntézu, degradáciu alebo reguláciu pečeňového a svalového glykogénu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 6,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      },
+      {
+        "question": "UDP-glukóza:",
+        "answers": [
+          "je tvorená pri degradácii glykogénu",
+          "je aktívna forma glukózy pre syntézu glykogénu",
+          "je intermediát glukoneogenézy",
+          "podieľa sa na regulácii glykolýzy"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 267,
+          "questionNumber": 267,
+          "page": 35,
+          "endPage": 35,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 5,
+          "relatedWeeks": [
+            6
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w05_glykogen",
+          "reason": "Otázka skúša syntézu, degradáciu alebo reguláciu pečeňového a svalového glykogénu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 6,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      },
+      {
+        "question": "Tvorbu α-1,4-glykozidových väzieb katalyzuje:",
+        "answers": [
+          "glykogénfosforyláza",
+          "vetviaci enzým",
+          "glykogénsyntáza",
+          "glukozidáza"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 268,
+          "questionNumber": 268,
+          "page": 35,
+          "endPage": 35,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 5,
+          "relatedWeeks": [
+            6
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w05_glykogen",
+          "reason": "Otázka skúša syntézu, degradáciu alebo reguláciu pečeňového a svalového glykogénu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 6,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      },
+      {
+        "question": "Pôsobením α-1,6-glukozidázy je tvorená:",
+        "answers": [
+          "glukóza-1-fosfát",
+          "glukóza-6-fosfát",
+          "voľná glukóza",
+          "maltóza"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 273,
+          "questionNumber": 273,
+          "page": 36,
+          "endPage": 36,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 5,
+          "relatedWeeks": [
+            6
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w05_glykogen",
+          "reason": "Otázka skúša syntézu, degradáciu alebo reguláciu pečeňového a svalového glykogénu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 6,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      },
+      {
+        "question": "Pre degradáciu glykogénu v pečeni je potrebná:",
+        "answers": [
+          "fosfoglukomutáza",
+          "glukóza-6-bisfosfátfosfatáza",
+          "fosforyláza",
+          "glukokináza"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 274,
+          "questionNumber": 274,
+          "page": 36,
+          "endPage": 36,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 5,
+          "relatedWeeks": [
+            6
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w05_glykogen",
+          "reason": "Otázka skúša syntézu, degradáciu alebo reguláciu pečeňového a svalového glykogénu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 6,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      },
+      {
+        "question": "Na regulácii syntézy glykogénu sa podieľa:",
+        "answers": [
+          "glukagón",
+          "inzulín",
+          "cAMP",
+          "regulačný enzým glykogénfosforyláza"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 299,
+          "questionNumber": 299,
+          "page": 39,
+          "endPage": 39,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 5,
+          "relatedWeeks": [
+            6
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w05_glykogen",
+          "reason": "Otázka skúša syntézu, degradáciu alebo reguláciu pečeňového a svalového glykogénu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 6,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      },
+      {
+        "question": "Pôsobením α-1,6-glukozidázy:",
+        "answers": [
+          "sa tvorí vetvenie (väzba 1-6) v glykogéne",
+          "sa ruší vetvenie (väzba 1-6) v glykogéne",
+          "sa tvorí priamo voľná glukóza",
+          "je regulovaný metabolizmus glykogénu"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 301,
+          "questionNumber": 301,
+          "page": 39,
+          "endPage": 39,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 5,
+          "relatedWeeks": [
+            6
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w05_glykogen",
+          "reason": "Otázka skúša syntézu, degradáciu alebo reguláciu pečeňového a svalového glykogénu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 6,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      },
+      {
+        "question": "Pre degradáciu glykogénu v pečeni je potrebná:",
+        "answers": [
+          "fosfoglukomutáza",
+          "glukóza-1-fosfátfosfatáza",
+          "glykogénfosforyláza",
+          "glukokináza"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 302,
+          "questionNumber": 302,
+          "page": 39,
+          "endPage": 40,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 5,
+          "relatedWeeks": [
+            6
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w05_glykogen",
+          "reason": "Otázka skúša syntézu, degradáciu alebo reguláciu pečeňového a svalového glykogénu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 6,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      },
+      {
+        "question": "Glukóza-1-fosfát je medziprodukt:",
+        "answers": [
+          "oxidácie VKK",
+          "glykogenolýzy",
+          "glykolýzy",
+          "syntézy glykogénu"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 310,
+          "questionNumber": 310,
+          "page": 41,
+          "endPage": 41,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 5,
+          "relatedWeeks": [
+            6
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w05_glykogen",
+          "reason": "Otázka skúša syntézu, degradáciu alebo reguláciu pečeňového a svalového glykogénu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 6,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      },
+      {
+        "question": "Štiepenie glykogénu:",
+        "answers": [
+          "v pečeni aktivuje glukagón",
+          "vedie takmer k vyčerpaniu jeho zásob v pečeni za 16 až 24 hodín",
+          "je aktivované inzulínom",
+          "v pečeni je zvýšené pri hypoglykémii"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 315,
+          "questionNumber": 315,
+          "page": 41,
+          "endPage": 41,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 5,
+          "relatedWeeks": [
+            6
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w05_glykogen",
+          "reason": "Otázka skúša syntézu, degradáciu alebo reguláciu pečeňového a svalového glykogénu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 6,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      },
+      {
+        "question": "O glykogéne v pečeni môžeme povedať:",
+        "answers": [
+          "po príjme potravy tvorí 1 až 2% hmotnosti pečene",
+          "po príjme potravy sa v pečeni nachádza 80 až 100g glykogénu",
+          "vzniká po aktivácii jeho syntézy inzulínom",
+          "tvorí sa glukoneogenézou"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 317,
+          "questionNumber": 317,
+          "page": 41,
+          "endPage": 41,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 5,
+          "relatedWeeks": [
+            6
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w05_glykogen",
+          "reason": "Otázka skúša syntézu, degradáciu alebo reguláciu pečeňového a svalového glykogénu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 6,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      },
+      {
+        "question": "Ktoré z uvedených zlúčenín sú tvorené počas degradácie glykogénu:",
+        "answers": [
+          "glukóza-1-fosfát",
+          "voľná glukóza",
+          "UDP-glukóza",
+          "UMP + glukóza-6-fosfát"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 321,
+          "questionNumber": 321,
+          "page": 42,
+          "endPage": 42,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 5,
+          "relatedWeeks": [
+            6
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w05_glykogen",
+          "reason": "Otázka skúša syntézu, degradáciu alebo reguláciu pečeňového a svalového glykogénu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 6,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      },
+      {
+        "question": "Pre degradáciu glykogénu v pečeni je potrebná:",
+        "answers": [
+          "fosfoglukomutáza",
+          "glukóza-6-fosfátfosfatáza",
+          "glykogénfosforyláza",
+          "glukokináza"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 322,
+          "questionNumber": 322,
+          "page": 42,
+          "endPage": 42,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 5,
+          "relatedWeeks": [
+            6
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w05_glykogen",
+          "reason": "Otázka skúša syntézu, degradáciu alebo reguláciu pečeňového a svalového glykogénu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 6,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      },
+      {
+        "question": "Reakcia, ktorou sa tvorí UDP-glukóza:",
+        "answers": [
+          "je katalyzovaná enzýmom UDPG-fosforyláza",
+          "je to reakcia aktivácie glukózy pri syntéze glykogénu",
+          "vedie k tvorbe zlúčeniny, ktorá je substrátom glykogénfosforylázy",
+          "vedie k tvorbe zlúčeniny, ktorá je substrátom glykogénsyntázy"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 324,
+          "questionNumber": 324,
+          "page": 42,
+          "endPage": 42,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 5,
+          "relatedWeeks": [
+            6
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w05_glykogen",
+          "reason": "Otázka skúša syntézu, degradáciu alebo reguláciu pečeňového a svalového glykogénu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 6,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      },
+      {
+        "question": "Glykogénsyntáza:",
+        "answers": [
+          "ako substrát využíva glukózu-1-fosfát",
+          "katalyzuje tvorbu alfa-1,4-glykozidovej väzby",
+          "katalyzuje tvorbu alfa-1,6-glykozidovej väzby",
+          "je aktivovaná fosforyláciou v prítomnosti inzulínu"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 329,
+          "questionNumber": 329,
+          "page": 43,
+          "endPage": 43,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 5,
+          "relatedWeeks": [
+            6
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w05_glykogen",
+          "reason": "Otázka skúša syntézu, degradáciu alebo reguláciu pečeňového a svalového glykogénu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 6,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      },
+      {
+        "question": "Vetviaci enzým katalyzuje vznik väzby, o ktorej možno povedať:",
+        "answers": [
+          "je to alfa-1,6-glykozidová väzba",
+          "je to väzba, ktorá sa štiepi glykogénfosforylázou",
+          "štiepením tejto väzby v pečeni vzniká voľná glukóza",
+          "štiepením tejto väzby v svale vzniká glukóza-6-fosfát"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 330,
+          "questionNumber": 330,
+          "page": 43,
+          "endPage": 43,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 5,
+          "relatedWeeks": [
+            6
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w05_glykogen",
+          "reason": "Otázka skúša syntézu, degradáciu alebo reguláciu pečeňového a svalového glykogénu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 6,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      },
+      {
+        "question": "Glykogén:",
+        "answers": [
+          "zo svalov poskytuje voľnú glukózu do krvi",
+          "jeho obsah v pečeni je 80-100g",
+          "môže udržiavať hladinu glukózy v krvi počas 48-72 hodín",
+          "jeho odbúravanie v pečeni je stimulované glukagónom"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 331,
+          "questionNumber": 331,
+          "page": 43,
+          "endPage": 43,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 5,
+          "relatedWeeks": [
+            6
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w05_glykogen",
+          "reason": "Otázka skúša syntézu, degradáciu alebo reguláciu pečeňového a svalového glykogénu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 6,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      },
+      {
+        "question": "Aktivácia využitia glykogénu vo svalovej bunke je sprostredkovaná:",
+        "answers": [
+          "adrenalínom",
+          "glukagónom",
+          "inzulínom",
+          "cAMP ako druhým poslom"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 332,
+          "questionNumber": 332,
+          "page": 43,
+          "endPage": 43,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 5,
+          "relatedWeeks": [
+            6
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w05_glykogen",
+          "reason": "Otázka skúša syntézu, degradáciu alebo reguláciu pečeňového a svalového glykogénu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 6,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      },
+      {
+        "question": "degradácii glykogénu vo svaloch možno povedať:",
+        "answers": [
+          "cez niekoľko medziproduktov vzniká ako koncový produkt voľná glukóza",
+          "produktom je glukóza-1-fosfát",
+          "jej aktivácia je sprostredkovaná adrenalínom, s následným uvoľnením glukózy do krvného obehu",
+          "je aktivovaná komplexom Ca2+/kalmodulín"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 337,
+          "questionNumber": 337,
+          "page": 44,
+          "endPage": 44,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 5,
+          "relatedWeeks": [
+            6
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w05_glykogen",
+          "reason": "Otázka skúša syntézu, degradáciu alebo reguláciu pečeňového a svalového glykogénu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 6,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      },
+      {
+        "question": "Druhý posol, ktorý sprostredkuje aktiváciu glykogénfosforylázy:",
+        "answers": [
+          "vzniká účinkom membránového enzýmu",
+          "vzniká účinkom cytosolového enzýmu",
+          "je cAMP",
+          "v pečeni sa vytvára predovšetkým v prítomnosti glukagónu"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 338,
+          "questionNumber": 338,
+          "page": 44,
+          "endPage": 44,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 5,
+          "relatedWeeks": [
+            6
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w05_glykogen",
+          "reason": "Otázka skúša syntézu, degradáciu alebo reguláciu pečeňového a svalového glykogénu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 6,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      },
+      {
+        "question": "Pôsobením alfa-1,6-glukozidázy je tvorená:",
+        "answers": [
+          "glukóza-1-fosfát",
+          "glukóza-6-fosfát",
+          "voľná glukóza",
+          "maltóza"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 340,
+          "questionNumber": 340,
+          "page": 44,
+          "endPage": 44,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 5,
+          "relatedWeeks": [
+            6
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w05_glykogen",
+          "reason": "Otázka skúša syntézu, degradáciu alebo reguláciu pečeňového a svalového glykogénu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 6,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      },
+      {
+        "question": "O zlúčenine glukóza-1-fosfát platí, že:",
+        "answers": [
+          "látka priamo vstupuje do syntézy glykogénu",
+          "reakciu jej tvorby katalyzuje glukokináza",
+          "jej tvorbu katalyzuje glykogénfosforyláza",
+          "pri syntéze glykogénu sa ďalej premieňa na UDP-glukózu"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 358,
+          "questionNumber": 358,
+          "page": 47,
+          "endPage": 47,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 5,
+          "relatedWeeks": [
+            6
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w05_glykogen",
+          "reason": "Otázka skúša syntézu, degradáciu alebo reguláciu pečeňového a svalového glykogénu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 6,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      },
+      {
+        "question": "Reakcia, ktorou sa tvorí UDP- glukóza:",
+        "answers": [
+          "je katalyzovaná enzýmom UDPG-fosforyláza",
+          "je to reakcia aktivácia glukózy pri syntéze glykogénu",
+          "vedie k tvorbe zlúčeniny, ktorá je substrátu glykogénfosforylázy",
+          "vedie k tvorbe zlúčeniny, ktorá je substrátom glykogénsyntázy"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 359,
+          "questionNumber": 359,
+          "page": 47,
+          "endPage": 47,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 5,
+          "relatedWeeks": [
+            6
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w05_glykogen",
+          "reason": "Otázka skúša syntézu, degradáciu alebo reguláciu pečeňového a svalového glykogénu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 6,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      },
+      {
+        "question": "V stave dobrej výživy môže pečeňový glykogén predstavovať:",
+        "answers": [
+          "4-5% hmotnosti pečene",
+          "20 % hmotnosti pečene",
+          "1-2% hmotnosti pečene",
+          "v pečeni sa glykogén nenachádza"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 360,
+          "questionNumber": 360,
+          "page": 47,
+          "endPage": 47,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 5,
+          "relatedWeeks": [
+            6
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w05_glykogen",
+          "reason": "Otázka skúša syntézu, degradáciu alebo reguláciu pečeňového a svalového glykogénu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 6,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      },
+      {
+        "question": "Ktoré z uvedených zlúčenín sú tvorené počas degradácie glykogénu:",
+        "answers": [
+          "glukóza-1-fosfát",
+          "voľná glukóza",
+          "UDP- glukóza",
+          "UMP + glukóza-6-fosfát"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 361,
+          "questionNumber": 361,
+          "page": 47,
+          "endPage": 47,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 5,
+          "relatedWeeks": [
+            6
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w05_glykogen",
+          "reason": "Otázka skúša syntézu, degradáciu alebo reguláciu pečeňového a svalového glykogénu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 6,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      }
+    ]
+  }
+]

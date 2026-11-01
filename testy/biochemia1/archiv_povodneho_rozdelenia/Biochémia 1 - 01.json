@@ -1,0 +1,2338 @@
+[
+  {
+    "title": "Biochémia 1 - 01",
+    "description": "Otázky z PDF Biochémia 1 otázky, časť 01. Poradie v zdroji 1–100, strany 1–14. Odpovede podľa označenia v PDF. Otázky odložené na kontrolu: 10.",
+    "questions": [
+      {
+        "question": "Tioesterová makroergická väzba je prítomná v:",
+        "answers": [
+          "acetyl-Coa",
+          "HS-Coa",
+          "acyl-Coa",
+          "sukcinyl-Coa"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 1,
+          "questionNumber": 1,
+          "page": 1,
+          "endPage": 1,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Tioesterová väzba vznikne naviazaním:",
+        "answers": [
+          "acylu na kyselinu fosforečnú",
+          "acylu na síru -SH skupiny",
+          "kyseliny fosforečnej na síru -SH skupiny",
+          "kyseliny sírovej na -OH skupinu alkoholu"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 2,
+          "questionNumber": 2,
+          "page": 1,
+          "endPage": 1,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Ktorý z nasledujúcich nukleotidov je donorom energie pre proteosyntézu:",
+        "answers": [
+          "ATP",
+          "UTP",
+          "GTP",
+          "CTP"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 3,
+          "questionNumber": 3,
+          "page": 1,
+          "endPage": 1,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Koľko makroergických väzieb je prítomných v molekule 1,3-bisfosfoglycerátu:",
+        "answers": [
+          "1",
+          "2",
+          "3",
+          "žiadna makroergická väzba"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 4,
+          "questionNumber": 4,
+          "page": 1,
+          "endPage": 1,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Substrátom pre kreatínkinázu je:",
+        "answers": [
+          "kreatínfosfát + ATP",
+          "kreatínfosfát + ADP",
+          "len kreatínfosfát",
+          "kreatín + ADP"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 5,
+          "questionNumber": 5,
+          "page": 1,
+          "endPage": 1,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Substrátom pre kreatínkinázu je:",
+        "answers": [
+          "kreatinín",
+          "kreatínfosfát",
+          "AMP",
+          "ADP"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 6,
+          "questionNumber": 6,
+          "page": 1,
+          "endPage": 1,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "V hladkom endoplazmatickom retikule prebieha:",
+        "answers": [
+          "syntéza karboxylových kyselín",
+          "proteosyntéza",
+          "glykolýza",
+          "desaturácia karboxylových kyselín"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 8,
+          "questionNumber": 8,
+          "page": 2,
+          "endPage": 2,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "H2O2:",
+        "answers": [
+          "vzniká pôsobením aeróbnych dehydrogenáz",
+          "katalázou je redukovaný na O2",
+          "katalázou je redukovaný na vodu",
+          "peroxidázou je redukovaný na vodu"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 9,
+          "questionNumber": 9,
+          "page": 2,
+          "endPage": 2,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "NADH2:",
+        "answers": [
+          "je koenzýmom monooxygenáz",
+          "slúži ako donor vodíkov v dýchacom reťazci",
+          "v dýchacom reťazci umožňuje tvorbu 2 molekúl ATP",
+          "pri jeho oxidácii v dýchacom reťazci sa transportuje 6 protónov do matrix mitochondrie"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 12,
+          "questionNumber": 12,
+          "page": 2,
+          "endPage": 2,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Kreatínkináza v bunkách kostrového svalu katalyzuje:",
+        "answers": [
+          "hydrolýzu kreatínfosfátu",
+          "regeneráciu ATP",
+          "tvorbu difosfátovej makroergickej väzby",
+          "tvorbu kreatinínu"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 13,
+          "questionNumber": 13,
+          "page": 2,
+          "endPage": 2,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "V pokojovom stave je pomer ATP:ADP v svalovej bunke:",
+        "answers": [
+          "1:1",
+          "1:10",
+          "10:1",
+          "2:1"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 14,
+          "questionNumber": 14,
+          "page": 2,
+          "endPage": 2,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "GTP je látka, ktorá:",
+        "answers": [
+          "obsahuje guanidínfosfátovú makroergickú väzbu",
+          "obsahuje difosfátovú makroergickú väzbu",
+          "je donorom energie pri glukoneogenéze",
+          "je priamym donorom energie pri svalovej práci"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 15,
+          "questionNumber": 15,
+          "page": 2,
+          "endPage": 3,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Enzýmy Krebsovho cyklu sú lokalizované:",
+        "answers": [
+          "vo vonkajšej membráne mitochondrie",
+          "v matrix mitochondrie",
+          "v medzimembránovom priestore mitochondrie",
+          "v cytozole"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 16,
+          "questionNumber": 16,
+          "page": 3,
+          "endPage": 3,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Účinkom laktátdehydrogenázy v smere oxidácie NADH2 sa vytvára:",
+        "answers": [
+          "pyruvát",
+          "laktát",
+          "citrát",
+          "acetyl-Coa"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 17,
+          "questionNumber": 17,
+          "page": 3,
+          "endPage": 3,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Ktorý z týchto vitamínov môže byť zložkou v koenzýmoch oxidoreduktáz:",
+        "answers": [
+          "pyridoxín",
+          "riboflavín",
+          "vitamín D",
+          "tiamín"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 18,
+          "questionNumber": 18,
+          "page": 3,
+          "endPage": 3,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Guanozíndifosfát obsahuje väzbu:",
+        "answers": [
+          "guanidínfosfátovú",
+          "N-glykozidovú",
+          "fosfoesterovú",
+          "fosfoanhydridovú"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 19,
+          "questionNumber": 19,
+          "page": 3,
+          "endPage": 3,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Acylfosfátová makroergická väzba sa nachádza v:",
+        "answers": [
+          "3-fosfoglyceráte",
+          "2,3-bisfosfoglyceráte",
+          "3-fosfoglyceraldehyde",
+          "1,3-bisfosfoglyceráte"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 20,
+          "questionNumber": 18,
+          "page": 3,
+          "endPage": 3,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Kreatínfosfokináza v pracujúcom svale katalyzuje:",
+        "answers": [
+          "tvorbu ADP",
+          "tvorbu ATP",
+          "tvorbu kreatínfosfátu",
+          "tvorbu difosfátovej väzby"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 21,
+          "questionNumber": 19,
+          "page": 3,
+          "endPage": 3,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Najvyššia aktivita kreatínfosfokinázy sa nachádza v:",
+        "answers": [
+          "kostrovom svale",
+          "myokarde",
+          "pečeni",
+          "mozgu"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 22,
+          "questionNumber": 20,
+          "page": 4,
+          "endPage": 4,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "V molekule NAD+ sa nachádza heterocyklický kruh:",
+        "answers": [
+          "pyridínový",
+          "purínový",
+          "tiazolový",
+          "pyrolový"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 23,
+          "questionNumber": 21,
+          "page": 4,
+          "endPage": 4,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Cytochrómy:",
+        "answers": [
+          "obsahujú vo svojej molekule polypeptidový reťazec",
+          "obsahujú ión železa viazaný hémovou skupinou",
+          "sú schopné viazať elektróny",
+          "môžu viazať aj celý atóm vodíka"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 24,
+          "questionNumber": 22,
+          "page": 4,
+          "endPage": 4,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Redukciou butanolu vznikne:",
+        "answers": [
+          "sekundárny alkohol",
+          "1-butanol",
+          "primárny alkohol",
+          "butanón"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 25,
+          "questionNumber": 23,
+          "page": 4,
+          "endPage": 4,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Monooxygenázy:",
+        "answers": [
+          "katalyzujú oxidoredukčné reakcie",
+          "sú dôležité pre tvorbu energie v bunke",
+          "ich účinkom vznikajú hydroxyderiváty substrátov",
+          "obsahujú ako koenzým NAD+"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 26,
+          "questionNumber": 24,
+          "page": 4,
+          "endPage": 4,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Makroergickou väzbou je väzba:",
+        "answers": [
+          "amidová",
+          "enolfosfátová",
+          "tioesterová",
+          "difosfátová"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 27,
+          "questionNumber": 25,
+          "page": 4,
+          "endPage": 4,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "V pokojovom stave je v svalovej bunke vyššia koncentrácia:",
+        "answers": [
+          "ADP ako ATP",
+          "kreatínfosfátu ako ATP",
+          "kreatínfosfátu ako ADP",
+          "ATP ako kreatínfosfátu"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 29,
+          "questionNumber": 27,
+          "page": 4,
+          "endPage": 4,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "FAD:",
+        "answers": [
+          "je koenzýmom hydroperoxidáz",
+          "ak sa redukuje, priberá 2 protóny a 1 elektrón",
+          "patrí medzi flavínové koenzýmy",
+          "obsahuje vo svojej molekule vitamín B2"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 30,
+          "questionNumber": 28,
+          "page": 5,
+          "endPage": 5,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Vitamínovou zložkou NAD+ je:",
+        "answers": [
+          "tiamín",
+          "nikotínamid",
+          "riboflavín",
+          "derivát pyridínu"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 31,
+          "questionNumber": 29,
+          "page": 5,
+          "endPage": 5,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Pri premene H2 na 2H+ dochádza ku:",
+        "answers": [
+          "oxidácii molekuly vodíka",
+          "redukcii molekuly vodíka",
+          "vzniku konjugovaného páru",
+          "disociácii vodíka"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 32,
+          "questionNumber": 30,
+          "page": 5,
+          "endPage": 5,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Dehydrogenáciou kyseliny jantárovej vznikne kyselina:",
+        "answers": [
+          "jablčná",
+          "fumárová",
+          "buténdiová",
+          "oxaloctová"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 33,
+          "questionNumber": 31,
+          "page": 5,
+          "endPage": 5,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "V molekule 1,3-bisfosfoglycerátu sa nachádza:",
+        "answers": [
+          "acylfosfátová makroergická väzba",
+          "fosfoesterová makroergická väzba",
+          "difosfátová makroergická väzba",
+          "fosfoesterová väzba"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 34,
+          "questionNumber": 32,
+          "page": 5,
+          "endPage": 5,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Aký typ väzby vzniká medzi dvomi molekulami H3PO4:",
+        "answers": [
+          "acylfosfátová",
+          "difosfátová",
+          "fosfodiesterová",
+          "enolfosfátová"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 35,
+          "questionNumber": 33,
+          "page": 5,
+          "endPage": 5,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Energia uložená v molekule ATP sa využíva na:",
+        "answers": [
+          "pasívny transport látok cez membrány buniek",
+          "hydrolytickú degradáciu bielkovín",
+          "svalovú kontrakciu",
+          "prenos nervového vzruchu"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 36,
+          "questionNumber": 34,
+          "page": 5,
+          "endPage": 5,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Pri redukcii FAD na FADH2 sa na koenzým viaže:",
+        "answers": [
+          "1 vodík a 1 protón",
+          "1 protón a 2 elektróny",
+          "2 celé vodíky",
+          "2 protóny a 2 elektróny"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 37,
+          "questionNumber": 35,
+          "page": 5,
+          "endPage": 5,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Redukciou butanónu vznikne:",
+        "answers": [
+          "butanal",
+          "sekundárny alkohol",
+          "butanol",
+          "primárny alkohol"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 38,
+          "questionNumber": 36,
+          "page": 6,
+          "endPage": 6,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Amid kyseliny nikotínovej obsahuje heterocyklický kruh:",
+        "answers": [
+          "pyrimidínový",
+          "imidazolový",
+          "pyridínový",
+          "purínový"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 39,
+          "questionNumber": 37,
+          "page": 6,
+          "endPage": 6,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Pri účinku katalázy na dve molekuly peroxidu vodíka:",
+        "answers": [
+          "oxidáciou sa vytvára molekula kyslíka",
+          "redukciou vzniká voda",
+          "2 protóny sa redukujú na molekulu vodíka",
+          "prebieha dismutácia"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 40,
+          "questionNumber": 40,
+          "page": 6,
+          "endPage": 6,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Aký typ väzby vzniká väzbou fosfátu na ribózu v adenozíne:",
+        "answers": [
+          "fosfoanhydridová",
+          "acylfosfátová",
+          "fosfoesterová",
+          "enolfosfátová"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 41,
+          "questionNumber": 41,
+          "page": 6,
+          "endPage": 6,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Priamym donorom energie pre svalovú prácu je:",
+        "answers": [
+          "ATP",
+          "laktát",
+          "kreatínfosfát",
+          "glukóza"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 42,
+          "questionNumber": 42,
+          "page": 6,
+          "endPage": 6,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "GTP je látka, ktorá:",
+        "answers": [
+          "je donorom energie pri proteosyntéze",
+          "vzniká v kostrovom svale účinkom kreatínkinázy",
+          "obsahuje dve makroergické väzby",
+          "obsahuje fosfoesterovú väzbu"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 44,
+          "questionNumber": 44,
+          "page": 6,
+          "endPage": 6,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Substrátom laktátdehydrogenázy je:",
+        "answers": [
+          "pyruvát + NAD+",
+          "laktát + NADH2",
+          "laktát + NAD+",
+          "pyruvát + NADH2"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 45,
+          "questionNumber": 45,
+          "page": 7,
+          "endPage": 7,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Chinón pri premene na hydrochinón:",
+        "answers": [
+          "stráca 2 elektróny",
+          "priberá 2 protóny a 2 elektróny",
+          "priberá iba 2 protóny",
+          "priberá iba 2 elektróny"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 46,
+          "questionNumber": 46,
+          "page": 7,
+          "endPage": 7,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Ktoré z uvedených transportérov prenášajú iba elektróny:",
+        "answers": [
+          "FMN",
+          "FeS-proteín",
+          "koenzým Q",
+          "cytochróm b"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 47,
+          "questionNumber": 47,
+          "page": 7,
+          "endPage": 7,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Dehydrogenázy sú enzýmy, ktoré:",
+        "answers": [
+          "využívajú ako koenzým hém",
+          "nachádzajú sa len v cytosole bunky",
+          "môžu katalyzovať vratné reakcie",
+          "sú súčasťou terminálnej oxidácie"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 48,
+          "questionNumber": 48,
+          "page": 7,
+          "endPage": 7,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Fosfoanhydridová väzba vzniká väzbou fosfátu na:",
+        "answers": [
+          "adenín",
+          "adenozín",
+          "adenozínmonofosfát",
+          "adenozíndifosfát"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 49,
+          "questionNumber": 49,
+          "page": 7,
+          "endPage": 7,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Guanidínfosfátová makroergická väzba je prítomná v:",
+        "answers": [
+          "guanozíne",
+          "GTP",
+          "kreatínfosfáte",
+          "arginínfosfáte"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 50,
+          "questionNumber": 50,
+          "page": 7,
+          "endPage": 7,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "ATP obsahuje:",
+        "answers": [
+          "1 makroergickú väzbu",
+          "2 makroergické väzby",
+          "3 makroergické väzby",
+          "žiadnu makroergickú väzbu"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 51,
+          "questionNumber": 51,
+          "page": 7,
+          "endPage": 7,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Aktivita kreatínkinázy je najvyššia v:",
+        "answers": [
+          "kostrovom svale",
+          "srdci",
+          "mozgu",
+          "je rovnaká v uvedených tkanivách"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 52,
+          "questionNumber": 52,
+          "page": 7,
+          "endPage": 8,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "V procese terminálnej oxidácie:",
+        "answers": [
+          "elektróny sú transportované do mitochondrie",
+          "protóny sú transportované do medzimembránového priestoru",
+          "3 ATP sa vytvárajú z FADH2",
+          "2 ATP sa vytvárajú z NADH2"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 53,
+          "questionNumber": 53,
+          "page": 8,
+          "endPage": 8,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Ktorý z týchto procesov je lokalizovaný v cytozole:",
+        "answers": [
+          "oxidácia vyšších karboxylových kyselín",
+          "syntéza vyšších karboxylových kyselín",
+          "glukoneogenéza",
+          "degradácia peroxidu vodíka"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 54,
+          "questionNumber": 54,
+          "page": 8,
+          "endPage": 8,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Laktátdehydrogenáza katalyzuje:",
+        "answers": [
+          "oxidáciu laktátu na pyruvát",
+          "redukciu pyruvátu na laktát",
+          "redukciu NAD+ za súčasnej tvorby laktátu",
+          "oxidáciu NADH2 za súčasnej tvorby laktátu"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 55,
+          "questionNumber": 55,
+          "page": 8,
+          "endPage": 8,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Oxidázy D-aminokyselín:",
+        "answers": [
+          "majú koenzým NADP+",
+          "sú dôležité pre syntézu ATP",
+          "reoxidáciou ich koenzýmu sa tvorí peroxid vodíka",
+          "sú zložkou dýchacieho reťazca"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 56,
+          "questionNumber": 56,
+          "page": 8,
+          "endPage": 8,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Dehydrogenáciou vzniká:",
+        "answers": [
+          "z kyseliny mliečnej kyselina pyrohroznová",
+          "z glycerolu etylénglykol",
+          "z 2-propanolu acetón",
+          "z kyseliny jablčnej kyselina oxaloctová"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 58,
+          "questionNumber": 58,
+          "page": 8,
+          "endPage": 8,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Kyselina linolová:",
+        "answers": [
+          "obsahuje 16 atómov uhlíka",
+          "obsahuje 3 násobné väzby",
+          "obsahuje 18 atómov uhlíka",
+          "patrí medzi nenasýtené karboxylové kyseliny"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 59,
+          "questionNumber": 59,
+          "page": 8,
+          "endPage": 8,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Pyrimidínové a zároveň imidazolové jadro je súčasťou štruktúry:",
+        "answers": [
+          "guanidínu",
+          "aminokyseliny tryptofánu",
+          "purínu",
+          "adenínu"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 60,
+          "questionNumber": 60,
+          "page": 9,
+          "endPage": 9,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Fosfoesterová väzba sa nachádza:",
+        "answers": [
+          "v glukóza-6-fosfáte",
+          "v 2,3-bisfosfoglyceráte",
+          "v ADP",
+          "vo fosfatidylcholíne"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 61,
+          "questionNumber": 61,
+          "page": 9,
+          "endPage": 9,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Zložkou koenzýmov oxidoreduktáz môže byť vitamín:",
+        "answers": [
+          "pyridoxín",
+          "riboflavín",
+          "vitamín D",
+          "niacín"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 62,
+          "questionNumber": 62,
+          "page": 9,
+          "endPage": 9,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Kreatínkináza v bunkách kostrového svalu katalyzuje:",
+        "answers": [
+          "hydrolytické štiepenie kreatínfosfátu",
+          "tvorbu ATP",
+          "tvorbu fosfoanhydridovej makroergickej väzby",
+          "tvorbu kreatínu"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 63,
+          "questionNumber": 63,
+          "page": 9,
+          "endPage": 9,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Kyselina oxaloctová:",
+        "answers": [
+          "obsahuje hydroxyskupinu",
+          "sa v Krebsovom cykle zlučuje s acetyl-koenzýmom A (acetyl-Coa)",
+          "obsahuje 1 karboxylovú skupinu",
+          "obsahuje 4 uhlíkové atómy"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 64,
+          "questionNumber": 64,
+          "page": 9,
+          "endPage": 9,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Naviazaním kyseliny fosforečnej na glycerol vzniká:",
+        "answers": [
+          "karboxyesterová väzba",
+          "acylfosfátová väzba",
+          "fosfoesterová väzba",
+          "glyceraldehydfosfát"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 65,
+          "questionNumber": 65,
+          "page": 9,
+          "endPage": 9,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Hydrochinón:",
+        "answers": [
+          "patrí medzi fenoly",
+          "je aromatický alkohol",
+          "obsahuje dve -OH skupiny",
+          "redukciou sa mení benzochinón"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 66,
+          "questionNumber": 66,
+          "page": 9,
+          "endPage": 9,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Laktát:",
+        "answers": [
+          "je anión kyseliny octovej",
+          "je to anión kyseliny 2-hydroxypropánovej",
+          "vzniká oxidáciou pyruvátu",
+          "v bunkách vzniká z kyseliny etánovej"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 67,
+          "questionNumber": 67,
+          "page": 10,
+          "endPage": 10,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Kyselina fosfatidová:",
+        "answers": [
+          "obsahuje fosfoesterovú väzbu",
+          "vzniká z dvojsýtneho alkoholu",
+          "obsahuje karboxyesterovú väzbu",
+          "vzniká z trojsýtneho alkoholu"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 68,
+          "questionNumber": 68,
+          "page": 10,
+          "endPage": 10,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Ktoré z uvedených tvrdení platia:",
+        "answers": [
+          "mitochondrie majú dve fosfolipidové membrány",
+          "lyzozómové enzýmy fungujú optimálne pri pH > 7",
+          "v jadre eukaryotickej bunky prebieha proces transkripcie a translácie",
+          "ribozómy patria medzi membránové organely"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 69,
+          "questionNumber": 69,
+          "page": 10,
+          "endPage": 10,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Väzbou fosfátu na ribózu v AMP vzniká väzba:",
+        "answers": [
+          "fosfoanhydridová",
+          "acylfosfátová",
+          "fosfoesterová",
+          "enolfosfátová"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 70,
+          "questionNumber": 70,
+          "page": 10,
+          "endPage": 10,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Ktoré z uvedených väzieb patria medzi makroergické:",
+        "answers": [
+          "karboxyesterová",
+          "guanidínfosfátová",
+          "peptidová",
+          "fosfoesterová"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 71,
+          "questionNumber": 71,
+          "page": 10,
+          "endPage": 10,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Laktátdehydrogenáza katalyzuje:",
+        "answers": [
+          "oxidoredukčnú reakciu",
+          "acidobazickú reakciu",
+          "premenu pyruvátu na laktát",
+          "premenu laktátu na pyruvát"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 72,
+          "questionNumber": 72,
+          "page": 10,
+          "endPage": 10,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Gp- proteín:",
+        "answers": [
+          "nachádza sa v bunkovej membráne",
+          "aktivuje sa účinkom steroidných hormónov",
+          "skladá sa z 3 podjednotiek",
+          "jeho alfa-podjednotka aktivuje fosfolipázu A"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 73,
+          "questionNumber": 73,
+          "page": 10,
+          "endPage": 10,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "cAMP:",
+        "answers": [
+          "vzniká pôsobením inzulínu",
+          "vzniká pôsobením steroidných hormónov",
+          "jeho hladina sa znižuje pôsobením fosfodiesterázy",
+          "aktivuje proteínkinázu C"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 74,
+          "questionNumber": 74,
+          "page": 11,
+          "endPage": 11,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Hydrofóbne hormóny:",
+        "answers": [
+          "ovplyvňujú bunkové procesy po vstupe do buniek",
+          "viažu sa na intracelulárne receptory",
+          "zvyšujú syntézu cAMP",
+          "môžu meniť permeabilitu bunkových membrán pre ióny"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 75,
+          "questionNumber": 75,
+          "page": 11,
+          "endPage": 11,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Primárny aktívny transport:",
+        "answers": [
+          "jeho príkladom je transport glukózy do enterocytov",
+          "jeho príkladom je transport Na+ iónov von z bunky",
+          "vyžaduje energiu v podobe ATP",
+          "transportuje látky proti koncentračnému gradientu"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 77,
+          "questionNumber": 77,
+          "page": 11,
+          "endPage": 11,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Sekundárny aktívny transport:",
+        "answers": [
+          "vyžaduje koncentračný gradient iónov",
+          "nevyžaduje ATP pre svoj priebeh",
+          "vyžaduje transportné bielkoviny",
+          "jeho príkladom je transport glukózy do enterocytov"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 78,
+          "questionNumber": 78,
+          "page": 11,
+          "endPage": 11,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Na+-K+-závislá ATP-áza transportuje:",
+        "answers": [
+          "Na+ iónov do bunky",
+          "K+ ióny do bunky",
+          "Na+ ióny von z bunky",
+          "K+ ióny von z bunky"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 79,
+          "questionNumber": 79,
+          "page": 11,
+          "endPage": 11,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Cytochrómy dýchacieho reťazca:",
+        "answers": [
+          "obsahujú vo svojej molekule polypeptidový reťazec",
+          "obsahujú hémové železo",
+          "sú schopné viazať iba elektróny",
+          "môžu viazať celý atóm vodíka"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 80,
+          "questionNumber": 80,
+          "page": 11,
+          "endPage": 11,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Gi proteín:",
+        "answers": [
+          "skladá sa z troch podjednotiek",
+          "je v aktívnom stave, keď je na alfa-podjednotku naviazaný na GDP",
+          "je v aktívnom stave, keď je na alfa-podjednotku naviazaný GTP",
+          "jeho aktivácia vedie k poklesu cAMP v cytosole"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 81,
+          "questionNumber": 81,
+          "page": 11,
+          "endPage": 11,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Inozitoltrifosfát:",
+        "answers": [
+          "vzniká účinkom fosfolipázy C",
+          "zvyšuje priepustnosť bunkovej membrány pre Na+",
+          "je aktivátorom proteínkinázy C",
+          "vzniká pomocou enzýmu prítomného v membráne buniek"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 82,
+          "questionNumber": 82,
+          "page": 12,
+          "endPage": 12,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Hydrofilné hormóny môžu sprostredkovať prenos signálu do cieľovej bunky:",
+        "answers": [
+          "prostredníctvom cytosolového receptoru",
+          "prostredníctvom jadrového receptoru",
+          "prostredníctvom cAMP",
+          "prostredníctvom Ca2+ iónov"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 84,
+          "questionNumber": 84,
+          "page": 12,
+          "endPage": 12,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Pri difúzii:",
+        "answers": [
+          "sa rozpustená látka presúva z miesta s vyššou koncentráciou na miesto s nižšou koncentráciou",
+          "sa rozpúšťadlo presúva z miesta s nižšou koncentráciou na miesto s vyššou koncentráciou cez polopriepustnú membránu",
+          "sa vyžaduje prívod energie",
+          "možno povedať, že ide o jednu z foriem aktívneho transportu"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 85,
+          "questionNumber": 85,
+          "page": 12,
+          "endPage": 12,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Ca2+-závislá ATP-áza:",
+        "answers": [
+          "je hydroláza, ktorá katalyzuje štiepenie ATP",
+          "je zodpovedná za transport kalciových iónov do cytosol",
+          "je prítomná v erytrocytoch",
+          "v bunkách kostrového svalu transportuje Ca2+ z cytosolu do sarkoplazmatického retikula"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 87,
+          "questionNumber": 87,
+          "page": 12,
+          "endPage": 12,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Koenzým Q v dýchacom reťazci:",
+        "answers": [
+          "preberá elektróny priamo z NADH",
+          "preberá celé vodíkové atómy z Fe-S skupiny",
+          "vo svojej oxidovanej forme obsahuje benzochinónové jadro",
+          "je viazaný na vonkajšiu mitochondriovú membránu"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 88,
+          "questionNumber": 88,
+          "page": 12,
+          "endPage": 12,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "alfa- podjednotka Gs- proteínu:",
+        "answers": [
+          "aktivuje adenylátcyklázu",
+          "aktivuje fosfolipázu C",
+          "viaže GTP v aktívnom stave",
+          "môže hydrolyzovať GTP"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 89,
+          "questionNumber": 89,
+          "page": 12,
+          "endPage": 13,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "cAMP:",
+        "answers": [
+          "degraduje sa účinkom adenylátcyklázy",
+          "vzniká účinkom hormónov štítnej žľazy",
+          "fosfodiesterázou sa štiepi na AMP",
+          "jeho syntéza je katalyzovaná cytosolovým enzýmom"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 90,
+          "questionNumber": 90,
+          "page": 13,
+          "endPage": 13,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "G-proteínom možno povedať:",
+        "answers": [
+          "všetky obsahujú alfa-podjednotku s GTP-ázovou aktivitou",
+          "nachádzajú sa v membráne endoplazmatického retikula",
+          "sú potrebné pre účinok niektorých steroidných hormónov",
+          "sú potrebné pre účinok niektorých peptidových hormónov"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 91,
+          "questionNumber": 91,
+          "page": 13,
+          "endPage": 13,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Adenylátcykláza:",
+        "answers": [
+          "priamo aktivuje proteínkinázu C",
+          "syntetizuje cAMP z ADP",
+          "je enzým lokalizovaný v plazmatickej membráne",
+          "je enzým katalyujúci syntézu cAMP z ATP"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 92,
+          "questionNumber": 92,
+          "page": 13,
+          "endPage": 13,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "ATP je potrebné:",
+        "answers": [
+          "pre primárne aktívny transport",
+          "pre priebeh sprostredkovanej difúzie",
+          "pre priebeh jednoduchej difúzie",
+          "pre Ca2+-závislú ATP-ázu"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 93,
+          "questionNumber": 93,
+          "page": 13,
+          "endPage": 13,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Ca2+ ióny:",
+        "answers": [
+          "sú transportované z cytosolu do endoplazmatického retikula Ca2+-závislou ATP-ázou",
+          "ich koncentrácia v cytosole je nižšia ako mimo bunky",
+          "sú transportované do cytosolu pomocou iónových kanálov",
+          "ich koncentrácia v endoplazmatickom retikule je nižšia ako v cytosole"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 94,
+          "questionNumber": 94,
+          "page": 13,
+          "endPage": 13,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Sprostredkovanou difúziou:",
+        "answers": [
+          "sa glukóza transportuje do enterocytu",
+          "sa látky transportujú z miesta s vyššou koncentráciou na miesta s nižšou koncentráciou",
+          "sa látky transportujú pomocou bielkovinového prenášača",
+          "sa látky transportujú pričom sa spotrebúva ATP"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 95,
+          "questionNumber": 95,
+          "page": 13,
+          "endPage": 13,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Proteínkináza A:",
+        "answers": [
+          "jej aktivácii predchádza aktivácia Gs proteínu",
+          "jej aktivácii predchádza aktivácia fosfolipázy C",
+          "je enzým aktivovaný pomocou cAMP",
+          "je enzým aktivovaný pomocou cGMP"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 97,
+          "questionNumber": 97,
+          "page": 13,
+          "endPage": 14,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Fosfolipáza C:",
+        "answers": [
+          "je lokalizovaná v cytosole",
+          "je aktivovaná hormónmi štítnej žľazy",
+          "produkuje diacylglycerol",
+          "zodpovedá za vznik fosfodiesterovej väzby"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 98,
+          "questionNumber": 98,
+          "page": 14,
+          "endPage": 14,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "cAMP:",
+        "answers": [
+          "vzniká účinkom cytosolového enzýmu",
+          "vzniká v bunkách po účinku steroidných hormónov",
+          "jeho koncentrácia sa zvyšuje účinkom adenylátcyklázy",
+          "aktivuje proteínkinázu C"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 99,
+          "questionNumber": 99,
+          "page": 14,
+          "endPage": 14,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Steroidné hormóny:",
+        "answers": [
+          "viažu sa na membránové receptory",
+          "po väzbe na receptor sú aktivátormi transkripcie",
+          "po väzbe na receptor spôsobujú zmeny génovej expresie",
+          "sú aktivátormi proteínkinázy C"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 100,
+          "questionNumber": 100,
+          "page": 14,
+          "endPage": 14,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      }
+    ]
+  }
+]

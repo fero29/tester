@@ -1,0 +1,2463 @@
+[
+  {
+    "title": "Biochémia 1 - 02",
+    "description": "Otázky z PDF Biochémia 1 otázky, časť 02. Poradie v zdroji 101–200, strany 14–27. Odpovede podľa označenia v PDF. Otázky odložené na kontrolu: 6.",
+    "questions": [
+      {
+        "question": "Pri ktorých procesoch sa látky môžu presúvať po koncentračnom gradiente:",
+        "answers": [
+          "pri jednoduchej difúzii",
+          "pri primárnom aktívnom transporte",
+          "pri sprostredkovanej difúzii",
+          "pri presune sodných katiónov do bunky cez sodíkový kanál"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 101,
+          "questionNumber": 101,
+          "page": 14,
+          "endPage": 14,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Primárnym aktívnym transportom sa transportujú",
+        "answers": [
+          "ióny Ca2+ z endoplazmatického retikula do cytosolu",
+          "ióny Na+ von z bunky",
+          "ióny K+ do bunky",
+          "glukóza do enterocytov"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 102,
+          "questionNumber": 102,
+          "page": 14,
+          "endPage": 14,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "V procese terminálnej oxidácie:",
+        "answers": [
+          "sú elektróny prenášané z redukovaných koenzýmov až na kyslík",
+          "sú protóny transportované z matrix do medzimembránového priestoru",
+          "prenosom elektrónov z 1 molekuly NADH sa uvoľní energia pre syntézu 2 molekúl ATP",
+          "prenosom elektrónov z 1 molekuly FADH2 sa uvoľní energia pre syntézu 3 molekúl ATP"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 103,
+          "questionNumber": 103,
+          "page": 14,
+          "endPage": 14,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "cAMP:",
+        "answers": [
+          "aktivuje proteínkinázu A",
+          "jeho hladina sa znižuje pôsobením fosfodiesterázy",
+          "vzniká pôsobením niektorých steroidných hormónov",
+          "vzniká pôsobením niektorých polypeptidových hormónov"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 104,
+          "questionNumber": 104,
+          "page": 14,
+          "endPage": 14,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Ktoré aminokyseliny v proteínoch je možné fosforylovať pôsobením proteokináz:",
+        "answers": [
+          "lyzín",
+          "tyrozín",
+          "prolín",
+          "treonín"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 105,
+          "questionNumber": 105,
+          "page": 14,
+          "endPage": 15,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "G- proteínoch platí:",
+        "answers": [
+          "sú membránové proteíny",
+          "skladajú sa z troch podjednotiek",
+          "podjednotka gama môže viazať GTP alebo GDP",
+          "typ podjednotky alfa určuje, aký enzým a ako bude ovplyvnený G- proteínmi"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 106,
+          "questionNumber": 106,
+          "page": 15,
+          "endPage": 15,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Vo vode rozpustné regulačné látky:",
+        "answers": [
+          "môžu ovplyvňovať funkcie buniek po svojom vstupe do bunky",
+          "viažu sa na membránové receptory",
+          "môžu využívať IP3 ako druhého posla",
+          "môžu meniť priepustnosť bunkových membrán pre niektoré ióny"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 107,
+          "questionNumber": 107,
+          "page": 15,
+          "endPage": 15,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Malé nepolárne molekuly (napr. niektoré plyny) sú transportované cez membrány hlavne:",
+        "answers": [
+          "jednoduchou difúziou",
+          "uľahčenou difúziou",
+          "pomocou transportných kanálov",
+          "aktívnym transportom"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 108,
+          "questionNumber": 108,
+          "page": 15,
+          "endPage": 15,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Ca2+ ióny:",
+        "answers": [
+          "sú transportované do cytosolu Ca2+-závislou ATP-ázou",
+          "ich koncentrácia v cytosole je vyššia ako mimo bunky",
+          "sú transportované do cytosolu pomocou iónových kanálov",
+          "ich koncentrácia v endoplazmatickom retikule je vyššia ako v cytosole"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 109,
+          "questionNumber": 109,
+          "page": 15,
+          "endPage": 15,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Produktom reakcie, ktorú katalyzuje Ca2+-závislá ATP-áza môže byť:",
+        "answers": [
+          "AMP",
+          "ADP",
+          "ATP",
+          "anorganický fosfát"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 110,
+          "questionNumber": 110,
+          "page": 15,
+          "endPage": 15,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Glutatión:",
+        "answers": [
+          "je dipeptid",
+          "využíva sa napríklad na transport aminokselín do bunky",
+          "je súčasťou systému, ktorý využíva aktivitu enzýmu gama-glutamyltransferázy",
+          "pozostáva z glycínu, cysteínu a glutamínu"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 111,
+          "questionNumber": 111,
+          "page": 15,
+          "endPage": 15,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "G- proteínoch možno povedať:",
+        "answers": [
+          "sú potrebné pre účinok niektorých steroidných hormónov",
+          "sú potrebné pre účinok niektorých polypeptidových hormónov",
+          "nachádzajú sa v membránach endoplazmatického retikula",
+          "obsahujú alfa-podjednotku s GTP-ázovou aktivitou"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 112,
+          "questionNumber": 112,
+          "page": 15,
+          "endPage": 15,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Steroidné hormóny:",
+        "answers": [
+          "sa môžu viazať na receptory v cytosole",
+          "využívajú pri svojom účinku cAMP ako druhý posol",
+          "po naviazaní na receptor aktivujú Gp proteín",
+          "po naviazaní na receptor ovplyvňujú génovú expresiu v jadre"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 113,
+          "questionNumber": 113,
+          "page": 16,
+          "endPage": 16,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Inozitoltrifosfát (IP3) ovplyvňuje metabolické procesy tým, že:",
+        "answers": [
+          "aktivuje proteínkinázu C",
+          "znižuje koncentráciu Ca2+ v cytosole",
+          "zvyšuje koncentráciu Ca2+ v cytosole",
+          "sa naviaže na Na+ kanály na membráne hladkého endoplazmatického retikula"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 114,
+          "questionNumber": 114,
+          "page": 16,
+          "endPage": 16,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Gp- proteín:",
+        "answers": [
+          "je súčasťou plazmatickej membrány bunky",
+          "je v aktívnom stave, keď je na alfa-podjednotku naviazaný GDP",
+          "je v aktívnom stave, keď je na alfa-podjednotku naviazaný GTP",
+          "v aktívnom stave zvyšuje aktivitu fosfolipázy C"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 115,
+          "questionNumber": 115,
+          "page": 16,
+          "endPage": 16,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Ca2+-závislá ATP-áza môže transportovať:",
+        "answers": [
+          "Ca2+ ióny z cytosolu do endoplazmatického retikula",
+          "Ca2+ ióny z endoplazmatického retikula do cytosolu",
+          "Ca2+ ióny z cytosolu do extracelulárneho priestoru",
+          "Ca2+ ióny z extracelulárneho priestoru do cytosolu"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 116,
+          "questionNumber": 116,
+          "page": 16,
+          "endPage": 16,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Aktívny transport je:",
+        "answers": [
+          "pohyb látok v smere koncentračného gradientu",
+          "pohyb látok proti koncentračnému gradientu",
+          "transport Na+ iónov von z bunky",
+          "transport pomocou nosiča bez potreby ATP"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 117,
+          "questionNumber": 117,
+          "page": 16,
+          "endPage": 16,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Sprostredkovaná difúzia:",
+        "answers": [
+          "vyžaduje dodanie energie",
+          "je transport látok po koncentračnom gradiente",
+          "vyžaduje transportný proteín",
+          "je to forma pasívneho transportu"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 118,
+          "questionNumber": 118,
+          "page": 16,
+          "endPage": 16,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "ATP je potrebné:",
+        "answers": [
+          "pre aktívny transport",
+          "pre sprostredkovanú difúziu",
+          "pre difúziu",
+          "pre Ca2+-závislú ATP-ázu"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 119,
+          "questionNumber": 119,
+          "page": 16,
+          "endPage": 16,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Gama-glutamyltransferáza katalyzuje:",
+        "answers": [
+          "primárny aktívny transport",
+          "sekundárny aktívny transport",
+          "sprostredkovanú difúziu",
+          "skupinovú translokáciu"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 120,
+          "questionNumber": 120,
+          "page": 16,
+          "endPage": 16,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Pri sprostredkovanej difúzii:",
+        "answers": [
+          "glukóza je transportovaná z krvi do buniek",
+          "látky sú transportované z miesta vyššej koncentrácie na miesto s nižšou koncentráciou",
+          "látky sú transportované pomocou nosičovej bielkoviny",
+          "spotrebováva sa ATP"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 121,
+          "questionNumber": 121,
+          "page": 17,
+          "endPage": 17,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Na+,K+-závislá ATP-áza transportuje:",
+        "answers": [
+          "Na+ ióny von z bunky",
+          "K+ ióny von z bunky",
+          "Na+ ióny do vnútra bunky",
+          "obidva druhy iónov do bunky"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 122,
+          "questionNumber": 122,
+          "page": 17,
+          "endPage": 17,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "α-podjednotka Gs-proteínu:",
+        "answers": [
+          "aktivuje adenylátcyklázu",
+          "aktivuje fosfolipázu C",
+          "viaže GTP v aktívnom stave",
+          "môže hydrolyzovať GTP"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 123,
+          "questionNumber": 123,
+          "page": 17,
+          "endPage": 17,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Fosfolipáza C:",
+        "answers": [
+          "nachádza sa v membránach buniek",
+          "vytvára ako produkt diacylglycerol",
+          "vytvára ako produkt inozitoltrifosfát",
+          "je aktivovaná Gs-proteínom"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 124,
+          "questionNumber": 124,
+          "page": 17,
+          "endPage": 17,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "G-proteínoch možno povedať:",
+        "answers": [
+          "sú potrebné pre účinok steroidných hormónov",
+          "sú potrebné pre účinok proteínových hormónov",
+          "nachádzajú sa v membránach endoplazmatického retikula",
+          "všetky obsahujú alfa-podjednotku s GTP-ázovou aktivitou"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 125,
+          "questionNumber": 125,
+          "page": 17,
+          "endPage": 17,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "cAMP:",
+        "answers": [
+          "aktivuje proteínkinázu A",
+          "jeho hladina sa znižuje pôsobením fosfodiesterázy",
+          "vzniká po pôsobení steroidných hormónov",
+          "vzniká po pôsobení glukagónu"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 126,
+          "questionNumber": 126,
+          "page": 17,
+          "endPage": 17,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Aktívny transport je:",
+        "answers": [
+          "pohyb látok v smere koncentračného gradientu",
+          "pohyb látok proti koncentračnému gradientu",
+          "transport Na+ iónov do buniek",
+          "transport pomocou nosiča bez dodávky energie"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 128,
+          "questionNumber": 128,
+          "page": 17,
+          "endPage": 17,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Pre transport látok difúziou je potrebné:",
+        "answers": [
+          "energia z ATP",
+          "nosičový proteín",
+          "permeabilita membrány pre danú látku",
+          "koncentračný gradient transportovanej látky"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 129,
+          "questionNumber": 129,
+          "page": 18,
+          "endPage": 18,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Rozdiel medzi jednoduchou a sprostredkovanou difúziou je:",
+        "answers": [
+          "sprostredkovaná difúzia nevyžaduje koncentračný gradient",
+          "sprostredkovaná difúzia vyžaduje energiu z ATP",
+          "sprostredkovaná difúzia je aktívny transport",
+          "sprostredkovaná difúzia vyžaduje transportný proteín"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 130,
+          "questionNumber": 130,
+          "page": 18,
+          "endPage": 18,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "cAMP:",
+        "answers": [
+          "vytvára sa pôsobením cytozolového enzýmu",
+          "na jeho degradácii sa podieľa fosfodiesteráza",
+          "aktivuje tyrozínšpecifickú proteínkinázu",
+          "sprostredkuje účinok adrenalínu po väzba na β-adrenergné receptory"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 131,
+          "questionNumber": 131,
+          "page": 18,
+          "endPage": 18,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Inozitoltrifosfát ovplyvňuje metabolické procesy tým, že:",
+        "answers": [
+          "aktivuje proteínkinázu C",
+          "vedie k vyplaveniu Ca2+ z hladkého endoplazmatického retikula v myokarde",
+          "vedie k vyplaveniu Ca2+ z hladkého endoplazmatického retikula v hladkom svale",
+          "zvyšuje priepustnosť bunkovej membrány pre Na+"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 132,
+          "questionNumber": 132,
+          "page": 18,
+          "endPage": 18,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Ktoré z uvedených aminokyselín sa môžu fosforylovať pôsobením proteínkináz:",
+        "answers": [
+          "serín",
+          "tyrozín",
+          "kyslé aminokyseliny",
+          "treonín"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 133,
+          "questionNumber": 133,
+          "page": 18,
+          "endPage": 18,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Steroidné hormóny:",
+        "answers": [
+          "viažu sa na cytozolové receptory",
+          "ich miesto účinku je v jadre",
+          "vyžadujú pri svojom účinku cAMP ako druhý posol",
+          "stimulujú štiepenie tkanivových bielkovín"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 134,
+          "questionNumber": 134,
+          "page": 18,
+          "endPage": 18,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Transport látok z miesta s vyššou koncentráciou na miesto s nižšou koncentráciou je možný:",
+        "answers": [
+          "jednoduchou difúziou",
+          "primárnym aktívnym transportom",
+          "sprostredkovanou difúziou",
+          "sekundárnym aktívnym transportom"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 135,
+          "questionNumber": 135,
+          "page": 18,
+          "endPage": 18,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Glutatión:",
+        "answers": [
+          "je tripeptid",
+          "je potrebný pre transport aminokyselín do buniek",
+          "je súčasťou systému gama-glutamyltransferázy",
+          "pozostáva z glycínu, glutamínu a cysteínu"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 137,
+          "questionNumber": 137,
+          "page": 19,
+          "endPage": 19,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Primárny aktívny transport:",
+        "answers": [
+          "je mechanizmus pre transport glukózy do buniek",
+          "je transport Na+ iónov von z bunky",
+          "vyžaduje energiu z ATP",
+          "transportuje látky proti koncentračnému gradientu"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 138,
+          "questionNumber": 138,
+          "page": 19,
+          "endPage": 19,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Inozitoltrifosfát:",
+        "answers": [
+          "vzniká účinkom fosfolipázy C",
+          "zvyšuje priepustnosť bunkovej membrány pre Na+",
+          "je aktivátorom proteínkinázy C",
+          "vzniká pomocou enzýmu prítomného v membráne buniek"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 139,
+          "questionNumber": 139,
+          "page": 19,
+          "endPage": 19,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "O G-proteínoch možno povedať:",
+        "answers": [
+          "všetky obsahujú α-podjednotku s GTP-ázovou aktivitou",
+          "nachádzajú sa v membránach endoplazmatického retikula",
+          "sú potrebné pre účinok steroidných hormónov",
+          "sú potrebné pre účinok proteínových hormónov"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 140,
+          "questionNumber": 140,
+          "page": 19,
+          "endPage": 19,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Lipofilné hormóny môžu sprostredkovať prenos signálu:",
+        "answers": [
+          "prostredníctvom druhých poslov",
+          "prostredníctvom cytozolových receptorov",
+          "prostredníctvom jadrových receptorov",
+          "prostredníctvom indukcie alebo represie génovej transkripcie"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 141,
+          "questionNumber": 141,
+          "page": 19,
+          "endPage": 19,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Hydrofilné hormóny môžu sprostredkovať prenos signálu do cieľovej bunky:",
+        "answers": [
+          "prostredníctvom cytozolového receptora",
+          "prostredníctvom jadrového receptora",
+          "prostredníctvom cAMP",
+          "prostredníctvom Ca2+ iónov"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 142,
+          "questionNumber": 142,
+          "page": 19,
+          "endPage": 19,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Sprostredkovaná difúzia:",
+        "answers": [
+          "vyžaduje donor energie",
+          "je to transport látok proti koncentračnému gradientu",
+          "vyžaduje transportný proteín",
+          "je to forma pasívneho transportu"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 143,
+          "questionNumber": 143,
+          "page": 19,
+          "endPage": 19,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Ca2+-závislá ATP-áza vyžaduje Mg2+ ióny, pretože:",
+        "answers": [
+          "Mg2+ ióny sú substrátom pre ATP-ázu",
+          "aktívne miesto enzýmu viaže ATP len ako komplex s iónmi Mg2+",
+          "Mg2+ ióny sú alosterickým aktivátorom enzýmu",
+          "ATP-áza nevyžaduje Mg2+ ióny pre svoju aktivitu"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 144,
+          "questionNumber": 144,
+          "page": 19,
+          "endPage": 19,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Sekundárny aktívny transport vyžaduje:",
+        "answers": [
+          "koncentračný gradient iónov",
+          "energiu z ATP",
+          "transportné bielkoviny pre transport iónov a transportovanú látku",
+          "transportný systém, ktorý regeneruje gradient iónov"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 145,
+          "questionNumber": 145,
+          "page": 20,
+          "endPage": 20,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Pri stanovení Ca2+-závislej ATP-ázy slúžia membrány erytrocytov ako:",
+        "answers": [
+          "substrát",
+          "tlmivý systém",
+          "zdroj enzýmu",
+          "aktivátor enzýmu"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 146,
+          "questionNumber": 146,
+          "page": 20,
+          "endPage": 20,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Gp-proteín:",
+        "answers": [
+          "je súčasť plazmatickej membrány bunky",
+          "je v aktívnom stave, keď je na α-podjednotku naviazaný GDP",
+          "je v aktívnom stave, keď je na α-podjednotku naviazaný GTP",
+          "jeho aktivácia vedie ku zvýšenej aktivite fosfolipázy C"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 147,
+          "questionNumber": 147,
+          "page": 20,
+          "endPage": 20,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Adenylátcykláza:",
+        "answers": [
+          "štiepi cyklický AMP",
+          "syntetizuje cyklický AMP z ADP",
+          "je enzým lokalizovaný v plazmatickej membráne",
+          "je enzým katalyzujúci syntézu cyklického AMP z ATP"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 148,
+          "questionNumber": 148,
+          "page": 20,
+          "endPage": 20,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Proteínkináza A:",
+        "answers": [
+          "je dimér zložený z dvoch regulačných podjednotiek",
+          "je tetramér zložený z dvoch katalytických a dvoch regulačných podjednotiek",
+          "je enzým závislý na cAMP",
+          "je enzým závislý na cGMP"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 149,
+          "questionNumber": 149,
+          "page": 20,
+          "endPage": 20,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Druhé posly:",
+        "answers": [
+          "sú zlúčeniny vznikajúce v bunkách po účinku steroidných hormónov",
+          "sú hormóny, ktoré ovplyvňujú funkcie bunky",
+          "sú napr. ATP a AMP",
+          "môžu sa tvoriť z fosfolipidov"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 150,
+          "questionNumber": 150,
+          "page": 20,
+          "endPage": 20,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Difúzia:",
+        "answers": [
+          "je, keď látky prechádzajú cez membránu z miesta s vyššou koncentráciou na miesto s nižšou koncentráciou",
+          "je, keď látky prechádzajú z miesta s nižšou koncentráciou na miesto s vyššou koncentráciou",
+          "vyžaduje prívod energie",
+          "je to jedna z foriem aktívneho transportu"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 151,
+          "questionNumber": 151,
+          "page": 20,
+          "endPage": 20,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Ca2+-závislá ATP-áza:",
+        "answers": [
+          "je hydroláza, ktorá katalyzuje štiepenie ATP",
+          "je zodpovedná za transport kalciových iónov do bunky",
+          "je prítomná aj v erytrocytoch",
+          "v bunkách kostrového svalu transportuje Ca2+ z cytozolu do sarkoplazmatického retikula"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 152,
+          "questionNumber": 152,
+          "page": 20,
+          "endPage": 21,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Malé nepolárne molekuly sú transportované cez membrány hlavne:",
+        "answers": [
+          "difúziou",
+          "uľahčenou difúziou",
+          "pomocou transportných proteínov",
+          "aktívnym transportom"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 153,
+          "questionNumber": 153,
+          "page": 21,
+          "endPage": 21,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Exocytózou sú transportované:",
+        "answers": [
+          "proteíny do bunky",
+          "ióny von z bunky",
+          "proteíny von z bunky",
+          "exocytóza nie je transportný systém"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 154,
+          "questionNumber": 154,
+          "page": 21,
+          "endPage": 21,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "cAMP:",
+        "answers": [
+          "vzniká v pečeni po pôsobení inzulínu",
+          "vzniká po pôsobení steroidných hormónov",
+          "jeho hladina sa znižuje pôsobením fosfodiesterázy",
+          "aktivuje proteínkinázu C"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 155,
+          "questionNumber": 155,
+          "page": 21,
+          "endPage": 21,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Hydrofóbne látky:",
+        "answers": [
+          "ovplyvňujú bunkové procesy po ich vstupe do buniek",
+          "viažu sa na intracelulárne receptory",
+          "zvyšujú syntézu cAMP",
+          "môžu meniť permeabilitu bunkových membrán pre ióny"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 156,
+          "questionNumber": 156,
+          "page": 21,
+          "endPage": 21,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Druhé posly:",
+        "answers": [
+          "sú látky vznikajúce v bunkách po účinku vo vode rozpustných regulačných látok",
+          "sú cyklické nukleotidy ako napr. cAMP, cGMP",
+          "sú látky, ktoré sa tvoria účinkom cytozolových enzýmov",
+          "sú potrebné pre účinok tyroxínu"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 157,
+          "questionNumber": 157,
+          "page": 21,
+          "endPage": 21,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Cytozolové receptory:",
+        "answers": [
+          "aktivujú sa cAMP",
+          "uplatňujú sa pri účinku vitamínu D",
+          "sú potrebné pre sprostredkovanie účinku kortizolu",
+          "po väzbe hormónu vstupujú do jadra a regulujú expresiu génov"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 158,
+          "questionNumber": 158,
+          "page": 21,
+          "endPage": 21,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Gp- proteín:",
+        "answers": [
+          "nachádza sa v bunkovej membráne",
+          "aktivuje sa účinkom steroidných hormónov",
+          "skladá sa z 3 podjednotiek",
+          "jeho alfa-podjednotka aktivuje fosfolipázu A"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 159,
+          "questionNumber": 159,
+          "page": 21,
+          "endPage": 21,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "cAMP:",
+        "answers": [
+          "vzniká pôsobením inzulínu",
+          "vzniká pôsobením steroidných hormónov",
+          "jeho hladina sa znižuje pôsobením fosfodiesterázy",
+          "aktivuje proteínkinázu C"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 160,
+          "questionNumber": 160,
+          "page": 21,
+          "endPage": 22,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Hydrofóbne hormóny:",
+        "answers": [
+          "ovplyvňujú bunkové procesy po vstupe do buniek",
+          "viažu sa na intracelulárne receptory",
+          "zvyšujú syntézu cAMP",
+          "môžu meniť permeabilitu bunkových membrán pre ióny"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 161,
+          "questionNumber": 161,
+          "page": 22,
+          "endPage": 22,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Primárny aktívny transport:",
+        "answers": [
+          "jeho príkladom je transport glukózy do enterocytov",
+          "jeho príkladom je transport Na+ iónov von z bunky",
+          "vyžaduje energiu v podobe ATP",
+          "transportuje látky proti koncentračnému gradientu"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 163,
+          "questionNumber": 163,
+          "page": 22,
+          "endPage": 22,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Sekundárny aktívny transport:",
+        "answers": [
+          "vyžaduje koncentračný gradient iónov",
+          "nevyžaduje ATP pre svoj priebeh",
+          "vyžaduje transportné bielkoviny",
+          "jeho príkladom je transport glukózy do enterocytov"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 164,
+          "questionNumber": 164,
+          "page": 22,
+          "endPage": 22,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Na+-K+-závislá ATP-áza transportuje:",
+        "answers": [
+          "Na+ iónov do bunky",
+          "K+ ióny do bunky",
+          "Na+ ióny von z bunky",
+          "K+ ióny von z bunky"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 165,
+          "questionNumber": 165,
+          "page": 22,
+          "endPage": 22,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Cytochrómy dýchacieho reťazca:",
+        "answers": [
+          "obsahujú vo svojej molekule polypeptidový reťazec",
+          "obsahujú hémové železo",
+          "sú schopné viazať iba elektróny",
+          "môžu viazať celý atóm vodíka"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 166,
+          "questionNumber": 166,
+          "page": 22,
+          "endPage": 22,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Gi proteín:",
+        "answers": [
+          "skladá sa z troch podjednotiek",
+          "je v aktívnom stave, keď je na alfa-podjednotku naviazaný na GDP",
+          "je v aktívnom stave, keď je na alfa-podjednotku naviazaný GTP",
+          "jeho aktivácia vedie k poklesu cAMP v cytosole"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 167,
+          "questionNumber": 167,
+          "page": 22,
+          "endPage": 22,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Inozitoltrifosfát:",
+        "answers": [
+          "vzniká účinkom fosfolipázy C",
+          "zvyšuje priepustnosť bunkovej membrány pre Na+",
+          "je aktivátorom proteínkinázy C",
+          "vzniká pomocou enzýmu prítomného v membráne buniek"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 168,
+          "questionNumber": 168,
+          "page": 22,
+          "endPage": 23,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Hydrofilné hormóny môžu sprostredkovať prenos signálu do cieľovej bunky:",
+        "answers": [
+          "prostredníctvom cytosolového receptoru",
+          "prostredníctvom jadrového receptoru",
+          "prostredníctvom cAMP",
+          "prostredníctvom Ca2+ iónov"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 170,
+          "questionNumber": 170,
+          "page": 23,
+          "endPage": 23,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Pri difúzii:",
+        "answers": [
+          "sa rozpustená látka presúva z miesta s vyššou koncentráciou na miesto s nižšou koncentráciou",
+          "sa rozpúšťadlo presúva z miesta s nižšou koncentráciou na miesto s vyššou koncentráciou cez polopriepustnú membránu",
+          "sa vyžaduje prívod energie",
+          "možno povedať, že ide o jednu z foriem aktívneho transportu"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 171,
+          "questionNumber": 171,
+          "page": 23,
+          "endPage": 23,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Ca2+-závislá ATP-áza:",
+        "answers": [
+          "je hydroláza, ktorá katalyzuje štiepenie ATP",
+          "je zodpovedná za transport kalciových iónov do cytosol",
+          "je prítomná v erytrocytoch",
+          "v bunkách kostrového svalu transportuje Ca2+ z cytosolu do sarkoplazmatického retikula"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 173,
+          "questionNumber": 173,
+          "page": 23,
+          "endPage": 23,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Koenzým Q v dýchacom reťazci:",
+        "answers": [
+          "preberá elektróny priamo z NADH",
+          "preberá celé vodíkové atómy z Fe-S skupiny",
+          "vo svojej oxidovanej forme obsahuje benzochinónové jadro",
+          "je viazaný na vonkajšiu mitochondriovú membránu"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 174,
+          "questionNumber": 174,
+          "page": 23,
+          "endPage": 23,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "alfa- podjednotka Gs- proteínu:",
+        "answers": [
+          "aktivuje adenylátcyklázu",
+          "aktivuje fosfolipázu C",
+          "viaže GTP v aktívnom stave",
+          "môže hydrolyzovať GTP"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 175,
+          "questionNumber": 175,
+          "page": 23,
+          "endPage": 23,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "cAMP:",
+        "answers": [
+          "degraduje sa účinkom adenylátcyklázy",
+          "vzniká účinkom hormónov štítnej žľazy",
+          "fosfodiesterázou sa štiepi na AMP",
+          "jeho syntéza je katalyzovaná cytosolovým enzýmom"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 176,
+          "questionNumber": 176,
+          "page": 23,
+          "endPage": 24,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "G-proteínom možno povedať:",
+        "answers": [
+          "všetky obsahujú alfa-podjednotku s GTP-ázovou aktivitou",
+          "nachádzajú sa v membráne endoplazmatického retikula",
+          "sú potrebné pre účinok niektorých steroidných hormónov",
+          "sú potrebné pre účinok niektorých peptidových hormónov"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 177,
+          "questionNumber": 177,
+          "page": 24,
+          "endPage": 24,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Adenylátcykláza:",
+        "answers": [
+          "priamo aktivuje proteínkinázu C",
+          "syntetizuje cAMP z ADP",
+          "je enzým lokalizovaný v plazmatickej membráne",
+          "je enzým katalyujúci syntézu cAMP z ATP"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 178,
+          "questionNumber": 178,
+          "page": 24,
+          "endPage": 24,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "ATP je potrebné:",
+        "answers": [
+          "pre primárne aktívny transport",
+          "pre priebeh sprostredkovanej difúzie",
+          "pre priebeh jednoduchej difúzie",
+          "pre Ca2+-závislú ATP-ázu"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 179,
+          "questionNumber": 179,
+          "page": 24,
+          "endPage": 24,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Ca2+ ióny:",
+        "answers": [
+          "sú transportované z cytosolu do endoplazmatického retikula Ca2+-závislou ATP-ázou",
+          "ich koncentrácia v cytosole je nižšia ako mimo bunky",
+          "sú transportované do cytosolu pomocou iónových kanálov",
+          "ich koncentrácia v endoplazmatickom retikule je nižšia ako v cytosole"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 180,
+          "questionNumber": 180,
+          "page": 24,
+          "endPage": 24,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Sprostredkovanou difúziou:",
+        "answers": [
+          "sa glukóza transportuje do enterocytu",
+          "sa látky transportujú z miesta s vyššou koncentráciou na miesta s nižšou koncentráciou",
+          "sa látky transportujú pomocou bielkovinového prenášača",
+          "sa látky transportujú pričom sa spotrebúva ATP"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 181,
+          "questionNumber": 181,
+          "page": 24,
+          "endPage": 24,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Proteínkináza A:",
+        "answers": [
+          "jej aktivácii predchádza aktivácia Gs proteínu",
+          "jej aktivácii predchádza aktivácia fosfolipázy C",
+          "je enzým aktivovaný pomocou cAMP",
+          "je enzým aktivovaný pomocou cGMP"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 183,
+          "questionNumber": 183,
+          "page": 24,
+          "endPage": 24,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Fosfolipáza C:",
+        "answers": [
+          "je lokalizovaná v cytosole",
+          "je aktivovaná hormónmi štítnej žľazy",
+          "produkuje diacylglycerol",
+          "zodpovedá za vznik fosfodiesterovej väzby"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 184,
+          "questionNumber": 184,
+          "page": 24,
+          "endPage": 25,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "cAMP:",
+        "answers": [
+          "vzniká účinkom cytosolového enzýmu",
+          "vzniká v bunkách po účinku steroidných hormónov",
+          "jeho koncentrácia sa zvyšuje účinkom adenylátcyklázy",
+          "aktivuje proteínkinázu C"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 185,
+          "questionNumber": 185,
+          "page": 25,
+          "endPage": 25,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Steroidné hormóny:",
+        "answers": [
+          "viažu sa na membránové receptory",
+          "po väzbe na receptor sú aktivátormi transkripcie",
+          "po väzbe na receptor spôsobujú zmeny génovej expresie",
+          "sú aktivátormi proteínkinázy C"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 186,
+          "questionNumber": 186,
+          "page": 25,
+          "endPage": 25,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Pri ktorých procesoch sa látky môžu presúvať po koncentračnom gradiente:",
+        "answers": [
+          "pri jednoduchej difúzii",
+          "pri primárnom aktívnom transporte",
+          "pri sprostredkovanej difúzii",
+          "pri presune sodných katiónov do bunky cez sodíkový kanál"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 187,
+          "questionNumber": 187,
+          "page": 25,
+          "endPage": 25,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Primárnym aktívnym transportom sa transportujú",
+        "answers": [
+          "ióny Ca2+ z endoplazmatického retikula do cytosolu",
+          "ióny Na+ von z bunky",
+          "ióny K+ do bunky",
+          "glukóza do enterocytov"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 188,
+          "questionNumber": 188,
+          "page": 25,
+          "endPage": 25,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "V procese terminálnej oxidácie:",
+        "answers": [
+          "sú elektróny prenášané z redukovaných koenzýmov až na kyslík",
+          "sú protóny transportované z matrix do medzimembránového priestoru",
+          "prenosom elektrónov z 1 molekuly NADH sa uvoľní energia pre syntézu 2 molekúl ATP",
+          "prenosom elektrónov z 1 molekuly FADH2 sa uvoľní energia pre syntézu 3 molekúl ATP"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 189,
+          "questionNumber": 189,
+          "page": 25,
+          "endPage": 25,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "cAMP:",
+        "answers": [
+          "aktivuje proteínkinázu A",
+          "jeho hladina sa znižuje pôsobením fosfodiesterázy",
+          "vzniká pôsobením niektorých steroidných hormónov",
+          "vzniká pôsobením niektorých polypeptidových hormónov"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 190,
+          "questionNumber": 190,
+          "page": 25,
+          "endPage": 25,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Ktoré aminokyseliny v proteínoch je možné fosforylovať pôsobením proteokináz:",
+        "answers": [
+          "lyzín",
+          "tyrozín",
+          "prolín",
+          "treonín"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 191,
+          "questionNumber": 191,
+          "page": 25,
+          "endPage": 25,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "O G- proteínoch platí:",
+        "answers": [
+          "sú membránové proteíny",
+          "skladajú sa z troch podjednotiek",
+          "podjednotka gama môže viazať GTP alebo GDP",
+          "typ podjednotky alfa určuje, aký enzým a ako bude ovplyvnený G- proteínmi"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 192,
+          "questionNumber": 192,
+          "page": 25,
+          "endPage": 26,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Vo vode rozpustné regulačné látky:",
+        "answers": [
+          "môžu ovplyvňovať funkcie buniek po svojom vstupe do bunky",
+          "viažu sa na membránové receptory",
+          "môžu využívať IP3 ako druhého posla",
+          "môžu meniť priepustnosť bunkových membrán pre niektoré ióny"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 193,
+          "questionNumber": 193,
+          "page": 26,
+          "endPage": 26,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Malé nepolárne molekuly (napr. niektoré plyny) sú transportované cez membrány hlavne:",
+        "answers": [
+          "jednoduchou difúziou",
+          "uľahčenou difúziou",
+          "pomocou transportných kanálov",
+          "aktívnym transportom"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 194,
+          "questionNumber": 194,
+          "page": 26,
+          "endPage": 26,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Ca2+ ióny:",
+        "answers": [
+          "sú transportované do cytosolu Ca2+-závislou ATP-ázou",
+          "ich koncentrácia v cytosole je vyššia ako mimo bunky",
+          "sú transportované do cytosolu pomocou iónových kanálov",
+          "ich koncentrácia v endoplazmatickom retikule je vyššia ako v cytosole"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 195,
+          "questionNumber": 195,
+          "page": 26,
+          "endPage": 26,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Produktom reakcie, ktorú katalyzuje Ca2+-závislá ATP-áza môže byť:",
+        "answers": [
+          "AMP",
+          "ADP",
+          "ATP",
+          "anorganický fosfát"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 196,
+          "questionNumber": 196,
+          "page": 26,
+          "endPage": 26,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Glutatión:",
+        "answers": [
+          "je dipeptid",
+          "využíva sa napríklad na transport aminokselín do bunky",
+          "je súčasťou systému, ktorý využíva aktivitu enzýmu gama-glutamyltransferázy",
+          "pozostáva z glycínu, cysteínu a glutamínu"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 197,
+          "questionNumber": 197,
+          "page": 26,
+          "endPage": 26,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "O G- proteínoch možno povedať:",
+        "answers": [
+          "sú potrebné pre účinok niektorých steroidných hormónov",
+          "sú potrebné pre účinok niektorých polypeptidových hormónov",
+          "nachádzajú sa v membránach endoplazmatického retikula",
+          "obsahujú alfa-podjednotku s GTP-ázovou aktivitou"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 198,
+          "questionNumber": 198,
+          "page": 26,
+          "endPage": 26,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Steroidné hormóny:",
+        "answers": [
+          "sa môžu viazať na receptory v cytosole",
+          "využívajú pri svojom účinku cAMP ako druhý posol",
+          "po naviazaní na receptor aktivujú Gp proteín",
+          "po naviazaní na receptor ovplyvňujú génovú expresiu v jadre"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 199,
+          "questionNumber": 199,
+          "page": 26,
+          "endPage": 26,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Inozitoltrifosfát (IP3) ovplyvňuje metabolické procesy tým, že:",
+        "answers": [
+          "aktivuje proteínkinázu C",
+          "znižuje koncentráciu Ca2+ v cytosole",
+          "zvyšuje koncentráciu Ca2+ v cytosole",
+          "sa naviaže na Na+ kanály na membráne hladkého endoplazmatického retikula"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 200,
+          "questionNumber": 200,
+          "page": 27,
+          "endPage": 27,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,1433 @@
+[
+  {
+    "title": "Histológia – 03. týždeň – Tráviaci systém 1",
+    "description": "Jazyk, zub a jeho vývoj, pažerák, žalúdok, tenké a hrubé črevo.",
+    "year": 2,
+    "category": "Histológia",
+    "sortOrder": 3,
+    "questions": [
+      {
+        "question": "Sliznica pažeráka obsahuje špecializované bunky na vstrebávanie živín.",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 1,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-000.jpg",
+            "img-173.jpg",
+            "img-198.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "topic": "Tráviaci systém 1",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Sklovinové prizmy majú veľmi špecifický tvar (predĺženej kľúčovej dierky - na priečnom reze), prebiehajú sklovinou komplikovaným spôsobom, ale vždy kolmo na dentín.",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 2,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-001.jpg",
+            "img-176.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "topic": "Tráviaci systém 1",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Epitel hrubého čreva tvoria vrstvy plochých buniek.",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 3,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-001.jpg",
+            "img-176.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "topic": "Tráviaci systém 1",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Cement je zodpovedný za citlivosť zubov",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 8,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-004.jpg",
+            "img-169.jpg",
+            "img-191.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "topic": "Tráviaci systém 1",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Plexus myentericus Auerbachi sa nachádza v submukóze",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 12,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-006.jpg",
+            "img-168.jpg",
+            "img-187.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "topic": "Tráviaci systém 1",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Žalúdočné žľazy sú jednoduché alebo rozvetvené tubulózne žľazy",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 15,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-007.jpg",
+            "img-167.jpg",
+            "img-188.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "topic": "Tráviaci systém 1",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Pri výbruse zuba možno pozorovať štruktúru všetkých tvrdých tkanív (sklovina, zubovina, cement)",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 23,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-011.jpg",
+            "img-179.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "topic": "Tráviaci systém 1",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Peyerove plaky a imunitné bunky pomáhajú zabrániť invázii baktérii",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 24,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-012.jpg",
+            "img-180.jpg",
+            "img-183.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "topic": "Tráviaci systém 1",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Zubná dreň zuba pred jeho prerezaním do ústnej dutiny má charakter rôsolovitého väziva, základná hmota obsahuje veľa vody a kyselinu hyalurónovú",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 27,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-013.jpg",
+            "img-163.jpg",
+            "img-195.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "topic": "Tráviaci systém 1",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Koreň zuba sa vytvára ako prvý, neskôr sa formujú apikálnejšie uložené časti zuba, ako sú korunka a krčok zuba",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 29,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-014.jpg",
+            "img-172.jpg",
+            "img-197.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "topic": "Tráviaci systém 1",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Lymfoidné uzlíky známe ako Peyerove plaky sa nachádzajú najmä v dvanástniku",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 36,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-017.jpg",
+            "img-024.jpg",
+            "img-033.jpg",
+            "img-034.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "topic": "Tráviaci systém 1",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Žalúdočné žľazy majú rovnakú stavbu vo všetkých anatomických oddieloch žalúdka",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 39,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-018.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "topic": "Tráviaci systém 1",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Sliznica obsahuje epitelovú výstelku, ktorá môže byť v závislosti od oblasti viacvrstvová alebo jednovrstvová",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 41,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-019.jpg",
+            "img-040.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "topic": "Tráviaci systém 1",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Vonkajšiu vrstvu hrubého čreva tvorí výlučne adventícia",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 50,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-022.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "topic": "Tráviaci systém 1",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Časti epitelu dorzálneho povrchu jazyka sú viacvrstvové ploché zrohovatené",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 53,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-024.jpg",
+            "img-029.jpg",
+            "img-033.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "topic": "Tráviaci systém 1",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Cement má vyšší obsah minerálov ako sklovina",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 59,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-026.jpg",
+            "img-039.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "topic": "Tráviaci systém 1",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Vlastné pažerákové žľazy (gll. sumbucosae oesophagei) sa nachádzajú predovšetkým v hornej časti pažeráka",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 65,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-030.jpg",
+            "img-041.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "topic": "Tráviaci systém 1",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Tunica submucosa pažeráka obsahuje čisto serózne žliazky",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 75,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-044.jpg",
+            "img-063.jpg",
+            "img-075.jpg",
+            "img-081.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "topic": "Tráviaci systém 1",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Sliznica hrubého čreva vytvára klky za účelom zväčšenia resorpčnej plochy",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 79,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-046.jpg",
+            "img-063.jpg",
+            "img-073.jpg",
+            "img-080.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "topic": "Tráviaci systém 1",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Najpočetnejšími populáciami buniek žliazok pyloru sú parietálne a hlavné bunky",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 82,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-048.jpg",
+            "img-049.jpg",
+            "img-070.jpg",
+            "img-079.jpg",
+            "img-080.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "topic": "Tráviaci systém 1",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Taeniae coli sú zosilnené pruhy cirkulárnej svaloviny steny hrubého čreva",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 84,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-050.jpg",
+            "img-061.jpg",
+            "img-079.jpg",
+            "img-080.jpg",
+            "img-101.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "topic": "Tráviaci systém 1",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Riasy, ktoré sú v tenkom čreve tvorené sliznicou a podsliznicovým väzivom, sa označujú ako klky",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 85,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-050.jpg",
+            "img-052.jpg",
+            "img-077.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "topic": "Tráviaci systém 1",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Epitel sliznice pyloru je viacvrstvový plochý nerohovatejúci",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 96,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-057.jpg",
+            "img-109.jpg",
+            "img-113.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "topic": "Tráviaci systém 1",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Najhlbšie jamky (foveolae gastricae) sa nachádzajú v pylore žalúdka",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 101,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-060.jpg",
+            "img-078.jpg",
+            "img-086.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "topic": "Tráviaci systém 1",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Zoskupené lymfatické uzlíky v sliznici ilea sa označujú ako Peyerove plaky",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 112,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-067.jpg",
+            "img-121.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "topic": "Tráviaci systém 1",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Plexus submucosus Meissneri sa nachádza iba v tenkom čreve",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 121,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-071.jpg",
+            "img-072.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "topic": "Tráviaci systém 1",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Žliazky hrubého čreva v oblasti colon sú v porovnaní so žliazkami tenkého čreva hlbšie a sú tvorené najmä mucinóznymi (pohárikovými) bunkami",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 123,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-068.jpg",
+            "img-084.jpg",
+            "img-091.jpg",
+            "img-094.jpg",
+            "img-132.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "topic": "Tráviaci systém 1",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Panethove bunky sú súčasťou sliznice tela žalúdka",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 127,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-096.jpg",
+            "img-098.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "topic": "Tráviaci systém 1",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Lieberkuhnove krypty sa nachádzajú iba v sliznici tenkého čreva",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 129,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-097.jpg",
+            "img-113.jpg",
+            "img-119.jpg",
+            "img-126.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "topic": "Tráviaci systém 1",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Žliazky pyloru sú tvorené prevažne mucinóznymi bunkami",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 141,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-100.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "topic": "Tráviaci systém 1",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Nitkovité papily (papillae filiformes) sú najpočetnejšie papily chrbáta jazyka a obsahujú viacvrstvový plochý epitel a riedke kolagénové väzivo",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 151,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-104.jpg",
+            "img-114.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "topic": "Tráviaci systém 1",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Odontoblasty sú vysoké cylindrické bunky, ktorých telá sú uložené medzi dentínom (zubovinou) a zubnou dreňou",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 152,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-104.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "topic": "Tráviaci systém 1",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Foveolae gastricae pyloru sú hlboké a žliazky pyloru sú rozvetvené tubulózne",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 159,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-111.jpg",
+            "img-118.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "topic": "Tráviaci systém 1",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Pažerák obsahuje v celej svojej dĺžke oba typy svalového tkaniva (hladkú aj priečne pruhovanú kostrovú)",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 169,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-118.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "topic": "Tráviaci systém 1",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Sklovina, zubovina a dreň zuba patria k trom tvrdým tkanivám zuba",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 172,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-121.jpg",
+            "img-138.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "topic": "Tráviaci systém 1",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Papillae (circum)vallatae sú na jazyku početné a roztrúsené medzi papillae filiformes",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 179,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-127.jpg",
+            "img-135.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "topic": "Tráviaci systém 1",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Väčšina orgánov tráviacej rúry má svalovinu usporiadanú do vnútornej longitudinálnej a vonkajšej cirkulárnej vrstvy",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 182,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-124.jpg",
+            "img-129.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "topic": "Tráviaci systém 1",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Všetky tri anatomické časti pažeráka sú pokryté adventíciou",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 183,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-129.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "topic": "Tráviaci systém 1",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Sliznica tenkého čreva obsahuje jednoduché tubulózne žľazy umiestnené v lamina propria",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 197,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-152.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "topic": "Tráviaci systém 1",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Sklovinový orgán vzniká z ektodermy",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 202,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-154.jpg",
+            "img-165.jpg",
+            "img-192.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "topic": "Tráviaci systém 1",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Seróza je vrstva riedkeho kolagénového väziva pokrytá jednovrstvovým plochým epitelom",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 205,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-157.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "topic": "Tráviaci systém 1",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Submukóza je výraznejšia na ventrálnom povrchu jazyka",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 207,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-160.jpg",
+            "img-186.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "topic": "Tráviaci systém 1",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Peridontálne ligamenta sú tvorené hrubými zväzkami prevažne elastických vlákien medzi cementom koreňa a kostným alveolom",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 208,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-160.jpg",
+            "img-186.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "topic": "Tráviaci systém 1",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Vonkajšia zóna drene korunky zuba pozostáva z odontoblastovej vrstvy, subodontoblastovej vrstvy s počatnými retikulovými vláknami a nervovou pleteňou a jadrovej vrstvy s početnými jadrami bipolárnych fibroblastov",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 209,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-162.jpg",
+            "img-193.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "topic": "Tráviaci systém 1",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Ameloblasty sa začínajú diferencovať z vnútorného sklovinového epitelu počas štádia zvončeka",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 211,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-164.jpg",
+            "img-190.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "topic": "Tráviaci systém 1",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Peridontálne ligamentá sa počas vývoja zuba vyvíjajú z ektomezenchýmu zubného vačku",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 212,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-170.jpg",
+            "img-184.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "topic": "Tráviaci systém 1",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Hertwigova epitelová koreňová pošva nemá vplyv na tvorbu cementu, dôležitá je iba na určenie tvaru koreňa zuba",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 215,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-178.jpg",
+            "img-181.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "topic": "Tráviaci systém 1",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Radikulárne vlákna periodontálnych ligament prebiehajú šikmo od steny kostného alveolu ku koreňu zuba",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 216,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-178.jpg",
+            "img-181.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "topic": "Tráviaci systém 1",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Čím bližšie ku konečníku, tým je vyšší obsah pohárikových buniek",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 218,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-200.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "topic": "Tráviaci systém 1",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Von Ebnerove žľazy sú serózne žľazy v blízkosti hradených papíl",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 222,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-202.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "topic": "Tráviaci systém 1",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Sklovina je najtvrdšie tkanivo v ľudskom tele",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 223,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-203.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "topic": "Tráviaci systém 1",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Žalúdočné jamky v pylore sú veľmi plytké",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 228,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-206.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "topic": "Tráviaci systém 1",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Klky tenkého čreva sa skladajú z lamina propria, ktoré obsahuje centrálnu chylovú cievu a krvné kapiláry, a sú pokryté jednovrstvovým cylindrickým epitelom",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 230,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-207.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "topic": "Tráviaci systém 1",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Vnútorný sklovinový epitel tvorí sklovinu, zatiaľ čo zubná papila je zdrojom pre dentín produkujúce bunky",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 234,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-208.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "topic": "Tráviaci systém 1",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Retroperitoneálne orgány sú pokryté adventíciou",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 236,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-209.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 3,
+          "topic": "Tráviaci systém 1",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Epitel sliznice pažeráka je vrstevnatý dlaždicový nerohovatejúci.",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "1. zapocet.pdf",
+          "images": [
+            "img-119.jpg"
+          ],
+          "keyFrom": "Forms"
+        },
+        "curriculum": {
+          "week": 3,
+          "topic": "Tráviaci systém 1",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Lamina muscularis mucosae v pažeráku pozostáva z jednej vrstvy hladkých svalových buniek usporiadaných cirkulárne.",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "1. zapocet.pdf",
+          "images": [
+            "img-156.jpg"
+          ],
+          "keyFrom": "Moodle"
+        },
+        "curriculum": {
+          "week": 3,
+          "topic": "Tráviaci systém 1",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Pažerákové kardiálne žľazy (gll. cardiales oesophageae) v sliznici sú serózne.",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "1. zapocet.pdf",
+          "images": [
+            "img-206.jpg"
+          ],
+          "keyFrom": "Moodle"
+        },
+        "curriculum": {
+          "week": 3,
+          "topic": "Tráviaci systém 1",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Väčšina orgánov tráviaceho traktu má muscularis externa usporiadanú do vnútornej pozdĺžnej a vonkajšej cirkulárnej vrstvy.",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "1. zapocet.pdf",
+          "images": [
+            "img-204.jpg"
+          ],
+          "keyFrom": "Moodle"
+        },
+        "curriculum": {
+          "week": 3,
+          "topic": "Tráviaci systém 1",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      }
+    ]
+  }
+]

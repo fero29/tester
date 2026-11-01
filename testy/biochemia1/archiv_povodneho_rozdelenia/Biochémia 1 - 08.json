@@ -1,0 +1,716 @@
+[
+  {
+    "title": "Biochémia 1 - 08",
+    "description": "Otázky z PDF Biochémia 1 otázky, časť 08. Poradie v zdroji 701–729, strany 91–95. Odpovede podľa označenia v PDF. Otázky odložené na kontrolu: 2.",
+    "questions": [
+      {
+        "question": "Koenzýmom enzýmu, ktorý oxidačne deaminuje kyselinu glutámovú je:",
+        "answers": [
+          "koenzým, ktorý pri redukcii priberá dva elektróny a 1 H+",
+          "mononukleotid s pyrimidínovou bázou",
+          "mononukleotid, ktorého vitamínová zložka je vit. B5",
+          "dinukleotid, ktorého aktívna zložka je derivát kyseliny nikotínovej"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 701,
+          "questionNumber": 701,
+          "page": 91,
+          "endPage": 91,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Koenzýmom dekarboxyláz aminokyselín je:",
+        "answers": [
+          "tiamindifosfát",
+          "pyridoxín",
+          "aktívna forma vitamínu B5",
+          "aktívna forma vitamínu B6"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 702,
+          "questionNumber": 702,
+          "page": 91,
+          "endPage": 91,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Aminokyselina, ktorá je donorom jednej aminoskupiny v močovine:",
+        "answers": [
+          "po transaminácii za prítomnosti alanínaminotransferázy slúži ako substrát pre glukoneogenézu",
+          "po transaminácii s 2-oxoglutarátom, môže sa zapojiť do Krebsovho cyklu",
+          "je aminokyselina, ktorá tvorí väčšiu časť uhlíkovej kostry pyrimidínového jadra",
+          "je kyselina aminojantárová"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 703,
+          "questionNumber": 703,
+          "page": 91,
+          "endPage": 91,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Amoniak je toxický:",
+        "answers": [
+          "tým, že môže vyväzovať protóny, zvyšuje pH prostredia",
+          "lebo pri vysokých koncentráciách sa viaže na oxalacetát, ktorý je dôležitý medziprodukt Krebsovho cyklu",
+          "lebo sa viaže na 2-oxoglutarát redukčnou amináciou a tým odčerpáva dôležitý energetický substrát pre Krebsov cyklus",
+          "pri koncentrácii rádovo 10-3 mmol/l"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 705,
+          "questionNumber": 705,
+          "page": 92,
+          "endPage": 92,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Amoniak:",
+        "answers": [
+          "v krvi je transportovaný prostredníctvom glutamínu resp. alanínu",
+          "zažívací trakt je jeho dôležitým zdrojom",
+          "v hrubom čreve vzniká z močoviny ureázou",
+          "v zažívacom trakte sa ho vytvorí približne 23 molov za deň"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 706,
+          "questionNumber": 706,
+          "page": 92,
+          "endPage": 92,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Kyselina glutámová:",
+        "answers": [
+          "oxidačnou deamináciou s koenzýmom FAD vzniká oxoglutarát, ktorý sa môže zapojiť do glukoneogenézy",
+          "je oxidačnou deamináciou premenená na 2-oxoglutarát pomocou glutamátdehydrogenázy",
+          "oxidačnou deamináciou poskytuje NH3, oxalacetát a NADH+H+",
+          "môže vzniknúť redukčnou amináciou jedného z medziproduktov Krebsovho cyklu"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 707,
+          "questionNumber": 707,
+          "page": 92,
+          "endPage": 92,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Glutamátdehydrogenáza:",
+        "answers": [
+          "lokalizovaná je v cytoplazme bunky",
+          "katalyzuje nevratnú reakciu deaminácie glutamátu",
+          "redukovaná forma jej koenzýmu poskytuje v dýchacom reťazci 3 ATP",
+          "katalyzuje vratnú reakciu lokalizovanú v mitochondriách"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 708,
+          "questionNumber": 708,
+          "page": 92,
+          "endPage": 92,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Pri nepriamej deaminácii sa aminoskupiny aminokyselín naviažu na spoločný medziprodukt:",
+        "answers": [
+          "v kyseline pyrohroznovej",
+          "v jednom z medziproduktov Krebsovho cyklu",
+          "v kyseline acetoctovej",
+          "v kyseline 2-oxoglutárovej"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 709,
+          "questionNumber": 709,
+          "page": 92,
+          "endPage": 92,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Močovina (NH2)2CO:",
+        "answers": [
+          "v krvnom riečisku je dobre transportovateľná",
+          "je dobre rozpustná vo vode a ľahko prechádza membránami",
+          "je zlúčenina, ktorá obsahuje 40% dusíka",
+          "syntetizuje sa v pečeni a obličke"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 710,
+          "questionNumber": 710,
+          "page": 92,
+          "endPage": 92,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Pre syntézu močoviny sú potrebné substráty:",
+        "answers": [
+          "NH4+ , HCO3-",
+          "kyselina asparágová, NH3+, HCO3-",
+          "NH4+ , HCO3- , kyselina jantárová, H2O, 3 ATP",
+          "NH4+ , HCO3- , kyselina asparágová, H2O, 3 ATP"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 711,
+          "questionNumber": 711,
+          "page": 92,
+          "endPage": 93,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Argináza:",
+        "answers": [
+          "hydrolyticky štiepi argininosukcinát na arginín a močovinu",
+          "patrí do kompletnej výbavy enzýmov cyklu tvorby močoviny v obličke",
+          "lokalizovaná je v cytoplazme hepatocytu",
+          "hydrolyticky štiepi arginín na ornitín a močovinu v cytoplazme hepatocytu"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 712,
+          "questionNumber": 712,
+          "page": 93,
+          "endPage": 93,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Amoniak:",
+        "answers": [
+          "využíva sa čiastočne na syntézu neesenciálnych aminokyselín prostredníctvom glutamátu",
+          "väčšia časť sa vylučuje z organizmu prostredníctvom kyseliny močovej",
+          "pre organizmus je toxický v koncentrácii rádove 10-3 mol/l",
+          "u ureotelných organizmov fixuje sa do močoviny, prostredníctvom ktorej sa vylúči u človeka 25 až 35 g"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 713,
+          "questionNumber": 713,
+          "page": 93,
+          "endPage": 93,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Stanovenie koncentrácie močoviny v sére a v moči:",
+        "answers": [
+          "môže nás informovať len o funkcii obličky",
+          "môže nás informovať len o miere katabolizmu bielkovín",
+          "je dvakrát citlivejšie pre posúdenie poškodenia obličky ako stanovenie kreatinínu",
+          "informuje nás o príčinách oligúrie"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 714,
+          "questionNumber": 714,
+          "page": 93,
+          "endPage": 93,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Oxidázy aminokyselín:",
+        "answers": [
+          "majú koenzým pyridoxal-5-fosfát",
+          "oxidačne deaminujú všetky L-aminokyseliny",
+          "majú koenzým FAD resp. FMN",
+          "pri oxidačnej deaminácii vzniká H2O2 a príslušná oxokyselina"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 715,
+          "questionNumber": 715,
+          "page": 93,
+          "endPage": 93,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Glutamátdehydrogenáza:",
+        "answers": [
+          "katalyzuje reakciu, rovnováhu ktorej ovplyvňuje koncentrácia substrátov a produktov",
+          "pri vysokej koncentrácii NADH, reakcia prebieha v smere tvorby oxoglutarátu",
+          "pre syntézu neesenciálnych aminokyselín je dôležitá redukčná aminácia oxoglutarátu",
+          "pri vysokej koncentrácii NAD+, ADP, reakcia katalyzovaná týmto enzýmom prebieha v smere tvorby oxoglutarátu a NH3"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 716,
+          "questionNumber": 716,
+          "page": 93,
+          "endPage": 93,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Pri nepriamej deaminácii sa aminoskupiny aminokyselín naviažu na spoločný medziprodukt:",
+        "answers": [
+          "v dikarboxylovej 2-oxokyseline s piatimi uhlíkmi",
+          "v medziprodukte metabolizmu VKK",
+          "v 2-oxokyseline, ktorá vzniká v aeróbnej glykolýze",
+          "v 2-oxokyseline, ktorá oxidačnou dekarboxyláciou poskytuje sukcinyl-CoA"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 717,
+          "questionNumber": 717,
+          "page": 93,
+          "endPage": 93,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Koenzýmom dekarboxyláz aminokyselín je:",
+        "answers": [
+          "pyridoxal-5-P, ktorý vzniká v reakcii enzýmom pyridoxalkinázou",
+          "koenzým, ktorý je aj koenzýmom cysteíndesulfhydrázy",
+          "molekula, ktorá obsahuje pyrimidínové jadro",
+          "koenzým, ktorý je spoločný pre AST, ALT, treonínaldolázu a dekarboxylázy aminokyselín"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 718,
+          "questionNumber": 718,
+          "page": 93,
+          "endPage": 94,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Pre syntézu močoviny sú potrebné substráty:",
+        "answers": [
+          "NH4+ uvoľnený len glutamátdehydrogenázou",
+          "NH4+ uvoľnený len glutaminázou",
+          "voľný amoniak a aminodusík z kyseliny asparágovej",
+          "NH4 , HCO3- , kyselina asparágová, H2O, 2 ATP, 1 GTP"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 719,
+          "questionNumber": 719,
+          "page": 94,
+          "endPage": 94,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Amoniak:",
+        "answers": [
+          "tvorí sa deamináciou aminokyselín, deamináciou nukleotidov a nukleozidov",
+          "detoxikovaný je väzbou na alanín za vzniku amidu",
+          "s 2-oxoglutarátom tvorí amid kyseliny glutámovej enzýmom glutaminázou",
+          "viazaný môže byť na kyselinu glutámovú za vzniku glutamínu v reakcii vyžadujúcej ATP"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 720,
+          "questionNumber": 720,
+          "page": 94,
+          "endPage": 94,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Močovina:",
+        "answers": [
+          "na jej tvorbu postačuje približne 25% funkčnej kapacity pečene",
+          "za deň sa jej vylúči približne 30g, čo zodpovedá 14 gramom dusíka",
+          "vylučuje sa len glomerulárnou filtráciou",
+          "na jej tvorbu postačuje približne 25% funkčnej kapacity obličky"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 721,
+          "questionNumber": 721,
+          "page": 94,
+          "endPage": 94,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Stanovenie koncentrácie močoviny v sére a v moči:",
+        "answers": [
+          "informuje nás o miere katabolizmu bielkovín a funkcií obličky",
+          "zvýšené vylučovanie močom je spojené so zvýšeným katabolizmom bielkovín",
+          "zvýšená hladina v sére, znížené vylučovanie svedčí o poškodení obličiek",
+          "slúži ako najvýznamnejší parameter pre posúdenie glomerulárnej filtrácie a spätnej tubulárnej sekrécie"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 722,
+          "questionNumber": 722,
+          "page": 94,
+          "endPage": 94,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Oxidázy aminokyselín:",
+        "answers": [
+          "patria medzi aeróbne dehydrogenázy",
+          "katalyzujú hlavne oxidačnú deamináciu D-aminokyselín",
+          "lokalizované sú hlavne v mitochondriách pečene",
+          "lokalizované sú hlavne v peroxizómoch hepatocytov"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 723,
+          "questionNumber": 723,
+          "page": 94,
+          "endPage": 94,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Koenzýmom enzýmu, ktorý oxidačne deaminuje kyselinu glutámovú je:",
+        "answers": [
+          "NAD",
+          "NADPH+H+, ktorý po reoxidácii v dýchacom reťazci poskytuje 3 ATP",
+          "koenzým, ktorého redukovaná forma po reoxidácii v dýchacom reťazci poskytuje 2 ATP",
+          "FAD, FMN"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 725,
+          "questionNumber": 725,
+          "page": 94,
+          "endPage": 94,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Močovina (NH2)2CO:",
+        "answers": [
+          "je u človeka koncový produkt degradácie purínových nukleotidov",
+          "u ureotelných organizmov je koncový produkt degradácie amoniaku",
+          "vylučuje sa len glomerulárnou filtráciou",
+          "je výborným klinickým parametrom pre sledovanie funkčnej spôsobilosti obličky"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 726,
+          "questionNumber": 726,
+          "page": 94,
+          "endPage": 95,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Aminokyselina, ktorá je donorom jednej aminoskupiny v močovine:",
+        "answers": [
+          "vzniká redukčnou amináciou kyseliny oxaloctovej",
+          "vzniká transamináciou kyseliny pyrohroznovej",
+          "vzniká transamináciou kyseliny oxaloctovej, kde donorom aminoskupiny je kyselina glutámová",
+          "patrí medzi neutrálne aminokyseliny"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 727,
+          "questionNumber": 727,
+          "page": 95,
+          "endPage": 95,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Amoniak:",
+        "answers": [
+          "transportovaný je prostredníctvom glutamínu do pečene cca 5 % a do obličky 95 %",
+          "toxický je v koncentrácii 10-3 mol/l",
+          "v obličke uvoľnený glutaminázou slúži na reguláciu acidobázickej rovnováhy",
+          "u ureotelných živočíchov sa vylučuje prostredníctvom močoviny"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 728,
+          "questionNumber": 728,
+          "page": 95,
+          "endPage": 95,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Genetické poruchy enzýmov cyklu tvorby močoviny:",
+        "answers": [
+          "súvisia s poklesom amoniaku",
+          "vedú ku vzostupom amoniaku v krvi",
+          "úplna strata ich aktivity nie je zlučiteľná so životom",
+          "ich čiastočná strata aktivity sa prejavuje vracaním, poruchami rastu, kŕčami, zastavením duševného vývoja"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 729,
+          "questionNumber": 729,
+          "page": 95,
+          "endPage": 95,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      }
+    ]
+  }
+]

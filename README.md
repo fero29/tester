@@ -39,7 +39,7 @@ Stačí Docker s Compose v2.24.4 alebo novším a Bash (Linux, macOS alebo WSL2)
 
 Otvorte **http://test.localhost** na počítači, kde beží Docker. Záložná adresa je http://localhost:8080. Netreba upravovať `/etc/hosts`. Z iného počítača či mobilu adresa `.localhost` odkazuje na dané zariadenie, nie na server.
 
-Príprava skopíruje chýbajúce JSON testy do `.local/testy/` a vytvorí `.env.local`. Existujúce lokálne súbory neprepisuje. Pôvodné `testy/` a `data/` zostávajú oddelené. Testy nie sú v Gite ani v image: na novom PC ich treba preniesť zo zálohy. Bez nich sa spustí prázdna aplikácia.
+Príprava skopíruje chýbajúce JSON testy do `.local/testy/` a vytvorí `.env.local`. Existujúce lokálne súbory neprepisuje. Pôvodné `testy/` a `data/` zostávajú oddelené. Testy sú v Gite (bez PDF), nie v image. `tools/deploy.sh local vX.Y.Z` nahradí lokálnu kópiu testami konkrétnej verzie.
 
 Absolvovanie testov je verejné. Pre import, editor a štatistiky návštev kliknite hore na tlačidlo **Správa testov** a prihláste sa; heslo je hodnota `ADMIN_SECRET` v `.env.local`. Po prihlásení sa pri testoch zobrazí tlačidlo **✏️ Upraviť** a hore ovládanie importu a odhlásenia. Lokálne je platený AI import a Cloudflare analytika vypnutá. Na testovanie AI možno výslovne nastaviť lokálny kľúč a odstrániť príslušné prázdne prepísanie v lokálnom Compose.
 
@@ -60,7 +60,7 @@ Po zmene kódu zopakujte `./tools/manage.sh local up`. Skript pripraví chýbaj�
 
 Pre každý režim fungujú aj `status` a `down`. LAN má vlastné kópie testov a prihlásenie, AI a tunnel sú vypnuté. Vyžaduje dostupný port v sieti/firewalle; predvolene počúva na všetkých IPv4 rozhraniach. Voliteľne obmedzte adresu a port, napríklad `LAN_BIND_ADDRESS=192.168.1.10 LAN_PORT=8081 ./tools/manage.sh lan up`. Na inom zariadení použite IP servera, nie `test.localhost`. Zmeny testov sa medzi režimami automaticky nesynchronizujú.
 
-**Verejné nasadenie sa robí až na pokyn vlastníka.** Pripravené sú aj príkazy `./tools/manage.sh public up`, `public status` a `public down`. Pri presune na iný PC preneste projekt, testy, dáta a súkromnú `.env`; nastavenie existujúcej domény zostáva v Cloudflare. Prvé nastavenie tunela, zálohy a presun sú v [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md). Samotné lokálne spustenie neaktivuje tunnel.
+**Verejné nasadenie sa robí až na pokyn vlastníka**, a to výlučne Git tagom cez `./tools/deploy.sh local vX.Y.Z` a `./tools/deploy.sh server vX.Y.Z` ([postup](docs/DEPLOYMENT.md#nasadenie-verzie-notebook--localhost--server)). Pripravené sú aj príkazy `./tools/manage.sh public up`, `public status` a `public down`. Pri presune na iný PC preneste projekt, testy, dáta a súkromnú `.env`; nastavenie existujúcej domény zostáva v Cloudflare. Prvé nastavenie tunela, zálohy a presun sú v [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md). Samotné lokálne spustenie neaktivuje tunnel.
 
 ## Ochrana dát a overenie
 
@@ -87,12 +87,13 @@ security.py                prihlásenie správcu, CSRF a limity
 static/                    app.js (katalóg/editor/slovíčka), practice.js (otázkový test), CSS
 templates/                 aplikácia, prihlásenie, dashboard
 VERSION                    jediný zdroj verzie
-testy/                     pôvodné JSON testy a ich archívy; mimo Gitu
+testy/                     JSON testy a ich archívy; v Gite (bez PDF)
 data/                      eventy a zálohy; mimo Gitu
 .local/                    samostatné lokálne dáta; mimo Gitu
 tests/                     regresné testy API a úložiska
 tools/prepare_local.py     príprava lokálneho prostredia
 tools/manage.sh            správa nasadenia na PC, v LAN a verejne
+tools/deploy.sh            nasadenie Git tagu na localhost a server
 tools/imports/             ručné extrakcie a ich JSON konfigurácie
 tools/out/, tools/pages/   pracovné výstupy; mimo Gitu
 docs/                      prevádzka, zálohy a mapa projektu
@@ -172,7 +173,7 @@ Fotky sa spracujú postupne a otázky sa spoja do jedného návrhu testu. Pred u
 ### 📁 Import testov zo súborov
 
 **Spôsob 1: Automatické načítanie z priečinka (odporúčané)**
-1. Vložte nové JSON súbory do `.local/testy/` pri lokálnom skúšaní alebo do `testy/` pri nasadení. Existujúce súbory neprepisujte.
+1. Vložte nové JSON súbory do `.local/testy/` pri lokálnom skúšaní. Trvalo patria do `testy/` v repozitári a na server idú novou verziou cez `tools/deploy.sh`. Existujúce súbory neprepisujte.
 2. Prihláste sa ako správca a kliknite na "Import JSON"
 3. Kliknite na "📂 Automaticky načítať"
 

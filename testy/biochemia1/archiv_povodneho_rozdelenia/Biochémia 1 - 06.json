@@ -1,0 +1,2564 @@
+[
+  {
+    "title": "Biochémia 1 - 06",
+    "description": "Otázky z PDF Biochémia 1 otázky, časť 06. Poradie v zdroji 501–600, strany 66–78. Odpovede podľa označenia v PDF. Otázky odložené na kontrolu: 2.",
+    "questions": [
+      {
+        "question": "Apoproteín B-100 sa nachádza v lipoproteínoch:",
+        "answers": [
+          "HDL",
+          "chylomikrón",
+          "VLDL",
+          "LDL"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 501,
+          "questionNumber": 501,
+          "page": 66,
+          "endPage": 66,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "LDL častice:",
+        "answers": [
+          "syntetizujú sa v extrahepatálnych tkanivách",
+          "sú častice s veľmi nízkou hustotou",
+          "sú zodpovedné za reverzný transport cholesterolu",
+          "obsahujú vo svojej štruktúre apoproteín A"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 502,
+          "questionNumber": 502,
+          "page": 66,
+          "endPage": 66,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Elektroforeticky je možné stanoviť:",
+        "answers": [
+          "VLDL",
+          "HDL",
+          "chylomikróny",
+          "LDL"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 503,
+          "questionNumber": 503,
+          "page": 66,
+          "endPage": 66,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Pre hormónsenzitívnu lipázu platí:",
+        "answers": [
+          "nachádza sa v hepatocytoch",
+          "hydrolyticky štiepi endogénne TAG",
+          "je aktivovaná inzulínom",
+          "fosforylovaná je aktívna"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 504,
+          "questionNumber": 504,
+          "page": 66,
+          "endPage": 66,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "β-oxidácia:",
+        "answers": [
+          "prebieha v mitochondriách",
+          "prebieha v cytoplazme",
+          "glukagón ju znižuje",
+          "inzulín ju zvyšuje"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 505,
+          "questionNumber": 505,
+          "page": 66,
+          "endPage": 66,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "HMG-CoA reduktáza:",
+        "answers": [
+          "je inhibovaná inzulínom",
+          "fosforylovaná je neaktívna",
+          "defosforylovaná je aktívna",
+          "je aktivovaná glukagónom"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 506,
+          "questionNumber": 506,
+          "page": 66,
+          "endPage": 66,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Pre cholesterol platí:",
+        "answers": [
+          "patrí medzi jednoduché lipidy",
+          "je polárny",
+          "esterifikovaný sa nachádza v lipoproteínoch",
+          "je potrebný pre syntézu vitamínu D"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 507,
+          "questionNumber": 507,
+          "page": 66,
+          "endPage": 67,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Medzi zložené lipidy patria:",
+        "answers": [
+          "cholesterol",
+          "triacylglycerol",
+          "fosfolipidy",
+          "sfingozín"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 508,
+          "questionNumber": 508,
+          "page": 67,
+          "endPage": 67,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Na aktiváciu lipoproteínovej lipázy je potrebný:",
+        "answers": [
+          "apoproteín B",
+          "apoproteín E",
+          "apoproteín C",
+          "apoproteín A"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 509,
+          "questionNumber": 509,
+          "page": 67,
+          "endPage": 67,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Základnou zložkou VLDL sú:",
+        "answers": [
+          "fosfolipidy",
+          "exogénny a endogénny cholesterol",
+          "endogénne TAG",
+          "exogénne TAG"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 510,
+          "questionNumber": 510,
+          "page": 67,
+          "endPage": 67,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Pri elektroforetickom delení lipoproteínov sa v beta-frakcii nachádzajú:",
+        "answers": [
+          "VLDL",
+          "LDL",
+          "chylomikróny",
+          "HDL"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 511,
+          "questionNumber": 511,
+          "page": 67,
+          "endPage": 67,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Hladina celkového cholesterolu v krvi:",
+        "answers": [
+          "je vyššia u žien ako mužov",
+          "je ovplyvnená vekom",
+          "je vyššia u dospelých ako u detí",
+          "sa stanovuje enzymaticky"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 512,
+          "questionNumber": 512,
+          "page": 67,
+          "endPage": 67,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Medzi jednoduché lipidy patrí:",
+        "answers": [
+          "kyselina palmitová",
+          "kyselina fosfatidová",
+          "cholesterol",
+          "inozitolfosfatidy"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 513,
+          "questionNumber": 513,
+          "page": 67,
+          "endPage": 67,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Pre aktivitu acetyl-CoA karboxylázy platí:",
+        "answers": [
+          "jej substrátovým aktivátorom môže byť citrát",
+          "je potrebná pre β-oxidáciu VKK",
+          "jej aktivitu zvyšuje glukagón",
+          "fosforylovaná je neaktívna"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 515,
+          "questionNumber": 515,
+          "page": 68,
+          "endPage": 68,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Syntéza VKK:",
+        "answers": [
+          "prebieha v mitochondriách",
+          "prebieha v cytoplazme",
+          "glukagón ju zvyšuje",
+          "inzulín ju znižuje"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 516,
+          "questionNumber": 516,
+          "page": 68,
+          "endPage": 68,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "HDL častice:",
+        "answers": [
+          "obsahujú najviac cholesterolu zo všetkých lipoproteínov",
+          "transportujú cholesterol z pečene do tkanív",
+          "sú substrátom pre LCAT",
+          "podieľajú sa na vzniku aterosklerózy"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 517,
+          "questionNumber": 517,
+          "page": 68,
+          "endPage": 68,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Apoproteín C:",
+        "answers": [
+          "jeho deficit spôsobuje zvýšenie hladiny chylomikrónov",
+          "aktivuje lipoproteínovú lipázu",
+          "nachádza sa vo VLDL časticiach",
+          "je aktivátorom hormónsenzitívnej lipázy"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 518,
+          "questionNumber": 518,
+          "page": 68,
+          "endPage": 68,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Pre hyperlipoproteinémiu typ IV platí:",
+        "answers": [
+          "je najčastejšie vyskytujúci sa typ v našej populácii",
+          "ide o zvýšenú hladinu exogénnych TAG v krvi",
+          "ide o dominantné zvýšenie beta frakcie na elektroforeograme",
+          "v krvi výrazne stúpa hladina VLDL"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 519,
+          "questionNumber": 519,
+          "page": 68,
+          "endPage": 68,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Cholesterol je potrebný na syntézu:",
+        "answers": [
+          "aldosterónu",
+          "lanosterolu",
+          "vitamínu D",
+          "kortizolu"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 521,
+          "questionNumber": 521,
+          "page": 68,
+          "endPage": 68,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "K medziproduktom syntézy lipidov patrí:",
+        "answers": [
+          "kyselina fosfatidová",
+          "kyselina cholová",
+          "sfingozín",
+          "karnitín"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 522,
+          "questionNumber": 522,
+          "page": 68,
+          "endPage": 68,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Hladina celkového cholesterolu v krvi:",
+        "answers": [
+          "je vyššia u žien ako u mužov",
+          "je ovplyvnená vekom",
+          "je vyššia u dospelých ako u detí",
+          "sa stanovuje enzymaticky"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 523,
+          "questionNumber": 523,
+          "page": 69,
+          "endPage": 69,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "HMG-CoA reduktáza:",
+        "answers": [
+          "je dôležitým regulačným enzýmom syntézy cholesterolu",
+          "fosforylovaná je aktívna",
+          "jej aktivita je inhibovaná cholesterolom",
+          "je aktivovaná inzulínom"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 524,
+          "questionNumber": 524,
+          "page": 69,
+          "endPage": 69,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "β-oxidácia:",
+        "answers": [
+          "je proces prebiehajúci v cytoplazme všetkých buniek",
+          "jedným z jej produktov je malonyl-CoA",
+          "je cyklus zahrňujúci proces hydratácie",
+          "jej vysoká aktivita je hlavne v srdci a kostrovom svale"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 525,
+          "questionNumber": 525,
+          "page": 69,
+          "endPage": 69,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "HDL-cholesterol:",
+        "answers": [
+          "je transportovaný z tkanív do pečene",
+          "podieľa sa na vzniku aterosklerózy",
+          "pri elektroforetickom delení sa nachádza v α-frakcii",
+          "sa v jadre HDL častice nachádza ako ester cholesterolu"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 526,
+          "questionNumber": 526,
+          "page": 69,
+          "endPage": 69,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Lipoproteínová lipáza je aktivovaná:",
+        "answers": [
+          "apoproteínom A",
+          "apoproteínom C",
+          "apoproteínom B",
+          "apoproteínom D"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 527,
+          "questionNumber": 527,
+          "page": 69,
+          "endPage": 69,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "O reverznom transporte cholesterolu platí:",
+        "answers": [
+          "podieľa sa na udržiavaní hladiny cholesterolu v bunkách",
+          "umožňuje transport cholesterolu do pečene",
+          "uskutočňuje ho LDL",
+          "ide o transport cholesterolu z pečene do buniek"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 528,
+          "questionNumber": 528,
+          "page": 69,
+          "endPage": 69,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Zvýšená hladina TAG v krvi môže byť vyvolaná:",
+        "answers": [
+          "zníženou aktivitou LPL",
+          "zvýšeným príjmom sacharidov v potrave",
+          "zvýšenou tvorbou apoproteínu C",
+          "zníženou funkciou štítnej žľazy"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 529,
+          "questionNumber": 529,
+          "page": 69,
+          "endPage": 69,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Pre acetyl-CoA platí:",
+        "answers": [
+          "jeho zdrojom môže byť ketogénna aminokyselina",
+          "vzniká β-oxidáciou VKK v cytoplazme",
+          "jeho oxidáciou v Krebsovom cykle vzniká 24 ATP",
+          "do mitochondrie je transportovaný vo forme acylkarnitínu"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 530,
+          "questionNumber": 530,
+          "page": 69,
+          "endPage": 69,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Glycerolkináza:",
+        "answers": [
+          "je potrebná pre aktiváciu VKK",
+          "jej substrátom je ATP",
+          "je aktívna v adipocytoch",
+          "nachádza sa v mitochondriách"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 531,
+          "questionNumber": 531,
+          "page": 70,
+          "endPage": 70,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Cholesterol:",
+        "answers": [
+          "je zložený lipid",
+          "patrí medzi steroidné látky",
+          "esterifikovaný je stavebnou zložkou membrán",
+          "v nadbytku inhibuje HMG-CoA reduktázu"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 532,
+          "questionNumber": 532,
+          "page": 70,
+          "endPage": 70,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Medzi funkcie lipoproteínov patrí:",
+        "answers": [
+          "LDL zabezpečuje reverzný transport cholesterolu",
+          "HDL zabezpečuje reverzný transport cholesterolu",
+          "aktivácia hormónsenzitívnej lipázy",
+          "aktivácia lipoproteínovej lipázy"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 533,
+          "questionNumber": 533,
+          "page": 70,
+          "endPage": 70,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Ketogenéza:",
+        "answers": [
+          "nemá výraznejší vplyv na acidobázickú homeostázu",
+          "je stimulovaná hormónom aktivujúcim HSL v adipocytoch",
+          "enzým jantarylCoA - transferáza je jej dôležitou súčasťou",
+          "prebieha najmä pri noninzulíndependentnom diabete"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 534,
+          "questionNumber": 534,
+          "page": 70,
+          "endPage": 70,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "AcetoacetylCoA:",
+        "answers": [
+          "aktivitou jantarylCoA - transferázy vzniká z kyseliny acetoctovej a sukcinylCoA",
+          "pri syntéze ketolátok v mitochondrii sa mení na betahydroxybetametylglutarylCoA",
+          "predstavuje substrát pre tiolázu, pričom sa tioklastickým štiepením mení na dve molekuly aktívneho acetátu",
+          "sukcinylCoA - transferáza je enzým jeho tvorby v ketogenéze"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 535,
+          "questionNumber": 535,
+          "page": 70,
+          "endPage": 70,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Kyselina β-hydroxymaslová:",
+        "answers": [
+          "je produktom degradácie pyrimidínových nukleotidov",
+          "jej vznik aj využitie prebieha v mitochondrii",
+          "jej premena na acetoacetát pri utilizácii ketolátok je energeticky nevýznamná",
+          "sa laboratórne stanovuje spolu s acetónom"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 536,
+          "questionNumber": 536,
+          "page": 70,
+          "endPage": 70,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Chylomikróny:",
+        "answers": [
+          "transportujú cholesterol prijímaný v potrave do pečene",
+          "ich základnou zložkou sú endogénne TAG",
+          "TAG sa z nich uvoľňujú pomocou LPL",
+          "sú lipoproteíny s najnižšou hustotou"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 537,
+          "questionNumber": 537,
+          "page": 70,
+          "endPage": 70,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Apoproteín A sa nenachádza v:",
+        "answers": [
+          "HDL",
+          "chylomikrónoch",
+          "VLDL",
+          "LDL"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 538,
+          "questionNumber": 538,
+          "page": 70,
+          "endPage": 71,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Jadro lipoproteínových častíc obsahuje:",
+        "answers": [
+          "fosfolipidy",
+          "VKK",
+          "cholesterol",
+          "TAG"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 539,
+          "questionNumber": 539,
+          "page": 71,
+          "endPage": 71,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Hormónsenzitívna lipáza:",
+        "answers": [
+          "nachádza sa v hepatocytoch",
+          "je aktívna defosforylovaná",
+          "je aktivovaná glukagónom",
+          "štiepi exogénne TAG"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 540,
+          "questionNumber": 540,
+          "page": 71,
+          "endPage": 71,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Medzi zložené lipidy nepatria:",
+        "answers": [
+          "cholesterol",
+          "sfingozín",
+          "cerebrozidy",
+          "triacylglyceroly"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 541,
+          "questionNumber": 541,
+          "page": 71,
+          "endPage": 71,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Na syntézu cholesterolu je potrebný enzým:",
+        "answers": [
+          "Acyl-CoA dehydrogenáza",
+          "Acetyl-CoA karboxyláza",
+          "HMG-CoA reduktáza",
+          "cholesterol syntáza"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 542,
+          "questionNumber": 542,
+          "page": 71,
+          "endPage": 71,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Hlavnou funkciou triacylglycerolov je, že sú:",
+        "answers": [
+          "stavebnou zložkou membrán",
+          "tepelnou izoláciou",
+          "zdrojom energie",
+          "mechanickou ochranou pre niektoré tkanivá"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 543,
+          "questionNumber": 543,
+          "page": 71,
+          "endPage": 71,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Miestom syntézy endogénnych triacylglycerolov je najmä:",
+        "answers": [
+          "tenké črevo",
+          "oblička",
+          "pankreas",
+          "pečeň"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 544,
+          "questionNumber": 544,
+          "page": 71,
+          "endPage": 71,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Alfa-lipoproteínom zodpovedajú:",
+        "answers": [
+          "VLDL",
+          "LDL",
+          "HDL",
+          "chylomikróny"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 545,
+          "questionNumber": 545,
+          "page": 71,
+          "endPage": 71,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Fyziologické hodnoty triacylglycerolov v krvnej plazme sú okolo:",
+        "answers": [
+          "3-5 mmol/l",
+          "1-2 mmol/l",
+          "0,5-3,5 µmol/l",
+          "0,5-2 mol/l"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 546,
+          "questionNumber": 546,
+          "page": 71,
+          "endPage": 72,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Glycerolkináza:",
+        "answers": [
+          "nachádza sa v tukovom tkanive",
+          "nachádza sa v pečeni",
+          "je potrebná pre aktiváciu vyšších karboxylových kyselín",
+          "potrebuje ATP ako substrát"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 547,
+          "questionNumber": 547,
+          "page": 72,
+          "endPage": 72,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Fanconiho syndróm je:",
+        "answers": [
+          "vrodená glykozúria",
+          "získaná glykozúria",
+          "diabetes mellitus",
+          "ochorenie pankreasu"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 548,
+          "questionNumber": 548,
+          "page": 72,
+          "endPage": 72,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Hormónsenzitívna lipáza štiepi:",
+        "answers": [
+          "cholesterolestery",
+          "chylomikróny",
+          "VLDL",
+          "TAG"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 549,
+          "questionNumber": 549,
+          "page": 72,
+          "endPage": 72,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Zníženie využívania acetyl-CoA pri diabete podmieňuje:",
+        "answers": [
+          "nedostatok inzulínu",
+          "nedostatok kyseliny oxaloctovej",
+          "zvýšená aktivita glukoneogenézy",
+          "znížená hladina glukagónu"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 550,
+          "questionNumber": 550,
+          "page": 72,
+          "endPage": 72,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Nedostatok inzulínu spôsobuje:",
+        "answers": [
+          "zvýšenie aktivity Krebsovho cyklu",
+          "zvýšenie aktivity pentózového cyklu",
+          "zvýšenie aktivity lipolýzy",
+          "zvýšenie aktivity beta-oxidácie vyšších karboxylových kyselín"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 551,
+          "questionNumber": 551,
+          "page": 72,
+          "endPage": 72,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Cholesterol:",
+        "answers": [
+          "východzou látkou pre jeho syntézu je acetyl-CoA",
+          "sa nachádza vo forme esterov v jadre lipoproteínových častíc",
+          "jeho odbúraním vznikajú žlčové kyseliny",
+          "jeho hladina v plazme je asi 3-5 mmol.l-1"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 552,
+          "questionNumber": 552,
+          "page": 72,
+          "endPage": 72,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Na energetickom zisku z oxidácie karboxylových kyselín sa podieľa:",
+        "answers": [
+          "oxidácia acetyl-CoA v citrátovom cykle",
+          "oxidácia redukovaného NAD v dýchacom reťazci",
+          "beta-oxidácia karboxylových kyselín",
+          "proces katalyzovaný pyruvátdehydrogenázovým komplexom"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 553,
+          "questionNumber": 553,
+          "page": 72,
+          "endPage": 72,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Acyl-CoA syntáza:",
+        "answers": [
+          "je enzým oxidácie karboxylových kyselín",
+          "sa využíva pri aktivácii karboxylových kyselín",
+          "zúčastňuje sa premeny karboxylovej kyseliny na acyl-CoA",
+          "je enzým syntézy VKK"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 554,
+          "questionNumber": 554,
+          "page": 72,
+          "endPage": 73,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Hladiny TAG v sére:",
+        "answers": [
+          "sú približne 1-3 mmol.l-1",
+          "je potrebné vyšetriť pri podozrení na poruchu v metabolizme lipoproteínov",
+          "sa stanovujú po štandardnej príprave pacienta",
+          "sú pri hyperlipoproteinémii II.a zvýšené"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 555,
+          "questionNumber": 555,
+          "page": 73,
+          "endPage": 73,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Pri ťažkom funkčnom defekte obličiek:",
+        "answers": [
+          "je hodnota klírens kreatinínu 120 ml/24 hodín",
+          "je hodnota klírens kreatinínu 30 ml/min",
+          "hodnota klírens stúpa",
+          "hodnota klírens klesá"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 556,
+          "questionNumber": 556,
+          "page": 73,
+          "endPage": 73,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Pomer koncentrácie močoviny v sére ku koncentrácii kreatinínu v sére nás informuje o:",
+        "answers": [
+          "degradácii purínových nukleotidov",
+          "príčinách oligúrie",
+          "katabolizme bielkovín",
+          "všetkom uvedenom"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 557,
+          "questionNumber": 557,
+          "page": 73,
+          "endPage": 73,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Donorom metylovej skupiny pri syntéze kreatínu je:",
+        "answers": [
+          "metionín",
+          "cysteín",
+          "S-adenozylmetionín",
+          "metylovaný guanidínacetát"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 558,
+          "questionNumber": 558,
+          "page": 73,
+          "endPage": 73,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Fyziologická hladina močoviny v moči je:",
+        "answers": [
+          "2,5-8,4 mmol/l",
+          "2,5-8,4 mmol/24h",
+          "120-386 mmol/24 hodín",
+          "320-568 mmol/24 hodín"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 559,
+          "questionNumber": 559,
+          "page": 73,
+          "endPage": 73,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Aktivácia karboxylovej kyseliny pred vstupom do beta-oxidácie:",
+        "answers": [
+          "vyžaduje prítomnosť látky s fosfoanhydridovou makroergickou väzbou",
+          "je spojená s tvorbou enzým-aminoacyladenylátového medziproduktu",
+          "vzniká pri nej látka s tioesterovou makroergickou väzbou",
+          "je premena karboxylovej kyseliny na acyl-CoA"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 560,
+          "questionNumber": 560,
+          "page": 73,
+          "endPage": 73,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Protektívny efekt pri rozvoji aterosklerózy je spojený s:",
+        "answers": [
+          "účinkom enzýmu lecitín - cholesterol acyltransferázy",
+          "antisklerotickým efektom LDL častíc",
+          "esterifikáciou cholesterolu",
+          "transportom cholesterolu časticami HDL do pečene"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 561,
+          "questionNumber": 561,
+          "page": 73,
+          "endPage": 73,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Syntéza karboxylových kyselín:",
+        "answers": [
+          "prebieha v adipocytoch tukového tkaniva",
+          "ako substráty využíva acetyl-CoA a malonyl-CoA",
+          "fosforyláciou acetyl-CoA karboxylázy je znížená pri hladovaní",
+          "je lokalizovaná v mitochondriách"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 562,
+          "questionNumber": 562,
+          "page": 73,
+          "endPage": 74,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Sekundárne hyperlipoproteinémie:",
+        "answers": [
+          "sú podmienené genetickým defektom v metabolizme lipidov",
+          "sprevádzajú iné základné ochorenia",
+          "sa pri obezite nevyskytujú",
+          "často sa objavujú pri diabete"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 563,
+          "questionNumber": 563,
+          "page": 74,
+          "endPage": 74,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Klírens udáva:",
+        "answers": [
+          "rýchlosť, s akou sa určité množstvo plazmy úplne zbaví určitej látky",
+          "množstvo plazmy, ktorá sa za časovú jednotku v obličkách očistí od sledovanej látky",
+          "množstvo odpadových produktov, ktorých sa plazma zbaví",
+          "množstvo produkovaného definitívneho moča za 24 hodín"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 564,
+          "questionNumber": 564,
+          "page": 74,
+          "endPage": 74,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Fyziologická hodnota klírens kreatinínu je:",
+        "answers": [
+          "125 ml/min",
+          "2 ml/s",
+          "2 ml/min",
+          "pri ochoreniach obličiek zvýšená"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 565,
+          "questionNumber": 565,
+          "page": 74,
+          "endPage": 74,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Na vylučovaní endogénneho kreatinínu sa podieľa:",
+        "answers": [
+          "tubulárna resorpcia",
+          "glomerulárna filtrácia",
+          "tubulárna exkrécia",
+          "všetky uvedené mechanizmy"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 566,
+          "questionNumber": 566,
+          "page": 74,
+          "endPage": 74,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Guanidínacetát je látká, ktorá:",
+        "answers": [
+          "vzniká z arginínu a ornitínu v obličke",
+          "sa metyluje v pečeni prostredníctvom S-adenozylmetionínu",
+          "vzniká za katalýzy arginínglycíntransamidinázy",
+          "sa transportuje z pečene krvou do obličky"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 567,
+          "questionNumber": 567,
+          "page": 74,
+          "endPage": 74,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "O lipidoch prítomných v potrave možno povedať, že:",
+        "answers": [
+          "tvoria asi 40% denného energetického príjmu",
+          "v procese trávenia dochádza k ich premene na lipoproteíny",
+          "majú energeticky nižšiu hodnotu v porovnaní s cukrami",
+          "ich trávenie prebieha hlavne v žalúdku"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 568,
+          "questionNumber": 568,
+          "page": 74,
+          "endPage": 74,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Lipoproteinová lipáza:",
+        "answers": [
+          "má úlohu pre využitie karboxylových kyselín v resyntéze TAG v adipocytoch",
+          "sa nachádza na endoteli kapilár",
+          "štiepi chylomikróny transportujúce exogénne TAG",
+          "je prítomná v adipocytoch"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 569,
+          "questionNumber": 569,
+          "page": 74,
+          "endPage": 74,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Prenos cholesterolu z periférnych tkanív do pečene:",
+        "answers": [
+          "označujeme ako reverzný transport cholesterolu",
+          "zabezpečujú LDL častice",
+          "sa uskutočňuje pomocou VLDL častíc",
+          "súvisí s antisklerotickým efektom HDL"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 570,
+          "questionNumber": 570,
+          "page": 75,
+          "endPage": 75,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Lipoproteíny sa môžu deliť:",
+        "answers": [
+          "ultracentrifugáciou",
+          "gélovou filtráciou podľa hustoty",
+          "elektroforézou podľa pohyblivosti v elektrickom poli",
+          "všetkými uvedenými metódami"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 571,
+          "questionNumber": 571,
+          "page": 75,
+          "endPage": 75,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Primárny moč:",
+        "answers": [
+          "obsahuje nízkomolekulové zložky krvnej plazmy",
+          "obsahuje vysokomolekulové látky",
+          "neobsahuje kreatinín",
+          "obsahuje kreatínfosfát"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 572,
+          "questionNumber": 572,
+          "page": 75,
+          "endPage": 75,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Len glomerulárnou filtráciou sa do moča vylučuje:",
+        "answers": [
+          "glukóza",
+          "endogénny kreatinín",
+          "inulín",
+          "metylovaný guanidínacetát"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 573,
+          "questionNumber": 573,
+          "page": 75,
+          "endPage": 75,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Fyziologická funkcia obličiek v organizme zabezpečuje:",
+        "answers": [
+          "udržiavanie stability vnútorného prostredia",
+          "reguláciu množstva a vzájomného pomeru iónov",
+          "udržiavanie stáleho pH v organizme",
+          "vylučovanie odpadových látok z metabolizmu buniek"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 574,
+          "questionNumber": 574,
+          "page": 75,
+          "endPage": 75,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Pre výpočet percenta spätnej tubulárnej resorpcie treba poznať:",
+        "answers": [
+          "diurézu",
+          "hladinu močoviny v sére",
+          "množstvo glomerulárneho filtrátu za 24 hodín",
+          "hladinu močoviny v moči"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 575,
+          "questionNumber": 575,
+          "page": 75,
+          "endPage": 75,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Hormónsenzitívna lipáza:",
+        "answers": [
+          "je aktívna v defosforylovanom stave",
+          "štiepi TAG adipocytov tukového tkaniva",
+          "hydrolyzuje TAG chylomikrónov",
+          "aktivuje sa mechanizmami sprostredkovanými zvýšenou hladinou inzulínu"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 576,
+          "questionNumber": 576,
+          "page": 75,
+          "endPage": 75,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Apoproteíny:",
+        "answers": [
+          "majú úlohu pri transporte lipoproteínových častíc",
+          "A resp. B sú považované za hlavné apoproteíny",
+          "sú dôležité pri aktivácii niektorých enzýmov metabolizmu lipoproteínov",
+          "majú význam pri väzbe lipoproteínov na špecifické receptory"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 577,
+          "questionNumber": 577,
+          "page": 75,
+          "endPage": 75,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Beta-oxidácia karboxylových kyselín:",
+        "answers": [
+          "môže prebiehať len za anaeróbnych podmienok",
+          "vyžaduje jej premenu na acyl-CoA",
+          "prebieha v mitochondriách",
+          "z hľadiska energetického zisku je pre bunku nevýznamná"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 578,
+          "questionNumber": 578,
+          "page": 76,
+          "endPage": 76,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Reverzný transport cholesterolu je:",
+        "answers": [
+          "zabezpečovaný LDL časticami",
+          "zodpovedný za antisklerotický efekt VLDL",
+          "prenos esterifikovaného cholesterolu do pečene",
+          "transport produktu reakcie katalyzovanej s LCAT"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 579,
+          "questionNumber": 579,
+          "page": 76,
+          "endPage": 76,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Glomerulárnou filtráciou v obličke:",
+        "answers": [
+          "sa tvorí primárny moč",
+          "vzniká filtrát obsahujúci nízkomolekulové zložky plazmy",
+          "sa tvorí glomerulárny filtrát",
+          "vo fyziologických podmienkach sa nedostávajú bielkoviny do moča"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 580,
+          "questionNumber": 580,
+          "page": 76,
+          "endPage": 76,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Hladina kreatinínu v sére je:",
+        "answers": [
+          "0-110 µmol/l",
+          "50-110 mmol/l",
+          "50-110 µmol/l",
+          "iná"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 581,
+          "questionNumber": 581,
+          "page": 76,
+          "endPage": 76,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Kreatínfosfát je látka, ktorá:",
+        "answers": [
+          "sa využíva pri zabezpečovaní energetických potrieb bunky",
+          "v tkanivách sa tvorí za účasti GDP",
+          "sa syntetizuje v tenkom čreve",
+          "participuje pri regenerácii ATP v podmienkach nedostatku kyslíka"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 582,
+          "questionNumber": 582,
+          "page": 76,
+          "endPage": 76,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Fyziologická koncentrácia močoviny v sére je:",
+        "answers": [
+          "2,5-8,4 mmol/l",
+          "2,5-8,4 µmol/l",
+          "závislá od aktivity urátoxidázy",
+          "závisí od intenzity degradácie aminokyselín"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 583,
+          "questionNumber": 583,
+          "page": 76,
+          "endPage": 76,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Hyperlipoproteinémie:",
+        "answers": [
+          "môžu byť podľa príčin vzniku primárne alebo sekundárne",
+          "sú sprevádzané zvýšením niektorých lipoproteínových frakcií séra",
+          "sú závažným rizikovým faktorom vzniku aterosklerózy",
+          "sekundárneho typu sú podmienené genetickým defektom"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 584,
+          "questionNumber": 584,
+          "page": 76,
+          "endPage": 76,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Pri úplnej oxidácii karboxylových kyselín sa energia získava:",
+        "answers": [
+          "pri aktivácii karboxylovej kyseliny",
+          "pomocou beta-oxidácie, terminálnej oxidácie a oxidačnej fosforylácie",
+          "oxidáciou redukovaných koenzýmov",
+          "počas premeny karboxylovej kyseliny na acyl-CoA"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 585,
+          "questionNumber": 585,
+          "page": 76,
+          "endPage": 76,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Regulácie vnútrobunkovej hladiny voľného cholesterolu sa zúčastňuje:",
+        "answers": [
+          "syntéza LDL receptorov",
+          "HMG-CoA reduktáza",
+          "enzým zabezpečujúci esterifikáciu cholesterolu",
+          "priamo hormónsenzitívna lipáza"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 586,
+          "questionNumber": 586,
+          "page": 77,
+          "endPage": 77,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Lipoproteíny s najnižšou hustotou:",
+        "answers": [
+          "sa tvoria v enterocytoch tenkého čreva",
+          "do obehu sa dostávajú endocytózou",
+          "transportujú exogénne TAG",
+          "ich syntéza prebieha v adipocytoch"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 587,
+          "questionNumber": 587,
+          "page": 77,
+          "endPage": 77,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Z guanidínacetátu sa kreatín tvorí:",
+        "answers": [
+          "najmä v pečeni",
+          "najmä v obličke",
+          "metylačnou reakciou prostredníctvom S-adenozylmetionínu",
+          "za vzniku homocysteínu"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 588,
+          "questionNumber": 588,
+          "page": 77,
+          "endPage": 77,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Medzi základné pochody v metabolizme dusíka v organizme patria:",
+        "answers": [
+          "uvoľňovanie amoniaku v deaminačných reakciách aminokyselín",
+          "fixácia uvoľneného amoniaku",
+          "transport vo forme glutamínu do pečene",
+          "tvorba močoviny a jej vylučovanie močom"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 589,
+          "questionNumber": 589,
+          "page": 77,
+          "endPage": 77,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Klírens kreatinínu je parameter, ktorý:",
+        "answers": [
+          "poukazuje na funkčný stav obličiek",
+          "s vekom jeho hodnota stúpa",
+          "má fyziologickú hladinu 2 ml/s",
+          "má výpovednú hodnotu o kvalite glomerulárnej filtrácie"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 590,
+          "questionNumber": 590,
+          "page": 77,
+          "endPage": 77,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Odpad kreatinínu močom:",
+        "answers": [
+          "je 7-20 µmol/24h",
+          "je 50-110 mmol/24h",
+          "je 7-20 mmol/24h",
+          "klesá pri zníženej filtračnej schopnosti obličiek"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 591,
+          "questionNumber": 591,
+          "page": 77,
+          "endPage": 77,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Regulácia hladiny intracelulárneho cholesterolu:",
+        "answers": [
+          "súvisí so syntézou LDL receptorov",
+          "závisí od aktivity HMG-CoA reduktázy",
+          "vyžaduje zvýšenú syntézu HDL receptorov",
+          "je ovplyvňovaná aj aktivitou acyl-CoA cholesterolacyltransferázy"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 592,
+          "questionNumber": 592,
+          "page": 77,
+          "endPage": 77,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Beta-oxidácia karboxylových kyselín:",
+        "answers": [
+          "je proces štiepenia acyl-CoA v mitochondriách",
+          "sa znižuje počas hladovania",
+          "je z aspektu ketogenézy bezvýznamná",
+          "využíva aktivovanú karboxylovú kyselinu"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 593,
+          "questionNumber": 593,
+          "page": 77,
+          "endPage": 77,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Chylomikróny sú lipoproteínové častice, o ktorých platí:",
+        "answers": [
+          "sú syntetizované v enterocytoch tenkého čreva",
+          "ich transport do lymfy sa uskutočňuje exocytózou",
+          "transportujú endogénne lipidy",
+          "štiepi ich hormónsenzitívna lipáza"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 594,
+          "questionNumber": 594,
+          "page": 78,
+          "endPage": 78,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Neutrálne tuky:",
+        "answers": [
+          "sú zásobnou látkou v organizme",
+          "sú dôležité z hľadiska zisku energie pre organizmus",
+          "sú najvýznamnejšou stavebnou zložkou membrán buniek",
+          "majú aj funkciu tepelného izolátora"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 595,
+          "questionNumber": 595,
+          "page": 78,
+          "endPage": 78,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Z metabolických dráh je v obličke lokalizovaná:",
+        "answers": [
+          "syntéza guanidínacetátu",
+          "fosforylácia metylovaného guanidínacetátu",
+          "metylácia guanidínacetátu",
+          "fosforylácia kreatínu"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 596,
+          "questionNumber": 596,
+          "page": 78,
+          "endPage": 78,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Pri posudzovaní príčin oligúrie možno využiť:",
+        "answers": [
+          "pomer kyseliny močovej v sére ku kyseline močovej v moči",
+          "pomer močoviny v sére k močovine v moči",
+          "pomer močoviny v moči k močovine v sére",
+          "nič z uvedeného"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 597,
+          "questionNumber": 597,
+          "page": 78,
+          "endPage": 78,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Množstvo kreatinínu vylúčeného močom sa zvyšuje pri:",
+        "answers": [
+          "hladovaní",
+          "horúčkovitých ochoreniach",
+          "zvýšenej svalovej práci",
+          "zníženej glomerulárnej filtrácii"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 598,
+          "questionNumber": 598,
+          "page": 78,
+          "endPage": 78,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Kreatínfosfát:",
+        "answers": [
+          "je látka, ktorá sa tvorí aktivitou kreatínkinázy",
+          "obsahuje vo svojej molekule karboxyfosfátovú makroergickú väzbu",
+          "vzniká v obličke",
+          "pri jeho tvorbe dochádza k regenerácii ATP"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 599,
+          "questionNumber": 599,
+          "page": 78,
+          "endPage": 78,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "V štruktúre lipoproteínových častíc:",
+        "answers": [
+          "TAG sú umiestnené na povrchu",
+          "hydrofóbne zložky sa nachádzajú vo vnútri",
+          "fosfolipidy sú v povrchových častiach",
+          "esterifikovaný cholesterol je v jadre"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 600,
+          "questionNumber": 600,
+          "page": 78,
+          "endPage": 78,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      }
+    ]
+  }
+]

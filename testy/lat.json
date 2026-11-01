@@ -1,0 +1,409 @@
+[
+  {
+    "title": "lat",
+    "description": "",
+    "testType": "vocabulary",
+    "vocabulary": [
+      {
+        "gender": "m",
+        "genitive": "ōris",
+        "latin": "adductor",
+        "slovak": "priťahovač",
+        "type": "noun",
+        "pageNumber": 1
+      },
+      {
+        "gender": "",
+        "genitive": "",
+        "latin": "adipōsus",
+        "slovak": "tukový",
+        "type": "adjective",
+        "pageNumber": 1
+      },
+      {
+        "gender": "",
+        "genitive": "",
+        "latin": "aliēnus",
+        "slovak": "cudzí",
+        "type": "adjective",
+        "pageNumber": 1
+      },
+      {
+        "gender": "f",
+        "genitive": "ae",
+        "latin": "angīna",
+        "slovak": "prudký zápal mandlí, angína",
+        "type": "noun",
+        "pageNumber": 1
+      },
+      {
+        "gender": "m",
+        "genitive": "icis",
+        "latin": "apex",
+        "slovak": "hrot",
+        "type": "noun",
+        "pageNumber": 1
+      },
+      {
+        "gender": "f",
+        "genitive": "ōnis",
+        "latin": "articulātiō",
+        "slovak": "kĺb",
+        "type": "noun",
+        "pageNumber": 1
+      },
+      {
+        "gender": "",
+        "genitive": "",
+        "latin": "auditīvus",
+        "slovak": "sluchový",
+        "type": "adjective",
+        "pageNumber": 1
+      },
+      {
+        "gender": "",
+        "genitive": "",
+        "latin": "benignus",
+        "slovak": "nezhubný",
+        "type": "adjective",
+        "pageNumber": 1
+      },
+      {
+        "gender": "m",
+        "genitive": "ī",
+        "latin": "calcāneus",
+        "slovak": "pätový",
+        "type": "noun",
+        "pageNumber": 1
+      },
+      {
+        "gender": "n",
+        "genitive": "itis",
+        "latin": "caput",
+        "slovak": "hlava, hlavica",
+        "type": "noun",
+        "pageNumber": 1
+      },
+      {
+        "gender": "",
+        "genitive": "",
+        "latin": "carōticus",
+        "slovak": "krčnicový",
+        "type": "adjective",
+        "pageNumber": 1
+      },
+      {
+        "gender": "",
+        "genitive": "",
+        "latin": "cartilāgineus",
+        "slovak": "chrupkový",
+        "type": "adjective",
+        "pageNumber": 1
+      },
+      {
+        "gender": "f",
+        "genitive": "inis",
+        "latin": "cartilāgō",
+        "slovak": "chrupka",
+        "type": "noun",
+        "pageNumber": 1
+      },
+      {
+        "gender": "f",
+        "genitive": "ātis",
+        "latin": "cavitās",
+        "slovak": "dutina",
+        "type": "noun",
+        "pageNumber": 1
+      },
+      {
+        "gender": "f",
+        "genitive": "īcis",
+        "latin": "cervīx",
+        "slovak": "krk",
+        "type": "noun",
+        "pageNumber": 1
+      },
+      {
+        "gender": "f",
+        "genitive": "ae",
+        "latin": "china",
+        "slovak": "chinínovník",
+        "type": "noun",
+        "pageNumber": 1
+      },
+      {
+        "gender": "f",
+        "genitive": "īcis",
+        "latin": "cicātrīx",
+        "slovak": "jazva",
+        "type": "noun",
+        "pageNumber": 1
+      },
+      {
+        "gender": "",
+        "genitive": "",
+        "latin": "compositus",
+        "slovak": "zložený",
+        "type": "adjective",
+        "pageNumber": 1
+      },
+      {
+        "gender": "f",
+        "genitive": "ōnis",
+        "latin": "contūsiō",
+        "slovak": "pomliaždenie",
+        "type": "noun",
+        "pageNumber": 1
+      },
+      {
+        "gender": "",
+        "genitive": "",
+        "latin": "contūsus",
+        "slovak": "pomliaždený",
+        "type": "adjective",
+        "pageNumber": 1
+      },
+      {
+        "gender": "n",
+        "genitive": "cordis",
+        "latin": "cor",
+        "slovak": "srdce",
+        "type": "noun",
+        "pageNumber": 1
+      },
+      {
+        "gender": "n",
+        "genitive": "oris",
+        "latin": "corpus",
+        "slovak": "telo; teleso",
+        "type": "noun",
+        "pageNumber": 1
+      },
+      {
+        "gender": "m",
+        "genitive": "īcis",
+        "latin": "cortex",
+        "slovak": "kôra",
+        "type": "noun",
+        "pageNumber": 1
+      },
+      {
+        "gender": "n",
+        "genitive": "crūris",
+        "latin": "crūs",
+        "slovak": "predkolenie",
+        "type": "noun",
+        "pageNumber": 1
+      },
+      {
+        "gender": "",
+        "genitive": "",
+        "latin": "deltoīdeus",
+        "slovak": "deltovitý",
+        "type": "adjective",
+        "pageNumber": 1
+      },
+      {
+        "gender": "m",
+        "genitive": "ōris",
+        "latin": "dēpressor",
+        "slovak": "stlačovač",
+        "type": "noun",
+        "pageNumber": 1
+      },
+      {
+        "gender": "f",
+        "genitive": "ōnis",
+        "latin": "dīslocātiō",
+        "slovak": "posunutie, premiestnenie",
+        "type": "noun",
+        "pageNumber": 1
+      },
+      {
+        "gender": "m",
+        "genitive": "ōris",
+        "latin": "dolor",
+        "slovak": "bolesť",
+        "type": "noun",
+        "pageNumber": 1
+      },
+      {
+        "gender": "",
+        "genitive": "",
+        "latin": "ē",
+        "slovak": "z, zo, pre",
+        "type": "noun",
+        "pageNumber": 1
+      },
+      {
+        "gender": "",
+        "genitive": "",
+        "latin": "elasticus",
+        "slovak": "elastický",
+        "type": "adjective",
+        "pageNumber": 1
+      },
+      {
+        "gender": "m",
+        "genitive": "ōris",
+        "latin": "extēnsor",
+        "slovak": "vystierač",
+        "type": "noun",
+        "pageNumber": 1
+      },
+      {
+        "gender": "",
+        "genitive": "",
+        "latin": "fēminīnus",
+        "slovak": "ženský",
+        "type": "adjective",
+        "pageNumber": 1
+      },
+      {
+        "gender": "n",
+        "genitive": "oris",
+        "latin": "femur",
+        "slovak": "stehno",
+        "type": "noun",
+        "pageNumber": 1
+      },
+      {
+        "gender": "",
+        "genitive": "",
+        "latin": "flāvus",
+        "slovak": "žltý",
+        "type": "adjective",
+        "pageNumber": 1
+      },
+      {
+        "gender": "m",
+        "genitive": "ōris",
+        "latin": "flexor",
+        "slovak": "ohýbač",
+        "type": "noun",
+        "pageNumber": 1
+      },
+      {
+        "gender": "n",
+        "genitive": "inis",
+        "latin": "forāmen",
+        "slovak": "otvor",
+        "type": "noun",
+        "pageNumber": 1
+      },
+      {
+        "gender": "f",
+        "genitive": "ōnis",
+        "latin": "fūnctiō",
+        "slovak": "funkcia, činnosť",
+        "type": "noun",
+        "pageNumber": 1
+      },
+      {
+        "gender": "f",
+        "genitive": "ātis",
+        "latin": "graviditās",
+        "slovak": "ťarchavosť, tehotnosť",
+        "type": "noun",
+        "pageNumber": 1
+      },
+      {
+        "gender": "m",
+        "genitive": "ūcis",
+        "latin": "hallūx",
+        "slovak": "veľký palec (na nohe)",
+        "type": "noun",
+        "pageNumber": 1
+      },
+      {
+        "gender": "n",
+        "genitive": "ātis",
+        "latin": "hēpar",
+        "slovak": "pečeň",
+        "type": "noun",
+        "pageNumber": 1
+      },
+      {
+        "gender": "m",
+        "genitive": "ī",
+        "latin": "īleus",
+        "slovak": "črevná nepriechodnosť",
+        "type": "noun",
+        "pageNumber": 1
+      },
+      {
+        "gender": "m",
+        "genitive": "īcis",
+        "latin": "index",
+        "slovak": "ukazovák",
+        "type": "noun",
+        "pageNumber": 1
+      },
+      {
+        "gender": "f",
+        "genitive": "ōnis",
+        "latin": "īnfectiō",
+        "slovak": "infekcia, nákaza",
+        "type": "noun",
+        "pageNumber": 1
+      },
+      {
+        "gender": "f",
+        "genitive": "ōnis",
+        "latin": "īnjectiō",
+        "slovak": "injekcia",
+        "type": "noun",
+        "pageNumber": 1
+      },
+      {
+        "gender": "",
+        "genitive": "",
+        "latin": "isotonicus",
+        "slovak": "izotonický",
+        "type": "adjective",
+        "pageNumber": 1
+      },
+      {
+        "gender": "f",
+        "genitive": "ae",
+        "latin": "jūnctūra",
+        "slovak": "spojenie",
+        "type": "noun",
+        "pageNumber": 1
+      },
+      {
+        "gender": "",
+        "genitive": "",
+        "latin": "lācer",
+        "slovak": "tržný",
+        "type": "adjective",
+        "pageNumber": 1
+      },
+      {
+        "gender": "f",
+        "genitive": "ōnis",
+        "latin": "laesiō",
+        "slovak": "poškodenie",
+        "type": "noun",
+        "pageNumber": 1
+      },
+      {
+        "gender": "",
+        "genitive": "",
+        "latin": "laesus",
+        "slovak": "poškodený",
+        "type": "adjective",
+        "pageNumber": 1
+      },
+      {
+        "gender": "m",
+        "genitive": "gis",
+        "latin": "larynx",
+        "slovak": "hrtan",
+        "type": "noun",
+        "pageNumber": 1
+      }
+    ]
+  }
+]

@@ -1,0 +1,3056 @@
+[
+  {
+    "title": "Test – 02. týždeň",
+    "description": "Difúzia, aktívny transport, membránové ATP-ázy, transport Ca²⁺, exocytóza a metabolické člnky.",
+    "year": 2,
+    "category": "Biochémia",
+    "sortOrder": 2,
+    "previousTitles": [
+      "Biochémia 1 - Týždeň 02 - Transportné systémy"
+    ],
+    "questions": [
+      {
+        "question": "Primárny aktívny transport:",
+        "answers": [
+          "jeho príkladom je transport glukózy do enterocytov",
+          "jeho príkladom je transport Na+ iónov von z bunky",
+          "vyžaduje energiu v podobe ATP",
+          "transportuje látky proti koncentračnému gradientu"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 77,
+          "questionNumber": 77,
+          "page": 11,
+          "endPage": 11,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w02_transport",
+          "reason": "Otázka priamo skúša difúziu, aktívny transport, koncentračný gradient alebo Na+/K+ ATP-ázu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Sekundárny aktívny transport:",
+        "answers": [
+          "vyžaduje koncentračný gradient iónov",
+          "nevyžaduje ATP pre svoj priebeh",
+          "vyžaduje transportné bielkoviny",
+          "jeho príkladom je transport glukózy do enterocytov"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 78,
+          "questionNumber": 78,
+          "page": 11,
+          "endPage": 11,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w02_transport",
+          "reason": "Otázka priamo skúša difúziu, aktívny transport, koncentračný gradient alebo Na+/K+ ATP-ázu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Na+-K+-závislá ATP-áza transportuje:",
+        "answers": [
+          "Na+ iónov do bunky",
+          "K+ ióny do bunky",
+          "Na+ ióny von z bunky",
+          "K+ ióny von z bunky"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 79,
+          "questionNumber": 79,
+          "page": 11,
+          "endPage": 11,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w02_transport",
+          "reason": "Otázka priamo skúša difúziu, aktívny transport, koncentračný gradient alebo Na+/K+ ATP-ázu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Pri difúzii:",
+        "answers": [
+          "sa rozpustená látka presúva z miesta s vyššou koncentráciou na miesto s nižšou koncentráciou",
+          "sa rozpúšťadlo presúva z miesta s nižšou koncentráciou na miesto s vyššou koncentráciou cez polopriepustnú membránu",
+          "sa vyžaduje prívod energie",
+          "možno povedať, že ide o jednu z foriem aktívneho transportu"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 85,
+          "questionNumber": 85,
+          "page": 12,
+          "endPage": 12,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w02_transport",
+          "reason": "Otázka priamo skúša difúziu, aktívny transport, koncentračný gradient alebo Na+/K+ ATP-ázu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Ca2+-závislá ATP-áza:",
+        "answers": [
+          "je hydroláza, ktorá katalyzuje štiepenie ATP",
+          "je zodpovedná za transport kalciových iónov do cytosol",
+          "je prítomná v erytrocytoch",
+          "v bunkách kostrového svalu transportuje Ca2+ z cytosolu do sarkoplazmatického retikula"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 87,
+          "questionNumber": 87,
+          "page": 12,
+          "endPage": 12,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w02_vapnik",
+          "reason": "Otázka sa týka transportu Ca2+, mechanizmu Ca2+ ATP-ázy alebo stanovenia jej aktivity.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            4
+          ]
+        }
+      },
+      {
+        "question": "ATP je potrebné:",
+        "answers": [
+          "pre primárne aktívny transport",
+          "pre priebeh sprostredkovanej difúzie",
+          "pre priebeh jednoduchej difúzie",
+          "pre Ca2+-závislú ATP-ázu"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 93,
+          "questionNumber": 93,
+          "page": 13,
+          "endPage": 13,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w02_transport",
+          "reason": "Otázka priamo skúša difúziu, aktívny transport, koncentračný gradient alebo Na+/K+ ATP-ázu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Ca2+ ióny:",
+        "answers": [
+          "sú transportované z cytosolu do endoplazmatického retikula Ca2+-závislou ATP-ázou",
+          "ich koncentrácia v cytosole je nižšia ako mimo bunky",
+          "sú transportované do cytosolu pomocou iónových kanálov",
+          "ich koncentrácia v endoplazmatickom retikule je nižšia ako v cytosole"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 94,
+          "questionNumber": 94,
+          "page": 13,
+          "endPage": 13,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w02_vapnik",
+          "reason": "Otázka sa týka transportu Ca2+, mechanizmu Ca2+ ATP-ázy alebo stanovenia jej aktivity.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            4
+          ]
+        }
+      },
+      {
+        "question": "Sprostredkovanou difúziou:",
+        "answers": [
+          "sa glukóza transportuje do enterocytu",
+          "sa látky transportujú z miesta s vyššou koncentráciou na miesta s nižšou koncentráciou",
+          "sa látky transportujú pomocou bielkovinového prenášača",
+          "sa látky transportujú pričom sa spotrebúva ATP"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 95,
+          "questionNumber": 95,
+          "page": 13,
+          "endPage": 13,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w02_transport",
+          "reason": "Otázka priamo skúša difúziu, aktívny transport, koncentračný gradient alebo Na+/K+ ATP-ázu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Pri ktorých procesoch sa látky môžu presúvať po koncentračnom gradiente:",
+        "answers": [
+          "pri jednoduchej difúzii",
+          "pri primárnom aktívnom transporte",
+          "pri sprostredkovanej difúzii",
+          "pri presune sodných katiónov do bunky cez sodíkový kanál"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 101,
+          "questionNumber": 101,
+          "page": 14,
+          "endPage": 14,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w02_transport",
+          "reason": "Otázka priamo skúša difúziu, aktívny transport, koncentračný gradient alebo Na+/K+ ATP-ázu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Primárnym aktívnym transportom sa transportujú",
+        "answers": [
+          "ióny Ca2+ z endoplazmatického retikula do cytosolu",
+          "ióny Na+ von z bunky",
+          "ióny K+ do bunky",
+          "glukóza do enterocytov"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 102,
+          "questionNumber": 102,
+          "page": 14,
+          "endPage": 14,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w02_transport",
+          "reason": "Otázka priamo skúša difúziu, aktívny transport, koncentračný gradient alebo Na+/K+ ATP-ázu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Malé nepolárne molekuly (napr. niektoré plyny) sú transportované cez membrány hlavne:",
+        "answers": [
+          "jednoduchou difúziou",
+          "uľahčenou difúziou",
+          "pomocou transportných kanálov",
+          "aktívnym transportom"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 108,
+          "questionNumber": 108,
+          "page": 15,
+          "endPage": 15,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w02_transport",
+          "reason": "Otázka priamo skúša difúziu, aktívny transport, koncentračný gradient alebo Na+/K+ ATP-ázu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Ca2+ ióny:",
+        "answers": [
+          "sú transportované do cytosolu Ca2+-závislou ATP-ázou",
+          "ich koncentrácia v cytosole je vyššia ako mimo bunky",
+          "sú transportované do cytosolu pomocou iónových kanálov",
+          "ich koncentrácia v endoplazmatickom retikule je vyššia ako v cytosole"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 109,
+          "questionNumber": 109,
+          "page": 15,
+          "endPage": 15,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w02_vapnik",
+          "reason": "Otázka sa týka transportu Ca2+, mechanizmu Ca2+ ATP-ázy alebo stanovenia jej aktivity.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            4
+          ]
+        }
+      },
+      {
+        "question": "Produktom reakcie, ktorú katalyzuje Ca2+-závislá ATP-áza môže byť:",
+        "answers": [
+          "AMP",
+          "ADP",
+          "ATP",
+          "anorganický fosfát"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 110,
+          "questionNumber": 110,
+          "page": 15,
+          "endPage": 15,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w02_vapnik",
+          "reason": "Otázka sa týka transportu Ca2+, mechanizmu Ca2+ ATP-ázy alebo stanovenia jej aktivity.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            4
+          ]
+        }
+      },
+      {
+        "question": "Glutatión:",
+        "answers": [
+          "je dipeptid",
+          "využíva sa napríklad na transport aminokselín do bunky",
+          "je súčasťou systému, ktorý využíva aktivitu enzýmu gama-glutamyltransferázy",
+          "pozostáva z glycínu, cysteínu a glutamínu"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 111,
+          "questionNumber": 111,
+          "page": 15,
+          "endPage": 15,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [
+            10
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w02_glutation_transport",
+          "reason": "V možnostiach sa skúša transport aminokyselín cez membránu prostredníctvom gama-glutamylového systému.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            2,
+            3
+          ]
+        }
+      },
+      {
+        "question": "Ca2+-závislá ATP-áza môže transportovať:",
+        "answers": [
+          "Ca2+ ióny z cytosolu do endoplazmatického retikula",
+          "Ca2+ ióny z endoplazmatického retikula do cytosolu",
+          "Ca2+ ióny z cytosolu do extracelulárneho priestoru",
+          "Ca2+ ióny z extracelulárneho priestoru do cytosolu"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 116,
+          "questionNumber": 116,
+          "page": 16,
+          "endPage": 16,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w02_vapnik",
+          "reason": "Otázka sa týka transportu Ca2+, mechanizmu Ca2+ ATP-ázy alebo stanovenia jej aktivity.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            4
+          ]
+        }
+      },
+      {
+        "question": "Aktívny transport je:",
+        "answers": [
+          "pohyb látok v smere koncentračného gradientu",
+          "pohyb látok proti koncentračnému gradientu",
+          "transport Na+ iónov von z bunky",
+          "transport pomocou nosiča bez potreby ATP"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 117,
+          "questionNumber": 117,
+          "page": 16,
+          "endPage": 16,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w02_transport",
+          "reason": "Otázka priamo skúša difúziu, aktívny transport, koncentračný gradient alebo Na+/K+ ATP-ázu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Sprostredkovaná difúzia:",
+        "answers": [
+          "vyžaduje dodanie energie",
+          "je transport látok po koncentračnom gradiente",
+          "vyžaduje transportný proteín",
+          "je to forma pasívneho transportu"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 118,
+          "questionNumber": 118,
+          "page": 16,
+          "endPage": 16,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w02_transport",
+          "reason": "Otázka priamo skúša difúziu, aktívny transport, koncentračný gradient alebo Na+/K+ ATP-ázu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "ATP je potrebné:",
+        "answers": [
+          "pre aktívny transport",
+          "pre sprostredkovanú difúziu",
+          "pre difúziu",
+          "pre Ca2+-závislú ATP-ázu"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 119,
+          "questionNumber": 119,
+          "page": 16,
+          "endPage": 16,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w02_transport",
+          "reason": "Otázka priamo skúša difúziu, aktívny transport, koncentračný gradient alebo Na+/K+ ATP-ázu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Gama-glutamyltransferáza katalyzuje:",
+        "answers": [
+          "primárny aktívny transport",
+          "sekundárny aktívny transport",
+          "sprostredkovanú difúziu",
+          "skupinovú translokáciu"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 120,
+          "questionNumber": 120,
+          "page": 16,
+          "endPage": 16,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [
+            10
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w02_glutation_transport",
+          "reason": "V možnostiach sa skúša transport aminokyselín cez membránu prostredníctvom gama-glutamylového systému.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            2,
+            3
+          ]
+        }
+      },
+      {
+        "question": "Pri sprostredkovanej difúzii:",
+        "answers": [
+          "glukóza je transportovaná z krvi do buniek",
+          "látky sú transportované z miesta vyššej koncentrácie na miesto s nižšou koncentráciou",
+          "látky sú transportované pomocou nosičovej bielkoviny",
+          "spotrebováva sa ATP"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 121,
+          "questionNumber": 121,
+          "page": 17,
+          "endPage": 17,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w02_transport",
+          "reason": "Otázka priamo skúša difúziu, aktívny transport, koncentračný gradient alebo Na+/K+ ATP-ázu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Na+,K+-závislá ATP-áza transportuje:",
+        "answers": [
+          "Na+ ióny von z bunky",
+          "K+ ióny von z bunky",
+          "Na+ ióny do vnútra bunky",
+          "obidva druhy iónov do bunky"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 122,
+          "questionNumber": 122,
+          "page": 17,
+          "endPage": 17,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w02_transport",
+          "reason": "Otázka priamo skúša difúziu, aktívny transport, koncentračný gradient alebo Na+/K+ ATP-ázu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Aktívny transport je:",
+        "answers": [
+          "pohyb látok v smere koncentračného gradientu",
+          "pohyb látok proti koncentračnému gradientu",
+          "transport Na+ iónov do buniek",
+          "transport pomocou nosiča bez dodávky energie"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 128,
+          "questionNumber": 128,
+          "page": 17,
+          "endPage": 17,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w02_transport",
+          "reason": "Otázka priamo skúša difúziu, aktívny transport, koncentračný gradient alebo Na+/K+ ATP-ázu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Pre transport látok difúziou je potrebné:",
+        "answers": [
+          "energia z ATP",
+          "nosičový proteín",
+          "permeabilita membrány pre danú látku",
+          "koncentračný gradient transportovanej látky"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 129,
+          "questionNumber": 129,
+          "page": 18,
+          "endPage": 18,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w02_transport",
+          "reason": "Otázka priamo skúša difúziu, aktívny transport, koncentračný gradient alebo Na+/K+ ATP-ázu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Rozdiel medzi jednoduchou a sprostredkovanou difúziou je:",
+        "answers": [
+          "sprostredkovaná difúzia nevyžaduje koncentračný gradient",
+          "sprostredkovaná difúzia vyžaduje energiu z ATP",
+          "sprostredkovaná difúzia je aktívny transport",
+          "sprostredkovaná difúzia vyžaduje transportný proteín"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 130,
+          "questionNumber": 130,
+          "page": 18,
+          "endPage": 18,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w02_transport",
+          "reason": "Otázka priamo skúša difúziu, aktívny transport, koncentračný gradient alebo Na+/K+ ATP-ázu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Transport látok z miesta s vyššou koncentráciou na miesto s nižšou koncentráciou je možný:",
+        "answers": [
+          "jednoduchou difúziou",
+          "primárnym aktívnym transportom",
+          "sprostredkovanou difúziou",
+          "sekundárnym aktívnym transportom"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 135,
+          "questionNumber": 135,
+          "page": 18,
+          "endPage": 18,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w02_transport",
+          "reason": "Otázka priamo skúša difúziu, aktívny transport, koncentračný gradient alebo Na+/K+ ATP-ázu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Glutatión:",
+        "answers": [
+          "je tripeptid",
+          "je potrebný pre transport aminokyselín do buniek",
+          "je súčasťou systému gama-glutamyltransferázy",
+          "pozostáva z glycínu, glutamínu a cysteínu"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 137,
+          "questionNumber": 137,
+          "page": 19,
+          "endPage": 19,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [
+            10
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w02_glutation_transport",
+          "reason": "V možnostiach sa skúša transport aminokyselín cez membránu prostredníctvom gama-glutamylového systému.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            2,
+            3
+          ]
+        }
+      },
+      {
+        "question": "Primárny aktívny transport:",
+        "answers": [
+          "je mechanizmus pre transport glukózy do buniek",
+          "je transport Na+ iónov von z bunky",
+          "vyžaduje energiu z ATP",
+          "transportuje látky proti koncentračnému gradientu"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 138,
+          "questionNumber": 138,
+          "page": 19,
+          "endPage": 19,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w02_transport",
+          "reason": "Otázka priamo skúša difúziu, aktívny transport, koncentračný gradient alebo Na+/K+ ATP-ázu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Sprostredkovaná difúzia:",
+        "answers": [
+          "vyžaduje donor energie",
+          "je to transport látok proti koncentračnému gradientu",
+          "vyžaduje transportný proteín",
+          "je to forma pasívneho transportu"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 143,
+          "questionNumber": 143,
+          "page": 19,
+          "endPage": 19,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w02_transport",
+          "reason": "Otázka priamo skúša difúziu, aktívny transport, koncentračný gradient alebo Na+/K+ ATP-ázu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Ca2+-závislá ATP-áza vyžaduje Mg2+ ióny, pretože:",
+        "answers": [
+          "Mg2+ ióny sú substrátom pre ATP-ázu",
+          "aktívne miesto enzýmu viaže ATP len ako komplex s iónmi Mg2+",
+          "Mg2+ ióny sú alosterickým aktivátorom enzýmu",
+          "ATP-áza nevyžaduje Mg2+ ióny pre svoju aktivitu"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 144,
+          "questionNumber": 144,
+          "page": 19,
+          "endPage": 19,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w02_vapnik",
+          "reason": "Otázka sa týka transportu Ca2+, mechanizmu Ca2+ ATP-ázy alebo stanovenia jej aktivity.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            4
+          ]
+        }
+      },
+      {
+        "question": "Sekundárny aktívny transport vyžaduje:",
+        "answers": [
+          "koncentračný gradient iónov",
+          "energiu z ATP",
+          "transportné bielkoviny pre transport iónov a transportovanú látku",
+          "transportný systém, ktorý regeneruje gradient iónov"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 145,
+          "questionNumber": 145,
+          "page": 20,
+          "endPage": 20,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w02_transport",
+          "reason": "Otázka priamo skúša difúziu, aktívny transport, koncentračný gradient alebo Na+/K+ ATP-ázu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Pri stanovení Ca2+-závislej ATP-ázy slúžia membrány erytrocytov ako:",
+        "answers": [
+          "substrát",
+          "tlmivý systém",
+          "zdroj enzýmu",
+          "aktivátor enzýmu"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 146,
+          "questionNumber": 146,
+          "page": 20,
+          "endPage": 20,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w02_vapnik",
+          "reason": "Otázka sa týka transportu Ca2+, mechanizmu Ca2+ ATP-ázy alebo stanovenia jej aktivity.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            4
+          ]
+        }
+      },
+      {
+        "question": "Difúzia:",
+        "answers": [
+          "je, keď látky prechádzajú cez membránu z miesta s vyššou koncentráciou na miesto s nižšou koncentráciou",
+          "je, keď látky prechádzajú z miesta s nižšou koncentráciou na miesto s vyššou koncentráciou",
+          "vyžaduje prívod energie",
+          "je to jedna z foriem aktívneho transportu"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 151,
+          "questionNumber": 151,
+          "page": 20,
+          "endPage": 20,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w02_transport",
+          "reason": "Otázka priamo skúša difúziu, aktívny transport, koncentračný gradient alebo Na+/K+ ATP-ázu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Ca2+-závislá ATP-áza:",
+        "answers": [
+          "je hydroláza, ktorá katalyzuje štiepenie ATP",
+          "je zodpovedná za transport kalciových iónov do bunky",
+          "je prítomná aj v erytrocytoch",
+          "v bunkách kostrového svalu transportuje Ca2+ z cytozolu do sarkoplazmatického retikula"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 152,
+          "questionNumber": 152,
+          "page": 20,
+          "endPage": 21,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w02_vapnik",
+          "reason": "Otázka sa týka transportu Ca2+, mechanizmu Ca2+ ATP-ázy alebo stanovenia jej aktivity.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            4
+          ]
+        }
+      },
+      {
+        "question": "Malé nepolárne molekuly sú transportované cez membrány hlavne:",
+        "answers": [
+          "difúziou",
+          "uľahčenou difúziou",
+          "pomocou transportných proteínov",
+          "aktívnym transportom"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 153,
+          "questionNumber": 153,
+          "page": 21,
+          "endPage": 21,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w02_transport",
+          "reason": "Otázka priamo skúša difúziu, aktívny transport, koncentračný gradient alebo Na+/K+ ATP-ázu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Exocytózou sú transportované:",
+        "answers": [
+          "proteíny do bunky",
+          "ióny von z bunky",
+          "proteíny von z bunky",
+          "exocytóza nie je transportný systém"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 154,
+          "questionNumber": 154,
+          "page": 21,
+          "endPage": 21,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w02_exocytoza",
+          "reason": "Exocytóza je výslovne uvedená medzi transportmi makromolekúl.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            6
+          ]
+        }
+      },
+      {
+        "question": "Primárny aktívny transport:",
+        "answers": [
+          "jeho príkladom je transport glukózy do enterocytov",
+          "jeho príkladom je transport Na+ iónov von z bunky",
+          "vyžaduje energiu v podobe ATP",
+          "transportuje látky proti koncentračnému gradientu"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 163,
+          "questionNumber": 163,
+          "page": 22,
+          "endPage": 22,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w02_transport",
+          "reason": "Otázka priamo skúša difúziu, aktívny transport, koncentračný gradient alebo Na+/K+ ATP-ázu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Sekundárny aktívny transport:",
+        "answers": [
+          "vyžaduje koncentračný gradient iónov",
+          "nevyžaduje ATP pre svoj priebeh",
+          "vyžaduje transportné bielkoviny",
+          "jeho príkladom je transport glukózy do enterocytov"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 164,
+          "questionNumber": 164,
+          "page": 22,
+          "endPage": 22,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w02_transport",
+          "reason": "Otázka priamo skúša difúziu, aktívny transport, koncentračný gradient alebo Na+/K+ ATP-ázu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Na+-K+-závislá ATP-áza transportuje:",
+        "answers": [
+          "Na+ iónov do bunky",
+          "K+ ióny do bunky",
+          "Na+ ióny von z bunky",
+          "K+ ióny von z bunky"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 165,
+          "questionNumber": 165,
+          "page": 22,
+          "endPage": 22,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w02_transport",
+          "reason": "Otázka priamo skúša difúziu, aktívny transport, koncentračný gradient alebo Na+/K+ ATP-ázu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Pri difúzii:",
+        "answers": [
+          "sa rozpustená látka presúva z miesta s vyššou koncentráciou na miesto s nižšou koncentráciou",
+          "sa rozpúšťadlo presúva z miesta s nižšou koncentráciou na miesto s vyššou koncentráciou cez polopriepustnú membránu",
+          "sa vyžaduje prívod energie",
+          "možno povedať, že ide o jednu z foriem aktívneho transportu"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 171,
+          "questionNumber": 171,
+          "page": 23,
+          "endPage": 23,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w02_transport",
+          "reason": "Otázka priamo skúša difúziu, aktívny transport, koncentračný gradient alebo Na+/K+ ATP-ázu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Ca2+-závislá ATP-áza:",
+        "answers": [
+          "je hydroláza, ktorá katalyzuje štiepenie ATP",
+          "je zodpovedná za transport kalciových iónov do cytosol",
+          "je prítomná v erytrocytoch",
+          "v bunkách kostrového svalu transportuje Ca2+ z cytosolu do sarkoplazmatického retikula"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 173,
+          "questionNumber": 173,
+          "page": 23,
+          "endPage": 23,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w02_vapnik",
+          "reason": "Otázka sa týka transportu Ca2+, mechanizmu Ca2+ ATP-ázy alebo stanovenia jej aktivity.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            4
+          ]
+        }
+      },
+      {
+        "question": "ATP je potrebné:",
+        "answers": [
+          "pre primárne aktívny transport",
+          "pre priebeh sprostredkovanej difúzie",
+          "pre priebeh jednoduchej difúzie",
+          "pre Ca2+-závislú ATP-ázu"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 179,
+          "questionNumber": 179,
+          "page": 24,
+          "endPage": 24,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w02_transport",
+          "reason": "Otázka priamo skúša difúziu, aktívny transport, koncentračný gradient alebo Na+/K+ ATP-ázu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Ca2+ ióny:",
+        "answers": [
+          "sú transportované z cytosolu do endoplazmatického retikula Ca2+-závislou ATP-ázou",
+          "ich koncentrácia v cytosole je nižšia ako mimo bunky",
+          "sú transportované do cytosolu pomocou iónových kanálov",
+          "ich koncentrácia v endoplazmatickom retikule je nižšia ako v cytosole"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 180,
+          "questionNumber": 180,
+          "page": 24,
+          "endPage": 24,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w02_vapnik",
+          "reason": "Otázka sa týka transportu Ca2+, mechanizmu Ca2+ ATP-ázy alebo stanovenia jej aktivity.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            4
+          ]
+        }
+      },
+      {
+        "question": "Sprostredkovanou difúziou:",
+        "answers": [
+          "sa glukóza transportuje do enterocytu",
+          "sa látky transportujú z miesta s vyššou koncentráciou na miesta s nižšou koncentráciou",
+          "sa látky transportujú pomocou bielkovinového prenášača",
+          "sa látky transportujú pričom sa spotrebúva ATP"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 181,
+          "questionNumber": 181,
+          "page": 24,
+          "endPage": 24,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w02_transport",
+          "reason": "Otázka priamo skúša difúziu, aktívny transport, koncentračný gradient alebo Na+/K+ ATP-ázu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Pri ktorých procesoch sa látky môžu presúvať po koncentračnom gradiente:",
+        "answers": [
+          "pri jednoduchej difúzii",
+          "pri primárnom aktívnom transporte",
+          "pri sprostredkovanej difúzii",
+          "pri presune sodných katiónov do bunky cez sodíkový kanál"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 187,
+          "questionNumber": 187,
+          "page": 25,
+          "endPage": 25,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w02_transport",
+          "reason": "Otázka priamo skúša difúziu, aktívny transport, koncentračný gradient alebo Na+/K+ ATP-ázu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Primárnym aktívnym transportom sa transportujú",
+        "answers": [
+          "ióny Ca2+ z endoplazmatického retikula do cytosolu",
+          "ióny Na+ von z bunky",
+          "ióny K+ do bunky",
+          "glukóza do enterocytov"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 188,
+          "questionNumber": 188,
+          "page": 25,
+          "endPage": 25,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w02_transport",
+          "reason": "Otázka priamo skúša difúziu, aktívny transport, koncentračný gradient alebo Na+/K+ ATP-ázu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Malé nepolárne molekuly (napr. niektoré plyny) sú transportované cez membrány hlavne:",
+        "answers": [
+          "jednoduchou difúziou",
+          "uľahčenou difúziou",
+          "pomocou transportných kanálov",
+          "aktívnym transportom"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 194,
+          "questionNumber": 194,
+          "page": 26,
+          "endPage": 26,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w02_transport",
+          "reason": "Otázka priamo skúša difúziu, aktívny transport, koncentračný gradient alebo Na+/K+ ATP-ázu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Ca2+ ióny:",
+        "answers": [
+          "sú transportované do cytosolu Ca2+-závislou ATP-ázou",
+          "ich koncentrácia v cytosole je vyššia ako mimo bunky",
+          "sú transportované do cytosolu pomocou iónových kanálov",
+          "ich koncentrácia v endoplazmatickom retikule je vyššia ako v cytosole"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 195,
+          "questionNumber": 195,
+          "page": 26,
+          "endPage": 26,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w02_vapnik",
+          "reason": "Otázka sa týka transportu Ca2+, mechanizmu Ca2+ ATP-ázy alebo stanovenia jej aktivity.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            4
+          ]
+        }
+      },
+      {
+        "question": "Produktom reakcie, ktorú katalyzuje Ca2+-závislá ATP-áza môže byť:",
+        "answers": [
+          "AMP",
+          "ADP",
+          "ATP",
+          "anorganický fosfát"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 196,
+          "questionNumber": 196,
+          "page": 26,
+          "endPage": 26,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w02_vapnik",
+          "reason": "Otázka sa týka transportu Ca2+, mechanizmu Ca2+ ATP-ázy alebo stanovenia jej aktivity.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            4
+          ]
+        }
+      },
+      {
+        "question": "Glutatión:",
+        "answers": [
+          "je dipeptid",
+          "využíva sa napríklad na transport aminokselín do bunky",
+          "je súčasťou systému, ktorý využíva aktivitu enzýmu gama-glutamyltransferázy",
+          "pozostáva z glycínu, cysteínu a glutamínu"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 197,
+          "questionNumber": 197,
+          "page": 26,
+          "endPage": 26,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [
+            10
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w02_glutation_transport",
+          "reason": "V možnostiach sa skúša transport aminokyselín cez membránu prostredníctvom gama-glutamylového systému.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            2,
+            3
+          ]
+        }
+      },
+      {
+        "question": "Ca2+-závislá ATP-áza môže transportovať:",
+        "answers": [
+          "Ca2+ ióny z cytosolu do endoplazmatického retikula",
+          "Ca2+ ióny z endoplazmatického retikula do cytosolu",
+          "Ca2+ ióny z cytosolu do extracelulárneho priestoru",
+          "Ca2+ ióny z extracelulárneho priestoru do cytosolu"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 202,
+          "questionNumber": 202,
+          "page": 27,
+          "endPage": 27,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w02_vapnik",
+          "reason": "Otázka sa týka transportu Ca2+, mechanizmu Ca2+ ATP-ázy alebo stanovenia jej aktivity.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            4
+          ]
+        }
+      },
+      {
+        "question": "Aktívny transport je:",
+        "answers": [
+          "pohyb látok v smere koncentračného gradientu",
+          "pohyb látok proti koncentračnému gradientu",
+          "transport Na+ iónov von z bunky",
+          "transport pomocou nosiča bez potreby ATP"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 203,
+          "questionNumber": 203,
+          "page": 27,
+          "endPage": 27,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w02_transport",
+          "reason": "Otázka priamo skúša difúziu, aktívny transport, koncentračný gradient alebo Na+/K+ ATP-ázu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Sprostredkovaná difúzia:",
+        "answers": [
+          "vyžaduje dodanie energie",
+          "je transport látok po koncentračnom gradiente",
+          "vyžaduje transportný proteín",
+          "je to forma pasívneho transportu"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 204,
+          "questionNumber": 204,
+          "page": 27,
+          "endPage": 27,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w02_transport",
+          "reason": "Otázka priamo skúša difúziu, aktívny transport, koncentračný gradient alebo Na+/K+ ATP-ázu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "ATP je potrebné:",
+        "answers": [
+          "pre aktívny transport",
+          "pre sprostredkovanú difúziu",
+          "pre difúziu",
+          "pre Ca2+-závislú ATP-ázu"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 205,
+          "questionNumber": 205,
+          "page": 27,
+          "endPage": 27,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w02_transport",
+          "reason": "Otázka priamo skúša difúziu, aktívny transport, koncentračný gradient alebo Na+/K+ ATP-ázu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Gama-glutamyltransferáza katalyzuje:",
+        "answers": [
+          "primárny aktívny transport",
+          "sekundárny aktívny transport",
+          "sprostredkovanú difúziu",
+          "skupinovú translokáciu"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 206,
+          "questionNumber": 206,
+          "page": 27,
+          "endPage": 27,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [
+            10
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w02_glutation_transport",
+          "reason": "V možnostiach sa skúša transport aminokyselín cez membránu prostredníctvom gama-glutamylového systému.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            2,
+            3
+          ]
+        }
+      },
+      {
+        "question": "Pri sprostredkovanej difúzii:",
+        "answers": [
+          "glukóza je transportovaná z krvi do buniek",
+          "látky sú transportované z miesta vyššej koncentrácie na miesto s nižšou koncentráciou",
+          "látky sú transportované pomocou nosičovej bielkoviny",
+          "spotrebováva sa ATP"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 207,
+          "questionNumber": 207,
+          "page": 27,
+          "endPage": 27,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w02_transport",
+          "reason": "Otázka priamo skúša difúziu, aktívny transport, koncentračný gradient alebo Na+/K+ ATP-ázu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Na+,K+-závislá ATP-áza transportuje:",
+        "answers": [
+          "Na+ ióny von z bunky",
+          "K+ ióny von z bunky",
+          "Na+ ióny do vnútra bunky",
+          "obidva druhy iónov do bunky"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 208,
+          "questionNumber": 208,
+          "page": 28,
+          "endPage": 28,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w02_transport",
+          "reason": "Otázka priamo skúša difúziu, aktívny transport, koncentračný gradient alebo Na+/K+ ATP-ázu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Aktívny transport je:",
+        "answers": [
+          "pohyb látok v smere koncentračného gradientu",
+          "pohyb látok proti koncentračnému gradientu",
+          "transport Na+ iónov do buniek",
+          "transport pomocou nosiča bez dodávky energie"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 214,
+          "questionNumber": 214,
+          "page": 28,
+          "endPage": 28,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w02_transport",
+          "reason": "Otázka priamo skúša difúziu, aktívny transport, koncentračný gradient alebo Na+/K+ ATP-ázu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Pre transport látok difúziou je potrebné:",
+        "answers": [
+          "energia z ATP",
+          "nosičový proteín",
+          "permeabilita membrány pre danú látku",
+          "koncentračný gradient transportovanej látky"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 215,
+          "questionNumber": 215,
+          "page": 28,
+          "endPage": 28,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w02_transport",
+          "reason": "Otázka priamo skúša difúziu, aktívny transport, koncentračný gradient alebo Na+/K+ ATP-ázu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Rozdiel medzi jednoduchou a sprostredkovanou difúziou je:",
+        "answers": [
+          "sprostredkovaná difúzia nevyžaduje koncentračný gradient",
+          "sprostredkovaná difúzia vyžaduje energiu z ATP",
+          "sprostredkovaná difúzia je aktívny transport",
+          "sprostredkovaná difúzia vyžaduje transportný proteín"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 216,
+          "questionNumber": 216,
+          "page": 29,
+          "endPage": 29,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w02_transport",
+          "reason": "Otázka priamo skúša difúziu, aktívny transport, koncentračný gradient alebo Na+/K+ ATP-ázu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Transport látok z miesta s vyššou koncentráciou na miesto s nižšou koncentráciou je možný:",
+        "answers": [
+          "jednoduchou difúziou",
+          "primárnym aktívnym transportom",
+          "sprostredkovanou difúziou",
+          "sekundárnym aktívnym transportom"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 221,
+          "questionNumber": 221,
+          "page": 29,
+          "endPage": 29,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w02_transport",
+          "reason": "Otázka priamo skúša difúziu, aktívny transport, koncentračný gradient alebo Na+/K+ ATP-ázu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Glutatión:",
+        "answers": [
+          "je tripeptid",
+          "je potrebný pre transport aminokyselín do buniek",
+          "je súčasťou systému gama-glutamyltransferázy",
+          "pozostáva z glycínu, glutamínu a cysteínu"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 223,
+          "questionNumber": 223,
+          "page": 29,
+          "endPage": 29,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [
+            10
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w02_glutation_transport",
+          "reason": "V možnostiach sa skúša transport aminokyselín cez membránu prostredníctvom gama-glutamylového systému.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            2,
+            3
+          ]
+        }
+      },
+      {
+        "question": "Primárny aktívny transport:",
+        "answers": [
+          "je mechanizmus pre transport glukózy do buniek",
+          "je transport Na+ iónov von z bunky",
+          "vyžaduje energiu z ATP",
+          "transportuje látky proti koncentračnému gradientu"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 224,
+          "questionNumber": 224,
+          "page": 30,
+          "endPage": 30,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w02_transport",
+          "reason": "Otázka priamo skúša difúziu, aktívny transport, koncentračný gradient alebo Na+/K+ ATP-ázu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Sprostredkovaná difúzia:",
+        "answers": [
+          "vyžaduje donor energie",
+          "je to transport látok proti koncentračnému gradientu",
+          "vyžaduje transportný proteín",
+          "je to forma pasívneho transportu"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 229,
+          "questionNumber": 229,
+          "page": 30,
+          "endPage": 30,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w02_transport",
+          "reason": "Otázka priamo skúša difúziu, aktívny transport, koncentračný gradient alebo Na+/K+ ATP-ázu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Ca2+-závislá ATP-áza vyžaduje Mg2+ ióny, pretože:",
+        "answers": [
+          "Mg2+ ióny sú substrátom pre ATP-ázu",
+          "aktívne miesto enzýmu viaže ATP len ako komplex s iónmi Mg2+",
+          "Mg2+ ióny sú alosterickým aktivátorom enzýmu",
+          "ATP-áza nevyžaduje Mg2+ ióny pre svoju aktivitu"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 230,
+          "questionNumber": 230,
+          "page": 30,
+          "endPage": 30,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w02_vapnik",
+          "reason": "Otázka sa týka transportu Ca2+, mechanizmu Ca2+ ATP-ázy alebo stanovenia jej aktivity.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            4
+          ]
+        }
+      },
+      {
+        "question": "Sekundárny aktívny transport vyžaduje:",
+        "answers": [
+          "koncentračný gradient iónov",
+          "energiu z ATP",
+          "transportné bielkoviny pre transport iónov a transportovanú látku",
+          "transportný systém, ktorý regeneruje gradient iónov"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 231,
+          "questionNumber": 231,
+          "page": 30,
+          "endPage": 30,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w02_transport",
+          "reason": "Otázka priamo skúša difúziu, aktívny transport, koncentračný gradient alebo Na+/K+ ATP-ázu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Pri stanovení Ca2+-závislej ATP-ázy slúžia membrány erytrocytov ako:",
+        "answers": [
+          "substrát",
+          "tlmivý systém",
+          "zdroj enzýmu",
+          "aktivátor enzýmu"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 232,
+          "questionNumber": 232,
+          "page": 31,
+          "endPage": 31,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w02_vapnik",
+          "reason": "Otázka sa týka transportu Ca2+, mechanizmu Ca2+ ATP-ázy alebo stanovenia jej aktivity.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            4
+          ]
+        }
+      },
+      {
+        "question": "Difúzia:",
+        "answers": [
+          "je, keď látky prechádzajú cez membránu z miesta s vyššou koncentráciou na miesto s nižšou koncentráciou",
+          "je, keď látky prechádzajú z miesta s nižšou koncentráciou na miesto s vyššou koncentráciou",
+          "vyžaduje prívod energie",
+          "je to jedna z foriem aktívneho transportu"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 237,
+          "questionNumber": 237,
+          "page": 31,
+          "endPage": 31,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w02_transport",
+          "reason": "Otázka priamo skúša difúziu, aktívny transport, koncentračný gradient alebo Na+/K+ ATP-ázu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Ca2+-závislá ATP-áza:",
+        "answers": [
+          "je hydroláza, ktorá katalyzuje štiepenie ATP",
+          "je zodpovedná za transport kalciových iónov do bunky",
+          "je prítomná aj v erytrocytoch",
+          "v bunkách kostrového svalu transportuje Ca2+ z cytozolu do sarkoplazmatického retikula"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 238,
+          "questionNumber": 238,
+          "page": 31,
+          "endPage": 31,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w02_vapnik",
+          "reason": "Otázka sa týka transportu Ca2+, mechanizmu Ca2+ ATP-ázy alebo stanovenia jej aktivity.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            4
+          ]
+        }
+      },
+      {
+        "question": "Malé nepolárne molekuly sú transportované cez membrány hlavne:",
+        "answers": [
+          "difúziou",
+          "uľahčenou difúziou",
+          "pomocou transportných proteínov",
+          "aktívnym transportom"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 239,
+          "questionNumber": 239,
+          "page": 31,
+          "endPage": 32,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w02_transport",
+          "reason": "Otázka priamo skúša difúziu, aktívny transport, koncentračný gradient alebo Na+/K+ ATP-ázu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Exocytózou sú transportované:",
+        "answers": [
+          "proteíny do bunky",
+          "ióny von z bunky",
+          "proteíny von z bunky",
+          "exocytóza nie je transportný systém"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 240,
+          "questionNumber": 240,
+          "page": 32,
+          "endPage": 32,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w02_exocytoza",
+          "reason": "Exocytóza je výslovne uvedená medzi transportmi makromolekúl.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            6
+          ]
+        }
+      },
+      {
+        "question": "Premena dihydroxyacetónfosfátu na glycerolfosfát:",
+        "answers": [
+          "je vratná reakcia",
+          "je katalyzovaná glycerolfosfátdehydrogenázou",
+          "nemá význam pre proces glukoneogenézy",
+          "je aj súčasťou transportu vodíkov z NADH2 vytvorených napr. v glykolýze do mitochondrie"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 285,
+          "questionNumber": 285,
+          "page": 37,
+          "endPage": 37,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [
+            4
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w02_clnky",
+          "reason": "Otázka zahŕňa prenos redukovaných ekvivalentov do mitochondrie glycerolfosfátovým člnkom.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            7
+          ]
+        }
+      },
+      {
+        "question": "Ktoré z uvedených tvrdení platí:",
+        "answers": [
+          "pri osmóze prechádza rozpustená látka na miesto s nižšou koncentráciou rozpustenej látky",
+          "pri osmóze prechádza rozpustená látka cez polopriepustnú membránu",
+          "pri osmóze prechádza rozpúšťadlo na miesto s vyššou koncentráciou rozpustenej látky",
+          "pri osmóze dochádza k vyrovnávaniu koncentrácií presunom rozpustenej látky"
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 57,
+          "questionNumber": 57,
+          "page": 8,
+          "endPage": 8,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "detectedCorrect": [
+          2,
+          3
+        ],
+        "correct": [
+          2
+        ],
+        "reviewReasons": [
+          "Pri označenej možnosti d je ručná oprava rozpustenej látky na rozpúšťadlo."
+        ],
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w02_transport",
+          "reason": "Otázka priamo skúša difúziu, aktívny transport, koncentračný gradient alebo Na+/K+ ATP-ázu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "answerReview": {
+          "status": "accepted",
+          "date": "2026-10-04",
+          "acceptanceFile": "tools/imports/biochemia1_accepted_review.json",
+          "confidence": "high",
+          "atpModel": "2.5 ATP/NADH; 1.5 ATP/FADH2",
+          "reason": "Pri osmóze sa cez polopriepustnú membránu presúva voda ako rozpúšťadlo. A, B a pôvodná D nesprávne hovoria o presune rozpustenej látky.",
+          "sources": [
+            {
+              "title": "OpenStax: pasívny transport a osmóza",
+              "url": "https://openstax.org/books/biology/pages/5-2-passive-transport"
+            }
+          ],
+          "note": "Pôvodné detectedCorrect a reviewReasons sú história extrakcie. Platný kľúč je correct."
+        }
+      },
+      {
+        "question": "Ca2+-závislá ATP-áza pri kontrakcii svalovej bunky:",
+        "answers": [
+          "transportuje Ca2+ z cytozolu do sarkoplazmatického retikula",
+          "transportuje Ca2+ zo sarkoplazmatického retikula do cytozolu",
+          "transportuje Ca2+ z mitochondrie do cytozolu",
+          "transportuje Ca2+ do cytozolu z vonkajšieho prostredia"
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 127,
+          "questionNumber": 127,
+          "page": 17,
+          "endPage": 17,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "detectedCorrect": [],
+        "correct": [
+          0
+        ],
+        "reviewReasons": [
+          "V PDF nie je jednoznačne označená správna odpoveď."
+        ],
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w02_vapnik",
+          "reason": "Otázka sa týka transportu Ca2+, mechanizmu Ca2+ ATP-ázy alebo stanovenia jej aktivity.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            4
+          ]
+        },
+        "answerReview": {
+          "status": "accepted",
+          "date": "2026-10-04",
+          "acceptanceFile": "tools/imports/biochemia1_accepted_review.json",
+          "confidence": "high",
+          "atpModel": "2.5 ATP/NADH; 1.5 ATP/FADH2",
+          "reason": "SERCA premiestňuje Ca2+ z cytosolu do sarkoplazmatického retikula. Uvoľnenie Ca2+ z retikula sprostredkujú kanály, nie opačný chod tejto ATPázy.",
+          "sources": [
+            {
+              "title": "Molecular Biology of the Cell: transportné proteíny a Ca2+-ATPáza",
+              "url": "https://www.ncbi.nlm.nih.gov/books/NBK26896/"
+            },
+            {
+              "title": "NCBI Bookshelf: Calcium Channels",
+              "url": "https://www.ncbi.nlm.nih.gov/books/NBK562198/"
+            }
+          ],
+          "note": "Pôvodné detectedCorrect a reviewReasons sú história extrakcie. Platný kľúč je correct."
+        }
+      },
+      {
+        "question": "Ca2+-závislá ATP-áza pri kontrakcii svalovej bunky:",
+        "answers": [
+          "transportuje Ca2+ z cytozolu do sarkoplazmatického retikula",
+          "transportuje Ca2+ zo sarkoplazmatického retikula do cytozolu",
+          "transportuje Ca2+ z mitochondrie do cytozolu",
+          "transportuje Ca2+ do cytozolu z vonkajšieho prostredia"
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 213,
+          "questionNumber": 213,
+          "page": 28,
+          "endPage": 28,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "detectedCorrect": [],
+        "correct": [
+          0
+        ],
+        "reviewReasons": [
+          "V PDF nie je jednoznačne označená správna odpoveď."
+        ],
+        "curriculum": {
+          "week": 2,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w02_vapnik",
+          "reason": "Otázka sa týka transportu Ca2+, mechanizmu Ca2+ ATP-ázy alebo stanovenia jej aktivity.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 3,
+          "objectiveRefs": [
+            4
+          ]
+        },
+        "answerReview": {
+          "status": "accepted",
+          "date": "2026-10-04",
+          "acceptanceFile": "tools/imports/biochemia1_accepted_review.json",
+          "confidence": "high",
+          "atpModel": "2.5 ATP/NADH; 1.5 ATP/FADH2",
+          "reason": "SERCA premiestňuje Ca2+ z cytosolu do sarkoplazmatického retikula. Uvoľnenie Ca2+ z retikula sprostredkujú kanály, nie opačný chod tejto ATPázy.",
+          "sources": [
+            {
+              "title": "Molecular Biology of the Cell: transportné proteíny a Ca2+-ATPáza",
+              "url": "https://www.ncbi.nlm.nih.gov/books/NBK26896/"
+            },
+            {
+              "title": "NCBI Bookshelf: Calcium Channels",
+              "url": "https://www.ncbi.nlm.nih.gov/books/NBK562198/"
+            }
+          ],
+          "note": "Pôvodné detectedCorrect a reviewReasons sú história extrakcie. Platný kľúč je correct."
+        }
+      }
+    ]
+  }
+]

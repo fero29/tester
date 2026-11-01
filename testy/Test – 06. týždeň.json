@@ -1,0 +1,2040 @@
+[
+  {
+    "title": "Test – 06. týždeň",
+    "description": "Regulácia glykémie, inzulín a glukagón, glukoneogenéza, diabetes, hypoglykémia, glykozúria a oGTT.",
+    "year": 2,
+    "category": "Biochémia",
+    "sortOrder": 6,
+    "previousTitles": [
+      "Biochémia 1 - Týždeň 06 - Regulácia glykémie a diabetes mellitus"
+    ],
+    "questions": [
+      {
+        "question": "Glukagón zvyšuje:",
+        "answers": [
+          "syntézu glykogénu",
+          "glukoneogenézu",
+          "degradáciu glykogénu v pečeni",
+          "oxidáciu glukózy v pečeni"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 252,
+          "questionNumber": 252,
+          "page": 33,
+          "endPage": 33,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w06_hormony_glykemia",
+          "reason": "Otázka skúša hormonálne ovplyvnenie glykémie, účinky inzulínu/glukagónu alebo dôsledky ich nedostatku.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 7,
+          "objectiveRefs": [
+            1,
+            3
+          ]
+        }
+      },
+      {
+        "question": "Glukoneogenéza je syntéza glukózy z:",
+        "answers": [
+          "karboxylových kyselín",
+          "aminokyselín",
+          "glykogénu",
+          "glycerolu"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 258,
+          "questionNumber": 258,
+          "page": 34,
+          "endPage": 34,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w06_glukoneogeneza",
+          "reason": "Reakcie a regulácia glukoneogenézy alebo recipročná hormonálna regulácia glykolýzy sú explicitným cieľom 6. týždňa.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 7,
+          "objectiveRefs": [
+            2
+          ]
+        }
+      },
+      {
+        "question": "cAMP, ako druhý posol sa tvorí v bunke:",
+        "answers": [
+          "po väzbe inzulínu na receptor v membráne",
+          "po väzbe glukagónu na receptor v membráne",
+          "pri hyperglykémii",
+          "pri hypoglykémii"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 260,
+          "questionNumber": 260,
+          "page": 34,
+          "endPage": 34,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w06_hormony_glykemia",
+          "reason": "Otázka skúša hormonálne ovplyvnenie glykémie, účinky inzulínu/glukagónu alebo dôsledky ich nedostatku.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 7,
+          "objectiveRefs": [
+            1,
+            3
+          ]
+        }
+      },
+      {
+        "question": "Pre glukoneogenézu sa vyžadujú ako zdroj energie:",
+        "answers": [
+          "UTP",
+          "CTP",
+          "GTP",
+          "ATP"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 272,
+          "questionNumber": 272,
+          "page": 36,
+          "endPage": 36,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w06_glukoneogeneza",
+          "reason": "Reakcie a regulácia glukoneogenézy alebo recipročná hormonálna regulácia glykolýzy sú explicitným cieľom 6. týždňa.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 7,
+          "objectiveRefs": [
+            2
+          ]
+        }
+      },
+      {
+        "question": "Priebeh glukoneogenézy je ovplyvnený:",
+        "answers": [
+          "glukagónom, ktorý po väzbe na membránový receptor s následným vzostupom cAMP vedie k fosforylácii pyruvátkinázy a tým k jej inaktivácii",
+          "kortizolom, ktorý fosforyláciou aktivuje enzýmy glukoneogenézy v pečeni",
+          "kortizolom, ktorý indukuje enzýmy glukoneogenézy v pečeni",
+          "acetyl-CoA, ktorý je priamym aktivátorom fosfoenolpyruvátkarboxykinázy"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 280,
+          "questionNumber": 280,
+          "page": 37,
+          "endPage": 37,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w06_glukoneogeneza",
+          "reason": "Reakcie a regulácia glukoneogenézy alebo recipročná hormonálna regulácia glykolýzy sú explicitným cieľom 6. týždňa.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 7,
+          "objectiveRefs": [
+            2
+          ]
+        }
+      },
+      {
+        "question": "Na regulácii glykémie sa podieľa:",
+        "answers": [
+          "kortizol",
+          "kalcitonín",
+          "testosterón",
+          "glukagón"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 281,
+          "questionNumber": 281,
+          "page": 37,
+          "endPage": 37,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w06_hormony_glykemia",
+          "reason": "Otázka skúša hormonálne ovplyvnenie glykémie, účinky inzulínu/glukagónu alebo dôsledky ich nedostatku.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 7,
+          "objectiveRefs": [
+            1,
+            3
+          ]
+        }
+      },
+      {
+        "question": "Orálny glukózový tolerančný test:",
+        "answers": [
+          "robí sa u každého pacienta s diabetes mellitus",
+          "sa nerobí ak glykémia nalačno je väčšia ako 8mmol/l",
+          "vyžaduje podanie inzulínu pacientovi",
+          "je potrebné u pacienta s diabetom pravidelne opakovať"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 282,
+          "questionNumber": 282,
+          "page": 37,
+          "endPage": 37,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w06_diabetes_vysetrenia",
+          "reason": "Otázka skúša diabetes, poruchy glykémie, glykozúriu alebo oGTT.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 7,
+          "objectiveRefs": [
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Glukoneogenéza:",
+        "answers": [
+          "je proces, pri ktorom sa syntetizuje glukóza z vyšších karboxylových kyselín",
+          "prebieha v pečeni a obličkách",
+          "zabezpečuje tvorbu glukózy v podmienkach hladovania",
+          "je proces, ktorý je aktivovaný glukokortikoidmi"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 288,
+          "questionNumber": 288,
+          "page": 38,
+          "endPage": 38,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w06_glukoneogeneza",
+          "reason": "Reakcie a regulácia glukoneogenézy alebo recipročná hormonálna regulácia glykolýzy sú explicitným cieľom 6. týždňa.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 7,
+          "objectiveRefs": [
+            2
+          ]
+        }
+      },
+      {
+        "question": "Orálny glukózo-tolerančný test je vyšetrenie, ktoré:",
+        "answers": [
+          "informuje o množstve glukózy prijatej potravou",
+          "sa robí vždy, ak glykémia nalačno presahuje hodnoty 8 mmol/l",
+          "sa robí na zistenie porúch regulácie metabolizmu glukózy",
+          "sa nesmie uskutočniť, ak glykémia nalačno je viac ako 6mmol/l"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 289,
+          "questionNumber": 289,
+          "page": 38,
+          "endPage": 38,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w06_diabetes_vysetrenia",
+          "reason": "Otázka skúša diabetes, poruchy glykémie, glykozúriu alebo oGTT.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 7,
+          "objectiveRefs": [
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Hypoglykémia:",
+        "answers": [
+          "je stav, keď koncentrácia glukózy v krvi klesá pod 5,6 mmol/l",
+          "je dôsledkom zníženej sekrécie inzulínu",
+          "môže nastať u pacienta so zlyhaním kôry nadobličiek",
+          "poškodzuje predovšetkým tkanivo CNS"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 290,
+          "questionNumber": 290,
+          "page": 38,
+          "endPage": 38,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w06_diabetes_vysetrenia",
+          "reason": "Otázka skúša diabetes, poruchy glykémie, glykozúriu alebo oGTT.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 7,
+          "objectiveRefs": [
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Proces glukoneogenézy:",
+        "answers": [
+          "využíva aminokyseliny",
+          "využíva VKK",
+          "využíva glycerol",
+          "prebieha v pečeni"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 308,
+          "questionNumber": 308,
+          "page": 40,
+          "endPage": 40,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w06_glukoneogeneza",
+          "reason": "Reakcie a regulácia glukoneogenézy alebo recipročná hormonálna regulácia glykolýzy sú explicitným cieľom 6. týždňa.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 7,
+          "objectiveRefs": [
+            2
+          ]
+        }
+      },
+      {
+        "question": "Príslušnými hormónmi sú súčasne stimulované:",
+        "answers": [
+          "glykolýza a glukoneogenéza",
+          "glykogenolýza a syntéza glykogénu",
+          "štiepenie glykogénu a štiepenie triacylglycerolov",
+          "syntéza VKK a glykolýza"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 309,
+          "questionNumber": 309,
+          "page": 40,
+          "endPage": 40,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w06_hormony_glykemia",
+          "reason": "Otázka skúša hormonálne ovplyvnenie glykémie, účinky inzulínu/glukagónu alebo dôsledky ich nedostatku.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 7,
+          "objectiveRefs": [
+            1,
+            3
+          ]
+        }
+      },
+      {
+        "question": "Glukagón:",
+        "answers": [
+          "sprostredkuje aktiváciu glykogénsyntázy v pečeni",
+          "sprostredkuje aktiváciu glykogénfosforylázy v pečeni",
+          "vyplavuje sa z alfa-buniek pankreasu pri hypoglykémii",
+          "účinkuje po väzbe na receptor spojený s aktiváciou adenylátcyklázy"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 323,
+          "questionNumber": 323,
+          "page": 42,
+          "endPage": 42,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w06_hormony_glykemia",
+          "reason": "Otázka skúša hormonálne ovplyvnenie glykémie, účinky inzulínu/glukagónu alebo dôsledky ich nedostatku.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 7,
+          "objectiveRefs": [
+            1,
+            3
+          ]
+        }
+      },
+      {
+        "question": "K medziproduktom glukoneogenézy patrí:",
+        "answers": [
+          "acetyl-CoA",
+          "oxalacetát",
+          "dihydroxyacetónfosfát",
+          "1,3-bis-fosfoglycerát"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 328,
+          "questionNumber": 328,
+          "page": 43,
+          "endPage": 43,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w06_glukoneogeneza",
+          "reason": "Reakcie a regulácia glukoneogenézy alebo recipročná hormonálna regulácia glykolýzy sú explicitným cieľom 6. týždňa.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 7,
+          "objectiveRefs": [
+            2
+          ]
+        }
+      },
+      {
+        "question": "Inzulín:",
+        "answers": [
+          "sprostredkuje aktiváciu glykogénsyntázy v pečeni",
+          "sprostredkuje aktiváciu glykogénfosforylázy v pečeni",
+          "vyplavuje sa z β-buniek Langerhansových ostrovčekov pankreasu pri vzostupe glykémie",
+          "účinkuje po väzbe na receptor spojený s aktiváciou tyrozínkinázy"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 339,
+          "questionNumber": 339,
+          "page": 44,
+          "endPage": 44,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w06_hormony_glykemia",
+          "reason": "Otázka skúša hormonálne ovplyvnenie glykémie, účinky inzulínu/glukagónu alebo dôsledky ich nedostatku.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 7,
+          "objectiveRefs": [
+            1,
+            3
+          ]
+        }
+      },
+      {
+        "question": "tvorbe glukózy glukoneogenézou platí:",
+        "answers": [
+          "je to proces, ktorý zabezpečuje tvorbu glukózy len pri dlhodobom hladovaní",
+          "je proces tvorby glukózy z glykogénu",
+          "je to proces, ktorý nevyžaduje špecifické enzýmy, pretože reakcie glukoneogenézy sú vratné",
+          "je to proces, ktorý je stimulovaný glukagónom a kortizolom"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 345,
+          "questionNumber": 345,
+          "page": 45,
+          "endPage": 45,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w06_glukoneogeneza",
+          "reason": "Reakcie a regulácia glukoneogenézy alebo recipročná hormonálna regulácia glykolýzy sú explicitným cieľom 6. týždňa.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 7,
+          "objectiveRefs": [
+            2
+          ]
+        }
+      },
+      {
+        "question": "Na regulácii hladiny glukózy v krvi sa zúčastňuje:",
+        "answers": [
+          "tyroxín",
+          "kalcitonín",
+          "glukagón",
+          "hormón, ktorý sa vyplavuje v strese"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 346,
+          "questionNumber": 346,
+          "page": 45,
+          "endPage": 45,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w06_hormony_glykemia",
+          "reason": "Otázka skúša hormonálne ovplyvnenie glykémie, účinky inzulínu/glukagónu alebo dôsledky ich nedostatku.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 7,
+          "objectiveRefs": [
+            1,
+            3
+          ]
+        }
+      },
+      {
+        "question": "Hypoglykémia je stav, ktorý:",
+        "answers": [
+          "môže byť dôsledkom nadmernej tvorby inzulínu",
+          "môže byť príčinou kómy",
+          "u pacientov s diabetes mellitus nemôže nastať",
+          "môže byť spôsobenýťažkým poškodením funkcie pečene"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 347,
+          "questionNumber": 347,
+          "page": 45,
+          "endPage": 45,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w06_diabetes_vysetrenia",
+          "reason": "Otázka skúša diabetes, poruchy glykémie, glykozúriu alebo oGTT.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 7,
+          "objectiveRefs": [
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Aby sa bielkoviny mohli zapojiť do procesu glukoneogenézy:",
+        "answers": [
+          "sú potrebné proteinázy v kostrovom svale",
+          "sú potrebné transaminázy v bunkách EHT na premenu aminokyselín",
+          "sú potrebné reakcie, ktorými sa aminokyseliny v pečeni premieňajú na oxokyseliny",
+          "štiepia sa hlavne bielkoviny vnútorných orgánov ako je napr. myokard, oblička, pečeň"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 353,
+          "questionNumber": 353,
+          "page": 46,
+          "endPage": 46,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w06_glukoneogeneza",
+          "reason": "Reakcie a regulácia glukoneogenézy alebo recipročná hormonálna regulácia glykolýzy sú explicitným cieľom 6. týždňa.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 7,
+          "objectiveRefs": [
+            2
+          ]
+        }
+      },
+      {
+        "question": "Ochorenie diabetes mellitus:",
+        "answers": [
+          "sa prejavuje zníženou koncentráciou glukózy v krvi",
+          "môže byť sprevádzané polyúriou",
+          "môže viesť k metabolickej acidóze",
+          "je vždy sprevádzané glykozúriou"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 354,
+          "questionNumber": 354,
+          "page": 46,
+          "endPage": 46,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w06_diabetes_vysetrenia",
+          "reason": "Otázka skúša diabetes, poruchy glykémie, glykozúriu alebo oGTT.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 7,
+          "objectiveRefs": [
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "O regulácií glykolýzy platí:",
+        "answers": [
+          "kľúčovým regulačným enzýmom je reakcia vzniku fruktóza-1,6- bisfosátu",
+          "vysoké koncentrácie ATP a NADH2 pôsobia inhibične na fosfofruktokinázu a pyruvátkinázu",
+          "hormón glukagón, tým že vedie k fosforylácií tandemového enzýmu, zvyšuje koncentráciu fruktóza -2,6- bisfosfátu a inhibuje fosfofruktokinázu",
+          "prítomnosť inzulínu vedie k defosforylácií pyruvátkinázy a tým k jej aktivácií"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 362,
+          "questionNumber": 362,
+          "page": 47,
+          "endPage": 47,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w06_glukoneogeneza",
+          "reason": "Reakcie a regulácia glukoneogenézy alebo recipročná hormonálna regulácia glykolýzy sú explicitným cieľom 6. týždňa.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 7,
+          "objectiveRefs": [
+            2
+          ]
+        }
+      },
+      {
+        "question": "oGTT informuje o:",
+        "answers": [
+          "časových zmenách glykémie",
+          "pôsobení inzulínu v organizme",
+          "hormonálne regulácii metabolizmu glukźy",
+          "stave beta-buenik pankreasu"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 364,
+          "questionNumber": 364,
+          "page": 48,
+          "endPage": 48,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w06_diabetes_vysetrenia",
+          "reason": "Otázka skúša diabetes, poruchy glykémie, glykozúriu alebo oGTT.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 7,
+          "objectiveRefs": [
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Znížené hodnoty glukózy v krvi môžu byť pri:",
+        "answers": [
+          "renálnej glykozúrii",
+          "dlhotrvajúcej podvýžive",
+          "úrazoch CNS",
+          "hypertyreóze"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 365,
+          "questionNumber": 365,
+          "page": 48,
+          "endPage": 48,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w06_diabetes_vysetrenia",
+          "reason": "Otázka skúša diabetes, poruchy glykémie, glykozúriu alebo oGTT.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 7,
+          "objectiveRefs": [
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Medzi účinky inzulínu po jeho vyplavení do krvi patrí:",
+        "answers": [
+          "zníženie priepustnosti bunkových membrán pre glukózu",
+          "vyplavenie katecholamínov",
+          "stimulácia kôry nadobličiek a vyplavenie kortizolu",
+          "zvýšenie priepustnosti bunkových membrán pre glukózu"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 366,
+          "questionNumber": 366,
+          "page": 48,
+          "endPage": 48,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w06_hormony_glykemia",
+          "reason": "Otázka skúša hormonálne ovplyvnenie glykémie, účinky inzulínu/glukagónu alebo dôsledky ich nedostatku.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 7,
+          "objectiveRefs": [
+            1,
+            3
+          ]
+        }
+      },
+      {
+        "question": "Obličkový prah pre glukózu:",
+        "answers": [
+          "sa môže prekročiť pri hyperglykémii",
+          "je parameter, ktorého prekročenie je príčinou glykozúrie",
+          "je 8,5-11 mmol glukózy v litri séra",
+          "je 8,5-11 mmol glukózy v litri vylúčeného moču"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 367,
+          "questionNumber": 367,
+          "page": 48,
+          "endPage": 48,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w06_diabetes_vysetrenia",
+          "reason": "Otázka skúša diabetes, poruchy glykémie, glykozúriu alebo oGTT.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 7,
+          "objectiveRefs": [
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Tyroxín:",
+        "answers": [
+          "stimuluje glykolýzu",
+          "inhibuje glykogenolýzu",
+          "aktivuje glykogenolýzu",
+          "inhibuje oxidáciu cukrov"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 368,
+          "questionNumber": 368,
+          "page": 48,
+          "endPage": 48,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w06_hormony_glykemia",
+          "reason": "Otázka skúša hormonálne ovplyvnenie glykémie, účinky inzulínu/glukagónu alebo dôsledky ich nedostatku.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 7,
+          "objectiveRefs": [
+            1,
+            3
+          ]
+        }
+      },
+      {
+        "question": "Glukoneogenéza:",
+        "answers": [
+          "využíva ako hlavný zdroj pre tvorbu glukózy aminokyseliny",
+          "je stimulovaná glukokortikoidmi",
+          "má význam pri udržiavaní hladiny glukózy v krvi",
+          "môže prebiehať v pečeni a obličkách"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 374,
+          "questionNumber": 374,
+          "page": 49,
+          "endPage": 49,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w06_glukoneogeneza_dalsie",
+          "reason": "Otázka skúša substráty, reakcie alebo reguláciu glukoneogenézy.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 7,
+          "objectiveRefs": [
+            2
+          ]
+        }
+      },
+      {
+        "question": "U chorého človeka na cukrovku poukazuje v moči prítomnosť:",
+        "answers": [
+          "glykogénu",
+          "glukózy",
+          "bilirubínu",
+          "ketolátok"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 375,
+          "questionNumber": 375,
+          "page": 49,
+          "endPage": 49,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w06_diabetes_vysetrenia_dalsie",
+          "reason": "Otázka skúša diabetes, glykémiu, glykozúriu alebo postup a interpretáciu oGTT.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 7,
+          "objectiveRefs": [
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Indikáciou pre vyšetrenie oGTT je hladina glukózy v krvi nalačno:",
+        "answers": [
+          "5 mmol/l",
+          "5 - 7 mmol/l - jednorázovo",
+          "opakovane 5 - 7 mmol/l",
+          "väčšia ako 7 mmol/l"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 376,
+          "questionNumber": 376,
+          "page": 49,
+          "endPage": 49,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w06_diabetes_vysetrenia_dalsie",
+          "reason": "Otázka skúša diabetes, glykémiu, glykozúriu alebo postup a interpretáciu oGTT.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 7,
+          "objectiveRefs": [
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Zvýšenie hladiny glukózy v krvi zdravého človeka vedie k:",
+        "answers": [
+          "vyplaveniu glukagónu",
+          "zníženiu uvoľňovania karboxylových kyselín z tukového tkaniva po vyplavení inzulínu",
+          "zníženiu vyplavenia inzulínu",
+          "zvýšenému rozkladu zásobných tukov"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 381,
+          "questionNumber": 381,
+          "page": 50,
+          "endPage": 50,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w06_hormony_glykemia_dalsie",
+          "reason": "Otázka skúša reakciu na zmenu glykémie alebo metabolické účinky inzulínu a kontraregulačných hormónov.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 7,
+          "objectiveRefs": [
+            1,
+            3
+          ]
+        }
+      },
+      {
+        "question": "Pri oGTT sa podáva u dospelého človeka:",
+        "answers": [
+          "75g glukózy intravenózne",
+          "7,5g glukózy na kg hmotnosti",
+          "75g glukózy v roztoku perorálne po jedle",
+          "75g glukózy v roztoku perorálne nalačno"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 383,
+          "questionNumber": 383,
+          "page": 50,
+          "endPage": 50,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w06_diabetes_vysetrenia_dalsie",
+          "reason": "Otázka skúša diabetes, glykémiu, glykozúriu alebo postup a interpretáciu oGTT.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 7,
+          "objectiveRefs": [
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Príčinou prítomnosti glukózy v moči môže byť:",
+        "answers": [
+          "ochorenie obličiek",
+          "zníženie obličkového prahu pre glukózu",
+          "hyperglykémia",
+          "zvýšená sekrécia aldosterónu"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 384,
+          "questionNumber": 384,
+          "page": 50,
+          "endPage": 50,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w06_diabetes_vysetrenia_dalsie",
+          "reason": "Otázka skúša diabetes, glykémiu, glykozúriu alebo postup a interpretáciu oGTT.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 7,
+          "objectiveRefs": [
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Glukagón:",
+        "answers": [
+          "sa vyplavuje z β-buniek pankreasu pri hyperglykémii",
+          "znižuje hladinu krvnej glukózy",
+          "pôsobí proti regulačným mechanizmom sprostredkovaným inzulínom",
+          "aktivuje glykogénfosforylázu"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 389,
+          "questionNumber": 389,
+          "page": 51,
+          "endPage": 51,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w06_hormony_glykemia_dalsie",
+          "reason": "Otázka skúša reakciu na zmenu glykémie alebo metabolické účinky inzulínu a kontraregulačných hormónov.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 7,
+          "objectiveRefs": [
+            1,
+            3
+          ]
+        }
+      },
+      {
+        "question": "Príčinou toho, že sa z aktívneho acetátu nemôže tvoriť glukóza je v nevratnosti premeny:",
+        "answers": [
+          "pyruvátu na oxalacetát",
+          "ktorú katalyzuje pyruvátdehydrogenázový komplex",
+          "laktátu na pyruvát",
+          "pyruvátu na acetyl-CoA a oxid uhličitý"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 390,
+          "questionNumber": 390,
+          "page": 51,
+          "endPage": 51,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w06_glukoneogeneza_dalsie",
+          "reason": "Otázka skúša substráty, reakcie alebo reguláciu glukoneogenézy.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 7,
+          "objectiveRefs": [
+            2
+          ]
+        }
+      },
+      {
+        "question": "Zvýšenie hladiny glukózy v krvi zdravého človeka vedie k:",
+        "answers": [
+          "vyplaveniu inzulínu z beta-buniek pankreasu",
+          "aktivácii glykogénsyntázy",
+          "zvýšeniu hladiny ketolátok",
+          "zníženiu množstva glukagónu"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 391,
+          "questionNumber": 391,
+          "page": 51,
+          "endPage": 51,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w06_hormony_glykemia_dalsie",
+          "reason": "Otázka skúša reakciu na zmenu glykémie alebo metabolické účinky inzulínu a kontraregulačných hormónov.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 7,
+          "objectiveRefs": [
+            1,
+            3
+          ]
+        }
+      },
+      {
+        "question": "Stresovú hyperglykémiu podmieňuje najmä:",
+        "answers": [
+          "aldosterón",
+          "glukagón",
+          "adrenalín",
+          "ani jeden z uvedených"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 392,
+          "questionNumber": 392,
+          "page": 51,
+          "endPage": 51,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w06_hormony_glykemia_dalsie",
+          "reason": "Otázka skúša reakciu na zmenu glykémie alebo metabolické účinky inzulínu a kontraregulačných hormónov.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 7,
+          "objectiveRefs": [
+            1,
+            3
+          ]
+        }
+      },
+      {
+        "question": "oGTT informuje o:",
+        "answers": [
+          "časových zmenách glykémie",
+          "pôsobení inzulínu v organizme",
+          "hormonálnej regulácii metabolizmu glukózy",
+          "stave β-buniek pankreasu"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 397,
+          "questionNumber": 397,
+          "page": 52,
+          "endPage": 52,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w06_diabetes_vysetrenia_dalsie",
+          "reason": "Otázka skúša diabetes, glykémiu, glykozúriu alebo postup a interpretáciu oGTT.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 7,
+          "objectiveRefs": [
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Inzulín:",
+        "answers": [
+          "je tvorený v α-bunkách pankreasu",
+          "stimuluje glykolýzu",
+          "pôsobí aktivačne na glukokinázu",
+          "pôsobí proti regulačnému mechanizmu glukagónu"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 398,
+          "questionNumber": 398,
+          "page": 52,
+          "endPage": 52,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w06_hormony_glykemia_dalsie",
+          "reason": "Otázka skúša reakciu na zmenu glykémie alebo metabolické účinky inzulínu a kontraregulačných hormónov.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 7,
+          "objectiveRefs": [
+            1,
+            3
+          ]
+        }
+      },
+      {
+        "question": "Glykozúriu môžeme zistiť pri:",
+        "answers": [
+          "hyperglykémii",
+          "diabetes mellitus",
+          "znížení obličkového prahu pre glukózu",
+          "prekročení obličkového prahu pre glukózu"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 399,
+          "questionNumber": 399,
+          "page": 52,
+          "endPage": 52,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w06_diabetes_vysetrenia_dalsie",
+          "reason": "Otázka skúša diabetes, glykémiu, glykozúriu alebo postup a interpretáciu oGTT.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 7,
+          "objectiveRefs": [
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Glykémiu môže glukagón zvyšovať:",
+        "answers": [
+          "aktiváciou glykogénfosforylázy",
+          "glukoneogenézou",
+          "aktiváciou glykogenézy",
+          "všetkými uvedenými spôsobmi"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 400,
+          "questionNumber": 400,
+          "page": 52,
+          "endPage": 52,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w06_hormony_glykemia_dalsie",
+          "reason": "Otázka skúša reakciu na zmenu glykémie alebo metabolické účinky inzulínu a kontraregulačných hormónov.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 7,
+          "objectiveRefs": [
+            1,
+            3
+          ]
+        }
+      },
+      {
+        "question": "Pri nedostatku inzulínu:",
+        "answers": [
+          "je v bunkách nízka hladina glukózy",
+          "sú energetické požiadavky buniek citlivých na inzulín kryté oxidáciou tukov",
+          "v krvnom riečisku môže hladina glukózy stúpnuť nad fyziologickú hodinu",
+          "je priepustnosť bunkových membrán pre glukózu zvýšená"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 405,
+          "questionNumber": 405,
+          "page": 53,
+          "endPage": 53,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w06_hormony_glykemia_dalsie",
+          "reason": "Otázka skúša reakciu na zmenu glykémie alebo metabolické účinky inzulínu a kontraregulačných hormónov.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 7,
+          "objectiveRefs": [
+            1,
+            3
+          ]
+        }
+      },
+      {
+        "question": "Glukóza-6-fosfátfosfatáza je enzým, ktorý:",
+        "answers": [
+          "je prítomný vo všetkých bunkách",
+          "jeho pôsobením sa uvoľňuje do krvi voľná glukóza",
+          "zohráva úlohu v regulácii glykémie",
+          "nachádza sa v pečeni"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 406,
+          "questionNumber": 406,
+          "page": 53,
+          "endPage": 53,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w06_hormony_glykemia_dalsie",
+          "reason": "Otázka skúša reakciu na zmenu glykémie alebo metabolické účinky inzulínu a kontraregulačných hormónov.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 7,
+          "objectiveRefs": [
+            1,
+            3
+          ]
+        }
+      },
+      {
+        "question": "Patologickú zmenu funkcie hormonálnych regulačných mechanizmov glykémie zistíme pomocou:",
+        "answers": [
+          "jednorázového stanovenia glykémie po jedle",
+          "opakovaným stanovením glykémie po jedle",
+          "oGTT",
+          "jednorázovej vysokej dávky glukózy do organizmu"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 407,
+          "questionNumber": 407,
+          "page": 53,
+          "endPage": 53,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w06_diabetes_vysetrenia_dalsie",
+          "reason": "Otázka skúša diabetes, glykémiu, glykozúriu alebo postup a interpretáciu oGTT.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 7,
+          "objectiveRefs": [
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Hypoglykemická fáza na glykemickej krivke je:",
+        "answers": [
+          "spôsobená účinkom inzulínu",
+          "spôsobená účinkom glukagónu",
+          "charakteristická pre zdravého človeka",
+          "chýba u pacientov s DM"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 408,
+          "questionNumber": 408,
+          "page": 53,
+          "endPage": 53,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w06_diabetes_vysetrenia_dalsie",
+          "reason": "Otázka skúša diabetes, glykémiu, glykozúriu alebo postup a interpretáciu oGTT.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 7,
+          "objectiveRefs": [
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Diabetes mellitus:",
+        "answers": [
+          "je podmienený absolútnym alebo relatívnym nedostatkom inzulínu",
+          "je každé zvýšenie glykémie nad 6 mmol/l",
+          "je sprevádzaný respiračnou acidózou",
+          "môže byť sprevádzaný polyúriou"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 421,
+          "questionNumber": 421,
+          "page": 55,
+          "endPage": 55,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w06_diabetes_vysetrenia_dalsie",
+          "reason": "Otázka skúša diabetes, glykémiu, glykozúriu alebo postup a interpretáciu oGTT.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 7,
+          "objectiveRefs": [
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Na regulácii hladiny glukózy v krvi sa zúčastňuje:",
+        "answers": [
+          "tyroxín",
+          "kalcitonín",
+          "glukagón",
+          "hormón, ktorý sa vyplavuje v strese"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 431,
+          "questionNumber": 431,
+          "page": 56,
+          "endPage": 56,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w06_hormony_glykemia",
+          "reason": "Otázka skúša hormonálne ovplyvnenie glykémie, účinky inzulínu/glukagónu alebo dôsledky ich nedostatku.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 7,
+          "objectiveRefs": [
+            1,
+            3
+          ]
+        }
+      },
+      {
+        "question": "Hormóny, ktoré môžu zvýšiť glykémiu sú:",
+        "answers": [
+          "parathormón",
+          "adrenalín",
+          "kortizol",
+          "glukagón"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 465,
+          "questionNumber": 465,
+          "page": 61,
+          "endPage": 61,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w06_hormony_glykemia_dalsie",
+          "reason": "Otázka skúša reakciu na zmenu glykémie alebo metabolické účinky inzulínu a kontraregulačných hormónov.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 7,
+          "objectiveRefs": [
+            1,
+            3
+          ]
+        }
+      },
+      {
+        "question": "Grafické vyjadrenie zmien glykémie po podaní glukózy označujeme ako:",
+        "answers": [
+          "glykemický profil",
+          "glykémia",
+          "glykemická krivka",
+          "glukózotolerančný test"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 466,
+          "questionNumber": 466,
+          "page": 61,
+          "endPage": 61,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w06_diabetes_vysetrenia_dalsie",
+          "reason": "Otázka skúša diabetes, glykémiu, glykozúriu alebo postup a interpretáciu oGTT.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 7,
+          "objectiveRefs": [
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Fanconiho syndróm je:",
+        "answers": [
+          "vrodená glykozúria",
+          "získaná glykozúria",
+          "diabetes mellitus",
+          "ochorenie pankreasu"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 548,
+          "questionNumber": 548,
+          "page": 72,
+          "endPage": 72,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w06_diabetes_dalsie",
+          "reason": "Otázka skúša glykozúriu alebo metabolické následky nedostatku inzulínu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 7,
+          "objectiveRefs": [
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Nedostatok inzulínu spôsobuje:",
+        "answers": [
+          "zvýšenie aktivity Krebsovho cyklu",
+          "zvýšenie aktivity pentózového cyklu",
+          "zvýšenie aktivity lipolýzy",
+          "zvýšenie aktivity beta-oxidácie vyšších karboxylových kyselín"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 551,
+          "questionNumber": 551,
+          "page": 72,
+          "endPage": 72,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 6,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w06_diabetes_dalsie",
+          "reason": "Otázka skúša glykozúriu alebo metabolické následky nedostatku inzulínu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 7,
+          "objectiveRefs": [
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Zapojenie bielkovín do glukoneogenézy:",
+        "answers": [
+          "nie je potrebné, pretože dostatočným substrátom je laktát",
+          "si vyžaduje proteázy predovšetkým v pečeni",
+          "si vyžaduje reakcie, ktorými sa aminokyseliny menia na hydroxykyseliny",
+          "si vyžaduje enzým laktátdehydrogenázu"
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 295,
+          "questionNumber": 295,
+          "page": 39,
+          "endPage": 39,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "detectedCorrect": [],
+        "correct": [],
+        "reviewReasons": [
+          "V PDF nie je jednoznačne označená správna odpoveď."
+        ],
+        "curriculum": {
+          "week": 6,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w06_glukoneogeneza",
+          "reason": "Reakcie a regulácia glukoneogenézy alebo recipročná hormonálna regulácia glykolýzy sú explicitným cieľom 6. týždňa.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 7,
+          "objectiveRefs": [
+            2
+          ]
+        },
+        "answerReview": {
+          "status": "accepted",
+          "date": "2026-10-04",
+          "acceptanceFile": "tools/imports/biochemia1_accepted_review.json",
+          "confidence": "high",
+          "atpModel": "2.5 ATP/NADH; 1.5 ATP/FADH2",
+          "reason": "Glukogénne aminokyseliny poskytujú uhlíkové kostry po metabolizme dusíka. Netreba ich všeobecne meniť na hydroxykyseliny ani používať LDH. Pri hladovaní je dôležitá proteolýza svalu; pečeň nie je hlavné miesto uvedené v B.",
+          "sources": [
+            {
+              "title": "NCBI Bookshelf: Physiology, Gluconeogenesis",
+              "url": "https://www.ncbi.nlm.nih.gov/books/NBK541119/"
+            }
+          ],
+          "note": "Pôvodné detectedCorrect a reviewReasons sú história extrakcie. Platný kľúč je correct."
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,2518 @@
+[
+  {
+    "title": "Biochémia 1 - 04",
+    "description": "Otázky z PDF Biochémia 1 otázky, časť 04. Poradie v zdroji 301–400, strany 39–52. Odpovede podľa označenia v PDF. Otázky odložené na kontrolu: 4.",
+    "questions": [
+      {
+        "question": "Pôsobením α-1,6-glukozidázy:",
+        "answers": [
+          "sa tvorí vetvenie (väzba 1-6) v glykogéne",
+          "sa ruší vetvenie (väzba 1-6) v glykogéne",
+          "sa tvorí priamo voľná glukóza",
+          "je regulovaný metabolizmus glykogénu"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 301,
+          "questionNumber": 301,
+          "page": 39,
+          "endPage": 39,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Pre degradáciu glykogénu v pečeni je potrebná:",
+        "answers": [
+          "fosfoglukomutáza",
+          "glukóza-1-fosfátfosfatáza",
+          "glykogénfosforyláza",
+          "glukokináza"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 302,
+          "questionNumber": 302,
+          "page": 39,
+          "endPage": 40,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "V priebehu glykolýzy vzniká:",
+        "answers": [
+          "acetyl CoA",
+          "GTP",
+          "1,3-bis-fosfoglycerát",
+          "sukcinyl CoA"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 303,
+          "questionNumber": 303,
+          "page": 40,
+          "endPage": 40,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Pre priebeh Krebsovho cyklu je potrebný:",
+        "answers": [
+          "oxalacetát",
+          "laktát",
+          "kyslík",
+          "ATP"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 304,
+          "questionNumber": 304,
+          "page": 40,
+          "endPage": 40,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Za anaeróbnych podmienok v organizme:",
+        "answers": [
+          "vzniká acidóza",
+          "klesá tvorba ATP",
+          "neprebieha substrátová fosforylácia",
+          "znižuje sa priebeh terminálnej oxidácie"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 305,
+          "questionNumber": 305,
+          "page": 40,
+          "endPage": 40,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Laktátdehydrogenáza je aktívna:",
+        "answers": [
+          "v erytrocytoch za aeróbnych aj anaeróbnych podmienok",
+          "vo svaloch pri dostatku kyslíka",
+          "vo svaloch hlavne za anaeróbnych podmienok",
+          "vo forme diméru"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 306,
+          "questionNumber": 306,
+          "page": 40,
+          "endPage": 40,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Správna kombinácia : zlúčenina - typ makroergickej väzby je:",
+        "answers": [
+          "UDP-glukóza - difosfátová",
+          "cAMP - fosfodiesterová",
+          "glukóza-6-fosfát - fosfoesterová",
+          "GTP – guanidínfosfátová"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 307,
+          "questionNumber": 307,
+          "page": 40,
+          "endPage": 40,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Proces glukoneogenézy:",
+        "answers": [
+          "využíva aminokyseliny",
+          "využíva VKK",
+          "využíva glycerol",
+          "prebieha v pečeni"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 308,
+          "questionNumber": 308,
+          "page": 40,
+          "endPage": 40,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Príslušnými hormónmi sú súčasne stimulované:",
+        "answers": [
+          "glykolýza a glukoneogenéza",
+          "glykogenolýza a syntéza glykogénu",
+          "štiepenie glykogénu a štiepenie triacylglycerolov",
+          "syntéza VKK a glykolýza"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 309,
+          "questionNumber": 309,
+          "page": 40,
+          "endPage": 40,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Glukóza-1-fosfát je medziprodukt:",
+        "answers": [
+          "oxidácie VKK",
+          "glykogenolýzy",
+          "glykolýzy",
+          "syntézy glykogénu"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 310,
+          "questionNumber": 310,
+          "page": 41,
+          "endPage": 41,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Acetyl CoA:",
+        "answers": [
+          "vzniká v aeróbnej glykolýze",
+          "vzniká ako medziprodukt v metabolizme cukrov",
+          "vzniká ako medziprodukt v metabolizme tukov",
+          "môže byťďalej oxidovaný na CO2 a H2O"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 311,
+          "questionNumber": 311,
+          "page": 41,
+          "endPage": 41,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Za anaeróbnych podmienok:",
+        "answers": [
+          "sa zastavujú reakcie citrátového cyklu",
+          "neprebieha glykolýza",
+          "sa získava energia oxidačnou fosforyláciou",
+          "sa získava energia substrátovou fosforyláciou"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 312,
+          "questionNumber": 312,
+          "page": 41,
+          "endPage": 41,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Oxidáciou glukózy sa získava:",
+        "answers": [
+          "ATP oxidačnou fosforyláciou",
+          "ATP substrátovou fosforyláciou",
+          "129 molov ATP/1 mol glukózy",
+          "ATP len v mitochondriách"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 313,
+          "questionNumber": 313,
+          "page": 41,
+          "endPage": 41,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Laktát:",
+        "answers": [
+          "je oxokyselina",
+          "je kyselina hydroxymaslová",
+          "je tvorený viac za anaeróbnych podmienok",
+          "sa využíva vo svaloch"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 314,
+          "questionNumber": 314,
+          "page": 41,
+          "endPage": 41,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Štiepenie glykogénu:",
+        "answers": [
+          "v pečeni aktivuje glukagón",
+          "vedie takmer k vyčerpaniu jeho zásob v pečeni za 16 až 24 hodín",
+          "je aktivované inzulínom",
+          "v pečeni je zvýšené pri hypoglykémii"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 315,
+          "questionNumber": 315,
+          "page": 41,
+          "endPage": 41,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Glukóza:",
+        "answers": [
+          "sa vstrebáva z GIT a venou portae sa dostáva do pečene",
+          "sa pri vysokých koncentráciach využíva na tvorbu tukov",
+          "je v bunkách zdrojom energie, pri jej úplnej oxidácii sa získa 12 ATP z jednej glukózy",
+          "sa v bunkách pečene a obličiek môže tvoriť z uhlíkov VKK"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 316,
+          "questionNumber": 316,
+          "page": 41,
+          "endPage": 41,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "O glykogéne v pečeni môžeme povedať:",
+        "answers": [
+          "po príjme potravy tvorí 1 až 2% hmotnosti pečene",
+          "po príjme potravy sa v pečeni nachádza 80 až 100g glykogénu",
+          "vzniká po aktivácii jeho syntézy inzulínom",
+          "tvorí sa glukoneogenézou"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 317,
+          "questionNumber": 317,
+          "page": 41,
+          "endPage": 41,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Počas dlhodobého hladovania sú zdrojom energie:",
+        "answers": [
+          "vo svale VKK",
+          "vo svale glukóza",
+          "v mozgu ketolátky a glukóza",
+          "v erytrocytoch VKK a glukóza"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 318,
+          "questionNumber": 318,
+          "page": 42,
+          "endPage": 42,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Kyselina mliečna je látka, ktorá:",
+        "answers": [
+          "vzniká ako koncový produkt glykolýzy za anaeróbnych podmienok",
+          "vzniká ako koncový produkt vo všetkých bunkách organizmu",
+          "vzniká účinkom laktátdehydrogenázy",
+          "za anaeróbnych podmienok vzniká pri regenerácii NAD+ laktátdehydrogenázou"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 319,
+          "questionNumber": 319,
+          "page": 42,
+          "endPage": 42,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Laktátdehydrogenáza je aktívna:",
+        "answers": [
+          "v erytrocytoch za aeróbnych aj anaeróbnych podmienok",
+          "vo svaloch hlavne za anaeróbnych podmienok a katalyzuje tu tvorbu laktátu",
+          "v pečeni hlavne za anaeróbnych podmienok a katalyzuje tu tvorbu laktátu",
+          "vo forme diméru"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 320,
+          "questionNumber": 320,
+          "page": 42,
+          "endPage": 42,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Ktoré z uvedených zlúčenín sú tvorené počas degradácie glykogénu:",
+        "answers": [
+          "glukóza-1-fosfát",
+          "voľná glukóza",
+          "UDP-glukóza",
+          "UMP + glukóza-6-fosfát"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 321,
+          "questionNumber": 321,
+          "page": 42,
+          "endPage": 42,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Pre degradáciu glykogénu v pečeni je potrebná:",
+        "answers": [
+          "fosfoglukomutáza",
+          "glukóza-6-fosfátfosfatáza",
+          "glykogénfosforyláza",
+          "glukokináza"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 322,
+          "questionNumber": 322,
+          "page": 42,
+          "endPage": 42,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Glukagón:",
+        "answers": [
+          "sprostredkuje aktiváciu glykogénsyntázy v pečeni",
+          "sprostredkuje aktiváciu glykogénfosforylázy v pečeni",
+          "vyplavuje sa z alfa-buniek pankreasu pri hypoglykémii",
+          "účinkuje po väzbe na receptor spojený s aktiváciou adenylátcyklázy"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 323,
+          "questionNumber": 323,
+          "page": 42,
+          "endPage": 42,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Reakcia, ktorou sa tvorí UDP-glukóza:",
+        "answers": [
+          "je katalyzovaná enzýmom UDPG-fosforyláza",
+          "je to reakcia aktivácie glukózy pri syntéze glykogénu",
+          "vedie k tvorbe zlúčeniny, ktorá je substrátom glykogénfosforylázy",
+          "vedie k tvorbe zlúčeniny, ktorá je substrátom glykogénsyntázy"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 324,
+          "questionNumber": 324,
+          "page": 42,
+          "endPage": 42,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Na oxidácii glukózy na CO2 a H2O sa v organizme podieľajú mechanizmy:",
+        "answers": [
+          "spojené s odoberaním vodíkov zo substrátov",
+          "spojené so vznikom redukovaných koenzýmov",
+          "naväzujúce O2 na medziprodukty oxidácie glukózy",
+          "β-oxidácia a Krebsov cyklus"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 325,
+          "questionNumber": 325,
+          "page": 42,
+          "endPage": 42,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Počas Coriho cyklu:",
+        "answers": [
+          "dochádza k tvorbe pyruvátu vo svale a jeho uvoľneniu do krvi",
+          "dochádza k tvorbe laktátu vo svale a jeho uvoľneniu do krvi",
+          "sa z produktu uvoľneného zo svalu môže v pečeni vytvárať glukóza",
+          "dochádza k priamej oxidácii glukózy v Pentózovom cykle"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 326,
+          "questionNumber": 326,
+          "page": 43,
+          "endPage": 43,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Z glykolýzy za anaerobných podmienok získame ATP:",
+        "answers": [
+          "len substrátovou fosforyláciou",
+          "substrátovou fosforyláciou v terminálnej oxidácii a oxidatívnej fosforylácii oxidáciou NADH + H+",
+          "36-38 molov ATP/ 1 mol glukózy",
+          "6-8 molov ATP/ 1 mol glukózy"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 327,
+          "questionNumber": 327,
+          "page": 43,
+          "endPage": 43,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "K medziproduktom glukoneogenézy patrí:",
+        "answers": [
+          "acetyl-CoA",
+          "oxalacetát",
+          "dihydroxyacetónfosfát",
+          "1,3-bis-fosfoglycerát"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 328,
+          "questionNumber": 328,
+          "page": 43,
+          "endPage": 43,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Glykogénsyntáza:",
+        "answers": [
+          "ako substrát využíva glukózu-1-fosfát",
+          "katalyzuje tvorbu alfa-1,4-glykozidovej väzby",
+          "katalyzuje tvorbu alfa-1,6-glykozidovej väzby",
+          "je aktivovaná fosforyláciou v prítomnosti inzulínu"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 329,
+          "questionNumber": 329,
+          "page": 43,
+          "endPage": 43,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Vetviaci enzým katalyzuje vznik väzby, o ktorej možno povedať:",
+        "answers": [
+          "je to alfa-1,6-glykozidová väzba",
+          "je to väzba, ktorá sa štiepi glykogénfosforylázou",
+          "štiepením tejto väzby v pečeni vzniká voľná glukóza",
+          "štiepením tejto väzby v svale vzniká glukóza-6-fosfát"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 330,
+          "questionNumber": 330,
+          "page": 43,
+          "endPage": 43,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Glykogén:",
+        "answers": [
+          "zo svalov poskytuje voľnú glukózu do krvi",
+          "jeho obsah v pečeni je 80-100g",
+          "môže udržiavať hladinu glukózy v krvi počas 48-72 hodín",
+          "jeho odbúravanie v pečeni je stimulované glukagónom"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 331,
+          "questionNumber": 331,
+          "page": 43,
+          "endPage": 43,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Aktivácia využitia glykogénu vo svalovej bunke je sprostredkovaná:",
+        "answers": [
+          "adrenalínom",
+          "glukagónom",
+          "inzulínom",
+          "cAMP ako druhým poslom"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 332,
+          "questionNumber": 332,
+          "page": 43,
+          "endPage": 43,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Substrátovou fosforyláciou sa môže získať energia:",
+        "answers": [
+          "v procese β-oxidácie vyšších karboxylových kyselín",
+          "v reakcii katalyzovanej sukcinátkinázou",
+          "v glykolýze",
+          "za aeróbnych aj anaeróbnych podmienok"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 333,
+          "questionNumber": 333,
+          "page": 43,
+          "endPage": 43,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Glyceraldehyd-3-fosfát-dehydrogenáza:",
+        "answers": [
+          "využíva NAD+ ako koenzým",
+          "katalyzuje vratnú reakciu",
+          "využíva vo svojom reakčnom cykle anorganický fosfát",
+          "katalyzuje tvorbu zlúčeniny s makroergickou väzbou na treťom uhlíku"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 334,
+          "questionNumber": 334,
+          "page": 44,
+          "endPage": 44,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Laktát v bunkách:",
+        "answers": [
+          "stúpa za aeróbnych podmienok",
+          "stúpa pri intenzívnej svalovej práci",
+          "vzniká stále v erytrocytoch",
+          "znižuje pH"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 335,
+          "questionNumber": 335,
+          "page": 44,
+          "endPage": 44,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Pri stanovení laktátu:",
+        "answers": [
+          "využívame aktivitu pridanej laktátdehydrogenázy",
+          "vytvorený laktát reaguje s ferrifenantrolínom",
+          "vytvorený pyruvát reaguje s ferrifenantrolínom",
+          "sa elektróny z NADH + H+ prenášajú na umelý akceptor elektrónov"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 336,
+          "questionNumber": 336,
+          "page": 44,
+          "endPage": 44,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "degradácii glykogénu vo svaloch možno povedať:",
+        "answers": [
+          "cez niekoľko medziproduktov vzniká ako koncový produkt voľná glukóza",
+          "produktom je glukóza-1-fosfát",
+          "jej aktivácia je sprostredkovaná adrenalínom, s následným uvoľnením glukózy do krvného obehu",
+          "je aktivovaná komplexom Ca2+/kalmodulín"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 337,
+          "questionNumber": 337,
+          "page": 44,
+          "endPage": 44,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Druhý posol, ktorý sprostredkuje aktiváciu glykogénfosforylázy:",
+        "answers": [
+          "vzniká účinkom membránového enzýmu",
+          "vzniká účinkom cytosolového enzýmu",
+          "je cAMP",
+          "v pečeni sa vytvára predovšetkým v prítomnosti glukagónu"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 338,
+          "questionNumber": 338,
+          "page": 44,
+          "endPage": 44,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Inzulín:",
+        "answers": [
+          "sprostredkuje aktiváciu glykogénsyntázy v pečeni",
+          "sprostredkuje aktiváciu glykogénfosforylázy v pečeni",
+          "vyplavuje sa z β-buniek Langerhansových ostrovčekov pankreasu pri vzostupe glykémie",
+          "účinkuje po väzbe na receptor spojený s aktiváciou tyrozínkinázy"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 339,
+          "questionNumber": 339,
+          "page": 44,
+          "endPage": 44,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Pôsobením alfa-1,6-glukozidázy je tvorená:",
+        "answers": [
+          "glukóza-1-fosfát",
+          "glukóza-6-fosfát",
+          "voľná glukóza",
+          "maltóza"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 340,
+          "questionNumber": 340,
+          "page": 44,
+          "endPage": 44,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Kyselina pyrohroznová:",
+        "answers": [
+          "je koncovým produktom úplnej oxidácie glukózy v erytrocytoch",
+          "vzniká ako koncový produkt glykolýzy v bunkách CNS",
+          "vzniká ako koncový produkt glykolýzy za aeróbnych podmienok",
+          "je látka, ktorej vznik prebieha v cytozole"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 341,
+          "questionNumber": 341,
+          "page": 44,
+          "endPage": 44,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Coriho cyklus je proces, o ktorom možno povedať:",
+        "answers": [
+          "prebieha len v pečeni",
+          "využíva na glukoneogenézu laktát, ktorý sa tvorí predovšetkým v tkanive CNS",
+          "pre uskutočnenie kompletného cyklu je v pečeni potrebný enzým, ktorý hydrolyticky štiepi glukóza-6- fosfát na voľnú glukózu",
+          "ide v ňom o využitie laktátu tvoreného glykolýzou v svale na glukoneogenézu v pečeni"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 343,
+          "questionNumber": 343,
+          "page": 45,
+          "endPage": 45,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Fruktóza-1,6-bisfosfát ovplyvňuje enzýmy glykolýzy tak, že:",
+        "answers": [
+          "inhibuje fosfofruktokinázu I",
+          "aktivuje fosfofruktokinázu II",
+          "aktivuje reakciu glykolýzy, v ktorej sa tvorí fosfoenolpyruvát",
+          "aktivuje pyruvátkinázu"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 344,
+          "questionNumber": 344,
+          "page": 45,
+          "endPage": 45,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "tvorbe glukózy glukoneogenézou platí:",
+        "answers": [
+          "je to proces, ktorý zabezpečuje tvorbu glukózy len pri dlhodobom hladovaní",
+          "je proces tvorby glukózy z glykogénu",
+          "je to proces, ktorý nevyžaduje špecifické enzýmy, pretože reakcie glukoneogenézy sú vratné",
+          "je to proces, ktorý je stimulovaný glukagónom a kortizolom"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 345,
+          "questionNumber": 345,
+          "page": 45,
+          "endPage": 45,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Na regulácii hladiny glukózy v krvi sa zúčastňuje:",
+        "answers": [
+          "tyroxín",
+          "kalcitonín",
+          "glukagón",
+          "hormón, ktorý sa vyplavuje v strese"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 346,
+          "questionNumber": 346,
+          "page": 45,
+          "endPage": 45,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Hypoglykémia je stav, ktorý:",
+        "answers": [
+          "môže byť dôsledkom nadmernej tvorby inzulínu",
+          "môže byť príčinou kómy",
+          "u pacientov s diabetes mellitus nemôže nastať",
+          "môže byť spôsobenýťažkým poškodením funkcie pečene"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 347,
+          "questionNumber": 347,
+          "page": 45,
+          "endPage": 45,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Ktoré z tkanív ľudského organizmu je takmer plne závislé na glukóze ako zdroji energie:",
+        "answers": [
+          "tkanivo CNS, ktoré počas hladovania využíva aj ketolátky",
+          "erytrocyty, ktoré počas hladovania dokážu oxidovať aj karboxylové kyseliny",
+          "erytrocyty, ktoré si môžu energiu získavať aj oxidáciou glukózy v pentózovom cykle",
+          "tkanivo CNS, pretože neobsahuje mitochondrie"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 348,
+          "questionNumber": 348,
+          "page": 45,
+          "endPage": 45,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "V priebehu glykolýzy za aeróbnych podmienok:",
+        "answers": [
+          "na aktiváciu glukózy sa spotrebujú 2 ATP",
+          "4 ATP sa tvoria substrátovou fosforyláciou",
+          "ATP sa netvorí prenosom vodíkov do terminálnej oxidácie",
+          "vzniká acetyl-CoA ako koncový produkt aeróbnej glykolýzy"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 349,
+          "questionNumber": 349,
+          "page": 45,
+          "endPage": 46,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Z výrokov o glukokináze a hexokináze platí:",
+        "answers": [
+          "glukokináza má nižšiu hodnotu Km",
+          "glukokináza využíva glukózu ako jediný substrát",
+          "hexokináza, na rozdiel od glukokinázy, je prítomná jedine v pečeni",
+          "ich distribúcia v tkanivách je rozdielna, pričom ostatné ich vlastnosti sú rovnaké"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 350,
+          "questionNumber": 350,
+          "page": 46,
+          "endPage": 46,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "O zlúčenine, ktorá sa v glykolýze premieňa pôsobením fosfoglycerátkinázy, možno povedať:",
+        "answers": [
+          "je to látka s obsahom makroergickej enolfosfátovej väzby",
+          "látka vzniká pôsobením glycerolfosfátdehydrogenázy",
+          "je to látka, ktorá na tvorbu ATP využíva makroergickú acylfosfátovú väzbu",
+          "je to látka, ktorú možno využiť na tvorbu ATP v mitochondriách"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 352,
+          "questionNumber": 352,
+          "page": 46,
+          "endPage": 46,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Aby sa bielkoviny mohli zapojiť do procesu glukoneogenézy:",
+        "answers": [
+          "sú potrebné proteinázy v kostrovom svale",
+          "sú potrebné transaminázy v bunkách EHT na premenu aminokyselín",
+          "sú potrebné reakcie, ktorými sa aminokyseliny v pečeni premieňajú na oxokyseliny",
+          "štiepia sa hlavne bielkoviny vnútorných orgánov ako je napr. myokard, oblička, pečeň"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 353,
+          "questionNumber": 353,
+          "page": 46,
+          "endPage": 46,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Ochorenie diabetes mellitus:",
+        "answers": [
+          "sa prejavuje zníženou koncentráciou glukózy v krvi",
+          "môže byť sprevádzané polyúriou",
+          "môže viesť k metabolickej acidóze",
+          "je vždy sprevádzané glykozúriou"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 354,
+          "questionNumber": 354,
+          "page": 46,
+          "endPage": 46,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Hlavným regulačným miestom glykolýzy je:",
+        "answers": [
+          "regulácia katalyzovaná hexokinázou",
+          "reakcia katalyzovaná fosfofruktokinázou I",
+          "tvorba fruktózy-1,6-bisfosfátu",
+          "tvorba glukóza-6-fosfátu"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 355,
+          "questionNumber": 355,
+          "page": 46,
+          "endPage": 46,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "O zlúčenine glukóza-1-fosfát platí, že:",
+        "answers": [
+          "látka priamo vstupuje do syntézy glykogénu",
+          "reakciu jej tvorby katalyzuje glukokináza",
+          "jej tvorbu katalyzuje glykogénfosforyláza",
+          "pri syntéze glykogénu sa ďalej premieňa na UDP-glukózu"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 358,
+          "questionNumber": 358,
+          "page": 47,
+          "endPage": 47,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Reakcia, ktorou sa tvorí UDP- glukóza:",
+        "answers": [
+          "je katalyzovaná enzýmom UDPG-fosforyláza",
+          "je to reakcia aktivácia glukózy pri syntéze glykogénu",
+          "vedie k tvorbe zlúčeniny, ktorá je substrátu glykogénfosforylázy",
+          "vedie k tvorbe zlúčeniny, ktorá je substrátom glykogénsyntázy"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 359,
+          "questionNumber": 359,
+          "page": 47,
+          "endPage": 47,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "V stave dobrej výživy môže pečeňový glykogén predstavovať:",
+        "answers": [
+          "4-5% hmotnosti pečene",
+          "20 % hmotnosti pečene",
+          "1-2% hmotnosti pečene",
+          "v pečeni sa glykogén nenachádza"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 360,
+          "questionNumber": 360,
+          "page": 47,
+          "endPage": 47,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Ktoré z uvedených zlúčenín sú tvorené počas degradácie glykogénu:",
+        "answers": [
+          "glukóza-1-fosfát",
+          "voľná glukóza",
+          "UDP- glukóza",
+          "UMP + glukóza-6-fosfát"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 361,
+          "questionNumber": 361,
+          "page": 47,
+          "endPage": 47,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "O regulácií glykolýzy platí:",
+        "answers": [
+          "kľúčovým regulačným enzýmom je reakcia vzniku fruktóza-1,6- bisfosátu",
+          "vysoké koncentrácie ATP a NADH2 pôsobia inhibične na fosfofruktokinázu a pyruvátkinázu",
+          "hormón glukagón, tým že vedie k fosforylácií tandemového enzýmu, zvyšuje koncentráciu fruktóza -2,6- bisfosfátu a inhibuje fosfofruktokinázu",
+          "prítomnosť inzulínu vedie k defosforylácií pyruvátkinázy a tým k jej aktivácií"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 362,
+          "questionNumber": 362,
+          "page": 47,
+          "endPage": 47,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Oxidáciou substrátu v bunkách vzniká energia:",
+        "answers": [
+          "priamo v Krebsovom cykle",
+          "priamo v beta-oxidácií vyšších mastných kyselín",
+          "priamo v anaeróbnej glykolýze substrátovou fosforyláciou",
+          "z redukovaných koenzýmov v procese terminánej oxidácie a oxidačnej fosforylácie"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 363,
+          "questionNumber": 363,
+          "page": 47,
+          "endPage": 47,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "oGTT informuje o:",
+        "answers": [
+          "časových zmenách glykémie",
+          "pôsobení inzulínu v organizme",
+          "hormonálne regulácii metabolizmu glukźy",
+          "stave beta-buenik pankreasu"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 364,
+          "questionNumber": 364,
+          "page": 48,
+          "endPage": 48,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Znížené hodnoty glukózy v krvi môžu byť pri:",
+        "answers": [
+          "renálnej glykozúrii",
+          "dlhotrvajúcej podvýžive",
+          "úrazoch CNS",
+          "hypertyreóze"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 365,
+          "questionNumber": 365,
+          "page": 48,
+          "endPage": 48,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Medzi účinky inzulínu po jeho vyplavení do krvi patrí:",
+        "answers": [
+          "zníženie priepustnosti bunkových membrán pre glukózu",
+          "vyplavenie katecholamínov",
+          "stimulácia kôry nadobličiek a vyplavenie kortizolu",
+          "zvýšenie priepustnosti bunkových membrán pre glukózu"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 366,
+          "questionNumber": 366,
+          "page": 48,
+          "endPage": 48,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Obličkový prah pre glukózu:",
+        "answers": [
+          "sa môže prekročiť pri hyperglykémii",
+          "je parameter, ktorého prekročenie je príčinou glykozúrie",
+          "je 8,5-11 mmol glukózy v litri séra",
+          "je 8,5-11 mmol glukózy v litri vylúčeného moču"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 367,
+          "questionNumber": 367,
+          "page": 48,
+          "endPage": 48,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Tyroxín:",
+        "answers": [
+          "stimuluje glykolýzu",
+          "inhibuje glykogenolýzu",
+          "aktivuje glykogenolýzu",
+          "inhibuje oxidáciu cukrov"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 368,
+          "questionNumber": 368,
+          "page": 48,
+          "endPage": 48,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Ketogenéza:",
+        "answers": [
+          "je proces utilizácie ketolátok",
+          "prebieha len v patologických podmienkach",
+          "prebieha aj vo fyziologických podmienkach",
+          "je lokalizovaná v pečeni"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 369,
+          "questionNumber": 369,
+          "page": 48,
+          "endPage": 48,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Kyselina acetoctová sa po uvoľnení z pečene využíva:",
+        "answers": [
+          "v Coriho cykle",
+          "ako substrát pre reakciu katalyzovanú sukcinyl-CoA-transferázou",
+          "po premene na HS-CoA",
+          "ako zdroj energie po premene na acetyl-CoA"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 370,
+          "questionNumber": 370,
+          "page": 48,
+          "endPage": 48,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Aktivita enzýmu sukcinyl-CoA-transferázy je potrebná pri:",
+        "answers": [
+          "premene acetoacetátu na acetoacetyl-CoA",
+          "extrahepatálnej utilizácii ketolátok",
+          "pri priamej premene acetoacetyl-CoA na 2 molekuly acetyl-CoA",
+          "syntéze ketolátok"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 371,
+          "questionNumber": 371,
+          "page": 48,
+          "endPage": 48,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Aktivácia karboxylových kyselín pred ich vstupom do β-oxidácie prebieha:",
+        "answers": [
+          "za prítomnosti ATP a HS-CoA",
+          "na vonkajšej mitochondriálnej membráne a v endoplazmatickom retikule",
+          "pri tvorbe enzým-acyladenylátového medziproduktu",
+          "platí všetko uvedené"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 372,
+          "questionNumber": 372,
+          "page": 49,
+          "endPage": 49,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Organizmus má najväčšie zásoby energie vo forme:",
+        "answers": [
+          "glukózy",
+          "glykogénu",
+          "tukov",
+          "aminokyselín a bielkovín"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 373,
+          "questionNumber": 373,
+          "page": 49,
+          "endPage": 49,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Glukoneogenéza:",
+        "answers": [
+          "využíva ako hlavný zdroj pre tvorbu glukózy aminokyseliny",
+          "je stimulovaná glukokortikoidmi",
+          "má význam pri udržiavaní hladiny glukózy v krvi",
+          "môže prebiehať v pečeni a obličkách"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 374,
+          "questionNumber": 374,
+          "page": 49,
+          "endPage": 49,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "U chorého človeka na cukrovku poukazuje v moči prítomnosť:",
+        "answers": [
+          "glykogénu",
+          "glukózy",
+          "bilirubínu",
+          "ketolátok"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 375,
+          "questionNumber": 375,
+          "page": 49,
+          "endPage": 49,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Indikáciou pre vyšetrenie oGTT je hladina glukózy v krvi nalačno:",
+        "answers": [
+          "5 mmol/l",
+          "5 - 7 mmol/l - jednorázovo",
+          "opakovane 5 - 7 mmol/l",
+          "väčšia ako 7 mmol/l"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 376,
+          "questionNumber": 376,
+          "page": 49,
+          "endPage": 49,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Tvorba ketolátok:",
+        "answers": [
+          "môže byť spojená s tvorbou acetónu",
+          "prebieha hlavne v pečeni",
+          "prebieha extrahepatálne",
+          "dochádza pri nej k uvoľneniu HS-CoA"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 377,
+          "questionNumber": 377,
+          "page": 49,
+          "endPage": 49,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Vo fyziologických podmienkach tvorí viac ako polovicu ketolátok:",
+        "answers": [
+          "acetoacetát",
+          "kyselina β-hydroxymaslová",
+          "acetón",
+          "acetoacetát a acetón"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 378,
+          "questionNumber": 378,
+          "page": 49,
+          "endPage": 49,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Produktom reakcie katalyzovanej enzýmom tioláza môže byť:",
+        "answers": [
+          "β-hydroxybutyrát",
+          "acetyl-CoA",
+          "acyl-CoA",
+          "β-hydroxy-β-metylglutaryl-CoA"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 379,
+          "questionNumber": 379,
+          "page": 49,
+          "endPage": 50,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Na energetickom zisku oxidácie karboxylových kyselín sa podieľa:",
+        "answers": [
+          "oxidácia NADH",
+          "oxidácia FADH2",
+          "oxidácia acetyl-CoA v citrátovom cykle",
+          "β-oxidácia"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 380,
+          "questionNumber": 380,
+          "page": 50,
+          "endPage": 50,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Zvýšenie hladiny glukózy v krvi zdravého človeka vedie k:",
+        "answers": [
+          "vyplaveniu glukagónu",
+          "zníženiu uvoľňovania karboxylových kyselín z tukového tkaniva po vyplavení inzulínu",
+          "zníženiu vyplavenia inzulínu",
+          "zvýšenému rozkladu zásobných tukov"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 381,
+          "questionNumber": 381,
+          "page": 50,
+          "endPage": 50,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Hlavným metabolitom spájajúcim metabolizmus cukrov, tukov a bielkovín je látka:",
+        "answers": [
+          "vznikajúca pri oxidácii karboxylových kyselín",
+          "ktorá je produktom reakcie katalyzovanej pyruvátdehydrogenázovým komplexom",
+          "vznikajúca dekarboxyláciou pyruvátu",
+          "acyl-CoA"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 382,
+          "questionNumber": 382,
+          "page": 50,
+          "endPage": 50,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Pri oGTT sa podáva u dospelého človeka:",
+        "answers": [
+          "75g glukózy intravenózne",
+          "7,5g glukózy na kg hmotnosti",
+          "75g glukózy v roztoku perorálne po jedle",
+          "75g glukózy v roztoku perorálne nalačno"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 383,
+          "questionNumber": 383,
+          "page": 50,
+          "endPage": 50,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Príčinou prítomnosti glukózy v moči môže byť:",
+        "answers": [
+          "ochorenie obličiek",
+          "zníženie obličkového prahu pre glukózu",
+          "hyperglykémia",
+          "zvýšená sekrécia aldosterónu"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 384,
+          "questionNumber": 384,
+          "page": 50,
+          "endPage": 50,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Vo fyziologických podmienkach sa ketolátky utilizujú:",
+        "answers": [
+          "v extrahepatálnych tkanivách",
+          "v hepatocytoch",
+          "po premene na acetyl-CoA",
+          "v procese ketogenézy"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 385,
+          "questionNumber": 385,
+          "page": 50,
+          "endPage": 50,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Na aktivácii tvorby ketolátok sa podieľa:",
+        "answers": [
+          "zvýšená lipolýza v tukovom tkanive",
+          "transport acetyl-CoA krvou do pečene",
+          "transport karboxylových kyselín do pečene",
+          "znížené využitie acetyl-CoA v syntéze karboxylových kyselín"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 386,
+          "questionNumber": 386,
+          "page": 50,
+          "endPage": 50,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Tvorba acetónu:",
+        "answers": [
+          "prebieha spontánne dekarboxyláciou z β-hydroxybutyrátu",
+          "je enzýmovo katalyzovanou reakciou",
+          "prebieha dekarboxyláciou acetoacetátu",
+          "nemá metabolický význam"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 387,
+          "questionNumber": 387,
+          "page": 50,
+          "endPage": 51,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Hladina ketolátok v plazme:",
+        "answers": [
+          "počas hladovania stúpa",
+          "pri DM klesá",
+          "počas hladovania klesá",
+          "pri DM stúpa"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 388,
+          "questionNumber": 388,
+          "page": 51,
+          "endPage": 51,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Glukagón:",
+        "answers": [
+          "sa vyplavuje z β-buniek pankreasu pri hyperglykémii",
+          "znižuje hladinu krvnej glukózy",
+          "pôsobí proti regulačným mechanizmom sprostredkovaným inzulínom",
+          "aktivuje glykogénfosforylázu"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 389,
+          "questionNumber": 389,
+          "page": 51,
+          "endPage": 51,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Príčinou toho, že sa z aktívneho acetátu nemôže tvoriť glukóza je v nevratnosti premeny:",
+        "answers": [
+          "pyruvátu na oxalacetát",
+          "ktorú katalyzuje pyruvátdehydrogenázový komplex",
+          "laktátu na pyruvát",
+          "pyruvátu na acetyl-CoA a oxid uhličitý"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 390,
+          "questionNumber": 390,
+          "page": 51,
+          "endPage": 51,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Zvýšenie hladiny glukózy v krvi zdravého človeka vedie k:",
+        "answers": [
+          "vyplaveniu inzulínu z beta-buniek pankreasu",
+          "aktivácii glykogénsyntázy",
+          "zvýšeniu hladiny ketolátok",
+          "zníženiu množstva glukagónu"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 391,
+          "questionNumber": 391,
+          "page": 51,
+          "endPage": 51,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Stresovú hyperglykémiu podmieňuje najmä:",
+        "answers": [
+          "aldosterón",
+          "glukagón",
+          "adrenalín",
+          "ani jeden z uvedených"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 392,
+          "questionNumber": 392,
+          "page": 51,
+          "endPage": 51,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Ketolátky, vznikajúce v pečeni sa metabolizujú extrahepatálne, lebo:",
+        "answers": [
+          "pečeň neobsahuje enzýmy ketogenézy",
+          "je aktivovaný transport ketolátok do periférnych orgánov",
+          "v pečeni chýba aktivita sukcinyl-CoA-transferázy",
+          "pečeň nemá enzýmovú aktivitu potrebnú pri premene acetoacetátu na acetoacetyl-CoA"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 393,
+          "questionNumber": 393,
+          "page": 51,
+          "endPage": 51,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Pri oxidácii karboxylových kyselín sa energia získava:",
+        "answers": [
+          "aktiváciou karboxylovej kyseliny",
+          "oxidáciou NADH",
+          "prostredníctvom β-oxidácie a citrátového cyklu",
+          "oxidáciou FADH2 a acetyl-CoA"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 394,
+          "questionNumber": 394,
+          "page": 51,
+          "endPage": 51,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Prvá reakcia, ktorá je podmienkou využitia β-hydroxybutyrátu pri utilizácii ketolátok je reakcia, ktorú katalyzuje:",
+        "answers": [
+          "jantaryl-CoA-transferáza",
+          "β-ketotioláza",
+          "hydroxybutyrátdehydrogenáza",
+          "sukcinyl-CoA-transferáza"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 395,
+          "questionNumber": 395,
+          "page": 51,
+          "endPage": 52,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Na transporte karboxylovej kyseliny do mitochondrie sa zúčastňuje:",
+        "answers": [
+          "citrát",
+          "karnitín",
+          "karnitíntranslokáza",
+          "acyl-CoA"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 396,
+          "questionNumber": 396,
+          "page": 52,
+          "endPage": 52,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "oGTT informuje o:",
+        "answers": [
+          "časových zmenách glykémie",
+          "pôsobení inzulínu v organizme",
+          "hormonálnej regulácii metabolizmu glukózy",
+          "stave β-buniek pankreasu"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 397,
+          "questionNumber": 397,
+          "page": 52,
+          "endPage": 52,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Inzulín:",
+        "answers": [
+          "je tvorený v α-bunkách pankreasu",
+          "stimuluje glykolýzu",
+          "pôsobí aktivačne na glukokinázu",
+          "pôsobí proti regulačnému mechanizmu glukagónu"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 398,
+          "questionNumber": 398,
+          "page": 52,
+          "endPage": 52,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Glykozúriu môžeme zistiť pri:",
+        "answers": [
+          "hyperglykémii",
+          "diabetes mellitus",
+          "znížení obličkového prahu pre glukózu",
+          "prekročení obličkového prahu pre glukózu"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 399,
+          "questionNumber": 399,
+          "page": 52,
+          "endPage": 52,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      },
+      {
+        "question": "Glykémiu môže glukagón zvyšovať:",
+        "answers": [
+          "aktiváciou glykogénfosforylázy",
+          "glukoneogenézou",
+          "aktiváciou glykogenézy",
+          "všetkými uvedenými spôsobmi"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 400,
+          "questionNumber": 400,
+          "page": 52,
+          "endPage": 52,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        }
+      }
+    ]
+  }
+]

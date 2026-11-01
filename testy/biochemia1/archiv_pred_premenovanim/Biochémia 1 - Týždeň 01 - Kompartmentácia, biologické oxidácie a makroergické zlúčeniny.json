@@ -1,0 +1,2546 @@
+[
+  {
+    "title": "Biochémia 1 - Týždeň 01 - Kompartmentácia, biologické oxidácie a makroergické zlúčeniny",
+    "description": "1. týždeň, ZS 2026/2027: Kompartmentácia metabolických procesov v eukaryotickej bunke, biologické oxidácie, makroergické zlúčeniny. Otázky zaradené podľa cieľov týždenného programu; odpovede podľa zdrojového PDF.",
+    "questions": [
+      {
+        "question": "Tioesterová makroergická väzba je prítomná v:",
+        "answers": [
+          "acetyl-Coa",
+          "HS-Coa",
+          "acyl-Coa",
+          "sukcinyl-Coa"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 1,
+          "questionNumber": 1,
+          "page": 1,
+          "endPage": 1,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 1,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w01_makroergicke",
+          "reason": "Otázka skúša typy makroergických väzieb, energetické nukleotidy, kreatínfosfát alebo ich využitie.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 2,
+          "objectiveRefs": [
+            4
+          ]
+        }
+      },
+      {
+        "question": "Tioesterová väzba vznikne naviazaním:",
+        "answers": [
+          "acylu na kyselinu fosforečnú",
+          "acylu na síru -SH skupiny",
+          "kyseliny fosforečnej na síru -SH skupiny",
+          "kyseliny sírovej na -OH skupinu alkoholu"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 2,
+          "questionNumber": 2,
+          "page": 1,
+          "endPage": 1,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 1,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w01_makroergicke",
+          "reason": "Otázka skúša typy makroergických väzieb, energetické nukleotidy, kreatínfosfát alebo ich využitie.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 2,
+          "objectiveRefs": [
+            4
+          ]
+        }
+      },
+      {
+        "question": "Ktorý z nasledujúcich nukleotidov je donorom energie pre proteosyntézu:",
+        "answers": [
+          "ATP",
+          "UTP",
+          "GTP",
+          "CTP"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 3,
+          "questionNumber": 3,
+          "page": 1,
+          "endPage": 1,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 1,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w01_makroergicke",
+          "reason": "Otázka skúša typy makroergických väzieb, energetické nukleotidy, kreatínfosfát alebo ich využitie.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 2,
+          "objectiveRefs": [
+            4
+          ]
+        }
+      },
+      {
+        "question": "Koľko makroergických väzieb je prítomných v molekule 1,3-bisfosfoglycerátu:",
+        "answers": [
+          "1",
+          "2",
+          "3",
+          "žiadna makroergická väzba"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 4,
+          "questionNumber": 4,
+          "page": 1,
+          "endPage": 1,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 1,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w01_makroergicke",
+          "reason": "Otázka skúša typy makroergických väzieb, energetické nukleotidy, kreatínfosfát alebo ich využitie.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 2,
+          "objectiveRefs": [
+            4
+          ]
+        }
+      },
+      {
+        "question": "Substrátom pre kreatínkinázu je:",
+        "answers": [
+          "kreatínfosfát + ATP",
+          "kreatínfosfát + ADP",
+          "len kreatínfosfát",
+          "kreatín + ADP"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 5,
+          "questionNumber": 5,
+          "page": 1,
+          "endPage": 1,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 1,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w01_makroergicke",
+          "reason": "Otázka skúša typy makroergických väzieb, energetické nukleotidy, kreatínfosfát alebo ich využitie.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 2,
+          "objectiveRefs": [
+            4
+          ]
+        }
+      },
+      {
+        "question": "Substrátom pre kreatínkinázu je:",
+        "answers": [
+          "kreatinín",
+          "kreatínfosfát",
+          "AMP",
+          "ADP"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 6,
+          "questionNumber": 6,
+          "page": 1,
+          "endPage": 1,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 1,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w01_makroergicke",
+          "reason": "Otázka skúša typy makroergických väzieb, energetické nukleotidy, kreatínfosfát alebo ich využitie.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 2,
+          "objectiveRefs": [
+            4
+          ]
+        }
+      },
+      {
+        "question": "V hladkom endoplazmatickom retikule prebieha:",
+        "answers": [
+          "syntéza karboxylových kyselín",
+          "proteosyntéza",
+          "glykolýza",
+          "desaturácia karboxylových kyselín"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 8,
+          "questionNumber": 8,
+          "page": 2,
+          "endPage": 2,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 1,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w01_kompartmenty",
+          "reason": "Otázka skúša lokalizáciu metabolických procesov alebo funkciu bunkových štruktúr.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 2,
+          "objectiveRefs": [
+            1
+          ]
+        }
+      },
+      {
+        "question": "H2O2:",
+        "answers": [
+          "vzniká pôsobením aeróbnych dehydrogenáz",
+          "katalázou je redukovaný na O2",
+          "katalázou je redukovaný na vodu",
+          "peroxidázou je redukovaný na vodu"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 9,
+          "questionNumber": 9,
+          "page": 2,
+          "endPage": 2,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 1,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w01_oxidacie",
+          "reason": "Otázka skúša oxidoredukčné enzýmy, koenzýmy, transport elektrónov alebo terminálnu oxidáciu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 2,
+          "objectiveRefs": [
+            2,
+            3
+          ]
+        }
+      },
+      {
+        "question": "NADH2:",
+        "answers": [
+          "je koenzýmom monooxygenáz",
+          "slúži ako donor vodíkov v dýchacom reťazci",
+          "v dýchacom reťazci umožňuje tvorbu 2 molekúl ATP",
+          "pri jeho oxidácii v dýchacom reťazci sa transportuje 6 protónov do matrix mitochondrie"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 12,
+          "questionNumber": 12,
+          "page": 2,
+          "endPage": 2,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 1,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w01_oxidacie",
+          "reason": "Otázka skúša oxidoredukčné enzýmy, koenzýmy, transport elektrónov alebo terminálnu oxidáciu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 2,
+          "objectiveRefs": [
+            2,
+            3
+          ]
+        }
+      },
+      {
+        "question": "Kreatínkináza v bunkách kostrového svalu katalyzuje:",
+        "answers": [
+          "hydrolýzu kreatínfosfátu",
+          "regeneráciu ATP",
+          "tvorbu difosfátovej makroergickej väzby",
+          "tvorbu kreatinínu"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 13,
+          "questionNumber": 13,
+          "page": 2,
+          "endPage": 2,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 1,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w01_makroergicke",
+          "reason": "Otázka skúša typy makroergických väzieb, energetické nukleotidy, kreatínfosfát alebo ich využitie.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 2,
+          "objectiveRefs": [
+            4
+          ]
+        }
+      },
+      {
+        "question": "V pokojovom stave je pomer ATP:ADP v svalovej bunke:",
+        "answers": [
+          "1:1",
+          "1:10",
+          "10:1",
+          "2:1"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 14,
+          "questionNumber": 14,
+          "page": 2,
+          "endPage": 2,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 1,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w01_makroergicke",
+          "reason": "Otázka skúša typy makroergických väzieb, energetické nukleotidy, kreatínfosfát alebo ich využitie.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 2,
+          "objectiveRefs": [
+            4
+          ]
+        }
+      },
+      {
+        "question": "GTP je látka, ktorá:",
+        "answers": [
+          "obsahuje guanidínfosfátovú makroergickú väzbu",
+          "obsahuje difosfátovú makroergickú väzbu",
+          "je donorom energie pri glukoneogenéze",
+          "je priamym donorom energie pri svalovej práci"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 15,
+          "questionNumber": 15,
+          "page": 2,
+          "endPage": 3,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 1,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w01_makroergicke",
+          "reason": "Otázka skúša typy makroergických väzieb, energetické nukleotidy, kreatínfosfát alebo ich využitie.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 2,
+          "objectiveRefs": [
+            4
+          ]
+        }
+      },
+      {
+        "question": "Enzýmy Krebsovho cyklu sú lokalizované:",
+        "answers": [
+          "vo vonkajšej membráne mitochondrie",
+          "v matrix mitochondrie",
+          "v medzimembránovom priestore mitochondrie",
+          "v cytozole"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 16,
+          "questionNumber": 16,
+          "page": 3,
+          "endPage": 3,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 1,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w01_kompartmenty",
+          "reason": "Otázka skúša lokalizáciu metabolických procesov alebo funkciu bunkových štruktúr.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 2,
+          "objectiveRefs": [
+            1
+          ]
+        }
+      },
+      {
+        "question": "Účinkom laktátdehydrogenázy v smere oxidácie NADH2 sa vytvára:",
+        "answers": [
+          "pyruvát",
+          "laktát",
+          "citrát",
+          "acetyl-Coa"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 17,
+          "questionNumber": 17,
+          "page": 3,
+          "endPage": 3,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 1,
+          "relatedWeeks": [
+            4
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w01_ldh",
+          "reason": "Základná reakcia, substráty a koenzým laktátdehydrogenázy sú výslovným cieľom 1. týždňa.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 2,
+          "objectiveRefs": [
+            6
+          ]
+        }
+      },
+      {
+        "question": "Guanozíndifosfát obsahuje väzbu:",
+        "answers": [
+          "guanidínfosfátovú",
+          "N-glykozidovú",
+          "fosfoesterovú",
+          "fosfoanhydridovú"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 19,
+          "questionNumber": 19,
+          "page": 3,
+          "endPage": 3,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 1,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w01_makroergicke",
+          "reason": "Otázka skúša typy makroergických väzieb, energetické nukleotidy, kreatínfosfát alebo ich využitie.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 2,
+          "objectiveRefs": [
+            4
+          ]
+        }
+      },
+      {
+        "question": "Acylfosfátová makroergická väzba sa nachádza v:",
+        "answers": [
+          "3-fosfoglyceráte",
+          "2,3-bisfosfoglyceráte",
+          "3-fosfoglyceraldehyde",
+          "1,3-bisfosfoglyceráte"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 20,
+          "questionNumber": 18,
+          "page": 3,
+          "endPage": 3,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 1,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w01_makroergicke",
+          "reason": "Otázka skúša typy makroergických väzieb, energetické nukleotidy, kreatínfosfát alebo ich využitie.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 2,
+          "objectiveRefs": [
+            4
+          ]
+        }
+      },
+      {
+        "question": "Kreatínfosfokináza v pracujúcom svale katalyzuje:",
+        "answers": [
+          "tvorbu ADP",
+          "tvorbu ATP",
+          "tvorbu kreatínfosfátu",
+          "tvorbu difosfátovej väzby"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 21,
+          "questionNumber": 19,
+          "page": 3,
+          "endPage": 3,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 1,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w01_makroergicke",
+          "reason": "Otázka skúša typy makroergických väzieb, energetické nukleotidy, kreatínfosfát alebo ich využitie.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 2,
+          "objectiveRefs": [
+            4
+          ]
+        }
+      },
+      {
+        "question": "Najvyššia aktivita kreatínfosfokinázy sa nachádza v:",
+        "answers": [
+          "kostrovom svale",
+          "myokarde",
+          "pečeni",
+          "mozgu"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 22,
+          "questionNumber": 20,
+          "page": 4,
+          "endPage": 4,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 1,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w01_makroergicke",
+          "reason": "Otázka skúša typy makroergických väzieb, energetické nukleotidy, kreatínfosfát alebo ich využitie.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 2,
+          "objectiveRefs": [
+            4
+          ]
+        }
+      },
+      {
+        "question": "V molekule NAD+ sa nachádza heterocyklický kruh:",
+        "answers": [
+          "pyridínový",
+          "purínový",
+          "tiazolový",
+          "pyrolový"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 23,
+          "questionNumber": 21,
+          "page": 4,
+          "endPage": 4,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 1,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w01_oxidacie",
+          "reason": "Otázka skúša oxidoredukčné enzýmy, koenzýmy, transport elektrónov alebo terminálnu oxidáciu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 2,
+          "objectiveRefs": [
+            2,
+            3
+          ]
+        }
+      },
+      {
+        "question": "Cytochrómy:",
+        "answers": [
+          "obsahujú vo svojej molekule polypeptidový reťazec",
+          "obsahujú ión železa viazaný hémovou skupinou",
+          "sú schopné viazať elektróny",
+          "môžu viazať aj celý atóm vodíka"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 24,
+          "questionNumber": 22,
+          "page": 4,
+          "endPage": 4,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 1,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w01_oxidacie",
+          "reason": "Otázka skúša oxidoredukčné enzýmy, koenzýmy, transport elektrónov alebo terminálnu oxidáciu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 2,
+          "objectiveRefs": [
+            2,
+            3
+          ]
+        }
+      },
+      {
+        "question": "Monooxygenázy:",
+        "answers": [
+          "katalyzujú oxidoredukčné reakcie",
+          "sú dôležité pre tvorbu energie v bunke",
+          "ich účinkom vznikajú hydroxyderiváty substrátov",
+          "obsahujú ako koenzým NAD+"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 26,
+          "questionNumber": 24,
+          "page": 4,
+          "endPage": 4,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 1,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w01_oxidacie",
+          "reason": "Otázka skúša oxidoredukčné enzýmy, koenzýmy, transport elektrónov alebo terminálnu oxidáciu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 2,
+          "objectiveRefs": [
+            2,
+            3
+          ]
+        }
+      },
+      {
+        "question": "Makroergickou väzbou je väzba:",
+        "answers": [
+          "amidová",
+          "enolfosfátová",
+          "tioesterová",
+          "difosfátová"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 27,
+          "questionNumber": 25,
+          "page": 4,
+          "endPage": 4,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 1,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w01_makroergicke",
+          "reason": "Otázka skúša typy makroergických väzieb, energetické nukleotidy, kreatínfosfát alebo ich využitie.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 2,
+          "objectiveRefs": [
+            4
+          ]
+        }
+      },
+      {
+        "question": "V pokojovom stave je v svalovej bunke vyššia koncentrácia:",
+        "answers": [
+          "ADP ako ATP",
+          "kreatínfosfátu ako ATP",
+          "kreatínfosfátu ako ADP",
+          "ATP ako kreatínfosfátu"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 29,
+          "questionNumber": 27,
+          "page": 4,
+          "endPage": 4,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 1,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w01_makroergicke",
+          "reason": "Otázka skúša typy makroergických väzieb, energetické nukleotidy, kreatínfosfát alebo ich využitie.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 2,
+          "objectiveRefs": [
+            4
+          ]
+        }
+      },
+      {
+        "question": "FAD:",
+        "answers": [
+          "je koenzýmom hydroperoxidáz",
+          "ak sa redukuje, priberá 2 protóny a 1 elektrón",
+          "patrí medzi flavínové koenzýmy",
+          "obsahuje vo svojej molekule vitamín B2"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 30,
+          "questionNumber": 28,
+          "page": 5,
+          "endPage": 5,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 1,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w01_oxidacie",
+          "reason": "Otázka skúša oxidoredukčné enzýmy, koenzýmy, transport elektrónov alebo terminálnu oxidáciu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 2,
+          "objectiveRefs": [
+            2,
+            3
+          ]
+        }
+      },
+      {
+        "question": "Pri premene H2 na 2H+ dochádza ku:",
+        "answers": [
+          "oxidácii molekuly vodíka",
+          "redukcii molekuly vodíka",
+          "vzniku konjugovaného páru",
+          "disociácii vodíka"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 32,
+          "questionNumber": 30,
+          "page": 5,
+          "endPage": 5,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 1,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w01_oxidacie",
+          "reason": "Otázka skúša oxidoredukčné enzýmy, koenzýmy, transport elektrónov alebo terminálnu oxidáciu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 2,
+          "objectiveRefs": [
+            2,
+            3
+          ]
+        }
+      },
+      {
+        "question": "V molekule 1,3-bisfosfoglycerátu sa nachádza:",
+        "answers": [
+          "acylfosfátová makroergická väzba",
+          "fosfoesterová makroergická väzba",
+          "difosfátová makroergická väzba",
+          "fosfoesterová väzba"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 34,
+          "questionNumber": 32,
+          "page": 5,
+          "endPage": 5,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 1,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w01_makroergicke",
+          "reason": "Otázka skúša typy makroergických väzieb, energetické nukleotidy, kreatínfosfát alebo ich využitie.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 2,
+          "objectiveRefs": [
+            4
+          ]
+        }
+      },
+      {
+        "question": "Aký typ väzby vzniká medzi dvomi molekulami H3PO4:",
+        "answers": [
+          "acylfosfátová",
+          "difosfátová",
+          "fosfodiesterová",
+          "enolfosfátová"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 35,
+          "questionNumber": 33,
+          "page": 5,
+          "endPage": 5,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 1,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w01_makroergicke",
+          "reason": "Otázka skúša typy makroergických väzieb, energetické nukleotidy, kreatínfosfát alebo ich využitie.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 2,
+          "objectiveRefs": [
+            4
+          ]
+        }
+      },
+      {
+        "question": "Energia uložená v molekule ATP sa využíva na:",
+        "answers": [
+          "pasívny transport látok cez membrány buniek",
+          "hydrolytickú degradáciu bielkovín",
+          "svalovú kontrakciu",
+          "prenos nervového vzruchu"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 36,
+          "questionNumber": 34,
+          "page": 5,
+          "endPage": 5,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 1,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w01_makroergicke",
+          "reason": "Otázka skúša typy makroergických väzieb, energetické nukleotidy, kreatínfosfát alebo ich využitie.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 2,
+          "objectiveRefs": [
+            4
+          ]
+        }
+      },
+      {
+        "question": "Pri redukcii FAD na FADH2 sa na koenzým viaže:",
+        "answers": [
+          "1 vodík a 1 protón",
+          "1 protón a 2 elektróny",
+          "2 celé vodíky",
+          "2 protóny a 2 elektróny"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 37,
+          "questionNumber": 35,
+          "page": 5,
+          "endPage": 5,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 1,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w01_oxidacie",
+          "reason": "Otázka skúša oxidoredukčné enzýmy, koenzýmy, transport elektrónov alebo terminálnu oxidáciu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 2,
+          "objectiveRefs": [
+            2,
+            3
+          ]
+        }
+      },
+      {
+        "question": "Pri účinku katalázy na dve molekuly peroxidu vodíka:",
+        "answers": [
+          "oxidáciou sa vytvára molekula kyslíka",
+          "redukciou vzniká voda",
+          "2 protóny sa redukujú na molekulu vodíka",
+          "prebieha dismutácia"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 40,
+          "questionNumber": 40,
+          "page": 6,
+          "endPage": 6,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 1,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w01_oxidacie",
+          "reason": "Otázka skúša oxidoredukčné enzýmy, koenzýmy, transport elektrónov alebo terminálnu oxidáciu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 2,
+          "objectiveRefs": [
+            2,
+            3
+          ]
+        }
+      },
+      {
+        "question": "Aký typ väzby vzniká väzbou fosfátu na ribózu v adenozíne:",
+        "answers": [
+          "fosfoanhydridová",
+          "acylfosfátová",
+          "fosfoesterová",
+          "enolfosfátová"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 41,
+          "questionNumber": 41,
+          "page": 6,
+          "endPage": 6,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 1,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w01_makroergicke",
+          "reason": "Otázka skúša typy makroergických väzieb, energetické nukleotidy, kreatínfosfát alebo ich využitie.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 2,
+          "objectiveRefs": [
+            4
+          ]
+        }
+      },
+      {
+        "question": "Priamym donorom energie pre svalovú prácu je:",
+        "answers": [
+          "ATP",
+          "laktát",
+          "kreatínfosfát",
+          "glukóza"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 42,
+          "questionNumber": 42,
+          "page": 6,
+          "endPage": 6,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 1,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w01_makroergicke",
+          "reason": "Otázka skúša typy makroergických väzieb, energetické nukleotidy, kreatínfosfát alebo ich využitie.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 2,
+          "objectiveRefs": [
+            4
+          ]
+        }
+      },
+      {
+        "question": "GTP je látka, ktorá:",
+        "answers": [
+          "je donorom energie pri proteosyntéze",
+          "vzniká v kostrovom svale účinkom kreatínkinázy",
+          "obsahuje dve makroergické väzby",
+          "obsahuje fosfoesterovú väzbu"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 44,
+          "questionNumber": 44,
+          "page": 6,
+          "endPage": 6,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 1,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w01_makroergicke",
+          "reason": "Otázka skúša typy makroergických väzieb, energetické nukleotidy, kreatínfosfát alebo ich využitie.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 2,
+          "objectiveRefs": [
+            4
+          ]
+        }
+      },
+      {
+        "question": "Substrátom laktátdehydrogenázy je:",
+        "answers": [
+          "pyruvát + NAD+",
+          "laktát + NADH2",
+          "laktát + NAD+",
+          "pyruvát + NADH2"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 45,
+          "questionNumber": 45,
+          "page": 7,
+          "endPage": 7,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 1,
+          "relatedWeeks": [
+            4
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w01_ldh",
+          "reason": "Základná reakcia, substráty a koenzým laktátdehydrogenázy sú výslovným cieľom 1. týždňa.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 2,
+          "objectiveRefs": [
+            6
+          ]
+        }
+      },
+      {
+        "question": "Chinón pri premene na hydrochinón:",
+        "answers": [
+          "stráca 2 elektróny",
+          "priberá 2 protóny a 2 elektróny",
+          "priberá iba 2 protóny",
+          "priberá iba 2 elektróny"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 46,
+          "questionNumber": 46,
+          "page": 7,
+          "endPage": 7,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 1,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w01_oxidacie",
+          "reason": "Otázka skúša oxidoredukčné enzýmy, koenzýmy, transport elektrónov alebo terminálnu oxidáciu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 2,
+          "objectiveRefs": [
+            2,
+            3
+          ]
+        }
+      },
+      {
+        "question": "Ktoré z uvedených transportérov prenášajú iba elektróny:",
+        "answers": [
+          "FMN",
+          "FeS-proteín",
+          "koenzým Q",
+          "cytochróm b"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 47,
+          "questionNumber": 47,
+          "page": 7,
+          "endPage": 7,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 1,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w01_oxidacie",
+          "reason": "Otázka skúša oxidoredukčné enzýmy, koenzýmy, transport elektrónov alebo terminálnu oxidáciu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 2,
+          "objectiveRefs": [
+            2,
+            3
+          ]
+        }
+      },
+      {
+        "question": "Dehydrogenázy sú enzýmy, ktoré:",
+        "answers": [
+          "využívajú ako koenzým hém",
+          "nachádzajú sa len v cytosole bunky",
+          "môžu katalyzovať vratné reakcie",
+          "sú súčasťou terminálnej oxidácie"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 48,
+          "questionNumber": 48,
+          "page": 7,
+          "endPage": 7,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 1,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w01_oxidacie",
+          "reason": "Otázka skúša oxidoredukčné enzýmy, koenzýmy, transport elektrónov alebo terminálnu oxidáciu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 2,
+          "objectiveRefs": [
+            2,
+            3
+          ]
+        }
+      },
+      {
+        "question": "Fosfoanhydridová väzba vzniká väzbou fosfátu na:",
+        "answers": [
+          "adenín",
+          "adenozín",
+          "adenozínmonofosfát",
+          "adenozíndifosfát"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 49,
+          "questionNumber": 49,
+          "page": 7,
+          "endPage": 7,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 1,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w01_makroergicke",
+          "reason": "Otázka skúša typy makroergických väzieb, energetické nukleotidy, kreatínfosfát alebo ich využitie.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 2,
+          "objectiveRefs": [
+            4
+          ]
+        }
+      },
+      {
+        "question": "Guanidínfosfátová makroergická väzba je prítomná v:",
+        "answers": [
+          "guanozíne",
+          "GTP",
+          "kreatínfosfáte",
+          "arginínfosfáte"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 50,
+          "questionNumber": 50,
+          "page": 7,
+          "endPage": 7,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 1,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w01_makroergicke",
+          "reason": "Otázka skúša typy makroergických väzieb, energetické nukleotidy, kreatínfosfát alebo ich využitie.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 2,
+          "objectiveRefs": [
+            4
+          ]
+        }
+      },
+      {
+        "question": "ATP obsahuje:",
+        "answers": [
+          "1 makroergickú väzbu",
+          "2 makroergické väzby",
+          "3 makroergické väzby",
+          "žiadnu makroergickú väzbu"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 51,
+          "questionNumber": 51,
+          "page": 7,
+          "endPage": 7,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 1,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w01_makroergicke",
+          "reason": "Otázka skúša typy makroergických väzieb, energetické nukleotidy, kreatínfosfát alebo ich využitie.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 2,
+          "objectiveRefs": [
+            4
+          ]
+        }
+      },
+      {
+        "question": "Aktivita kreatínkinázy je najvyššia v:",
+        "answers": [
+          "kostrovom svale",
+          "srdci",
+          "mozgu",
+          "je rovnaká v uvedených tkanivách"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 52,
+          "questionNumber": 52,
+          "page": 7,
+          "endPage": 8,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 1,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w01_makroergicke",
+          "reason": "Otázka skúša typy makroergických väzieb, energetické nukleotidy, kreatínfosfát alebo ich využitie.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 2,
+          "objectiveRefs": [
+            4
+          ]
+        }
+      },
+      {
+        "question": "V procese terminálnej oxidácie:",
+        "answers": [
+          "elektróny sú transportované do mitochondrie",
+          "protóny sú transportované do medzimembránového priestoru",
+          "3 ATP sa vytvárajú z FADH2",
+          "2 ATP sa vytvárajú z NADH2"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 53,
+          "questionNumber": 53,
+          "page": 8,
+          "endPage": 8,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 1,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w01_oxidacie",
+          "reason": "Otázka skúša oxidoredukčné enzýmy, koenzýmy, transport elektrónov alebo terminálnu oxidáciu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 2,
+          "objectiveRefs": [
+            2,
+            3
+          ]
+        }
+      },
+      {
+        "question": "Ktorý z týchto procesov je lokalizovaný v cytozole:",
+        "answers": [
+          "oxidácia vyšších karboxylových kyselín",
+          "syntéza vyšších karboxylových kyselín",
+          "glukoneogenéza",
+          "degradácia peroxidu vodíka"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 54,
+          "questionNumber": 54,
+          "page": 8,
+          "endPage": 8,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 1,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w01_kompartmenty",
+          "reason": "Otázka skúša lokalizáciu metabolických procesov alebo funkciu bunkových štruktúr.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 2,
+          "objectiveRefs": [
+            1
+          ]
+        }
+      },
+      {
+        "question": "Laktátdehydrogenáza katalyzuje:",
+        "answers": [
+          "oxidáciu laktátu na pyruvát",
+          "redukciu pyruvátu na laktát",
+          "redukciu NAD+ za súčasnej tvorby laktátu",
+          "oxidáciu NADH2 za súčasnej tvorby laktátu"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 55,
+          "questionNumber": 55,
+          "page": 8,
+          "endPage": 8,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 1,
+          "relatedWeeks": [
+            4
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w01_ldh",
+          "reason": "Základná reakcia, substráty a koenzým laktátdehydrogenázy sú výslovným cieľom 1. týždňa.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 2,
+          "objectiveRefs": [
+            6
+          ]
+        }
+      },
+      {
+        "question": "Oxidázy D-aminokyselín:",
+        "answers": [
+          "majú koenzým NADP+",
+          "sú dôležité pre syntézu ATP",
+          "reoxidáciou ich koenzýmu sa tvorí peroxid vodíka",
+          "sú zložkou dýchacieho reťazca"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 56,
+          "questionNumber": 56,
+          "page": 8,
+          "endPage": 8,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 1,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w01_oxidacie",
+          "reason": "Otázka skúša oxidoredukčné enzýmy, koenzýmy, transport elektrónov alebo terminálnu oxidáciu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 2,
+          "objectiveRefs": [
+            2,
+            3
+          ]
+        }
+      },
+      {
+        "question": "Dehydrogenáciou vzniká:",
+        "answers": [
+          "z kyseliny mliečnej kyselina pyrohroznová",
+          "z glycerolu etylénglykol",
+          "z 2-propanolu acetón",
+          "z kyseliny jablčnej kyselina oxaloctová"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 58,
+          "questionNumber": 58,
+          "page": 8,
+          "endPage": 8,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 1,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w01_oxidacie",
+          "reason": "Otázka skúša oxidoredukčné enzýmy, koenzýmy, transport elektrónov alebo terminálnu oxidáciu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 2,
+          "objectiveRefs": [
+            2,
+            3
+          ]
+        }
+      },
+      {
+        "question": "Kreatínkináza v bunkách kostrového svalu katalyzuje:",
+        "answers": [
+          "hydrolytické štiepenie kreatínfosfátu",
+          "tvorbu ATP",
+          "tvorbu fosfoanhydridovej makroergickej väzby",
+          "tvorbu kreatínu"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 63,
+          "questionNumber": 63,
+          "page": 9,
+          "endPage": 9,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 1,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w01_makroergicke",
+          "reason": "Otázka skúša typy makroergických väzieb, energetické nukleotidy, kreatínfosfát alebo ich využitie.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 2,
+          "objectiveRefs": [
+            4
+          ]
+        }
+      },
+      {
+        "question": "Ktoré z uvedených tvrdení platia:",
+        "answers": [
+          "mitochondrie majú dve fosfolipidové membrány",
+          "lyzozómové enzýmy fungujú optimálne pri pH > 7",
+          "v jadre eukaryotickej bunky prebieha proces transkripcie a translácie",
+          "ribozómy patria medzi membránové organely"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 69,
+          "questionNumber": 69,
+          "page": 10,
+          "endPage": 10,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 1,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w01_kompartmenty",
+          "reason": "Otázka skúša lokalizáciu metabolických procesov alebo funkciu bunkových štruktúr.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 2,
+          "objectiveRefs": [
+            1
+          ]
+        }
+      },
+      {
+        "question": "Väzbou fosfátu na ribózu v AMP vzniká väzba:",
+        "answers": [
+          "fosfoanhydridová",
+          "acylfosfátová",
+          "fosfoesterová",
+          "enolfosfátová"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 70,
+          "questionNumber": 70,
+          "page": 10,
+          "endPage": 10,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 1,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w01_makroergicke",
+          "reason": "Otázka skúša typy makroergických väzieb, energetické nukleotidy, kreatínfosfát alebo ich využitie.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 2,
+          "objectiveRefs": [
+            4
+          ]
+        }
+      },
+      {
+        "question": "Ktoré z uvedených väzieb patria medzi makroergické:",
+        "answers": [
+          "karboxyesterová",
+          "guanidínfosfátová",
+          "peptidová",
+          "fosfoesterová"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 71,
+          "questionNumber": 71,
+          "page": 10,
+          "endPage": 10,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 1,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w01_makroergicke",
+          "reason": "Otázka skúša typy makroergických väzieb, energetické nukleotidy, kreatínfosfát alebo ich využitie.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 2,
+          "objectiveRefs": [
+            4
+          ]
+        }
+      },
+      {
+        "question": "Laktátdehydrogenáza katalyzuje:",
+        "answers": [
+          "oxidoredukčnú reakciu",
+          "acidobazickú reakciu",
+          "premenu pyruvátu na laktát",
+          "premenu laktátu na pyruvát"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 72,
+          "questionNumber": 72,
+          "page": 10,
+          "endPage": 10,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 1,
+          "relatedWeeks": [
+            4
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w01_ldh",
+          "reason": "Základná reakcia, substráty a koenzým laktátdehydrogenázy sú výslovným cieľom 1. týždňa.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 2,
+          "objectiveRefs": [
+            6
+          ]
+        }
+      },
+      {
+        "question": "Cytochrómy dýchacieho reťazca:",
+        "answers": [
+          "obsahujú vo svojej molekule polypeptidový reťazec",
+          "obsahujú hémové železo",
+          "sú schopné viazať iba elektróny",
+          "môžu viazať celý atóm vodíka"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 80,
+          "questionNumber": 80,
+          "page": 11,
+          "endPage": 11,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 1,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w01_oxidacie",
+          "reason": "Otázka skúša oxidoredukčné enzýmy, koenzýmy, transport elektrónov alebo terminálnu oxidáciu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 2,
+          "objectiveRefs": [
+            2,
+            3
+          ]
+        }
+      },
+      {
+        "question": "Koenzým Q v dýchacom reťazci:",
+        "answers": [
+          "preberá elektróny priamo z NADH",
+          "preberá celé vodíkové atómy z Fe-S skupiny",
+          "vo svojej oxidovanej forme obsahuje benzochinónové jadro",
+          "je viazaný na vonkajšiu mitochondriovú membránu"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 88,
+          "questionNumber": 88,
+          "page": 12,
+          "endPage": 12,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 1,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w01_oxidacie",
+          "reason": "Otázka skúša oxidoredukčné enzýmy, koenzýmy, transport elektrónov alebo terminálnu oxidáciu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 2,
+          "objectiveRefs": [
+            2,
+            3
+          ]
+        }
+      },
+      {
+        "question": "V procese terminálnej oxidácie:",
+        "answers": [
+          "sú elektróny prenášané z redukovaných koenzýmov až na kyslík",
+          "sú protóny transportované z matrix do medzimembránového priestoru",
+          "prenosom elektrónov z 1 molekuly NADH sa uvoľní energia pre syntézu 2 molekúl ATP",
+          "prenosom elektrónov z 1 molekuly FADH2 sa uvoľní energia pre syntézu 3 molekúl ATP"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 103,
+          "questionNumber": 103,
+          "page": 14,
+          "endPage": 14,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 1,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w01_oxidacie",
+          "reason": "Otázka skúša oxidoredukčné enzýmy, koenzýmy, transport elektrónov alebo terminálnu oxidáciu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 2,
+          "objectiveRefs": [
+            2,
+            3
+          ]
+        }
+      },
+      {
+        "question": "Cytochrómy dýchacieho reťazca:",
+        "answers": [
+          "obsahujú vo svojej molekule polypeptidový reťazec",
+          "obsahujú hémové železo",
+          "sú schopné viazať iba elektróny",
+          "môžu viazať celý atóm vodíka"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 166,
+          "questionNumber": 166,
+          "page": 22,
+          "endPage": 22,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 1,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w01_oxidacie",
+          "reason": "Otázka skúša oxidoredukčné enzýmy, koenzýmy, transport elektrónov alebo terminálnu oxidáciu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 2,
+          "objectiveRefs": [
+            2,
+            3
+          ]
+        }
+      },
+      {
+        "question": "Koenzým Q v dýchacom reťazci:",
+        "answers": [
+          "preberá elektróny priamo z NADH",
+          "preberá celé vodíkové atómy z Fe-S skupiny",
+          "vo svojej oxidovanej forme obsahuje benzochinónové jadro",
+          "je viazaný na vonkajšiu mitochondriovú membránu"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 174,
+          "questionNumber": 174,
+          "page": 23,
+          "endPage": 23,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 1,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w01_oxidacie",
+          "reason": "Otázka skúša oxidoredukčné enzýmy, koenzýmy, transport elektrónov alebo terminálnu oxidáciu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 2,
+          "objectiveRefs": [
+            2,
+            3
+          ]
+        }
+      },
+      {
+        "question": "V procese terminálnej oxidácie:",
+        "answers": [
+          "sú elektróny prenášané z redukovaných koenzýmov až na kyslík",
+          "sú protóny transportované z matrix do medzimembránového priestoru",
+          "prenosom elektrónov z 1 molekuly NADH sa uvoľní energia pre syntézu 2 molekúl ATP",
+          "prenosom elektrónov z 1 molekuly FADH2 sa uvoľní energia pre syntézu 3 molekúl ATP"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 189,
+          "questionNumber": 189,
+          "page": 25,
+          "endPage": 25,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 1,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w01_oxidacie",
+          "reason": "Otázka skúša oxidoredukčné enzýmy, koenzýmy, transport elektrónov alebo terminálnu oxidáciu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 2,
+          "objectiveRefs": [
+            2,
+            3
+          ]
+        }
+      },
+      {
+        "question": "Oxidáciou substrátov vzniká:",
+        "answers": [
+          "ATP priamo v Krebsovom cykle",
+          "ATP priamo v β-oxidácii",
+          "ATP a NADH2 v glykolýze",
+          "ATP z redukovaných koenzýmov v terminálnej oxidácii a oxidatívnej fosforylácii"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 271,
+          "questionNumber": 271,
+          "page": 36,
+          "endPage": 36,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 1,
+          "relatedWeeks": [
+            4
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w01_tvorba_atp",
+          "reason": "Porovnanie substrátovej a oxidačnej fosforylácie všeobecne, naprieč metabolickými dráhami.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 2,
+          "objectiveRefs": [
+            5
+          ]
+        }
+      },
+      {
+        "question": "Správna kombinácia : zlúčenina - typ makroergickej väzby je:",
+        "answers": [
+          "UDP-glukóza - difosfátová",
+          "cAMP - fosfodiesterová",
+          "glukóza-6-fosfát - fosfoesterová",
+          "GTP – guanidínfosfátová"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 307,
+          "questionNumber": 307,
+          "page": 40,
+          "endPage": 40,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 1,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w01_makroergicke",
+          "reason": "Otázka skúša typy makroergických väzieb, energetické nukleotidy, kreatínfosfát alebo ich využitie.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 2,
+          "objectiveRefs": [
+            4
+          ]
+        }
+      },
+      {
+        "question": "Substrátovou fosforyláciou sa môže získať energia:",
+        "answers": [
+          "v procese β-oxidácie vyšších karboxylových kyselín",
+          "v reakcii katalyzovanej sukcinátkinázou",
+          "v glykolýze",
+          "za aeróbnych aj anaeróbnych podmienok"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 333,
+          "questionNumber": 333,
+          "page": 43,
+          "endPage": 43,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 1,
+          "relatedWeeks": [
+            4
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w01_tvorba_atp",
+          "reason": "Porovnanie substrátovej a oxidačnej fosforylácie všeobecne, naprieč metabolickými dráhami.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 2,
+          "objectiveRefs": [
+            5
+          ]
+        }
+      },
+      {
+        "question": "Oxidáciou substrátu v bunkách vzniká energia:",
+        "answers": [
+          "priamo v Krebsovom cykle",
+          "priamo v beta-oxidácií vyšších mastných kyselín",
+          "priamo v anaeróbnej glykolýze substrátovou fosforyláciou",
+          "z redukovaných koenzýmov v procese terminánej oxidácie a oxidačnej fosforylácie"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 363,
+          "questionNumber": 363,
+          "page": 47,
+          "endPage": 47,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 1,
+          "relatedWeeks": [
+            4
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w01_tvorba_atp",
+          "reason": "Porovnanie substrátovej a oxidačnej fosforylácie všeobecne, naprieč metabolickými dráhami.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 2,
+          "objectiveRefs": [
+            5
+          ]
+        }
+      },
+      {
+        "question": "Kreatínfosfát je látka, ktorá:",
+        "answers": [
+          "sa využíva pri zabezpečovaní energetických potrieb bunky",
+          "v tkanivách sa tvorí za účasti GDP",
+          "sa syntetizuje v tenkom čreve",
+          "participuje pri regenerácii ATP v podmienkach nedostatku kyslíka"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 582,
+          "questionNumber": 582,
+          "page": 76,
+          "endPage": 76,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 1,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w01_kreatinfosfat_dalsie",
+          "reason": "Otázka skúša tvorbu a makroergickú alebo energetickú funkciu kreatínfosfátu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 2,
+          "objectiveRefs": [
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Kreatínfosfát:",
+        "answers": [
+          "je látka, ktorá sa tvorí aktivitou kreatínkinázy",
+          "obsahuje vo svojej molekule karboxyfosfátovú makroergickú väzbu",
+          "vzniká v obličke",
+          "pri jeho tvorbe dochádza k regenerácii ATP"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 599,
+          "questionNumber": 599,
+          "page": 78,
+          "endPage": 78,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 1,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w01_kreatinfosfat_dalsie",
+          "reason": "Otázka skúša tvorbu a makroergickú alebo energetickú funkciu kreatínfosfátu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 2,
+          "objectiveRefs": [
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Kreatínfosfát je látka, ktorá:",
+        "answers": [
+          "je potrebná pre regeneráciu ATP počas práce svalu",
+          "vyžaduje pre svoju tvorbu ATP",
+          "obsahuje guanidínfosfátovú makroergickú väzbu",
+          "sa vylučuje obličkami"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 635,
+          "questionNumber": 635,
+          "page": 83,
+          "endPage": 83,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 1,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w01_kreatinfosfat_dalsie",
+          "reason": "Otázka skúša tvorbu a makroergickú alebo energetickú funkciu kreatínfosfátu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 2,
+          "objectiveRefs": [
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Kreatínfosfát:",
+        "answers": [
+          "obsahuje guanidínfosfátovú makroergickú väzbu",
+          "vzniká enzýmom kreatínkináza pri svalovej práci",
+          "pri jeho tvorbe dochádza k regenerácii ATP",
+          "využíva sa na regeneráciu ATP pri svalovej práci"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 657,
+          "questionNumber": 657,
+          "page": 86,
+          "endPage": 86,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 1,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w01_kreatinfosfat_zaver",
+          "reason": "Otázka skúša makroergickú väzbu a funkciu kreatínfosfátu pri regenerácii ATP.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 2,
+          "objectiveRefs": [
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "question": "Kreatínfosfát:",
+        "answers": [
+          "patrí medzi makroergické zlúčeniny",
+          "jeho tvorba vyžaduje kreatinín a ATP",
+          "vzniká aktivitou kreatínkinázy v pracujúcom svale",
+          "je potrebný pre regeneráciu ATP pri práci svalu"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 673,
+          "questionNumber": 673,
+          "page": 88,
+          "endPage": 88,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 1,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w01_kreatinfosfat_zaver",
+          "reason": "Otázka skúša makroergickú väzbu a funkciu kreatínfosfátu pri regenerácii ATP.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 2,
+          "objectiveRefs": [
+            4,
+            5
+          ]
+        }
+      }
+    ]
+  }
+]

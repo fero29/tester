@@ -1,0 +1,105 @@
+[
+  {
+    "title": "Bio CAP 9",
+    "description": "",
+    "questions": [
+      {
+        "answers": [
+          "pripája DNA polymerázu I na vlákno DNA",
+          "pripája RNA polymerázu na vlákno DNA",
+          "pripája DNA polymerázu III na vlákno DNA",
+          "drží pohromade materský a dcérsky reťazec DNA"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "positionPercent": 10,
+        "question": "Akú úlohu má beta svorka pri syntéze DNA reťazca?"
+      },
+      {
+        "answers": [
+          "zúčastňuje sa na kompletizácii vedúceho vlákna",
+          "zúčastňuje sa na kompletizácii zaostávajúceho vlákna",
+          "má aj exonukleázovú aktivitu",
+          "je dôležitá pri transkripcii"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "positionPercent": 25,
+        "question": "Čo platí o DNA polymeráze I?"
+      },
+      {
+        "answers": [
+          "je tvorená dvomi polypeptidovými reťazcami",
+          "zúčastňuje sa pri reparácii DNA",
+          "má aj exonukleázovú aktivitu",
+          "vyskytuje sa u eukaryotov"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "positionPercent": 40,
+        "question": "Čo platí o DNA polymeráze II?"
+      },
+      {
+        "answers": [
+          "konzervatívne",
+          "semikonzervatívne",
+          "diskontinuálne",
+          "radiálne"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 55,
+        "question": "Ako je DNA replikovaná?"
+      },
+      {
+        "answers": [
+          "predlžujú DNA reťazec",
+          "stabilizujú jednoláknovú DNA",
+          "rozpletajú dvojvláknovú DNA",
+          "tvoria Okazakiho fragmenty"
+        ],
+        "correct": [
+          1
+        ],
+        "positionPercent": 70,
+        "question": "Aká je funkcia SSB proteínov?"
+      },
+      {
+        "answers": [
+          "DNA polymeráza I",
+          "DNA polymeráza II",
+          "DNA polymeráza III",
+          "primáza"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "positionPercent": 85,
+        "question": "Ktoré prokaryotické DNA polymerázy vykazujú exonukleázovú aktivitu 3' → 5'?"
+      },
+      {
+        "answers": [
+          "kontinuálna syntéza",
+          "diskontinuálna syntéza",
+          "tvorba Okazakiho fragmentov",
+          "tvorba β – svorky"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "positionPercent": 95,
+        "question": "Ktoré procesy prebiehajú na zaostávajúcom vlákne počas replikácie?"
+      }
+    ]
+  }
+]

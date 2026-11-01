@@ -1,0 +1,289 @@
+[
+  {
+    "title": "histo zápočet Moodle",
+    "description": "Otázky z 3 Moodle/Forms screenshot PDF-iek — len tie, ktoré nie sú v existujúcich histo testoch",
+    "category": "Histológia",
+    "questions": [
+      {
+        "question": "Špecializované medzibunkové spojenia nervových vláken obsahujú zonulae adherentes, dezmozómy a nexy.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "T-tubuly sú akumulácie mitochondrií v priečne pruhovanom kostrovom svalovom vlákne a kardiomyocyte.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Interkalárny disk je špecializované medzibunkové spojenie medzi kardiomyocytmi, ktorého súčasťou sú dezmozóm, nexus a fascia adherens.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Impregnácia podľa Holmesa znázorňuje neurofibrily.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Priečne pruhované svalové vlákno má jedno jadro umiestnené centrálne.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Bazofilné granulocyty majú špecifické granuly, ktoré vykazujú metachromáziu.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Cytoplazma zrelého neutrofilného granulocytu obsahuje špecifické neutrofilné a nešpecifické azurofilné granuly.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Bazofilné granulocyty sú formované krvné elementy schopné sa diferencovať na plazmatické bunky.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Interkalárne disky sú spojovacie komplexy medzi jednotlivými kardiomyocytmi.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Myofibrily priečne pruhovaného svalového vlákna sú pozorovateľné na úrovni svetelnej mikroskopie.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Kostrová svalovina v strednej tretine dĺžky pažeráka obsahuje aj mnohojadrové svalové vlákna.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Triády sú nevyhnutné pre akumuláciu glykogénu vo všetkých typoch svalového tkaniva a sú rozlíšiteľné na úrovni svetelnej mikroskopie.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Biela hmota CNS obsahuje myelinizované axóny, oligodendrocyty a fibrilárne astrocyty.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Kardiomyocyty sú bunky valcovitého tvaru, miestami rozvetvené, s centrálne uloženým jadrom.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Satelitové bunky spinálneho ganglia sú zodpovedné za myelinizáciu axónov v PNS.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Lymfocyty obsahujú azurofilné granuly a ich cytoplazma je bazofilná.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Sarkoméra je základná morfologická jednotka kostrového svalu, jasne rozlíšiteľná na úrovni svetelnej mikroskopie.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Ependýmové bunky patria do monocytovo-makrofágového systému buniek v nervovom tkanive.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Koncové cytoplazmové výbežky kardiomyocytov sú pospájané interkalárnymi diskami, ktorých súčasťami sú aj nexy.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Satelitové bunky sa podieľajú na tvorbe myelínu v nervových gangliách",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "V parafínových rezoch eozín zafarbí myelínové pošvy axónov na ružovo (napríklad v bielej hmote miechy).",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Priečne pruhovaná kostrová svalovina tvorí podstatnú súčasť steny maternice a je tiež prítomná v celom priebehu steny pažeráka.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Granulocyty neutrofilné, eozinofilné a bazofilné sú charakterizované aj výskytom špecifických granúl v cytoplazme, ktoré sa v každom z nich špecificky farbia.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "B- lymfocyty sú agranulocyty, ktoré sa môžu diferencovať na plazmatické bunky.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Za tvorbu myelínovej pošvy okolo axónov v CNS sú zodpovedné oligodendrocyty",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Astrocyty sú podporné bunky nervového tkaniva hviezdicovitého tvaru a podieľajú sa aj na tvorbe hemato-encefalickej bariéry.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "question": "Astrocyty majú početné výbežky a ich pôvod je v hematopoetickej kmeňovej bunke.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "question": "Erytrocyty majú veľkosť 15 μm.",
+        "answers": [
+          "pravda",
+          "nepravda"
+        ],
+        "correct": [
+          1
+        ]
+      }
+    ]
+  }
+]

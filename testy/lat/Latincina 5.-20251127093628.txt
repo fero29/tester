@@ -1,0 +1,99 @@
+#separator:tab
+#html:true
+#guid column:1
+#notetype column:2
+#deck column:3
+#tags column:6
+y?m?1]8GuD	Základná	Latincina 5.	Prídavný	accessorius a um	
+M0zELT?%I(	Základná	Latincina 5.	Prívesok	Appendix icis f.	
+wzGEmLVkk!	Základná	Latincina 5.	1. Umenie 2. Veda	Ars artis f.	
+o&gXE=azHk	Základná	Latincina 5.	Nosič (1. Krčný stavec)	Atlas atlantis m.	
+"i-K~C8X#me"	Základná	Latincina 5.	Sluchový	Auditorius a um	
+cSJ@aytGA%	Základná	Latincina 5.	Ucho	Auris is f.	
+h;:R%l,?${	Základná	Latincina 5.	1. Os 2. Čapovec (2. Krčný stavec)	Axis is m.	
+HL3>E?nxK@	Základná	Latincina 5.	Ľuľkovec	Belladona ae f.	
+p<2]A$f!v4	Základná	Latincina 5.	Cisársky	Caesareus a um	
+yI}xuC%mP^	Základná	Latincina 5.	Ostroha	Calcar aris n.	
+phjT7,)PT,	Základná	Latincina 5.	Kanál	Canalis is m.	
+"zD|#75fzN0"	Základná	Latincina 5.	Psí; očný (o zube)	Caninus a um	
+lL;>*2:t(@	Základná	Latincina 5.	Príčina, dôvod	Causa ae f.	
+"iPMo!:#nc<"	Základná	Latincina 5.	Mozoček	Cerebellum i n.	
+l>0gewEz40	Základná	Latincina 5.	Stláčajúci	Compressivus a um	
+ht6&uanv^B	Základná	Latincina 5.	Koža	Cutis is f.	
+PzpgG1!>a;	Základná	Latincina 5.	Odpadnutý; mliečny (pri zuboch)	Deciduus a um	
+Fobp:,w^xm	Základná	Latincina 5.	Deformácia, znetvorenie	Deformitas atis f.	
+GvCVeTMaLU	Základná	Latincina 5.	Zub	Dens dentis m	
+RfMdq~^>jN	Základná	Latincina 5.	Očný zub	Dens caninus	
+Qv>zvVMZs2	Základná	Latincina 5.	Mliečny zub	Dens deciduus	
+xK:FMZ9?3e	Základná	Latincina 5.	Vytiahnutie	Extractio onis f.	
+"H6U>V>|[#Z"	Základná	Latincina 5.	Hrdlo	Fauces ium f.	
+"p`Q)O#;6Oe"	Základná	Latincina 5.	Horúčka	Febris is f.	
+I*etjq0u{2	Základná	Latincina 5.	Väzivový	Fibrosus a um	
+ua}|8<?NtD	Základná	Latincina 5.	Nitka, vlákno	Filum i n.	
+F6*m^NotL6	Základná	Latincina 5.	Hranica, koniec	Finis is m.	
+uF8ck$G^5X	Základná	Latincina 5.	Tekutý	Fluidus a um	
+znqk0%d.ic	Základná	Latincina 5.	Žaluď	Glans glandis f.	
+pm%ovz)_SV	Základná	Latincina 5.	Ľudský	Humanus a um	
+"IzMa[=#imk"	Základná	Latincina 5.	Vlhký	Humidus a um	
+gtCj@5<{c/	Základná	Latincina 5.	Neznámy	Ignotus a um	
+A9{p`:)7-|	Základná	Latincina 5.	Slabiny	Ilia ium n.	
+jDa=grngQt	Základná	Latincina 5.	Bedrová kosť	Os ilium	
+FQcTKlFwF:	Základná	Latincina 5.	Dieťa	Infans antis m. F.	
+rhuy=TY6sJ	Základná	Latincina 5.	Neporušený	Integer gra grum	
+vXOU6%sFI>	Základná	Latincina 5.	Zadok	Ischium ii n.	
+kDL>th*bP~	Základná	Latincina 5.	Sedacia kosť	Os ischii	
+g&R4<bI9s$	Základná	Latincina 5.	Šošovka	Lens lentis f.	
+le!.I._fii	Základná	Latincina 5.	Zdĺhavý, pomalý	Lentus a um	
+fvp;IO.mQ+	Základná	Latincina 5.	Ustanovenie, zákon, spôsob	Lex legis f.	
+DL$i98zvvP	Základná	Latincina 5.	Podľa pravidiel (medicíny/vedy)	Lege artis	
+p9a<y:B_gb	Základná	Latincina 5.	Lalok	Lobus i m.	
+QMR?JmxVxL	Základná	Latincina 5.	Vykĺbenie	Luxatio onis f.	
+r-?TAr|l4=	Základná	Latincina 5.	(Matka); plena (v anat.)	Mater tris f.	
+"D|p&5k6VW#"	Základná	Latincina 5.	Tvrdá plena (mozgu)	Dura mater (encephali)	
+B^HX}J:3zG	Základná	Latincina 5.	Mäkká plena (mozgu), cievnatka	Pia mater (encephali)	
+"H8)Hm*T9#M"	Základná	Latincina 5.	Pavúčnica (mozgu)	Arachnoidea mater (encephali)	
+QnOqY6@C!_	Základná	Latincina 5.	Blanitý	Membranaceus a um	
+G)wi$j}=d}	Základná	Latincina 5.	Blana (mozgová)	Menix gis f.	
+j]1=)$WJO&	Základná	Latincina 5.	Záprstie	Metacarpus i m.	
+FF$$+@5c>Y	Základná	Latincina 5.	Predpriehlavok	Metatarsus i m.	
+qPBY3_/e`:	Základná	Latincina 5.	Smrť	Mors tis f.	
+t^wwKaAyb)	Základná	Latincina 5.	Smrť na operačnom stole	Mors in tabula	
+G[ofBkucv-	Základná	Latincina 5.	Kostička	Ossiculum i n.	
+jbRxW)w5!Z	Základná	Latincina 5.	Podžalúdková žľaza	Pancreas tis n.	
+CDOGDr[c5P	Základná	Latincina 5.	Časť	Pars partis f.	
+xj+!w29g0.	Základná	Latincina 5.	Panva	Pelvis is f.	
+qA)B1[H:fK	Základná	Latincina 5.	Pohlavný úd	Penis is m.	
+JZ0NF1d/n7	Základná	Latincina 5.	Čierny kašeľ	Pertussis is f.	
+qetvw|yifL	Základná	Latincina 5.	Zbožný, posvätný	Pius a um	
+"QVn#s<f4n]"	Základná	Latincina 5.	Most	Pons pontis m.	
+r0~c9xC=li	Základná	Latincina 5.	Poinfekčný	Postinfectiosus a um	
+D6i,T<RXC%	Základná	Latincina 5.	Vlastný	Proprius a um	
+lr(,zKZEa9	Základná	Latincina 5.	Prostata, predstojnica	Prostata ae f.	
+eihTKk1-6j	Základná	Latincina 5.	Lono, ohanbie	Pubes is f.	
+,Sk>LEbJ7	Základná	Latincina 5.	Lonová kosť	Os pubis	
+tm|MLlAr,h	Základná	Latincina 5.	Koreň	Radix icis f.	
+mD}>i$zFVx	Základná	Latincina 5.	Uvedenie do pôvodného stavu	Restitutio onis f.	
+Fex|B]$G^)	Základná	Latincina 5.	Úplné vyhojenie	Restitutio ad integrum	
+CA[ZfxF]4r	Základná	Latincina 5.	Sieť	Rete is n.	
+f*qx&=&XLa	Základná	Latincina 5.	Reumatický	Rheumaticus a um	
+Ho9.VU3J>V	Základná	Latincina 5.	Svätý	Sacer cra crum	
+N^a59.+q5q	Základná	Latincina 5.	Krížová kosť	Os sacrum	
+mNbsvl,!xr	Základná	Latincina 5.	Krvný	Sanguineus a um	
+AmE%DZ&R%?	Základná	Latincina 5.	Rez	Sectio onis f.	
+xV&%V}Jt&m	Základná	Latincina 5.	Sirup	Sirupus i m.	
+o}}ou_Um9c	Základná	Latincina 5.	Smäd	Sitis is f.	
+H[PZbM1><a	Základná	Latincina 5.	Podkožný	Subcutaneus a um	
+L%-R[N?E:O	Základná	Latincina 5.	Náhly	Subitus a um	
+Rek,55UkXW	Základná	Latincina 5.	Podozrivý	Suspectus a um	
+"O{;[(K??#u"	Základná	Latincina 5.	Stôl	Tabula ae f.	
+"qVR>!L#@^w"	Základná	Latincina 5.	1. Pásmo 2. Pásomnica	Taenia ae f.	
+Me$,-+fWPj	Základná	Latincina 5.	Šľachový	Tendineus a um	
+Bcdl<py^sX	Základná	Latincina 5.	Semenník	Testis is m.	
+QwWLFaYK:X	Základná	Latincina 5.	Tuberkulóza	Tuberculosis is f.	
+A7mI<[Xy,O	Základná	Latincina 5.	Podozrenie na tuberkulózu	Tuberculosis suspecta	
+p[P[cT9YWd	Základná	Latincina 5.	Kašeľ	Tussis is f.	
+i$DHr7q?dd	Základná	Latincina 5.	Masť	Unguentum i n.	
+D?/vJ`n;L5	Základná	Latincina 5.	Necht	Unguis is m.	
+"bZ+n#-eM!|"	Základná	Latincina 5.	1. Brucho 2. Bruško (svalu)	Venter tris m.	
+sJRp]J9~s^	Základná	Latincina 5.	Červ	Vermis is f.	
+e*I]+EVz/t	Základná	Latincina 5.	Vírusový	Virosus a um	

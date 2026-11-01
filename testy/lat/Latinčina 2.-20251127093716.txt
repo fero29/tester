@@ -1,0 +1,110 @@
+#separator:tab
+#html:true
+#guid column:1
+#notetype column:2
+#deck column:3
+#tags column:6
+ciGgk2Lepz	Základná	Latinčina 2.	acnē ēs f	Akne, uhrovitosť	
+I79mX}E6sQ	Základná	Latinčina 2.	Acūtus a um 	Nahly, prudky 	
+h-3<i=BSGR	Základná	Latinčina 2.	Ad (s ak)	K, ku, do, smerom	
+Cn:!e:*-hx	Základná	Latinčina 2.	Albus a um	Biely	
+cPY(}%u[,v	Základná	Latinčina 2.	Allergicus a um	Alergicky 	
+E{g>_o(ts3	Základná	Latinčina 2.	Anatomia ae f	Anatomia 	
+KsjmG63JA-	Základná	Latinčina 2.	Aorta ae f 	Srdcovnica	
+y-s[PE%TPB	Základná	Latinčina 2.	Apertūra ae f	Otvor vchod 	
+hJyS43U-NL	Základná	Latinčina 2.	Apertus a um 	Otvoreny 	
+Darh;Z>1{j	Základná	Latinčina 2.	Aqua ae f 	Voda	
+gBfxjRw8F2	Základná	Latinčina 2.	Arcuātus a um	Oblukovity	
+J^{GaiPD21	Základná	Latinčina 2.	Āreola ae f 	Dvorec, dvorcek	
+DntC+AQ-yQ	Základná	Latinčina 2.	Artēria ae f 	Tepna 	
+FR?.].aF+&	Základná	Latinčina 2.	Ascītēs ae m	Brusna, vodnatielka	
+.MIL1vk,L	Základná	Latinčina 2.	Caruncula ae f	Bradavicka	
+g)sZc+HII+	Základná	Latinčina 2.	Cavus a um	Duty	
+nd`Nu5D2-`	Základná	Latinčina 2.	Clausus a um	Uzavrety	
+QYSI4/u6`A	Základná	Latinčina 2.	Clāvicula ae f 	Klucna kost 	
+gpq${(/TR_	Základná	Latinčina 2.	Commissūra ae f 	Spojka, spojenie 	
+n:!FUG.B;3	Základná	Latinčina 2.	Complicātus a um	Komplikovany	
+"z8M[#IQL#N"	Základná	Latinčina 2.	Congenitus a um	Vrodeny 	
+e75W(+-vtI	Základná	Latinčina 2.	Costa ae f 	Rebro	
+"p:Q#Ap%q7E"	Základná	Latinčina 2.	Coxa ae f 	Bedro	
+O4O5$uv>RA	Základná	Latinčina 2.	Dēstīlātus a um	Destilovany 	
+dF{(`70SX&	Základná	Latinčina 2.	Dexter dextra dextrum 	Pravý 	
+JM9U:-3!j$	Základná	Latinčina 2.	Diabētēs ae m	Diabetes, cukrovka 	
+ts`*=:[AP^	Základná	Latinčina 2.	Diabēticus a um	Diabeticky (tykajuci sa cukrovky)	
+MIkU-.qrIn	Základná	Latinčina 2.	Diarrhoē ēs f / diarrhoa ae f 	Hnačka	
+te)1i)QQ>k	Základná	Latinčina 2.	Diastolē ēs f 	Diastola fáza uvolnenia srdcového svalu 	
+xSYuya,e(w	Základná	Latinčina 2.	Epidemicus a um	Epidemicky	
+CxN]*2D<Xl	Základná	Latinčina 2.	Et	A	
+xm/!b=_^a[	Základná	Latinčina 2.	Externus a um	Vonkajší	
+H9{|baWBwK	Základná	Latinčina 2.	Fascia ae f 	Pokrývka, väzivový obal 	
+j,SRH.,~wk	Základná	Latinčina 2.	Felleus a um	Žlčový	
+u96!ch)7vg	Základná	Latinčina 2.	Fībula ae f 	Ihlica 	
+L]%{%8I/5h	Základná	Latinčina 2.	Fissūra ae f	1. štrbina, ryha, zárez (anat); 2. rázštep (klin.)	
+w^3t{av!)V	Základná	Latinčina 2.	Fossa ae f 	Jama 	
+xu%Ht*NL4a	Základná	Latinčina 2.	Fovea ae f 	Jama, jamka 	
+"E#9,8vi)MU"	Základná	Latinčina 2.	Frāctura ae f 	Zlomenina	
+nq5p/6@M1~	Základná	Latinčina 2.	Gangraena ae f 	Sneť (odumreté tkanivo)	
+o_^JUatP_{	Základná	Latinčina 2.	Gastricus a um	Žalúdkový	
+G5q^8]r4$*	Základná	Latinčina 2.	Glandula ae f 	Žlaza 	
+EAGH=@-My2	Základná	Latinčina 2.	Griseus a um	Sivý	
+jah2yi-Ge2	Základná	Latinčina 2.	Haemorrhagia ae f 	Krvácanie 	
+m2V0,05=jf	Základná	Latinčina 2.	Īliacus a um	Bedrový	
+z11ZXaPbW!	Základná	Latinčina 2.	In ( s ak. a abl.) 	1. do (ak.) 2. v, na, počas (abl.)	
+zp$x;o/xQj	Základná	Latinčina 2.	Incīsūra ae f 	Zárez 	
+nUoB(rX).0	Základná	Latinčina 2.	Indūrātus a um	Stvrdnutý, tuhý	
+"Jaf=Rlz>#("	Základná	Latinčina 2.	Īnsufficientia ae f 	Nedostatočnosť 	
+lQfk{H9BMD	Základná	Latinčina 2.	Internus a um	Vnútorný	
+cG>H+SzZjB	Základná	Latinčina 2.	Lāmina ae f 	Platňa, platnička 	
+t%&up=h}cT	Základná	Latinčina 2.	Lātus a um	Široký	
+za}Fdz11HB	Základná	Latinčina 2.	Lingua ae f 	Jazyk	
+d~s}T:FY?j	Základná	Latinčina 2.	Magnus a um	Veľký	
+i+;r>*clU1	Základná	Latinčina 2.	Mamma ae f 	Prsnik, prsná žľaza 	
+s;J&E1,OIx	Základná	Latinčina 2.	Mammāritus a um 	Prsníkový	
+gi[_swgmNG	Základná	Latinčina 2.	Mandibula ae f 	Sánka	
+H}d_*HY[?4	Základná	Latinčina 2.	Massa ae f 	Hmota (najmä vo farmakologii)	
+Lv$Xe$k|I5	Základná	Latinčina 2.	Maxilla ae f 	Čelusť	
+ECEB^:qxOO	Základná	Latinčina 2.	Mediānus a um	Stredový	
+qqb;h3(bd:	Základná	Latinčina 2.	Medulla ae f 	Dreň	
+x8zVG,uzjf	Základná	Latinčina 2.	Medulla oblogāta 	Predĺžená miecha 	
+G:}wQrjjKX	Základná	Latinčina 2.	Mūcōsus a um	Hlienový	
+"L#t6aZj4u>"	Základná	Latinčina 2.	Niger, nigra, nigrum 	Čierny 	
+w0<qvI[a1-	Základná	Latinčina 2.	Orbita ae f 	Očnica 	
+ppP^4%F[zi	Základná	Latinčina 2.	Palpebra ae f 	Mihalnica 	
+DjMEz^:WYR	Základná	Latinčina 2.	Palātinus a um	Podnebný	
+y%o0I6.flM	Základná	Latinčina 2.	Parvus a um 	Malý	
+wJ~-xCrnuP	Základná	Latinčina 2.	Pilula ae f 	Pilulka	
+P`UQc{9;{D	Základná	Latinčina 2.	Plica ae f 	Zahyb, riasa 	
+nQMY4j^@>0	Základná	Latinčina 2.	Pneumonia ae f 	Zápal pľúc 	
+d%.=8FHP`{	Základná	Latinčina 2.	Post (ak.) 	Po	
+g2[d7Nq@/u	Základná	Latinčina 2.	Profundus a um	Hlboky, hĺbkový	
+Db{Jj9N5QE	Základná	Latinčina 2.	Pterygoideus a um	Krídlovitý	
+or@{]6u&N4	Základná	Latinčina 2.	Pūpilla ae f 	Zrenica 	
+i>0zpA)$J	Základná	Latinčina 2.	Raphē ēs f 	Šev 	
+n`~w:TjJ,,	Základná	Latinčina 2.	Rīma ae f 	Štrbina 	
+M_9WYji/Op	Základná	Latinčina 2.	Ruptūra ae f 	Prasknutie 	
+QKu.%!Wp[|	Základná	Latinčina 2.	Saphēnus a um	Skrytý (len v anat) 	
+u[.2wNT[=	Základná	Latinčina 2.	Scapula ae f 	Lopatka 	
+M%c9M5p*O@	Základná	Latinčina 2.	Scatula ae f 	Škatuľka 	
+I@@mvr?d=D	Základná	Latinčina 2.	Sclēra ae f 	Bielko (oka)	
+jxpa&kKAjO	Základná	Latinčina 2.	Sinister, sinistra, sinistrum	Ľavý	
+jlG6B1xGxr	Základná	Latinčina 2.	Spīna ae f 	1. hrebeň, tŕň; 2. chrbtica 	
+Djp4}aa?EN	Základná	Latinčina 2.	Spurius a um 	Nepravý	
+iJDjxOHDG,	Základná	Latinčina 2.	Sub (s ak a s abl)	Pod 	
+evJXyF)jBw	Základná	Latinčina 2.	Substantia ae f 	Hmota (anat.) 	
+H:&9VId_~p	Základná	Latinčina 2.	Sūtūra ae f 	Šev	
+F~hpr`qrul	Základná	Latinčina 2.	Systemicus a um 	Systematicky, systemovy 	
+b`Vt5`,4Dm	Základná	Latinčina 2.	Systolē es f 	Systola, faza stiahbutia srdcovej komory 	
+xeL{nVSYUD	Základná	Latinčina 2.	Thōracicus a um 	Hrudníkový 	
+G<YbCQFd,%	Základná	Latinčina 2.	Tōnsilla ae f 	Mandľa 	
+dtw5[LLiul	Základná	Latinčina 2.	Transversus a um 	Priečny 	
+nO;~4<A}8X	Základná	Latinčina 2.	Tunica ae f <br>(tunica) mūcōsa <br>(tunica) conjūctīva 	Obal vrstva <br>Sliznica <br>Spojovka 	
+Gfe_X%x/Pi	Základná	Latinčina 2.	Ulna ae f 	Lakťova kosť	
+"C#3tusEKlb"	Základná	Latinčina 2.	Ūrīnārius a um 	Močový	
+glSZG5[wrA	Základná	Latinčina 2.	Vāgīna ae f 	1. pošva, sučasŕ ženských pohlavných orgánov<br>2. pošva (obal, puzdro na šľachách a kostiach) 	
+cnqJx$5c}r	Základná	Latinčina 2.	Valgus, a um 	Vbočený	
+qXLu-$~iP:	Základná	Latinčina 2.	Valva ae f 	Chlopňa 	
+G5]E$Cw$S|	Základná	Latinčina 2.	Vārus a um 	Vybočený	
+CUx}lu<2tD	Základná	Latinčina 2.	Vēna ae f 	Žila 	
+KG~/_jEW)x	Základná	Latinčina 2.	Vertebra ae f 	Stavec 	
+"tG3(Jov#;w"	Základná	Latinčina 2.	Vērus a um	Pravý skutočný	
+mlyN-jxYXf	Základná	Latinčina 2.	Vēsica ae f <br>Vēsica fellea<br>Vēsica ūrīnāria 	Mechúr <br>Žlčník<br>Močový mechúr	

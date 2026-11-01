@@ -1,0 +1,364 @@
+[
+  {
+    "title": "Histológia – 07. týždeň – Močový systém",
+    "description": "Oblička, močovod a močový mechúr.",
+    "year": 2,
+    "category": "Histológia",
+    "sortOrder": 7,
+    "questions": [
+      {
+        "question": "Malphigiho teliesko obličky obsahuje glomerulárne klbko fenestrovaných kapilár",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 7,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-003.jpg",
+            "img-177.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 7,
+          "topic": "Močový systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Vonkajšia vrstva močovodu sa po celej dĺžke nazýva seróza",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 20,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-010.jpg",
+            "img-161.jpg",
+            "img-189.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 7,
+          "topic": "Močový systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Močovod je vystlaný prechodným epitelom",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 42,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-019.jpg",
+            "img-040.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 7,
+          "topic": "Močový systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Nefón obličky sa skladá z glomerulu s Bowmanovým puzdrom, proximálneho kanálika, Henleho kľučky a distálneho kanálika",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 43,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-020.jpg",
+            "img-035.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 7,
+          "topic": "Močový systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Bunky macula densa monitorujú koncentráciu sodíka v proximálnom stočenom kanáliku",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 52,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-024.jpg",
+            "img-033.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 7,
+          "topic": "Močový systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Svalová vrstva v stene močového mechúra je usporiadaná vo viacerých smeroch - pozdĺžnom, kruhovom a plexiformnom",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 57,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-026.jpg",
+            "img-031.jpg",
+            "img-039.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 7,
+          "topic": "Močový systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Podocyty sú špecializované bunky, ktoré tvoria parietálnu vrstvu Bowmanovho puzdra",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 68,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-031.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 7,
+          "topic": "Močový systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Bunky macula densa sa podieľajú na tvorbe juxtaglomerulárneho aparátu a nachádzajú sa v proximálnom kanáliku",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 196,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-152.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 7,
+          "topic": "Močový systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Najhrubšia vrstva močovodu je zložená z priečne pruhovanej svaloviny",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 199,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-153.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 7,
+          "topic": "Močový systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Najvrchnejšia vrstva steny močového mechúra je sliznica",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 204,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-156.jpg",
+            "img-170.jpg",
+            "img-184.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 7,
+          "topic": "Močový systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Svalová vrstva močovodu sa skladá z troch vrstiev hladkej svaloviny v hornej časti a dvoch vrstiev v dolnej časti",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 226,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-205.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 7,
+          "topic": "Močový systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Lamina propria močového mechúra je tvorená riedkym kolagénovým väzivom bohatým na cievy a nervy",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 231,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-207.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 7,
+          "topic": "Močový systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Bowmanovo puzdro má vnútornú vrstvu z jednovrstvového plochého epitelu",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "histológia zápočet 1 Flashcards _ Quizlet.pdf",
+          "card": 239,
+          "verifiedIn": "1. zapocet.pdf",
+          "images": [
+            "img-210.jpg"
+          ]
+        },
+        "curriculum": {
+          "week": 7,
+          "topic": "Močový systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Podocyty sú špecializované bunky, ktoré tvoria viscerálnu vrstvu Bowmanovej kapsuly.",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "1. zapocet.pdf",
+          "images": [
+            "img-203.jpg"
+          ],
+          "keyFrom": "Moodle"
+        },
+        "curriculum": {
+          "week": 7,
+          "topic": "Močový systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      },
+      {
+        "question": "Proximálny kanálik je súčasťou juxtaglomerulárneho aparátu obličky.",
+        "answers": [
+          "Pravda",
+          "Nepravda"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "1. zapocet.pdf",
+          "images": [
+            "img-204.jpg"
+          ],
+          "keyFrom": "Moodle"
+        },
+        "curriculum": {
+          "week": 7,
+          "topic": "Močový systém",
+          "plan": "Obsahová náplň praktických cvičení z Histológie a embryológie 2, VL, ZS 2026/2027"
+        }
+      }
+    ]
+  }
+]

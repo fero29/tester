@@ -1,0 +1,489 @@
+[
+  {
+    "title": "Biochémia 1 - Týždeň 12 - Vitamíny a koenzýmy",
+    "description": "12. týždeň, ZS 2026/2027: 2. kontrolný test. Vitamíny. Otázky zaradené podľa cieľov týždenného programu; odpovede podľa zdrojového PDF. Otázky v zbierke sa sústreďujú na koenzýmové formy vitamínov B. Nepokrývajú všetky ciele týždňa, najmä deficit folátu/B12 a diagnostiku megaloblastickej anémie.",
+    "questions": [
+      {
+        "question": "Ktorý z týchto vitamínov môže byť zložkou v koenzýmoch oxidoreduktáz:",
+        "answers": [
+          "pyridoxín",
+          "riboflavín",
+          "vitamín D",
+          "tiamín"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 18,
+          "questionNumber": 18,
+          "page": 3,
+          "endPage": 3,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 12,
+          "relatedWeeks": [
+            1
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w12_vitaminove_formy",
+          "reason": "Otázka je zameraná na vitamínovú zložku alebo koenzýmovú formu vitamínu B-komplexu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 13,
+          "objectiveRefs": [
+            2
+          ]
+        }
+      },
+      {
+        "question": "Vitamínovou zložkou NAD+ je:",
+        "answers": [
+          "tiamín",
+          "nikotínamid",
+          "riboflavín",
+          "derivát pyridínu"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 31,
+          "questionNumber": 29,
+          "page": 5,
+          "endPage": 5,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 12,
+          "relatedWeeks": [
+            1
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w12_vitaminove_formy",
+          "reason": "Otázka je zameraná na vitamínovú zložku alebo koenzýmovú formu vitamínu B-komplexu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 13,
+          "objectiveRefs": [
+            2
+          ]
+        }
+      },
+      {
+        "question": "Amid kyseliny nikotínovej obsahuje heterocyklický kruh:",
+        "answers": [
+          "pyrimidínový",
+          "imidazolový",
+          "pyridínový",
+          "purínový"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 39,
+          "questionNumber": 37,
+          "page": 6,
+          "endPage": 6,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 12,
+          "relatedWeeks": [
+            1
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w12_vitaminove_formy",
+          "reason": "Otázka je zameraná na vitamínovú zložku alebo koenzýmovú formu vitamínu B-komplexu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 13,
+          "objectiveRefs": [
+            2
+          ]
+        }
+      },
+      {
+        "question": "Zložkou koenzýmov oxidoreduktáz môže byť vitamín:",
+        "answers": [
+          "pyridoxín",
+          "riboflavín",
+          "vitamín D",
+          "niacín"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 62,
+          "questionNumber": 62,
+          "page": 9,
+          "endPage": 9,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 12,
+          "relatedWeeks": [
+            1
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w12_vitaminove_formy",
+          "reason": "Otázka je zameraná na vitamínovú zložku alebo koenzýmovú formu vitamínu B-komplexu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 13,
+          "objectiveRefs": [
+            2
+          ]
+        }
+      },
+      {
+        "question": "Pyridoxalfosfát je koenzýmom:",
+        "answers": [
+          "glutamátdehydrogenázy",
+          "alanínaminotransferázy",
+          "glutamátdekarboxylázy",
+          "glutamínsyntetázy"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 648,
+          "questionNumber": 648,
+          "page": 84,
+          "endPage": 84,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 12,
+          "relatedWeeks": [
+            10
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w12_plp_648",
+          "reason": "Otázka je postavená na koenzýmovej forme vitamínu B6 a reakciách, ktorých sa zúčastňuje.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 13,
+          "objectiveRefs": [
+            2
+          ]
+        }
+      },
+      {
+        "question": "Pyridoxalfosfát je koenzýmom, ktorý je potrebný pre:",
+        "answers": [
+          "reakcie katalyzované glutamátdehydrogenázou",
+          "pre tvorbu etanolamínu",
+          "reakcie katalyzované alanínaminotransferázou",
+          "tvorbu neesenciálnych aminokyselín"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 656,
+          "questionNumber": 656,
+          "page": 85,
+          "endPage": 85,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 12,
+          "relatedWeeks": [
+            10
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w12_koenzymy_zaver",
+          "reason": "Otázka skúša vitamíny B-komplexu a ich koenzýmové formy pri typických reakciách metabolizmu aminokyselín.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 13,
+          "objectiveRefs": [
+            2
+          ]
+        }
+      },
+      {
+        "question": "Pre transamináciu aminokyselín je potrebný vitamín:",
+        "answers": [
+          "riboflavín",
+          "vitamín B1",
+          "vitamín B6",
+          "pyridoxín"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 665,
+          "questionNumber": 665,
+          "page": 87,
+          "endPage": 87,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 12,
+          "relatedWeeks": [
+            10
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w12_koenzymy_zaver",
+          "reason": "Otázka skúša vitamíny B-komplexu a ich koenzýmové formy pri typických reakciách metabolizmu aminokyselín.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 13,
+          "objectiveRefs": [
+            2
+          ]
+        }
+      },
+      {
+        "question": "Pyridoxalfosfát je koenzýmom:",
+        "answers": [
+          "aspartátaminotransferázy",
+          "alanínaminotransferázy",
+          "glutamátdekarboxylázy",
+          "glutamínsyntetázy"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 670,
+          "questionNumber": 670,
+          "page": 87,
+          "endPage": 87,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 12,
+          "relatedWeeks": [
+            10
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w12_koenzymy_zaver",
+          "reason": "Otázka skúša vitamíny B-komplexu a ich koenzýmové formy pri typických reakciách metabolizmu aminokyselín.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 13,
+          "objectiveRefs": [
+            2
+          ]
+        }
+      },
+      {
+        "question": "Koenzýmom enzýmu, ktorý oxidačne deaminuje kyselinu glutámovú je:",
+        "answers": [
+          "koenzým, ktorý pri redukcii priberá dva elektróny a 1 H+",
+          "mononukleotid s pyrimidínovou bázou",
+          "mononukleotid, ktorého vitamínová zložka je vit. B5",
+          "dinukleotid, ktorého aktívna zložka je derivát kyseliny nikotínovej"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 701,
+          "questionNumber": 701,
+          "page": 91,
+          "endPage": 91,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 12,
+          "relatedWeeks": [
+            10
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w12_koenzymy_zaver",
+          "reason": "Otázka skúša vitamíny B-komplexu a ich koenzýmové formy pri typických reakciách metabolizmu aminokyselín.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 13,
+          "objectiveRefs": [
+            2
+          ]
+        }
+      },
+      {
+        "question": "Koenzýmom dekarboxyláz aminokyselín je:",
+        "answers": [
+          "tiamindifosfát",
+          "pyridoxín",
+          "aktívna forma vitamínu B5",
+          "aktívna forma vitamínu B6"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 702,
+          "questionNumber": 702,
+          "page": 91,
+          "endPage": 91,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 12,
+          "relatedWeeks": [
+            10
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w12_koenzymy_zaver",
+          "reason": "Otázka skúša vitamíny B-komplexu a ich koenzýmové formy pri typických reakciách metabolizmu aminokyselín.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 13,
+          "objectiveRefs": [
+            2
+          ]
+        }
+      },
+      {
+        "question": "Koenzýmom dekarboxyláz aminokyselín je:",
+        "answers": [
+          "pyridoxal-5-P, ktorý vzniká v reakcii enzýmom pyridoxalkinázou",
+          "koenzým, ktorý je aj koenzýmom cysteíndesulfhydrázy",
+          "molekula, ktorá obsahuje pyrimidínové jadro",
+          "koenzým, ktorý je spoločný pre AST, ALT, treonínaldolázu a dekarboxylázy aminokyselín"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 718,
+          "questionNumber": 718,
+          "page": 93,
+          "endPage": 94,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 12,
+          "relatedWeeks": [
+            10
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w12_koenzymy_zaver",
+          "reason": "Otázka skúša vitamíny B-komplexu a ich koenzýmové formy pri typických reakciách metabolizmu aminokyselín.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 13,
+          "objectiveRefs": [
+            2
+          ]
+        }
+      },
+      {
+        "question": "Koenzýmom enzýmu, ktorý oxidačne deaminuje kyselinu glutámovú je:",
+        "answers": [
+          "NAD",
+          "NADPH+H+, ktorý po reoxidácii v dýchacom reťazci poskytuje 3 ATP",
+          "koenzým, ktorého redukovaná forma po reoxidácii v dýchacom reťazci poskytuje 2 ATP",
+          "FAD, FMN"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 725,
+          "questionNumber": 725,
+          "page": 94,
+          "endPage": 94,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 12,
+          "relatedWeeks": [
+            10
+          ],
+          "candidateWeeks": [],
+          "topicGroup": "w12_koenzymy_zaver",
+          "reason": "Otázka skúša vitamíny B-komplexu a ich koenzýmové formy pri typických reakciách metabolizmu aminokyselín.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 13,
+          "objectiveRefs": [
+            2
+          ]
+        }
+      }
+    ]
+  }
+]

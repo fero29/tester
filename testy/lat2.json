@@ -1,0 +1,841 @@
+[
+  {
+    "title": "Latinčina 2.",
+    "description": "Latinské slovíčka - Latinčina 2.",
+    "testType": "vocabulary",
+    "vocabulary": [
+      {
+        "latin": "acnē",
+        "slovak": "Akne, uhrovitosť",
+        "type": "noun",
+        "genitive": "ēs",
+        "gender": "f",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Acūtus",
+        "slovak": "Nahly, prudky",
+        "type": "adjective",
+        "genitive": "",
+        "gender": "",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Ad (s ak)",
+        "slovak": "K, ku, do, smerom",
+        "type": "noun",
+        "genitive": "",
+        "gender": "",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Albus",
+        "slovak": "Biely",
+        "type": "adjective",
+        "genitive": "",
+        "gender": "",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Allergicus",
+        "slovak": "Alergicky",
+        "type": "adjective",
+        "genitive": "",
+        "gender": "",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Anatomia",
+        "slovak": "Anatomia",
+        "type": "noun",
+        "genitive": "ae",
+        "gender": "f",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Aorta",
+        "slovak": "Srdcovnica",
+        "type": "noun",
+        "genitive": "ae",
+        "gender": "f",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Apertūra",
+        "slovak": "Otvor vchod",
+        "type": "noun",
+        "genitive": "ae",
+        "gender": "f",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Apertus",
+        "slovak": "Otvoreny",
+        "type": "adjective",
+        "genitive": "",
+        "gender": "",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Aqua",
+        "slovak": "Voda",
+        "type": "noun",
+        "genitive": "ae",
+        "gender": "f",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Arcuātus",
+        "slovak": "Oblukovity",
+        "type": "adjective",
+        "genitive": "",
+        "gender": "",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Āreola",
+        "slovak": "Dvorec, dvorcek",
+        "type": "noun",
+        "genitive": "ae",
+        "gender": "f",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Artēria",
+        "slovak": "Tepna",
+        "type": "noun",
+        "genitive": "ae",
+        "gender": "f",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Ascītēs",
+        "slovak": "Brusna, vodnatielka",
+        "type": "noun",
+        "genitive": "ae",
+        "gender": "m",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Caruncula",
+        "slovak": "Bradavicka",
+        "type": "noun",
+        "genitive": "ae",
+        "gender": "f",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Cavus",
+        "slovak": "Duty",
+        "type": "adjective",
+        "genitive": "",
+        "gender": "",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Clausus",
+        "slovak": "Uzavrety",
+        "type": "adjective",
+        "genitive": "",
+        "gender": "",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Clāvicula",
+        "slovak": "Klucna kost",
+        "type": "noun",
+        "genitive": "ae",
+        "gender": "f",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Commissūra",
+        "slovak": "Spojka, spojenie",
+        "type": "noun",
+        "genitive": "ae",
+        "gender": "f",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Complicātus",
+        "slovak": "Komplikovany",
+        "type": "adjective",
+        "genitive": "",
+        "gender": "",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Congenitus",
+        "slovak": "Vrodeny",
+        "type": "adjective",
+        "genitive": "",
+        "gender": "",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Costa",
+        "slovak": "Rebro",
+        "type": "noun",
+        "genitive": "ae",
+        "gender": "f",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Coxa",
+        "slovak": "Bedro",
+        "type": "noun",
+        "genitive": "ae",
+        "gender": "f",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Dēstīlātus",
+        "slovak": "Destilovany",
+        "type": "adjective",
+        "genitive": "",
+        "gender": "",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Dexter dextra",
+        "slovak": "Pravý",
+        "type": "noun",
+        "genitive": "dextru",
+        "gender": "m",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Diabētēs",
+        "slovak": "Diabetes, cukrovka",
+        "type": "noun",
+        "genitive": "ae",
+        "gender": "m",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Diabēticus",
+        "slovak": "Diabeticky (tykajuci sa cukrovky)",
+        "type": "adjective",
+        "genitive": "",
+        "gender": "",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Diarrhoē ēs f / diarrhoa",
+        "slovak": "Hnačka",
+        "type": "noun",
+        "genitive": "ae",
+        "gender": "f",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Diastolē",
+        "slovak": "Diastola fáza uvolnenia srdcového svalu",
+        "type": "noun",
+        "genitive": "ēs",
+        "gender": "f",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Epidemicus",
+        "slovak": "Epidemicky",
+        "type": "adjective",
+        "genitive": "",
+        "gender": "",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Et",
+        "slovak": "A",
+        "type": "noun",
+        "genitive": "",
+        "gender": "",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Externus",
+        "slovak": "Vonkajší",
+        "type": "adjective",
+        "genitive": "",
+        "gender": "",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Fascia",
+        "slovak": "Pokrývka, väzivový obal",
+        "type": "noun",
+        "genitive": "ae",
+        "gender": "f",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Felleus",
+        "slovak": "Žlčový",
+        "type": "adjective",
+        "genitive": "",
+        "gender": "",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Fībula",
+        "slovak": "Ihlica",
+        "type": "noun",
+        "genitive": "ae",
+        "gender": "f",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Fissūra",
+        "slovak": "1. štrbina, ryha, zárez (anat); 2. rázštep (klin.)",
+        "type": "noun",
+        "genitive": "ae",
+        "gender": "f",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Fossa",
+        "slovak": "Jama",
+        "type": "noun",
+        "genitive": "ae",
+        "gender": "f",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Fovea",
+        "slovak": "Jama, jamka",
+        "type": "noun",
+        "genitive": "ae",
+        "gender": "f",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Frāctura",
+        "slovak": "Zlomenina",
+        "type": "noun",
+        "genitive": "ae",
+        "gender": "f",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Gangraena",
+        "slovak": "Sneť (odumreté tkanivo)",
+        "type": "noun",
+        "genitive": "ae",
+        "gender": "f",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Gastricus",
+        "slovak": "Žalúdkový",
+        "type": "adjective",
+        "genitive": "",
+        "gender": "",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Glandula",
+        "slovak": "Žlaza",
+        "type": "noun",
+        "genitive": "ae",
+        "gender": "f",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Griseus",
+        "slovak": "Sivý",
+        "type": "adjective",
+        "genitive": "",
+        "gender": "",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Haemorrhagia",
+        "slovak": "Krvácanie",
+        "type": "noun",
+        "genitive": "ae",
+        "gender": "f",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Īliacus",
+        "slovak": "Bedrový",
+        "type": "adjective",
+        "genitive": "",
+        "gender": "",
+        "pageNumber": 1
+      },
+      {
+        "latin": "In ( s ak. a abl.)",
+        "slovak": "1. do (ak.) 2. v, na, počas (abl.)",
+        "type": "noun",
+        "genitive": "",
+        "gender": "",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Incīsūra",
+        "slovak": "Zárez",
+        "type": "noun",
+        "genitive": "ae",
+        "gender": "f",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Indūrātus",
+        "slovak": "Stvrdnutý, tuhý",
+        "type": "adjective",
+        "genitive": "",
+        "gender": "",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Īnsufficientia",
+        "slovak": "Nedostatočnosť",
+        "type": "noun",
+        "genitive": "ae",
+        "gender": "f",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Internus",
+        "slovak": "Vnútorný",
+        "type": "adjective",
+        "genitive": "",
+        "gender": "",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Lāmina",
+        "slovak": "Platňa, platnička",
+        "type": "noun",
+        "genitive": "ae",
+        "gender": "f",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Lātus",
+        "slovak": "Široký",
+        "type": "adjective",
+        "genitive": "",
+        "gender": "",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Lingua",
+        "slovak": "Jazyk",
+        "type": "noun",
+        "genitive": "ae",
+        "gender": "f",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Magnus",
+        "slovak": "Veľký",
+        "type": "adjective",
+        "genitive": "",
+        "gender": "",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Mamma",
+        "slovak": "Prsnik, prsná žľaza",
+        "type": "noun",
+        "genitive": "ae",
+        "gender": "f",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Mammāritus",
+        "slovak": "Prsníkový",
+        "type": "adjective",
+        "genitive": "",
+        "gender": "",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Mandibula",
+        "slovak": "Sánka",
+        "type": "noun",
+        "genitive": "ae",
+        "gender": "f",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Massa",
+        "slovak": "Hmota (najmä vo farmakologii)",
+        "type": "noun",
+        "genitive": "ae",
+        "gender": "f",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Maxilla",
+        "slovak": "Čelusť",
+        "type": "noun",
+        "genitive": "ae",
+        "gender": "f",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Mediānus",
+        "slovak": "Stredový",
+        "type": "adjective",
+        "genitive": "",
+        "gender": "",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Medulla",
+        "slovak": "Dreň",
+        "type": "noun",
+        "genitive": "ae",
+        "gender": "f",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Medulla oblogāta",
+        "slovak": "Predĺžená miecha",
+        "type": "noun",
+        "genitive": "",
+        "gender": "",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Mūcōsus",
+        "slovak": "Hlienový",
+        "type": "adjective",
+        "genitive": "",
+        "gender": "",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Niger, nigra",
+        "slovak": "Čierny",
+        "type": "noun",
+        "genitive": "nigru",
+        "gender": "m",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Orbita",
+        "slovak": "Očnica",
+        "type": "noun",
+        "genitive": "ae",
+        "gender": "f",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Palpebra",
+        "slovak": "Mihalnica",
+        "type": "noun",
+        "genitive": "ae",
+        "gender": "f",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Palātinus",
+        "slovak": "Podnebný",
+        "type": "adjective",
+        "genitive": "",
+        "gender": "",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Parvus",
+        "slovak": "Malý",
+        "type": "adjective",
+        "genitive": "",
+        "gender": "",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Pilula",
+        "slovak": "Pilulka",
+        "type": "noun",
+        "genitive": "ae",
+        "gender": "f",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Plica",
+        "slovak": "Zahyb, riasa",
+        "type": "noun",
+        "genitive": "ae",
+        "gender": "f",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Pneumonia",
+        "slovak": "Zápal pľúc",
+        "type": "noun",
+        "genitive": "ae",
+        "gender": "f",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Post (ak.)",
+        "slovak": "Po",
+        "type": "noun",
+        "genitive": "",
+        "gender": "",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Profundus",
+        "slovak": "Hlboky, hĺbkový",
+        "type": "adjective",
+        "genitive": "",
+        "gender": "",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Pterygoideus",
+        "slovak": "Krídlovitý",
+        "type": "adjective",
+        "genitive": "",
+        "gender": "",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Pūpilla",
+        "slovak": "Zrenica",
+        "type": "noun",
+        "genitive": "ae",
+        "gender": "f",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Raphē",
+        "slovak": "Šev",
+        "type": "noun",
+        "genitive": "ēs",
+        "gender": "f",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Rīma",
+        "slovak": "Štrbina",
+        "type": "noun",
+        "genitive": "ae",
+        "gender": "f",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Ruptūra",
+        "slovak": "Prasknutie",
+        "type": "noun",
+        "genitive": "ae",
+        "gender": "f",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Saphēnus",
+        "slovak": "Skrytý (len v anat)",
+        "type": "adjective",
+        "genitive": "",
+        "gender": "",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Scapula",
+        "slovak": "Lopatka",
+        "type": "noun",
+        "genitive": "ae",
+        "gender": "f",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Scatula",
+        "slovak": "Škatuľka",
+        "type": "noun",
+        "genitive": "ae",
+        "gender": "f",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Sclēra",
+        "slovak": "Bielko (oka)",
+        "type": "noun",
+        "genitive": "ae",
+        "gender": "f",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Sinister, sinistra",
+        "slovak": "Ľavý",
+        "type": "noun",
+        "genitive": "sinistru",
+        "gender": "m",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Spīna",
+        "slovak": "1. hrebeň, tŕň; 2. chrbtica",
+        "type": "noun",
+        "genitive": "ae",
+        "gender": "f",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Spurius",
+        "slovak": "Nepravý",
+        "type": "adjective",
+        "genitive": "",
+        "gender": "",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Sub (s ak a s abl)",
+        "slovak": "Pod",
+        "type": "noun",
+        "genitive": "",
+        "gender": "",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Substantia",
+        "slovak": "Hmota (anat.)",
+        "type": "noun",
+        "genitive": "ae",
+        "gender": "f",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Sūtūra",
+        "slovak": "Šev",
+        "type": "noun",
+        "genitive": "ae",
+        "gender": "f",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Systemicus",
+        "slovak": "Systematicky, systemovy",
+        "type": "adjective",
+        "genitive": "",
+        "gender": "",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Systolē",
+        "slovak": "Systola, faza stiahbutia srdcovej komory",
+        "type": "noun",
+        "genitive": "es",
+        "gender": "f",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Thōracicus",
+        "slovak": "Hrudníkový",
+        "type": "adjective",
+        "genitive": "",
+        "gender": "",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Tōnsilla",
+        "slovak": "Mandľa",
+        "type": "noun",
+        "genitive": "ae",
+        "gender": "f",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Transversus",
+        "slovak": "Priečny",
+        "type": "adjective",
+        "genitive": "",
+        "gender": "",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Tunica ae f <br>(tunica) mūcōsa <br>(tunica) conjūctīva",
+        "slovak": "Obal vrstva <br>Sliznica <br>Spojovka",
+        "type": "noun",
+        "genitive": "",
+        "gender": "",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Ulna",
+        "slovak": "Lakťova kosť",
+        "type": "noun",
+        "genitive": "ae",
+        "gender": "f",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Ūrīnārius",
+        "slovak": "Močový",
+        "type": "adjective",
+        "genitive": "",
+        "gender": "",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Vāgīna",
+        "slovak": "1. pošva, sučasŕ ženských pohlavných orgánov<br>2. pošva (obal, puzdro na šľachách a kostiach)",
+        "type": "noun",
+        "genitive": "ae",
+        "gender": "f",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Valgus",
+        "slovak": "Vbočený",
+        "type": "adjective",
+        "genitive": "",
+        "gender": "",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Valva",
+        "slovak": "Chlopňa",
+        "type": "noun",
+        "genitive": "ae",
+        "gender": "f",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Vārus",
+        "slovak": "Vybočený",
+        "type": "adjective",
+        "genitive": "",
+        "gender": "",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Vēna",
+        "slovak": "Žila",
+        "type": "noun",
+        "genitive": "ae",
+        "gender": "f",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Vertebra",
+        "slovak": "Stavec",
+        "type": "noun",
+        "genitive": "ae",
+        "gender": "f",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Vērus",
+        "slovak": "Pravý skutočný",
+        "type": "adjective",
+        "genitive": "",
+        "gender": "",
+        "pageNumber": 1
+      },
+      {
+        "latin": "Vēsica ae f <br>Vēsica fellea<br>Vēsica ūrīnāria",
+        "slovak": "Mechúr <br>Žlčník<br>Močový mechúr",
+        "type": "noun",
+        "genitive": "",
+        "gender": "",
+        "pageNumber": 1
+      }
+    ]
+  }
+]

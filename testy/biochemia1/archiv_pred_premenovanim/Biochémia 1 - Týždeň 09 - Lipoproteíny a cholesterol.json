@@ -1,0 +1,2580 @@
+[
+  {
+    "title": "Biochémia 1 - Týždeň 09 - Lipoproteíny a cholesterol",
+    "description": "9. týždeň, ZS 2026/2027: Poruchy metabolizmu lipoproteínov, diferenciálna diagnostika hyperlipoproteinémií. Otázky zaradené podľa cieľov týždenného programu; odpovede podľa zdrojového PDF.",
+    "questions": [
+      {
+        "question": "Lipoproteíny sa môžu deliť:",
+        "answers": [
+          "ultracentrifugáciou podľa veľkosti častíc",
+          "gélovou filtráciou podľa hustoty",
+          "elektroforézou podľa pohyblivosti v elektrickom poli",
+          "na základe veľkosti náboja, ktorý je závislý k bielkovinovej zložke častice"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 469,
+          "questionNumber": 469,
+          "page": 61,
+          "endPage": 62,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 9,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w09_lipoproteiny",
+          "reason": "Otázka skúša triedy, zloženie, apoproteíny alebo funkcie lipoproteínov a reverzný transport cholesterolu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 10,
+          "objectiveRefs": [
+            1,
+            4
+          ]
+        }
+      },
+      {
+        "question": "Zvýšená hladina LDL v sére:",
+        "answers": [
+          "sa prejaví vzostupom alfa-frakcie pri elektroforéze",
+          "je často spojená so zvýšeným rizikom aterosklerózy",
+          "môže byť spôsobená geneticky podmieneným defektom LDL receptorov",
+          "nad 4,2 mmol/l je vysoko riziková"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 470,
+          "questionNumber": 470,
+          "page": 62,
+          "endPage": 62,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 9,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w09_dyslipidemie",
+          "reason": "Otázka skúša hyperlipoproteinémie, aterogénne riziko alebo vyšetrenie sérových lipidov.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 10,
+          "objectiveRefs": [
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Zvýšená hladina voľného cholesterolu v bunkách:",
+        "answers": [
+          "ovplyvní syntézu LDL receptorov",
+          "ovplyvní aktivitu HMG-CoA-reduktázy",
+          "ovplyvní aktivitu enzýmu, ktorý esterifikuje cholesterol",
+          "ovplyvní aktivitu hormón senzitívnej lipázy"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 471,
+          "questionNumber": 471,
+          "page": 62,
+          "endPage": 62,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 9,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w09_cholesterol",
+          "reason": "Otázka skúša zdroje, syntézu, reguláciu, esterifikáciu alebo fyziologické využitie cholesterolu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 10,
+          "objectiveRefs": [
+            2,
+            3
+          ]
+        }
+      },
+      {
+        "question": "Chylomikróny:",
+        "answers": [
+          "sa syntetizujú v hepatocytoch",
+          "v ich metabolizme vznikajú povrchové a jadrové remnanty",
+          "nie sú metabolizované u pacientov s hyperlipoproteinémiou typu I",
+          "transportujú v krvi exogénne TAG"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 474,
+          "questionNumber": 474,
+          "page": 62,
+          "endPage": 62,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 9,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w09_lipoproteiny",
+          "reason": "Otázka skúša triedy, zloženie, apoproteíny alebo funkcie lipoproteínov a reverzný transport cholesterolu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 10,
+          "objectiveRefs": [
+            1,
+            4
+          ]
+        }
+      },
+      {
+        "question": "Pri hyperlipoproteinémií typu I:",
+        "answers": [
+          "je najvyššie riziko aterosklerózy",
+          "je zvýšená hladina TAG v sére",
+          "sérum je skalené",
+          "je zvýšená endogénna syntéza TAG"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 475,
+          "questionNumber": 475,
+          "page": 62,
+          "endPage": 62,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 9,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w09_dyslipidemie",
+          "reason": "Otázka skúša hyperlipoproteinémie, aterogénne riziko alebo vyšetrenie sérových lipidov.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 10,
+          "objectiveRefs": [
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Voľný cholesterol:",
+        "answers": [
+          "je v bunkách syntetizovaný z acetyl-CoA v cytosole a hladkom ER",
+          "je zlúčenina, ktorá sa v lipoproteínových časticiach nachádza v jadre",
+          "môže byť z tela vylúčenýžlčou po premene na soli žlčových kyslín",
+          "je hlavnou lipidovou zložkou LDL častice"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 477,
+          "questionNumber": 477,
+          "page": 63,
+          "endPage": 63,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 9,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w09_cholesterol",
+          "reason": "Otázka skúša zdroje, syntézu, reguláciu, esterifikáciu alebo fyziologické využitie cholesterolu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 10,
+          "objectiveRefs": [
+            2,
+            3
+          ]
+        }
+      },
+      {
+        "question": "LDL lipoproteínové častice:",
+        "answers": [
+          "sú syntetizované hlavne v hepatocytoch",
+          "transportujú v krvi endogénne TAG",
+          "obsahujú ako dôležitý apoproteín apoB100",
+          "ich obsah štiepi lipoproteínová lipáz"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 478,
+          "questionNumber": 478,
+          "page": 63,
+          "endPage": 63,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 9,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w09_lipoproteiny",
+          "reason": "Otázka skúša triedy, zloženie, apoproteíny alebo funkcie lipoproteínov a reverzný transport cholesterolu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 10,
+          "objectiveRefs": [
+            1,
+            4
+          ]
+        }
+      },
+      {
+        "question": "Lecitín- cholesterol-acyltransferáza:",
+        "answers": [
+          "je enzým umožňujúci transport cholesterolu z pečene do periférnych tkanív, čím sa podieľa na antiaterogénnom efekte HDL",
+          "katalyzuje tvorbu glykozidovej väzby medzi -OH skupinou cholesterolu a COOH skupinou väčšinou nenasýtenej vyššej karboxylovej kyseliny",
+          "využíva ako substrát karboxylovú kyselinu z fosfatidylcholínu",
+          "je enzým syntetizovaný v krvnej plazme"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 479,
+          "questionNumber": 479,
+          "page": 63,
+          "endPage": 63,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 9,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w09_cholesterol",
+          "reason": "Otázka skúša zdroje, syntézu, reguláciu, esterifikáciu alebo fyziologické využitie cholesterolu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 10,
+          "objectiveRefs": [
+            2,
+            3
+          ]
+        }
+      },
+      {
+        "question": "LDL receptory:",
+        "answers": [
+          "v prípade potreby cholesterolu v bunkách periférnych tkanív sú zvyčajne po prijatí častice do bunky recyklované späť do membrány",
+          "rozpoznávajú lipoproteínové častice na základe funkčného apoproteínu apoCII",
+          "ich množstvo tvorené v bunkách je regulované hladinou voľného cholesterolu v bunke",
+          "zabezpečujú transport cholesterolu do periférnych tkanív"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 480,
+          "questionNumber": 480,
+          "page": 63,
+          "endPage": 63,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 9,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w09_lipoproteiny",
+          "reason": "Otázka skúša triedy, zloženie, apoproteíny alebo funkcie lipoproteínov a reverzný transport cholesterolu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 10,
+          "objectiveRefs": [
+            1,
+            4
+          ]
+        }
+      },
+      {
+        "question": "Sekundárne hyperlipoproteinémie:",
+        "answers": [
+          "väčšinou sú podmienené genetickým defektom v metabolizme lipidov",
+          "sprevádzajú iné základné ochorenia",
+          "sú častým sprievodným znakom pri diabetes mellitus",
+          "sa podľa Fredericksonovej diferenciálnej diagnostiky rozdeľujú na typy I, IIa,IIb,III,IV"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 481,
+          "questionNumber": 481,
+          "page": 63,
+          "endPage": 63,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 9,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w09_dyslipidemie",
+          "reason": "Otázka skúša hyperlipoproteinémie, aterogénne riziko alebo vyšetrenie sérových lipidov.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 10,
+          "objectiveRefs": [
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Hyperlipoproteinémia typu IV:",
+        "answers": [
+          "je často sa vyskytujúcou hyperlipoproteinémiou v našej populácii",
+          "je porucha spojená s hypertriacylglycerolémiou",
+          "je sekundárna porucha metabolizmu lipidov spojená so zvýšenou hladinou exogénnych TAG v sére",
+          "je spojená s nálezom zvýšenej beta-frakcie na elektroforeograme"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 482,
+          "questionNumber": 482,
+          "page": 63,
+          "endPage": 63,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 9,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w09_dyslipidemie",
+          "reason": "Otázka skúša hyperlipoproteinémie, aterogénne riziko alebo vyšetrenie sérových lipidov.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 10,
+          "objectiveRefs": [
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Hladina celkového cholesterolu v krvnej plazme:",
+        "answers": [
+          "nie je dôležitá pri podozrení na poruchu v metabolizme lipoproteínov",
+          "je pre dospelú populáciu 3,8-5,2 mmol/l",
+          "u detí je nižšia ako u dospelých",
+          "nie je ovplyvnená pohlavím"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 483,
+          "questionNumber": 483,
+          "page": 63,
+          "endPage": 63,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 9,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w09_dyslipidemie",
+          "reason": "Otázka skúša hyperlipoproteinémie, aterogénne riziko alebo vyšetrenie sérových lipidov.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 10,
+          "objectiveRefs": [
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Lipoproteíny, ktoré majú najnižšiu hustotu:",
+        "answers": [
+          "sa tvoria v hepatocytoch",
+          "transportujú v krvi cholesterol",
+          "do obehu sa dostávajú exocytozóu",
+          "sú metabolizované lipoproteínovou lipázou"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 484,
+          "questionNumber": 484,
+          "page": 63,
+          "endPage": 64,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 9,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w09_lipoproteiny",
+          "reason": "Otázka skúša triedy, zloženie, apoproteíny alebo funkcie lipoproteínov a reverzný transport cholesterolu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 10,
+          "objectiveRefs": [
+            1,
+            4
+          ]
+        }
+      },
+      {
+        "question": "HDL častice:",
+        "answers": [
+          "ich najviac zastúpenou lipidovou zložkou sú fosfolipidy",
+          "ich súčasťou je lipoproteínová lipáza potrebná pre ich metabolizmus",
+          "je dostatočná hladina v krvi znižuje riziko aterosklerózy",
+          "sú zodpovedné za transport cholesterolu z periférnych tkanív do pečene"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 485,
+          "questionNumber": 485,
+          "page": 64,
+          "endPage": 64,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 9,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w09_lipoproteiny",
+          "reason": "Otázka skúša triedy, zloženie, apoproteíny alebo funkcie lipoproteínov a reverzný transport cholesterolu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 10,
+          "objectiveRefs": [
+            1,
+            4
+          ]
+        }
+      },
+      {
+        "question": "Pri stanovení celkového cholesterolu v sére:",
+        "answers": [
+          "cholesterol oxidáza katalyzuje reakciu oxidácie cholesterolu uvoľneného z cholesterolesterov",
+          "oxidáciou cholesterolu vzniká peroxid vodíka",
+          "treba pri interpretácii zohľadniť aj pohlavie",
+          "ak je hodnota do 5,2 mmol/l hovoríme o hypercholesterolémii"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 486,
+          "questionNumber": 486,
+          "page": 64,
+          "endPage": 64,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 9,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w09_dyslipidemie",
+          "reason": "Otázka skúša hyperlipoproteinémie, aterogénne riziko alebo vyšetrenie sérových lipidov.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 10,
+          "objectiveRefs": [
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Najvyšší obsah fosfolipidov je v:",
+        "answers": [
+          "LDL",
+          "v chylomikrónoch",
+          "nascentných HDL",
+          "IDL"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 487,
+          "questionNumber": 487,
+          "page": 64,
+          "endPage": 64,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 9,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w09_lipoproteiny",
+          "reason": "Otázka skúša triedy, zloženie, apoproteíny alebo funkcie lipoproteínov a reverzný transport cholesterolu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 10,
+          "objectiveRefs": [
+            1,
+            4
+          ]
+        }
+      },
+      {
+        "question": "Hladina TAG v sére je:",
+        "answers": [
+          "potrebná vyšetriť pri podozrení na poruchu metabolizmu lipoproteínov",
+          "závislá od veku a pohlavia",
+          "približne 1-3 mmol/l",
+          "pri hyperlipoproteinémií typu IIa výrazne zvýšená"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 488,
+          "questionNumber": 488,
+          "page": 64,
+          "endPage": 64,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 9,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w09_dyslipidemie",
+          "reason": "Otázka skúša hyperlipoproteinémie, aterogénne riziko alebo vyšetrenie sérových lipidov.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 10,
+          "objectiveRefs": [
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "O endogénnej syntéze cholesterolu platí:",
+        "answers": [
+          "ako zdroj uhlíkov pre steránový kruh sa využíva acetyl-CoA",
+          "vyžaduje GTP ako špecifický zdroj energie",
+          "hlavným regulačným enzýmom je HMG-CoA-syntáza",
+          "na subcelulárnej úrovni je lokalizovaná v cytosole a hER"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 491,
+          "questionNumber": 491,
+          "page": 64,
+          "endPage": 65,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 9,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w09_cholesterol",
+          "reason": "Otázka skúša zdroje, syntézu, reguláciu, esterifikáciu alebo fyziologické využitie cholesterolu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 10,
+          "objectiveRefs": [
+            2,
+            3
+          ]
+        }
+      },
+      {
+        "question": "Hyperlipoproteinémie:",
+        "answers": [
+          "môžu byť podľa príčiny vzniku primárne alebo sekundárne",
+          "primárneho typu sú podmienené genetickým defektom",
+          "sú sprevádzané znížením jednej alebo viacerých lipoproteínových frakcií v sére",
+          "typu IV patria medzi najmenej časté"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 492,
+          "questionNumber": 492,
+          "page": 65,
+          "endPage": 65,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 9,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w09_dyslipidemie",
+          "reason": "Otázka skúša hyperlipoproteinémie, aterogénne riziko alebo vyšetrenie sérových lipidov.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 10,
+          "objectiveRefs": [
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Medzi hlavné apoproteíny patrí:",
+        "answers": [
+          "apoproteín C",
+          "apoproteín B",
+          "apoproteín A",
+          "apoproteín D"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 493,
+          "questionNumber": 493,
+          "page": 65,
+          "endPage": 65,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 9,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w09_lipoproteiny",
+          "reason": "Otázka skúša triedy, zloženie, apoproteíny alebo funkcie lipoproteínov a reverzný transport cholesterolu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 10,
+          "objectiveRefs": [
+            1,
+            4
+          ]
+        }
+      },
+      {
+        "question": "VLDL sa syntetizujú:",
+        "answers": [
+          "v tukovom tkanive",
+          "v pečeni",
+          "v tenkom čreve",
+          "platí všetko uvedené"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 494,
+          "questionNumber": 494,
+          "page": 65,
+          "endPage": 65,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 9,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w09_lipoproteiny",
+          "reason": "Otázka skúša triedy, zloženie, apoproteíny alebo funkcie lipoproteínov a reverzný transport cholesterolu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 10,
+          "objectiveRefs": [
+            1,
+            4
+          ]
+        }
+      },
+      {
+        "question": "Obsah fosfolipidov je najvyšší v lipoproteínovej častici:",
+        "answers": [
+          "chylomikrón",
+          "VLDL",
+          "HDL",
+          "LDL"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 495,
+          "questionNumber": 495,
+          "page": 65,
+          "endPage": 65,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 9,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w09_lipoproteiny",
+          "reason": "Otázka skúša triedy, zloženie, apoproteíny alebo funkcie lipoproteínov a reverzný transport cholesterolu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 10,
+          "objectiveRefs": [
+            1,
+            4
+          ]
+        }
+      },
+      {
+        "question": "HMG-CoA reduktáza:",
+        "answers": [
+          "je enzým zúčastňujúci sa tvorby ketolátok",
+          "je lokalizovaná v endoplazmatickom retikule",
+          "jej aktívna forma je defosforylovaná",
+          "je inhibovaná glukagónom"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 499,
+          "questionNumber": 499,
+          "page": 65,
+          "endPage": 66,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 9,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w09_cholesterol",
+          "reason": "Otázka skúša zdroje, syntézu, reguláciu, esterifikáciu alebo fyziologické využitie cholesterolu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 10,
+          "objectiveRefs": [
+            2,
+            3
+          ]
+        }
+      },
+      {
+        "question": "Z cholesterolu sa syntetizuje:",
+        "answers": [
+          "progesterón",
+          "kyseliny cholová",
+          "lanosterol",
+          "cholekalciferol"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 500,
+          "questionNumber": 500,
+          "page": 66,
+          "endPage": 66,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 9,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w09_cholesterol",
+          "reason": "Otázka skúša zdroje, syntézu, reguláciu, esterifikáciu alebo fyziologické využitie cholesterolu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 10,
+          "objectiveRefs": [
+            2,
+            3
+          ]
+        }
+      },
+      {
+        "question": "Apoproteín B-100 sa nachádza v lipoproteínoch:",
+        "answers": [
+          "HDL",
+          "chylomikrón",
+          "VLDL",
+          "LDL"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 501,
+          "questionNumber": 501,
+          "page": 66,
+          "endPage": 66,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 9,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w09_lipoproteiny",
+          "reason": "Otázka skúša triedy, zloženie, apoproteíny alebo funkcie lipoproteínov a reverzný transport cholesterolu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 10,
+          "objectiveRefs": [
+            1,
+            4
+          ]
+        }
+      },
+      {
+        "question": "LDL častice:",
+        "answers": [
+          "syntetizujú sa v extrahepatálnych tkanivách",
+          "sú častice s veľmi nízkou hustotou",
+          "sú zodpovedné za reverzný transport cholesterolu",
+          "obsahujú vo svojej štruktúre apoproteín A"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 502,
+          "questionNumber": 502,
+          "page": 66,
+          "endPage": 66,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 9,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w09_lipoproteiny",
+          "reason": "Otázka skúša triedy, zloženie, apoproteíny alebo funkcie lipoproteínov a reverzný transport cholesterolu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 10,
+          "objectiveRefs": [
+            1,
+            4
+          ]
+        }
+      },
+      {
+        "question": "Elektroforeticky je možné stanoviť:",
+        "answers": [
+          "VLDL",
+          "HDL",
+          "chylomikróny",
+          "LDL"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 503,
+          "questionNumber": 503,
+          "page": 66,
+          "endPage": 66,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 9,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w09_lipoproteiny",
+          "reason": "Otázka skúša triedy, zloženie, apoproteíny alebo funkcie lipoproteínov a reverzný transport cholesterolu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 10,
+          "objectiveRefs": [
+            1,
+            4
+          ]
+        }
+      },
+      {
+        "question": "HMG-CoA reduktáza:",
+        "answers": [
+          "je inhibovaná inzulínom",
+          "fosforylovaná je neaktívna",
+          "defosforylovaná je aktívna",
+          "je aktivovaná glukagónom"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 506,
+          "questionNumber": 506,
+          "page": 66,
+          "endPage": 66,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 9,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w09_cholesterol",
+          "reason": "Otázka skúša zdroje, syntézu, reguláciu, esterifikáciu alebo fyziologické využitie cholesterolu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 10,
+          "objectiveRefs": [
+            2,
+            3
+          ]
+        }
+      },
+      {
+        "question": "Pre cholesterol platí:",
+        "answers": [
+          "patrí medzi jednoduché lipidy",
+          "je polárny",
+          "esterifikovaný sa nachádza v lipoproteínoch",
+          "je potrebný pre syntézu vitamínu D"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 507,
+          "questionNumber": 507,
+          "page": 66,
+          "endPage": 67,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 9,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w09_cholesterol",
+          "reason": "Otázka skúša zdroje, syntézu, reguláciu, esterifikáciu alebo fyziologické využitie cholesterolu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 10,
+          "objectiveRefs": [
+            2,
+            3
+          ]
+        }
+      },
+      {
+        "question": "Základnou zložkou VLDL sú:",
+        "answers": [
+          "fosfolipidy",
+          "exogénny a endogénny cholesterol",
+          "endogénne TAG",
+          "exogénne TAG"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 510,
+          "questionNumber": 510,
+          "page": 67,
+          "endPage": 67,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 9,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w09_lipoproteiny",
+          "reason": "Otázka skúša triedy, zloženie, apoproteíny alebo funkcie lipoproteínov a reverzný transport cholesterolu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 10,
+          "objectiveRefs": [
+            1,
+            4
+          ]
+        }
+      },
+      {
+        "question": "Pri elektroforetickom delení lipoproteínov sa v beta-frakcii nachádzajú:",
+        "answers": [
+          "VLDL",
+          "LDL",
+          "chylomikróny",
+          "HDL"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 511,
+          "questionNumber": 511,
+          "page": 67,
+          "endPage": 67,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 9,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w09_lipoproteiny",
+          "reason": "Otázka skúša triedy, zloženie, apoproteíny alebo funkcie lipoproteínov a reverzný transport cholesterolu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 10,
+          "objectiveRefs": [
+            1,
+            4
+          ]
+        }
+      },
+      {
+        "question": "Hladina celkového cholesterolu v krvi:",
+        "answers": [
+          "je vyššia u žien ako mužov",
+          "je ovplyvnená vekom",
+          "je vyššia u dospelých ako u detí",
+          "sa stanovuje enzymaticky"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 512,
+          "questionNumber": 512,
+          "page": 67,
+          "endPage": 67,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 9,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w09_dyslipidemie",
+          "reason": "Otázka skúša hyperlipoproteinémie, aterogénne riziko alebo vyšetrenie sérových lipidov.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 10,
+          "objectiveRefs": [
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "HDL častice:",
+        "answers": [
+          "obsahujú najviac cholesterolu zo všetkých lipoproteínov",
+          "transportujú cholesterol z pečene do tkanív",
+          "sú substrátom pre LCAT",
+          "podieľajú sa na vzniku aterosklerózy"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 517,
+          "questionNumber": 517,
+          "page": 68,
+          "endPage": 68,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 9,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w09_lipoproteiny",
+          "reason": "Otázka skúša triedy, zloženie, apoproteíny alebo funkcie lipoproteínov a reverzný transport cholesterolu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 10,
+          "objectiveRefs": [
+            1,
+            4
+          ]
+        }
+      },
+      {
+        "question": "Apoproteín C:",
+        "answers": [
+          "jeho deficit spôsobuje zvýšenie hladiny chylomikrónov",
+          "aktivuje lipoproteínovú lipázu",
+          "nachádza sa vo VLDL časticiach",
+          "je aktivátorom hormónsenzitívnej lipázy"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 518,
+          "questionNumber": 518,
+          "page": 68,
+          "endPage": 68,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 9,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w09_lipoproteiny",
+          "reason": "Otázka skúša triedy, zloženie, apoproteíny alebo funkcie lipoproteínov a reverzný transport cholesterolu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 10,
+          "objectiveRefs": [
+            1,
+            4
+          ]
+        }
+      },
+      {
+        "question": "Pre hyperlipoproteinémiu typ IV platí:",
+        "answers": [
+          "je najčastejšie vyskytujúci sa typ v našej populácii",
+          "ide o zvýšenú hladinu exogénnych TAG v krvi",
+          "ide o dominantné zvýšenie beta frakcie na elektroforeograme",
+          "v krvi výrazne stúpa hladina VLDL"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 519,
+          "questionNumber": 519,
+          "page": 68,
+          "endPage": 68,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 9,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w09_dyslipidemie",
+          "reason": "Otázka skúša hyperlipoproteinémie, aterogénne riziko alebo vyšetrenie sérových lipidov.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 10,
+          "objectiveRefs": [
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Cholesterol je potrebný na syntézu:",
+        "answers": [
+          "aldosterónu",
+          "lanosterolu",
+          "vitamínu D",
+          "kortizolu"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 521,
+          "questionNumber": 521,
+          "page": 68,
+          "endPage": 68,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 9,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w09_cholesterol",
+          "reason": "Otázka skúša zdroje, syntézu, reguláciu, esterifikáciu alebo fyziologické využitie cholesterolu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 10,
+          "objectiveRefs": [
+            2,
+            3
+          ]
+        }
+      },
+      {
+        "question": "Hladina celkového cholesterolu v krvi:",
+        "answers": [
+          "je vyššia u žien ako u mužov",
+          "je ovplyvnená vekom",
+          "je vyššia u dospelých ako u detí",
+          "sa stanovuje enzymaticky"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 523,
+          "questionNumber": 523,
+          "page": 69,
+          "endPage": 69,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 9,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w09_dyslipidemie",
+          "reason": "Otázka skúša hyperlipoproteinémie, aterogénne riziko alebo vyšetrenie sérových lipidov.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 10,
+          "objectiveRefs": [
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "HMG-CoA reduktáza:",
+        "answers": [
+          "je dôležitým regulačným enzýmom syntézy cholesterolu",
+          "fosforylovaná je aktívna",
+          "jej aktivita je inhibovaná cholesterolom",
+          "je aktivovaná inzulínom"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 524,
+          "questionNumber": 524,
+          "page": 69,
+          "endPage": 69,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 9,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w09_cholesterol",
+          "reason": "Otázka skúša zdroje, syntézu, reguláciu, esterifikáciu alebo fyziologické využitie cholesterolu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 10,
+          "objectiveRefs": [
+            2,
+            3
+          ]
+        }
+      },
+      {
+        "question": "HDL-cholesterol:",
+        "answers": [
+          "je transportovaný z tkanív do pečene",
+          "podieľa sa na vzniku aterosklerózy",
+          "pri elektroforetickom delení sa nachádza v α-frakcii",
+          "sa v jadre HDL častice nachádza ako ester cholesterolu"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 526,
+          "questionNumber": 526,
+          "page": 69,
+          "endPage": 69,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 9,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w09_lipoproteiny",
+          "reason": "Otázka skúša triedy, zloženie, apoproteíny alebo funkcie lipoproteínov a reverzný transport cholesterolu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 10,
+          "objectiveRefs": [
+            1,
+            4
+          ]
+        }
+      },
+      {
+        "question": "O reverznom transporte cholesterolu platí:",
+        "answers": [
+          "podieľa sa na udržiavaní hladiny cholesterolu v bunkách",
+          "umožňuje transport cholesterolu do pečene",
+          "uskutočňuje ho LDL",
+          "ide o transport cholesterolu z pečene do buniek"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 528,
+          "questionNumber": 528,
+          "page": 69,
+          "endPage": 69,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 9,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w09_lipoproteiny",
+          "reason": "Otázka skúša triedy, zloženie, apoproteíny alebo funkcie lipoproteínov a reverzný transport cholesterolu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 10,
+          "objectiveRefs": [
+            1,
+            4
+          ]
+        }
+      },
+      {
+        "question": "Zvýšená hladina TAG v krvi môže byť vyvolaná:",
+        "answers": [
+          "zníženou aktivitou LPL",
+          "zvýšeným príjmom sacharidov v potrave",
+          "zvýšenou tvorbou apoproteínu C",
+          "zníženou funkciou štítnej žľazy"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 529,
+          "questionNumber": 529,
+          "page": 69,
+          "endPage": 69,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 9,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w09_dyslipidemie",
+          "reason": "Otázka skúša hyperlipoproteinémie, aterogénne riziko alebo vyšetrenie sérových lipidov.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 10,
+          "objectiveRefs": [
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Cholesterol:",
+        "answers": [
+          "je zložený lipid",
+          "patrí medzi steroidné látky",
+          "esterifikovaný je stavebnou zložkou membrán",
+          "v nadbytku inhibuje HMG-CoA reduktázu"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 532,
+          "questionNumber": 532,
+          "page": 70,
+          "endPage": 70,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 9,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w09_cholesterol",
+          "reason": "Otázka skúša zdroje, syntézu, reguláciu, esterifikáciu alebo fyziologické využitie cholesterolu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 10,
+          "objectiveRefs": [
+            2,
+            3
+          ]
+        }
+      },
+      {
+        "question": "Medzi funkcie lipoproteínov patrí:",
+        "answers": [
+          "LDL zabezpečuje reverzný transport cholesterolu",
+          "HDL zabezpečuje reverzný transport cholesterolu",
+          "aktivácia hormónsenzitívnej lipázy",
+          "aktivácia lipoproteínovej lipázy"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 533,
+          "questionNumber": 533,
+          "page": 70,
+          "endPage": 70,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 9,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w09_lipoproteiny",
+          "reason": "Otázka skúša triedy, zloženie, apoproteíny alebo funkcie lipoproteínov a reverzný transport cholesterolu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 10,
+          "objectiveRefs": [
+            1,
+            4
+          ]
+        }
+      },
+      {
+        "question": "Apoproteín A sa nenachádza v:",
+        "answers": [
+          "HDL",
+          "chylomikrónoch",
+          "VLDL",
+          "LDL"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 538,
+          "questionNumber": 538,
+          "page": 70,
+          "endPage": 71,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 9,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w09_lipoproteiny",
+          "reason": "Otázka skúša triedy, zloženie, apoproteíny alebo funkcie lipoproteínov a reverzný transport cholesterolu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 10,
+          "objectiveRefs": [
+            1,
+            4
+          ]
+        }
+      },
+      {
+        "question": "Jadro lipoproteínových častíc obsahuje:",
+        "answers": [
+          "fosfolipidy",
+          "VKK",
+          "cholesterol",
+          "TAG"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 539,
+          "questionNumber": 539,
+          "page": 71,
+          "endPage": 71,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 9,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w09_lipoproteiny",
+          "reason": "Otázka skúša triedy, zloženie, apoproteíny alebo funkcie lipoproteínov a reverzný transport cholesterolu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 10,
+          "objectiveRefs": [
+            1,
+            4
+          ]
+        }
+      },
+      {
+        "question": "Na syntézu cholesterolu je potrebný enzým:",
+        "answers": [
+          "Acyl-CoA dehydrogenáza",
+          "Acetyl-CoA karboxyláza",
+          "HMG-CoA reduktáza",
+          "cholesterol syntáza"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 542,
+          "questionNumber": 542,
+          "page": 71,
+          "endPage": 71,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 9,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w09_cholesterol",
+          "reason": "Otázka skúša zdroje, syntézu, reguláciu, esterifikáciu alebo fyziologické využitie cholesterolu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 10,
+          "objectiveRefs": [
+            2,
+            3
+          ]
+        }
+      },
+      {
+        "question": "Alfa-lipoproteínom zodpovedajú:",
+        "answers": [
+          "VLDL",
+          "LDL",
+          "HDL",
+          "chylomikróny"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 545,
+          "questionNumber": 545,
+          "page": 71,
+          "endPage": 71,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 9,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w09_lipoproteiny",
+          "reason": "Otázka skúša triedy, zloženie, apoproteíny alebo funkcie lipoproteínov a reverzný transport cholesterolu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 10,
+          "objectiveRefs": [
+            1,
+            4
+          ]
+        }
+      },
+      {
+        "question": "Fyziologické hodnoty triacylglycerolov v krvnej plazme sú okolo:",
+        "answers": [
+          "3-5 mmol/l",
+          "1-2 mmol/l",
+          "0,5-3,5 µmol/l",
+          "0,5-2 mol/l"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 546,
+          "questionNumber": 546,
+          "page": 71,
+          "endPage": 72,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 9,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w09_dyslipidemie",
+          "reason": "Otázka skúša hyperlipoproteinémie, aterogénne riziko alebo vyšetrenie sérových lipidov.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 10,
+          "objectiveRefs": [
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Cholesterol:",
+        "answers": [
+          "východzou látkou pre jeho syntézu je acetyl-CoA",
+          "sa nachádza vo forme esterov v jadre lipoproteínových častíc",
+          "jeho odbúraním vznikajú žlčové kyseliny",
+          "jeho hladina v plazme je asi 3-5 mmol.l-1"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 552,
+          "questionNumber": 552,
+          "page": 72,
+          "endPage": 72,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 9,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w09_cholesterol",
+          "reason": "Otázka skúša zdroje, syntézu, reguláciu, esterifikáciu alebo fyziologické využitie cholesterolu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 10,
+          "objectiveRefs": [
+            2,
+            3
+          ]
+        }
+      },
+      {
+        "question": "Hladiny TAG v sére:",
+        "answers": [
+          "sú približne 1-3 mmol.l-1",
+          "je potrebné vyšetriť pri podozrení na poruchu v metabolizme lipoproteínov",
+          "sa stanovujú po štandardnej príprave pacienta",
+          "sú pri hyperlipoproteinémii II.a zvýšené"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 555,
+          "questionNumber": 555,
+          "page": 73,
+          "endPage": 73,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 9,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w09_dyslipidemie",
+          "reason": "Otázka skúša hyperlipoproteinémie, aterogénne riziko alebo vyšetrenie sérových lipidov.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 10,
+          "objectiveRefs": [
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Protektívny efekt pri rozvoji aterosklerózy je spojený s:",
+        "answers": [
+          "účinkom enzýmu lecitín - cholesterol acyltransferázy",
+          "antisklerotickým efektom LDL častíc",
+          "esterifikáciou cholesterolu",
+          "transportom cholesterolu časticami HDL do pečene"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 561,
+          "questionNumber": 561,
+          "page": 73,
+          "endPage": 73,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 9,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w09_lipoproteiny",
+          "reason": "Otázka skúša triedy, zloženie, apoproteíny alebo funkcie lipoproteínov a reverzný transport cholesterolu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 10,
+          "objectiveRefs": [
+            1,
+            4
+          ]
+        }
+      },
+      {
+        "question": "Sekundárne hyperlipoproteinémie:",
+        "answers": [
+          "sú podmienené genetickým defektom v metabolizme lipidov",
+          "sprevádzajú iné základné ochorenia",
+          "sa pri obezite nevyskytujú",
+          "často sa objavujú pri diabete"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 563,
+          "questionNumber": 563,
+          "page": 74,
+          "endPage": 74,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 9,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w09_dyslipidemie",
+          "reason": "Otázka skúša hyperlipoproteinémie, aterogénne riziko alebo vyšetrenie sérových lipidov.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 10,
+          "objectiveRefs": [
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "question": "Prenos cholesterolu z periférnych tkanív do pečene:",
+        "answers": [
+          "označujeme ako reverzný transport cholesterolu",
+          "zabezpečujú LDL častice",
+          "sa uskutočňuje pomocou VLDL častíc",
+          "súvisí s antisklerotickým efektom HDL"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 570,
+          "questionNumber": 570,
+          "page": 75,
+          "endPage": 75,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 9,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w09_lipoproteiny",
+          "reason": "Otázka skúša triedy, zloženie, apoproteíny alebo funkcie lipoproteínov a reverzný transport cholesterolu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 10,
+          "objectiveRefs": [
+            1,
+            4
+          ]
+        }
+      },
+      {
+        "question": "Lipoproteíny sa môžu deliť:",
+        "answers": [
+          "ultracentrifugáciou",
+          "gélovou filtráciou podľa hustoty",
+          "elektroforézou podľa pohyblivosti v elektrickom poli",
+          "všetkými uvedenými metódami"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 571,
+          "questionNumber": 571,
+          "page": 75,
+          "endPage": 75,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 9,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w09_lipoproteiny_dalsie",
+          "reason": "Otázka skúša rozdelenie a štruktúru lipoproteínov, apoproteíny, LDL receptory alebo reverzný transport cholesterolu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 10,
+          "objectiveRefs": [
+            1,
+            2,
+            4
+          ]
+        }
+      },
+      {
+        "question": "Apoproteíny:",
+        "answers": [
+          "majú úlohu pri transporte lipoproteínových častíc",
+          "A resp. B sú považované za hlavné apoproteíny",
+          "sú dôležité pri aktivácii niektorých enzýmov metabolizmu lipoproteínov",
+          "majú význam pri väzbe lipoproteínov na špecifické receptory"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 577,
+          "questionNumber": 577,
+          "page": 75,
+          "endPage": 75,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 9,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w09_lipoproteiny_dalsie",
+          "reason": "Otázka skúša rozdelenie a štruktúru lipoproteínov, apoproteíny, LDL receptory alebo reverzný transport cholesterolu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 10,
+          "objectiveRefs": [
+            1,
+            2,
+            4
+          ]
+        }
+      },
+      {
+        "question": "Reverzný transport cholesterolu je:",
+        "answers": [
+          "zabezpečovaný LDL časticami",
+          "zodpovedný za antisklerotický efekt VLDL",
+          "prenos esterifikovaného cholesterolu do pečene",
+          "transport produktu reakcie katalyzovanej s LCAT"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 579,
+          "questionNumber": 579,
+          "page": 76,
+          "endPage": 76,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 9,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w09_lipoproteiny_dalsie",
+          "reason": "Otázka skúša rozdelenie a štruktúru lipoproteínov, apoproteíny, LDL receptory alebo reverzný transport cholesterolu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 10,
+          "objectiveRefs": [
+            1,
+            2,
+            4
+          ]
+        }
+      },
+      {
+        "question": "Hyperlipoproteinémie:",
+        "answers": [
+          "môžu byť podľa príčin vzniku primárne alebo sekundárne",
+          "sú sprevádzané zvýšením niektorých lipoproteínových frakcií séra",
+          "sú závažným rizikovým faktorom vzniku aterosklerózy",
+          "sekundárneho typu sú podmienené genetickým defektom"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 584,
+          "questionNumber": 584,
+          "page": 76,
+          "endPage": 76,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 9,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w09_dyslipidemie_584",
+          "reason": "Otázka priamo skúša primárne a sekundárne hyperlipoproteinémie.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 10,
+          "objectiveRefs": [
+            5
+          ]
+        }
+      },
+      {
+        "question": "Regulácie vnútrobunkovej hladiny voľného cholesterolu sa zúčastňuje:",
+        "answers": [
+          "syntéza LDL receptorov",
+          "HMG-CoA reduktáza",
+          "enzým zabezpečujúci esterifikáciu cholesterolu",
+          "priamo hormónsenzitívna lipáza"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 586,
+          "questionNumber": 586,
+          "page": 77,
+          "endPage": 77,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 9,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w09_lipoproteiny_dalsie",
+          "reason": "Otázka skúša rozdelenie a štruktúru lipoproteínov, apoproteíny, LDL receptory alebo reverzný transport cholesterolu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 10,
+          "objectiveRefs": [
+            1,
+            2,
+            4
+          ]
+        }
+      },
+      {
+        "question": "Lipoproteíny s najnižšou hustotou:",
+        "answers": [
+          "sa tvoria v enterocytoch tenkého čreva",
+          "do obehu sa dostávajú endocytózou",
+          "transportujú exogénne TAG",
+          "ich syntéza prebieha v adipocytoch"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 587,
+          "questionNumber": 587,
+          "page": 77,
+          "endPage": 77,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 9,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w09_lipoproteiny_dalsie",
+          "reason": "Otázka skúša rozdelenie a štruktúru lipoproteínov, apoproteíny, LDL receptory alebo reverzný transport cholesterolu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 10,
+          "objectiveRefs": [
+            1,
+            2,
+            4
+          ]
+        }
+      },
+      {
+        "question": "Regulácia hladiny intracelulárneho cholesterolu:",
+        "answers": [
+          "súvisí so syntézou LDL receptorov",
+          "závisí od aktivity HMG-CoA reduktázy",
+          "vyžaduje zvýšenú syntézu HDL receptorov",
+          "je ovplyvňovaná aj aktivitou acyl-CoA cholesterolacyltransferázy"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 592,
+          "questionNumber": 592,
+          "page": 77,
+          "endPage": 77,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 9,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w09_lipoproteiny_dalsie",
+          "reason": "Otázka skúša rozdelenie a štruktúru lipoproteínov, apoproteíny, LDL receptory alebo reverzný transport cholesterolu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 10,
+          "objectiveRefs": [
+            1,
+            2,
+            4
+          ]
+        }
+      },
+      {
+        "question": "V štruktúre lipoproteínových častíc:",
+        "answers": [
+          "TAG sú umiestnené na povrchu",
+          "hydrofóbne zložky sa nachádzajú vo vnútri",
+          "fosfolipidy sú v povrchových častiach",
+          "esterifikovaný cholesterol je v jadre"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 600,
+          "questionNumber": 600,
+          "page": 78,
+          "endPage": 78,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 9,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w09_lipoproteiny_dalsie",
+          "reason": "Otázka skúša rozdelenie a štruktúru lipoproteínov, apoproteíny, LDL receptory alebo reverzný transport cholesterolu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 10,
+          "objectiveRefs": [
+            1,
+            2,
+            4
+          ]
+        }
+      },
+      {
+        "question": "Lipoproteíny s veľmi nízkou hustotou:",
+        "answers": [
+          "sa syntetizujú v pečeni",
+          "tvoria sa v tenkom čreve",
+          "transportujú endogénne TAG",
+          "môžu sa meniť na HDL častice"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 602,
+          "questionNumber": 602,
+          "page": 79,
+          "endPage": 79,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 9,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w09_lipoproteiny_dalsie",
+          "reason": "Otázka skúša rozdelenie a štruktúru lipoproteínov, apoproteíny, LDL receptory alebo reverzný transport cholesterolu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 10,
+          "objectiveRefs": [
+            1,
+            2,
+            4
+          ]
+        }
+      },
+      {
+        "question": "Apoproteín B je:",
+        "answers": [
+          "potrebný pre aktiváciu hormónsenzitívnej lipázy",
+          "nutný na viazanie HDL častíc na receptory",
+          "aktivátorom enzýmu LCAT",
+          "nevyhnutný pre väzbu LDL častíc na receptory"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 603,
+          "questionNumber": 603,
+          "page": 79,
+          "endPage": 79,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 9,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w09_lipoproteiny_dalsie",
+          "reason": "Otázka skúša rozdelenie a štruktúru lipoproteínov, apoproteíny, LDL receptory alebo reverzný transport cholesterolu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 10,
+          "objectiveRefs": [
+            1,
+            2,
+            4
+          ]
+        }
+      },
+      {
+        "question": "Väzba LDL na receptor:",
+        "answers": [
+          "umožňuje ju hociktorý z apoproteínov",
+          "je zabezpečovaná prítomnosťou apo B",
+          "je dôležitá z hľadiska transportu TAG do pečene",
+          "je podmienená aktiváciou enzýmu LCAT"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 609,
+          "questionNumber": 609,
+          "page": 79,
+          "endPage": 79,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 9,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w09_lipoproteiny_dalsie",
+          "reason": "Otázka skúša rozdelenie a štruktúru lipoproteínov, apoproteíny, LDL receptory alebo reverzný transport cholesterolu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 10,
+          "objectiveRefs": [
+            1,
+            2,
+            4
+          ]
+        }
+      },
+      {
+        "question": "Enzým LCAT:",
+        "answers": [
+          "je syntetizovaný v pečeni",
+          "reguluje endogénnu tvorbu cholesterolu",
+          "ako substrát využíva cholín",
+          "esterifikuje cholesterol prostredníctvom lecitínu"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Biochémia 1 otázky.pdf",
+          "sequence": 611,
+          "questionNumber": 611,
+          "page": 80,
+          "endPage": 80,
+          "answerLabels": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        "curriculum": {
+          "week": 9,
+          "relatedWeeks": [],
+          "candidateWeeks": [],
+          "topicGroup": "w09_lipoproteiny_dalsie",
+          "reason": "Otázka skúša rozdelenie a štruktúru lipoproteínov, apoproteíny, LDL receptory alebo reverzný transport cholesterolu.",
+          "curriculumFile": "VL_-_Ty__z__denne___programy__ZS__2026-2027.pdf",
+          "curriculumPage": 10,
+          "objectiveRefs": [
+            1,
+            2,
+            4
+          ]
+        }
+      }
+    ]
+  }
+]
