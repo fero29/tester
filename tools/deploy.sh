@@ -121,6 +121,7 @@ deploy_server() {
     local drift
     drift="$(remote bash -s -- "$remote_dir" <<'EOF'
 set -euo pipefail
+export LC_ALL=C  # sort and comm must use the same byte order for names with diacritics
 cd -- "$1"
 [[ -f RELEASE.sha256 ]] || { echo 'MISSING RELEASE.sha256'; exit 0; }
 sha256sum -c --quiet RELEASE.sha256 2>/dev/null | sed -n 's/: FAILED.*$//p' || true
@@ -148,6 +149,7 @@ EOF
     scp -q -o BatchMode=yes "$record/release.tar.gz" "$server:tester-releases/$stamp-$tag.tar.gz"
     remote bash -s -- "$remote_dir" "$stamp" "$tag" <<'EOF' | tee "$record/server.log"
 set -euo pipefail
+export LC_ALL=C  # sort and comm must use the same byte order for names with diacritics
 dir="$1"; stamp="$2"; tag="$3"
 archive="$HOME/tester-releases/$stamp-$tag.tar.gz"
 backup="$HOME/tester-backups/$stamp-before-$tag.tar.gz"
