@@ -287,7 +287,7 @@ async function fetchAllTests() {
         // Zobraziť loading indikátor
         const testList = document.getElementById('testList');
         if (testList && tests.length === 0) {
-            testList.innerHTML = '<div style="text-align: center; padding: 40px; color: #666;"><div>⏳ Načítavam testy...</div></div>';
+            testList.innerHTML = '<div style="text-align: center; padding: 40px; color: var(--text-secondary);"><div>⏳ Načítavam testy...</div></div>';
         }
 
         // Stiahnuť testy
@@ -559,7 +559,7 @@ async function loadExistingTestsList() {
         const container = document.getElementById('existingTestsContent');
 
         if (!testsList || testsList.length === 0) {
-            container.innerHTML = '<p style="color: #999; text-align: center; font-style: italic;">Žiadne testy v priečinku</p>';
+            container.innerHTML = '<p style="color: var(--text-muted); text-align: center; font-style: italic;">Žiadne testy v priečinku</p>';
             return;
         }
 
@@ -588,7 +588,7 @@ async function loadExistingTestsList() {
                             </div>
                         </div>
                         <div style="text-align: right;">
-                            <span style="background: #2196F3; color: white; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: bold;">
+                            <span style="background: var(--primary); color: var(--on-primary); padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: bold;">
                                 ${totalQuestions} otázok
                             </span>
                         </div>
@@ -601,7 +601,7 @@ async function loadExistingTestsList() {
     } catch (error) {
         console.error('Chyba pri načítaní testov:', error);
         document.getElementById('existingTestsContent').innerHTML =
-            '<p style="color: #f44336; text-align: center;">Chyba pri načítaní zoznamu testov</p>';
+            '<p style="color: var(--danger); text-align: center;">Chyba pri načítaní zoznamu testov</p>';
     }
 }
 
@@ -619,27 +619,27 @@ async function loadFilesList() {
         const filesList = document.getElementById('filesList');
 
         if (result.error) {
-            filesList.innerHTML = `<p style="color: #f44336; font-style: italic;">${escapeHtml(result.error)}</p>`;
+            filesList.innerHTML = `<p style="color: var(--danger); font-style: italic;">${escapeHtml(result.error)}</p>`;
             return;
         }
 
         if (result.files && result.files.length > 0) {
             filesList.innerHTML = `
-                <p style="margin: 10px 0; color: #666;">Nájdené súbory v priečinku <strong>testy/</strong>:</p>
+                <p style="margin: 10px 0; color: var(--text-secondary);">Nájdené súbory v priečinku <strong>testy/</strong>:</p>
                 <ul class="files-list-items">
                     ${result.files.map(file => `<li>📄 ${escapeHtml(file)}</li>`).join('')}
                 </ul>
             `;
         } else {
             filesList.innerHTML = `
-                <p style="color: #999; font-style: italic;">Priečinok testy/ je prázdny</p>
-                <p style="margin-top: 10px; color: #666;">Vytvorte JSON súbory v priečinku <code>testy/</code></p>
+                <p style="color: var(--text-muted); font-style: italic;">Priečinok testy/ je prázdny</p>
+                <p style="margin-top: 10px; color: var(--text-secondary);">Vytvorte JSON súbory v priečinku <code>testy/</code></p>
             `;
         }
     } catch (error) {
         console.error('Chyba pri načítaní zoznamu súborov:', error);
         document.getElementById('filesList').innerHTML =
-            `<p style="color: #f44336;">Chyba: ${escapeHtml(error)}</p>`;
+            `<p style="color: var(--danger);">Chyba: ${escapeHtml(error)}</p>`;
     }
 }
 
@@ -1000,7 +1000,7 @@ function updateTimerDisplay() {
 
     // Červené zvýraznenie v poslednej minúte
     if (timeLeft < 60) {
-        document.getElementById('timer').style.color = '#f44336';
+        document.getElementById('timer').style.color = 'var(--danger)';
     }
 }
 
@@ -1528,7 +1528,7 @@ function displayProcessedAndOriginalImages() {
 
         const img = document.createElement('img');
         img.src = pageData.image;
-        img.style.cssText = 'width: 100%; border-radius: 8px; border: 2px solid #2196F3; cursor: pointer; display: block;';
+        img.style.cssText = 'width: 100%; border-radius: 8px; border: 2px solid var(--primary); cursor: pointer; display: block;';
         img.title = 'Kliknite pre zväčšenie';
         img.onclick = function() {
             const newWin = window.open('', '_blank');
@@ -1611,8 +1611,8 @@ function displayAIQuestions() {
         if (aiImportedData.totalPages > 1) {
             const pageHeader = document.createElement('div');
             pageHeader.style.cssText = `
-                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-                color: white;
+                background: var(--accent-gradient);
+                color: var(--on-primary);
                 padding: 12px 20px;
                 margin: 20px 0 10px 0;
                 border-radius: 8px;
@@ -2386,8 +2386,8 @@ function displayVocabResults() {
     // Hlavička
     const header = document.createElement('div');
     header.innerHTML = `
-        <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 15px 20px; border-radius: 8px; margin-bottom: 20px;">
-            <h3 style="margin: 0; color: white;">🔤 Rozpoznané slovíčka (${vocabImportedData.vocabulary.length})</h3>
+        <div style="background: var(--accent-gradient); color: var(--on-primary); padding: 15px 20px; border-radius: 8px; margin-bottom: 20px;">
+            <h3 style="margin: 0; color: inherit;">🔤 Rozpoznané slovíčka (${vocabImportedData.vocabulary.length})</h3>
         </div>
     `;
     container.appendChild(header);
@@ -3113,7 +3113,7 @@ function showVocabResults(results, correct, total) {
             <div class="progress-bar">
                 <div class="progress-fill" style="width: ${percentage}%"></div>
             </div>
-            ${helpUsedCount > 0 ? `<p style="margin-top: 10px; font-size: 14px; color: #ff9800;">💡 Použitá pomoc: ${helpUsedCount}x</p>` : ''}
+            ${helpUsedCount > 0 ? `<p style="margin-top: 10px; font-size: 14px; color: var(--warning);">💡 Použitá pomoc: ${helpUsedCount}x</p>` : ''}
         </div>
         <div class="results-details">
     `;
@@ -3122,7 +3122,7 @@ function showVocabResults(results, correct, total) {
         html += `
             <div class="result-item ${result.correct ? 'correct' : 'incorrect'}">
                 <strong>${index + 1}. ${escapeHtml(result.question)}</strong>
-                ${result.usedHelp ? '<span style="color: #ff9800; font-size: 12px; margin-left: 8px;">💡 pomoc</span>' : ''}
+                ${result.usedHelp ? '<span style="color: var(--warning); font-size: 12px; margin-left: 8px;">💡 pomoc</span>' : ''}
                 <div class="result-details">
         `;
 

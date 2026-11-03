@@ -39,7 +39,7 @@
                 </div>
             </div>
             <div id="testList">
-                <div id="loadingIndicator" style="text-align: center; padding: 40px; color: #666;">
+                <div id="loadingIndicator" style="text-align: center; padding: 40px; color: var(--text-secondary);">
                     <div style="font-size: 1.2em; margin-bottom: 10px;">⏳ Načítavam testy...</div>
                 </div>
             </div>
@@ -53,6 +53,7 @@
                 <h3>🆕 Novinky v1.9.0</h3>
                 <ul>
                     <li>Pod každou otázkou v teste je tlačidlo <strong>Nahlásiť problém s touto otázkou</strong> (nesprávny kľúč, chyba v texte alebo vo vysvetlení, s voliteľnou poznámkou). Hlásenia vidí správca na samostatnej stránke.</li>
+                    <li>Nový farebný dizajn: jedna hlavná farba pre tlačidlá a výber, zelená a červená iba pre správne a nesprávne odpovede, jednotné farby vo svetlom aj tmavom režime.</li>
                 </ul>
             </div>
             <div class="help-section">
@@ -585,9 +586,9 @@
                 <p class="import-info">✓ Jednoducho vložte JSON súbory do priečinka <code>testy/</code> a obnovte stránku</p>
 
                 <div id="existingTestsList" style="margin-top: 20px;">
-                    <h4 style="margin-bottom: 10px; color: #2196F3;">📚 Testy v priečinku:</h4>
+                    <h4 style="margin-bottom: 10px; color: var(--primary);">📚 Testy v priečinku:</h4>
                     <div id="existingTestsContent" class="existing-tests-content">
-                        <p style="color: #666; text-align: center;">Načítavam...</p>
+                        <p style="color: var(--text-secondary); text-align: center;">Načítavam...</p>
                     </div>
                 </div>
 
@@ -654,7 +655,7 @@
             <div id="aiStep1" class="ai-step" style="display: none;">
                 <div class="ai-section">
                     <h3>1. Nahrajte fotografiu otázok</h3>
-                    <p class="ai-import-subtitle" style="font-size: 0.9em; color: #666;">💡 Môžete nahrať aj viac fotiek naraz</p>
+                    <p class="ai-import-subtitle" style="font-size: 0.9em; color: var(--text-secondary);">💡 Môžete nahrať aj viac fotiek naraz</p>
                     <input type="file" id="aiImageInput" accept="image/*" multiple onchange="previewImages(this)">
                     <div id="imagePreview" style="display: none; margin-top: 20px;">
                         <div id="previewContainer" style="display: flex; gap: 10px; flex-wrap: wrap;"></div>
@@ -697,7 +698,7 @@
             <div id="aiStep1Vocab" class="ai-step" style="display: none;">
                 <div class="ai-section">
                     <h3>1. Nahrajte fotografiu slovíčok</h3>
-                    <p class="ai-import-subtitle" style="font-size: 0.9em; color: #666;">💡 Môžete nahrať aj viac strán naraz</p>
+                    <p class="ai-import-subtitle" style="font-size: 0.9em; color: var(--text-secondary);">💡 Môžete nahrať aj viac strán naraz</p>
                     <input type="file" id="aiVocabImageInput" accept="image/*" multiple onchange="previewVocabImages(this)">
                     <div id="vocabImagePreview" style="display: none; margin-top: 20px;">
                         <div id="vocabPreviewContainer" style="display: flex; gap: 10px; flex-wrap: wrap;"></div>
