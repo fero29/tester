@@ -223,4 +223,5 @@ Predvoľba Učenie zapína pomoc, automatické vysvetlenia a opakovanie, vypína
 
 - **Spustenie viacerých testov:** Zaškrtnite checkboxy pri testoch a kliknite "Spustiť vybrané testy"
 - **Štatistiky:** Pri každom teste sa zobrazujú štatistiky (absolvované, posledný výsledok, priemer)
+- **Nahlásiť problém:** Pod otázkou v teste možno nahlásiť zlý kľúč, chybu v texte alebo vo vysvetlení. Hlásenie nevyžaduje prihlásenie; správca ho vidí na stránke **Nahlásené problémy** (`/admin/reports`) spolu so súborom, v ktorom sa otázka nachádza, a označí ho ako vyriešené. Otázky sa automaticky nemenia.
 - **Prehľad učiva:** Zobrazí celý otázkový test so správnymi odpoveďami bez ukladania výsledku alebo pokroku

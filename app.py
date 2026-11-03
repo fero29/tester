@@ -164,6 +164,95 @@ def track():
     return jsonify(ok=True)
 
 
+REPORTS_FILE = DATA_DIR / 'reports.jsonl'
+REPORT_REASONS = {
+    'key': 'Nesprávny kľúč (správna odpoveď)',
+    'wording': 'Chyba v texte otázky alebo odpovede',
+    'explanation': 'Chyba v nápovede alebo vysvetlení',
+    'other': 'Iný problém',
+}
+
+
+@app.route('/api/report', methods=['POST'])
+def report_problem():
+    data = request.get_json(silent=True)
+    if not isinstance(data, dict) or data.get('reason') not in REPORT_REASONS:
+        return jsonify(error='Vyberte, o aký problém ide.'), 400
+    text_limits = (('test', 200, False), ('question', 2000, True), ('note', 1000, False))
+    for field, limit, required in text_limits:
+        value = data.get(field, '')
+        if not isinstance(value, str) or len(value) > limit or (required and not value.strip()):
+            return jsonify(error='Neplatné hlásenie.'), 400
+    answers = data.get('answers', [])
+    if (not isinstance(answers, list) or len(answers) > 20
+            or not all(isinstance(a, str) and len(a) <= 500 for a in answers)):
+        return jsonify(error='Neplatné hlásenie.'), 400
+    rec = {key: data.get(key, '') for key in ('reason', 'test', 'question', 'note')}
+    rec.update(answers=answers, id=secrets.token_hex(8), ts=datetime.now(timezone.utc).isoformat(), ip=client_ip())
+    try:
+        with EVENT_LOCK, REPORTS_FILE.open('a', encoding='utf-8') as handle:
+            handle.write(json.dumps(rec, ensure_ascii=False) + '\n')
+    except OSError:
+        app.logger.exception('Nepodarilo sa uložiť hlásenie problému')
+        return jsonify(error='Hlásenie sa nepodarilo uložiť. Skúste to neskôr.'), 503
+    return jsonify(ok=True)
+
+
+def read_reports():
+    """Reports and resolve marks share one append-only log; the latest mark wins."""
+    reports, resolved = {}, {}
+    if REPORTS_FILE.exists():
+        with REPORTS_FILE.open(encoding='utf-8') as handle:
+            for line in handle:
+                try:
+                    rec = json.loads(line)
+                except ValueError:
+                    app.logger.warning('Preskočený poškodený riadok v reports.jsonl')
+                    continue
+                if not isinstance(rec, dict):
+                    continue
+                if isinstance(rec.get('resolve'), str):
+                    resolved[rec['resolve']] = rec.get('ts', '')
+                elif isinstance(rec.get('id'), str) and isinstance(rec.get('question'), str):
+                    reports[rec['id']] = rec
+    for report_id, report in reports.items():
+        report['resolved'] = resolved.get(report_id)
+    return sorted(reports.values(), key=lambda r: str(r.get('ts', '')), reverse=True)
+
+
+@app.get('/admin/reports')
+def admin_reports():
+    if not session.get('admin'):
+        return redirect(url_for('admin_login'))
+    reports = read_reports()
+    tests, _ = store().catalog()
+    # Zlúčené testy nenesú pôvodný súbor; súbor sa dohľadá podľa textu otázky.
+    files_by_question = defaultdict(set)
+    for test in tests:
+        for question in test.get('questions') or []:
+            files_by_question[str(question.get('question', '')).strip()].add(test['filename'])
+    for report in reports:
+        report['files'] = sorted(files_by_question.get(report['question'].strip(), ()))
+        report['reason_label'] = REPORT_REASONS.get(report.get('reason'), report.get('reason'))
+    show_all = request.args.get('all') == '1'
+    visible = reports if show_all else [r for r in reports if not r['resolved']]
+    return render_template('admin_reports.html', reports=visible, show_all=show_all,
+                           open_count=sum(not r['resolved'] for r in reports))
+
+
+@app.post('/admin/reports/<report_id>/resolve')
+def resolve_report(report_id):
+    if not re.fullmatch(r'[0-9a-f]{16}', report_id) or report_id not in {r['id'] for r in read_reports()}:
+        abort(404)
+    try:
+        with EVENT_LOCK, REPORTS_FILE.open('a', encoding='utf-8') as handle:
+            handle.write(json.dumps({'resolve': report_id, 'ts': datetime.now(timezone.utc).isoformat()}) + '\n')
+    except OSError:
+        app.logger.exception('Nepodarilo sa uzavrieť hlásenie')
+        return jsonify(error='Hlásenie sa nepodarilo uzavrieť.'), 503
+    return redirect(url_for('admin_reports'))
+
+
 def _parse_ua(ua):
     """Very lightweight UA parser → (device, browser, os)."""
     ua_l = ua.lower()

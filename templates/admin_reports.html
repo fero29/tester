@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="sk">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nahlásené problémy — LFUK tester</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script>try { const t = localStorage.getItem('theme'); if (t) document.documentElement.setAttribute('data-theme', t); } catch (e) {}</script>
+</head>
+<body>
+    <main class="container reports-container">
+        <h1>Nahlásené problémy</h1>
+        <p class="settings-note">Otvorené: {{ open_count }}.
+            {% if show_all %}<a href="{{ url_for('admin_reports') }}">Iba otvorené</a>
+            {% else %}<a href="{{ url_for('admin_reports', all=1) }}">Zobraziť aj vyriešené</a>{% endif %}
+            · <a href="{{ url_for('index') }}">Späť na testy</a></p>
+        {% for r in reports %}
+        <article class="report-card{% if r.resolved %} report-resolved{% endif %}">
+            <p class="report-meta"><strong>{{ r.reason_label }}</strong> · {{ r.ts[:16].replace('T', ' ') }} UTC
+                {% if r.resolved %}· vyriešené {{ r.resolved[:10] }}{% endif %}</p>
+            <p class="report-question">{{ r.question }}</p>
+            {% if r.answers %}<ol class="report-answers" type="a">{% for a in r.answers %}<li>{{ a }}</li>{% endfor %}</ol>{% endif %}
+            {% if r.note %}<p class="report-note">„{{ r.note }}“</p>{% endif %}
+            <p class="settings-note">Spustené z: {{ r.test or '–' }}<br>
+                Súbor: {{ r.files | join(', ') if r.files else 'otázka sa v súčasných testoch nenašla (možno už bola upravená)' }}</p>
+            {% if not r.resolved %}
+            <form method="post" action="{{ url_for('resolve_report', report_id=r.id) }}">
+                <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+                <button type="submit" class="btn-secondary btn-small">Označiť ako vyriešené</button>
+            </form>
+            {% endif %}
+        </article>
+        {% else %}
+        <p>Žiadne {{ '' if show_all else 'otvorené ' }}hlásenia.</p>
+        {% endfor %}
+    </main>
+</body>
+</html>

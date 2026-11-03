@@ -471,3 +471,47 @@ function showResults(timedOut = false) {
             ${practiceAnswersHTML(q, states[i], true, true)}
             ${practiceExplanationHTML(q, settings.explanations)}</div>`).join('')}`;
 }
+
+// Hlásenie problému s aktuálnou otázkou. Server dohľadá zdrojový súbor podľa textu otázky.
+function openReportDialog() {
+    const question = currentTest && currentTest.questions[currentQuestionIndex];
+    if (!question) return;
+    const form = document.getElementById('reportForm');
+    form.reset();
+    document.getElementById('reportQuestion').textContent = question.question;
+    document.getElementById('reportStatus').textContent = '';
+    document.getElementById('reportSubmit').disabled = false;
+    document.getElementById('reportDialog').showModal();
+}
+
+function closeReportDialog() {
+    document.getElementById('reportDialog').close();
+}
+
+async function sendReport(event) {
+    event.preventDefault();
+    const question = currentTest && currentTest.questions[currentQuestionIndex];
+    const status = document.getElementById('reportStatus');
+    const submit = document.getElementById('reportSubmit');
+    const form = new FormData(event.target);
+    submit.disabled = true;
+    status.textContent = 'Odosielam…';
+    try {
+        const response = await fetch('/api/report', {
+            method: 'POST',
+            headers: {'Content-Type': 'application/json'},
+            body: JSON.stringify({
+                reason: form.get('reason'), note: (form.get('note') || '').trim(),
+                test: currentTest.title || '', question: question.question,
+                answers: (question.answers || []).map(String),
+            }),
+        });
+        const result = await response.json().catch(() => ({}));
+        if (!response.ok) throw new Error(result.error || 'Hlásenie sa nepodarilo odoslať.');
+        status.textContent = 'Ďakujeme, hlásenie bolo odoslané správcovi.';
+        setTimeout(closeReportDialog, 1500);
+    } catch (error) {
+        status.textContent = error.message;
+        submit.disabled = false;
+    }
+}

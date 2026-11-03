@@ -15,6 +15,7 @@ def client(tmp_path, monkeypatch):
         module.rate_limiter.entries.clear()
     module.app.extensions['test_store'] = JsonStore(tmp_path / 'testy', tmp_path / 'data')
     monkeypatch.setattr(module, 'EVENTS_FILE', tmp_path / 'data' / 'events.jsonl')
+    monkeypatch.setattr(module, 'REPORTS_FILE', tmp_path / 'data' / 'reports.jsonl')
     return module.app.test_client()
 
 
@@ -139,3 +140,26 @@ def test_image_preprocessing_and_rotation(advanced):
     result = Image.open(module.preprocess_image(source, advanced=advanced, rotation=90))
     assert result.format == 'JPEG'
     assert result.height > result.width
+
+
+def test_problem_report_is_public_validated_and_resolvable(client):
+    report = {'reason': 'key', 'test': 'Zlúčené testy (2)', 'question': 'Otázka', 'answers': ['A', 'B'],
+              'note': '<script>x</script>'}
+    for bad in ({**report, 'reason': 'iné'}, {**report, 'question': ' '}, {**report, 'answers': 'A'},
+                {**report, 'note': 'x' * 1001}, []):
+        assert client.post('/api/report', json=bad).status_code == 400
+    assert client.post('/api/report', json=report).status_code == 200
+    assert client.get('/admin/reports').status_code == 302
+    headers = login(client)
+    test = {'title': 'Zdroj', 'questions': [{'question': 'Otázka', 'answers': ['A', 'B'], 'correct': 0}]}
+    upload = client.post('/api/import', headers=headers, data={'file': (io.BytesIO(json.dumps(test).encode()), 'x.json')})
+    assert upload.status_code == 200
+    page = client.get('/admin/reports').get_data(as_text=True)
+    assert 'Zdroj.json' in page and 'Nesprávny kľúč' in page
+    assert '<script>x</script>' not in page
+    report_id = re.search(r'/admin/reports/([0-9a-f]{16})/resolve', page).group(1)
+    csrf = headers['X-CSRF-Token']
+    assert client.post(f'/admin/reports/{report_id}/resolve', data={'csrf_token': csrf}).status_code == 302
+    assert client.post('/admin/reports/0000000000000000/resolve', data={'csrf_token': csrf}).status_code == 404
+    assert 'Žiadne otvorené hlásenia' in client.get('/admin/reports').get_data(as_text=True)
+    assert 'Označiť ako vyriešené' not in client.get('/admin/reports?all=1').get_data(as_text=True)

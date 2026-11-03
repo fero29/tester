@@ -24,6 +24,7 @@
                     <button onclick="showAIImportPage()" class="btn-ai-import btn-small">🤖 AI Import</button>
                     <button onclick="showImportPage()" class="btn-small">Import JSON</button>
                     <a href="/admin/stats" class="admin-link btn-secondary btn-small">Štatistiky návštev</a>
+                    <a href="/admin/reports" class="admin-link btn-secondary btn-small">Nahlásené problémy</a>
                     <form action="/admin/logout" method="post" class="logout-form">
                         <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
                         <button type="submit" class="btn-secondary btn-small">Odhlásiť</button>
@@ -48,6 +49,12 @@
         <div id="versionPage" style="display: none;">
             <h2>ℹ️ LFUK tester v{{ app_version }}</h2>
 
+            <div class="help-section">
+                <h3>🆕 Novinky v1.9.0</h3>
+                <ul>
+                    <li>Pod každou otázkou v teste je tlačidlo <strong>Nahlásiť problém s touto otázkou</strong> (nesprávny kľúč, chyba v texte alebo vo vysvetlení, s voliteľnou poznámkou). Hlásenia vidí správca na samostatnej stránke.</li>
+                </ul>
+            </div>
             <div class="help-section">
                 <h3>🆕 Novinky v1.8.2–1.8.3</h3>
                 <ul>
@@ -503,6 +510,7 @@
                     </li>
                     <li>Kliknite <strong>Spustiť</strong>. Pre čítanie všetkých riešení použite <strong>Prehľad učiva</strong>.</li>
                     <li>Po teste sa vždy zobrazí výsledok; jeho uloženie závisí od nastavení. Pomoc a opakovanie neprepíšu pôvodný pokus.</li>
+                    <li>Ak je v otázke chyba (zlá správna odpoveď, preklep, chybné vysvetlenie), klikni pod ňou na <strong>Nahlásiť problém s touto otázkou</strong>. Hlásenie dostane správca.</li>
                 </ol>
             </div>
 
@@ -1088,6 +1096,7 @@
             </div>
             <div id="questionContainer"></div>
             <p id="practiceSessionNote" class="settings-note" aria-live="polite"></p>
+            <button type="button" class="btn-link report-open" onclick="openReportDialog()">⚠️ Nahlásiť problém s touto otázkou</button>
             <div class="navigation">
                 <button onclick="previousQuestion()" id="prevBtn">Predchádzajúca</button>
                 <span id="questionNumber"></span>
@@ -1113,6 +1122,28 @@
             <button onclick="backToList()">Späť na zoznam</button>
         </div>
     </div>
+
+    <!-- Hlásenie chyby v otázke -->
+    <dialog id="reportDialog" class="report-dialog" aria-labelledby="reportDialogTitle">
+        <form id="reportForm" onsubmit="sendReport(event)">
+            <h3 id="reportDialogTitle">Nahlásiť problém s otázkou</h3>
+            <p id="reportQuestion" class="settings-note"></p>
+            <fieldset>
+                <legend>O aký problém ide?</legend>
+                <label><input type="radio" name="reason" value="key" required> Nesprávny kľúč (správna odpoveď)</label>
+                <label><input type="radio" name="reason" value="wording"> Chyba v texte otázky alebo odpovede</label>
+                <label><input type="radio" name="reason" value="explanation"> Chyba v nápovede alebo vysvetlení</label>
+                <label><input type="radio" name="reason" value="other"> Iný problém</label>
+            </fieldset>
+            <label for="reportNote">Poznámka (nepovinné, napr. zdroj alebo čo má byť správne)</label>
+            <textarea id="reportNote" name="note" maxlength="1000" rows="3" class="ai-input"></textarea>
+            <p id="reportStatus" class="settings-note" role="status"></p>
+            <div class="report-actions">
+                <button type="submit" id="reportSubmit">Odoslať</button>
+                <button type="button" class="btn-secondary" onclick="closeReportDialog()">Zavrieť</button>
+            </div>
+        </form>
+    </dialog>
 
     <!-- Theme Toggle Button -->
     <button class="theme-toggle" onclick="toggleTheme()" title="Prepnúť svetlý/tmavý režim">

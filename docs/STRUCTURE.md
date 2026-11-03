@@ -67,7 +67,7 @@ tester/
 | Kód aplikácie | tri Python moduly, `static/`, `templates/` | áno |
 | Technické kontroly | `tests/` | áno |
 | Používateľské testy | `testy/`; lokálne kópie `.local/testy/`, LAN `.local/lan/testy/` | `testy/` áno (bez PDF), kópie nie |
-| Eventy a automatické zálohy zápisov | `data/`, lokálne `.local/data/`, LAN `.local/lan/data/` | nie |
+| Eventy, hlásenia problémov (`reports.jsonl`) a automatické zálohy zápisov | `data/`, lokálne `.local/data/`, LAN `.local/lan/data/` | nie |
 | Nové podklady pred spracovaním a rozpracované úlohy | `work/` | iba README; obsah zálohovať samostatne |
 | PDF a fotografie | `sources/` | nie; samostatne zálohovať |
 | Historické testy z pôvodných záloh | `archive/` | áno; nie sú aktívny katalóg |

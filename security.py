@@ -50,6 +50,11 @@ def init_security(app):
             if not limiter.allow(('track', request.remote_addr), 120):
                 return jsonify(error='Príliš veľa požiadaviek.'), 429
             return None
+        if request.path == '/api/report':
+            # Verejné hlásenie chyby v otázke; prísnejší limit proti zahlteniu.
+            if not limiter.allow(('report', request.remote_addr), 10, 600):
+                return jsonify(error='Príliš veľa hlásení. Skúste to neskôr.'), 429
+            return None
         # Prihlásenie je jediný zápisový endpoint dostupný neprihlásenému.
         if request.path != '/admin/login' and not session.get('admin'):
             return jsonify(error='Na úpravu testov sa prihláste ako správca.'), 401

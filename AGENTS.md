@@ -75,7 +75,7 @@ Kód je zabudovaný v image: editácia súboru sama nezmení bežiaci kontajner.
 - Osobné výsledky sú v localStorage pre konkrétny prehliadač a origin. Serverové štatistiky návštev sú samostatné eventy v `data/`. Jeden pokus má jeden výsledok; opakovanie chybných odpovedí ho nesmie počítať znova. Vypršanie času ukončí test aj slovíčka.
 - Otázkové testy majú jedno spustenie s upraviteľnými predvoľbami. Štatistiky a plánovanie učenia sú nezávislé prepínače. Odkrytie riešenia nie je správny pokus; nezodpovedané a výslovne zvolená „Žiadna z možností“ sa rozlišujú. Potvrdené odpovede s feedbackom zostávajú zamknuté aj pri návrate.
 - Pomôcky `learning` sa zobrazujú len v stave `reviewed`; editor pri zmene otázky/kľúča stav vráti do `draft`. `explanation.byAnswer` sa mieša s odpoveďami. Osobný pokrok patrí do `learningProgress`, nie do spoločného JSON testu; úplný kontrakt je v README.
-- Zápisy vyžadujú správcu a CSRF; `/api/track` je validovaná verejná výnimka s limitom. Text testov escapuj aj v HTML atribútoch. Správne odpovede sú verejné pre samoštúdium.
+- Zápisy vyžadujú správcu a CSRF; `/api/track` a `/api/report` sú validované verejné výnimky s limitom. Text testov escapuj aj v HTML atribútoch. Správne odpovede sú verejné pre samoštúdium.
 - Runtime používa Gunicorn 1 worker / 4 vlákna. Limit AI a zámok event logu sú procesové; počet workerov nemeň bez zodpovedajúcej synchronizácie. Kontajner beží bez roota a s read-only koreňom, zapisuje iba do dát a `/tmp`.
 - AI import je voliteľný, momentálne Claude Sonnet 4.6, jedna súbežná požiadavka. Extrakčné skripty nespúšťaj hromadne: niektoré volajú platené API alebo aktivujú testy. Najprv prečítaj konkrétny skript a jeho cesty.
 

@@ -249,6 +249,23 @@ const fixture = {
         await click('[data-answer-index="0"]'); await click('#confirmAnswerBtn');
         await check('Question, hint and explanation HTML are escaped; unsafe source omitted', '!window.practiceInjected && !document.querySelector("#questionContainer img") && !document.querySelector("#questionContainer a[href^=javascript]")');
 
+        // Hlásenie problému: odoslanie je zachytené v stránke, server nič nezapíše.
+        await start({}, [fixture.questions[0]]);
+        await evaluate(`window.reportSent = null; window.realFetch = window.fetch;
+            window.fetch = (url, options) => url === '/api/report'
+                ? (window.reportSent = JSON.parse(options.body), Promise.resolve(new Response('{"ok":true}', {status: 200})))
+                : window.realFetch(url, options);`);
+        await click('.report-open');
+        await check('Report dialog opens with the current question', "document.getElementById('reportDialog').open && document.getElementById('reportQuestion').textContent === 'Jedna správna možnosť'");
+        await click('#reportSubmit');
+        await check('Report requires a reason', '!window.reportSent');
+        await click('#reportForm input[value="key"]');
+        await evaluate("document.getElementById('reportNote').value = '  Má byť B  '");
+        await click('#reportSubmit');
+        await waitFor('window.reportSent && document.getElementById("reportStatus").textContent.startsWith("Ďakujeme")');
+        await check('Report carries question, answers, reason and trimmed note', "reportSent.reason === 'key' && reportSent.note === 'Má byť B' && reportSent.question === 'Jedna správna možnosť' && reportSent.answers.length === 3");
+        await evaluate('window.fetch = window.realFetch; closeReportDialog()');
+
         // Mobil aj desktop, svetlá aj tmavá téma. Obrázky zostanú v dočasnom adresári.
         for (const width of [390, 1440]) for (const theme of ['light', 'dark']) {
             await send('Emulation.setDeviceMetricsOverride', {width, height: 1000, deviceScaleFactor: 1, mobile: width < 600});
@@ -261,6 +278,10 @@ const fixture = {
             await click('[data-answer-index="0"]'); await click('#confirmAnswerBtn');
             await check(`Question fits viewport ${width}/${theme}`, 'document.documentElement.scrollWidth <= document.documentElement.clientWidth');
             await snap(`question-${width}-${theme}`);
+            await click('.report-open');
+            await check(`Report dialog fits viewport ${width}/${theme}`, 'document.documentElement.scrollWidth <= document.documentElement.clientWidth');
+            await snap(`report-${width}-${theme}`);
+            await evaluate('closeReportDialog()');
         }
 
         await start({statistics: true, learning: true}, [fixture.questions[0]]);

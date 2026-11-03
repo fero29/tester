@@ -132,7 +132,7 @@ tar -tzf tester-backup-YYYYMMDD-HHMM.tar.gz
 
 Tento archív obsahuje prevádzkové dáta. Pre úplnú zálohu pracovného projektu pribaľte aj `work/`, `sources/`, `tools/out/`, `tools/pages/` a prípadné lokálne dáta; uchovajte tiež kód a históriu Gitu. Archív a `.env` uložte bezpečne aj mimo hostiteľského disku. Git ich neobsahuje. Pred aktualizáciou si ponechajte aj predchádzajúcu verziu zdrojového kódu alebo image. Záloha aplikácie neobsahuje osobné výsledky uložené v prehliadači.
 
-Automatické zálohy každého zápisu sú v `data/backups/<čas>-<akcia>-<id>/<pôvodný názov>.json`. Sú to pôvodné bajty vrátane všetkých metadát. Neprerezávajú sa automaticky. Aktívny analytický log sa otáča pri 10 MB, staré súbory zostávajú; dashboard zobrazuje posledných najviac 50 000 udalostí z aktívneho súboru. Sledujte voľné miesto a zálohy odnášajte mimo disku.
+Automatické zálohy každého zápisu sú v `data/backups/<čas>-<akcia>-<id>/<pôvodný názov>.json`. Sú to pôvodné bajty vrátane všetkých metadát. Neprerezávajú sa automaticky. Aktívny analytický log sa otáča pri 10 MB, staré súbory zostávajú; dashboard zobrazuje posledných najviac 50 000 udalostí z aktívneho súboru. Hlásenia problémov s otázkami sú v `data/reports.jsonl`; vyriešenie sa iba dopíše ako ďalší riadok, nič sa nemaže. Sledujte voľné miesto a zálohy odnášajte mimo disku.
 
 ## Obnova a presun na iný PC
 
@@ -154,7 +154,7 @@ Obnova jednotlivého odstráneného testu: skopírujte vybranú revíziu z `data
 
 ## Čo chráni Git
 
-Git sleduje kód, dokumentáciu vrátane `work/README.md`, konfigurácie bez tajomstiev, `examples/`, `tools/imports/` a historické kópie v `archive/`. Aktuálne `testy/`, `data/`, `sources/`, obsah `work/` okrem README, `.env*` okrem vzoru, `.local/` a pracovné výstupy nástrojov sú ignorované.
+Git sleduje kód, dokumentáciu vrátane `work/README.md`, konfigurácie bez tajomstiev, `examples/`, `tools/imports/` a historické kópie v `archive/`. PDF v `testy/`, `data/`, `sources/`, obsah `work/` okrem README, `.env*` okrem vzoru, `.local/` a pracovné výstupy nástrojov sú ignorované.
 
 - Zmena uložená v súbore ešte nie je v histórii; treba commit.
 - Lokálny commit stále žije na hostiteľskom disku. Push vytvorí kópiu kódu na vzdialenom repozitári, nepošle ignorované dáta.
