@@ -20,7 +20,7 @@
     "293": {"correct": [], "note": "Modrý krížik pri b a ručné opravy počtu ATP."},
     "294": {"correct": [0], "defer": "Modrý krížik pri c a oprava lokalizácie pri b; kľúč vyžaduje kontrolu."},
     "297": {"correct": [], "note": "Modrý krížik pri c a ručná oprava počtu ATP."},
-    "320": {"correct": [0, 1, 2], "note": "Dve červené bodky a modrá bodka pri c; zachované podľa zdroja."},
+    "320": {"correct": [0, 1], "note": "Červené bodky a/b sú tlačený kľúč; modrá bodka pri c je ručná poznámka, nie kľúč (oprava 2026-11-05, potvrdené tlačenými kľúčmi ot. 254, 326, 343)."},
     "337": {"correct": [1, 3], "note": "Vizuálne potvrdené modré bodky pri b/d."},
     "342": {"defer": "Označená možnosť d má ručne opravený energetický výťažok."},
     "345": {"correct": [3], "note": "Modrá šípka pri a nie je označenie správnej odpovede; bodka je pri d."},
