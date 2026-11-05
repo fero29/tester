@@ -1,7 +1,7 @@
 [
   {
-    "title": "histológia zubári",
-    "description": "Otázky zo zbierky \"Histologia ZL 2. zápočet\" (336 otázok) — iba témy krv, nervové tkanivo, svalové tkanivo a embryológia úvod (notochord, neurálna rúra). Texty doslovne z PDF.",
+    "title": "Histológia – 2. zápočet – zubné lekárstvo",
+    "description": "Pravda alebo nepravda zo zbierky pre zubné lekárstvo: nervové a svalové tkanivo, kosť a chrupka, krv.",
     "category": "Histológia",
     "questions": [
       {
@@ -1614,6 +1614,10 @@
           1
         ]
       }
-    ]
+    ],
+    "previousTitles": [
+      "histológia zubári"
+    ],
+    "sortOrder": 3
   }
 ]

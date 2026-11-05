@@ -1,9 +1,10 @@
 [
   {
-    "title": "Test – Na zaradenie",
-    "description": "Obličkové funkcie, biosyntéza kreatínu, metabolizmus mastných kyselín a otázky s nejasným týždenným zaradením.",
+    "title": "Biochémia – Otázky mimo týždňov",
+    "description": "Obličky, biosyntéza kreatínu, metabolizmus mastných kyselín a otázky, ktoré presahujú viac týždňov.",
     "previousTitles": [
-      "Biochémia 1 - Na zaradenie"
+      "Biochémia 1 - Na zaradenie",
+      "Test – Na zaradenie"
     ],
     "year": 2,
     "category": "Biochémia",

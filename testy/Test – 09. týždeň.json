@@ -1,12 +1,13 @@
 [
   {
-    "title": "Test – 09. týždeň",
+    "title": "Biochémia – 09. týždeň – Lipoproteíny a cholesterol",
     "description": "Lipoproteíny, apoproteíny, cholesterol, LDL a HDL, hyperlipoproteinémie a vyšetrenia krvných lipidov.",
     "year": 2,
     "category": "Biochémia",
     "sortOrder": 9,
     "previousTitles": [
-      "Biochémia 1 - Týždeň 09 - Lipoproteíny a cholesterol"
+      "Biochémia 1 - Týždeň 09 - Lipoproteíny a cholesterol",
+      "Test – 09. týždeň"
     ],
     "questions": [
       {

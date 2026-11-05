@@ -1,6 +1,6 @@
 [
   {
-    "description": "Formy vstupu DNA, Vektory a rekombinančne techniky",
+    "description": "Prirodzený a experimentálny vstup DNA do bunky, plazmidové a vírusové vektory, CRISPR–Cas a génová terapia.",
     "questions": [
       {
         "answers": [
@@ -914,6 +914,10 @@
         "pageNumber": 6
       }
     ],
-    "title": "Kapitola 12"
+    "title": "Biológia – Kapitola 12 – Prenos DNA, vektory a génová terapia",
+    "previousTitles": [
+      "Kapitola 12"
+    ],
+    "sortOrder": 12
   }
 ]

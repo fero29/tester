@@ -185,7 +185,7 @@ Fotky sa spracujú postupne a otázky sa spoja do jedného návrhu testu. Pred u
 ### Absolvovanie testu
 
 1. Vyberte test alebo zlúčte viac otázkových testov.
-2. Použite predvoľbu **Učenie**, **Tréning** alebo **Skúška**, prípadne nastavte všetky voľby samostatne. Nastavenia si prehliadač pamätá.
+2. Použite predvoľbu **Učenie**, **Tréning** alebo **Skúška** a výber otázok; ostatné voľby sú v rozbaľovacej časti **Ďalšie nastavenia**. Nastavenia si prehliadač pamätá.
 3. Nastavte výber otázok, miešanie otázok/odpovedí, čas, nápovedy, okamih vyhodnotenia, vysvetlenia a opakovanie.
 4. Osobitne zvoľte **Započítať výsledok do štatistík** a **Použiť odpovede na plánovanie učenia**. Potom kliknite **Spustiť**.
 5. Po vyhodnotení už odpoveď nemožno meniť. „Žiadna z možností“ je výslovná odpoveď; „Neviem / preskočiť“ a odkryté riešenie sa počítajú ako neúspešný pokus.

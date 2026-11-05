@@ -1,12 +1,13 @@
 [
   {
-    "title": "Test – 10. týždeň",
+    "title": "Biochémia – 10. týždeň – Metabolizmus aminokyselín",
     "description": "Transaminácia, deaminácia a dekarboxylácia aminokyselín, ALT a AST, glutamín a transport amoniaku.",
     "year": 2,
     "category": "Biochémia",
     "sortOrder": 10,
     "previousTitles": [
-      "Biochémia 1 - Týždeň 10 - Metabolizmus aminokyselín"
+      "Biochémia 1 - Týždeň 10 - Metabolizmus aminokyselín",
+      "Test – 10. týždeň"
     ],
     "questions": [
       {

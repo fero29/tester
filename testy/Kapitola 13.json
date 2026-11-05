@@ -1,6 +1,6 @@
 [
   {
-    "description": "Vzťahy medzi mikro a makroorganizmami",
+    "description": "Baktérie, vírusy a prvoky, patogenita a infekcie, antimikrobiálne látky a rezistencia.",
     "questions": [
       {
         "answers": [
@@ -852,6 +852,10 @@
         "question": "60. Priraď ochorenie k pôvodcovi:"
       }
     ],
-    "title": "Kapitola 13"
+    "title": "Biológia – Kapitola 13 – Mikroorganizmy a makroorganizmus",
+    "previousTitles": [
+      "Kapitola 13"
+    ],
+    "sortOrder": 13
   }
 ]

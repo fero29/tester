@@ -1,7 +1,7 @@
 [
   {
-    "title": "histo zápočet Moodle",
-    "description": "Otázky z 3 Moodle/Forms screenshot PDF-iek — len tie, ktoré nie sú v existujúcich histo testoch",
+    "title": "Histológia – 2. zápočet – Moodle, doplnok 2",
+    "description": "Pravda alebo nepravda z Moodle: svalové a nervové tkanivo, krv, kosť. Iba otázky, ktoré nie sú v ostatných testoch zápočtu.",
     "category": "Histológia",
     "questions": [
       {
@@ -284,6 +284,10 @@
           1
         ]
       }
-    ]
+    ],
+    "previousTitles": [
+      "histo zápočet Moodle"
+    ],
+    "sortOrder": 5
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
-    "title": "Kapitola 10",
-    "description": "Proteosyntéza",
+    "title": "Biológia – Kapitola 10 – Proteosyntéza",
+    "description": "Stavba génu, transkripcia a RNA polymerázy, úprava mRNA, ribozómy, translácia a regulácia génovej expresie.",
     "questions": [
       {
         "answers": [
@@ -1098,6 +1098,10 @@
         "question": "Ktoré tvrdenia sú správne o stop kodónoch?",
         "pageNumber": 10
       }
-    ]
+    ],
+    "previousTitles": [
+      "Kapitola 10"
+    ],
+    "sortOrder": 10
   }
 ]

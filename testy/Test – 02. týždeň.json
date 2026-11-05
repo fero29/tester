@@ -1,12 +1,13 @@
 [
   {
-    "title": "Test – 02. týždeň",
+    "title": "Biochémia – 02. týždeň – Transportné systémy",
     "description": "Difúzia, aktívny transport, membránové ATP-ázy, transport Ca²⁺, exocytóza a metabolické člnky.",
     "year": 2,
     "category": "Biochémia",
     "sortOrder": 2,
     "previousTitles": [
-      "Biochémia 1 - Týždeň 02 - Transportné systémy"
+      "Biochémia 1 - Týždeň 02 - Transportné systémy",
+      "Test – 02. týždeň"
     ],
     "questions": [
       {

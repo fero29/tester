@@ -1,7 +1,7 @@
 [
   {
-    "title": "Kapitola 11",
-    "description": "Metódy v molekulovej genetike - Omiky",
+    "title": "Biológia – Kapitola 11 – Metódy molekulovej genetiky a omiky",
+    "description": "Izolácia DNA, restrikčné enzýmy, elektroforéza, sekvenovanie, mikročipy, SNP a omiky (proteomika, metabolomika a ďalšie).",
     "questions": [
       {
         "answers": [
@@ -996,6 +996,10 @@
         "question": "Aký typ molekúl je hlavným predmetom skúmania v glykomike?",
         "pageNumber": 9
       }
-    ]
+    ],
+    "previousTitles": [
+      "Kapitola 11"
+    ],
+    "sortOrder": 11
   }
 ]

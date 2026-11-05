@@ -1,12 +1,13 @@
 [
   {
-    "title": "Test – 05. týždeň",
+    "title": "Biochémia – 05. týždeň – Glykogén a krátkodobé hladovanie",
     "description": "Syntéza a degradácia glykogénu, hormonálna regulácia, pečeňový a svalový glykogén, krátkodobé hladovanie.",
     "year": 2,
     "category": "Biochémia",
     "sortOrder": 5,
     "previousTitles": [
-      "Biochémia 1 - Týždeň 05 - Glykogén a krátkodobé hladovanie"
+      "Biochémia 1 - Týždeň 05 - Glykogén a krátkodobé hladovanie",
+      "Test – 05. týždeň"
     ],
     "questions": [
       {

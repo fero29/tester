@@ -1,7 +1,7 @@
 [
   {
-    "title": "foto moodle pdf",
-    "description": "Otázky zo zápočetného PDF (zápočet LS 2, 395 strán screenshotov). Filtrované: len krv, nervové tkanivo, svalové tkanivo a embryológia úvod (notochord, neurálna rúra). Nezahrnuté otázky, ktoré sú už v iných existujúcich histo testoch. Vylúčené Vision chyby a sporné OCR. Spolu 38 otázok.",
+    "title": "Histológia – 2. zápočet – Moodle, doplnok 1",
+    "description": "Pravda alebo nepravda z Moodle: krv, svalové a nervové tkanivo, kosť, embryológia. Iba otázky, ktoré nie sú v ostatných testoch zápočtu.",
     "category": "Histológia",
     "questions": [
       {
@@ -384,6 +384,10 @@
           1
         ]
       }
-    ]
+    ],
+    "previousTitles": [
+      "foto moodle pdf"
+    ],
+    "sortOrder": 4
   }
 ]

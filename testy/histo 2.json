@@ -1,7 +1,7 @@
 [
   {
-    "title": "histo 2",
-    "description": "Histológia 2 — 260 otázok pravda/nepravda (Quizlet set _h842bm)",
+    "title": "Histológia – 2. zápočet – tvrdenia s opravou, sada 2",
+    "description": "Krv, svalové a nervové tkanivo, kosť a chrupka, embryológia. Pri nepravdivom tvrdení vyber aj správnu opravu.",
     "questions": [
       {
         "question": "trombocyty majú tmavé ovalné jadro",
@@ -3124,6 +3124,10 @@
         ]
       }
     ],
-    "category": "Histológia"
+    "category": "Histológia",
+    "previousTitles": [
+      "histo 2"
+    ],
+    "sortOrder": 2
   }
 ]

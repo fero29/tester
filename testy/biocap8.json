@@ -1,7 +1,7 @@
 [
   {
-    "title": "biocap8",
-    "description": "",
+    "title": "Biológia – Kapitola 8 – Štruktúra DNA a RNA",
+    "description": "Stavba nukleových kyselín, Chargaffovo pravidlo, formy DNA, repetitívne a nekódujúce sekvencie, mtDNA, plazmidy a typy RNA.",
     "questions": [
       {
         "answers": [
@@ -648,6 +648,10 @@
         "positionPercent": 75,
         "question": "Aký je typický tvar transferovej RNA (tRNA) v priestore?"
       }
-    ]
+    ],
+    "previousTitles": [
+      "biocap8"
+    ],
+    "sortOrder": 8
   }
 ]

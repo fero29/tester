@@ -1,7 +1,7 @@
 [
   {
-    "title": "histo zápočet foto",
-    "description": "Otázky z 14 fotiek z Moodle testu — extrahované cez Vision API (preverené texty)",
+    "title": "Histológia – 2. zápočet – Moodle, doplnok 3",
+    "description": "Pravda alebo nepravda z Moodle: krv, svalové a nervové tkanivo, embryológia. Iba otázky, ktoré nie sú v ostatných testoch zápočtu.",
     "category": "Histológia",
     "questions": [
       {
@@ -304,6 +304,10 @@
           1
         ]
       }
-    ]
+    ],
+    "previousTitles": [
+      "histo zápočet foto"
+    ],
+    "sortOrder": 6
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
-    "title": "histológia 2 zápočet",
-    "description": "200 pravda/nepravda otázok (Quizlet set _jgvon0)",
+    "title": "Histológia – 2. zápočet – tvrdenia, sada 1",
+    "description": "Pravda alebo nepravda: krv, nervové a svalové tkanivo, embryológia a kosť.",
     "questions": [
       {
         "question": "V šedej hmote CNS sa nachádzajú aj nemyelinizované axóny, protoplazmatické astrocyty a mikroglia.",
@@ -2004,6 +2004,10 @@
         ]
       }
     ],
-    "category": "Histológia"
+    "category": "Histológia",
+    "previousTitles": [
+      "histológia 2 zápočet"
+    ],
+    "sortOrder": 1
   }
 ]

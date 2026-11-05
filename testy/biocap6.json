@@ -1,7 +1,7 @@
 [
   {
-    "title": "Bio CAP 6",
-    "description": "zapocet biologia cap6 od",
+    "title": "Biológia – Kapitola 6 – Bunkové kultúry",
+    "description": "Kultivácia a pasážovanie buniek, kultivačné médiá, rastová krivka a testy viability (MTT, Alamar Blue, LDH, trypánová modrá).",
     "questions": [
       {
         "answers": [
@@ -374,6 +374,10 @@
         "positionPercent": 75,
         "question": "Ktorý prístup je založený na sledovaní zmien elektrického odporu bunkovej vrstvy počas rastu a proliferácie?"
       }
-    ]
+    ],
+    "previousTitles": [
+      "Bio CAP 6"
+    ],
+    "sortOrder": 6
   }
 ]

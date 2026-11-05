@@ -1,7 +1,7 @@
 [
   {
-    "title": "Bio CAP 9",
-    "description": "",
+    "title": "Biológia – Kapitola 9 – Replikácia DNA",
+    "description": "Priebeh replikácie, vedúce a zaostávajúce vlákno, DNA polymerázy, SSB proteíny a beta svorka.",
     "questions": [
       {
         "answers": [
@@ -100,6 +100,10 @@
         "positionPercent": 95,
         "question": "Ktoré procesy prebiehajú na zaostávajúcom vlákne počas replikácie?"
       }
-    ]
+    ],
+    "previousTitles": [
+      "Bio CAP 9"
+    ],
+    "sortOrder": 9
   }
 ]

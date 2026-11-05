@@ -1,12 +1,13 @@
 [
   {
-    "title": "Test – 01. týždeň",
+    "title": "Biochémia – 01. týždeň – Kompartmentácia, biologické oxidácie a makroergické zlúčeniny",
     "description": "Kompartmentácia bunky, biologické oxidácie, makroergické väzby, ATP, kreatínfosfát a laktátdehydrogenáza.",
     "year": 2,
     "category": "Biochémia",
     "sortOrder": 1,
     "previousTitles": [
-      "Biochémia 1 - Týždeň 01 - Kompartmentácia, biologické oxidácie a makroergické zlúčeniny"
+      "Biochémia 1 - Týždeň 01 - Kompartmentácia, biologické oxidácie a makroergické zlúčeniny",
+      "Test – 01. týždeň"
     ],
     "questions": [
       {

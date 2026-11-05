@@ -1,7 +1,7 @@
 [
   {
-    "title": "Latincina 5.",
-    "description": "Latinské slovíčka - Latincina 5.",
+    "title": "Latinčina – 5. časť – slovíčka",
+    "description": "Podstatné a prídavné mená s genitívom a rodom.",
     "testType": "vocabulary",
     "vocabulary": [
       {
@@ -748,6 +748,10 @@
         "gender": "",
         "pageNumber": 1
       }
-    ]
+    ],
+    "previousTitles": [
+      "Latincina 5."
+    ],
+    "sortOrder": 5
   }
 ]

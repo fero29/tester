@@ -1,8 +1,8 @@
 [
   {
-    "title": "Chémia A",
+    "title": "Chémia – Lekárska chémia, časť A",
     "category": "Chémia",
-    "description": "Lekárska chémia VL+ZL — strany 11–164 PDF. Multi-agent Vision extrakcia (3 nezávislé čítania + konsenzus). 79 overených otázok; 53 na kontrolu; 4 non-kvíz; 18 nespracovaných (limit).",
+    "description": "Roztoky a pH, indukčný efekt, organické kyseliny a biomolekuly: aminokyseliny, lipidy, sacharidy, enzýmy a vitamíny.",
     "questions": [
       {
         "question": "Kladný indukčný efekt majú atómy alebo atómové skupiny:",
@@ -1054,6 +1054,9 @@
           3
         ]
       }
+    ],
+    "previousTitles": [
+      "Chémia A"
     ]
   }
 ]
