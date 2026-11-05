@@ -54,6 +54,14 @@
             <h2>ℹ️ LFUK tester v{{ app_version }}</h2>
 
             <div class="help-section">
+                <h3>🆕 Novinky v1.10.0</h3>
+                <ul>
+                    <li>Nový typ testu <strong>Úlohy na písanie</strong>: zadanie vzorca alebo reakcie, ukážka ručne písaného riešenia a vlastné hodnotenie.</li>
+                    <li>Histológia: testy zo zbierky katedry pre všetky týždne 2. ročníka a pre kapitoly 1. ročníka.</li>
+                    <li>Biochémia: úlohy na písanie z kariet „Tvorivé otázky“ rozdelené podľa týždňov.</li>
+                </ul>
+            </div>
+            <div class="help-section">
                 <h3>🆕 Novinky v1.9.2</h3>
                 <ul>
                     <li>Biochémia, 4. týždeň: opravený kľúč otázky „Laktátdehydrogenáza je aktívna“ (s možnosťou o pečeni). Správne sú iba možnosti o erytrocytoch a svaloch; pečeň laktát v Coriho cykle spotrebúva, netvorí ho.</li>
@@ -541,6 +549,16 @@
                     <li>Zaškrtni políčka pri viacerých otázkových testoch (slovíčkové testy sa spúšťajú samostatne)</li>
                     <li>Hore sa objaví tlačidlo <strong>"Spustiť vybrané testy"</strong></li>
                     <li>Otázky zo všetkých vybraných testov sa zlúčia do jedného behu</li>
+                </ul>
+            </div>
+
+            <div class="help-section">
+                <h3>✍️ Úlohy na písanie (vzorce a reakcie)</h3>
+                <ul>
+                    <li>Testy „Úlohy na písanie“ precvičujú otvorené otázky kontrolných testov, napr. napísať vzorec alebo reakciu</li>
+                    <li>Riešenie napíš na papier, klikni <strong>Ukázať riešenie</strong> a porovnaj ho s ručne písanou ukážkou; ťuknutím ju zväčšíš</li>
+                    <li>Potom sám označ <strong>Vedel(a) som</strong> alebo <strong>Nevedel(a) som</strong>. Na konci si môžeš zopakovať úlohy, ktoré si nevedel(a); opakovanie sa do štatistík nezapočítava</li>
+                    <li>Ukážky sú študentské poznámky, nie oficiálny kľúč. Ak úloha na strane ukážky chýba, autor ju nevypracoval</li>
                 </ul>
             </div>
 
@@ -1148,6 +1166,8 @@
             <div id="learnModeContainer"></div>
             <button onclick="backToList()">Späť na zoznam</button>
         </div>
+        <!-- Úlohy na písanie s vlastnou kontrolou -->
+        <div id="selfCheckInterface" class="selfcheck" style="display: none;"></div>
     </div>
 
     <!-- Hlásenie chyby v otázke -->

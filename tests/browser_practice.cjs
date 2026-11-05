@@ -125,7 +125,7 @@ const fixture = {
         for (let n = 0; n < 100 && pageLoads === loadsBeforeReload; n++) await sleep(100);
         assert.ok(pageLoads > loadsBeforeReload, 'Reload completed');
         await waitFor("typeof PRACTICE_DEFAULTS !== 'undefined' && tests.length > 0");
-        await evaluate('showTestSettings(tests.findIndex(t => t.questions))');
+        await evaluate('showTestSettings(tests.findIndex(t => t.questions && !t.testType))');
         await check('Custom settings survive reload', 'readPracticeSettings().hints && readPracticeSettings().statistics && readPracticeSettings().repeat');
 
         await start({feedback: 'end', statistics: false, learning: false});
@@ -289,6 +289,21 @@ const fixture = {
         await finishCorrect();
         await check('Storage failure does not prevent results or claim success', 'practice.finished && practice.storageErrors.length === 2 && !document.getElementById("resultsContainer").textContent.includes("Výsledok započítaný")');
         await evaluate('Storage.prototype.setItem = window.originalStorageSet');
+
+        // Úlohy na písanie: syntetický test v pamäti stránky, bez zápisu na server.
+        await evaluate(`backToList(); tests.push({title: 'Kontrola úloh na písanie', testType: 'selfcheck', questions: [
+            {question: 'Napíšte vzorec ATP.', solutionImages: ['neexistuje.jpg'], solutionNote: 'Úloha 25.'},
+            {question: 'Napíšte vzorec ADP.'}]}); localStorage.removeItem('testResults'); showTestSettings(tests.length - 1)`);
+        await check('Self-check hides solution until reveal', "document.getElementById('selfCheckInterface').style.display === 'block' && !document.querySelector('.selfcheck-solution') && document.querySelector('.selfcheck-task').textContent.includes('ATP')");
+        await evaluate('revealSelfCheck()');
+        await check('Self-check shows solution image and note', "document.querySelector('.selfcheck-solution img').getAttribute('src') === '/api/assets/neexistuje.jpg' && document.querySelector('.selfcheck-solution').textContent.includes('Úloha 25.')");
+        await evaluate('answerSelfCheck(true); revealSelfCheck()');
+        await check('Self-check without image says so', "document.querySelector('.selfcheck-solution').textContent.includes('chýba')");
+        await evaluate('answerSelfCheck(false)');
+        await check('Self-check saves one result', "JSON.parse(localStorage.getItem('testResults')).length === 1 && JSON.parse(localStorage.getItem('testResults'))[0].percentage === 50 && document.getElementById('selfCheckInterface').textContent.includes('ADP')");
+        await evaluate('startSelfCheck(selfCheck.test, selfCheck.missed, true); revealSelfCheck(); answerSelfCheck(true)');
+        await check('Self-check retry is not counted again', "JSON.parse(localStorage.getItem('testResults')).length === 1");
+        await evaluate('backToList(); tests.pop()');
         await check('Server catalog unchanged', `(async () => (await (await fetch('/api/tests')).json()).length === ${catalogSize})()`);
         assert.equal(errors.length, 0, JSON.stringify(errors));
         fs.writeFileSync(path.join(output, 'results.json'), JSON.stringify({checks, errors}, null, 2));

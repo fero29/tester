@@ -10,6 +10,7 @@ import hashlib
 import json
 import math
 import os
+import re
 from pathlib import Path
 import tempfile
 import threading
@@ -62,6 +63,10 @@ def validate_learning(question):
             raise StoreError('Zdroj musí byť platný HTTP alebo HTTPS odkaz.')
 
 
+# Solution images of self-check tasks live in <tests>/assets/ and are referenced by name.
+ASSET_NAME = re.compile(r'[A-Za-z0-9][A-Za-z0-9._-]{0,99}\.(?:jpg|png)')
+
+
 def validate_tests(data):
     items = data if isinstance(data, list) else [data]
     if not items or len(items) > 1000:
@@ -78,6 +83,8 @@ def validate_tests(data):
             raise StoreError('Predchádzajúce názvy musia byť zoznam textov.')
         if 'sortOrder' in test and (type(test['sortOrder']) not in (int, float) or not math.isfinite(test['sortOrder'])):
             raise StoreError('Poradie testu musí byť konečné číslo.')
+        if test.get('testType') not in (None, 'vocabulary', 'selfcheck'):
+            raise StoreError('Neznámy typ testu.')
         vocab = test.get('testType') == 'vocabulary'
         field = 'vocabulary' if vocab else 'questions'
         entries = test.get(field)
@@ -89,6 +96,15 @@ def validate_tests(data):
                     raise StoreError('Slovíčko musí obsahovať latinský a slovenský text.')
                 if word.get('type') not in ('noun', 'adjective', 'phrase') or any(not isinstance(word.get(k, ''), str) for k in ('genitive', 'gender')):
                     raise StoreError('Neplatný typ alebo gramatika slovíčka.')
+        elif test.get('testType') == 'selfcheck':
+            for task in entries:
+                if not isinstance(task, dict) or not isinstance(task.get('question'), str) or not task['question'].strip():
+                    raise StoreError('Úloha musí mať zadanie.')
+                images = task.get('solutionImages', [])
+                if not isinstance(images, list) or len(images) > 5 or not all(isinstance(i, str) and ASSET_NAME.fullmatch(i) for i in images):
+                    raise StoreError('Obrázky riešenia musia byť zoznam názvov súborov z priečinka assets.')
+                if not isinstance(task.get('solutionNote', ''), str):
+                    raise StoreError('Poznámka k riešeniu musí byť text.')
         else:
             for question in entries:
                 if not isinstance(question, dict) or not isinstance(question.get('question'), str) or not question['question'].strip():
@@ -251,8 +267,8 @@ class TestStore:
                 if len(existing) != 1:
                     raise StoreError('Pridávanie do súboru s viacerými testami nie je podporované.')
                 target = existing[0]
-                if (target.get('testType') == 'vocabulary') != (items[0].get('testType') == 'vocabulary'):
-                    raise StoreError('Otázky a slovíčka nemožno pridať do rovnakého testu.')
+                if target.get('testType') != items[0].get('testType'):
+                    raise StoreError('Do testu možno pridať iba položky rovnakého typu.')
                 field = 'vocabulary' if target.get('testType') == 'vocabulary' else 'questions'
                 target[field].extend(items[0][field])
                 validate_tests(existing)

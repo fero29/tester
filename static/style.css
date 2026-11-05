@@ -2690,3 +2690,9 @@ button.answer:disabled { opacity: 1; cursor: default; }
 
 /* Prvky formulára v farbe témy */
 input[type="checkbox"], input[type="radio"] { accent-color: var(--primary); }
+
+/* Úlohy na písanie s vlastnou kontrolou */
+.selfcheck-task { font-size: 1.15rem; line-height: 1.5; font-weight: 600; margin: 16px 0; overflow-wrap: anywhere; }
+.selfcheck-solution { margin: 16px 0; padding: 12px; border: 1px solid var(--border-color); border-radius: 8px; background: #fff; }
+.selfcheck-solution .settings-note { color: #444; }
+.selfcheck-solution img { display: block; width: 100%; height: auto; margin: 8px 0; }

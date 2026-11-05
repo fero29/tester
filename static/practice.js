@@ -515,3 +515,77 @@ async function sendReport(event) {
         submit.disabled = false;
     }
 }
+
+// Úlohy na písanie (testType "selfcheck"): zadanie → riešenie na papier → porovnanie
+// s ukážkou → vlastné hodnotenie. Výsledok sa ukladá iba za prvý prechod testu.
+let selfCheck = null;
+
+function startSelfCheck(test, tasks = test.questions, retry = false) {
+    selfCheck = {test, tasks, retry, index: 0, known: [], revealed: false};
+    document.getElementById('selfCheckInterface').style.display = 'block';
+    if (!retry) track('test_start', {test: test.title, mode: 'selfcheck'});
+    renderSelfCheck();
+}
+
+function renderSelfCheck() {
+    const {test, tasks, index, revealed, retry} = selfCheck;
+    if (index >= tasks.length) {
+        finishSelfCheck();
+        return;
+    }
+    const task = tasks[index];
+    const images = (task.solutionImages || []).map(name => {
+        const url = `/api/assets/${encodeURIComponent(name)}`;
+        return `<a href="${url}" target="_blank" rel="noopener" title="Otvoriť vo väčšej veľkosti"><img src="${url}" alt="Ručne písané ukážkové riešenie" loading="lazy"></a>`;
+    }).join('');
+    document.getElementById('selfCheckInterface').innerHTML = `
+        <h2>${escapeHtml(test.title)}</h2>
+        <p class="settings-note">${retry ? 'Opakovanie: ' : ''}Úloha ${index + 1} / ${tasks.length}. Napíš riešenie na papier, potom ho porovnaj s ukážkou.</p>
+        <p class="selfcheck-task">${escapeHtml(task.question)}</p>
+        ${revealed ? `
+            <div class="selfcheck-solution">
+                ${task.solutionNote ? `<p class="settings-note">${escapeHtml(task.solutionNote)}</p>` : ''}
+                ${images ? images + '<p class="settings-note">Ťukni na obrázok pre zväčšenie.</p>' : '<p class="settings-note">Ukážkové riešenie k tejto úlohe chýba.</p>'}
+            </div>
+            <div class="practice-actions">
+                <button type="button" onclick="answerSelfCheck(true)">Vedel(a) som</button>
+                <button type="button" class="btn-secondary" onclick="answerSelfCheck(false)">Nevedel(a) som</button>
+            </div>` : `
+            <div class="practice-actions">
+                <button type="button" onclick="revealSelfCheck()">Ukázať riešenie</button>
+            </div>`}
+        <button type="button" class="btn-secondary" onclick="backToList()">Späť na zoznam</button>`;
+}
+
+function revealSelfCheck() {
+    selfCheck.revealed = true;
+    renderSelfCheck();
+}
+
+function answerSelfCheck(known) {
+    selfCheck.known[selfCheck.index] = known;
+    selfCheck.index++;
+    selfCheck.revealed = false;
+    renderSelfCheck();
+}
+
+function finishSelfCheck() {
+    const {test, tasks, known, retry} = selfCheck;
+    const score = known.filter(Boolean).length;
+    const percentage = Math.round(score / tasks.length * 100);
+    if (!retry) {
+        saveTestResult({testName: test.title, date: new Date().toISOString(), score, total: tasks.length, percentage, selfAssessed: true});
+        track('test_finish', {test: test.title, score, total: tasks.length, percent: percentage, mode: 'selfcheck'});
+    }
+    const missed = tasks.filter((_, i) => !known[i]);
+    selfCheck.missed = missed;
+    document.getElementById('selfCheckInterface').innerHTML = `
+        <h2>${escapeHtml(test.title)}</h2>
+        <p class="selfcheck-task">Vedel(a) si ${score} z ${tasks.length} úloh (${percentage} %).</p>
+        <p class="settings-note">Hodnotenie je vlastné, podľa porovnania s ukážkou.${retry ? ' Opakovanie sa do štatistík nezapočítava.' : ''}</p>
+        ${missed.length ? `<h3>Na zopakovanie</h3><ul>${missed.map(t => `<li>${escapeHtml(t.question)}</li>`).join('')}</ul>` : ''}
+        <div class="practice-actions">
+            ${missed.length ? '<button type="button" onclick="startSelfCheck(selfCheck.test, selfCheck.missed, true)">Zopakovať úlohy, ktoré som nevedel(a)</button>' : ''}
+            <button type="button" class="btn-secondary" onclick="backToList()">Späť na zoznam</button>
+        </div>`;
+}

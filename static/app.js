@@ -464,7 +464,7 @@ function renderTestListItem(test, index) {
 
     return `
         <div class="test-item-wrapper">
-            <input type="checkbox" class="test-checkbox" id="test-${index}" ${test.testType === 'vocabulary' ? 'disabled title="Slovíčkové testy sa spúšťajú samostatne"' : ''}
+            <input type="checkbox" class="test-checkbox" id="test-${index}" ${test.testType ? 'disabled title="Tento typ testu sa spúšťa samostatne"' : ''}
                    onchange="updateMultiTestButton()">
             <div class="test-item" onclick="showTestSettings(${index})">
                 <div class="test-main-info">
@@ -472,7 +472,7 @@ function renderTestListItem(test, index) {
                     <p>${escapeHtml(test.description || '')}</p>
                     <p><strong>${test.testType === 'vocabulary'
                         ? (test.vocabulary ? test.vocabulary.length : 0) + ' slovíčok'
-                        : (test.questions ? test.questions.length : 0) + ' otázok'}</strong></p>
+                        : (test.questions ? test.questions.length : 0) + (test.testType === 'selfcheck' ? ' úloh na písanie' : ' otázok')}</strong></p>
                 </div>
                 <div class="test-stats">
                     ${stats.count > 0 ? `
@@ -496,7 +496,7 @@ function renderTestListItem(test, index) {
                     ` : '<div class="no-stats">Zatiaľ neabsolvované</div>'}
                 </div>
             </div>
-            ${isAdmin ? `<button class="btn-edit" data-filename="${escapeHtml(filename)}" onclick="event.stopPropagation(); editTest(this.dataset.filename)" title="Upraviť test">✏️ Upraviť</button>` : ''}
+            ${isAdmin && test.testType !== 'selfcheck' ? `<button class="btn-edit" data-filename="${escapeHtml(filename)}" onclick="event.stopPropagation(); editTest(this.dataset.filename)" title="Upraviť test">✏️ Upraviť</button>` : ''}
         </div>
     `;
 }
@@ -723,8 +723,8 @@ function startMultipleTests() {
         return;
     }
 
-    if (selectedIndexes.some(index => tests[index].testType === 'vocabulary')) {
-        alert('Slovíčkové testy spúšťajte samostatne.');
+    if (selectedIndexes.some(index => tests[index].testType)) {
+        alert('Slovíčkové testy a úlohy na písanie spúšťajte samostatne.');
         return;
     }
 
@@ -759,6 +759,10 @@ function showTestSettings(index) {
     document.getElementById('testList').parentElement.style.display = 'none';
 
     // Rozlíšiť podľa typu testu
+    if (test.testType === 'selfcheck') {
+        startSelfCheck(test);
+        return;
+    }
     if (test.testType === 'vocabulary') {
         // Slovíčkový test
         document.getElementById('testSettings').style.display = 'none';
@@ -1040,6 +1044,7 @@ function backToList() {
     document.getElementById('testSettings').style.display = 'none';
     document.getElementById('vocabSettings').style.display = 'none';
     document.getElementById('vocabTestInterface').style.display = 'none';
+    document.getElementById('selfCheckInterface').style.display = 'none';
     document.getElementById('vocabLearnMode').style.display = 'none';
     document.getElementById('learnMode').style.display = 'none';
     document.getElementById('importPage').style.display = 'none';

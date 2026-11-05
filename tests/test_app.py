@@ -165,3 +165,25 @@ def test_problem_report_is_public_validated_and_resolvable(client):
     assert client.post('/admin/reports/0000000000000000/resolve', data={'csrf_token': csrf}).status_code == 404
     assert 'Žiadne otvorené hlásenia' in client.get('/admin/reports').get_data(as_text=True)
     assert 'Označiť ako vyriešené' not in client.get('/admin/reports?all=1').get_data(as_text=True)
+
+
+def test_selfcheck_tests_and_assets(client, tmp_path):
+    headers = login(client)
+    good = {'title': 'Vzorce', 'testType': 'selfcheck', 'questions': [
+        {'question': 'Napíšte vzorec ATP.', 'solutionImages': ['ukazka-1.jpg'], 'solutionNote': 'Úloha 25.'}]}
+    for bad in ({**good, 'testType': 'iny'},
+                {**good, 'questions': [{'question': 'X', 'solutionImages': ['../app.py']}]},
+                {**good, 'questions': [{'question': ' '}]}):
+        upload = client.post('/api/import', headers=headers, data={'file': (io.BytesIO(json.dumps(bad).encode()), 'x.json')})
+        assert upload.status_code == 400
+    upload = client.post('/api/import', headers=headers, data={'file': (io.BytesIO(json.dumps(good).encode()), 'v.json')})
+    assert upload.status_code == 200
+    assert client.get('/api/tests').json[0]['testType'] == 'selfcheck'
+    assets = tmp_path / 'testy' / 'assets'
+    assets.mkdir()
+    (assets / 'ukazka-1.jpg').write_bytes(b'jpeg-bytes')
+    response = client.get('/api/assets/ukazka-1.jpg')
+    assert response.status_code == 200 and response.data == b'jpeg-bytes'
+    assert 'max-age=86400' in response.headers['Cache-Control']
+    for name in ('missing.jpg', '..%2Fapp.py', 'x.json', '.hidden.jpg'):
+        assert client.get(f'/api/assets/{name}').status_code == 404

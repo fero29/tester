@@ -156,6 +156,20 @@ archive/                   historické testy sledované Gitom
 - Môžete nahrať jeden test alebo pole testov
 - Pozrite si [examples/test.json](examples/test.json) pre príklad
 
+### Úlohy na písanie (vzorce, reakcie):
+```json
+{
+  "title": "Biochémia – 01. týždeň – Úlohy na písanie",
+  "testType": "selfcheck",
+  "year": 2,
+  "category": "Biochémia",
+  "questions": [
+    {"question": "Napíšte vzorec ATP.", "solutionImages": ["kreativne-s33.jpg"], "solutionNote": "Variant F, úloha 25."}
+  ]
+}
+```
+Študent napíše riešenie na papier, odkryje ukážku a sám označí, či úlohu vedel. Výsledok sa ukladá iba za prvý prechod testu; opakovanie nevedených úloh sa nezapočítava. `solutionImages` sú názvy súborov (`.jpg`/`.png`, bez ciest) v priečinku `testy/assets/`, ktoré aplikácia poskytuje na `/api/assets/<názov>`. Tieto testy sa nespájajú s inými a editor ich neupravuje.
+
 ## Použitie
 
 ### 🤖 AI Import otázok z fotky (Odporúčané)
@@ -224,4 +238,5 @@ Predvoľba Učenie zapína pomoc, automatické vysvetlenia a opakovanie, vypína
 - **Spustenie viacerých testov:** Zaškrtnite checkboxy pri testoch a kliknite "Spustiť vybrané testy"
 - **Štatistiky:** Pri každom teste sa zobrazujú štatistiky (absolvované, posledný výsledok, priemer)
 - **Nahlásiť problém:** Pod otázkou v teste možno nahlásiť zlý kľúč, chybu v texte alebo vo vysvetlení. Hlásenie nevyžaduje prihlásenie; správca ho vidí na stránke **Nahlásené problémy** (`/admin/reports`) spolu so súborom, v ktorom sa otázka nachádza, a označí ho ako vyriešené. Otázky sa automaticky nemenia.
+- **Úlohy na písanie:** Testy typu `selfcheck` zobrazia zadanie (napr. vzorec alebo reakciu), po napísaní na papier ukážku riešenia a vlastné hodnotenie „Vedel(a) som / Nevedel(a) som“.
 - **Prehľad učiva:** Zobrazí celý otázkový test so správnymi odpoveďami bez ukladania výsledku alebo pokroku

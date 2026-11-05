@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, jsonify, abort, session, redirect, url_for
+from flask import Flask, render_template, request, jsonify, abort, session, redirect, url_for, send_from_directory
 import json
 import os
 import base64
@@ -11,7 +11,7 @@ import threading
 from datetime import datetime, timezone
 from pathlib import Path
 from collections import Counter, defaultdict, deque
-from storage import TestStore, StoreError, validate_tests
+from storage import TestStore, StoreError, validate_tests, ASSET_NAME
 from security import init_security
 import anthropic
 from dotenv import load_dotenv
@@ -131,6 +131,14 @@ def client_ip():
 @app.route('/')
 def index():
     return render_template('index.html', app_version=APP_VERSION, cf_analytics_token=os.environ.get('CF_ANALYTICS_TOKEN', ''))
+
+
+@app.route('/api/assets/<name>')
+def test_asset(name):
+    # Solution images for self-check tasks; read-only, names restricted to a flat whitelist.
+    if not ASSET_NAME.fullmatch(name):
+        abort(404)
+    return send_from_directory(store().root / 'assets', name, max_age=86400)
 
 
 @app.route('/api/track', methods=['POST'])
