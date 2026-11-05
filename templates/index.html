@@ -54,6 +54,12 @@
             <h2>ℹ️ LFUK tester v{{ app_version }}</h2>
 
             <div class="help-section">
+                <h3>🆕 Novinky v1.9.1</h3>
+                <ul>
+                    <li>Návod pre študentov ukazuje iba funkcie, ktoré môžu používať. Nahrávanie testov cez AI a úpravy testov sa v návode zobrazia až správcovi po prihlásení.</li>
+                </ul>
+            </div>
+            <div class="help-section">
                 <h3>🆕 Novinky v1.9.0</h3>
                 <ul>
                     <li>Pod každou otázkou v teste je tlačidlo <strong>Nahlásiť problém s touto otázkou</strong> (nesprávny kľúč, chyba v texte alebo vo vysvetlení, s voliteľnou poznámkou). Hlásenia vidí správca na samostatnej stránke.</li>
@@ -498,7 +504,9 @@
                     <li>Klikni na predmet → uvidíš len jeho testy. <em>Všetky</em> zobrazí testy vybraného ročníka zoskupené podľa predmetov.</li>
                     <li>Výber ročníka a predmetu sa pamätá medzi návštevami. Pri zmene ročníka sa zobrazia všetky jeho predmety.</li>
                     <li>Čísla pri filtroch udávajú počet testov. Ročník bez testov zatiaľ nemá žiadne predmety.</li>
+                    {% if is_admin %}
                     <li>Kategória sa určuje automaticky z názvu súboru. Ak chceš zaradiť test do inej kategórie, pridaj do JSON pole <code>"category": "Anatómia"</code> a daný názov sa objaví ako nový tab.</li>
+                    {% endif %}
                 </ul>
             </div>
 
@@ -541,8 +549,9 @@
                 </ul>
             </div>
 
+            {% if is_admin %}
             <div class="help-section">
-                <h3>🤖 Nahranie testov cez AI</h3>
+                <h3>🤖 Nahranie testov cez AI (správca)</h3>
                 <ol>
                     <li>Klikni <strong>"🤖 AI Import"</strong> → vyber typ (otázky s odpoveďami / latinské slovíčka)</li>
                     <li>Nahraj <strong>fotografiu</strong> (môžeš aj viac strán naraz)</li>
@@ -550,6 +559,7 @@
                     <li>Klikni <strong>"✨ Spracovať s AI"</strong> (~ 1 minúta na stránku)</li>
                     <li><strong>⚠️ Skontroluj správne odpovede</strong> — AI ich neoznačuje vždy správne</li>
                     <li>Zadaj <strong>názov testu</strong>, vyber či vytvoriť nový alebo pridať k existujúcemu, ulož</li>
+                    <li>Test nahraný alebo upravený na verejnom webe treba preniesť do repozitára; inak ďalšie nasadenie zastaví kontrola zmien na serveri</li>
                 </ol>
                 <p><strong>💡 Tipy pre lepšie rozpoznávanie:</strong></p>
                 <ul style="font-size: 0.9em; color: var(--text-secondary);">
@@ -559,7 +569,7 @@
             </div>
 
             <div class="help-section">
-                <h3>✏️ Úprava testov</h3>
+                <h3>✏️ Úprava testov (správca)</h3>
                 <ol>
                     <li>Hore klikni na tlačidlo <strong>Správa testov</strong> a prihlás sa heslom správcu. Tlačidlá úprav a importu sa zobrazia po prihlásení.</li>
                     <li>Pri teste klikni <strong>"✏️ Upraviť"</strong></li>
@@ -568,6 +578,7 @@
                     <li>Zmeny potvrď tlačidlom <strong>Uložiť zmeny</strong>. Pri odchode ťa aplikácia upozorní na neuložené úpravy.</li>
                 </ol>
             </div>
+            {% endif %}
 
             <div class="help-section">
                 <h3>📊 Štatistiky a ďalšie</h3>

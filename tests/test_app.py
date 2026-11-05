@@ -45,10 +45,12 @@ def test_anonymous_writes_are_blocked(client, path, method):
 
 
 def test_admin_login_csrf_and_controls(client):
-    assert 'data-admin="false"' in client.get('/').get_data(as_text=True)
+    page = client.get('/').get_data(as_text=True)
+    assert 'data-admin="false"' in page and 'Nahranie testov cez AI' not in page
     assert client.post('/admin/login', data={'password': 'test-admin-password'}).status_code == 403
     headers = login(client)
-    assert 'data-admin="true"' in client.get('/').get_data(as_text=True)
+    page = client.get('/').get_data(as_text=True)
+    assert 'data-admin="true"' in page and 'Nahranie testov cez AI' in page
     assert client.post('/api/save-test', json={}).status_code == 403
     assert client.post('/api/list-files', json={}, headers=headers).json == {'files': []}
     assert client.post('/api/list-files', json={'folder': '/etc'}, headers=headers).status_code == 400
