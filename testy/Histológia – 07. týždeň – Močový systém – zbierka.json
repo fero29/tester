@@ -1,0 +1,989 @@
+[
+  {
+    "title": "Histológia – 07. týždeň – Močový systém – zbierka",
+    "description": "Oblička, glomerul, tubuly, juxtaglomerulárny aparát, močové cesty a vývin. Otázky s výberom viacerých odpovedí zo zbierky Histológia a embryológia v otázkach (Miko, Klein, Juríková, UK 2025); kľúč podľa zbierky.",
+    "year": 2,
+    "category": "Histológia",
+    "sortOrder": 7.5,
+    "questions": [
+      {
+        "question": "Aký epitel lemuje distálnu časť ženskej uretry na jej konci alebo blízko neho?",
+        "answers": [
+          "prechodný",
+          "jednovrstvový cylindrický",
+          "viacvrstvový plochý nerohovatejúci",
+          "rovnaký ako vo fossa navicularis žaluďa penisu",
+          "viacvrstvový kubický",
+          "viacradový cylindrický"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Uropoetický systém",
+          "number": 1,
+          "page": 212
+        }
+      },
+      {
+        "question": "Ako sa nazýva špecializované erektilné tkanivo, ktoré obklopuje močovú trubicu v penise?",
+        "answers": [
+          "corpus albicans",
+          "tunica albuginea",
+          "corpora cavernosa",
+          "corpora arenacea",
+          "corpus spongiosum"
+        ],
+        "correct": [
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Uropoetický systém",
+          "number": 2,
+          "page": 212
+        }
+      },
+      {
+        "question": "Uretra je spočiatku vystlaná epitelom $, kým sa ejakulačné kanáliky nespoja s prostatickou uretrou. Nahraďte $ správnym slovom.",
+        "answers": [
+          "prechodných zón",
+          "prechodným",
+          "jednovrstvovým cylindrickým",
+          "viacvrstvovým cylindrickým"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Uropoetický systém",
+          "number": 3,
+          "page": 212
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich všeobecných tvrdení o močovej sústave sú pravdivé?",
+        "answers": [
+          "urotel lemuje parietálny list Bowmanovho puzdra glomerulov obličky",
+          "vonkajšia vrstva močového mechúra môže byť pokrytá adventíciou aj serózou",
+          "najhrubšiu vrstvu močovodu tvorí hladká svalovina",
+          "časť močovej rúry, ktorá opúšťa močový mechúr, je prostatická močová rúra"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Uropoetický systém",
+          "number": 4,
+          "page": 212
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o Bowmanovom puzdre sú pravdivé?",
+        "answers": [
+          "jeho viscerálny list tvoria podocyty",
+          "jeho parietálny list pozostáva z podocytov",
+          "jeho viscerálny list pozostáva z jednovrstvového plochého epitelu",
+          "jeho parietálny list pozostáva z jednovrstvového plochého epitelu"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Uropoetický systém",
+          "number": 5,
+          "page": 213
+        }
+      },
+      {
+        "question": "Aký typ cievy je vas efferens, ktorá odvádza krv z glomerulu?",
+        "answers": [
+          "sínusoida",
+          "venula",
+          "arteriola",
+          "kontinuálna kapilára"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Uropoetický systém",
+          "number": 6,
+          "page": 213
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o dáždnikových bunkách sú pravdivé?",
+        "answers": [
+          "často sú dvojjadrové",
+          "na apikálnom póle obsahujú transmembránový proteín uroplakín",
+          "ich mitotická aktivita je vysoká",
+          "majú medzi sebou masívne spojovacie komplexy",
+          "sú základnými bunkami zberných kanálikov"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Uropoetický systém",
+          "number": 7,
+          "page": 213
+        }
+      },
+      {
+        "question": "Z ktorých buniek sa skladá urotel?",
+        "answers": [
+          "z dáždnikových buniek",
+          "z DNES buniek (difúznych endokrinných)",
+          "z intermediárnych buniek (pripomínajúcich tenisovú raketu)",
+          "z buniek s riasinkami",
+          "z bazálnych buniek"
+        ],
+        "correct": [
+          0,
+          2,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Uropoetický systém",
+          "number": 8,
+          "page": 213
+        }
+      },
+      {
+        "question": "Aké je správne usporiadanie svalových vrstiev v tunica muscularis močovodu?",
+        "answers": [
+          "tretia vrstva, vnútorná pozdĺžna, menej zreteľná ako ostatné dve, sa nachádza len v okolí močového mechúra",
+          "väčšinou je vnútorná vrstva longitudinálna a vonkajšia cirkulárna",
+          "pozostáva z niekoľkých šikmých vrstiev hladkej svaloviny",
+          "väčšinou sa tvoria vnútorné cirkulárne a vonkajšie longitudinálne vrstvy"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Uropoetický systém",
+          "number": 9,
+          "page": 214
+        }
+      },
+      {
+        "question": "Čím sa odlišuje proximálny kanálik od distálneho kanálika nefrónu?",
+        "answers": [
+          "neprítomnosťou mikroklkov v proximálnom kanáliku",
+          "kubickým tvarom epitelových buniek",
+          "proximálny kanálik je dlhší, a preto je v priereze početnejší",
+          "reabsorpcia molekúl prebieha len v proximálnom kanáliku",
+          "proximálny kanálik je zodpovedný za reabsorpciu približne dvoch tretín filtrovaného sodíka a vody"
+        ],
+        "correct": [
+          2,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Uropoetický systém",
+          "number": 10,
+          "page": 214
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o glomerule sú pravdivé?",
+        "answers": [
+          "je to klbko krvných kapilár",
+          "je zásobovaný aferentnou arteriolou",
+          "pozostáva z proximálneho stočeného a priameho kanálika",
+          "spolu s Bowmanovým puzdrom tvorí obličkové (Malpighiho) teliesko",
+          "obsahuje intraglomerulárne mezangiálne bunky"
+        ],
+        "correct": [
+          0,
+          1,
+          3,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Uropoetický systém",
+          "number": 11,
+          "page": 214
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o obličkovom teliesku sú pravdivé?",
+        "answers": [
+          "membrána filtračnej štrbiny medzi pediklami podocytov pôsobí ako veľkostne selektívny filter",
+          "viscerálny obal Bowmanovho puzdra je tvorený mezangiálnymi bunkami",
+          "cez močový pól vstupujú a vystupujú cievy glomerulu",
+          "glomerulárna bazálna membrána a endotelový glykokalyx pôsobia ako nábojovo selektívny filter"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Uropoetický systém",
+          "number": 12,
+          "page": 214
+        }
+      },
+      {
+        "question": "Aké sú funkcie juxtaglomerulárneho aparátu?",
+        "answers": [
+          "hydroxylácia vitamínu D3 za vzniku vysoko aktívneho kalcitriolu",
+          "renín, ako súčasť systému renín-angiotenzín-aldosterón, je produkovaný bunkami macula densa",
+          "bunky macula densa slúžia ako senzor zloženia tubulárnej tekutiny",
+          "regulácia rýchlosti filtrácie krvi podocytmi",
+          "je miestom syntézy erytropoetínu"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Uropoetický systém",
+          "number": 13,
+          "page": 215
+        }
+      },
+      {
+        "question": "Ktoré štruktúry sa nachádzajú v dreni obličky?",
+        "answers": [
+          "rozsiahle cievne zásobenie",
+          "stočené kanáliky",
+          "vasa recta",
+          "zberné kanáliky",
+          "priame kanáliky",
+          "hlavné kalichy"
+        ],
+        "correct": [
+          2,
+          3,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Uropoetický systém",
+          "number": 14,
+          "page": 215
+        }
+      },
+      {
+        "question": "Z čoho sa skladá filtračný aparát obličiek?",
+        "answers": [
+          "z intraglomerulárnych mezangiálnych buniek",
+          "z endotelového glykokalyxu",
+          "z parietálneho listu Bowmanovho puzdra",
+          "z glomerulárnej bazálnej membrány",
+          "z filtračnej štrbiny medzi pediklami podocytov s diafragmou"
+        ],
+        "correct": [
+          1,
+          3,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Uropoetický systém",
+          "number": 15,
+          "page": 215
+        }
+      },
+      {
+        "question": "Čo možno povedať o morfológii a funkcii juxtaglomerulárnych buniek?",
+        "answers": [
+          "sú súčasťou juxtaglomerulárneho aparátu",
+          "sú modifikované hladké svalové bunky v stene aferentnej arterioly",
+          "obsahujú sekrečné vezikuly s renínom",
+          "ich bunkové jadrá majú vretenovitý tvar a sú predĺžené"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Uropoetický systém",
+          "number": 16,
+          "page": 215
+        }
+      },
+      {
+        "question": "V ktorých štruktúrach obličky možno nájsť jednovrstvový kubický epitel?",
+        "answers": [
+          "vasa recta",
+          "glomerulus",
+          "proximálny stočený kanálik",
+          "medulárny zberný kanálik",
+          "Bowmanovo puzdro"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Uropoetický systém",
+          "number": 17,
+          "page": 216
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o Henleho kľučke sú pravdivé?",
+        "answers": [
+          "prebieha v kôre",
+          "je súčasťou nefrónu a je vystlaná jednovrstvovým kubickým až plochým epitelom",
+          "pozostáva zo vzostupných a zostupných segmentov",
+          "obsahuje napr. macula densa a tiež bunky produkujúce renín",
+          "jej funkciou je tvorba osmolárneho koncentračného gradientu v interstíciu drene"
+        ],
+        "correct": [
+          1,
+          2,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Uropoetický systém",
+          "number": 18,
+          "page": 216
+        }
+      },
+      {
+        "question": "Čo je súčasťou nefrónu?",
+        "answers": [
+          "intersticiálne spojivové tkanivo",
+          "zostupné ramienko Henleho kľučky",
+          "papilárny vývod",
+          "glomerulus"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Uropoetický systém",
+          "number": 19,
+          "page": 216
+        }
+      },
+      {
+        "question": "Ktoré z týchto dvojíc sú správne?",
+        "answers": [
+          "bazálny labyrint – distálny kanálik",
+          "akvaporín 1 – proximálny kanálik",
+          "kefkový lem – proximálny kanálik",
+          "macula densa – Henleho kľučka",
+          "vsunuté/vložené bunky – zberný kanálik"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Uropoetický systém",
+          "number": 20,
+          "page": 216
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o močovom systéme:",
+        "answers": [
+          "obličkové teliesko sa nachádza vždy v kôre obličky",
+          "močový (Bowmanov) priestor obsahuje definitívny moč",
+          "močový pól obličkového telieska priamo nadväzuje na distálny tubulus",
+          "obličkové teliesko je synonymum pre glomerulus"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Uropoetický systém",
+          "number": 21,
+          "page": 217
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o močovom systéme:",
+        "answers": [
+          "pedikly podocytov tvoria viscerálny list Bowmanovho pudzra",
+          "glomerulus je tvorený kapilárami so súvislou výstelkou",
+          "obličkové telieska nájdeme v kôre aj v dreni obličky",
+          "nefrón je tvorený výlučne obličkovým telieskom"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Uropoetický systém",
+          "number": 22,
+          "page": 217
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o močovom systéme:",
+        "answers": [
+          "proximálny tubulus je vystlaný epitelovými bunkami s veľkým množstvom mikroklkov, ktoré tvoria kefkový lem",
+          "lúmen proximálnych tubulov je okrúhly s hladkými kontúrami",
+          "súčasťou juxtaglomerulárneho aparátu je proximálny tubulus",
+          "macula densa je súbor špecializovaných buniek v rámci distálnych tubulov"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Uropoetický systém",
+          "number": 23,
+          "page": 217
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o močovom systéme:",
+        "answers": [
+          "tenké ramienko Henleho kľučky (tubulus intermedius) je vystlané jednovrstvovým kubickým epitelom",
+          "ductus colligens je súčasťou intrarenálnych vývodných močových ciest",
+          "distálny tubulus má okrúhly lúmen s hladkými kontúrami",
+          "parietálny list Bowmanovho puzdra je tvorený jednovrstvovým plochým epitelom"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Uropoetický systém",
+          "number": 24,
+          "page": 217
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o močovom systéme:",
+        "answers": [
+          "súčasťou juxtaglomerulárneho aparátu je intraglomerulárne mezangium",
+          "glomerulárnu filtračnú bariéru tvoria primárne výbežky podocytov",
+          "distálny tubulus je vystlaný jednovrstvovým cylindrickým epitelom s kefkovým lemom",
+          "cievny pól obličkového telieska obsahuje arteriolu afferens a arteriolu efferens"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Uropoetický systém",
+          "number": 25,
+          "page": 217
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o močovom systéme:",
+        "answers": [
+          "proximálny tubulus nemá vždy na reze zachytené všetky jadrá epitelových buniek",
+          "juxtaglomerulárne bunky sú modifikované hladké svalové bunky produkujúce renín",
+          "macula densa je na preparátoch pozorovateľná ako svetlá oblasť distálnych tubulov v blízkosti glomerulu",
+          "glomerulus obličkového telieska je tvorený kapilárami s pórmi"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Uropoetický systém",
+          "number": 26,
+          "page": 218
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o močovom systéme:",
+        "answers": [
+          "glomerulárnu filtračnú bariéru tvoria krvné kapiláry glomerulu s pórmi, sekundárne výbežky (pedikly) podocytov a ich splynuté bazálne laminy",
+          "proximálny tubulus má úzky hviezdicovitý lúmen",
+          "súčasťou juxtaglomerulárneho aparátu sú extraglomerulárne mezangiové bunky",
+          "macula densa je tvorená modifikovanými hladkými svalovými bunkami aferentnej arterioly"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Uropoetický systém",
+          "number": 27,
+          "page": 218
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o močovom systéme:",
+        "answers": [
+          "hranicu medzi tubulami nefrónu a vývodnými intrarenálnymi močovými cestami tvorí tubulus reuniens",
+          "obličková papila obsahuje obličkové telieska",
+          "bariéra krv moč (filtračná membrána) je tvorená endotelovými bunkami kapilár glomerulu, pediklami podocytov a ich splynutými bazálnymi laminami",
+          "močový priestor obsahuje primárny moč, ktorý na močovom póle pokračuje do proximálneho tubulu"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Uropoetický systém",
+          "number": 28,
+          "page": 218
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o močovom systéme:",
+        "answers": [
+          "juxtaglomerulárne bunky obsahujú v cytoplazme eozinofilné granuly s obsahom renínu",
+          "ductus colligens je vystlaný jednovrstvovým cylindrickým epitelom",
+          "tenké ramienko Henleho kľučky vystiela jednovrstvový plochý epitel",
+          "súčasťou bariéry krv – moč je aj parietálny list Bowmanovho puzdra"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Uropoetický systém",
+          "number": 29,
+          "page": 218
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o močovom systéme:",
+        "answers": [
+          "macula densa obsahuje bunky s jadrami tesne vedľa seba, a preto je na preparátoch odlíšiteľná ako tmavá oblasť",
+          "tubulus reuniens je súčasťou nefrónu",
+          "mezangium je tvorené mezangiovým matrixom a mezangiovými bunkami v okolí glomerulu obličkového telieska",
+          "všetky kanáliky nefrónu sú vystlané jednou vrstvou epitelových buniek rôznej výšky"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Uropoetický systém",
+          "number": 30,
+          "page": 219
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o močovom systéme:",
+        "answers": [
+          "močovod je vystlaný jednovrstvovým cylindrickým epitelom",
+          "adventícia (prípojnica) pripája močovod k okoliu",
+          "sliznica močovodu vytvára početné vysoké riasy",
+          "svalovina močovodu má rovnaké usporiadanie ako v tráviacej rúre – vnútorná vrstva je cirkulárna a vonkajšia longitudinálna"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Uropoetický systém",
+          "number": 31,
+          "page": 219
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o močovom systéme:",
+        "answers": [
+          "močovod je vystlaný urotelom – jednovrstvovým plochým epitelom",
+          "svalovina močovodu je usporiadaná opačne ako v tráviacej rúre – vnútorná vrstva je longitudinálna a vonkajšia cirkulárna",
+          "koncová tretina močovodu obsahuje navyše tretiu povrchovú longitudinálnu vrstvu svaloviny",
+          "povrchovú vrstvu močovodu označujeme ako tunica serosa"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Uropoetický systém",
+          "number": 32,
+          "page": 219
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o močovom systéme:",
+        "answers": [
+          "močovod je vystlaný urotelom – viacradovým prechodným epitelom",
+          "povrchové bunky urotelu označujeme ako dáždnikové bunky",
+          "močovod má okrúhly pravidelný lúmen",
+          "svalovina močovodu je usporiadaná do troch vrstiev v celom jeho priebehu"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Uropoetický systém",
+          "number": 33,
+          "page": 219
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o uretre:",
+        "answers": [
+          "pars spongiosa mužskej uretry je vystlaná viacvrstvovým cylindrickým epitelom",
+          "ženská uretra je vystlaná dvoma typmi epitelov – urotelom a viacvrstvovým dlaždicovým nerohovatejúcim epitelom",
+          "mužská uretra je v rôznych anatomických častiach vystlaná celkovo štyrmi rôznymi typmi epitelov",
+          "celú ženskú uretru vystiela urotel"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Uropoetický systém",
+          "number": 34,
+          "page": 220
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o uretre:",
+        "answers": [
+          "fossa navicularis mužskej uretry je vystlaná viacvrstvovým dlaždicovým nerohovatejúcim epitelom",
+          "mužská uretra má svalovinu usporiadanú do vnútornej longitudinálnej a vonkajšej cirkulárnej vrstvy",
+          "rôzne anatomické časti ženskej uretry sú vystlané štyrmi rôznymi typmi epitelov",
+          "mužská aj ženská uretra je k okoliu pripojená adventíciou"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Uropoetický systém",
+          "number": 35,
+          "page": 220
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o močovom systéme:",
+        "answers": [
+          "močový mechúr je vystlaný urotelom",
+          "celý povrch močového mechúra pokrýva seróza",
+          "svalovina močového mechúra je usporiadaná do troch vrstiev",
+          "vnútorná vrstva svaloviny močového mechúra prebieha longitudinálne"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Uropoetický systém",
+          "number": 36,
+          "page": 220
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o močovom systéme:",
+        "answers": [
+          "svalovina močového mechúra je tvorená vnútornou plexiformnou, strednou cirkulárnou a vonkajšou longitudinálnou vrstvou",
+          "močový mechúr je v rôznych častiach vystlaný rôznymi typmi epitelov",
+          "väčšina povrchu močového mechúra je pokrytá serózou",
+          "močový mechúr je vystlaný jednovrstvovým cylindrickým epitelom"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Uropoetický systém",
+          "number": 37,
+          "page": 220
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o močovom systéme:",
+        "answers": [
+          "väčšina povrchu močového mechúra je pokrytá adventíciou",
+          "svalovina močového mechúra je usporiadaná rovnako ako v močovode",
+          "jadrá epitelových buniek sliznice močového mechúra sú bez ohľadu na funkčný stav stále v rovnakej výške",
+          "sliznica močového mechúra je usporiadaná do rias"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Uropoetický systém",
+          "number": 38,
+          "page": 221
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o uretre:",
+        "answers": [
+          "ženská uretra obsahuje v lamina propria Skeneho parauretrálne žľazy",
+          "viacvrstvový dlaždicový nerohovatejúci epitel vystiela tú časť ženskej uretry, ktorá je bližšie k močovému mechúru",
+          "časť mužskej uretry, ktorá priamo nadväzuje na močový mechúr, je vystlaná urotelom",
+          "lamina propria mužskej uretry obsahuje parauretrálne Littrého žľazy"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Uropoetický systém",
+          "number": 39,
+          "page": 221
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o močovom systéme:",
+        "answers": [
+          "močový mechúr odlíšime od močovodu na základe rôznych typov epitelov",
+          "na rozdiel od močovodu je časť močového mechúra pokrytá adventíciou a časť serózou",
+          "močovod odlíšime na preparáte od močového mechúra najmä podľa usporiadania svaloviny",
+          "mužská aj ženská uretra obsahuje intraepitelové Morgagniho žliazky tvorené mucinóznymi bunkami"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Uropoetický systém",
+          "number": 40,
+          "page": 221
+        }
+      },
+      {
+        "question": "Ktoré tkanivo dáva základ nefritickým štruktúram?",
+        "answers": [
+          "mezoderma laterálnej platničky",
+          "ektomezenchým",
+          "nefrotóm",
+          "intermediárna mezoderma"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Uropoetický systém",
+          "number": 41,
+          "page": 221
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o vývoji pronefrosu sú pravdivé?",
+        "answers": [
+          "musí prebehnúť mezenchýmovo-epitelová tranzícia, aby sa vytvoril systém dutých kanálikov",
+          "začína sa vo 4. týždni vývoja",
+          "primitívne nefróny sú dočasne funkčné medzi 6. a 10. týždňom",
+          "začína sa objavením mezonefrických kanálikov"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Uropoetický systém",
+          "number": 42,
+          "page": 222
+        }
+      },
+      {
+        "question": "Ktorá štruktúra indukuje premenu metanefrického blastému na metanefros?",
+        "answers": [
+          "Wolffove kanáliky",
+          "urogenitálny sínus",
+          "ureterový pupeň",
+          "mezonefrické nefróny"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Uropoetický systém",
+          "number": 43,
+          "page": 222
+        }
+      },
+      {
+        "question": "Čo sú deriváty ureterových pupeňov?",
+        "answers": [
+          "calices majores",
+          "obličková panvička",
+          "zberné kanáliky",
+          "juxtaglomerulárny aparát",
+          "močový mechúr"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Uropoetický systém",
+          "number": 44,
+          "page": 222
+        }
+      },
+      {
+        "question": "Ktoré epitelové časti močovej sústavy sú endodermového pôvodu?",
+        "answers": [
+          "penilná uretra",
+          "zberné kanáliky",
+          "trigonum močového mechúra",
+          "väčšia časť močového mechúra"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Uropoetický systém",
+          "number": 45,
+          "page": 222
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o vývine močového systému:",
+        "answers": [
+          "pronefros dáva základ definitívnej obličke",
+          "všetky súčasti obličky sa vyvíjajú z metanefrogénneho blastému",
+          "trigonum vesicae vzniká včlenením mezodermových Wolffových vývodov do základu močového mechúra pôvodom z endodermy časti kloaky",
+          "epitelové súčasti obličky sa vyvíjajú z intermediárnej mezodermy"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Uropoetický systém",
+          "number": 46,
+          "page": 223
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o vývine močového systému:",
+        "answers": [
+          "prvým štádiom vývinu obličky je rudimentárny pronefros, ktorý za zakladá v krčnej oblasti embrya",
+          "pronefros sa vyvíja začiatkom 4. týždňa po oplodnení",
+          "metanefros ako základ permanentnej obličky sa vyvíja od 5. týždňa po oplodnení",
+          "nefróny obličky sa vyvíjajú z ureterového pupeňa"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Uropoetický systém",
+          "number": 47,
+          "page": 223
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o vývine močového systému:",
+        "answers": [
+          "základom intrarenálnych vývodných močových ciest je metanefrogénny blastém",
+          "močovod sa vyvíja z ureterového pupeňa, ktorý vyrastá z mezonefrického (Wolffovho) vývodu",
+          "močový mechúr je celý pôvodom z časti endodermového urogenitálneho sínusu",
+          "veľké aj malé obličkové kalichy sa vyvíjajú z ureterového pupeňa"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Uropoetický systém",
+          "number": 48,
+          "page": 223
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o vývine močového systému:",
+        "answers": [
+          "pronefros aj mezonefros sú rudimentárne základy, ktoré kompletne zaniknú netvoria žiadne definitívne deriváty",
+          "močová rúra je pôvodom z metanefrogénneho blastému",
+          "aj keď má trigonum vesicae odlišný pôvod, epitel, ktorý ho druhotne pokrýva v definitívnom močovom mechúri, je z endodermy urogenitálneho sínusu",
+          "nefróny a intrarenálne vývodné cesty majú odlišný embryonálny pôvod"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Uropoetický systém",
+          "number": 49,
+          "page": 223
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o vývine močového systému:",
+        "answers": [
+          "s vývinom močového mechúra súvisí alantois, ktorý sa za normálnych okolností premení na urachus",
+          "metanefrogénny blastém sa vyvíja z paraxiálnej mezodermy",
+          "epitel trigonum vesicae je, podobne ako jeho väzivové štruktúry, pôvodom z mezonefrického (Wolffovho) vývodu",
+          "ureterový pupeň a metanefrogénny blastém sa navzájom indukujú, čo označujeme ako recipročná indukcia"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Uropoetický systém",
+          "number": 50,
+          "page": 224
+        }
+      }
+    ]
+  }
+]

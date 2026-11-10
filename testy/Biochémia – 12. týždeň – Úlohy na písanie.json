@@ -1,0 +1,28 @@
+[
+  {
+    "title": "Biochémia – 12. týždeň – Úlohy na písanie",
+    "description": "Úlohy na písanie vzorcov a reakcií z kariet „Tvorivé otázky“ (otvorené otázky kontrolných testov). Napíš riešenie na papier a porovnaj ho s ručne písanou ukážkou spolužiaka; ukážka nie je oficiálny kľúč.",
+    "testType": "selfcheck",
+    "year": 2,
+    "category": "Biochémia",
+    "sortOrder": 12.5,
+    "questions": [
+      {
+        "question": "Napíšte vzorec vitamínu, ktorý je zložkou NAD⁺.",
+        "solutionImages": [
+          "kreativne-s06.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu I: hľadaj úlohu č. 26. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "I",
+          "number": 26,
+          "page": 5,
+          "solutionPages": [
+            6
+          ]
+        }
+      }
+    ]
+  }
+]

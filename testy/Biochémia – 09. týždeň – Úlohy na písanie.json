@@ -1,0 +1,108 @@
+[
+  {
+    "title": "Biochémia – 09. týždeň – Úlohy na písanie",
+    "description": "Úlohy na písanie vzorcov a reakcií z kariet „Tvorivé otázky“ (otvorené otázky kontrolných testov). Napíš riešenie na papier a porovnaj ho s ručne písanou ukážkou spolužiaka; ukážka nie je oficiálny kľúč.",
+    "testType": "selfcheck",
+    "year": 2,
+    "category": "Biochémia",
+    "sortOrder": 9.5,
+    "questions": [
+      {
+        "question": "Napíšte vzorec jednej zložky obalu lipoproteínových častíc.",
+        "solutionImages": [
+          "kreativne-s13.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu U: hľadaj úlohu č. 27. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "U",
+          "number": 27,
+          "page": 12,
+          "solutionPages": [
+            13
+          ]
+        }
+      },
+      {
+        "question": "Napíšte vzorec jednej zo zložiek jadra lipoproteínových častíc.",
+        "solutionImages": [
+          "kreativne-s17.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu R: hľadaj úlohu č. 27. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "R",
+          "number": 27,
+          "page": 16,
+          "solutionPages": [
+            17
+          ]
+        }
+      },
+      {
+        "question": "Napíšte vzorec látky, ktorá je substrátom pre HMG-CoA reduktázu.",
+        "solutionImages": [
+          "kreativne-s21.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu E: hľadaj úlohu č. 29. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "E",
+          "number": 29,
+          "page": 20,
+          "solutionPages": [
+            21
+          ]
+        }
+      },
+      {
+        "question": "Napíšte vzorec jednej zložky obalu lipoproteínových častíc.",
+        "solutionImages": [
+          "kreativne-s31.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu G: hľadaj úlohu č. 28. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "G",
+          "number": 28,
+          "page": 30,
+          "solutionPages": [
+            31
+          ]
+        }
+      },
+      {
+        "question": "Napíšte vzorec jednej lipidovej zložky tvoriacej jadro lipoproteínovej častice.",
+        "solutionImages": [
+          "kreativne-s35.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu K: hľadaj úlohu č. 29. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "K",
+          "number": 29,
+          "page": 34,
+          "solutionPages": [
+            35
+          ]
+        }
+      },
+      {
+        "question": "Napíšte vzorec fosfolipidu, ktorý je substrátom pre LCAT.",
+        "solutionImages": [
+          "kreativne-s41.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu L: hľadaj úlohu č. 27. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "L",
+          "number": 27,
+          "page": 40,
+          "solutionPages": [
+            41
+          ]
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "title": "Biochémia – 02. týždeň – Úlohy na písanie",
+    "description": "Úlohy na písanie vzorcov a reakcií z kariet „Tvorivé otázky“ (otvorené otázky kontrolných testov). Napíš riešenie na papier a porovnaj ho s ručne písanou ukážkou spolužiaka; ukážka nie je oficiálny kľúč.",
+    "testType": "selfcheck",
+    "year": 2,
+    "category": "Biochémia",
+    "sortOrder": 2.5,
+    "questions": [
+      {
+        "question": "Napíšte reakciu, ktorú katalyzuje ATP-áza (nukleotidy vo vzorcoch).",
+        "solutionImages": [
+          "kreativne-s25.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu O: hľadaj úlohu č. 30. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "O",
+          "number": 30,
+          "page": 24,
+          "solutionPages": [
+            25
+          ]
+        }
+      }
+    ]
+  }
+]

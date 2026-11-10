@@ -1,0 +1,986 @@
+[
+  {
+    "title": "Histológia – 11. týždeň – Nervový systém",
+    "description": "Miecha, mozgová a mozočková kôra, gangliá, periférny nerv a vývin nervového systému. Otázky s výberom viacerých odpovedí zo zbierky Histológia a embryológia v otázkach (Miko, Klein, Juríková, UK 2025); kľúč podľa zbierky.",
+    "year": 2,
+    "category": "Histológia",
+    "sortOrder": 11,
+    "questions": [
+      {
+        "question": "Ktoré gangliá obsahujú bunkové telá senzitívnych neurónov?",
+        "answers": [
+          "trigeminálne gangliá",
+          "prevertebrálne gangliá",
+          "paravertebrálne gangliá",
+          "gangliá dorzálnych miechových koreňov"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Centrálny a periférny nervový systém",
+          "number": 1,
+          "page": 266
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o pošvách periférnych nervových spojivových tkanív sú pravdivé?",
+        "answers": [
+          "jednotlivé nervové vlákna sú obklopené epineuriom z hustého kolagénového väziva",
+          "jemná vrstva riedkeho kolagénového väziva s retikulárnymi vláknami, endoneurium, obklopuje každé nervové vlákno",
+          "epineurium je vonkajší obal periférneho nervu z hustého kolagénového väziva",
+          "perineurium sa skladá z modifikovaných fibroblastov, ktoré sú spojené a vytvárajú koncentrické cylindrické plášte, oddelené kolagénom väziva"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Centrálny a periférny nervový systém",
+          "number": 2,
+          "page": 266
+        }
+      },
+      {
+        "question": "Ktorá z nasledujúcich možností opisuje funkciu neurónov, ktoré sa nachádzajú v gangliách dorzálnych koreňov nervového systému?",
+        "answers": [
+          "autonómna motorická",
+          "prepájacia interneurónová",
+          "motorická somatická",
+          "senzitívna somatická",
+          "senzitívna viscerálna"
+        ],
+        "correct": [
+          3,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Centrálny a periférny nervový systém",
+          "number": 3,
+          "page": 266
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich buniek sa podieľajú na tvorbe hematoencefalickej bariéry v centrálnom nervovom systéme?",
+        "answers": [
+          "endotelové bunky",
+          "pericyty",
+          "ependýmové bunky",
+          "oligodendrocyty",
+          "astrocyty"
+        ],
+        "correct": [
+          0,
+          1,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Centrálny a periférny nervový systém",
+          "number": 4,
+          "page": 266
+        }
+      },
+      {
+        "question": "V ktorých orgánoch sa nachádza plexus myentericus Auerbachi?",
+        "answers": [
+          "močová trubica/uretra",
+          "priedušnica",
+          "hrubé črevo",
+          "močovody/uretery"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Centrálny a periférny nervový systém",
+          "number": 5,
+          "page": 267
+        }
+      },
+      {
+        "question": "V ktorej vrstve neurónovej kôry sa nachádzajú Purkyňove bunky/neuróny?",
+        "answers": [
+          "lamina pyramidalis interna",
+          "stratum granulosum",
+          "lamina multiforme",
+          "stratum ganglionare"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Centrálny a periférny nervový systém",
+          "number": 6,
+          "page": 267
+        }
+      },
+      {
+        "question": "Ktoré štruktúry vytvárajú hematoneurálnu bariéru v periférnom nerve?",
+        "answers": [
+          "myelínová pošva",
+          "epiteloidne usporiadané fibroblasty perineuria",
+          "husté kolagénové väzivo epineuria",
+          "retikulárne väzivo endoneuria"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Centrálny a periférny nervový systém",
+          "number": 7,
+          "page": 267
+        }
+      },
+      {
+        "question": "Ktoré štruktúry sa nachádzajú v periférnom nerve?",
+        "answers": [
+          "výbežky satelitných buniek",
+          "axóny (centrálne výbežky) pseudounipolárnych neurónov",
+          "dendrity alfa-motoneurónov",
+          "vasa nervorum",
+          "endoneurium"
+        ],
+        "correct": [
+          3,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Centrálny a periférny nervový systém",
+          "number": 8,
+          "page": 267
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o Purkyňových bunkách/neurónoch sú pravdivé?",
+        "answers": [
+          "sú to excitačné neuróny",
+          "majú obzvlášť bohatý dendritický strom",
+          "ich perikaryá majú pyramídový tvar",
+          "patria k neurónom s najväčšími perikaryami",
+          "ich axóny vytvárajú synapsy s granulárnymi neurónmi"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Centrálny a periférny nervový systém",
+          "number": 9,
+          "page": 268
+        }
+      },
+      {
+        "question": "Telá ktorých neurónov sa nachádzajú v kôre mozočku?",
+        "answers": [
+          "košíčkovité bunky",
+          "granulárne neuróny",
+          "Betzove pyramídové neuróny",
+          "dopaminergné neuróny",
+          "hviezdicovité bunky"
+        ],
+        "correct": [
+          0,
+          1,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Centrálny a periférny nervový systém",
+          "number": 10,
+          "page": 268
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o motorickom neokortexe sú pravdivé?",
+        "answers": [
+          "pozostáva zo 6 rôznych vrstiev",
+          "pozostáva zo 7 rôznych vrstiev",
+          "jeho molekulárna vrstva obsahuje množstvo tiel neurónov",
+          "axóny jeho neurónov vytvárajú pyramídový trakt"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Centrálny a periférny nervový systém",
+          "number": 11,
+          "page": 268
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o spinálnych gangliách dorzálnych koreňov sú pravdivé?",
+        "answers": [
+          "pozostávajú z pseudounipolárnych neurónov a satelitných buniek",
+          "po poškodení tu astrocyty vytvárajú gliovú jazvu",
+          "pozostávajú z bipolárnych neurónov a satelitných buniek",
+          "sú zapojené do senzitívnej dráhy"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Centrálny a periférny nervový systém",
+          "number": 12,
+          "page": 268
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o plexus choroidues sú pravdivé?",
+        "answers": [
+          "je zodpovedný za produkciu mozgovomiechového moku",
+          "je takmer avaskulárny, aby sa zabránilo subarachnoidálnemu krvácaniu",
+          "je pokrytý kubickými ependýmovými bunkami",
+          "je bohatý na krvné cievy v riedkom kolagénovom väzive",
+          "lemuje centrálny kanál miechy",
+          "je vystlaný tanycytmi"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Centrálny a periférny nervový systém",
+          "number": 13,
+          "page": 269
+        }
+      },
+      {
+        "question": "Kde nájdeme telá Betzových motoneurónov?",
+        "answers": [
+          "v hlbokých jadrách mozočka",
+          "vo ventrálnych rohoch miechy",
+          "v motorickej kôre girus praecentralis",
+          "v bazálnych gangliách a pars compacta substantia nigra"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Centrálny a periférny nervový systém",
+          "number": 14,
+          "page": 269
+        }
+      },
+      {
+        "question": "V ktorých orgánoch možno pozorovať satelitné bunky?",
+        "answers": [
+          "celiakálne gangliá celiakálneho plexu",
+          "gangliá dorzálnych koreňov",
+          "nervus ischiadicus",
+          "nervus vagus",
+          "zadné rohy miechy",
+          "prevertebrálne gangliá sympatika"
+        ],
+        "correct": [
+          0,
+          1,
+          5
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Centrálny a periférny nervový systém",
+          "number": 15,
+          "page": 269
+        }
+      },
+      {
+        "question": "Telá ktorých neurónov sa nachádzajú v mozgovej kôre?",
+        "answers": [
+          "Cajalove-Retziove bunky",
+          "Martinottiho bunky",
+          "Purkyňove bunky/neuróny",
+          "Betzove pyramídové bunky/neuróny"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Centrálny a periférny nervový systém",
+          "number": 16,
+          "page": 269
+        }
+      },
+      {
+        "question": "V ktorých štruktúrach CNS sa nachádza veľké množstvo tiel neurónov?",
+        "answers": [
+          "substantia nigra",
+          "predná komisúra",
+          "pyramídový trakt",
+          "nucleus paraventricularis",
+          "intermediolaterálny stĺpec",
+          "dorzálny stĺpec"
+        ],
+        "correct": [
+          0,
+          3,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Centrálny a periférny nervový systém",
+          "number": 17,
+          "page": 270
+        }
+      },
+      {
+        "question": "Ktoré štruktúry sú súčasťou proprioceptívneho monosynaptického reflexného oblúka?",
+        "answers": [
+          "intrafuzálne vlákna svalového vretienka",
+          "dendrit (periférny výbežok) pseudounipolárneho neurónu",
+          "inhibičný interneurón",
+          "axón alfa-motoneurónu"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Centrálny a periférny nervový systém",
+          "number": 18,
+          "page": 270
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o myelinizovaných nervových vláknach sú pravdivé?",
+        "answers": [
+          "myelínová pošva jedného axónu je tvorená mnohými Schwannovými bunkami",
+          "jedna Schwannova bunka vytvára myelínovú pošvu okolo mnohých axónov",
+          "myelín izoluje axóny a zvyšuje rýchlosť prenosu elektrických impulzov pozdĺž axónu",
+          "axóny sú uložené v cytoplazme Schwannových buniek"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Centrálny a periférny nervový systém",
+          "number": 19,
+          "page": 270
+        }
+      },
+      {
+        "question": "Ktoré bunky môžeme nájsť v dráhach bielej hmoty?",
+        "answers": [
+          "interneuróny",
+          "astrocyty",
+          "oligodendrocyty",
+          "mikroglie"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Centrálny a periférny nervový systém",
+          "number": 20,
+          "page": 270
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o nervovom systéme:",
+        "answers": [
+          "miecha obsahuje v predných rohoch sivej hmoty alfa-motoneuróny",
+          "miecha má rovnaké usporiadanie šedej a bielej hmoty ako mozog",
+          "pri farbení hematoxylínom sa v cytoplazme alfa-motoneurónov znázorní Nisslova substancia",
+          "centrálny kanál miechy vystiela ependým"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Centrálny a periférny nervový systém",
+          "number": 21,
+          "page": 271
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o nervovom systéme:",
+        "answers": [
+          "ependýmové bunky sú epitelové bunky, ktoré ležia na bazálnej membráne",
+          "ependýmové bunky obsahujú na svojom povrchu mikroklky a/alebo riasinky",
+          "sivá hmota miechy obsahuje prevažne myelinizované axóny",
+          "alfa-motoneuróny predných rohov sivej hmoty miechy vysielajú somatomotorické vlákna inervujúce kostrové svaly"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Centrálny a periférny nervový systém",
+          "number": 22,
+          "page": 271
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o nervovom systéme:",
+        "answers": [
+          "biela hmota miechy je uložená na povrchu pod jej obalmi",
+          "biela hmota miechy obsahuje prevažne myelinizované axóny, gliové bunky a súvislé krvné kapiláry",
+          "centrálny kanál miechy vystielajú rôzne typy neurónov",
+          "ependýmové bunky sú epiteloidne usporiadané gliové bunky"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Centrálny a periférny nervový systém",
+          "number": 23,
+          "page": 271
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o nervovom systéme:",
+        "answers": [
+          "bočné rohy miechy obsahujú somatomotorické vlákna alfa-motoneurónov",
+          "zadné rohy miechy obsahujú axóny somatosenzitívnych neurónov, ktorých telá ležia v spinálnych gangliách",
+          "pri farbení hematoxylínom a eozínom sú nervové vlákna zafarbené do ružova",
+          "biela hmota miechy obkolesuje centrálny kanál"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Centrálny a periférny nervový systém",
+          "number": 24,
+          "page": 271
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o nervovom systéme:",
+        "answers": [
+          "centrálny kanál miechy vystielajú bunky s výbežkami, ktoré napomáhajú cirkulácii mozgovomiechového moku",
+          "biela hmota miechy sa rozdeľuje na predné, bočné a zadné korene",
+          "alfa-motoneuróny v predných rohoch sivej hmoty miechy vysielajú axóny prostredníctvom predných koreňov miechových nervov",
+          "všetky rohy sivej hmoty miechy obsahujú v rovnakej miere zastúpené motorické aj senzitívne vlákna"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Centrálny a periférny nervový systém",
+          "number": 25,
+          "page": 272
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o nervovom systéme:",
+        "answers": [
+          "Betzove bunky sú uložené v najpovrchovejšej vrstve kôry mozgu",
+          "neokortex koncového mozgu je rozdelený do troch typických vrstiev",
+          "lamina molecularis je najpovrchovejšou vrstvou neokortexu koncového mozgu",
+          "lamina multiformis neokortexu koncového mozgu je uložená na hranici s bielou hmotou"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Centrálny a periférny nervový systém",
+          "number": 26,
+          "page": 272
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o nervovom systéme:",
+        "answers": [
+          "lamina pyramidalis interna určitých oblastí koncového mozgu môže obsahovať obrovské Betzove bunky",
+          "Betzove bunky sú multipolárne pyramídové neuróny, ktorých hrot smeruje vždy k povrchu mozgu",
+          "Betzove bunky sú súčasťou bielej hmoty koncového mozgu",
+          "neokortex koncového mozgu pozostáva zo šiestich vrstiev"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Centrálny a periférny nervový systém",
+          "number": 27,
+          "page": 272
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o nervovom systéme:",
+        "answers": [
+          "biela hmota koncového mozgu obsahuje prevažne myelinizované výbežky nervových buniek, gliové bunky a súvislé kapiláry",
+          "lamina molecularis neokortexu koncového mozgu obsahuje málo buniek a množstvo vlákien",
+          "lamina pyramidalis externa neokortexu koncového mozgu je v poradí piatou vrstvou od povrchu",
+          "najviac pyramídových buniek v neokortexe koncového mozgu nájdeme v granulárnych vrstvách"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Centrálny a periférny nervový systém",
+          "number": 28,
+          "page": 272
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o nervovom systéme:",
+        "answers": [
+          "všetky časti mozgovej kôry sú usporiadané do šiestich vrstiev",
+          "lamina multiformis neokortexu koncového mozgu obsahuje neuróny rôznych tvarov",
+          "paleokortex je usporiadaný do troch vrstiev",
+          "štvrtá vrstva neokortexu koncového mozgu od povrchu je lamina granularis interna"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Centrálny a periférny nervový systém",
+          "number": 29,
+          "page": 273
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o nervovom systéme:",
+        "answers": [
+          "dura mater je vrstva hustého kolagénového neusporiadaného väziva, ktorá pokrýva mozog aj miechu",
+          "arachnoidea je vrstva riedkeho väziva, ktorá priamo pokrýva tkanivo mozgu",
+          "dura mater mozgu zrastá s periostom lebečných kostí",
+          "arachnoidea je tvorená riedkym väzivom usporiadaným do trámcov, medzi ktorými prúdi mozgovomiechový mok"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Centrálny a periférny nervový systém",
+          "number": 30,
+          "page": 273
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o nervovom systéme:",
+        "answers": [
+          "Purkyňove bunky kôry mozočka vysielajú do stratum moleculare dendrity, ktoré označujeme ako Purkyňove vlákna",
+          "telá Purkyňových buniek ležia v strednej vrstve kôry mozočka",
+          "kôra mozočka je rozdelená do troch vrstiev",
+          "dendritický strom Purkyňových buniek sa vetví v stratum granulosum kôry mozočka"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Centrálny a periférny nervový systém",
+          "number": 31,
+          "page": 273
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o nervovom systéme:",
+        "answers": [
+          "Pukryňove bunky sú veľké multlipolárne neuróny, ktorých dendritický strom sa vetví v stratum moleculare kôry mozočka",
+          "stratum granulosum kôry mozočka leží na hranici medzi kôrou a dreňou",
+          "stratum purkinjese je najhrubšou vrstvou kôry mozočka",
+          "granulárne neuróny (zrnité bunky) tvoria hlavný typ neurónov v stratum granulosum kôry mozočka a rozmermi patria k najmenším bunkám ľudského tela"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Centrálny a periférny nervový systém",
+          "number": 32,
+          "page": 273
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o nervovom systéme:",
+        "answers": [
+          "machové vlákna sú najpočetnejšie aferentné nervové vlákna kôry mozočka",
+          "kôra mozočka obsahuje päť hlavných typov neurónov – granulárne (zrnité), Purkyňove, Golgiho, hviezdicové a košíčkové bunky",
+          "Purkyňove bunky majú hruškovitý tvar a ich telá tvoria stratum purkinjese kôry mozočka",
+          "mozoček má rovnaké usporiadanie sivej a bielej hmoty ako miecha"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Centrálny a periférny nervový systém",
+          "number": 33,
+          "page": 274
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o nervovom systéme:",
+        "answers": [
+          "súčasťou kôry mozočka je lamina multiformis",
+          "granulárne neuróny nájdeme prevažne v stratum moleculare kôry mozočka",
+          "stratum moleculare kôry mozočka obsahuje axonálny strom Purkyňových buniek",
+          "biela hmota mozočka je tvorená prevažne myelinizovanými axónmi, gliovými bunkami a súvislými krvnými kapilárami"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Centrálny a periférny nervový systém",
+          "number": 34,
+          "page": 274
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o nervovom systéme:",
+        "answers": [
+          "pri impregnácií podľa Holmesa dokážeme najlepšie pozorovať Nisslovu substanciu v telách Purkyňových buniek",
+          "Purkyňove bunky patria rozmermi k najmenším bunkám ľudského tela",
+          "telá Purkyňových buniek nájdeme prevažne v bielej hmote mozočka",
+          "granulárne bunky sú malé excitačné neuróny kôry mozočka"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Centrálny a periférny nervový systém",
+          "number": 35,
+          "page": 274
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o nervovom systéme:",
+        "answers": [
+          "spinálne ganglion obsahuje pseudounipolárne neuróny",
+          "neuróny spinálnych ganglií vysielajú eferentný axón smerom k periférnym orgánom",
+          "spinálne ganglion obsahuje podporné satelitné bunky, ktoré majú vlastnú bazálnu laminu",
+          "všetky senzorické gangliá obsahujú pseudounipolárne neuróny"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Centrálny a periférny nervový systém",
+          "number": 36,
+          "page": 274
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o nervovom systéme:",
+        "answers": [
+          "plexus choroideus je pokrytý modifikovanými ependymocytmi",
+          "plexus choroideus je miestom produkcie mozgovomiechového moku",
+          "výbežky dura mater tvoria plexus choroideus",
+          "súčasťou plexus choroideus je riedke kolagénové väzivo a fenestrované krvné kapiláry"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Centrálny a periférny nervový systém",
+          "number": 37,
+          "page": 275
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o nervovom systéme:",
+        "answers": [
+          "periférny nerv je celý pokrytý endoneuriom",
+          "súčasťou periférnych nervov sú aj vasa nervorum a nervi nervorum",
+          "perineurium obaľuje každé jednotlivé nervové vlákno",
+          "axóny a dendrity periférnych nervov dokážeme na reze rozlíšiť rôznymi impregnačnými metódami"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Centrálny a periférny nervový systém",
+          "number": 38,
+          "page": 275
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o nervovom systéme:",
+        "answers": [
+          "endoneurium je väzivový obal okolo jednotlivých nervových vlákien",
+          "každý periférny nerv obsahuje vždy len jeden typ nervových vlákien",
+          "perineurium obaľuje zväzky nervových vlákien",
+          "epineurium je husté kolagénové neusporiadané väzivo"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Centrálny a periférny nervový systém",
+          "number": 39,
+          "page": 275
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o nervovom systéme:",
+        "answers": [
+          "periférne nervy nemajú vlastné cievne zásobenie",
+          "všetky nervové vlákna periférnych nervov sú myelinizované",
+          "endoneurium je retikulárne väzivo, ktoré sa nachádza okolo jednotlivých nervových vlákien periférneho nervu",
+          "periférny nerv obsahuje v rôznych kombináciách somatomotorické, somatosenzitívne, visceromotorické a viscerosenzitívne nervové vlákna"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Centrálny a periférny nervový systém",
+          "number": 40,
+          "page": 275
+        }
+      },
+      {
+        "question": "Na aké mozgové vačky sa ďalej diferencuje rombencefalon?",
+        "answers": [
+          "metencefalon",
+          "mezencefalon",
+          "diencefalon",
+          "myelencefalon"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Centrálny a periférny nervový systém",
+          "number": 41,
+          "page": 275
+        }
+      },
+      {
+        "question": "Ktoré z ohybov neurálnej rúry smerujú ventrálne?",
+        "answers": [
+          "pontínna flexúra",
+          "kraniálna (mezencefalická) flexúra",
+          "krčná flexúra",
+          "krížová flexúra chrbtice"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Centrálny a periférny nervový systém",
+          "number": 42,
+          "page": 276
+        }
+      },
+      {
+        "question": "V ktorej zóne neuroepitelu neurálnej rúry sa vytvárajú neuróny?",
+        "answers": [
+          "plášťová zóna",
+          "ventrikulárna zóna",
+          "marginálna zóna",
+          "zóna, ktorá obklopuje centrálny lúmen"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Centrálny a periférny nervový systém",
+          "number": 43,
+          "page": 276
+        }
+      },
+      {
+        "question": "Ktoré štruktúry CNS vznikajú z bazálnych platničiek?",
+        "answers": [
+          "jadro trochleárneho nervu",
+          "vestibulárne jadrá n. vestibulocochlearis",
+          "ventrálne rohy miechy",
+          "dorzálne rohy miechy"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Centrálny a periférny nervový systém",
+          "number": 44,
+          "page": 276
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o rázštepe chrbtice sú pravdivé?",
+        "answers": [
+          "hľadá sa pri skríningu meraním hladiny alfa fetoproteínu v krvi matky v 15. – 17. týždni tehotenstva",
+          "vzniká, keď nezmiznú romboméry",
+          "má multifaktoriálnu etiológiu",
+          "je to malformácia, ktorá vzniká, keď sa neuzavrie neurálna rúra v zadnom neuropóre"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Centrálny a periférny nervový systém",
+          "number": 45,
+          "page": 276
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o vývine nervového systému:",
+        "answers": [
+          "notochorda spolu s paraxiálnou mezodermou indukujú diferenciáciu ektodermy na neuroektodermu",
+          "neurálna platnička je základom pre neurálnu rúru",
+          "neuroporus anterior a neuroporus posterior sa uzatvárajú v rovnakom čase",
+          "Anencefália je výsledkom neuzavretia neuroporus posterior"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Centrálny a periférny nervový systém",
+          "number": 46,
+          "page": 276
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o vývine nervového systému:",
+        "answers": [
+          "na vzniku vrodených vývinových chýb neurálnej rúry sa podieľajú iba genetické faktory",
+          "bunky neurálnej lišty sú odvodené z neuroektodermy neurálnej rúry",
+          "bunky neurálnej rúry majú obmedzený diferenciačný potenciál, kedže ich derivátmi sú iba kosti neurokránia",
+          "neuroepitelové bunky sa diferencujú na neuroblasty, glioblasty a ependymoblasty"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Centrálny a periférny nervový systém",
+          "number": 47,
+          "page": 277
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o vývine nervového systému:",
+        "answers": [
+          "z mezencefala sa vyvíjajú 2 mozgové vačky – telencefalon a diencefalon",
+          "piaty mozgový vačok (myelencefalon) sa vyvíja z rombencefala",
+          "talamus a hypotalamus sú derivátmi prozencefala",
+          "cerebellum sa vyvíja z metencefala"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Centrálny a periférny nervový systém",
+          "number": 48,
+          "page": 277
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o vývine nervového systému:",
+        "answers": [
+          "motorické neuróny ventrálnych rohov miechy sú odvodené z bazálnej platničky",
+          "do 2. mesiaca embryonálneho vývinu majú miecha a chrbtica rovnakú dĺžku",
+          "z alárnych platničiek mezencefala vznikajú skupiny motorických jadier (n. oculomotorius, n. trochlearis, n. ruber)",
+          "z bazálnych platničiek metencefala vznikajú motorické jadrá hlavových nervov"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Centrálny a periférny nervový systém",
+          "number": 49,
+          "page": 277
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o vývine nervového systému:",
+        "answers": [
+          "autonómny nervový systém sa vyvíja z buniek neurálnej lišty",
+          "myelinizácia nervových vlákien sa začína v 4. mesiaci a dokončuje sa tesne pred pôrodom",
+          "z lúmenu neurálnej rúry sa vyvíja komorový systém a centrálny kanál miechy",
+          "neuzavretie neuroporus anterior môže viesť k vzniku spina bifida"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Centrálny a periférny nervový systém",
+          "number": 50,
+          "page": 277
+        }
+      }
+    ]
+  }
+]

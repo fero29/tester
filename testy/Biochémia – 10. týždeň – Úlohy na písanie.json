@@ -1,0 +1,256 @@
+[
+  {
+    "title": "Biochémia – 10. týždeň – Úlohy na písanie",
+    "description": "Úlohy na písanie vzorcov a reakcií z kariet „Tvorivé otázky“ (otvorené otázky kontrolných testov). Napíš riešenie na papier a porovnaj ho s ručne písanou ukážkou spolužiaka; ukážka nie je oficiálny kľúč.",
+    "testType": "selfcheck",
+    "year": 2,
+    "category": "Biochémia",
+    "sortOrder": 10.5,
+    "questions": [
+      {
+        "question": "Napíšte reakciu, ktorú katalyzuje glutamátdehydrogenáza, koenzým skratkou.",
+        "solutionImages": [
+          "kreativne-s02.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu T: hľadaj úlohu č. 29. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "T",
+          "number": 29,
+          "page": 1,
+          "solutionPages": [
+            2
+          ]
+        }
+      },
+      {
+        "question": "Napíšte reakciu katalyzovanú alanínaminotransferázou (ALT), koenzým skratkou.",
+        "solutionImages": [
+          "kreativne-s08.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu A: hľadaj úlohu č. 30. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "A",
+          "number": 30,
+          "page": 7,
+          "solutionPages": [
+            8
+          ]
+        }
+      },
+      {
+        "question": "Napíšte vzorec a názov zlúčeniny, ktorá je koenzýmom aminotransferáz.",
+        "solutionImages": [
+          "kreativne-s10.jpg",
+          "kreativne-s11.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu N: hľadaj úlohu č. 27. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "N",
+          "number": 27,
+          "page": 9,
+          "solutionPages": [
+            10,
+            11
+          ]
+        }
+      },
+      {
+        "question": "Napíšte reakciu katalyzovanú aspartátaminotransferázou (AST), koenzým skratkou.",
+        "solutionImages": [
+          "kreativne-s10.jpg",
+          "kreativne-s11.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu N: hľadaj úlohu č. 28. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "N",
+          "number": 28,
+          "page": 9,
+          "solutionPages": [
+            10,
+            11
+          ]
+        }
+      },
+      {
+        "question": "Napíšte reakciu katalyzovanú glutaminázou.",
+        "solutionImages": [
+          "kreativne-s15.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu C: hľadaj úlohu č. 29. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "C",
+          "number": 29,
+          "page": 14,
+          "solutionPages": [
+            15
+          ]
+        }
+      },
+      {
+        "question": "Napíšte reakciu tvorby aspartátu, ktorá vyžaduje pyridoxalfosfát ako koenzým, a uveďte názov enzýmu.",
+        "solutionImages": [
+          "kreativne-s19.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu D: hľadaj úlohu č. 29. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "D",
+          "number": 29,
+          "page": 18,
+          "solutionPages": [
+            19
+          ]
+        }
+      },
+      {
+        "question": "Napíšte reakciu vzniku hlavnej transportnej netoxickej formy amoniaku a uveďte názov enzýmu, nukleotidy skratkou.",
+        "solutionImages": [
+          "kreativne-s21.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu E: hľadaj úlohu č. 27. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "E",
+          "number": 27,
+          "page": 20,
+          "solutionPages": [
+            21
+          ]
+        }
+      },
+      {
+        "question": "Napíšte vzorec produktu reakcie katalyzovanej glutamínsyntázou.",
+        "solutionImages": [
+          "kreativne-s23.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu M: hľadaj úlohu č. 27. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "M",
+          "number": 27,
+          "page": 22,
+          "solutionPages": [
+            23
+          ]
+        }
+      },
+      {
+        "question": "Napíšte reakciu katalyzovanú glutamínsyntázou, nukleotidy skratkou.",
+        "solutionImages": [
+          "kreativne-s27.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu P: hľadaj úlohu č. 29. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "P",
+          "number": 29,
+          "page": 26,
+          "solutionPages": [
+            27
+          ]
+        }
+      },
+      {
+        "question": "Napíšte vzorec a názov látky, ktorá vznikne dekarboxyláciou serínu.",
+        "solutionImages": [
+          "kreativne-s29.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu H: hľadaj úlohu č. 25. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "H",
+          "number": 25,
+          "page": 28,
+          "solutionPages": [
+            29
+          ]
+        }
+      },
+      {
+        "question": "Napíšte reakciu, ktorú katalyzuje glutamátdehydrogenáza (koenzým skratkou).",
+        "solutionImages": [
+          "kreativne-s29.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu H: hľadaj úlohu č. 30. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "H",
+          "number": 30,
+          "page": 28,
+          "solutionPages": [
+            29
+          ]
+        }
+      },
+      {
+        "question": "Napíšte reakciu, ktorá je 2. krokom nepriamej deaminácie aminokyselín, a uveďte názov enzýmu (koenzým skratkou).",
+        "solutionImages": [
+          "kreativne-s31.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu G: hľadaj úlohu č. 27. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "G",
+          "number": 27,
+          "page": 30,
+          "solutionPages": [
+            31
+          ]
+        }
+      },
+      {
+        "question": "Napíšte vzorec produktu dekarboxylácie glutamátu.",
+        "solutionImages": [
+          "kreativne-s31.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu G: hľadaj úlohu č. 30. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "G",
+          "number": 30,
+          "page": 30,
+          "solutionPages": [
+            31
+          ]
+        }
+      },
+      {
+        "question": "Napíšte vzorce transportných foriem amoniaku z periférnych tkanív do pečene.",
+        "solutionImages": [
+          "kreativne-s35.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu K: hľadaj úlohu č. 28. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "K",
+          "number": 28,
+          "page": 34,
+          "solutionPages": [
+            35
+          ]
+        }
+      },
+      {
+        "question": "Napíšte vzorec a názov látky, ktorá vznikne dekarboxyláciou kyseliny glutámovej.",
+        "solutionImages": [
+          "kreativne-s39.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu B: hľadaj úlohu č. 25. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "B",
+          "number": 25,
+          "page": 38,
+          "solutionPages": [
+            39
+          ]
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,158 @@
+[
+  {
+    "title": "Biochémia – 08. týždeň – Úlohy na písanie",
+    "description": "Úlohy na písanie vzorcov a reakcií z kariet „Tvorivé otázky“ (otvorené otázky kontrolných testov). Napíš riešenie na papier a porovnaj ho s ručne písanou ukážkou spolužiaka; ukážka nie je oficiálny kľúč.",
+    "testType": "selfcheck",
+    "year": 2,
+    "category": "Biochémia",
+    "sortOrder": 8.5,
+    "questions": [
+      {
+        "question": "Napíšte reakciu štiepenia tripalmitínu katalyzovanú lipoproteínovou lipázou.",
+        "solutionImages": [
+          "kreativne-s02.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu T: hľadaj úlohu č. 28. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "T",
+          "number": 28,
+          "page": 1,
+          "solutionPages": [
+            2
+          ]
+        }
+      },
+      {
+        "question": "Napíšte vzorce produktov reakcie štiepenia tristearanu katalyzovanej lipoproteínovou lipázou.",
+        "solutionImages": [
+          "kreativne-s04.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu J: hľadaj úlohu č. 27. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "J",
+          "number": 27,
+          "page": 3,
+          "solutionPages": [
+            4
+          ]
+        }
+      },
+      {
+        "question": "Napíšte reakciu, ktorá umožňuje uvoľnenie karboxylových kyselín viazaných v tripalmitíne VLDL častíc na využitie v tukovom tkanive, uveďte názov enzýmu.",
+        "solutionImages": [
+          "kreativne-s10.jpg",
+          "kreativne-s11.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu N: hľadaj úlohu č. 29. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "N",
+          "number": 29,
+          "page": 9,
+          "solutionPages": [
+            10,
+            11
+          ]
+        }
+      },
+      {
+        "question": "Napíšte reakciu štiepenia tripalmitínu katalyzovanú lipoproteínovou lipázou.",
+        "solutionImages": [
+          "kreativne-s15.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu C: hľadaj úlohu č. 28. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "C",
+          "number": 28,
+          "page": 14,
+          "solutionPages": [
+            15
+          ]
+        }
+      },
+      {
+        "question": "Napíšte vzorec látky, ktorá je donorom energie pri syntéze fosfolipidov.",
+        "solutionImages": [
+          "kreativne-s17.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu R: hľadaj úlohu č. 26. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "R",
+          "number": 26,
+          "page": 16,
+          "solutionPages": [
+            17
+          ]
+        }
+      },
+      {
+        "question": "Napíšte vzorec ľubovoľného fosfolipidu a naznačte miesto štiepenia fosfolipázou D.",
+        "solutionImages": [
+          "kreativne-s19.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu D: hľadaj úlohu č. 26. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "D",
+          "number": 26,
+          "page": 18,
+          "solutionPages": [
+            19
+          ]
+        }
+      },
+      {
+        "question": "Napíšte reakciu vzniku diacylglycerolu z tristearanu, uveďte názov enzýmu.",
+        "solutionImages": [
+          "kreativne-s19.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu D: hľadaj úlohu č. 28. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "D",
+          "number": 28,
+          "page": 18,
+          "solutionPages": [
+            19
+          ]
+        }
+      },
+      {
+        "question": "Napíšte reakciu, ktorej substrátom je tristearan a aktivátorom apoproteín C-II.",
+        "solutionImages": [
+          "kreativne-s33.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu F: hľadaj úlohu č. 28. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "F",
+          "number": 28,
+          "page": 32,
+          "solutionPages": [
+            33
+          ]
+        }
+      },
+      {
+        "question": "Napíšte reakciu, ktorú katalyzuje lipoproteínová lipáza a substrátom je trioleín.",
+        "solutionImages": [
+          "kreativne-s37.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu ? (s. 36): hľadaj úlohu č. 28. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "? (s. 36)",
+          "number": 28,
+          "page": 36,
+          "solutionPages": [
+            37
+          ]
+        }
+      }
+    ]
+  }
+]

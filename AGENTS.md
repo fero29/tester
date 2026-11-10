@@ -69,6 +69,7 @@ Kód je zabudovaný v image: editácia súboru sama nezmení bežiaci kontajner.
 
 - Otázkový test má `questions[]`, odpovede `answers[]` a `correct` ako index alebo pole indexov od nuly. Existujú otázky s 2 aj 4 odpoveďami; `correct: []` znamená žiadnu správnu. Zachovaj neznáme metadáta.
 - Úlohy na písanie majú `testType: "selfcheck"`, `questions[]` so zadaním a voliteľnými `solutionImages` (názvy súborov v `testy/assets/`); hodnotenie je vlastné a ráta sa iba prvý prechod.
+- Voliteľné `studyMaterial` pri teste je názov statickej HTML stránky v `testy/assets/` (s voliteľnou kotvou `#…`); zoznam ju ponúkne na čítanie.
 - Slovíčkový test má `testType: "vocabulary"` a `vocabulary[]`. Typy sú `noun`, `adjective`, `phrase`; posledné dva nevyžadujú rod/genitív. Append nesmie zmiešať slovíčka s otázkami.
 - Chýbajúci `year` znamená 1. ročník, podporované sú 1 a 2. Nový predmet sa zobrazí z `category` v príslušnom ročníku. Existujúce testy kvôli filtru neprepisuj. Zachovaj `previousTitles` pre osobné výsledky a `sortOrder` pre poradie.
 - Úložisko číta objekt aj pole testov, zapisuje pole. Import kolízie odmieta (409). Update/append/delete vyžadujú aktuálnu SHA-256 `version` (428 chýbajúca, 409 konflikt). Pred zmenou vzniká presná záloha, zápis je atómový pod súborovým zámkom. Editor ukladá výslovne tlačidlom.

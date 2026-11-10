@@ -1,0 +1,991 @@
+[
+  {
+    "title": "Histológia – 12. týždeň – Koža",
+    "description": "Tenká a hrubá koža, vlasy, kožné žľazy, receptory, prsník a vývin kože. Otázky s výberom viacerých odpovedí zo zbierky Histológia a embryológia v otázkach (Miko, Klein, Juríková, UK 2025); kľúč podľa zbierky.",
+    "year": 2,
+    "category": "Histológia",
+    "sortOrder": 12.5,
+    "questions": [
+      {
+        "question": "Ako sa nazýva rozšírenie rastúceho vlasového folikulu tvorené rôznymi bunkovými zložkami v jeho základni?",
+        "answers": [
+          "terminál",
+          "papila",
+          "cibuľka",
+          "stvol"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Koža",
+          "number": 1,
+          "page": 253
+        }
+      },
+      {
+        "question": "Ktoré tkanivá sa nachádzajú v koži?",
+        "answers": [
+          "epitelová výstelka v epiderme",
+          "riedke kolagénové väzivo v epiderme",
+          "husté kolagénové väzivo v retikulárnej vrstve dermy",
+          "biele tukové väzivo v podkoží"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Koža",
+          "number": 2,
+          "page": 253
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o tŕňovitej vrstve epidermy sú pravdivé?",
+        "answers": [
+          "pozostáva z niekoľkých vrstiev keratinocytov spojených dezmozómami",
+          "je to priesvitná tenká vrstva extrémne sploštených bazofilných buniek",
+          "je zdrojom nových keratinocytov",
+          "pozostáva z cylindrických keratinocytov",
+          "zmršťovanie mikrofilamentov medzi dezmozómami je zodpovedné za jej tŕňovitý vzhľad"
+        ],
+        "correct": [
+          0,
+          2,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Koža",
+          "number": 3,
+          "page": 253
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o kožných žľazách sú pravdivé?",
+        "answers": [
+          "potné žľazy kože sú jednoduché rozvetvené alveolárne žľazy",
+          "ekrinné potné žľazy sú tubulárne stočené žľazy",
+          "kožné potné žľazy sú exokrinné žľazy s holokrinnou sekréciou",
+          "mazové žľazy sú exokrinné žľazy s holokrinnou sekréciou"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Koža",
+          "number": 4,
+          "page": 253
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich všeobecných tvrdení o koži sú pravdivé?",
+        "answers": [
+          "stratum lucidum epidermis chýba pri tenkom type kože",
+          "melanocyty sú pigmentové bunky s dlhými nepravidelnými výbežkami, ktoré chránia mitoticky aktívne bunky stratum basale kože pred škodlivými účinkami slnečného žiarenia",
+          "vrstva kože pod epidermis sa nazýva hypodermis a je zložená z kolagénového väziva",
+          "retikulárna vrstva dermis je zložená z retikulárneho väziva"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Koža",
+          "number": 5,
+          "page": 254
+        }
+      },
+      {
+        "question": "Ktoré vrstvy epidermy sú v tenkom type kože?",
+        "answers": [
+          "stratum basale",
+          "stratum granulosum",
+          "stratum papillare",
+          "stratum lucidum",
+          "stratum corneum"
+        ],
+        "correct": [
+          0,
+          1,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Koža",
+          "number": 6,
+          "page": 254
+        }
+      },
+      {
+        "question": "Ktoré sú typické vlastnosti buniek bazálnej vrstvy epidermy?",
+        "answers": [
+          "nápadná eozinofília ich cytoplazmy",
+          "obsahujú rôzne množstvo melanínu",
+          "sú nízko cylindrické až kubické",
+          "sú spojené s lamina basalis pomocou dezmozómov",
+          "obsahujú početné keratohyalínové granuly"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Koža",
+          "number": 7,
+          "page": 254
+        }
+      },
+      {
+        "question": "Ktoré sú typické bunky epidermy?",
+        "answers": [
+          "Merkelove bunky",
+          "melanocyty",
+          "Langhansove bunky",
+          "fibroblasty"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Koža",
+          "number": 8,
+          "page": 254
+        }
+      },
+      {
+        "question": "Ktorá ultraštruktúrna zložka bunky vypĺňa 85 percent objemu diferencovaného keratinocytu?",
+        "answers": [
+          "mikrotubuly",
+          "intermediárne filamenty",
+          "aktínové vlákna",
+          "lamíny"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Koža",
+          "number": 9,
+          "page": 255
+        }
+      },
+      {
+        "question": "Ktorá aminokyselina je základným stavebným prvkom melanínu?",
+        "answers": [
+          "leucín",
+          "valín",
+          "prolín",
+          "tyrozín"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Koža",
+          "number": 10,
+          "page": 255
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o mazových žľazách kože sú pravdivé?",
+        "answers": [
+          "nachádzajú sa v koži vonkajších pohlavných orgánov",
+          "tvoria glandulae tarsales Meibomi v očnom viečku",
+          "sú to holokrinné žľazy",
+          "nenachádzajú sa v koži rúk alebo nôh",
+          "tvoria glandulae ceruminosae vonkajšieho zvukovodu"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Koža",
+          "number": 11,
+          "page": 255
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o mliečnej žľaze sú pravdivé?",
+        "answers": [
+          "myoepitelové bunky spôsobujú vylučovanie mlieka cez vývody",
+          "estrogén podporuje ich rozvetvenú diferenciáciu",
+          "tuková zložka mlieka sa vylučuje holokrinnou sekréciou",
+          "chýba u mužov"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Koža",
+          "number": 12,
+          "page": 255
+        }
+      },
+      {
+        "question": "Aké sú funkcie Vaterových-Paciniho teliesok?",
+        "answers": [
+          "zisťovanie tlakových zmien",
+          "fagocytóza škodlivých častíc",
+          "detekcia vibrácií",
+          "detekcia tepla (vysoká teplota)",
+          "detekcia chladu (nízka teplota)"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Koža",
+          "number": 13,
+          "page": 256
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o Huxleyho vrstve vnútornej koreňovej pošvy vlasového folikulu sú pravdivé?",
+        "answers": [
+          "tvorí jej strednú časť",
+          "je tvorená sploštenými epitelovými bunkami",
+          "je v priamom kontakte s vonkajšou časťou vlasového folikulu",
+          "pozostáva z kubických buniek, ktoré produkujú keratín"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Koža",
+          "number": 14,
+          "page": 256
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o ekrinných potných žľazách sú pravdivé?",
+        "answers": [
+          "sú rozmiestnené takmer po celom tele",
+          "sú to jednoduché stočené žľazy",
+          "ich sekrečná časť obsahuje myoepitelové bunky",
+          "napriek názvu je spôsob ich vylučovania apokrinný"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Koža",
+          "number": 15,
+          "page": 256
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o Meissnerových telieskach sú pravdivé?",
+        "answers": [
+          "sú tiež tvorené Schwannovými bunkami",
+          "reagujú na natiahnutie a skrútenie",
+          "patria medzi opuzdrené nervové zakončenia",
+          "sú umiestnené v papilách dermis",
+          "sú receptormi pre bolesť"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Koža",
+          "number": 16,
+          "page": 256
+        }
+      },
+      {
+        "question": "Ktoré štruktúry kože sú nociceptory (receptory bolesti)?",
+        "answers": [
+          "voľné nervové zakončenia",
+          "Krauseho telieska",
+          "Merkelove disky",
+          "Ruffiniho telieska"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Koža",
+          "number": 17,
+          "page": 257
+        }
+      },
+      {
+        "question": "Ktorá z nasledujúcich buniek epidermis je úzko spojená s koncovými nervovými vláknami a slúži ako mechanoreceptor v koži?",
+        "answers": [
+          "Langerhansova bunka",
+          "melanocyt",
+          "Merkelova bunka",
+          "keratinocyt"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Koža",
+          "number": 18,
+          "page": 257
+        }
+      },
+      {
+        "question": "Ktorá štruktúra spravidla chýba v hrubej koži, ale je prítomná v tenkej koži?",
+        "answers": [
+          "dermatoglyfy",
+          "musculus arrector pili",
+          "mazové žľazy",
+          "stratum lucidum"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Koža",
+          "number": 19,
+          "page": 257
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o keratohyalínových granulách sú pravdivé?",
+        "answers": [
+          "sú bazofilné",
+          "nachádzajú sa v bunkách stratum granulosum kože",
+          "obsahujú bielkovinu nazývanú profilagrín",
+          "sú eozinofilné"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Koža",
+          "number": 20,
+          "page": 257
+        }
+      },
+      {
+        "question": "Čím sa odlišuje stratum papillare od stratum reticulare dermy?",
+        "answers": [
+          "odlišný typ väziva (riedke vs. husté)",
+          "inervované je len stratum reticulare",
+          "ich umiestnenie v derme",
+          "stratum papillare je tenšie"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Koža",
+          "number": 21,
+          "page": 257
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o koži a kožných adnexoch:",
+        "answers": [
+          "všetky bunky epidermis označujeme ako keratinocyty",
+          "stratum basale a stratum spinosum označujeme spoločne ako stratum germinativum seu Malpighi",
+          "stratum lucidum je pozorovateľné iba v koži hrubého typu",
+          "stratum corneum je tvorené viacerými vrstvami keratinocytov so svetlým okrúhlym jadrom"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Koža",
+          "number": 22,
+          "page": 258
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o koži a kožných adnexoch:",
+        "answers": [
+          "melanocyty využívajú cytokrinnú sekréciu – melanín priamo „injikujú“ do cytoplazmy keratinocytov",
+          "Merkelove bunky sú antigén prezentujúce bunky epidermis",
+          "tŕne viditeľné medzi keratinocytmi stratum spinosum sú komunikačné spojenia (nexy)",
+          "keratinocyty stratum basale sú ploché bunky, pretože epidermis je viacvrstvový plochý epitel"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Koža",
+          "number": 23,
+          "page": 258
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o koži a kožných adnexoch:",
+        "answers": [
+          "stratum lucidum je z dôvodu obsahu eleidínu silne eozinofilná vrstva",
+          "Merkelove bunky ako súčasť hmatových teliesok zastávajú funkciu mechanoreceptorov v epidermis",
+          "keratinocyty stratum basale obsahujú bazofilné keratohyalínové granuly",
+          "Langerhansove bunky sú populáciou keratinocytov"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Koža",
+          "number": 24,
+          "page": 258
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o koži a kožných adnexoch:",
+        "answers": [
+          "feomelanín produkovaný melanocytmi tvorí účinnejšiu ochranu pred UV žiarením v porovnaní s eumelanínom",
+          "Langerhansove bunky sú dendritické antigén prezentujúce bunky epidermis",
+          "stratum corneum obsahuje už iba odumreté elementy, kompletne vyplnené keratínom, bez bunkových organel",
+          "všetky bunkové populácie epidermis majú rovnaký embryonálny pôvod"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Koža",
+          "number": 25,
+          "page": 258
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o koži a kožných adnexoch:",
+        "answers": [
+          "stratum basale pokožky je tvorená jednou vrstvou kubických až cylindrických buniek",
+          "tŕne keratinocytov stratum corneum spájajú susedné bunky prostredníctvom hemidezmozómov",
+          "keratohyalínové granuly sú bazofilné štruktúry v cytoplazme keratinocytov stratum granulosum",
+          "epidermis je tvorená štyrmi typmi buniek – keratinocytmi, melanocytmi, Langerhansovými bunkami a Merkelovými bunkami"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Koža",
+          "number": 26,
+          "page": 259
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o koži a kožných adnexoch:",
+        "answers": [
+          "dermis je tvorená dvoma podvrstvami – stratum papillare a stratum reticulare",
+          "obe podvrstvy dermis sú tvorené rovnakým typom kolagénového väziva",
+          "stratum reticulare obsahuje mazové žľazy",
+          "hranica medzi statum papillare dermis a epidermis má rovný priebeh"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Koža",
+          "number": 27,
+          "page": 259
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o koži a kožných adnexoch:",
+        "answers": [
+          "hypodermis obsahuje všetky kožné adnexy",
+          "stratum papillare dermis vybieha oproti epidermis do papíl, čo má dôležitú mechanickú a výživnú funkciu",
+          "stratum papillare dermis je tvorené hustým kolagénovým neusporiadaným väzivom",
+          "stratum reticulare dermis je tvorené riedkym kolagénovým väzivom"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Koža",
+          "number": 28,
+          "page": 259
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o koži a kožných adnexoch:",
+        "answers": [
+          "stratum reticulare dermis je tvorené hustým kolagénovým neusporiadaným väzivom",
+          "stratum papillare dermis je tvorené riedkym kolagénovým väzivom",
+          "hypodermis tvorí prevažne elastické väzivo",
+          "stratum reticulare dermis obsahuje z kožných adnexov iba mazové žľazy"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Koža",
+          "number": 29,
+          "page": 259
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o koži a kožných adnexoch:",
+        "answers": [
+          "hypodermis obsahuje vo väčšine tela rôzne množstvo tukového väziva",
+          "paniculus adiposus je označenie pre stratum reticulare dermis",
+          "hypodermis je vo všetkých častiach ľudského tela tvorené jedným typom väziva",
+          "stratum reticulare dermis je husté kolagénové väzivo, a preto obsahuje iba kolagénové vlákna"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Koža",
+          "number": 30,
+          "page": 259
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o koži a kožných adnexoch:",
+        "answers": [
+          "stratum reticulare dermis obsahuje aj veľa elastických vlákien, čo vieme znázorniť napr. pri farbení orceínom",
+          "väčšina priebehu musculi arrectores pillorum prebieha v stratum reticulare dermis",
+          "Vaterove-Paciniho a Ruffiniho telieska nájdeme v stratum papillare dermis na hranici s epidermis",
+          "vo väčšine oblastí v ľudskom tele je dominantným typom väziva v hypodermis tukové väzivo"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Koža",
+          "number": 31,
+          "page": 260
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o koži a kožných adnexoch:",
+        "answers": [
+          "ekrinné potné žľazy majú vývody vystlané dvojvrstvovým kubickým epitelom",
+          "vývod ekrinných potných žliaz ústi do vlasového folikulu",
+          "apokrinné aromatické žľazy a ekrinné potné žľazy sa vždy vyskytujú spolu",
+          "mazová žľaza tvorí s vlasovým (chlpovým) folikulom vo väčšine prípadov pilosebaceóznu jednotku"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Koža",
+          "number": 32,
+          "page": 260
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o koži a kožných adnexoch:",
+        "answers": [
+          "mazové žľazy majú jeden vývod vystlaný viacvrstvovým dlaždicovým nerohovatejúcim epitelom",
+          "ekrinné potné žľazy využívajú predovšetkým apokrinný mechanizmus sekrécie",
+          "scapus je časť vlasu/chlpu, ktorá vyčnieva nad pokožku",
+          "vlasová (chlpová) papila je histologicky epitelové tkanivo"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Koža",
+          "number": 33,
+          "page": 260
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o koži a kožných adnexoch:",
+        "answers": [
+          "vlasová cibuľka (bulbus pili) obsahuje keratinocyty, ich prekurzory a melanocyty a má vysokú mitotickú aktivitu",
+          "vnútorná epitelová pošva vlasového folikulu je tvorená troma vrstvami – kutikulou, Huxleyovou a Henleho vrstvou",
+          "radix pili je časť vlasu (chlpu), ktorá vyčnieva nad pokožku",
+          "mazové žľazy ústia do vlasového (chlpového) folikulu nad vyústením aromatických žliaz"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Koža",
+          "number": 34,
+          "page": 260
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o koži a kožných adnexoch:",
+        "answers": [
+          "ekrinné potné žľazy sú jednovrstvové žľazy so stočenou sekrečnou časťou",
+          "holokrinný typ sekrécie prevažuje pri potných a aromatických žľazách",
+          "v aromatických žľazách prevažuje merokrinný mechanizmus sekrécie",
+          "keratinocyty v nechtoch podliehajú tvrdému typu rohovatenia"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Koža",
+          "number": 35,
+          "page": 261
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o koži a kožných adnexoch:",
+        "answers": [
+          "musculi arrectores pilorum sú priečne pruhované svaly upínajúce sa do vlasového folikulu",
+          "aromatické žľazy ústia do vlasového (chlpového) folikulu spravidla nad vyústením mazovej žľazy",
+          "vývody ekrinných potných žliaz sú vystlané jednovrstvovým plochým epitelom",
+          "medzi kožné adnexy patrí aj mliečna žľaza"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Koža",
+          "number": 36,
+          "page": 261
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o koži a kožných adnexoch:",
+        "answers": [
+          "hrubý typ kože neobsahuje žiadne kožné adnexy",
+          "v hrubom type kože nepozorujeme stratum lucidum",
+          "typickým príkladom hrubého typu kože sú dlane a chodidlá",
+          "rozdelenie kože na hrubý a tenký typ je založené na hrúbke celej kože vrátane hypodermis"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Koža",
+          "number": 37,
+          "page": 261
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o koži a kožných adnexoch:",
+        "answers": [
+          "tenký typ kože pokrýva väčšinu tela",
+          "tenký typ kože neobsahuje ekrinné potné žľazy",
+          "v tenkom type kože spravidla nedokážeme rozoznať stratum lucidum",
+          "hrubý typ kože obsahuje chlpy, mazové aj aromatické žľazy"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Koža",
+          "number": 38,
+          "page": 261
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o koži a kožných adnexoch:",
+        "answers": [
+          "rozdelenie kože na hrubý a tenký typ vychádza najmä z hrúbky epidermis",
+          "hrubý typ kože neobsahuje chlpy, mazové ani aromatické žľazy",
+          "stratum corneum hrubého typu kože môže byť hrubšie ako všetky ostatné vrstvy epidermis dohromady",
+          "rozdielom medzi hrubým a tenkým typom kože je prítomnosť/neprítomnosť stratum spinosum"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Koža",
+          "number": 39,
+          "page": 261
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o koži a kožných adnexoch:",
+        "answers": [
+          "hrubý typ kože obsahuje stratum corneum, zatiaľ čo tenký typ kože túto vrstvu epidermis nemá",
+          "väčšinu tela pokrýva koža hrubého typu",
+          "ekrinné potné žľazy nájdeme v koži tenkého aj hrubého typu",
+          "tenký typ kože nájdeme napríklad na očnom viečku a hrubý typ kože na chrbte"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Koža",
+          "number": 40,
+          "page": 262
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o koži a kožných adnexoch:",
+        "answers": [
+          "Langerhansove bunky epidermis sú dôležitou súčasťou imunitného systému",
+          "melanocyty majú odlišný embryonálny pôvod ako keratinocyty pokožky",
+          "mazové žľazy vždy vyúsťujú do vlasového (chlpového) folikulu",
+          "celá koža je tvorená epitelovým tkanivom"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Koža",
+          "number": 41,
+          "page": 262
+        }
+      },
+      {
+        "question": "Aký je pôvod dermy?",
+        "answers": [
+          "intermediárna mezoderma",
+          "dermatómy somitov",
+          "plakódy",
+          "laterálna mezoderma",
+          "ektomezenchým"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Koža",
+          "number": 42,
+          "page": 262
+        }
+      },
+      {
+        "question": "Aký je ďalší osud peridermy?",
+        "answers": [
+          "diferencuje sa na bunky epidermovej bazálnej vrstvy",
+          "postupne sa vylúči do amniovej dutiny",
+          "podieľa sa na tvorbe vernix caseosa",
+          "vznikajú z nej budúce vlasové folikuly"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Koža",
+          "number": 43,
+          "page": 262
+        }
+      },
+      {
+        "question": "Z ktorej zárodočnej vrstvy sú embryologicky odvodené keratinocyty epidermy?",
+        "answers": [
+          "z buniek neurálnej lišty",
+          "z povrchovej ektodermy",
+          "z endodermy",
+          "zo somatickej mezodermy",
+          "zo splanchnickej mezodermy"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Koža",
+          "number": 44,
+          "page": 263
+        }
+      },
+      {
+        "question": "Ktoré bunky ľudskej epidermy pochádzajú z ektodermy?",
+        "answers": [
+          "keratinocyty",
+          "Langerhansove bunky",
+          "melanocyty",
+          "Merkelove bunky"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Koža",
+          "number": 45,
+          "page": 263
+        }
+      },
+      {
+        "question": "Prsník sa vyvíja pozdĺž mliečnej línie/lišty. Ktorá z nasledujúcich možností je možným umiestnením prídavnej bradavky alebo prsníka?",
+        "answers": [
+          "podpazušie",
+          "slabiny",
+          "fossa cubitalis alebo predná časť lakťa",
+          "fossa poplitea alebo za kolenom",
+          "dolná bočná časť krku nad kľúčnou kosťou"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Koža",
+          "number": 46,
+          "page": 263
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o vývine kože a jej derivátov:",
+        "answers": [
+          "periderma je základom budúcej epidermis",
+          "všetky bunky pokožky majú spoločný embryonálny pôvod",
+          "celá koža je pôvodom z povrchovej ektodermy",
+          "epitelové časti kožných derivátov sú ektodermového pôvodu"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Koža",
+          "number": 47,
+          "page": 263
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o vývine kože a jej derivátov:",
+        "answers": [
+          "väzivo zamše je pôvodom z dermatómov a somatopleury laterálnej mezodermy",
+          "melanocyty pochádzajú z neuroektodermy neurálnej lišty",
+          "epidermis sa vyvíja z bazálnych kubických buniek primitívnej epidermis",
+          "periderma sa podieľa na vývine budúcej zamše"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Koža",
+          "number": 48,
+          "page": 264
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o vývine kože a jej derivátov:",
+        "answers": [
+          "Merkelove bunky pokožky majú neuroektodermový pôvod",
+          "koncom 3. mesiaca po oplodnení migrujú do pokožky melanoblasty neuroektodermového pôvodu",
+          "na vývine mliečnej žľazy sa podieľa mliečna lišta v celom jej priebehu",
+          "žľazový epitel mliečnej žľazy má pôvod v dermatómoch somitov"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Koža",
+          "number": 49,
+          "page": 264
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o vývine kože a jej derivátov:",
+        "answers": [
+          "ak mliečna lišta nezanikne úplne, vzniká polytélia alebo polymastia",
+          "keratinocyty pokožky sa vyvíjajú z povrchovej ektodermy",
+          "mazové žľazy majú, na rozdiel od ekrinných potných žliaz, mezodermový pôvod",
+          "periderma dáva základ podkožnému väzivu"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Koža",
+          "number": 50,
+          "page": 264
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o vývine kože a jej derivátov:",
+        "answers": [
+          "vlasy sa začínajú vyvíjať v 3. mesiaci po oplodnení ako primárne ochlpenie (lanugo)",
+          "mazové žľazy za vyvíjajú ako výrastky z primitívneho vlasového folikulu, čiže majú ektodermový pôvod",
+          "epidermis sa vyvíja z dermatómov somitov",
+          "Merkelove bunky sa vyvíjajú z povrchovej ektodermy"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Koža",
+          "number": 51,
+          "page": 264
+        }
+      }
+    ]
+  }
+]

@@ -78,7 +78,7 @@ tester/
 | Ukážkové vstupy | `examples/` | áno |
 | Návratové zálohy pracovného projektu | `.local/backups/` | nie; môžu obsahovať tajomstvá |
 
-`testy/` je učivo, `tests/` kontroluje program. Aplikácia načítava priamo `testy/*.json`; hotové testy nepresúvať do ročníkových podadresárov. Ročník a predmet určujú JSON metadáta. Podadresáre pod `testy/` obsahujú zachované podklady, reporty a staršie verzie, nie ďalšie aktívne testy. Výnimkou je `testy/assets/`: obrázky ukážkových riešení úloh na písanie, ktoré aplikácia poskytuje na `/api/assets/`.
+`testy/` je učivo, `tests/` kontroluje program. Aplikácia načítava priamo `testy/*.json`; hotové testy nepresúvať do ročníkových podadresárov. Ročník a predmet určujú JSON metadáta. Podadresáre pod `testy/` obsahujú zachované podklady, reporty a staršie verzie, nie ďalšie aktívne testy. Výnimkou je `testy/assets/`: obrázky ukážkových riešení úloh na písanie a HTML stránky na čítanie (`studyMaterial`), ktoré aplikácia poskytuje na `/api/assets/`.
 
 Nové podklady a návrhy ukladajte najprv do [work/](../work/README.md). Súbory môžu ležať priamo v ňom, podadresár podľa úlohy je voliteľný. Aplikácia ich automaticky nenačítava. Po dokončení úlohy patria uchované originály do `sources/`, trvalo používané importné pravidlá do `tools/imports/` a overené testy do príslušného dátového adresára. Rozpracovaná práca nie je cache na zmazanie.
 

@@ -1,0 +1,658 @@
+[
+  {
+    "title": "Histológia – zbierka – 7. Kostné tkanivo",
+    "description": "Stavba kosti, kostné bunky a osifikácia. Otázky s výberom viacerých odpovedí zo zbierky Histológia a embryológia v otázkach (Miko, Klein, Juríková, UK 2025); kľúč podľa zbierky.",
+    "year": 1,
+    "category": "Histológia",
+    "sortOrder": 17,
+    "questions": [
+      {
+        "question": "Ktoré sú typické vlastnosti kompaktnej kosti?",
+        "answers": [
+          "okolo jej osteónov je bohatá sieť kapilár",
+          "tvorí diafýzu dlhých kostí",
+          "má medzi lamelami vložené osteocyty",
+          "je to nezrelé štádium toho, čo sa neskôr stane spongióznou kosťou"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kostné tkanivo",
+          "number": 1,
+          "page": 75
+        }
+      },
+      {
+        "question": "Aké sú všeobecné úlohy kostného tkaniva v ľudskom tele?",
+        "answers": [
+          "skladovanie jódu",
+          "zabezpečenie mechanickej ochrany",
+          "skladovanie vápnika",
+          "slúžiť ako embryonálna kostra"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kostné tkanivo",
+          "number": 2,
+          "page": 75
+        }
+      },
+      {
+        "question": "Ako sa nazývajú rôzne duté priestory, ktoré sa nachádzajú v kostnom tkanive?",
+        "answers": [
+          "canaliculi ossium",
+          "Volkmannove kanály",
+          "spikuly",
+          "osteónový (Haversov) kanál",
+          "dreňová dutina",
+          "Herringove kanáliky"
+        ],
+        "correct": [
+          0,
+          1,
+          3,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kostné tkanivo",
+          "number": 3,
+          "page": 75
+        }
+      },
+      {
+        "question": "Čo sa nachádza na vonkajšom povrchu kostí?",
+        "answers": [
+          "perichondrium",
+          "Sharpeyove vlákna",
+          "metafýza",
+          "periost"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kostné tkanivo",
+          "number": 4,
+          "page": 75
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o osteoklastoch sú pravdivé?",
+        "answers": [
+          "tvoria kostný matrix",
+          "sú acidofilné",
+          "dávajú vznik osteoblastom",
+          "sú vložené do lakún",
+          "sú resorbujúce bunky kosti"
+        ],
+        "correct": [
+          1,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kostné tkanivo",
+          "number": 5,
+          "page": 76
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o osteoklastoch sú pravdivé?",
+        "answers": [
+          "sú fagocytujúce bunky",
+          "sú viacjadrové",
+          "majú receptory RANK",
+          "estrogény spúšťajú ich aktivitu"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kostné tkanivo",
+          "number": 6,
+          "page": 76
+        }
+      },
+      {
+        "question": "V nasledujúcom výroku opravte slovo tak, aby bol tento výrok správny: S vytvorením periostálneho kosteného goliera sa chondrocyty v podkladovej chrupke stávajú hypotrofickými.",
+        "answers": [
+          "periostálneho → perichondrálneho",
+          "chondrocyty → chondroblasty",
+          "chrupke → vláknitej kosti",
+          "hypotrofickými → hypertrofickými"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kostné tkanivo",
+          "number": 7,
+          "page": 76
+        }
+      },
+      {
+        "question": "Ktoré bunky sa bezprostredne podieľajú na remodelácii kosti na povrchu kostného tkaniva?",
+        "answers": [
+          "periostálne bunky",
+          "hemopoetické kmeňové bunky",
+          "osteoprogenitorové bunky",
+          "osteoklasty",
+          "osteocyty",
+          "osteoblasty"
+        ],
+        "correct": [
+          3,
+          5
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kostné tkanivo",
+          "number": 8,
+          "page": 76
+        }
+      },
+      {
+        "question": "Prečo je dôležitá alkalická fosfatáza (AF) vylučovaná z osteoblastov?",
+        "answers": [
+          "AF viaže extracelulárny Ca2+",
+          "AF je základný enzým prítomný v Howshipovej lakúne",
+          "AF je zodpovedná za extracelulárnu polymerizáciu kolagénu typu I",
+          "AF je dôležitá pre mineralizáciu tým, že zvyšuje lokálnu koncentráciu iónov PO4"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kostné tkanivo",
+          "number": 9,
+          "page": 77
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o osteocytoch sú pravdivé?",
+        "answers": [
+          "sú to okrúhle kostné bunky s väčším počtom jadier",
+          "sú zodpovedné za tvorbu kostného matrixu",
+          "vznikajú z osteoblastov a ich telo sa nachádza v kostnej lakúne",
+          "majú mnoho výbežkov umiestnených v kanálikoch",
+          "v cytoplazme majú veľa lyzozómov s proteolytickými enzýmami"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kostné tkanivo",
+          "number": 10,
+          "page": 77
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich pojmov sa spájajú s aktívnymi osteoklastami?",
+        "answers": [
+          "fagocytujúca bunka",
+          "Howshipova lakúna",
+          "syncýtium",
+          "alkalická fosfatáza"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kostné tkanivo",
+          "number": 11,
+          "page": 77
+        }
+      },
+      {
+        "question": "Os frontale, clavicula a os zygomaticum. Čo majú tieto kosti spoločné?",
+        "answers": [
+          "aktivitu osteoklastov v nich (kostiach)",
+          "ich prekurzory – hyalínové chrupky tvoria súčasť embryonálnej kostry",
+          "prítomnosť perichondrálneho kosteného goliera v štádiu ich vývoja",
+          "rastové platničky",
+          "pôvod v dezmálnej osteogenéze (dezmogénna osifikácia)"
+        ],
+        "correct": [
+          0,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kostné tkanivo",
+          "number": 12,
+          "page": 77
+        }
+      },
+      {
+        "question": "Aké zóny možno rozlíšiť v epifýzovej rastovej platničke?",
+        "answers": [
+          "proliferácie",
+          "mineralizácie",
+          "oddychovú zónu",
+          "hypertrofie",
+          "tangenciálnu zónu"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kostné tkanivo",
+          "number": 13,
+          "page": 78
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení platí pre chondrálnu osteogenézu (enchondrálnu osifikáciu)?",
+        "answers": [
+          "je to spôsob vzniku kľúčnej kosti a plochých kostí lebky",
+          "epifýzová platnička je zodpovedná za rast kosti do šírky",
+          "vyskytuje sa v chrupkovej diafýze budúcej dlhej kosti",
+          "počas nej sa hypertrofované chondrocyty menia na osteoblasty transdiferenciáciou"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kostné tkanivo",
+          "number": 14,
+          "page": 78
+        }
+      },
+      {
+        "question": "Čo sa dá povedať o vláknitej kosti?",
+        "answers": [
+          "jej kolagénové vlákna sú usporiadané do lamiel",
+          "je dočasná, u dospelých sa zväčša nahrádza sekundárnou kosťou",
+          "má nepravidelne usporiadané kolagénové vlákna",
+          "je zvyčajne menej mineralizovaná ako Haversova kosť",
+          "nemá osteocyty"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kostné tkanivo",
+          "number": 15,
+          "page": 78
+        }
+      },
+      {
+        "question": "Čo sa dá povedať o osteoide?",
+        "answers": [
+          "je to nemineralizovaný kostný matrix",
+          "je to tkanivo v kambiovej vrstve perichondria",
+          "je bez kolagénových vlákien",
+          "je syntetizovaný osteoblastami"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kostné tkanivo",
+          "number": 16,
+          "page": 78
+        }
+      },
+      {
+        "question": "Ktorý opis je pravdivý pri intramembránovej/dezmogénnej osifikácii?",
+        "answers": [
+          "je to aj proces tvorby periostálneho kosteného goliera",
+          "tvorí väčšinu kostí kostry",
+          "zahŕňa tvorbu osteoidu osteoklastami",
+          "zahŕňa zóny proliferácie, hypertrofie a kalcifikácie"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kostné tkanivo",
+          "number": 17,
+          "page": 79
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o sekundárnej kosti sú pravdivé?",
+        "answers": [
+          "vyznačuje sa nepravidelným usporiadaním kolagénových vlákien, veľkým počtom buniek a zníženým obsahom minerálov",
+          "Haversov systém (osteón) je základná morfologická jednotka sekundárnej kompaktnej kosti",
+          "môže sa vyskytovať ako kompaktná alebo hubovitá kosť",
+          "môže sa vyskytovať ako kompaktná alebo vláknitá kosť"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kostné tkanivo",
+          "number": 18,
+          "page": 79
+        }
+      },
+      {
+        "question": "Ako vplývajú na kosti nasledujúce hormóny?",
+        "answers": [
+          "parathormón nepriamo stimuluje aktivitu osteoklastov",
+          "tyroxín stimuluje rast kostí",
+          "estrogén aktivuje apoptózu osteocytov",
+          "kalcitonín inhibuje aktivitu osteoklastov",
+          "rastový faktor stimuluje diferenciáciu osteoprogenitorových buniek"
+        ],
+        "correct": [
+          0,
+          1,
+          3,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kostné tkanivo",
+          "number": 19,
+          "page": 79
+        }
+      },
+      {
+        "question": "Ktoré z uvedených dvojíc sú správne?",
+        "answers": [
+          "husté kolagénové väzivo – endost",
+          "osteocyty – nexy",
+          "Sharpeyove vlákna – kolagén typu I",
+          "osteogénna (kambiová) vrstva – osteoprogenitorové bunky",
+          "kyslá fosfatáza – osteoklasty"
+        ],
+        "correct": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kostné tkanivo",
+          "number": 20,
+          "page": 79
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o kosti:",
+        "answers": [
+          "kosť neobsahuje krvné cievy",
+          "bohatá vaskularizácia je spoluzodpovedná za výbornú regeneračnú schopnosť kosti",
+          "periost pokrýva kosť a v stratum osteogenicum obsahuje osteoprogenitorové bunky",
+          "endost je tenká väzivová vrstva pozostávajúca z retikulárnych vlákien a osteoprogenitorových buniek, ktorá vystiela vnútorné dutiny a kanály kosti"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kostné tkanivo",
+          "number": 21,
+          "page": 80
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o kosti:",
+        "answers": [
+          "osteoklasty sa diferencujú z osteoprogenitorových buniek",
+          "primárnu kosť rozdeľujeme na spongiózu a kompaktu",
+          "základnou morfologickou jednotkou kompaktnej kosti je Haversov systém (osteón)",
+          "periost je bohato prekrvený a inervovaný"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kostné tkanivo",
+          "number": 22,
+          "page": 80
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o kosti:",
+        "answers": [
+          "vláknitá kosť je usporiadaná do osteónov",
+          "spongióza aj kompakta sú typmi sekundárnej kosti usporiadanej do lamiel",
+          "kortikálna kosť je označenie pre spongióznu kosť na povrchu diafýz",
+          "Volkmannove kanály prepájajú susedné osteóny"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kostné tkanivo",
+          "number": 23,
+          "page": 80
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o kosti:",
+        "answers": [
+          "ploché kosti lebečnej klenby tvorí medziplošnica (diploë) vrstva spongiózy medzi dvoma vrstvami kompakty",
+          "osteocyty majú dlhé výbežky, ktoré prebiehajú v canaliculi ossium",
+          "remodeláciu kosti zabezpečujú kosť tvoriace osteoblasty a kosť resorbujúce osteoklasty",
+          "vláknitá kosť vzniká ako prvá počas tvorby kosti a tiež v procese hojenia zlomenín"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kostné tkanivo",
+          "number": 24,
+          "page": 80
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o kosti:",
+        "answers": [
+          "hlavnou organickou zložkou medzibunkovej hmoty kosti je kolagén typu I",
+          "intersticiálne lamely kompaktnej kosti sú pozostatky predchádzajúcich generácií osteónov po ich remodelácii",
+          "Sharpeyove vlákna sú perforujúce kolagénové vlákna stratum osteogenicum periostu, ktoré pripájajú periost ku kosti",
+          "osteoblasty sú mikroskopicky odlíšiteľné ako epiteloidne usporiadané bunky na povrchu osteoidu počas tvorby kosti"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kostné tkanivo",
+          "number": 25,
+          "page": 81
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o kosti:",
+        "answers": [
+          "osteoklasty ako jediné bunky kosti nepochádzajú z osteoprogenitorových buniek",
+          "osteoklasty sú súčasťou monocyto-makrofágového systému",
+          "Haversove kanály obsahujú výlučne krvné cievy",
+          "obvodové lamely kompaktnej kosti vznikajú procesom intersticiálneho rastu"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kostné tkanivo",
+          "number": 26,
+          "page": 81
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o kosti:",
+        "answers": [
+          "výbrus kosti zahŕňa proces demineralizácie kostného tkaniva",
+          "hrubšie trámce spongiózy môžu obsahovať kompletné osteóny",
+          "spongióza je primárna kosť a kompakta je sekundárna kosť",
+          "základnou morfologickou jednotkou kompaktnej kosti je Volkmannov systém"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kostné tkanivo",
+          "number": 27,
+          "page": 81
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o osifikácii:",
+        "answers": [
+          "chondrogénna osifikácia vzniká na poklade väziva",
+          "líniu erózie pozorujeme pri dezmogénnej osifikácii",
+          "väčšina kostí ľudského tela osifikuje na podklade hyalínovej chrupky",
+          "východiskovou bunkovou populáciou oboch typov osifikácie je multipotentná mezenchýmová kmeňová bunka"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kostné tkanivo",
+          "number": 28,
+          "page": 81
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o osifikácii:",
+        "answers": [
+          "apoptózu chondrocytov pozorujeme v procese dezmogénnej osifikácie",
+          "pri chondrogénnej osifikácii dochádza k transdiferenciácii chondrocytov na osteocyty",
+          "jedným z krokov chondrogénnej osifikácie diafýz budúcich dlhých kostí je vytvorenie periostálnej kostnej manžety, ktorá vzniká procesom dezmogénnej osifikácie",
+          "počas chondrogénnej osifikácie je kľúčovým procesom syntéza rastových faktorov krvných ciev (napr. VEGF) chondrocytmi podliehajúcimi apoptóze"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kostné tkanivo",
+          "number": 29,
+          "page": 82
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o osifikácii:",
+        "answers": [
+          "súčasťou dezmogénnej osifikácie je proliferácia a hypertrofia chondrocytov",
+          "kostné spikuly osteoidu obsahujú osteocyty epiteloidne usporiadané na povrchu",
+          "epifýzová rastová platnička (chrupka) je nevyhnutná pre rast kostí do dĺžky",
+          "osifikácia prebieha v avaskulárnom prostredí"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kostné tkanivo",
+          "number": 30,
+          "page": 82
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o osifikácii:",
+        "answers": [
+          "v epifýzovej rastovej platničke pozorujeme zónu kalcifikovanej chrupky",
+          "kosti stylopodia, zeugopodia aj autopodia osifikujú chondrogénne",
+          "proliferácia chondrocytov na jednej strane a odbúravanie chrupky na opačnej zabezpečujú konštantnú hrúbku epifýzovej rastovej platničky počas celého rastu kosti do dĺžky",
+          "pri dezmogénnej osifikácii vznikajú osifikačné centrá priamo v zahustenom mezenchýme"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kostné tkanivo",
+          "number": 31,
+          "page": 82
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o osifikácii:",
+        "answers": [
+          "celá osová kostra osifikuje na poklade väziva",
+          "nevyhnutnou súčasťou osifikácie je odbúravanie kosti osteoklastami",
+          "pri dezmogénnej osifikácii sa z väziva tvorí priamo sekundárna kosť",
+          "pre normálny priebeh osifikácie je nevyhnutné, aby boli osifikačné centrá dobre prekrvené"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kostné tkanivo",
+          "number": 32,
+          "page": 82
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o osifikácii:",
+        "answers": [
+          "osteoid je prítomný v rámci zóny hypertrofickej chrupky",
+          "pri dezmogénnej osifikácii vznikajú v zahustenom mezenchýme priamo osteocyty",
+          "bunky tvoriace kosť pricestujú do primárnych osifikačných centier diafýz dlhých kostí krvnou cestou",
+          "osteoprogenitorové bunky sa počas chondrogénnej osifikácie diferencujú priamo v tkanive chrupky"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kostné tkanivo",
+          "number": 33,
+          "page": 83
+        }
+      }
+    ]
+  }
+]

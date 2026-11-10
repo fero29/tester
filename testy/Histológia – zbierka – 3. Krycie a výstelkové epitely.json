@@ -1,0 +1,792 @@
+[
+  {
+    "title": "Histológia – zbierka – 3. Krycie a výstelkové epitely",
+    "description": "Typy epitelov, bunkové spojenia, povrchové špecializácie a intermediárne filamenty. Otázky s výberom viacerých odpovedí zo zbierky Histológia a embryológia v otázkach (Miko, Klein, Juríková, UK 2025); kľúč podľa zbierky.",
+    "year": 1,
+    "category": "Histológia",
+    "sortOrder": 13,
+    "questions": [
+      {
+        "question": "Ktoré intermediárne filamenty sú najcharakteristickejšie pre epitelové bunky?",
+        "answers": [
+          "vimentínové intermediárne filamenty",
+          "cytokeratínové intermediárne filamenty",
+          "dezmínové intermediárne filamenty",
+          "gliový fibrilárny kyslý proteín"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krycie a výstelkové epitely",
+          "number": 1,
+          "page": 32
+        }
+      },
+      {
+        "question": "Čo patrí medzi typické znaky epitelových buniek?",
+        "answers": [
+          "ich polárna orientácia",
+          "sú spojené so susednými bunkami bunkovými spojmi",
+          "nízka miera obnovy",
+          "môžu to byť terminálne diferencované postmitotické bunky (napr. keratinocyty v rohovej vrstve epidermy)",
+          "niektoré špecializované bunky môžu byť kontraktilné",
+          "sú to tesne zoskupené bunky, ktoré pokrývajú väčšinu povrchov tela, dutín a trubíc"
+        ],
+        "correct": [
+          0,
+          1,
+          3,
+          4,
+          5
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krycie a výstelkové epitely",
+          "number": 2,
+          "page": 32
+        }
+      },
+      {
+        "question": "Čo môžeme zahrnúť do epitelových apikálnych špecializácií?",
+        "answers": [
+          "tesné spojenia",
+          "mikroklky",
+          "bazálny labyrint",
+          "stereocílie",
+          "riasinky"
+        ],
+        "correct": [
+          1,
+          3,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krycie a výstelkové epitely",
+          "number": 3,
+          "page": 32
+        }
+      },
+      {
+        "question": "O ktorom medzibunkovom spojení platí, že obsahuje kadheríny ako transmembránové proteíny a ich vnútrobunkový segment sa viaže na intermediárne filamenty namiesto aktínu?",
+        "answers": [
+          "adhezívne spojenie alebo zonula adherens",
+          "tesné spojenie alebo zonula occludens",
+          "dezmozóm alebo macula adherens",
+          "nexy",
+          "hemidezmozómy"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krycie a výstelkové epitely",
+          "number": 4,
+          "page": 33
+        }
+      },
+      {
+        "question": "Aký typ výstelkového epitelu je typický pre tenké črevo?",
+        "answers": [
+          "jednovrstvový plochý nerohovatejúci",
+          "jednovrstvový kubický so stereocíliami",
+          "jednovrstvový cylindrický s mikroklkmi",
+          "jednovrstvový cylindrický s roztrúsenými pohárikovými bunkami",
+          "jednovrstvový cylindrický so stereocíliami",
+          "viacvrstvový cylindrický"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krycie a výstelkové epitely",
+          "number": 5,
+          "page": 33
+        }
+      },
+      {
+        "question": "Aký typ výstelkového epitelu je typický pre vodivú časť dýchacích ciest?",
+        "answers": [
+          "jednovrstvový cylindrický s roztrúsenými pohárikovými bunkami",
+          "jednovrstvový cylindrický so stereocíliami",
+          "viacvrstvový cylindrický",
+          "viacradový cylindrický s pohárikovými bunkami",
+          "viacradový cylindrický s riasinkami",
+          "viacvrstvový cylindrický s riasinkami"
+        ],
+        "correct": [
+          3,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krycie a výstelkové epitely",
+          "number": 6,
+          "page": 33
+        }
+      },
+      {
+        "question": "Aký typ výstelkového epitelu sa nachádza na absorpčných povrchoch orgánov tráviacej trubice?",
+        "answers": [
+          "jednovrstvový plochý",
+          "jednovrstvový cylindrický",
+          "viacradový",
+          "prechodný"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krycie a výstelkové epitely",
+          "number": 7,
+          "page": 33
+        }
+      },
+      {
+        "question": "V nasledujúcej vete nahraďte nesprávne slovo správnym: Aktínové mikrofilamenty sú životne dôležité pre udržanie tvaru a polarity epitelových buniek.",
+        "answers": [
+          "sú životne dôležité → sú smrteľné",
+          "aktínové mikrofilamenty → cytokeratíny",
+          "tvaru → priľnavosti",
+          "aktínové → myozínové"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krycie a výstelkové epitely",
+          "number": 8,
+          "page": 34
+        }
+      },
+      {
+        "question": "Ktoré vlastnosti bazálnej membrány sú pravdivé?",
+        "answers": [
+          "pod svetelným mikroskopom sa javí ako PAS pozitívna vrstva",
+          "jej bazálna vrstva (produkt epitelových buniek) je detegovateľná impregnáciou AgNO3",
+          "jej lamina fibroreticularis obsahuje retikulárne vlákna",
+          "kolagén typu VIII vytvára kotviace slučky vo svojej lamina fibroreticularis",
+          "laminín je hlavnou glykoproteínovou zložkou bazálnej laminy"
+        ],
+        "correct": [
+          0,
+          2,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krycie a výstelkové epitely",
+          "number": 9,
+          "page": 34
+        }
+      },
+      {
+        "question": "Ktoré z dvojice slov sú správne?",
+        "answers": [
+          "integríny – nexus",
+          "dyneín – stereocílie",
+          "kadheríny – dezmozómy",
+          "mitochondrie – bazálny labyrint",
+          "aktín – mikroklk"
+        ],
+        "correct": [
+          2,
+          3,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krycie a výstelkové epitely",
+          "number": 10,
+          "page": 34
+        }
+      },
+      {
+        "question": "Ako by ste definovali prechodný epitel?",
+        "answers": [
+          "viacvrstvový epitel s plochými bunkami pokrytými keratínom",
+          "jednovrstvový epitel s vysokými bunkami s riasinkami",
+          "epitel s bunkami, ktoré menia tvar v reakcii na vnútorný tlak",
+          "špecifický typ viacradového epitelu"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krycie a výstelkové epitely",
+          "number": 11,
+          "page": 34
+        }
+      },
+      {
+        "question": "Ktoré medzibunkové spojenia epitelových buniek zabezpečujú „nepremokavosť“ epitelovej vrstvy?",
+        "answers": [
+          "zonulae occludentes",
+          "zonulae adherentes",
+          "bazálny labyrint",
+          "hemidezmozómy"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krycie a výstelkové epitely",
+          "number": 12,
+          "page": 35
+        }
+      },
+      {
+        "question": "Aké je typické medzibunkové spojenie, ktoré udržiava polaritu buniek a zabraňuje paracelulárnemu prieniku látok?",
+        "answers": [
+          "zonula adherens",
+          "zonula occludens",
+          "nexus",
+          "dezmozóm"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krycie a výstelkové epitely",
+          "number": 13,
+          "page": 35
+        }
+      },
+      {
+        "question": "Čo sú typické znaky epitelového tkaniva?",
+        "answers": [
+          "leží na bazálnej membráne",
+          "obsahuje len malé množstvá medzibunkovej hmoty",
+          "je vysoko vaskularizované",
+          "nie je viditeľné v svetelnom mikroskope"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krycie a výstelkové epitely",
+          "number": 14,
+          "page": 35
+        }
+      },
+      {
+        "question": "Kde možno vidieť jednovrstvový kubický epitel?",
+        "answers": [
+          "vo folikuloch štítnej žľazy",
+          "vo vývodoch niektorých žliaz",
+          "v distálnom tubule nefrónu",
+          "v jejúne"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krycie a výstelkové epitely",
+          "number": 15,
+          "page": 35
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o pohárikovej bunke sú pravdivé?",
+        "answers": [
+          "vyznačuje sa prítomnosťou veľkých svetlých granúl",
+          "má zúženú bázu",
+          "nachádza sa v epiteli tenkého čreva",
+          "zohráva významnú úlohu pri syntéze a vylučovaní tráviacich enzýmov v žalúdku",
+          "je schopná diferencovať sa na rôzne typy buniek vrátane neurónov a svalových buniek"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krycie a výstelkové epitely",
+          "number": 16,
+          "page": 36
+        }
+      },
+      {
+        "question": "Ako prispieva výstelka epitelu dýchacích ciest k funkcii pľúc?",
+        "answers": [
+          "reguluje telesnú teplotu",
+          "produkuje hlien na zachytávanie cudzích častíc a patogénov",
+          "poskytuje štrukturálnu podporu dýchacej sústave",
+          "poskytuje riasinky na ciliárny transport látok"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krycie a výstelkové epitely",
+          "number": 17,
+          "page": 36
+        }
+      },
+      {
+        "question": "Viacradový epitel lemuje lúmen ktorých štruktúr/orgánov?",
+        "answers": [
+          "kanálik nadsemenníka",
+          "dvanástnik",
+          "močový mechúr",
+          "priedušnica",
+          "prínosové dutiny",
+          "Henleho kľučka",
+          "vajíčkovod"
+        ],
+        "correct": [
+          0,
+          2,
+          3,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krycie a výstelkové epitely",
+          "number": 18,
+          "page": 36
+        }
+      },
+      {
+        "question": "Jednovrstvový plochý epitel lemuje lúmen ktorých štruktúr/orgánov?",
+        "answers": [
+          "lymfatické cievy",
+          "vagína",
+          "Henleho kľučka",
+          "krvné kapiláry",
+          "pažerák"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krycie a výstelkové epitely",
+          "number": 19,
+          "page": 36
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich kritérií sa používa na klasifikáciu výstelkového epitelu?",
+        "answers": [
+          "tvar buniek bazálnej vrstvy",
+          "počet vrstiev epitelových buniek",
+          "veľkosť bunkových jadier",
+          "prítomnosť cytokeratínov",
+          "prítomnosť lamina basalis"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krycie a výstelkové epitely",
+          "number": 20,
+          "page": 37
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o krycích a výstelkových epiteloch:",
+        "answers": [
+          "endotel je jednovrstvový cylindrický epitel vystielajúci cievy a dutiny srdca",
+          "bazálny labyrint je typický pre bunky s výrazným aktívnym transportom látok, napr. vo výstelkových bunkách proximálnych tubulov obličky",
+          "pre apikálny pól epitelových buniek je typický výskyt adhezívnych medzibunkových spojení",
+          "pre jednovrstvové epitely platí, že všetky bunky dosadajú na bazálnu membránu"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krycie a výstelkové epitely",
+          "number": 21,
+          "page": 37
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o krycích a výstelkových epiteloch:",
+        "answers": [
+          "lamina fibroreticularis je produktom epitelových buniek",
+          "lamina basalis a membrana basalis sú synonymá",
+          "zonula occludens patrí medzi kohézne medzibunkové spojenia",
+          "nexus je zložený z dvoch konexónov, ktoré sú syntetizované dvoma susednými epitelovými bunkami pre ich vzájomnú komunikáciu"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krycie a výstelkové epitely",
+          "number": 22,
+          "page": 37
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o krycích a výstelkových epiteloch:",
+        "answers": [
+          "nexy patria medzi komunikačné spojenia, prostredníctvom ktorých si susedné epitelové bunky vymieňajú signálne molekuly",
+          "zonula adherens aj dezmozóm patria medzi pásové kohézne medzibunkové spojenia",
+          "dezmozómy sú prepojené s intermediárnymi filamentmi epitelových buniek, ktoré tiež označujeme ako cytokeratínové tonofilamenty",
+          "zonula adherens pozostáva z E-kadherínu transmembránového proteínu, do ktorého sa upínajú aktínové filamenty"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krycie a výstelkové epitely",
+          "number": 23,
+          "page": 37
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o krycích a výstelkových epiteloch:",
+        "answers": [
+          "jednovrstvový cylindrický epitel je typický pre sliznicu tenkého čreva",
+          "jednovrstvové epitely sú spravidla mechanicky odolnejšie ako viacvrstvové",
+          "jednovrstvový plochý epitel vystiela proximálne tubuly nefrónov",
+          "lamina densa a lamina lucida sú komponenty bazálnej laminy, ktoré bežne pozorujeme svetelným mikroskopom"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krycie a výstelkové epitely",
+          "number": 24,
+          "page": 38
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o krycích a výstelkových epiteloch:",
+        "answers": [
+          "bazálna membrána leží na hranici medzi epitelovým bunkami a voľným povrchom",
+          "hlavným typom kolagénu v lamina basalis je kolagén typu IV",
+          "membrana basalis je tvorená dvoma podvrstvami – lamina basalis, ktorú syntetizujú epitelové bunky a lamina fibroreticularis, ktorú tvoria bunky väziva",
+          "lamina fibroreticularis je súčasťou bariéry krv – vzduch v pľúcnych alveolách"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krycie a výstelkové epitely",
+          "number": 25,
+          "page": 38
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o krycích a výstelkových epiteloch:",
+        "answers": [
+          "pre viacradové epitely je typické, že iba bunky s jadrami v najvyšších radoch dosadajú na bazálnu membránu",
+          "priedušnica je vystlaná viacradovým cylindrickým epitelom s riasinkami a pohárikovými bunkami",
+          "zonula occludens je laterálne tesné medzibunkové spojenie umiestnené najbližšie k apikálnemu pólu epitelovej bunky",
+          "nexus je komunikačné spojenie tvorené dvoma konexínmi"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krycie a výstelkové epitely",
+          "number": 26,
+          "page": 38
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o krycích a výstelkových epiteloch:",
+        "answers": [
+          "prechodný epitel (urotel) je príkladom viacradového epitelu",
+          "dáždnikové bunky urotelu nasadajú na bazálnu membránu",
+          "prechodný epitel znamená, že podľa funkčného stavu (napr. náplne močového mechúra) pozorujeme rôzny počet radov jadier",
+          "pre viacradové epitely je typické, že všetky epitelové bunky dosahujú k voľnému povrchu"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krycie a výstelkové epitely",
+          "number": 27,
+          "page": 38
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o krycích a výstelkových epiteloch:",
+        "answers": [
+          "viacradové epitely sú tvorené jednou vrstvou buniek s jadrami na jednej úrovni",
+          "laterálna doména epitelových buniek obsahuje hemidezmozómy",
+          "viacradový cylindrický epitel vystiela napr. pažerák",
+          "cytokeratínové tonofilamenty sa upínajú do denzných doštičiek dezmozómov tvorených dezmogleínom a dezmoplakínom"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krycie a výstelkové epitely",
+          "number": 28,
+          "page": 39
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o krycích a výstelkových epiteloch:",
+        "answers": [
+          "E-kadherín tvorí integrálnu súčasť komunikačných medzibunkových spojení (nexov)",
+          "klaudín a okludín sú transmembránové proteíny dezmozómov",
+          "hemidezmozómy pripájajú epitelové bunky k bazálnej membráne prostredníctvom integrínov",
+          "priedušnicu vystiela viacradový plochý epitel"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krycie a výstelkové epitely",
+          "number": 29,
+          "page": 39
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o krycích a výstelkových epiteloch:",
+        "answers": [
+          "bazálny labyrint obsahuje prevažne veľké množstvo mitochondrií",
+          "spojovací komplex laterálnej domény epitelových buniek je tvorený medzibunkovými spojeniami v nasledovnom poradí od voľného povrchu smerom k bazálnej membráne – zonula occludens, zonula adherens, dezmozóm",
+          "nexy sú súčasťou apikálnej domény epitelových buniek",
+          "cytokeratínové tonofilamenty epitelových buniek patria medzi mikrotubuly"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krycie a výstelkové epitely",
+          "number": 30,
+          "page": 39
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o krycích a výstelkových epiteloch:",
+        "answers": [
+          "pokožku tvorí viacvrstvový plochý rohovatejúci epitel",
+          "iba bazálna vrstva viacvrstvových epitelov nasadá na bazálnu membránu",
+          "viacvrstvový plochý rohovatejúci epitel sa tiež označuje ako epitel slizničného typu",
+          "viacvrstvové epitely sú mechanicky odolnejšie v porovnaní s jednovrstvovými"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krycie a výstelkové epitely",
+          "number": 31,
+          "page": 39
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o krycích a výstelkových epiteloch:",
+        "answers": [
+          "viacvrstvový plochý epitel znamená, že všetky jeho bunky majú plochý tvar",
+          "najčastejším typom viacvrstvového epitelu je viacvrstvový cylindrický",
+          "viacvrstvový cylindrický epitel je typický epitel prechodných zón",
+          "väčšie vývody exokrinných žliaz môžu byť vystlané viacvrstvovým kubickým epitelom"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krycie a výstelkové epitely",
+          "number": 32,
+          "page": 40
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o krycích a výstelkových epiteloch:",
+        "answers": [
+          "pažerák vystiela mechanicky odolný viacvrstvový plochý nerohovatejúci epitel",
+          "pre určenie tvaru viacvrstvových epitelov je rozhodujúci tvar ich povrchových vrstiev",
+          "epitel pokožky sa niekedy označuje aj ako epitel parakeratinizujúci",
+          "pri viacvrstvových epiteloch sú mitoticky najaktívnejšie bunky najbližšie k voľnému povrchu"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krycie a výstelkové epitely",
+          "number": 33,
+          "page": 40
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o krycích a výstelkových epiteloch:",
+        "answers": [
+          "ortokeratinizácia je tzv. pravá keratinizácia, ktorú pozorujeme v rámci epitelu tvoriaceho pokožku",
+          "hranica viacvrstvových epitelov s väzivom je väčšinou zvlnená na uľahčenie výživy epitelových buniek",
+          "všetky bunky viacvrstvových epitelov nasadajú na bazálnu membránu",
+          "viacvrstvový cylindrický epitel pokožky podlieha keratinizácii"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krycie a výstelkové epitely",
+          "number": 34,
+          "page": 40
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o krycích a výstelkových epiteloch:",
+        "answers": [
+          "najčastejším typom viacvrstvového epitelu v ľudskom tele je epitel viacvrstvový plochý",
+          "viacvrstvový plochý epitel vystiela močový mechúr",
+          "keratinizácia je typická pre výstelkový epitel tráviacej rúry",
+          "pre viacvrstvový nerohovatejúci epitel je typické, že aj najpovrchovejšie vrstvy sú tvorené vitálnymi bunkami s typickými organelami vrátane jadra"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krycie a výstelkové epitely",
+          "number": 35,
+          "page": 40
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o krycích a výstelkových epiteloch:",
+        "answers": [
+          "výstelkové epitely sú spravidla bezcievne, výnimkou je napr. stria vascularis vnútorného ucha",
+          "pre epitelové tkanivo je typický dobre vyvinutý extracelulárny matrix",
+          "epitelové bunky majú viaceré domény s odlišnou štruktúrou a funkciou, čiže sú polarizované",
+          "krycie a výstelkové epitely sa nachádzajú všade v organizme na hranici s vonkajším prostredím"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krycie a výstelkové epitely",
+          "number": 36,
+          "page": 40
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o krycích a výstelkových epiteloch:",
+        "answers": [
+          "stereocílie patria medzi pohyblivé výbežky",
+          "vnútorná kostra riasiniek, pozostávajúca z 9 periférnych párov a 1 centrálneho páru mikrotubulov, sa označuje ako axonéma",
+          "mikroklky aj stereocílie majú vnútornú kostru zloženú z aktínových mikrofilamentov",
+          "spoločným znakom mikroklkov, stereocílií a kinocílií je, že všetky patria medzi apikálne špecializácie epitelových buniek"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krycie a výstelkové epitely",
+          "number": 37,
+          "page": 41
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o krycích a výstelkových epiteloch:",
+        "answers": [
+          "axonéma má rovnakú vnútornú štruktúru ako bazálne teliesko",
+          "veľké množstvo mikroklkov nájdeme na povrchu epitelových buniek s vysokou resorpčnou aktivitou, napr. enterocytov",
+          "kefkový lem je označenie pre súbor stereocílií na povrchu epitelových buniek tenkého čreva",
+          "Kartagenerov syndróm postihuje orgány, ktorých epitelové bunky majú na povrchu stereocílie"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krycie a výstelkové epitely",
+          "number": 38,
+          "page": 41
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o krycích a výstelkových epiteloch:",
+        "answers": [
+          "stereocílie nájdeme napr. na povrchu epitelových buniek nadsemenníka, ale tiež ako súčasť vláskových buniek vnútorného ucha",
+          "všetky krycie a výstelkové epitely sú derivátmi jednej zárodočnej vrstvy ektodermy",
+          "transdiferenciácia epitelových buniek na bunky väzivového charakteru sa označuje ako epitelovo-mezenchýmová tranzícia (premena)",
+          "zmena jedného typu epitelu na iný sa označuje ako metaplázia"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krycie a výstelkové epitely",
+          "number": 39,
+          "page": 41
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o krycích a výstelkových epiteloch:",
+        "answers": [
+          "pohyblivosť riasiniek zabezpečuje motorický proteín dyneín naviazaný na mikrotubuly",
+          "riasinky majú vnútornú kostru zloženú z 9 periférnych a 1 centrálnej dvojice aktínových mikrofilamentov",
+          "epitely sú bezcievne a preto majú nízku schopnosť regenerácie",
+          "bazálna membrána je kľúčová pre regeneráciu epitelov"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krycie a výstelkové epitely",
+          "number": 40,
+          "page": 41
+        }
+      }
+    ]
+  }
+]

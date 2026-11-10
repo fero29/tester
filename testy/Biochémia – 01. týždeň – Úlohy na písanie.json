@@ -1,0 +1,238 @@
+[
+  {
+    "title": "Biochémia – 01. týždeň – Úlohy na písanie",
+    "description": "Úlohy na písanie vzorcov a reakcií z kariet „Tvorivé otázky“ (otvorené otázky kontrolných testov). Napíš riešenie na papier a porovnaj ho s ručne písanou ukážkou spolužiaka; ukážka nie je oficiálny kľúč.",
+    "testType": "selfcheck",
+    "year": 2,
+    "category": "Biochémia",
+    "sortOrder": 1.5,
+    "questions": [
+      {
+        "question": "Napíšte vzorec látky s enolfosfátovou makroergickou väzbou.",
+        "solutionImages": [
+          "kreativne-s02.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu T: hľadaj úlohu č. 25. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "T",
+          "number": 25,
+          "page": 1,
+          "solutionPages": [
+            2
+          ]
+        }
+      },
+      {
+        "question": "Napíšte vzorec guanozínu.",
+        "solutionImages": [
+          "kreativne-s06.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu I: hľadaj úlohu č. 25. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "I",
+          "number": 25,
+          "page": 5,
+          "solutionPages": [
+            6
+          ]
+        }
+      },
+      {
+        "question": "Napíšte vzorec uridínu.",
+        "solutionImages": [
+          "kreativne-s08.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu A: hľadaj úlohu č. 25. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "A",
+          "number": 25,
+          "page": 7,
+          "solutionPages": [
+            8
+          ]
+        }
+      },
+      {
+        "question": "Napíšte vzorec látky s enolfosfátovou makroergickou väzbou.",
+        "solutionImages": [
+          "kreativne-s08.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu A: hľadaj úlohu č. 26. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "A",
+          "number": 26,
+          "page": 7,
+          "solutionPages": [
+            8
+          ]
+        }
+      },
+      {
+        "question": "Napíšte reakciu, v ktorej sa oxiduje laktát, uveďte názov enzýmu a koenzýmu.",
+        "solutionImages": [
+          "kreativne-s10.jpg",
+          "kreativne-s11.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu N: hľadaj úlohu č. 30. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "N",
+          "number": 30,
+          "page": 9,
+          "solutionPages": [
+            10,
+            11
+          ]
+        }
+      },
+      {
+        "question": "Napíšte vzorec látky s guanidínfosfátovou makroergickou väzbou.",
+        "solutionImages": [
+          "kreativne-s15.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu C: hľadaj úlohu č. 25. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "C",
+          "number": 25,
+          "page": 14,
+          "solutionPages": [
+            15
+          ]
+        }
+      },
+      {
+        "question": "Napíšte vzorec a názov látky s acylfosfátovou makroergickou väzbou.",
+        "solutionImages": [
+          "kreativne-s17.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu R: hľadaj úlohu č. 25. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "R",
+          "number": 25,
+          "page": 16,
+          "solutionPages": [
+            17
+          ]
+        }
+      },
+      {
+        "question": "Napíšte reakciu, ktorú katalyzuje kreatínkináza (nukleotidy skratkou).",
+        "solutionImages": [
+          "kreativne-s17.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu R: hľadaj úlohu č. 29. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "R",
+          "number": 29,
+          "page": 16,
+          "solutionPages": [
+            17
+          ]
+        }
+      },
+      {
+        "question": "Napíšte vzorec tymidínu.",
+        "solutionImages": [
+          "kreativne-s21.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu E: hľadaj úlohu č. 30. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "E",
+          "number": 30,
+          "page": 20,
+          "solutionPages": [
+            21
+          ]
+        }
+      },
+      {
+        "question": "Napíšte vzorec cytidínmonofosfátu.",
+        "solutionImages": [
+          "kreativne-s23.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu M: hľadaj úlohu č. 25. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "M",
+          "number": 25,
+          "page": 22,
+          "solutionPages": [
+            23
+          ]
+        }
+      },
+      {
+        "question": "Napíšte vzorec fosfoenolpyruvátu.",
+        "solutionImages": [
+          "kreativne-s25.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu O: hľadaj úlohu č. 25. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "O",
+          "number": 25,
+          "page": 24,
+          "solutionPages": [
+            25
+          ]
+        }
+      },
+      {
+        "question": "Napíšte vzorec zlúčeniny s difosfátovou makroergickou väzbou, ktorá je potrebná v proteosyntéze.",
+        "solutionImages": [
+          "kreativne-s27.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu P: hľadaj úlohu č. 25. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "P",
+          "number": 25,
+          "page": 26,
+          "solutionPages": [
+            27
+          ]
+        }
+      },
+      {
+        "question": "Napíšte vzorec ATP.",
+        "solutionImages": [
+          "kreativne-s33.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu F: hľadaj úlohu č. 25. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "F",
+          "number": 25,
+          "page": 32,
+          "solutionPages": [
+            33
+          ]
+        }
+      },
+      {
+        "question": "Napíšte vzorec adenozínu.",
+        "solutionImages": [
+          "kreativne-s41.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu L: hľadaj úlohu č. 25. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "L",
+          "number": 25,
+          "page": 40,
+          "solutionPages": [
+            41
+          ]
+        }
+      }
+    ]
+  }
+]

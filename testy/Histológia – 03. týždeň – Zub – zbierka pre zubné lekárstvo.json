@@ -1,0 +1,987 @@
+[
+  {
+    "title": "Histológia – 03. týždeň – Zub – zbierka pre zubné lekárstvo",
+    "description": "Sklovina, dentín, cement, zubná dreň, závesný aparát a vývin zuba; podrobnejšie ako pre všeobecné lekárstvo. Otázky s výberom viacerých odpovedí zo zbierky Histológia a embryológia v otázkach (Miko, Klein, Juríková, UK 2025); kľúč podľa zbierky.",
+    "year": 2,
+    "category": "Histológia",
+    "sortOrder": 3.6,
+    "questions": [
+      {
+        "question": "Ktoré zubné tkanivo je najviac mineralizované?",
+        "answers": [
+          "alveolárna kosť",
+          "cement",
+          "sklovina",
+          "dentín"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zub – iba zubné lekárstvo",
+          "number": 1,
+          "page": 185
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o zube sú pravdivé?",
+        "answers": [
+          "sklovinový orgán je aktívny počas celého života",
+          "dospelý chrup obsahuje celkovo 32 zubov",
+          "cement pokrýva zubnú korunku",
+          "zubná dreň obsahuje nervy",
+          "dentín je ektomezenchýmového pôvodu"
+        ],
+        "correct": [
+          1,
+          3,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zub – iba zubné lekárstvo",
+          "number": 2,
+          "page": 185
+        }
+      },
+      {
+        "question": "Kde sa u dospelého človeka nachádzajú ameloblasty?",
+        "answers": [
+          "v jednej línii na hranici medzi pulpou a dentínom",
+          "v jednej línii na hranici medzi dentínom a sklovinou",
+          "voľne rozptýlené v zubnej dreni",
+          "dospelý človek nemá v prerezanom zube ameloblasty"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zub – iba zubné lekárstvo",
+          "number": 3,
+          "page": 185
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o dentíne sú pravdivé?",
+        "answers": [
+          "je tvorený odontoblastmi",
+          "pozostáva z 94 až 98 % hydroxyapatitu vápnika",
+          "je ho možné pozorovať v tkanivách zubov spracovaných parafínovou technikou",
+          "je tvorený riedkym kolagénovým väzivom",
+          "môže sa obnovovať"
+        ],
+        "correct": [
+          0,
+          2,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zub – iba zubné lekárstvo",
+          "number": 4,
+          "page": 185
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o dentíne sú pravdivé?",
+        "answers": [
+          "obsahuje Tomesove vlákna",
+          "je produkovaný ameloblastmi",
+          "obsahuje kolagénové vlákna s obsahom kolagénu typu I",
+          "obsahuje kryštály hydroxyapatitu"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zub – iba zubné lekárstvo",
+          "number": 5,
+          "page": 186
+        }
+      },
+      {
+        "question": "Koľko rezákov sa nachádza v mliečnom chrupe?",
+        "answers": [
+          "2",
+          "4",
+          "8",
+          "12"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zub – iba zubné lekárstvo",
+          "number": 6,
+          "page": 186
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o sklovine sú pravdivé?",
+        "answers": [
+          "je najtvrdším tkanivom v tele",
+          "pokrýva korunku zuba",
+          "pozostáva zo sklovinových priziem/tyčiniek",
+          "Retziusove čiary sú dôkazom rytmického rastu skloviny",
+          "je zložená predovšetkým z mäkkých tkanív, vďaka čomu je menej odolná voči opotrebovaniu v porovnaní s inými zubnými štruktúrami",
+          "po poškodení sa môže regenerovať vrátane liečby zubného kazu"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zub – iba zubné lekárstvo",
+          "number": 7,
+          "page": 186
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o gingivodentálnom uzávere sú pravdivé?",
+        "answers": [
+          "je pevným spojením medzi epitelom ďasna a tvrdými tkanivami zuba",
+          "bunky úponového epitelu majú vysokú regeneračnú schopnosť",
+          "vo väzive pod epitelom sa nachádza množstvo leukocytov",
+          "je zložený predovšetkým z ameloblastov tvoriacich sklovinu, ktoré sa aktívne podieľajú na vylučovaní sklovinového matrixu počas vývoja zuba"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zub – iba zubné lekárstvo",
+          "number": 8,
+          "page": 186
+        }
+      },
+      {
+        "question": "V nasledujúcom výroku opravte slovo tak, aby bol tento výrok správny: Zubná dreň prerezaného zuba je bohato vaskularizované a inervované husté kolagénové väzivo, ohraničené dentínom zuba.",
+        "answers": [
+          "dreň → matrix",
+          "bohato → chudobne",
+          "husté → riedke",
+          "dentínom → sklovinou"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zub – iba zubné lekárstvo",
+          "number": 9,
+          "page": 187
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o histologickom spracovaní zuba sú pravdivé?",
+        "answers": [
+          "výbrus zuba zachováva živé (mäkké) tkanivá",
+          "výbrus zuba môže byť oveľa tenší ako parafínové rezy",
+          "pri spracovaní zuba parafínovou technikou je najskôr potrebná dekalcifikácia",
+          "sklovina sa vo výbruse zuba stráca",
+          "po odvápnení je možné vidieť celú štruktúru korunky"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zub – iba zubné lekárstvo",
+          "number": 10,
+          "page": 187
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o cemente sú pravdivé?",
+        "answers": [
+          "histologicky je podobný vláknitej kosti",
+          "je bohato vaskularizovaný",
+          "je to riedke kolagénové väzivo",
+          "sú v ňom uložené Sharpeyove vlákna",
+          "pokrýva korunku zuba",
+          "obsahuje cementocyty v lakúnach"
+        ],
+        "correct": [
+          0,
+          3,
+          5
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zub – iba zubné lekárstvo",
+          "number": 11,
+          "page": 187
+        }
+      },
+      {
+        "question": "Aké sú funkcie periodontálnych ligamentov?",
+        "answers": [
+          "spúšťajú tvorbu Hertwigovej epitelovej koreňovej pošvy",
+          "upevnenie zuba",
+          "propriocepcia",
+          "poskytujú štrukturálnu podporu a výživu sklovine"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zub – iba zubné lekárstvo",
+          "number": 12,
+          "page": 187
+        }
+      },
+      {
+        "question": "Ktoré tkanivá zuba sú avaskulárne?",
+        "answers": [
+          "cement",
+          "sklovina",
+          "dentín",
+          "pulpa"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zub – iba zubné lekárstvo",
+          "number": 13,
+          "page": 188
+        }
+      },
+      {
+        "question": "Ktoré dvojice sú správne?",
+        "answers": [
+          "hydroxyapatit – zubná dreň",
+          "Tomesove výbežky – ameloblasty",
+          "Tomesove vlákna – odontoblasty",
+          "Sharpeyove vlákna – odontoblasty",
+          "Retziusove čiary – sklovina"
+        ],
+        "correct": [
+          1,
+          2,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zub – iba zubné lekárstvo",
+          "number": 14,
+          "page": 188
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o terciárnom dentíne sú pravdivé?",
+        "answers": [
+          "vytvára sa pred prerezaním zuba",
+          "označuje sa aj ako reaktívny, reparačný",
+          "počet jeho dentínových tubulov je znížený a ich priebeh je nepravidelný",
+          "je to nezrelý, nemineralizovaný dentín"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zub – iba zubné lekárstvo",
+          "number": 15,
+          "page": 188
+        }
+      },
+      {
+        "question": "Čo tiež patrí medzi štruktúry závesného aparátu zuba?",
+        "answers": [
+          "cement koreňa zuba",
+          "úponový epitel",
+          "zubná dreň",
+          "dentín korunky",
+          "supraalveolárny systém vlákien"
+        ],
+        "correct": [
+          0,
+          1,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zub – iba zubné lekárstvo",
+          "number": 16,
+          "page": 188
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o periodontálnych ligamentoch sú pravdivé?",
+        "answers": [
+          "pozostávajú najmä zo zväzkov kolagénových vlákien (kolagén typu I)",
+          "pozostávajú najmä z hrubých elastických vlákien",
+          "sú usporiadané v smere a proti smeru hodinových ručičiek",
+          "vyvíjajú sa z ektomezenchýmu zubného vačku"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zub – iba zubné lekárstvo",
+          "number": 17,
+          "page": 189
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o supraalveolárnom systéme vlákien ako súčasti závesného aparátu zuba sú pravdivé?",
+        "answers": [
+          "pripájajú ďasno a kostný alveolus k zubom",
+          "pripájajú koreňovú časť zuba ku kostnému alveolu",
+          "sú tvorené kolagénovými a elastickými vláknami",
+          "sú súčasťou periodontálnych ligamentov"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zub – iba zubné lekárstvo",
+          "number": 18,
+          "page": 189
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o úponovom epiteli ďasna sú pravdivé?",
+        "answers": [
+          "tvorí bunky s vysokou mitotickou aktivitou a regeneračnou schopnosťou",
+          "vzniká splynutím ústneho epitelu a časti sklovinového epitelu počas prerezávania zuba",
+          "je pevne spojený s dentínom zuba",
+          "pri prerušení spojenia so zubom sa vytvorí patologický gingiválny vačok"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zub – iba zubné lekárstvo",
+          "number": 19,
+          "page": 189
+        }
+      },
+      {
+        "question": "Do akých tkanív sa upínajú periodontálne ligamenty?",
+        "answers": [
+          "do skloviny",
+          "do dentínu",
+          "do úponového epitelu",
+          "do alveolárnej kosti",
+          "do zubnej lišty",
+          "do cementu"
+        ],
+        "correct": [
+          3,
+          5
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zub – iba zubné lekárstvo",
+          "number": 20,
+          "page": 189
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o zrelom/prerezanom zube:",
+        "answers": [
+          "sekrečný ameloblast je bunka, z ktorej povrchu odstupuje Tomesov výbežok",
+          "Hunterove-Schregerove línie pozorujeme v sklovine pri zafarbení zuba pomocou hematoxylínu a eozínu",
+          "ameloblasty po prerezaní zuba zanikajú",
+          "sklovinu rozdeľujeme na dva základné typy – prizmatickú a aprizmatickú"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zub – iba zubné lekárstvo",
+          "number": 21,
+          "page": 190
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o zrelom/prerezanom zube:",
+        "answers": [
+          "odontoblasty sú epiteloidne usporiadané bunky, ktorých telá sú uložené na periférii zubnej pulpy",
+          "odontoblasty majú na apikálnom povrchu výbežok, tzv. Tomesovo vlákno, ktoré je uložené/prebieha v dentínových tubuloch",
+          "dentín pokrýva zubnú korunku",
+          "sklovinné prizmy vždy prestupujú sklovinou v celej jej šírke"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zub – iba zubné lekárstvo",
+          "number": 22,
+          "page": 190
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o zrelom/prerezanom zube:",
+        "answers": [
+          "Hunterove-Schregerove línie predstavujú výbrusové optické artefakty",
+          "okolo 70 % hmoty skloviny tvorí anorganická zložka",
+          "korunková časť zuba je pokrytá cementom a koreňová sklovinou",
+          "tvorba primárnej skloviny prebieha po celý život"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zub – iba zubné lekárstvo",
+          "number": 23,
+          "page": 190
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o zrelom/prerezanom zube:",
+        "answers": [
+          "dentínové tubuly prestupujú celou šírkou dentínu",
+          "dentín mineralizuje plynule, má preto homogénny vzhľad",
+          "na hranici medzi dentínom a zubnou pulpou sa nachádza plášťový dentín",
+          "tesne nad apikálnym povrchom tiel odontoblastov v blízkosti zubnej pulpy nájdeme nemineralizovaný predentín"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zub – iba zubné lekárstvo",
+          "number": 24,
+          "page": 190
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o zrelom/prerezanom zube:",
+        "answers": [
+          "predentín sa pri farbení hematoxylínom a eozínom farbí eozínom do ružova",
+          "rastové (von Ebnerove) línie zodpovedajú periodickému (nárazovitému) priebehu mineralizácie dentínu",
+          "Tomesove vlákna sú súčasťou medzibunkovej hmoty – dentínu dentínového matrixu",
+          "Tomesovo vlákno je synonymom pre Tomesov výbežok"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zub – iba zubné lekárstvo",
+          "number": 25,
+          "page": 191
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o zrelom/prerezanom zube:",
+        "answers": [
+          "cement je súčasťou závesného aparátu zuba",
+          "cement pokrýva dentín v rozsahu zubného koreňa aj korunky",
+          "zubná dreň je bezcievne tkanivo",
+          "subodontoblastová (Weilova) zóna predstavuje najvnútornejšiu vrstvu zubnej drene"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zub – iba zubné lekárstvo",
+          "number": 26,
+          "page": 191
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o zrelom/prerezanom zube:",
+        "answers": [
+          "lymfocyty a plazmatické bunky patria medzi fixné bunky zubnej drene",
+          "pulpocyty patria medzi imunitné bunky zubnej drene",
+          "zubná dreň vypĺňa dreňovú dutinu aj koreňové kanáliky",
+          "extracelulárny matrix zubnej drene obsahuje okrem amorfnej hmoty aj retikulárne vlákna"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zub – iba zubné lekárstvo",
+          "number": 27,
+          "page": 191
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o zrelom/prerezanom zube:",
+        "answers": [
+          "stavbou sa cement podobá na kompaktnú kosť s obsahom Haversových systémov",
+          "cement nemá v celom rozsahu jednotnú hrúbku",
+          "organickou zložkou cementu je prevažne kolagén II. typu",
+          "precement je silno kalcifikovaná vrstva na povrchu cementu"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zub – iba zubné lekárstvo",
+          "number": 28,
+          "page": 191
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o zrelom/prerezanom zube:",
+        "answers": [
+          "interdentín predstavuje prechodovú zónu medzi predentínom a mineralizovaným dentínom",
+          "cement je najhrubší v oblasti krčka",
+          "dentín obsahuje veľké množstvo krvných ciev",
+          "terciárny dentín sa tiež označuje ako reaktívny (reparatívny), pretože sa tvorí ako reakcia na rôzne vonkajšie vplyvy napr. pri zubnom kaze"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zub – iba zubné lekárstvo",
+          "number": 29,
+          "page": 191
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o zrelom/prerezanom zube:",
+        "answers": [
+          "pulpocyty patria k fixným bunkám zubnej drene",
+          "zubná dreň zrelého/prerezaného zuba je tvorená hustým kolagénovým väzivom",
+          "zubná dreň je veľmi dobre prekrvené a inervované mäkké tkanivo zuba",
+          "bipolárne fibroblasty sa nachádzajú v zubnej dreni"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zub – iba zubné lekárstvo",
+          "number": 30,
+          "page": 192
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o závesnom aparáte zuba:",
+        "answers": [
+          "ďasno pokrýva časť alveolárnych výbežkov čeľuste, oblasť zubného krčka a časť anatomickej korunky zuba",
+          "od okolitej sliznice ústnej dutiny je gingiva alveolaris ostro ohraničená mukogingiválnym spojením (čiarou)",
+          "gingiva marginalis je označenie pre nepohyblivú časť ďasna",
+          "gingiva alveolaris je označenie pre pohyblivú časť ďasna"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zub – iba zubné lekárstvo",
+          "number": 31,
+          "page": 192
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o závesnom aparáte zuba:",
+        "answers": [
+          "mukoperiost predstavuje priame spojenie medzi okosticou zubného kostného alveolu a ďasnom",
+          "väzivové vlákna závesného aparátu zuba sa upínajú na jednej strane do zubného kostného lôžka, na druhej do cementu",
+          "ďasno je tvorené mechanicky odolným žuvacím typom sliznice ústnej dutiny",
+          "periodontálne ligamenty zodpovedajú stavbou hustému usporiadanému kolagénovému väzivu"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zub – iba zubné lekárstvo",
+          "number": 32,
+          "page": 192
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o závesnom aparáte zuba:",
+        "answers": [
+          "alveolárna kosť zo strany zubného lôžka (vnútornej strany) je pokrytá mukoperiostom",
+          "súčasťou závesného aparátu zuba je aj supraalveolárny systém vlákien",
+          "súčasťou závesného aparátu zuba sú aj vlákna prebiehajúce medzi cementom a kosťou zubného lôžka",
+          "periodontálne ligamenty obsahujú prevahu kolagénových vlákien s malým množstvom buniek a amorfnej hmoty"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zub – iba zubné lekárstvo",
+          "number": 33,
+          "page": 192
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o závesnom aparáte zuba:",
+        "answers": [
+          "závesný aparát zuba obsahuje progenitorové bunky, ktoré slúžia na obnovu kosti zubného lôžka",
+          "ďasno je tvorené epitelom, väzivom lamina propria a podslizničným väzivom",
+          "závesný aparát zuba je termín, ktorý zahŕňa nasledovné štruktúry: periodontálne ligamentá, cement, alveolárnu kosť a ďasno",
+          "Sharpeyove vlákna sú elastické vlákna prítomné v periodontálnych ligamentoch"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zub – iba zubné lekárstvo",
+          "number": 34,
+          "page": 193
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o závesnom aparáte zuba:",
+        "answers": [
+          "kolagénové vlákna v lamina propria ďasna sa podľa priebehu rozdeľujú na dentogingiválne, alveologingiválne a kruhové",
+          "kolagénové vlákna periodontálnych ligamentov sa upínajú na jednej strane do zubného lôžka, na druhej do skloviny",
+          "mukoperiost predstavuje priame spojenie medzi vonkajšou stranou okostice kostného alveolu a ďasnom",
+          "alveolárna kosť je súčasťou závesného aparátu zuba"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zub – iba zubné lekárstvo",
+          "number": 35,
+          "page": 193
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o závesnom aparáte zuba:",
+        "answers": [
+          "vonkajšia časť alveolárnej kosti v kontakte s ďasnom je pokrytá mukoperiostom",
+          "gingiva marginalis je označenie pre pohyblivú časť ďasna",
+          "spojovací/úponový (Gottliebov) epitel je tvorený jednou vrstvou cylindrických buniek",
+          "linea mucogingivalis je čiara, ktorá navzájom oddeľuje voľné ďasno a sliznicu ústnej dutiny"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zub – iba zubné lekárstvo",
+          "number": 36,
+          "page": 193
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o závesnom aparáte zuba:",
+        "answers": [
+          "súčasťou závesného aparátu zuba sú iba kolagénové vlákna, ktoré prebiehajú medzi cementom a alveolárnou kosťou",
+          "závesný aparát zuba obsahuje veľa buniek väziva a málo vlákien",
+          "alveolárna kosť (kosť zubného lôžka) má schopnosť intenzívnej rýchlej prestavby",
+          "ďasno pokrýva viacvrstvový dlaždicový epitel, nerohovatejúci, miestami môže slabo keratinizovať"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zub – iba zubné lekárstvo",
+          "number": 37,
+          "page": 193
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o závesnom aparáte zuba:",
+        "answers": [
+          "alveolárna kosť je súčasťou závesného aparátu zuba",
+          "ďasno je pripojené k zubu v celom svojom rozsahu",
+          "Sharpeyove vlákna sú kolagénové vlákna prítomné v periodontálnych ligamentoch",
+          "alveolárna kosť zubného lôžka má iba obmedzenú schopnosť prestavby"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zub – iba zubné lekárstvo",
+          "number": 38,
+          "page": 194
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o závesnom aparáte zuba:",
+        "answers": [
+          "alveolárna kosť nie je vôbec krytá vrstvou mukoperiostu",
+          "súčasťou periodontálnych ligamentov je veľké množstvo elastických vlákien",
+          "kolagénové vlákna periodontálnych ligamentov sa na jednej strane upínajú do zubného lôžka a na druhej strane do cementu",
+          "periodontálne ligamenty sú tvorené prevažne kolagénom typu I"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zub – iba zubné lekárstvo",
+          "number": 39,
+          "page": 194
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich všeobecných tvrdení o vývoji zubov sú pravdivé?",
+        "answers": [
+          "zubná papila je endodermového pôvodu",
+          "produkcia dentínu predchádza produkcii skloviny a objavuje sa v štádiu zvončeka",
+          "preodontoblasty sa prvýkrát objavujú v sklovinovom (hviezdicovom) retikule vyvíjajúceho sa zuba",
+          "koreň mliečneho zuba sa začína formovať po prerezaní zuba"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zub – iba zubné lekárstvo",
+          "number": 40,
+          "page": 194
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o vývoji skloviny sú pravdivé?",
+        "answers": [
+          "sekrečné ameloblasty sa diferencujú a vytvárajú vonkajší sklovinový epitel sklovinového orgánu",
+          "ameloblasty sa diferencujú z vnútorného sklovinového epitelu sklovinového orgánu",
+          "sklovina vzniká z ektodermového epitelu primitívnej ústnej dutiny",
+          "ameloblasty, ktoré produkujú sklovinu, vznikajú z ektomezenchýmu zubnej papily"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zub – iba zubné lekárstvo",
+          "number": 41,
+          "page": 194
+        }
+      },
+      {
+        "question": "Aký je embryonálny pôvod dentínu?",
+        "answers": [
+          "ektoderma",
+          "mezenchým",
+          "endoderma",
+          "kardiálna mezoderma"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zub – iba zubné lekárstvo",
+          "number": 42,
+          "page": 194
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o ultraštruktúre sekrečných ameloblastov sú pravdivé?",
+        "answers": [
+          "sú to cylindrické bunky",
+          "spojovacie komplexy sú prítomné na apikálnej aj bazálnej časti bunky",
+          "sú v kontakte so stratum intermedium",
+          "obsahujú Tomesov výbežok"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zub – iba zubné lekárstvo",
+          "number": 43,
+          "page": 195
+        }
+      },
+      {
+        "question": "Aké štruktúry obsahuje vývojové štádium zuba – zvonček?",
+        "answers": [
+          "sklovinové (hviezdicové) retikulum v zubnej papile",
+          "vonkajší sklovinový epitel",
+          "preodontoblasty",
+          "stratum intermedium"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zub – iba zubné lekárstvo",
+          "number": 44,
+          "page": 195
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o Hertwigovej epitelovej koreňovej pošve sú pravdivé?",
+        "answers": [
+          "vzniká pokračovaním vnútorného a vonkajšieho sklovinového epitelu",
+          "môže sa podieľať na cementogenéze",
+          "nachádza sa v cervikálnej slučke sklovinového orgánu",
+          "je dočasnou štruktúrou, ktorá sa nachádza v mliečnych zuboch, ale chýba v trvalých zuboch"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zub – iba zubné lekárstvo",
+          "number": 45,
+          "page": 195
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o vývine zuba:",
+        "answers": [
+          "vývin koreňa prebieha skôr ako vývoj korunky zuba",
+          "cementoblasty vznikajú zo sklovinového orgánu",
+          "pri vývine zubného koreňa epitelová koreňová (Hertwigova) pošva v zubnej papile indukuje diferenciáciu odontoblastov, ktoré vytvoria koreňový dentín",
+          "Malassezove epitelové telieska v závesnom aparáte zuba predstavujú pozostatky epitelovej koreňovej pošvy"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zub – iba zubné lekárstvo",
+          "number": 46,
+          "page": 195
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o vývine zuba:",
+        "answers": [
+          "mezenchýmové bunky zubného vačku, ktoré sa dostanú do kontaktu s koreňovým dentínom, začínajú tvorbu cementu a závesného aparátu zuba",
+          "epitelová koreňová (Hertwigova) pošva je tvorená vonkajším a vnútorným sklovinovým epitelom bez sklovinového (hviezdicového) retikula medzi nimi",
+          "vývin zubného koreňa sa začína až po vývine korunky",
+          "sklovinové (hviezdicové) retikulum sa počas vývinu diferencuje na definitívnu zubnú dreň"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zub – iba zubné lekárstvo",
+          "number": 47,
+          "page": 196
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o vývine zuba:",
+        "answers": [
+          "zubná dreň sa vyvíja z ektomezenchýmu zubnej papily",
+          "zubná dreň pochádza z vnútornej epitelovej vrstvy sklovinového orgánu",
+          "zubný vačok je embryonálnou štruktúrou, z ktorej sa vyvíja zubná dreň",
+          "zubná dreň sa vyvíja z tkaniva pôvodom z mezenchýmu a buniek neurálnej lišty"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zub – iba zubné lekárstvo",
+          "number": 48,
+          "page": 196
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o vývine kostí lebky:",
+        "answers": [
+          "kosti lebky sa vyvíjajú z mezenchýmu, pôvodom z mezodermy, aj ektomezenchýmu, pôvodom z neurálnej lišty",
+          "kosti chondrokránia osifikujú procesom dezmogénnej osifikácie",
+          "väčšina kostí viscerokránia osifikuje dezmogénne z tkaniva žiabrových oblúkov",
+          "všetky kosti lebky osifikujú rovnakým mechanizmom"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zub – iba zubné lekárstvo",
+          "number": 49,
+          "page": 196
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o vývine kostí lebky:",
+        "answers": [
+          "kosti lebečného krytu osifikujú dezmogénne",
+          "väčšina kostí tvárového skeletu osifikuje dezmogénne",
+          "kosti viscerokránia rastú počas fetálneho vývoja oveľa rýchlejšie ako kosti neurokránia",
+          "kosti lebky novorodenca sú hneď po pôrode definitívne pospájané"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zub – iba zubné lekárstvo",
+          "number": 50,
+          "page": 196
+        }
+      }
+    ]
+  }
+]

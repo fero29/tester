@@ -1,0 +1,809 @@
+[
+  {
+    "title": "Histológia – zbierka – 2. Bunka",
+    "description": "Jadro, organely, cytoskelet, bunkový cyklus a apoptóza. Otázky s výberom viacerých odpovedí zo zbierky Histológia a embryológia v otázkach (Miko, Klein, Juríková, UK 2025); kľúč podľa zbierky.",
+    "year": 1,
+    "category": "Histológia",
+    "sortOrder": 12,
+    "questions": [
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o bunkovom jadre sú pravdivé?",
+        "answers": [
+          "obsahuje genóm",
+          "obsahuje enzýmy na transkripciu RNA",
+          "je miestom syntézy ribozomálnej RNA",
+          "chromatín je zodpovedný za charakteristickú eozinofíliu",
+          "v gamétach obsahuje súbor 46 chromozómov",
+          "je organelou s dvojitou membránou"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          5
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Bunka",
+          "number": 1,
+          "page": 21
+        }
+      },
+      {
+        "question": "Kde je možné nájsť jadrovú laminu?",
+        "answers": [
+          "v perinukleárnom priestore",
+          "vedľa vonkajšej jadrovej membrány",
+          "susedí s vnútornou jadrovou membránou",
+          "okolo zrnitého materiálu jadierka"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Bunka",
+          "number": 2,
+          "page": 21
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o jadierku sú pravdivé?",
+        "answers": [
+          "je oblasť v jadre s vlastnou biomembránou",
+          "je primárnym miestom produkcie a skladania ribozómov",
+          "podieľa sa na regulácii bunkového cyklu",
+          "neobsahuje genóm",
+          "je dobre viditeľné pri farbení kyslými farbivami"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Bunka",
+          "number": 3,
+          "page": 21
+        }
+      },
+      {
+        "question": "Čo je typické pre umierajúcu bunku?",
+        "answers": [
+          "karyolýza",
+          "vypnutie endonukleáz",
+          "karyorexia",
+          "pyknóza",
+          "„blebbing“ plazmatickej membrány buniek"
+        ],
+        "correct": [
+          0,
+          2,
+          3,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Bunka",
+          "number": 4,
+          "page": 21
+        }
+      },
+      {
+        "question": "Z čoho sa skladá nukleozóm?",
+        "answers": [
+          "z hexaméru (šesť molekúl histónu)",
+          "z oktaméru (osem molekúl histónu)",
+          "zo šiestich slučiek DNA",
+          "z dvoch slučiek DNA"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Bunka",
+          "number": 5,
+          "page": 22
+        }
+      },
+      {
+        "question": "V jadrách ktorých buniek by ste videli prevahu euchromatínu?",
+        "answers": [
+          "bunky produkujúce protilátky",
+          "bunky produkujúce testosterón",
+          "bunky produkujúce kolagén",
+          "fagocytujúce bunky",
+          "bunky prenášajúce dýchacie plyny"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Bunka",
+          "number": 6,
+          "page": 22
+        }
+      },
+      {
+        "question": "V ktorých bunkách by ste videli dobre vyvinuté hladké ER?",
+        "answers": [
+          "bunky prenášajúce dýchacie plyny",
+          "mužské pohlavné bunky",
+          "bunky ukladajúce lipidy",
+          "bunky produkujúce kožný maz",
+          "bunky s detoxikačnou funkciou",
+          "bunky produkujúce testosterón"
+        ],
+        "correct": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Bunka",
+          "number": 7,
+          "page": 22
+        }
+      },
+      {
+        "question": "Ktoré bunky si zachovali svoj mitotický potenciál?",
+        "answers": [
+          "bunky prenášajúce nervové impulzy",
+          "bunky prenášajúce dýchacie plyny",
+          "zhubné bunky",
+          "kmeňové bunky"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Bunka",
+          "number": 8,
+          "page": 22
+        }
+      },
+      {
+        "question": "Čo majú spoločné mitóza a meióza?",
+        "answers": [
+          "dve dcérske bunky majú rovnaký obsah DNA ako materská bunka",
+          "obe sa vyskytujú pri brázdovaní zygoty",
+          "sú predchádzané S fázou",
+          "crossing over",
+          "obe majú metafázu",
+          "obe majú pachyténne štádium profázy"
+        ],
+        "correct": [
+          2,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Bunka",
+          "number": 9,
+          "page": 23
+        }
+      },
+      {
+        "question": "Ktoré choroby sú zrejme spôsobené stratou buniek?",
+        "answers": [
+          "Parkinsonova choroba",
+          "AIDS",
+          "rakovina",
+          "proliferatívna glomerulonefritída",
+          "svalové dystrofie"
+        ],
+        "correct": [
+          0,
+          1,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Bunka",
+          "number": 10,
+          "page": 23
+        }
+      },
+      {
+        "question": "Kde v tele možno pozorovať apoptózu?",
+        "answers": [
+          "pri folikulárnej atrézii",
+          "v maternici po pôrode",
+          "počas tvorby nádoru",
+          "v bunkách poškodených za limit opraviteľnosti"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Bunka",
+          "number": 11,
+          "page": 23
+        }
+      },
+      {
+        "question": "Ktoré organely sú nemembránové?",
+        "answers": [
+          "mitochondrie",
+          "ribozómy",
+          "drsné endoplazmatické retikulum",
+          "centrioly",
+          "akrozóm",
+          "cytoskelet"
+        ],
+        "correct": [
+          1,
+          3,
+          5
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Bunka",
+          "number": 12,
+          "page": 23
+        }
+      },
+      {
+        "question": "Čo sa nachádza v plazmatickej membráne?",
+        "answers": [
+          "cerebrozidy",
+          "cholesterol",
+          "integrálne proteíny",
+          "konexóny",
+          "klatrín",
+          "sfingomyelín"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3,
+          5
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Bunka",
+          "number": 13,
+          "page": 24
+        }
+      },
+      {
+        "question": "V nasledujúcom výroku opravte slovo tak, aby bol tento výrok správny: Produkcia bielkovín v bunke sa začína v jadre transláciou, pri ktorej je genetický kód zakódovaný do mRNA.",
+        "answers": [
+          "bielkovín → lipidov",
+          "jadre → jadierku",
+          "transláciou → transkripciou",
+          "mRNA → tRNA"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Bunka",
+          "number": 14,
+          "page": 24
+        }
+      },
+      {
+        "question": "Ktoré z uvedených dvojíc sú správne?",
+        "answers": [
+          "Golgiho aparát cytochróm – C",
+          "hladké ER – kardiolipín",
+          "mitochondrie – SNARE proteíny",
+          "plazmatická membrána – cholesterol",
+          "mikrotubuly – dyneín",
+          "jadro – lamíny",
+          "bazálne teliesko – aktín"
+        ],
+        "correct": [
+          3,
+          4,
+          5
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Bunka",
+          "number": 15,
+          "page": 24
+        }
+      },
+      {
+        "question": "Čo je to glykokalyx?",
+        "answers": [
+          "polysacharidový obal buniek",
+          "typ sfingolipidu v plazmatickej membráne",
+          "pozitívne nabitý pericelulárny matrix",
+          "napäťovo riadený kanál na apikálnom povrchu bunky"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Bunka",
+          "number": 16,
+          "page": 24
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o endocytóze sú pravdivé?",
+        "answers": [
+          "je to pasívny prenos látok cez cytoplazmatickú membránu",
+          "je opakom pinocytózy",
+          "jedným z jej typov je fagocytóza",
+          "môže byť sprostredkovaná špecifickými receptormi"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Bunka",
+          "number": 17,
+          "page": 25
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o bunkovom cykle sú pravdivé?",
+        "answers": [
+          "interfázu bunkového cyklu možno rozdeliť na fázy G1, S a G2",
+          "počas fázy G1 dochádza k duplikácii DNA",
+          "počas fázy G2 sa bunka pripravuje na mitotické delenie",
+          "dĺžka bunkového cyklu nezávisí od vonkajších podmienok"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Bunka",
+          "number": 18,
+          "page": 25
+        }
+      },
+      {
+        "question": "Ktoré z týchto tvrdení o rôznych organelách sú pravdivé?",
+        "answers": [
+          "sekundárne lyzozómy neobsahujú strávený materiál",
+          "medzi proteíny intermediárnych filamentov patrí vimentín",
+          "mitochondrie sú bazofilné organely",
+          "mikroklk je široký približne 10 µm",
+          "bunkové jadro je okrúhle bez ohľadu na tvar bunky",
+          "Golgiho komplex je funkčne a štrukturálne príbuzný endoplazmatickému retikulu"
+        ],
+        "correct": [
+          1,
+          5
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Bunka",
+          "number": 19,
+          "page": 25
+        }
+      },
+      {
+        "question": "Aká môže byť rozdielna funkcia hladkého ER v rôznych bunkách?",
+        "answers": [
+          "produkcia steroidných hormónov",
+          "posttranslačná úprava a triedenie proteínov",
+          "intracelulárny transport",
+          "detoxikácia",
+          "syntéza lipidov",
+          "skladovanie fosfátových aniónov",
+          "syntéza bielkovín"
+        ],
+        "correct": [
+          0,
+          3,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Bunka",
+          "number": 20,
+          "page": 25
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o bunkovom jadre:",
+        "answers": [
+          "euchromatín je označenie pre tmavý kondenzovaný chromatín",
+          "prevaha heterochromatínu je typická pre bunky s nízkou transkripčnou aktivitou",
+          "tmavé heterochromatické jadro je typické pre proteosynteticky aktívnu bunku",
+          "pyknóza označuje stav maximálnej kondenzácie jadrového chromatínu"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Bunka",
+          "number": 21,
+          "page": 26
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o bunkovom jadre:",
+        "answers": [
+          "jadrové póry slúžia na obojsmernú komunikáciu medzi cytoplazmou a nukleoplazmou",
+          "jadrový obal pozostáva z dvoch membrán, pričom každá má hrúbku približne 8 nm",
+          "2 : 1 je typický nukleocytoplazmatický pomer u nezrelých prekurzorových buniek",
+          "nukleocytoplazmatický pomer 4 : 1 je typický pre nezrelé bunky, ale výnimočne ho môžeme pozorovať aj u zrelých buniek, napr. lymfocytov"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Bunka",
+          "number": 22,
+          "page": 26
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o bunkovom jadre:",
+        "answers": [
+          "základnou funkčnou a regulačnou štruktúrou chromatínu je nukleozóm",
+          "heterochromatín je pri farbení hematoxylínom intenzívne bazofilný",
+          "euchromatín je transkripčne aktívny chromatín, ktorý sa pri farbení hematoxylínom javí ako svetlo bazofilný",
+          "v obraze elektrónového mikroskopu je heterochromatín elektróndenzný"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Bunka",
+          "number": 23,
+          "page": 26
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o bunkovom jadre:",
+        "answers": [
+          "na základe usporiadania heterochromatínu a euchromatínu dokážeme odlíšiť napr. B-lymfocyt od plazmatickej bunky",
+          "komplex jadrového póru je tvorený vonkajším a vnútorným prstencom a centrálnym kanálom",
+          "perinukleárny priestor je lokalizovaný medzi cytoplazmou a vonkajšou jadrovou membránou",
+          "jadrový pór možno identifikovať na svetelnomikroskopickej úrovni"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Bunka",
+          "number": 24,
+          "page": 26
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o bunkovom jadre:",
+        "answers": [
+          "pyknotické jadro pozorujeme napríklad v povrchových epitelových bunkách pokožky",
+          "karyolýzu typicky opisujeme pri bunkovom delení",
+          "kmeňové bunky zvyčajne majú svetlé opticky prázdne jadro",
+          "väčšina buniek obsahuje veľmi tmavé pyknotické jadro"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Bunka",
+          "number": 25,
+          "page": 27
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o ribozómoch:",
+        "answers": [
+          "ribozómy sú miestom posttranslačnej modifikácie bielkovín",
+          "bazofília je typickou vlastnosťou ribozómov z dôvodu množstva molekúl kyslej povahy",
+          "mRNA je jediný typ RNA, ktorý sa nachádza v ribozómoch",
+          "bazofília je typickou vlastnosťou ribozómov z dôvodu množstva molekúl zásaditej povahy"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Bunka",
+          "number": 26,
+          "page": 27
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o ribozómoch:",
+        "answers": [
+          "rRNA, tRNA a mRNA tvoria integrálnu súčasť ribozómov",
+          "ribozómy patria medzi membránové organely",
+          "ribozómy nájdeme uložené aj v mitochondriách",
+          "syntéza rRNA ribozómov prebieha v jadierku"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Bunka",
+          "number": 27,
+          "page": 27
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o endoplazmatickom retikule:",
+        "answers": [
+          "hladké endoplazmatické retikulum má na membráne naviazané ribozómy a slúži na syntézu bielkovín",
+          "zhluky drsného endoplazmatického retikula a polyribozómov v cytoplazme neurónov označujeme ako Nisslova substancia",
+          "hladké endoplazmatické retikulum slúži napr. na syntézu steroidných hormónov",
+          "drsné endoplazmatické retikulum sa farbí eozínom do ružova"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Bunka",
+          "number": 28,
+          "page": 27
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o endoplazmatickom retikule:",
+        "answers": [
+          "bunky s vysokou proteosyntetickou aktivitou majú prevahu hladkého endoplazmatického retikula",
+          "endoplazmatické retikulum je organela s dvojitou membránou",
+          "vnútri drsného endoplazmatického retikula prebieha posttranslačná modifikácia bielkovín",
+          "drsné endoplazmatické retikulum slúži ako zásobáreň vápnikových katiónov potrebných pre svalovú kontrakciu"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Bunka",
+          "number": 29,
+          "page": 28
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o jadierku:",
+        "answers": [
+          "tmavé výrazne bazofilné jadierko pozorujeme napríklad v plazmatických bunkách alebo fibroblastoch",
+          "jadierko je miestom syntézy mRNA",
+          "jadierko je obalené dvojitou membránou podobne ako jadro",
+          "obe podjednotky ribozómov sú syntetizované v jadierku"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Bunka",
+          "number": 30,
+          "page": 28
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o bunkách:",
+        "answers": [
+          "tvar jadra spravidla kopíruje tvar celej bunky",
+          "mitochondrie s kristami predstavujú najčastejší typ mitochondrií",
+          "fagolyzozóm je typom primárneho lyzozómu",
+          "Golgiho aparát slúži aj na posttranslačnú modifikáciu bielkovín"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Bunka",
+          "number": 31,
+          "page": 28
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o bunkách:",
+        "answers": [
+          "lyzozómy sú nemembránové organely",
+          "mitochondrie možno pozorovať na úrovni svetelného mikroskopu po zafarbení špecifickou metódou, inak je ťažké ich identifikovať",
+          "vlastná DNA mitochondrií pochádza výlučne od matky",
+          "bunky syntetizujúce steroidné hormóny obsahujú tubulárny typ mitochondrií"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Bunka",
+          "number": 32,
+          "page": 28
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o bunkách:",
+        "answers": [
+          "mitochondrie sú obalené jednou membránou",
+          "hladké endoplazmatické retikulum slúži napr. na syntézu bielkovín",
+          "väčšina buniek má jedno jadro",
+          "syncýtium označuje bunky s dvoma jadrami, napr. kardiomyocyty"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Bunka",
+          "number": 33,
+          "page": 29
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o bunkách:",
+        "answers": [
+          "väčšina buniek ľudského tela má jedno jadro",
+          "syncýtium je spoločným znakom svalového vlákna a osteoklastov",
+          "mikrotubuly patria medzi membránové organely",
+          "mitochondrie majú okrem vlastnej kruhovej molekuly DNA aj vlastné ribozómy"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Bunka",
+          "number": 34,
+          "page": 29
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o bunkách:",
+        "answers": [
+          "vysoký podiel mitochondrií v cytoplazme bunky jej dodáva intenzívnu afinitu ku kyslým farbivám (napr. eozínu)",
+          "primárne lyzozómy obsahujú fagocytovaný materiál",
+          "reziduálne teliesko je synonymum pre terciárny lyzozóm",
+          "mikrotubuly sú súčasťou cytoskeletu a tvoria vnútornú kostru riasiniek"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Bunka",
+          "number": 35,
+          "page": 29
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o bunkových inklúziách:",
+        "answers": [
+          "lipofuscín sa vyskytuje v dlho žijúcich bunkách, napr. v kardiomyocytoch alebo neurónoch",
+          "Reinkeho kryštaloidy v Leydigových bunkách semenníkov patria medzi bunkové inklúzie",
+          "steatóza označuje fyziologickú zásobu tukových kvapiek v hepatocytoch",
+          "feomelanín je zodpovedný za čierne sfarbenie pokožky a vlasov"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Bunka",
+          "number": 36,
+          "page": 29
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o bunkových inklúziách:",
+        "answers": [
+          "glykogénové zrná sú PAS pozitívne",
+          "tukové kvapky sú dobre znázornené pri farbení hematoxylínom a eozínom",
+          "farba pokožky nie je určená počtom melanocytov, ale celkovým počtom melanozómov",
+          "antrakóza označuje „zaprášenie“ pľúc, ktorého podkladom je hromadenie exogénnych častíc uhlíka v alveolárnych makrofágoch"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Bunka",
+          "number": 37,
+          "page": 29
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o bunkových inklúziách:",
+        "answers": [
+          "hemosiderín patrí medzi exogénne pigmenty",
+          "neuromelanín je synonymom pre pigment z opotrebovania",
+          "farebné častice vpravené do podkožia počas tetovania patria medzi endogénne pigmenty",
+          "pre znázornenie tukových kvapiek používame napr. farbenie Sudan III"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Bunka",
+          "number": 38,
+          "page": 30
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o bunkových inklúziách:",
+        "answers": [
+          "albinizmus je dedičné ochorenie charakterizované nedostatočnou tvorbou lipofuscínu",
+          "glykogénové zrná v hepatocytoch sú dobre viditeľné pri farbení hematoxylínom a eozínom",
+          "veľké množstvo neuromelanínu sa vyskytuje napr. v substantia nigra",
+          "hemosiderín patrí medzi hematogénne endogénne pigmenty"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Bunka",
+          "number": 39,
+          "page": 30
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o bunkových inklúziách:",
+        "answers": [
+          "lipofuscín je označovaný aj ako pigment z opotrebovania",
+          "hromadenie lipofuscínu je typické napr. pre epitelové bunky tenkého čreva",
+          "myoglobín je s hemoglobínom príbuzný pigment, typický pre svalové tkanivo",
+          "inklúzie patria medzi bunkové organely"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Bunka",
+          "number": 40,
+          "page": 30
+        }
+      }
+    ]
+  }
+]

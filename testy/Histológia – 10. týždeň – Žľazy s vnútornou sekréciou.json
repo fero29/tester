@@ -1,0 +1,994 @@
+[
+  {
+    "title": "Histológia – 10. týždeň – Žľazy s vnútornou sekréciou",
+    "description": "Hypofýza, epifýza, štítna žľaza, prištítne telieska, nadobličky a ich vývin. Otázky s výberom viacerých odpovedí zo zbierky Histológia a embryológia v otázkach (Miko, Klein, Juríková, UK 2025); kľúč podľa zbierky.",
+    "year": 2,
+    "category": "Histológia",
+    "sortOrder": 10,
+    "questions": [
+      {
+        "question": "Ktoré z nasledujúcich endokrinných žliaz majú bunky usporiadané do trámcov",
+        "answers": [
+          "kôra nadobličiek",
+          "adenohypofýza",
+          "neurohypofýza",
+          "štítna žľaza"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Endokrinný systém",
+          "number": 1,
+          "page": 144
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o štítnej žľaze sú pravdivé?",
+        "answers": [
+          "výška folikulárnych buniek závisí od ich aktivity",
+          "prekurzory jej hormónov, T3 a T4, sú uložené v endokrinných bunkách",
+          "jej parafolikulárne bunky produkujú hormón parathormón",
+          "koloid je bazofilný",
+          "je to folikulárny typ endokrinnej žľazy"
+        ],
+        "correct": [
+          0,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Endokrinný systém",
+          "number": 2,
+          "page": 144
+        }
+      },
+      {
+        "question": "V ktorých žľazách sa nachádzajú gliové bunky?",
+        "answers": [
+          "neurohypofýza",
+          "adenohypofýza",
+          "dreň nadobličiek",
+          "gl. pinealis",
+          "štítna žľaza"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Endokrinný systém",
+          "number": 3,
+          "page": 144
+        }
+      },
+      {
+        "question": "Ktoré z dvojíc „bunka produkt“ sú správne?",
+        "answers": [
+          "chromafinné bunky – katecholamíny",
+          "acidofilné bunky – prolaktín",
+          "bazofilné bunky – proopiomelanokortín (POMC)",
+          "oxyfilné bunky – parathormón",
+          "pinealocyty – melanín",
+          "pituicyty – antidiuretický hormón (ADH)"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Endokrinný systém",
+          "number": 4,
+          "page": 144
+        }
+      },
+      {
+        "question": "Aké sú typické vlastnosti endokrinných žliaz?",
+        "answers": [
+          "výroba enzýmov",
+          "prítomnosť fenestrovaných krvných kapilár",
+          "epitelový alebo neuroektodermový pôvod ich buniek",
+          "sú bez vývodov",
+          "ich vylučovanie je často regulované mechanizmami spätnej väzby"
+        ],
+        "correct": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Endokrinný systém",
+          "number": 5,
+          "page": 145
+        }
+      },
+      {
+        "question": "Aké štruktúry možno vidieť v neurohypofýze?",
+        "answers": [
+          "Hassalove telieska",
+          "Herringove teliska",
+          "nemyelinizované axóny",
+          "pinealocyty"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Endokrinný systém",
+          "number": 6,
+          "page": 145
+        }
+      },
+      {
+        "question": "Ktoré histologické štruktúry môžeme vidieť v epifýze?",
+        "answers": [
+          "pinealocyty",
+          "pituicyty",
+          "obal z pia mater",
+          "mozgový piesok",
+          "intersticiálne bunky",
+          "koloid"
+        ],
+        "correct": [
+          0,
+          2,
+          3,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Endokrinný systém",
+          "number": 7,
+          "page": 145
+        }
+      },
+      {
+        "question": "Aké sú časti neurohypofýzy?",
+        "answers": [
+          "infundibulum",
+          "pars tuberalis",
+          "pars nervosa",
+          "pars distalis",
+          "pars intermedia"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Endokrinný systém",
+          "number": 8,
+          "page": 145
+        }
+      },
+      {
+        "question": "V nasledujúcom výroku opravte slovo tak, aby bol tento výrok správny: Neuróny z hypotalamických jadier vylučujú do hypotalamo-hypofýzového portálneho systému uvoľňujúci hormón, ktorý prúdi z hypotalamu do zadného laloka hypofýzy.",
+        "answers": [
+          "neuróny → pituicyty",
+          "uvoľňujúci → inhibičný",
+          "zadného → predného",
+          "hypotalamických → epitalamických"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Endokrinný systém",
+          "number": 9,
+          "page": 146
+        }
+      },
+      {
+        "question": "Akým spôsobom parathormón zvyšuje hladinu vápnika v sére?",
+        "answers": [
+          "zvyšuje resorpciu kostí",
+          "znižuje vylučovanie Ca2+ žlčou",
+          "zvyšuje reabsorpciu v obličkách",
+          "znižuje reabsorpciu v obličkách",
+          "zvyšuje vstrebávanie vápnika z tenkého čreva"
+        ],
+        "correct": [
+          0,
+          2,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Endokrinný systém",
+          "number": 10,
+          "page": 146
+        }
+      },
+      {
+        "question": "ADH (antiduiretický hormón, vazopresín) sa dostáva do systémového obehu cez fenestrované kapiláry, ktoré sa nachádzajú v ktorom z nasledujúcich anatomických miest?",
+        "answers": [
+          "eminentia mediana v infundibule",
+          "pars nervosa zadnej hypofýzy",
+          "paraventrikulárne jadro hypotalamu",
+          "pars tuberalis prednej hypofýzy",
+          "v mieste hypofýzy, kde sa vyskytujú pituicyty",
+          "v mieste terminálnych vetiev dolných hypofyzárnych artérií"
+        ],
+        "correct": [
+          1,
+          4,
+          5
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Endokrinný systém",
+          "number": 11,
+          "page": 146
+        }
+      },
+      {
+        "question": "Ktorý z nasledujúcich pojmov najlepšie opisuje biochemické zloženie materiálu uloženého vo folikuloch štítnej žľazy?",
+        "answers": [
+          "proteoglykán",
+          "veľký glykoproteín",
+          "pentapeptid",
+          "steroidný prekurzor",
+          "komplexný sacharid",
+          "tyreoglobulín"
+        ],
+        "correct": [
+          1,
+          5
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Endokrinný systém",
+          "number": 12,
+          "page": 147
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o prištítnych telieskach sú pravdivé?",
+        "answers": [
+          "obsahujú endokrinné bunky, ktoré sú usporiadané vo folikuloch",
+          "obsahujú dva typy buniek – hlavné bunky a oxyfilné bunky",
+          "prevládajúcim typom buniek sú oxyfilné bunky",
+          "bunky sú v úzkom spojení s kontinuálnymi kapilárami"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Endokrinný systém",
+          "number": 13,
+          "page": 147
+        }
+      },
+      {
+        "question": "Ktorá z nasledujúcich možností sa vzťahuje na steroidné hormóny?",
+        "answers": [
+          "všeobecne sa syntetizujú z cholesterolu",
+          "ich zdrojom sú aj gonády a placenta",
+          "nemôžu prejsť cez bunkovú membránu",
+          "ich receptory môžu byť jadrové",
+          "sú tvorené polyedrickými epiteloidnými bunkami s jedným excentricky umiestneným vajcovitým jadrom a so štruktúrami v tvare tyčiniek s priemerom 3 až 20 mikrometrov (Reinkeho kryštáliky)",
+          "ich produkcia môže byť stimulovaná rastovým hormónom"
+        ],
+        "correct": [
+          0,
+          1,
+          3,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Endokrinný systém",
+          "number": 14,
+          "page": 147
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o produktoch nadobličiek sú pravdivé?",
+        "answers": [
+          "zona fasciculata kôry produkuje hormón aldosterón",
+          "jeho dreň produkuje hormón dopamín",
+          "jeho dreň produkuje hormón noradrenalín (norepinefrín)",
+          "jeho kôra produkuje katecholamíny"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Endokrinný systém",
+          "number": 15,
+          "page": 147
+        }
+      },
+      {
+        "question": "Odkiaľ môžu pochádzať bunky s bohatým hladkým ER, mnohými mitochondriami špeciálneho – tubulárneho typu a mnohými kvapôčkami lipidov, ktoré im dodávajú vakuolizovaný vzhľad?",
+        "answers": [
+          "pars distalis adenohypofýzy",
+          "zona fasciculata kôry nadobličiek",
+          "drene nadobličiek",
+          "zona reticularis kôry nadobličiek"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Endokrinný systém",
+          "number": 16,
+          "page": 148
+        }
+      },
+      {
+        "question": "Kde sa nachádza koloid ako výplň dutých útvarov v endokrinných žľazách?",
+        "answers": [
+          "v pars intermedia adenohypofýzy",
+          "okolo acervulus cerebri v epifýze",
+          "vo folikuloch štítnej žľazy",
+          "v lymfatických folikuloch"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Endokrinný systém",
+          "number": 17,
+          "page": 148
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení sú pravdivé?",
+        "answers": [
+          "retikulárne vlákna strómy nadobličky sa dajú vizualizovať po impregnácii soľami striebra",
+          "bunky drene nadobličiek majú charakteristické znaky buniek vylučujúcich steroidy",
+          "parafolikulárne bunky sú súčasťou parenchýmu prištítnych teliesok",
+          "štítna žľaza pozostáva z endokrinných buniek usporiadaných do trámcov",
+          "v dreni nadobličiek sa nachádzajú chromafinné bunky, ktoré sú modifikovanými sympatikovými postgangliovými neurónmi"
+        ],
+        "correct": [
+          0,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Endokrinný systém",
+          "number": 18,
+          "page": 148
+        }
+      },
+      {
+        "question": "Ktoré bunky adenohypofýzy patria medzi bazofilné bunky?",
+        "answers": [
+          "adrenokortikotropné bunky",
+          "somatotropné bunky",
+          "laktotropné bunky",
+          "gonadotropné bunky"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Endokrinný systém",
+          "number": 19,
+          "page": 148
+        }
+      },
+      {
+        "question": "Bunky kôry nadobličiek majú morfologické zvláštnosti. Aké to sú?",
+        "answers": [
+          "ich mitochondrie majú tubulárne usporiadanie vnútornej membrány",
+          "v ich bunkových jadrách výrazne dominuje euchromatín",
+          "obsahujú lipidové inklúzie",
+          "ich cytoplazma má pri bežnom farbení penovitý vzhľad"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Endokrinný systém",
+          "number": 20,
+          "page": 149
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o endokrinnom systéme:",
+        "answers": [
+          "z histologického hľadiska je neurohypofýza tvorená endokrinným žľazovým epitelom",
+          "Herringove neurosekrečné telieska nájdeme v pars distalis adenohypofýzy",
+          "chromofilné bunky sú súčasťou adenohypofýzy",
+          "podobne ako pečeň, obsahuje adenohypofýza portálny systém cievneho zásobenia"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Endokrinný systém",
+          "number": 21,
+          "page": 149
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o endokrinnom systéme:",
+        "answers": [
+          "neurohypofýza je histologicky nervové tkanivo, ktoré neobsahuje žľazové epitelové bunky ani netvorí žiadne hormóny",
+          "chromofóbne a chromofilné bunky sú dve hlavné populácie buniek adenohypofýzy, prítomné približne v rovnakom počte",
+          "acidofilné bunky adenohypofýzy tvoria hormóny, ktoré pôsobia na ďalšie endokrinné žľazy v organizme",
+          "acidofilné bunky adenohypofýzy sú v porovnaní s bazofilnými početnejšie"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Endokrinný systém",
+          "number": 22,
+          "page": 149
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o endokrinnom systéme:",
+        "answers": [
+          "Herringove neurosekrečné telieska predstavujú nahromadenia vezikúl s obsahom antidiuretického hormónu a oxytocínu",
+          "hormóny skladované v Herringových telieskach sú produktom neurónov v hypotalame",
+          "pituicyty sú jednou z populácií buniek adenohypofýzy",
+          "glandotropné hormóny sú produktom bazofilných buniek adenohypofýzy"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Endokrinný systém",
+          "number": 23,
+          "page": 149
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o endokrinnom systéme:",
+        "answers": [
+          "hypofýzovo-portálny systém je tvorený dvoma kapilárnymi riečiskami zapojenými v sérii za sebou",
+          "adenohypofýza obsahuje kapiláry s kontinuálnou výstelkou",
+          "Rathkeho folikuly nájdeme v neurohypofýze ako pozostatky Rathkeho výchlipky",
+          "chromofilné bunky adenohypofýzy produkujú liberíny a statíny"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Endokrinný systém",
+          "number": 24,
+          "page": 150
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o endokrinnom systéme:",
+        "answers": [
+          "adenohypofýza je tvorená endokrinným žľazovým epitelom, usporiadaným do nepravidelných trámcov a hniezd",
+          "pituicyty sú neurogliové bunky neurohypofýzy",
+          "adenohypofýza obsahuje dve populácie buniek – chromofóbne a chromafinné",
+          "hypofýza je žľaza funkčne nadradená hypotalamu, ktorého aktivitu ovplyvňuje"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Endokrinný systém",
+          "number": 25,
+          "page": 150
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o endokrinnom systéme:",
+        "answers": [
+          "bazofilné bunky tvoria približne 10 % epitelových buniek adenohypofýzy",
+          "hypotalamus má v rámci hypotalamo-hypofýzovej osi nadradené postavenie",
+          "neurohypofýza obsahuje najmä Herringove telieska, nemyelinizované axóny a pituicyty",
+          "chromofóbne bunky sú samostatnou bunkovou populáciou adenohypofýzy"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Endokrinný systém",
+          "number": 26,
+          "page": 150
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o endokrinnom systéme:",
+        "answers": [
+          "chromofóbne bunky adenohypofýzy sa farbia eozínom do ružova",
+          "adenohypofýza obsahuje krvné kapiláry s fenestráciami",
+          "adenohypofýza a neurohypofýza sú morfologicky aj funkčne totožné",
+          "folikulostelárne bunky sú gliové bunky neurohypofýzy"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Endokrinný systém",
+          "number": 27,
+          "page": 150
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o endokrinnom systéme:",
+        "answers": [
+          "glandula pinealis obsahuje gliové bunky, ktoré označujeme ako pituicyty",
+          "parenchým glandula pinealis je tvorený endokrinným žľazovým epitelom",
+          "dve hlavné populácie buniek gladula pinealis sú astrocyty a pinealocyty",
+          "produktom pinealocytov je melatonín, ktorý reguluje cirkadiálne rytmy"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Endokrinný systém",
+          "number": 28,
+          "page": 150
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o endokrinnom systéme:",
+        "answers": [
+          "súčasťou glandula pinealis sú extracelulárne kalcifikované telieska, ktoré označujeme ako corpora arenacea",
+          "pinealocyt je bunka guľovitého tvaru bez výbežkov",
+          "astrocyty glandula pinealis odlíšime od pinealocytov podľa tvaru jadra",
+          "astrocyty majú tmavé sploštené bunkové jadro"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Endokrinný systém",
+          "number": 29,
+          "page": 151
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o endokrinnom systéme:",
+        "answers": [
+          "pinealocyty majú veľké bunkové jadro s 1 – 2 viditeľnými jadierkami",
+          "väzivo pochádzajúce z pia mater rozdeľuje parenchým glandula pinealis na lalôčiky",
+          "melatonín je produktom astrocytov glandula pinealis",
+          "okolo pinealocytov a astrocytov glandula pienalis je veľké množstvo myelinizovaných axónov"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Endokrinný systém",
+          "number": 30,
+          "page": 151
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o endokrinnom systéme:",
+        "answers": [
+          "štítna žľaza je endokrinná žľaza s folikulárnym usporiadaním žľazového epitelu",
+          "T3 a T4 sú produktom parafolikulárnych buniek štítnej žľazy",
+          "koloid je označenie pre zásobnú formu hormónov štítnej žľazy, ktorej základnou zložkou je tyroglobulín",
+          "stróma štítnej žľazy obsahuje veľké množstvo fenestrovaných kapilár"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Endokrinný systém",
+          "number": 31,
+          "page": 151
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o endokrinnom systéme:",
+        "answers": [
+          "hlavné bunky prištítnej žľazy majú acidofilnú cytoplazmu N",
+          "oxyfilné bunky prištítnej žľazy produkujú parathormón",
+          "prištítna žľaza obsahuje množstvo tukových buniek, ktorých počet sa vekom zvyšuje",
+          "oxyfilné bunky prištítnej žľazy tvoria zhluky a sú menej početné ako hlavné bunky"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Endokrinný systém",
+          "number": 32,
+          "page": 151
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o endokrinnom systéme:",
+        "answers": [
+          "hlavné bunky prištítnej žľazy sú väčšie ako oxyfilné bunky",
+          "hlavné bunky prištítnej žľazy majú bazofilnú a oxyfilné bunky eozinofilnú cytoplazmu",
+          "povrch prištítnej žľazy pokrýva väzivové puzdro",
+          "stróma prištítnej žľazy obsahuje kapiláry s kontinuálnou výstelkou"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Endokrinný systém",
+          "number": 33,
+          "page": 151
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o endokrinnom systéme:",
+        "answers": [
+          "štítna žľaza obsahuje parafolikulárne bunky, ktoré produkujú kalcitonín",
+          "folikulárne bunky štítnej žľazy vystielajú folikuly v jednej vrstve",
+          "parafolikulárne bunky štítnej žľazy sú lokalizované vo väzivovej stróme",
+          "folikulárne bunky štítnej žľazy sú približne tisíckrát menej početné ako parafolikulárne bunky"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Endokrinný systém",
+          "number": 34,
+          "page": 152
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o endokrinnom systéme:",
+        "answers": [
+          "štítna žľaza je pokrytá väzivovým puzdrom",
+          "množstvo tukových buniek v prištítnej žľaze vekom klesá",
+          "prištítna žľaza je príkladom folikulárneho usporiadania žľazového epitelu",
+          "parafolikulárne bunky štítnej žľazy sú väčšie a menej početné ako folikulárne bunky"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Endokrinný systém",
+          "number": 35,
+          "page": 152
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o endokrinnom systéme:",
+        "answers": [
+          "kôra nadobličky obsahuje chromafinné bunky",
+          "chromafinné bunky nadobličky sú pomenované podľa farbiteľnosti ich cytoplazmy",
+          "zona fasciculata kôry nadobličky je najhrubšia z jej troch vrstiev",
+          "zona reticularis kôry nadobličky je lokalizovaná na hranici s dreňou"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Endokrinný systém",
+          "number": 36,
+          "page": 152
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o endokrinnom systéme:",
+        "answers": [
+          "dreň nadobličky je vývinovo modifikované sympatikové ganglion",
+          "chromafinné bunky drene nadobličky majú afinitu k soliam chrómu",
+          "bunky zona fasciculata kôry nadobličky majú tmavú cytoplazmu",
+          "zona fasciculata kôry nadobličky sa nachádza tesne pod puzdrom"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Endokrinný systém",
+          "number": 37,
+          "page": 152
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o endokrinnom systéme:",
+        "answers": [
+          "chromafinná bunka drene nadobličky je modifikovaný postsynaptický neurón, ktorý produkuje katecholamíny",
+          "stróma kôry nadobličky je tvorená hustým kolagénovým väzivom",
+          "krvné kapiláry kôry nadobličky sú fenestrovaného typu",
+          "bunky zona fasciculata kôry nadobličky sú svetlé z dôvodu vysokého obsahu tukových kvapiek"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Endokrinný systém",
+          "number": 38,
+          "page": 152
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o endokrinnom systéme:",
+        "answers": [
+          "v epitelových bunkách zona reticularis kôry nadobličky môžeme pozorovať granuly lipofuscínu",
+          "okolo žľazový buniek kôry nadobličky je bohatá sieť kapilár so súvislou výstelkou",
+          "vnútorná stróma kôry nadobličky je tvorená sieťou jemných retikulárnych vlákien",
+          "kôra a dreň nadobličky sú vývinovo aj morfologicky odlišné"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Endokrinný systém",
+          "number": 39,
+          "page": 153
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o endokrinnom systéme:",
+        "answers": [
+          "aj keď ich nezaraďujeme do endokrinného systému, hormóny produkuje aj množstvo ďalších orgánov, napr. týmus, pečeň či srdce",
+          "všetky súčasti parenchýmu orgánov endokrinného systému sú vždy tvorené žľazovým epitelom",
+          "endokrinné žľazy označujeme latinsky ako glandulae sine ductibus",
+          "každý orgán produkujúci hormóny označujeme ako endokrinnú žľazu"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Endokrinný systém",
+          "number": 40,
+          "page": 153
+        }
+      },
+      {
+        "question": "Ktoré endokrinné tkanivá sú odvodené z buniek neurálnej lišty?",
+        "answers": [
+          "hlavné bunky prištítnych teliesok",
+          "bunky systému APUD/DNES (difúzny neuroendokrinný systém)",
+          "drene nadobličiek",
+          "parafolikulárne C bunky",
+          "pars nervosa neurohypophisis"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Endokrinný systém",
+          "number": 41,
+          "page": 153
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o primordiu štítnej žľazy sú pravdivé?",
+        "answers": [
+          "vzniká v ektoderme stomodea",
+          "rozširuje sa kaudálne v podobe ductus thyreoglossus",
+          "vychádzajú z vrcholu foramen caecum",
+          "tvorí sa z endodermy"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Endokrinný systém",
+          "number": 42,
+          "page": 153
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich endokrinných žliaz vznikajú v treťom faryngovom vačku?",
+        "answers": [
+          "adenohypofýza",
+          "štítna žľaza",
+          "horné prištítne teliesko",
+          "dolné prištítne teliesko"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Endokrinný systém",
+          "number": 43,
+          "page": 154
+        }
+      },
+      {
+        "question": "Aký je embryonálny pôvod kôry nadobličiek?",
+        "answers": [
+          "bunky neurálnej lišty",
+          "célomový epitel",
+          "žĺtkový vak",
+          "endoderma"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Endokrinný systém",
+          "number": 44,
+          "page": 154
+        }
+      },
+      {
+        "question": "Z akej štruktúry vzniká adenohypofýza?",
+        "answers": [
+          "z epitelu stomodea",
+          "z Rathkeho výchlipky",
+          "z diencefala",
+          "z druhého faryngového vačku",
+          "z metencefala"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Endokrinný systém",
+          "number": 45,
+          "page": 154
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o vývine endokrinných orgánov:",
+        "answers": [
+          "Rathkeho výchlipka (puzdro) je ektodermovým základom pre adenohypofýzu",
+          "foramen caecum jazyka je pozostatkom po zostupe základu pre prištítne telieska",
+          "dreň nadobličky sa vyvíja ako modifikované sympatikové ganglion",
+          "základom parafolikulárnych buniek štítnej žľazy je ultimobranchiálne teliesko"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Endokrinný systém",
+          "number": 46,
+          "page": 154
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o vývine endokrinných orgánov:",
+        "answers": [
+          "žľazový epitel prištítnych teliesok pochádza z endodermy 3. a 4. faryngového vačku",
+          "zadný lalok hypofýzy je pôvodom z neuroektodermy medzimozgu",
+          "ultimobranchiálne teliesko je základom pre celú štítnu žľazu",
+          "pre správny vývin drene nadobličky je nevyhnutná migrácia buniek neurálnej lišty"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Endokrinný systém",
+          "number": 47,
+          "page": 154
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o vývine endokrinných orgánov:",
+        "answers": [
+          "zostupujúci základ štítnej žľazy komunikuje s dutinou primitívneho faryngu kanálikom, ktorý označujeme ako ductus thyroglossus",
+          "ductus thyroglossus za normálnych okolností zaniká a jeho pozostatkom je foramen caecum na koreni jazyka",
+          "žľazový epitel horného prištítneho telieska sa vyvíja z endodermy 3. faryngového vačku",
+          "žľazový epitel dolného prištítneho telieska sa vyvíja z endodermy 4. faryngového vačku"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Endokrinný systém",
+          "number": 48,
+          "page": 155
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o vývine endokrinných orgánov:",
+        "answers": [
+          "Rathkeho výchlipka (puzdro) je základom pre zadný lalok hypofýzy",
+          "kôra nadobličky sa diferencuje z célomového epitelu",
+          "žľazový epitel horného prištítneho telieska sa vyvíja z endodermy 4. faryngového vačku",
+          "žľazový epitel dolného prištítneho telieska sa vyvíja z endodermy 3. faryngového vačku"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Endokrinný systém",
+          "number": 49,
+          "page": 155
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o vývine endokrinných orgánov:",
+        "answers": [
+          "lobus pyramidalis je prídatný lalok štítnej žľazy, ktorý sa vyvíja, ak nezanikne distálny koniec ductus thyroglossus",
+          "kôra nadobličky je pôvodom z neuroektodermy neurálnej lišty",
+          "ultimobranchiálne teliesko je základom folikulárnych buniek štítnej žľazy",
+          "paragangliá sú pôvodom z neuroektodermy neurálnej rúry"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Endokrinný systém",
+          "number": 50,
+          "page": 155
+        }
+      }
+    ]
+  }
+]

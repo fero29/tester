@@ -1,0 +1,76 @@
+[
+  {
+    "title": "Biochémia – 04. týždeň – Úlohy na písanie",
+    "description": "Úlohy na písanie vzorcov a reakcií z kariet „Tvorivé otázky“ (otvorené otázky kontrolných testov). Napíš riešenie na papier a porovnaj ho s ručne písanou ukážkou spolužiaka; ukážka nie je oficiálny kľúč.",
+    "testType": "selfcheck",
+    "year": 2,
+    "category": "Biochémia",
+    "sortOrder": 4.5,
+    "questions": [
+      {
+        "question": "Napíšte reakciu katalyzovanú pyruvátkinázou (nukleotidy skratkou).",
+        "solutionImages": [
+          "kreativne-s04.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu J: hľadaj úlohu č. 30. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "J",
+          "number": 30,
+          "page": 3,
+          "solutionPages": [
+            4
+          ]
+        }
+      },
+      {
+        "question": "Napíšte reakciu tvorby laktátu, názov enzýmu a koenzýmu.",
+        "solutionImages": [
+          "kreativne-s33.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu F: hľadaj úlohu č. 29. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "F",
+          "number": 29,
+          "page": 32,
+          "solutionPages": [
+            33
+          ]
+        }
+      },
+      {
+        "question": "Napíšte reakciu oxidácie kyseliny butándiovej, skratkou vyznačte koenzým a uveďte názov enzýmu.",
+        "solutionImages": [
+          "kreativne-s33.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu F: hľadaj úlohu č. 30. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "F",
+          "number": 30,
+          "page": 32,
+          "solutionPages": [
+            33
+          ]
+        }
+      },
+      {
+        "question": "Napíšte reakciu katalyzovanú malátdehydrogenázou, pomenujte produkt reakcie, uveďte koenzým.",
+        "solutionImages": [
+          "kreativne-s39.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu B: hľadaj úlohu č. 28. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "B",
+          "number": 28,
+          "page": 38,
+          "solutionPages": [
+            39
+          ]
+        }
+      }
+    ]
+  }
+]

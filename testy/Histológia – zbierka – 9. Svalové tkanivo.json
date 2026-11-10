@@ -1,0 +1,790 @@
+[
+  {
+    "title": "Histológia – zbierka – 9. Svalové tkanivo",
+    "description": "Kostrová, srdcová a hladká svalovina a mechanizmus kontrakcie. Otázky s výberom viacerých odpovedí zo zbierky Histológia a embryológia v otázkach (Miko, Klein, Juríková, UK 2025); kľúč podľa zbierky.",
+    "year": 1,
+    "category": "Histológia",
+    "sortOrder": 19,
+    "questions": [
+      {
+        "question": "Prečo je priečne pruhovaný sval priečne pruhovaný?",
+        "answers": [
+          "kvôli pravidelnému paralelnému usporiadaniu dvoch druhov myofilamentov",
+          "pretože sarkoméry v susedných myofibrilách sú v zákryte",
+          "kvôli pravidelnému striedaniu ťažkých a ľahkých myozínových reťazcov",
+          "kvôli absencii kalmodulínu v priečne pruhovaných bunkách"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Svalové tkanivo",
+          "number": 1,
+          "page": 96
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o bunkách srdcového svalu sú pravdivé?",
+        "answers": [
+          "nazývajú sa kardiomyocyty",
+          "nazývajú sa leiomyocyty",
+          "obsahujú jedno alebo dve centrálne umiestnené jadrá",
+          "sú spojené vo forme morfologického syncýtia",
+          "obsahujú málo mitochondrií"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Svalové tkanivo",
+          "number": 2,
+          "page": 96
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o bunkách srdcového svalu sú pravdivé?",
+        "answers": [
+          "ich euchromatické jadro je umiestnené na periférii",
+          "cytoplazma je bazofilná kvôli intenzívnemu obsahu proteosyntetických organel",
+          "ich cytoplazma je eozinofilná kvôli vysokému množstvu mitochondrií",
+          "majú nepravidelný tvar bunky (bunka v tvare X, Y alebo Z) v dôsledku vetvenia buniek",
+          "obsahujú triády (T tubulus a dve cisterny sarkoplazmatického retikula)"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Svalové tkanivo",
+          "number": 3,
+          "page": 96
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o bunkách srdcového svalu sú pravdivé?",
+        "answers": [
+          "sú vždy jednojadrové",
+          "vyznačujú sa výraznou regeneračnou schopnosťou vďaka prítomnosti kmeňových buniek v blízkosti každej bunky",
+          "ich priečne pruhovanie je zrejmé najmä na pozdĺžnom reze cez tkanivo srdcového svalu",
+          "obsahujú diády (T tubulus a jednu malú cisternu sarkoplazmatického retikula)",
+          "ich sarkoméry sa tiahnu od jednej Z línie k druhej"
+        ],
+        "correct": [
+          2,
+          3,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Svalové tkanivo",
+          "number": 4,
+          "page": 96
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o interkalárnych diskoch sú pravdivé?",
+        "answers": [
+          "sú zložené z fascia adherens, dezmozómov a nexov",
+          "skladajú sa z priečnej a laterálnej zložky",
+          "spoluvytvárajú dyády",
+          "nachádzajú sa len medzi kardiomyocytmi vodivého systému",
+          "nexy sa nachádzajú na ich laterálnej zložke"
+        ],
+        "correct": [
+          0,
+          1,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Svalové tkanivo",
+          "number": 5,
+          "page": 97
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o bunkách kostrového svalstva sú pravdivé?",
+        "answers": [
+          "nazývajú sa svalové vlákna",
+          "sú viacjadrové syncýtiá",
+          "vznikajú splynutím myoblastov",
+          "môžu byť dlhé niekoľko centimetrov",
+          "sú typickou jednotkou pre myometrium v maternici"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Svalové tkanivo",
+          "number": 6,
+          "page": 97
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o mikroskopickej anatómii buniek kostrového svalového tkaniva sú pravdivé?",
+        "answers": [
+          "majú jedno alebo dve centrálne umiestnené bunkové jadrá",
+          "hlboké invaginácie sarkolémy sú ich typickými ultraštruktúrnymi znakmi",
+          "sú bazofilné v základnom H&E farbení",
+          "ich myofilamenty tvoria priestorovú sieť (voľné usporiadanie)",
+          "jadrá týchto buniek sa nachádzajú priamo pod sarkolemou",
+          "sú uložené v perimýziu",
+          "obsahujú dobre vyvinuté hladké endoplazmatické retikulum nazývané sarkoplazmatické retikulum"
+        ],
+        "correct": [
+          1,
+          4,
+          6
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Svalové tkanivo",
+          "number": 7,
+          "page": 97
+        }
+      },
+      {
+        "question": "Kde hľadať priečne pruhované viscerálne svalové tkanivo?",
+        "answers": [
+          "v jazyku",
+          "v maternici",
+          "v hltane",
+          "v priedušnici"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Svalové tkanivo",
+          "number": 8,
+          "page": 97
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o tenkých myofilamentoch sú pravdivé?",
+        "answers": [
+          "v hladkých svalových bunkách sú ukotvené v denzných telieskach",
+          "ich F aktín vytvára dvojvláknové špirály",
+          "ich troponín pozostáva z komplexu štyroch globulárnych podjednotiek",
+          "skladajú sa zo štyroch ľahkých a dvoch ťažkých reťazcov"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Svalové tkanivo",
+          "number": 9,
+          "page": 98
+        }
+      },
+      {
+        "question": "Ktoré z týchto dvojíc sú správne?",
+        "answers": [
+          "satelitné bunky – srdcový sval",
+          "hladká svalová bunka – kalmodulín",
+          "kardiomyocyty – kaveoly",
+          "sarkoplazmatické retikulum – uskladnenie Ca2+"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Svalové tkanivo",
+          "number": 10,
+          "page": 98
+        }
+      },
+      {
+        "question": "V nasledujúcom výroku opravte slovo tak, aby bol tento výrok správny: Pripojenie je počiatočnou fázou kontrakčného cyklu; myozínová hlava je pevne naviazaná na molekulu troponínu tenkého vlákna.",
+        "answers": [
+          "počiatočnou → konečnou",
+          "hlava → chvost",
+          "troponínu → aktínu",
+          "tenkého → hrubého"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Svalové tkanivo",
+          "number": 11,
+          "page": 98
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o hladkej svalovine sú pravdivé?",
+        "answers": [
+          "jej základnou morfologickou jednotkou je bunka vretenovitého tvaru obklopená bazálnou laminou a obalom z retikulárnych vlákien",
+          "zvyčajne sa nachádza v jazyku",
+          "je inervovaná autonómnym nervovým systémom",
+          "tvorí musculus arrector pili",
+          "zvyčajne sa nachádza v stene svalovej tepny"
+        ],
+        "correct": [
+          0,
+          2,
+          3,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Svalové tkanivo",
+          "number": 12,
+          "page": 98
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o bunkách hladkého svalstva sú pravdivé?",
+        "answers": [
+          "sú spojené špeciálnymi bunkovými spojmi, ktoré sa nazývajú interkalárne disky",
+          "nevykazujú pruhovanie, pretože neobsahujú aktínové a myozínové myofilamenty",
+          "ich sarkoplazmatické retikulum sa podieľa na tvorbe triád",
+          "sú prepojené nexami",
+          "ich intermediárne filamenty sú tvorené dezmínom"
+        ],
+        "correct": [
+          3,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Svalové tkanivo",
+          "number": 13,
+          "page": 99
+        }
+      },
+      {
+        "question": "Čo majú spoločné srdcová a hladká svalovina?",
+        "answers": [
+          "mitotický potenciál",
+          "eferentnú inerváciu autonómnym nervovým systémom",
+          "absenciu priečneho pruhovania",
+          "hlboké a široké T tubuly"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Svalové tkanivo",
+          "number": 14,
+          "page": 99
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich proteínov tvoria časť Z disku (Z línie) v sarkomére?",
+        "answers": [
+          "myomezín",
+          "-aktinín",
+          "troponínový komplex",
+          "filamín C"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Svalové tkanivo",
+          "number": 15,
+          "page": 99
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o I prúžku sú pravdivé?",
+        "answers": [
+          "definuje kontraktilnú jednotku svalového vlákna",
+          "je miesto interakcie tropomyozínu a troponínu M",
+          "zahŕňa prekrývanie aktínových a myozínových vlákien",
+          "skracuje sa počas svalovej kontrakcie",
+          "pozostáva výlučne z tenkých vlákien"
+        ],
+        "correct": [
+          3,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Svalové tkanivo",
+          "number": 16,
+          "page": 99
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o motorickej platničke sú pravdivé?",
+        "answers": [
+          "je to neuroefektorová synapsa medzi Golgiho motoneurónom typu I a vláknom kostrového svalu",
+          "v synaptickej štrbine chýba bazálna lamina svalového vlákna",
+          "použitý neurotransmiter je acetylcholín",
+          "na povrchu fázického svalového vlákna je vždy niekoľko takýchto synapsií"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Svalové tkanivo",
+          "number": 17,
+          "page": 100
+        }
+      },
+      {
+        "question": "Ktorá vlastnosť kostrového svalu je priamo úmerná sile kontrakcie?",
+        "answers": [
+          "veľkosť motorických jednotiek",
+          "hrúbka endomýzia",
+          "priemer vlákna",
+          "počet T tubulov"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Svalové tkanivo",
+          "number": 18,
+          "page": 100
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o sarkomére sú pravdivé?",
+        "answers": [
+          "myozínové myofilamenty sú ukotvené v M líniách",
+          "H prúžok nie je viditeľný pri maximálnej kontrakcii",
+          "jej dĺžka sa počas kontrakcie mení",
+          "aktínové vlákno vykazuje ATPázovú aktivitu"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Svalové tkanivo",
+          "number": 19,
+          "page": 100
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o endomýziu kostrového svalu sú pravdivé?",
+        "answers": [
+          "je argyrofilné",
+          "skladá sa z proteínov dystrofínu a dezmínu",
+          "obaľuje jednotlivé svalové vlákna",
+          "zohráva úlohu pri mechanickom prenose sily"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Svalové tkanivo",
+          "number": 20,
+          "page": 100
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o kostrovej svalovine:",
+        "answers": [
+          "základnou morfologickou jednotkou kostrovej svaloviny je priečne pruhovaná svalová bunka",
+          "sarkoplazmatické retikulum je hladké endoplazmatické retikulum, ktoré slúži ako zásobáreň vápnikových katiónov",
+          "kostrová svalovina vykazuje priečne pruhovanie, ktorého podkladom je paralelné uloženie myofibríl v sarkomérach",
+          "sarkolema svalového vlákna je pomenovanie pre trojicu štruktúr – cytoplazmatickú membránu, bazálnu laminu a jemnú sieť retikulárnych vlákien"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Svalové tkanivo",
+          "number": 21,
+          "page": 101
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o kostrovej svalovine:",
+        "answers": [
+          "svalové vlákno je syncýtium s jadrami uloženými centrálne",
+          "jednotlivé svalové vlákna sú obalené epimýziom",
+          "kostrová svalovina vykazuje priečne pruhovanie",
+          "priečne pruhovanú svalovinu nájdeme aj v stene niektorých vnútorných orgánov, napr. v cervikálnej časti pažeráka"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Svalové tkanivo",
+          "number": 22,
+          "page": 101
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o kostrovej svalovine:",
+        "answers": [
+          "cytoplazma svalového vlákna je intenzívne bazofilná pre vysoký obsah mitochondrií",
+          "podstatou kontrakcie svalových vlákien je skracovanie sarkomér",
+          "myofibrily sú tvorené kontraktilnými myofilamentmi – titínom a alfa-aktinínom",
+          "triády sú tvorené jednou terminálnou cisternou sarkoplazmatického retikula a jedným T tubulom"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Svalové tkanivo",
+          "number": 23,
+          "page": 101
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o kostrovej svalovine:",
+        "answers": [
+          "T tubuly sú invaginácie sarkolemy, vedúce akčný potenciál do hĺbky svalového vlákna, čím zabezpečujú synchronizovanú kontrakciu všetkých myofibríl zároveň",
+          "svalové vlákno je syncýtium, ktoré môže obsahovať desiatky až stovky jadier uložených tesne pod sarkolemou",
+          "ukotvenie aktínových myofilamentov do Z línie pomocou alfa-aktinínu pozorujeme pri bežných sfarbeniach vo svetelnom mikroskope",
+          "aktínové a myozínové myofilamenty interagujú počas svalovej kontrakcie za účasti komplexu troponín-tropomyozín"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Svalové tkanivo",
+          "number": 24,
+          "page": 101
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o kostrovej svalovine:",
+        "answers": [
+          "pomalé oxidatívne svalové vlákna majú veľa myoglobínu, mitochondrií a bohatú kapilárnu sieť",
+          "podkladom priečneho pruhovania kostrových svalových vlákien je striedanie A a I prúžkov, dobre viditeľné napr. pri farbení železitým hematoxylínom",
+          "A prúžok je tvorený výlučne hrubými myozínovými myofilamentmi",
+          "triáda je kombináciou jedného T tubulu a dvojice terminálnych cisterien sarkoplazmatického retikula"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Svalové tkanivo",
+          "number": 25,
+          "page": 102
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o srdcovej svalovine:",
+        "answers": [
+          "srdcová svalovina je priečne pruhovaná, a preto je, podobne ako kostrová svalovina, ovládateľná vôľou",
+          "kardiomyocyty sú jedno- až dvojjadrové bunky, ktoré sa vetvia do tvaru písmena X či Y",
+          "sarkoplazma kardiomyocytov obsahuje diády – kombinácie jednej terminálnej cisterny sarkoplazmatického retikula a jedného T tubulu",
+          "najviac myofibríl majú kardiomyocyty v tesnom okolí jadra"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Svalové tkanivo",
+          "number": 26,
+          "page": 102
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o srdcovej svalovine:",
+        "answers": [
+          "interkalárne disky kardiomyocytov sú tvorené výlučne nexami",
+          "srdcová svalovina je bohato vaskularizovaná – obsahuje kapiláry kontinuálneho typu",
+          "priečne pruhovanie kariomyocytov je najlepšie pozorovateľné na ich priečnom reze",
+          "endomýzium okolo kardiomyocytov je tvorené hustým kolagénovým väzivom"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Svalové tkanivo",
+          "number": 27,
+          "page": 102
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o srdcovej svalovine:",
+        "answers": [
+          "kardiomyocyty majú menej vyvinuté sarkoplazmatické retikulum v porovnaní s kostrovou svalovinou",
+          "interkalárny disk obsahuje okrem komunikačných spojení aj dezmozómy a fasciae adherentes",
+          "sarkoplazma kardiomyocytov je bazofilná",
+          "jadro kardiomyocytov je uložené tesne pod sarkolemou"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Svalové tkanivo",
+          "number": 28,
+          "page": 102
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o srdcovej svalovine:",
+        "answers": [
+          "srdcová svalovina má schopnosť automatickej celoživotnej neunaviteľnej kontrakcie",
+          "kardiomyocyty nie sú vôľou ovládateľné, pretože nevykazujú priečne pruhovanie",
+          "kardiomyocyty tvoria morfologické syncýtium",
+          "nexy interkalárnych diskov zabezpečujú synchronizovanú kontrakciu srdcovej svaloviny"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Svalové tkanivo",
+          "number": 29,
+          "page": 103
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o srdcovej svalovine:",
+        "answers": [
+          "kardiomyocyty sú veľmi náročné na energiu, a preto až 40 % obsahu ich sarkoplazmy tvoria mitochondrie",
+          "interkalárne disky možno pozorovať aj na svetelnomikroskopickej úrovni na pozdĺžnom reze kardiomyocytmi",
+          "okolo jadra kardiomyocytu sa nachádza svetlejšia časť bez myofibríl, ktorú označujeme ako endoplazma",
+          "sarkolema kardiomyocytov na rozdiel od svalového vlákna neinvaginuje vo forme T tubulov"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Svalové tkanivo",
+          "number": 30,
+          "page": 103
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o hladkej svalovine:",
+        "answers": [
+          "hladké svalové bunky tvoria morfologické aj funkčné syncýtiá",
+          "hladké svalové bunky nevykazujú priečne pruhovanie, pretože neobsahujú aktínové a myozínové myofilamenty",
+          "hladká svalová bunka má jedno jadro umiestnené uprostred",
+          "jadro hladkej svalovej bunky kopíruje jej tvar – je okrúhle"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Svalové tkanivo",
+          "number": 31,
+          "page": 103
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o hladkej svalovine:",
+        "answers": [
+          "hladká svalovina sa nachádza spolu s priečne pruhovanou svalovinou v hrudnej časti pažeráka",
+          "hladké svalové bunky majú v porovnaní s kostrovou svalovinou lepšie vyvinuté sarkoplazmatické retikulum",
+          "T tubuly a L cisterny sarkoplazmatického retikula hladkých svalových buniek tvoria triády",
+          "aktínové myofilamenty hladkých svalových buniek sa upínajú do denzných teliesok"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Svalové tkanivo",
+          "number": 32,
+          "page": 103
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o hladkej svalovine:",
+        "answers": [
+          "sarkolema hladkých svalových buniek neinvaginuje vo forme T tubulov",
+          "hladké svalové bunky majú za normálnych okolností dĺžku okolo 20 – 50 mikrometrov",
+          "hladké svalové bunky sú obalené endomýziom",
+          "hladká svalovina steny ciev je ovládateľná vôľou"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Svalové tkanivo",
+          "number": 33,
+          "page": 104
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o hladkej svalovine:",
+        "answers": [
+          "hladké svalové bunky transportujú vápnik z extracelulárneho priestoru pomocou pinocytózy",
+          "myofibrily hladkých svalových buniek sú usporiadané do sakromér",
+          "katióny vápnika sa, podobne ako u kostrovej svaloviny, viažu na troponín C",
+          "hladké svalové bunky majú zvyčajne dve bunkové jadrá"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Svalové tkanivo",
+          "number": 34,
+          "page": 104
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o hladkej svalovine:",
+        "answers": [
+          "katióny vápnika sa v hladkej svalovine viažu na kalmodulín",
+          "mitochondrie hladkých svalových buniek sú početnejšie ako u kardiomyocytov",
+          "sarkoméry hladkých svalových buniek majú dĺžku okolo 2,5 mikrometra",
+          "jadro hladkej svalovej bunky má tvar cigary – kopíruje vretenovitý tvar bunky"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Svalové tkanivo",
+          "number": 35,
+          "page": 104
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o svalovom tkanive:",
+        "answers": [
+          "svalové vretienko je inervované alfa-motoneurónmi",
+          "motorická jednotka je označenie pre skupinu svalových vlákien inervovaných axónom jedného alfa-motoneurónu",
+          "nervovo-svalová synapsa svalového vlákna sa označuje ako motorická platnička",
+          "svalové vretienka zodpovedajú za propriocepciu"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Svalové tkanivo",
+          "number": 36,
+          "page": 104
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o svalovom tkanive:",
+        "answers": [
+          "intermediárne filamenty svalového tkaniva sú tvorené dezmínom",
+          "titín je obrovská bielkovina zabezpečujúca integritu celej sarkoméry",
+          "snopce svalových vlákien sú obalené endomýziom",
+          "epimýzium je tvorené jemnou vrstvou retikulárnych vlákien"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Svalové tkanivo",
+          "number": 37,
+          "page": 104
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o svalovom tkanive:",
+        "answers": [
+          "komplex troponín-tropomyozín je viazaný na myozínové myofilamenty",
+          "na kontrakciu svalového vlákna je nevyhnuté, aby troponín I v prítomnosti vápnika naviazaného na troponín C odhalil väzobné miesto pre myozín na aktínovom vlákne",
+          "vo svalovom vlákne sú katióny vápnika viazané na kalmodulín",
+          "rýchle glykolytické svalové vlákna typu II B sú bledé z dôvodu nízkeho obsahu myoglobínu"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Svalové tkanivo",
+          "number": 38,
+          "page": 105
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o svalovom tkanive:",
+        "answers": [
+          "energia je potrebná iba na svalovú kontrakciu, uvoľnenie komplexu aktínu a myozínu prebieha pasívne",
+          "alfa-aktinín je nevyhnutný na pripojenie aktínových myofilamentov k Z líniam sarkomér",
+          "priečne pruhovanie svalového vlákna je dané pravidelným striedaním H prúžkov a M línií",
+          "bunky svalového tkaniva sú jediným typom buniek schopných kontrakcie"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Svalové tkanivo",
+          "number": 39,
+          "page": 105
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o svalovom tkanive:",
+        "answers": [
+          "okrem buniek a vlákien svalového tkaniva majú systém kontraktilných myofilamentov aj iné bunky, napr. myofibroblasty alebo pericyty",
+          "denzné telieska sú typickou súčasťou kardiomyocytov",
+          "sarkoplazma je označenie pre cytoplazmu svalovej bunky alebo svalového vlákna",
+          "perimýzium je kolagénové väzivo obaľujúce snopce svalových vlákien"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Svalové tkanivo",
+          "number": 40,
+          "page": 105
+        }
+      }
+    ]
+  }
+]

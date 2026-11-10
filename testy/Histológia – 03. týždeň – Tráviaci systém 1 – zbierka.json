@@ -1,0 +1,996 @@
+[
+  {
+    "title": "Histológia – 03. týždeň – Tráviaci systém 1 – zbierka",
+    "description": "Ústna dutina, jazyk, pažerák, žalúdok, tenké a hrubé črevo a vývin tráviacej trubice. Otázky s výberom viacerých odpovedí zo zbierky Histológia a embryológia v otázkach (Miko, Klein, Juríková, UK 2025); kľúč podľa zbierky.",
+    "year": 2,
+    "category": "Histológia",
+    "sortOrder": 3.5,
+    "questions": [
+      {
+        "question": "Prečo sú pery červené?",
+        "answers": [
+          "epitel červene pery je bohato vaskularizovaný, cievy v epiteli presvitajú",
+          "lamina propria červene pery obsahuje myoglobín",
+          "stratum lucidum robí epitel červene pery priehľadným",
+          "rozsiahle prekrvenie umožňuje vidieť farbu krvi"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém I (gastrointestinálny trakt)",
+          "number": 1,
+          "page": 157
+        }
+      },
+      {
+        "question": "Aký typ jazykových papíl tvorí líniu pred sulcus terminalis?",
+        "answers": [
+          "papillae vallatae",
+          "papillae fungiformes",
+          "papillae filiformes",
+          "papillae foliatae"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém I (gastrointestinálny trakt)",
+          "number": 2,
+          "page": 157
+        }
+      },
+      {
+        "question": "Kde sa nenachádzajú chuťové poháriky?",
+        "answers": [
+          "nitkovité papily",
+          "hubovité papily",
+          "hradené papily",
+          "vermilion"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém I (gastrointestinálny trakt)",
+          "number": 3,
+          "page": 157
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o žľazách nachádzajúcich sa v strednej časti pažeráka sú pravdivé?",
+        "answers": [
+          "nachádzajú sa v tunica submucosa",
+          "vylučujú kyslý mucín na lubrikáciu",
+          "sú to zmiešané seromucinózne žľazy",
+          "sú to typické slizničné žľazy"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém I (gastrointestinálny trakt)",
+          "number": 4,
+          "page": 157
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o stene pažeráka sú pravdivé?",
+        "answers": [
+          "tunica muscularis v aborálnej tretine je tvorená hladkým svalstvom",
+          "je pokrytá najmä serózou",
+          "vnútorná vrstva tunica muscularis je orientovaná cirkulárne",
+          "epitel v aborálnej tretine prechádza z viacvrstvového do jednovrstvového",
+          "keratinizácia epitelu sa normálne nevyskytuje"
+        ],
+        "correct": [
+          0,
+          2,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém I (gastrointestinálny trakt)",
+          "number": 5,
+          "page": 158
+        }
+      },
+      {
+        "question": "Ktoré z týchto dvojíc pojmov týkajúcich sa žalúdka sú správne?",
+        "answers": [
+          "kyselina chlorovodíková – hlavné bunky",
+          "pepsinogén – hlavné bunky",
+          "vnútorný faktor – parietálne bunky",
+          "gastrín – enteroendokrinné bunky"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém I (gastrointestinálny trakt)",
+          "number": 6,
+          "page": 158
+        }
+      },
+      {
+        "question": "Čo majú spoločné žalúdočné žľazy pyloru a kardie?",
+        "answers": [
+          "nachádzajú sa v submukóze",
+          "prítomnosť enteroendokrinných buniek",
+          "prítomnosť mucinóznych buniek",
+          "plytké žalúdočné jamky, do ktorých sa otvárajú"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém I (gastrointestinálny trakt)",
+          "number": 7,
+          "page": 158
+        }
+      },
+      {
+        "question": "Aké histologické štruktúry možno pozorovať v tenkom čreve?",
+        "answers": [
+          "stereocílie",
+          "papily",
+          "cirkulárne riasy",
+          "črevné klky",
+          "mikroklky",
+          "kefkový lem"
+        ],
+        "correct": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém I (gastrointestinálny trakt)",
+          "number": 8,
+          "page": 158
+        }
+      },
+      {
+        "question": "Čo majú spoločné pažerák a dvanástnik?",
+        "answers": [
+          "plexus myentericus Auerbachi",
+          "Panethove bunky",
+          "podslizničné žľazy",
+          "chylovú cievu",
+          "typ epitelovej výstelky",
+          "vnútornú cirkulárnu vrstvu tunica muscularis externa"
+        ],
+        "correct": [
+          0,
+          2,
+          5
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém I (gastrointestinálny trakt)",
+          "number": 9,
+          "page": 159
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o tunica muscularis žalúdka sú pravdivé?",
+        "answers": [
+          "pozostáva z troch podvrstiev",
+          "vonkajšia podvrstva je orientovaná šikmo",
+          "Auerbachov plexus tu nie je rozvinutý",
+          "jeho pozdĺžne pruhy sa nazývajú teniae"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém I (gastrointestinálny trakt)",
+          "number": 10,
+          "page": 159
+        }
+      },
+      {
+        "question": "V nasledujúcom výroku opravte slovo tak, aby bol tento výrok správny: Klky majú centrálnu krvnú cievu, známu ako chylovú, ktorá je rozhodujúca pre vstrebávanie lipidov z čreva.",
+        "answers": [
+          "Klky → mikroklky",
+          "krvnú → lymfatickú",
+          "chylovú → sínusoidu",
+          "lipidov → sacharidov",
+          "čreva → žalúdka"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém I (gastrointestinálny trakt)",
+          "number": 11,
+          "page": 159
+        }
+      },
+      {
+        "question": "Aké štruktúry sú typické pre pažerák?",
+        "answers": [
+          "viacvrstvový plochý nerohovatejúci epitel",
+          "väčšinou cirkulárna hladká svalovina lamina muscularis mucosae",
+          "vrstva hladkého svalstva",
+          "priečne pruhovaná svalová vrstva",
+          "Meissnerov plexus"
+        ],
+        "correct": [
+          0,
+          2,
+          3,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém I (gastrointestinálny trakt)",
+          "number": 12,
+          "page": 159
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich všeobecných tvrdení o stene gastrointestinálneho traktu sú pravdivé?",
+        "answers": [
+          "tunica mucosa pozostáva z lamina epithelialis, lamina propria a lamina muscularis mucosae",
+          "väčšina orgánov tráviaceho traktu má svaly usporiadané vo vnútornej pozdĺžnej a vonkajšej cirkulárnej vrstve",
+          "na jeho vonkajšom povrchu sa nachádza jednovrstvový dlaždicový epitel",
+          "tunica adventitia je miesto, kde je stena priamo spojená s priľahlými štruktúrami",
+          "cirkulárne vrstvy hladkého svalstva vytvárajú na určitých miestach zvierače"
+        ],
+        "correct": [
+          0,
+          2,
+          3,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém I (gastrointestinálny trakt)",
+          "number": 13,
+          "page": 160
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o difúznom lymfatickom tkanive v gastrointestinálnom trakte sú pravdivé?",
+        "answers": [
+          "Peyerove plaky sa nachádzajú v sliznici dvanástnika",
+          "agregované lymfatické uzlíky sú prítomné v slepom čreve",
+          "M bunky iniciujú imunitné reakcie v sliznici GALT",
+          "Panethove bunky iniciujú imunitné reakcie v sliznici GALT"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém I (gastrointestinálny trakt)",
+          "number": 14,
+          "page": 160
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich buniek majú bazofilnú cytoplazmu?",
+        "answers": [
+          "serózne bunky",
+          "Panethove bunky (bazálna časť)",
+          "hlavné bunky žalúdka",
+          "žalúdočné parietálne bunky",
+          "mucinózne bunka",
+          "Panethove bunky (apikálna časť)"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém I (gastrointestinálny trakt)",
+          "number": 15,
+          "page": 160
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o absorpčnej bunke tenkého čreva sú pravdivé?",
+        "answers": [
+          "nazýva sa kolonocyt",
+          "absorbuje lipidy aktívnym transportom",
+          "má na svojom apikálnom povrchu mikroklky",
+          "je najpočetnejšia zo všetkých epitelových buniek tenkého čreva",
+          "syntetizuje triglyceridy z absorbovaných lipidov"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém I (gastrointestinálny trakt)",
+          "number": 16,
+          "page": 160
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o krvných kapilárach v sliznici jejuna sú pravdivé?",
+        "answers": [
+          "vyživujú aj avaskulárny epitel sliznice",
+          "sú zodpovedné za príjem tukov v potrave",
+          "nachádzajú sa v areolárnom riedkom kolagénovom väzive",
+          "sú to kapiláry kontinuálneho typu"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém I (gastrointestinálny trakt)",
+          "number": 17,
+          "page": 161
+        }
+      },
+      {
+        "question": "Čo majú spoločné žalúdok a tenké črevo?",
+        "answers": [
+          "prítomnosť MALT systému v tunica mucosa a/alebo tunica submucosa",
+          "Brunnerove žľazy",
+          "Panethove bunky",
+          "enteroendokrinné bunky",
+          "jednovrstvový cylindrický epitel"
+        ],
+        "correct": [
+          0,
+          3,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém I (gastrointestinálny trakt)",
+          "number": 18,
+          "page": 161
+        }
+      },
+      {
+        "question": "Aké sú typické podslizničné žľazy v stene tráviaceho traktu?",
+        "answers": [
+          "Brunnerove žľazy v dvanástniku",
+          "glandulae gastricae propriae",
+          "hlien produkujúce pažerákové žľazy",
+          "Lieberkühnove krypty"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém I (gastrointestinálny trakt)",
+          "number": 19,
+          "page": 161
+        }
+      },
+      {
+        "question": "Aké sú funkcie ústnej dutiny?",
+        "answers": [
+          "mechanické delenie potravín",
+          "iniciácia trávenia sacharidov",
+          "iniciácia trávenia lipidov",
+          "účasť na fonácii"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém I (gastrointestinálny trakt)",
+          "number": 20,
+          "page": 161
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o gastrointestinálnom systéme:",
+        "answers": [
+          "jazyk je tvorený prevažne zväzkami hladkých svalových buniek",
+          "papillae circumvallatae patria medzi najpočetnejšie papily na chrbte jazyka",
+          "koreň jazyka obsahuje veľké množstvo lymfatických uzlíkov",
+          "serózne von Ebnerove žliazky nájdeme v lamina propria sliznice jazyka v oblasti výskytu papillae circumvallatae"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém I (gastrointestinálny trakt)",
+          "number": 21,
+          "page": 162
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o gastrointestinálnom systéme:",
+        "answers": [
+          "vrcholy papillae filliformes môžu podliehať čiastočnej keratinizácii (parakeratinizácii)",
+          "Weberove žliazky koreňa jazyka produkujú mucinózny sekrét",
+          "zubná sklovina je najtvrdším tkanivom ľudského organizmu",
+          "zubná pulpa sa vyvíja zo sklovinového orgánu"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém I (gastrointestinálny trakt)",
+          "number": 22,
+          "page": 162
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o gastrointestinálnom systéme:",
+        "answers": [
+          "nitkovité papily chrbta jazyka sú najpočetnejšie",
+          "základ jazyka je tvorený priečne pruhované svalovinou",
+          "papillae circumvallatae sú uložené v počte 8 – 12 na jazyku v oblasti pred sulcus terminalis",
+          "nitkovité papily neobsahujú chuťové poháriky"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém I (gastrointestinálny trakt)",
+          "number": 23,
+          "page": 162
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o gastrointestinálnom systéme:",
+        "answers": [
+          "telá odontoblastov sú lokalizované na hranici medzi sklovinou a dentínom",
+          "chuťové poháriky sa nachádzajú vo väzive lamina propria papíl jazyka",
+          "pri farbení hematoxylínom a eozínom sú chuťové poháriky bledšie v porovnaní s okolitými epitelovými bunkami",
+          "všetky papily jazyka sú kryté viacvrstvovým plochým epitelom nerohovatejúcim (miestami čiastočne rohovatejúcim)"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém I (gastrointestinálny trakt)",
+          "number": 24,
+          "page": 162
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o gastrointestinálnom systéme:",
+        "answers": [
+          "cement je kalcifikovaná vrstva zuba pokrývajúca koreňový dentín, ktorá zložením zodpovedá vláknitej kosti",
+          "všetky papily sú lokalizované na koreni jazyka",
+          "von Ebnerove mucinózne žliazky nájdeme v rámci koreňa jazyka",
+          "Weberove serózne žliazky sú lokalizované v lamina propria pod epitelom papíl jazyka"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém I (gastrointestinálny trakt)",
+          "number": 25,
+          "page": 163
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o gastrointestinálnom systéme:",
+        "answers": [
+          "svalová vrstva steny pažeráka je v celom priebehu tvorená hladkou svalovinou",
+          "pažerák je vystlaný viacvrstvovým plochým nerohovatejúcim epitelom",
+          "najpovrchovejšia vrstva pažeráka v celom jeho priebehu je tunica serosa",
+          "stena pažeráka neobsahuje žiadne exokrinné žľazy"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém I (gastrointestinálny trakt)",
+          "number": 26,
+          "page": 163
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o gastrointestinálnom systéme:",
+        "answers": [
+          "svalovina strednej tretiny pažeráka je tvorená hladkou aj priečne pruhovanou svalovinou",
+          "najkraniálnejšia tretina pažeráka (pars cervicalis) obsahuje v svalovej vrstve typ svaloviny, ktorého hlavnou morfologickou jednotkou je syncýtium",
+          "tunica adventitia je väzivo, ktoré pripája krčnú a hrudnú časť pažeráka k okoliu",
+          "stena pažeráka môže obsahovať žliazky aj v slizničnom väzive, aj v submukóze"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém I (gastrointestinálny trakt)",
+          "number": 27,
+          "page": 163
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o gastrointestinálnom systéme:",
+        "answers": [
+          "žalúdok je vystlaný jednovrstvovým cylindrickým epitelom",
+          "fundus et corpus ventriculi obsahuje žliazky, ktoré sú tvorené 5 rôznymi typmi buniek",
+          "hlavné bunky žalúdočných žliazok majú všetky typické znaky proteosynteticky aktívnych buniek vrátane bazofilnej cytoplazmy",
+          "parietalné bunky žalúdočných žliazok sú najväčšie a majú eozinofilnú cytoplazmu"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém I (gastrointestinálny trakt)",
+          "number": 28,
+          "page": 163
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o gastrointestinálnom systéme:",
+        "answers": [
+          "hlavné bunky žalúdočných žliazok sa nachádzajú najmä v oblasti ich krčku",
+          "svalová vrstva steny žalúdka je tvorená vnútornou šikmou, strednou cirkulárnou a vonkajšou longitudinálnou vrstvou",
+          "povrch žalúdka pokrýva tunica adventitia",
+          "areae gastricae sú vystlané prevažne mucinóznymi bunkami"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém I (gastrointestinálny trakt)",
+          "number": 29,
+          "page": 164
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o gastrointestinálnom systéme:",
+        "answers": [
+          "žliazky pars pylorica žalúdka sú rozvetvené tubulózne s prevahou mucinóznych buniek",
+          "parietálna bunka žliazok žalúdka má pyramídový tvar, eozinofilnú cytoplazmu a produkuje HCl a vnútorný faktor",
+          "mucinózne bunky žliazok žalúdka sú PAS pozitívne",
+          "hlavné bunky odlíšime vďaka ich bazofilnej cytoplazme a umiestneniu najmä na dne žliazok žalúdka"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém I (gastrointestinálny trakt)",
+          "number": 30,
+          "page": 164
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o gastrointestinálnom systéme:",
+        "answers": [
+          "mikroklky tenkého čreva sú výbežky, ktoré tvorí epitel a lamina propria sliznice",
+          "veľké množstvo mikroklkov na povrchu enterocytov tvorí kefkový lem",
+          "hrubé črevo obsahuje v lamina propria sliznice jednoduché tubulózne žliazky, ktoré označujeme ako Lieberkühnove krypty",
+          "Panethove bunky sú imunitné bunky žliazok tenkého čreva, môžu sa však nachádzať aj v appendix vermiformis či slepom čreve"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém I (gastrointestinálny trakt)",
+          "number": 31,
+          "page": 164
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o gastrointestinálnom systéme:",
+        "answers": [
+          "tenké črevo je vystlané jednovrstvovým cylindrickým epitelom",
+          "enterocyty tenkého čreva sa dokážu kompletne obmeniť za 6 dní",
+          "súčasťou epitelovej výstelky tenkého čreva sú PAS pozitívne pohárikové bunky",
+          "sliznica hrubého čreva tvorí klky"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém I (gastrointestinálny trakt)",
+          "number": 32,
+          "page": 164
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o gastrointestinálnom systéme:",
+        "answers": [
+          "krypty hrubého čreva obsahujú predovšetkým pohárikové bunky",
+          "klky tenkého čreva predstavujú záhyby submukózy",
+          "Peyerove plaky nájdeme najmä v aborálnych úsekoch hrubého čreva",
+          "Panethove bunky nájdeme prevažne v oblasti krčka Lieberkühnových krýpt"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém I (gastrointestinálny trakt)",
+          "number": 33,
+          "page": 165
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o gastrointestinálnom systéme:",
+        "answers": [
+          "hrubé črevo je v celom jeho priebehu kryté serózou",
+          "epitelová výstelka tenkého čreva vrátane žliazok je tvorená 6 rôznymi typmi buniek",
+          "tenké črevo zväčšuje svoj resorpčný povrch troma typmi štruktúr – cirkulárnymi riasami, klkmi a mikroklkmi",
+          "pohárikové bunky sú v hrubom čreve oveľa početnejšie v porovnaní s tenkým črevom"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém I (gastrointestinálny trakt)",
+          "number": 34,
+          "page": 165
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o gastrointestinálnom systéme:",
+        "answers": [
+          "plicae circulares Kerckringi sú tvorené záhybmi submukózy, klky záhybmi mukózy a mikroklky záhybmi cytoplazmatickej membrány enterocytov",
+          "tenké črevo je v celom svojom priebehu kryté serózou",
+          "v epiteli tenkého čreva nájdeme 6 typov buniek – enterocyty, pohárikové bunky, enteroendokrinné bunky, kmeňové nediferencované bunky, M bunky a Panethove bunky",
+          "stredom každého klku tenkého čreva prebieha lymfatická kapilára, ktorú označujeme ako chylovú cievu"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém I (gastrointestinálny trakt)",
+          "number": 35,
+          "page": 165
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o gastrointestinálnom systéme:",
+        "answers": [
+          "všeobecne sa stena tráviacej rúry skladá zo 4 vrstiev – tunica mucosa, tunica (tela) submucosa, tunica muscularis a tunica adventitia/serosa",
+          "všeobecne platí, že svalovina tráviacej rúry je zložená z vnútornej longitudinálnej a vonkajšej cirkulárnej vrstvy",
+          "submukóza obsahuje plexus nervosus myentericus Auerbachi",
+          "lamina muscularis mucosae je vždy tvorená hladkou svalovinou"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém I (gastrointestinálny trakt)",
+          "number": 36,
+          "page": 165
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o gastrointestinálnom systéme:",
+        "answers": [
+          "všeobená stavba tráviacej rúry je podobná, najväčšie rozdiely pozorujeme v rámci sliznice",
+          "plexus nervosus submucosus Meissneri je súčasťou sliznice tráviacej rúry",
+          "duodénum obsahuje v submukóze mucinózne Brunnerove žľazy",
+          "klky majú vo všetkých častiach tenkého čreva rovnaký tvar"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém I (gastrointestinálny trakt)",
+          "number": 37,
+          "page": 166
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o gastrointestinálnom systéme:",
+        "answers": [
+          "hranicou medzi riedkym väzivom lamina propria a riedkým väzivom submukózy je tunica muscularis externa",
+          "tráviaca rúra je vystlaná dvoma hlavnými typmi epitelov – viacvrstvovým dlaždicovým nerohovatejúcim a jednovrstvovým cylindrickým",
+          "tunica adventitia tráviacej rúry je väzivová vrstva pokrytá mezotelom",
+          "tunica muscularis tráviacej rúry je spravidla tvorená vnútornou cirkulárnou a vonkajšou longitudinálnou vrstvou"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém I (gastrointestinálny trakt)",
+          "number": 38,
+          "page": 166
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o gastrointestinálnom systéme:",
+        "answers": [
+          "hlavným rozdielom medzi hrubým a tenkým črevom je, že hrubé črevo neobsahuje klky ani Lieberkühnove krypty",
+          "Cajalove intersticiálne bunky slúžia v tráviacej rúre ako udávači kroku (pacemakery)",
+          "tunica serosa pokrýva intraperitoneálne uložené orgány tráviacej rúry a je tvorená väzivom a jednou vrstvou plochých mezotelových buniek",
+          "plexus nervosus myentericus Auerbachi sa nachádza medzi dvoma vrstvami svaloviny tunica muscularis"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém I (gastrointestinálny trakt)",
+          "number": 39,
+          "page": 166
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o gastrointestinálnom systéme:",
+        "answers": [
+          "lamina muscularis mucosae je tvorená dvoma vrstvami hladkej svaloviny",
+          "jednovrstvový cylindrický epitel vystiela tráviacu rúru v celom jej priebehu",
+          "duodénum neobsahuje v stene žiadne žľazy",
+          "jednovrstvový cylindrický epitel v priebehu tráviacej rúry slúži výlučne na vstrebávanie živín"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém I (gastrointestinálny trakt)",
+          "number": 40,
+          "page": 166
+        }
+      },
+      {
+        "question": "Aké štruktúry sa vyvíjajú z kloaky?",
+        "answers": [
+          "alantois",
+          "anorektálny kanál",
+          "vitelínové cievy",
+          "urogenitálny sínus"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém I (gastrointestinálny trakt)",
+          "number": 41,
+          "page": 167
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o fyziologickej pupočníkovej hernii črevnej kľučky sú pravdivé?",
+        "answers": [
+          "tiež rotuje okolo osi arteria mesenterica superior",
+          "nastane v 13. týždni",
+          "otáča sa proti smeru hodinových ručičiek",
+          "v 10. týždni sa vtiahne späť do dutiny brušnej",
+          "celkovo sa črevná slučka otáča o 360 stupňov"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém I (gastrointestinálny trakt)",
+          "number": 42,
+          "page": 167
+        }
+      },
+      {
+        "question": "Ktoré zložky tráviacej trubice sú derivátmi neurálnej lišty?",
+        "answers": [
+          "Meckelov divertikul",
+          "črevný nervový systém",
+          "chylové cievy",
+          "enteroendokrinné bunky"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém I (gastrointestinálny trakt)",
+          "number": 43,
+          "page": 167
+        }
+      },
+      {
+        "question": "Ako sa nazýva spojenie stredného čreva a žĺtkového vaku?",
+        "answers": [
+          "alantois",
+          "ductus omphaloentericus",
+          "zadné črevo",
+          "vitelínový kanál",
+          "kloaka"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém I (gastrointestinálny trakt)",
+          "number": 44,
+          "page": 167
+        }
+      },
+      {
+        "question": "Epitelová výstelka ktorých primordií jazyka je ektodermového pôvodu?",
+        "answers": [
+          "bočné jazykové hrbolčeky",
+          "copula",
+          "ductus thyreoglossus",
+          "tuberculum impar"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém I (gastrointestinálny trakt)",
+          "number": 45,
+          "page": 168
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o vývine tráviacej rúry:",
+        "answers": [
+          "žalúdok počas vývinu rotuje o 90 stupňov v smere hodinových ručičiek okolo svojej pozdĺžnej osi",
+          "deriváty predného čreva sú cievne zásobované prostredníctvom truncus coeliacus",
+          "osou rotácie stredného čreva je arteria mesenterica inferior",
+          "celý dvanástnik je pôvodom zo stredného čreva"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém I (gastrointestinálny trakt)",
+          "number": 46,
+          "page": 168
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o vývine tráviacej rúry:",
+        "answers": [
+          "nález črevnej kľučky v pupočníku je za každých okolností patologickým stavom",
+          "stredné črevo rotuje celkovo o 270 stupňov proti smeru hodinových ručičiek (pri pohľade spredu)",
+          "linea dentata (pectinata) je hranicou medzi epitelom análneho kanála ako derivátu endodermy zadného čreva a epitelom, ktorý má pôvod v ektoderme proktodea",
+          "zadné črevo cievne zásobuje arteria mesenterica superior"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém I (gastrointestinálny trakt)",
+          "number": 47,
+          "page": 168
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o vývine tráviacej rúry:",
+        "answers": [
+          "isthmus faucium je miestom, kde sa počas vývinu nachádzala orofaryngová membrána",
+          "ústna dutina je derivátom endodermy predného čreva",
+          "rotácia žalúdka spôsobí, že ľavý nervus vagus bude inervovať prednú stenu žalúdka",
+          "deriváty stredného čreva sú cievne zásobované prostredníctvom arteria mesenterica superior"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém I (gastrointestinálny trakt)",
+          "number": 48,
+          "page": 168
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o vývine tráviacej rúry:",
+        "answers": [
+          "epitel celej tráviacej rúry je pôvodom z endodermy primitívneho čreva",
+          "ak stredné črevo nedokončí rotáciu kompletne, výsledkom môže byť vrodená vývinová chyba, kedy sa cékum nachádza pod pečeňou",
+          "Meckelov divertikul súvisí s abnormálnym vývinom alantois",
+          "duodénum sa vyvíja čiastočne z predného a čiastočne zo stredného čreva"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém I (gastrointestinálny trakt)",
+          "number": 49,
+          "page": 168
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o vývine tráviacej rúry:",
+        "answers": [
+          "Hirschsprungova choroba je spôsobená poruchou migrácie buniek neurálnej lišty do základu čreva",
+          "proktodeum je endodermového pôvodu",
+          "ak stredné črevo rotuje v smere hodinových ručičiek (pri pohľade spredu) dochádza k obrátenej rotácii a colon transversum bude ležať za duodénom",
+          "Meckelov divertikul vzniká ako pozostatok ductus omphaloentericus"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém I (gastrointestinálny trakt)",
+          "number": 50,
+          "page": 169
+        }
+      }
+    ]
+  }
+]

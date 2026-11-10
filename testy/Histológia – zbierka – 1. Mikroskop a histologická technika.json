@@ -1,0 +1,896 @@
+[
+  {
+    "title": "Histológia – zbierka – 1. Mikroskop a histologická technika",
+    "description": "Mikroskopia, spracovanie vzoriek, farbivá, histochémia a imunohistochémia. Otázky s výberom viacerých odpovedí zo zbierky Histológia a embryológia v otázkach (Miko, Klein, Juríková, UK 2025); kľúč podľa zbierky.",
+    "year": 1,
+    "category": "Histológia",
+    "sortOrder": 11,
+    "questions": [
+      {
+        "question": "Aké je správne chronologické poradie krokov pri bežnom spracovaní histologických vzoriek?",
+        "answers": [
+          "1. rezanie, 2. zalievanie, 3. prejasnenie, 4. montáž",
+          "1. fixácia, 2. zalievanie, 3. rehydratácia, 4. montáž",
+          "1. dehydratácia, 2. prejasnenie, 3. zalievanie, 4. rezanie",
+          "1. deparafinizácia, 2. rehydratácia, 3. farbenie, 4. montáž",
+          "1. fixácia, 2. dehydratácia, 3. prejasnenie, 4. zalievanie",
+          "1. prejasnenie, 2. fixácia, 3. dehydratácia, 4. farbenie"
+        ],
+        "correct": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mikroskop, histológia ako veda, histologická technika",
+          "number": 1,
+          "page": 8
+        }
+      },
+      {
+        "question": "Ktoré farbivá sú kyslé?",
+        "answers": [
+          "eozín",
+          "hematoxylín",
+          "anilínová modrá",
+          "metylénová modrá",
+          "kyselina pikrová"
+        ],
+        "correct": [
+          0,
+          2,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mikroskop, histológia ako veda, histologická technika",
+          "number": 2,
+          "page": 8
+        }
+      },
+      {
+        "question": "Ktorý z nasledujúcich prístupov k vizualizácii vzoriek využíva histochemický prístup?",
+        "answers": [
+          "periodické kyslé Schiffovo činidlo (PAS)",
+          "impregnácia striebrom",
+          "farbenie Sudan",
+          "kyslá fosfatáza",
+          "farbenie podľa Massona",
+          "farbenie podľa Pappenheima"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mikroskop, histológia ako veda, histologická technika",
+          "number": 3,
+          "page": 8
+        }
+      },
+      {
+        "question": "Mohli sa nasledujúce dvojice teoreticky stretnúť v minulosti?",
+        "answers": [
+          "Camillo Golgi – Andreas Vesalius",
+          "Santiago Ramón y Cajal – Camillo Golgi",
+          "Rudolf Wirchow – Jan Evangelista Purkyně",
+          "Antoni van Leeuwenhoek – Robert Hooke",
+          "Ernst Abbe – Carl Zeiss",
+          "Xavier Bichat – Albert Coons"
+        ],
+        "correct": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mikroskop, histológia ako veda, histologická technika",
+          "number": 4,
+          "page": 9
+        }
+      },
+      {
+        "question": "Ktorými optickými časťami prechádza lúč pri Köhlerovom osvetlení?",
+        "answers": [
+          "šošovka kondenzora",
+          "magnetická cievka",
+          "objektív",
+          "šošovka okulára"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mikroskop, histológia ako veda, histologická technika",
+          "number": 5,
+          "page": 9
+        }
+      },
+      {
+        "question": "Ktoré chemikálie sa používajú pri príprave vzoriek na transmisnú elektrónovú mikroskopiu počas fixácie a postfixácie?",
+        "answers": [
+          "hematoxylín",
+          "glutaraldehyd",
+          "formaldehyd",
+          "etanol",
+          "oxid osmičelý"
+        ],
+        "correct": [
+          1,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mikroskop, histológia ako veda, histologická technika",
+          "number": 6,
+          "page": 9
+        }
+      },
+      {
+        "question": "Čo určuje rozlíšenie mikroskopu?",
+        "answers": [
+          "vlnová dĺžka použitých častíc",
+          "numerická apertúra objektívu",
+          "index lomu prostredia medzi vzorkou a objektívom",
+          "intenzita lúča svetla alebo elektrónov",
+          "rozsah, v akom je clona uzavretá"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mikroskop, histológia ako veda, histologická technika",
+          "number": 7,
+          "page": 9
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o eozíne sú pravdivé?",
+        "answers": [
+          "je to bázické farbivo",
+          "môže farbiť cytoplazmu prevažnej väčšiny buniek na ružovo",
+          "bol vyvinutý na farbenie kolagénu na zeleno",
+          "slúži ako chemické činidlo počas fixácie"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mikroskop, histológia ako veda, histologická technika",
+          "number": 8,
+          "page": 10
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o hematoxylíne sú pravdivé?",
+        "answers": [
+          "je to základné farbivo",
+          "môže zafarbiť cytoplazmu väčšiny buniek na ružovo",
+          "bol vyvinutý na farbenie kolagénu na zeleno",
+          "možno ho použiť na vizualizáciu bunkových jadier"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mikroskop, histológia ako veda, histologická technika",
+          "number": 9,
+          "page": 10
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o mikroskope sú pravdivé?",
+        "answers": [
+          "objektívy zväčšujú a premietajú osvetlený obraz objektu smerom k okuláru",
+          "šošovka okuláru ďalej zväčšuje obraz a premieta ho na sietnicu mikroskopujúcej osoby",
+          "maximálne rozlíšenie svetelného mikroskopu je približne 0,2 nm",
+          "celkové zväčšenie optického mikroskopu sa získa vynásobením zväčšení kondenzora a objektívu",
+          "numerická apertúra pre objektívy mikroskopov sa zvyčajne pohybuje od 0,10 do 1,25, čo zodpovedá ohniskovým vzdialenostiam približne 40 mm až 2 mm"
+        ],
+        "correct": [
+          0,
+          1,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mikroskop, histológia ako veda, histologická technika",
+          "number": 10,
+          "page": 10
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich dvojíc „farbivo biologická štruktúra“ sú správne?",
+        "answers": [
+          "Sudan – sacharidy",
+          "anilínová modrá – elastín",
+          "orceín – elastín",
+          "hematoxylín – mitochondrie",
+          "striebro – retikulárne vlákna",
+          "oxid osmičelý – lipidy"
+        ],
+        "correct": [
+          2,
+          4,
+          5
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mikroskop, histológia ako veda, histologická technika",
+          "number": 11,
+          "page": 10
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o pojme „rozlíšenie“ sú pravdivé?",
+        "answers": [
+          "je miera, do akej sa objekt na obrázku javí zväčšený",
+          "je najmenšia merateľná vzdialenosť medzi dvoma susednými bodmi vo vzorke",
+          "závisí najmä od objektívu",
+          "rozlíšenie ľudského oka je približne 0,2 mm",
+          "rozlíšenie elektrónového mikroskopu je približne 0,2 µm"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mikroskop, histológia ako veda, histologická technika",
+          "number": 12,
+          "page": 11
+        }
+      },
+      {
+        "question": "V nasledujúcej vete nahraďte nesprávne slovo správnym: Princíp fluorescenčnej mikroskopie spočíva v tom, že vzorka je osvetlená svetlom určitej vlnovej dĺžky, ktoré je absorbované fluorofórmi, čo spôsobuje, že vyžarujú svetlo kratších vlnových dĺžok (t. j. inej farby).",
+        "answers": [
+          "fluorescenčnej → histochemickej",
+          "absorbované → odrazené",
+          "kratších → dlhších",
+          "farby → sýtosti"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mikroskop, histológia ako veda, histologická technika",
+          "number": 13,
+          "page": 11
+        }
+      },
+      {
+        "question": "Ktorá mikroskopická technika využíva ako zdroj žiarenia viditeľné svetlo?",
+        "answers": [
+          "atómový silový mikroskop",
+          "transmisná elektrónová mikroskopia",
+          "konfokálna mikroskopia",
+          "mikroskopia s fázovým kontrastom",
+          "fluorescenčná mikroskopia"
+        ],
+        "correct": [
+          2,
+          3,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mikroskop, histológia ako veda, histologická technika",
+          "number": 14,
+          "page": 11
+        }
+      },
+      {
+        "question": "Čo sa používa pri odmaskovávaní antigénu v imunohistochemických protokoloch?",
+        "answers": [
+          "trypsín",
+          "formaldehyd",
+          "röntgenové lúče",
+          "teplo"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mikroskop, histológia ako veda, histologická technika",
+          "number": 15,
+          "page": 11
+        }
+      },
+      {
+        "question": "Kto zaviedol pojem „bunka“?",
+        "answers": [
+          "Marcello Malpighi",
+          "Antoni van Leeuwenhoek",
+          "Karl Mayer",
+          "Robert Hooke"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mikroskop, histológia ako veda, histologická technika",
+          "number": 16,
+          "page": 12
+        }
+      },
+      {
+        "question": "Aké sú niektoré z bežných prejasňovacích prostriedkov používaných v histológii?",
+        "answers": [
+          "parafín",
+          "xylén",
+          "metylsalicylát",
+          "hematoxylín",
+          "etanol"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mikroskop, histológia ako veda, histologická technika",
+          "number": 17,
+          "page": 12
+        }
+      },
+      {
+        "question": "Ako sa nazýva histologické zariadenie, ktoré sa používa na rezanie tenkých rezov z tkanivových bločkov?",
+        "answers": [
+          "dermatóm",
+          "myotóm",
+          "histotóm",
+          "mikrotóm",
+          "sklerotóm"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mikroskop, histológia ako veda, histologická technika",
+          "number": 18,
+          "page": 12
+        }
+      },
+      {
+        "question": "Ako sa nazýva antigénny determinant známej štruktúry – časť antigénu, ktorá je rozpoznávaná špecifickým imunoglobulínom?",
+        "answers": [
+          "chromofór",
+          "protilátka",
+          "epitop",
+          "imunokomplex"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mikroskop, histológia ako veda, histologická technika",
+          "number": 19,
+          "page": 12
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o farbení sú pravdivé?",
+        "answers": [
+          "pri farbení pomocou H&E sú jadrá zvyčajne sfarbené do ružova",
+          "hematoxylín dobre farbí mitochondrie",
+          "krezylová violeť je jedna z farieb používaných pri Nisslovom farbení",
+          "pri farbení H&E sú zvyčajne kontrastne zafarbené dva viditeľné oddiely bunky – jadro a cytoplazma"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mikroskop, histológia ako veda, histologická technika",
+          "number": 20,
+          "page": 13
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o svetelnej mikroskopii:",
+        "answers": [
+          "invertovaný mikroskop používame na pozorovanie štandardných histologických preparátov",
+          "okulár patrí k optickým častiam svetelného mikroskopu",
+          "makroskrutku používame na doostrenie pri najväčších zväčšeniach",
+          "kondenzor je často zaraďovaný k optickým aj osvetľovacím častiam svetelného mikroskopu"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mikroskop, histológia ako veda, histologická technika",
+          "number": 21,
+          "page": 13
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o svetelnej mikroskopii:",
+        "answers": [
+          "rozlišovaciu schopnosť svetelného mikroskopu limituje vlnová dĺžka fotónov svetla vo viditeľnom spektre",
+          "invertovaný mikroskop slúži na pozorovanie bunkových kultúr",
+          "imerzný objektív slúži na pozorovanie krvného náteru",
+          "rozlišovacia schopnosť svetelného mikroskopu je 0,2 nm"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mikroskop, histológia ako veda, histologická technika",
+          "number": 22,
+          "page": 13
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o svetelnej mikroskopii:",
+        "answers": [
+          "krížový posun umožňuje pohyb stolčeka v dvoch paralelných rovinách",
+          "úplne otvorená irisová clona zvyšuje kontrast štruktúr na preparáte",
+          "invertovaný mikroskop má kondenzor nad a objektívy pod stolčekom s preparátom",
+          "šošovky svetelného mikroskopu sa nachádzajú iba v objektívoch"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mikroskop, histológia ako veda, histologická technika",
+          "number": 23,
+          "page": 13
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o svetelnej mikroskopii:",
+        "answers": [
+          "mikroskopovať začíname pri najväčšom zväčšení",
+          "výsledné zväčšenie vypočítame ako súčin zväčšenia okuláru a objektívu",
+          "statív a mikroskrutka sú mechanickými časťami svetelného mikroskopu",
+          "pri bežnej svetelnej mikroskopii používame ultrafialové svetlo"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mikroskop, histológia ako veda, histologická technika",
+          "number": 24,
+          "page": 13
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o svetelnej mikroskopii:",
+        "answers": [
+          "binokulárny svetelný mikroskop obsahuje jeden tubus a jeden okulár",
+          "mikroskopovať začíname so stolčekom v najnižšej pozícii",
+          "okom pozorujeme primárny obraz zobrazený okulárom",
+          "bežné preparáty pozorujeme najčastejšie vo svetlom poli"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mikroskop, histológia ako veda, histologická technika",
+          "number": 25,
+          "page": 14
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o elektrónovej mikroskopii:",
+        "answers": [
+          "rozlišovacia schopnosť transmisného elektrónového mikroskopu je 0,05 – 0,2 nm",
+          "elektrónový mikroskop umožňuje vyššie rozlíšenie v porovnaní so svetelným mikroskopom vďaka tomu, že elektróny majú výrazne kratšiu vlnovú dĺžku v porovnaní s vlnovou dĺžkou fotónov viditeľného spektra",
+          "rastrovací elektrónový mikroskop umožňuje znázorniť povrch vzorky, napr. povrch mikroklkov absopčných buniek",
+          "vnútornú štruktúru axonémy riasiniek dokážeme pozorovať rastrovacím elektrónovým mikroskopom"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mikroskop, histológia ako veda, histologická technika",
+          "number": 26,
+          "page": 14
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o elektrónovej mikroskopii:",
+        "answers": [
+          "úlohu šošoviek zohráva v elektrónovej mikroskopii sústava elektromagnetov",
+          "výsledný obraz vzorky vyšetrenej v elektrónovom mikroskope pozorujeme v odtieňoch šedej",
+          "maximálne užitočné zväčšenie elektrónového mikroskopu je 1000-krát",
+          "zaznamenaný obraz z elektrónového mikroskopu nazývame mikrofotografia"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mikroskop, histológia ako veda, histologická technika",
+          "number": 27,
+          "page": 14
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o elektrónovej mikroskopii:",
+        "answers": [
+          "zrýchlený prúd elektrónov prechádza cez šošovky z brúseného skla",
+          "pri pozorovaní vzorky v rastrovacom elektrónovom mikroskope v podmienkach vysokého vákua je žiaduce, aby bola vzorka vodivá, teda pokovovaná vrstvou vzácnych kovov, napr. zlata",
+          "rozlišovacia schopnosť rastrovacieho elektrónového mikroskopu je 1 – 10 nm",
+          "pred pozorovaním v elektrónovom mikroskope sa preparáty musia zafarbiť podobne ako pri svetelnej mikroskopii"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mikroskop, histológia ako veda, histologická technika",
+          "number": 28,
+          "page": 14
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o elektrónovej mikroskopii:",
+        "answers": [
+          "prúd elektrónov je emitovaný z anódy a urýchlený vysokým napätím na katóde",
+          "transmisným elektrónovým mikroskopom pozorujeme tzv. ultraštruktúru buniek",
+          "zaznamenaný obraz z elektrónového mikroskopu označujeme ako elektronogram",
+          "za objaviteľov elektrónovej mikroskopie sú považovaní Max Knoll a Antoni van Leeuwenhoek"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mikroskop, histológia ako veda, histologická technika",
+          "number": 29,
+          "page": 15
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o elektrónovej mikroskopii:",
+        "answers": [
+          "v elektrónovej mikroskopii sa používajú tzv. ultratenké rezy",
+          "elektromagnetické šošovky označujeme ako objektív a okulár",
+          "princípom transmisnej elektrónovej mikroskopie je odraz elektrónov z povrchu vzorky",
+          "štruktúru chromatínu pozorujeme rastrovacím elektrónovým mikroskopom"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mikroskop, histológia ako veda, histologická technika",
+          "number": 30,
+          "page": 15
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o špeciálnych mikroskopických technikách:",
+        "answers": [
+          "pozorovanie v tmavom poli patrí medzi rutinné a najčastejšie techniky mikroskopovania tkanív",
+          "svetelné lúče, ktoré neinteragujú s preparátom, sú vyradené z tvorby obrazu pri pozorovaní v tmavom poli",
+          "polarizačná mikroskopia využíva schopnosť niektorých tkanív a štruktúr meniť rovinu polarizácie svetla",
+          "polarizačným mikroskopom dokážeme skúmať napríklad orientáciu hydroxyapatitových kryštálov v kostnom matrixe"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mikroskop, histológia ako veda, histologická technika",
+          "number": 31,
+          "page": 15
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o špeciálnych mikroskopických technikách:",
+        "answers": [
+          "bežné prepráty farbené hematoxylínom a eozínom pozorujeme polarizačným mikroskopom",
+          "fázový kontrast je vhodný na pozorovanie vitálnych buniek v kultúrach",
+          "pre pozorovanie vzorky vo fázovom kontraste je nevyhnutné vzorku najprv zafarbiť",
+          "vo fázovom kontraste pozorujeme fixované preparáty impregnované soľami ťažkých kovov"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mikroskop, histológia ako veda, histologická technika",
+          "number": 32,
+          "page": 15
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o špeciálnych mikroskopických technikách:",
+        "answers": [
+          "fluorescenčná mikroskopia využíva schopnosť vzorky otáčať rovinu polarizovaného svetla",
+          "pre fluorochrómy (fluorofóry) je typická excitácia svetlom kratšej vlnovej dĺžky a následná emisia svetla dlhších vlnových dĺžok",
+          "prirodzenú schopnosť fluorescencie má napríklad hemoglobín",
+          "fluorescenčný mikroskop je typ elektrónového mikroskopu"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mikroskop, histológia ako veda, histologická technika",
+          "number": 33,
+          "page": 16
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o špeciálnych mikroskopických technikách:",
+        "answers": [
+          "konfokálna mikroskopia umožňuje rekonštrukciu trojrozmerného obrazu",
+          "konfokálny mikroskop je typ svetelného mikroskopu",
+          "princípom konfokálnej mikroskopie je vymedzenie určitého intervalu roviny pozorovanej vzorky pomocou konfokálnych clôn",
+          "konfokálna mikroskopia sa používa najčastejšie v kombinácii s fluorescenčnou mikroskopiou"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mikroskop, histológia ako veda, histologická technika",
+          "number": 34,
+          "page": 16
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o špeciálnych mikroskopických technikách:",
+        "answers": [
+          "pozorovanie v tmavom poli využíva prirodzenú fluorescenciu niektorých molekúl",
+          "polarizácia svetla predstavuje fenomén excitácie štruktúr svetlom kratšej vlnovej dĺžky a následnú emisiu svetla dlhšej vlnovej dĺžky",
+          "fázový kontrast je vhodný napríklad na pozorovanie vitálnych spermií",
+          "v tmavom poli dokážeme pozorovať aj štruktúry, ktoré sú pod hranicou rozlišovacej schopnosti svetelného mikroskopu"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mikroskop, histológia ako veda, histologická technika",
+          "number": 35,
+          "page": 16
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o histologických technikách:",
+        "answers": [
+          "odber tkaniva z mŕtveho človeka označujeme ako biopsia",
+          "fixácia tkaniva slúži na uľahčenie krájania vzorky na mikrotóme",
+          "najpoužívanejším chemickým fixatívom je 10% formol (formalín)",
+          "bazofilné štruktúry sú chemicky kyslej povahy, napr. DNA v jadre bunky"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mikroskop, histológia ako veda, histologická technika",
+          "number": 36,
+          "page": 16
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o histologických technikách:",
+        "answers": [
+          "eozinofília znamená, že štruktúra má afinitu k zásaditým farbivám",
+          "technika zmrazených rezov je rýchlejšia oproti bežnej technike parafínových rezov",
+          "technika parafínových rezov je časovo náročnejšia, avšak výsledný obraz je kvalitnejší v porovnaní s technikou zmrazených rezov a výsledný preparát je trvalý",
+          "príprava preparátov parafínovou technikou sa používa rutinne v rámci rýchlej peroperačnej bioptickej diagnostiky"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mikroskop, histológia ako veda, histologická technika",
+          "number": 37,
+          "page": 17
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o histologických technikách:",
+        "answers": [
+          "technika parafínových rezov využíva fyzikálnu metódu fixácie",
+          "na krájanie parafínových bločkov sa používa kryomikrotóm",
+          "farbenie parafínového rezu vzorky je možné ihneď po jeho nakrájaní",
+          "na odvodnenie vzorky sa používa rad alkoholov v stúpajúcej koncentrácii"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mikroskop, histológia ako veda, histologická technika",
+          "number": 38,
+          "page": 17
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o histologických technikách:",
+        "answers": [
+          "argyrofília a argentafilita sú príbuzné fenomény, ktoré označujú schopnosť štruktúry farbiť sa soľami striebra",
+          "impregnácia znamená zviditeľnenie niektorých štruktúr redukciou solí kovov na ich povrchu",
+          "hematoxylín a eozín sú príkladom typickej impregnačnej metódy",
+          "hematoxylín farbí kolagénové vlákna do fialova"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mikroskop, histológia ako veda, histologická technika",
+          "number": 39,
+          "page": 17
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o histologických technikách:",
+        "answers": [
+          "eozín farbí jadro bunky do ružova",
+          "parafínové rezy krájame mikrotómom štandardne na hrúbku 2 – 7 mikrometrov",
+          "parafín slúži na zalievanie vzorky, ktorú je po jeho stuhnutí možné krájať",
+          "xylén sa používa na prejasnenie vzoriek"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mikroskop, histológia ako veda, histologická technika",
+          "number": 40,
+          "page": 17
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o histochémii:",
+        "answers": [
+          "histochémia spočíva vo farebnom znázornení imunokomplexov",
+          "podstatou histochémie je farebný dôkaz chemických látok v bunke, napr. enzýmov",
+          "glykogén v pečeni dokážeme histochemicky znázorniť metódou PAS",
+          "alkalickú fosfatázu môžeme dokázať histochemicky napr. v kefkovom leme epitelových buniek proximálneho tubulu nefrónu obličky"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mikroskop, histológia ako veda, histologická technika",
+          "number": 41,
+          "page": 18
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o histochémii:",
+        "answers": [
+          "PAS metóda predstavuje kombináciu Schiffovho činidla a kyseliny jodistej",
+          "histochemicky znázorňujeme napr. DNA v jadre pomocou hematoxylínu",
+          "dôkaz alkalickej fosfatázy zaraďujeme medzi enzymohistochemické metódy",
+          "PAS reakcia slúži na dôkaz látok tukovej povahy"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mikroskop, histológia ako veda, histologická technika",
+          "number": 42,
+          "page": 18
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o imunohistochémii:",
+        "answers": [
+          "imunohistochémia slúži na dôkaz konkrétnych epitopov antigénov",
+          "najčastejšie využívaným chromogénom v imunohistochémii je diaminobenzidín (DAB)",
+          "monoklonálne protilátky sú namierené proti viacerým epitopom antigénov",
+          "imunizáciou laboratórnych zvierat získavame výlučne monoklonálne protilátky"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mikroskop, histológia ako veda, histologická technika",
+          "number": 43,
+          "page": 18
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o imunohistochémii:",
+        "answers": [
+          "imunohistochémia má zásadný význam vo výskume, ale aj v klinickej diagnostike, napr. nádorov",
+          "pre potreby imunohistochémie dokážeme použiť klasické parafínové bločky",
+          "priama imunohistochémia využíva sekundárne protilátky",
+          "polyklonálne protilátky sú produkované iba jedným konkrétnym klonom plazmatických buniek"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mikroskop, histológia ako veda, histologická technika",
+          "number": 44,
+          "page": 18
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o imunohistochémii:",
+        "answers": [
+          "imunohistochemicky vieme znázorniť napr. cytokeratínové tonofilamenty ako dôkaz buniek epitelového pôvodu",
+          "estrogénový receptor vykazuje pri imunohistochemickom farbení jadrovú pozitivitu",
+          "pri imunohistochémii odlišujeme tri hlavné typy pozitivity – jadrovú, cytoplazmatickú a membránovú",
+          "imunohistochémia slúži aj na odlíšenie bunkových populácií, ktoré pri bežných farbeniach odlíšiť nevieme, napr. T- a B-lymfocytov"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mikroskop, histológia ako veda, histologická technika",
+          "number": 45,
+          "page": 19
+        }
+      }
+    ]
+  }
+]

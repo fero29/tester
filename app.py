@@ -138,7 +138,8 @@ def test_asset(name):
     # Solution images for self-check tasks; read-only, names restricted to a flat whitelist.
     if not ASSET_NAME.fullmatch(name):
         abort(404)
-    return send_from_directory(store().root / 'assets', name, max_age=86400)
+    # Study pages get corrected in place, so browsers revalidate them; images rarely change.
+    return send_from_directory(store().root / 'assets', name, max_age=0 if name.endswith('.html') else 86400)
 
 
 @app.route('/api/track', methods=['POST'])

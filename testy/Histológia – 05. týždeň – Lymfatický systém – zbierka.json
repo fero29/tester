@@ -1,0 +1,923 @@
+[
+  {
+    "title": "Histológia – 05. týždeň – Lymfatický systém – zbierka",
+    "description": "Primárne a sekundárne lymfatické orgány, mandle, uzliny, týmus, slezina a ich vývin. Otázky s výberom viacerých odpovedí zo zbierky Histológia a embryológia v otázkach (Miko, Klein, Juríková, UK 2025); kľúč podľa zbierky.",
+    "year": 2,
+    "category": "Histológia",
+    "sortOrder": 5.5,
+    "questions": [
+      {
+        "question": "Ktoré sú primárne lymfatické orgány?",
+        "answers": [
+          "týmus",
+          "žltá kostná dreň",
+          "podnebná mandľa",
+          "červená kostná dreň",
+          "slezina"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Lymfatický systém",
+          "number": 1,
+          "page": 132
+        }
+      },
+      {
+        "question": "Kde sa nachádzajú HEV (venuly s vysokým endotelom)?",
+        "answers": [
+          "v slezine",
+          "v kôre týmusu",
+          "v parakortexe lymfatickej uzliny",
+          "v Peyerových plakoch",
+          "v dreni lymfatickej uzliny",
+          "v tonzilách Waldeyerovho prstenca"
+        ],
+        "correct": [
+          2,
+          3,
+          5
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Lymfatický systém",
+          "number": 2,
+          "page": 132
+        }
+      },
+      {
+        "question": "Ktoré sú T-dependentné zóny rôznych lymfatických orgánov?",
+        "answers": [
+          "červená pulpa sleziny",
+          "periarteriolárna lymfatická pošva v slezine",
+          "hlboká kôra (parakortex) lymfatickej uzliny",
+          "kôra lymfatickej uzliny",
+          "Malpighiho teliesko sleziny"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Lymfatický systém",
+          "number": 3,
+          "page": 132
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o týmuse sú pravdivé?",
+        "answers": [
+          "jeho kôra je primárnym lymfatickým orgánom",
+          "jeho trabekuly rozdeľujú parenchým na pseudolobuly",
+          "v jeho dreni možno vidieť B-lymfocyty",
+          "v jeho kôre sa tvoria Hassalove telieska"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Lymfatický systém",
+          "number": 4,
+          "page": 132
+        }
+      },
+      {
+        "question": "Ktoré tvrdenia o hematotýmusovej bariére sú pravdivé?",
+        "answers": [
+          "je tvorená prevažne Hassalovými telieskami",
+          "jej hlavným účelom je zabrániť interakcii kortikálnych T-lymfocytov s cudzími makromolekulami",
+          "je to funkčná a selektívna bariéra oddeľujúca T-lymfocyty od krvi v dreni týmusu",
+          "je spoluvytváraná súvislými krvnými kapilárami",
+          "je spoluvytváraná epitelovými retikulárnymi bunkami typu I"
+        ],
+        "correct": [
+          1,
+          3,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Lymfatický systém",
+          "number": 5,
+          "page": 133
+        }
+      },
+      {
+        "question": "Ktoré štruktúry sa nachádzajú v slezine?",
+        "answers": [
+          "marginálna zóna",
+          "Hassalove telieska",
+          "Billrothove povrazce",
+          "periarteriolárna lymfatická pošva",
+          "sínusoidy",
+          "parakortex"
+        ],
+        "correct": [
+          0,
+          2,
+          3,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Lymfatický systém",
+          "number": 6,
+          "page": 133
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o lymfe sú pravdivé?",
+        "answers": [
+          "je obohatená o protilátky, keď prechádza cez dreňové povrazce lymfatických uzlín",
+          "k jej produkcii vedie prechod tkanivového moku do lymfatických kapilár",
+          "môže obsahovať aj erytrocyty",
+          "neobsahuje T-lymfocyty ani makrofágy",
+          "vo všeobecnosti je podobná krvnej plazme",
+          "prenáša aj tuky z tráviaceho systému",
+          "zachytáva baktérie a prenáša ich do krvného obehu"
+        ],
+        "correct": [
+          0,
+          1,
+          4,
+          5
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Lymfatický systém",
+          "number": 7,
+          "page": 133
+        }
+      },
+      {
+        "question": "Čo majú spoločné slezina a lymfatické uzliny?",
+        "answers": [
+          "filtrujú krv",
+          "obsahujú sínusoidy",
+          "obsahujú lymfatické folikuly",
+          "sú opuzdrené"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Lymfatický systém",
+          "number": 8,
+          "page": 133
+        }
+      },
+      {
+        "question": "Čo majú spoločné lymfatické a krvné cievy?",
+        "answers": [
+          "obe môžu mať chlopne",
+          "sú vystlané endotelom",
+          "začínajú sa slepo v medzibunkových priestoroch",
+          "obe vstupujú do mandlí"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Lymfatický systém",
+          "number": 9,
+          "page": 134
+        }
+      },
+      {
+        "question": "Ktoré tvrdenia o lymfatických folikuloch sú pravdivé?",
+        "answers": [
+          "vývoj ich zárodočného centra zodpovedá humorálnej imunitnej odpovedi B-lymfocytov",
+          "sekundárne lymfatické folikuly nemajú zrelé zárodočné centrum",
+          "ich plášťová zóna obsahuje centroblasty",
+          "obsahujú folikulárne dendritické bunky"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Lymfatický systém",
+          "number": 10,
+          "page": 134
+        }
+      },
+      {
+        "question": "Kde sa za fyziologických podmienok nachádzajú lymfatické folikuly?",
+        "answers": [
+          "v tonsilla pharyngea",
+          "v slezine",
+          "v kôre týmusu",
+          "v parakortexe lymfatickej uzliny"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Lymfatický systém",
+          "number": 11,
+          "page": 134
+        }
+      },
+      {
+        "question": "Aké rôzne sínusy sa nachádzajú v lymfatickej uzline?",
+        "answers": [
+          "subkapsulárny (marginálny) sínus",
+          "venózny sínus",
+          "peritrabekulárny (intermediárny) sínus",
+          "medulárny sínus",
+          "paranazálny sínus"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Lymfatický systém",
+          "number": 12,
+          "page": 134
+        }
+      },
+      {
+        "question": "Ktoré lymfatické orgány majú jemnú strómu z retikulárneho väziva?",
+        "answers": [
+          "slezina",
+          "lymfatická uzlina",
+          "týmus",
+          "kostná dreň"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Lymfatický systém",
+          "number": 13,
+          "page": 134
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o T-lymfocyte sú pravdivé?",
+        "answers": [
+          "získava svoju imunokompetenciu v týmuse",
+          "jeho aktivované štádium sa nazýva plazmatická bunka a produkuje protilátky",
+          "v lymfatickej uzline sa nachádza prevažne v kortikálnej časti lymfatickej uzliny",
+          "je zodpovedný za bunkovo špecifickú imunitu",
+          "v slezine sa nachádza prevažne v periarteriolárnej lymfatickej pošve (PALS)",
+          "po aktivácii je zodpovedný za humorálnu zložku imunitnej odpovede – produkuje proteíny komplementu",
+          "pomer jadra a cytoplazmy je posunutý v prospech jadra"
+        ],
+        "correct": [
+          0,
+          3,
+          4,
+          6
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Lymfatický systém",
+          "number": 14,
+          "page": 135
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o mandliach sú pravdivé?",
+        "answers": [
+          "sú úplne opuzdrené",
+          "lymfa je do nich privádzaná aferentnými lymfatickými cievami (viacerými)",
+          "ich epitel môže byť popretkávaný lymfocytmi (folikulami asociovaný epitel)",
+          "neobsahujú lymfatické uzlíky"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Lymfatický systém",
+          "number": 15,
+          "page": 135
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich dvojíc týkajúcich sa lymfatickej uzliny sú správne?",
+        "answers": [
+          "dreňové povrazce – makrofágy",
+          "parakortex venuly – s vysokým endotelom",
+          "stróma – argyrofilné farbenie",
+          "väzivové puzdro – plazmatické bunky",
+          "subkapsulárny (marginálny) sínus – plazmatické bunky"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Lymfatický systém",
+          "number": 16,
+          "page": 135
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o imunite sú pravdivé?",
+        "answers": [
+          "klon je súbor buniek geneticky identického pôvodu",
+          "aktivované makrofágy vylučujú cytokíny s funkciou chemotaxie a podpory zápalu",
+          "fagocytóza je jedným z bunkových mechanizmov získanej imunity",
+          "antigén prezentujúce bunky majú molekuly MHC II. triedy"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Lymfatický systém",
+          "number": 17,
+          "page": 135
+        }
+      },
+      {
+        "question": "Ktoré charakteristiky všetkých sekundárnych lymfatických orgánov sú pravdivé?",
+        "answers": [
+          "obsahujú lymfatické folikuly",
+          "ich jemná stróma je tvorená retikulárnymi epitelovými bunkami",
+          "obsahujú krypty s detritom",
+          "filtrujú lymfu",
+          "majú aferentné lymfatické cievy"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Lymfatický systém",
+          "number": 18,
+          "page": 136
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o Hassalových telieskach sú pravdivé?",
+        "answers": [
+          "vyskytujú sa v kôre týmusu",
+          "zanikajú počas involúcie týmusu v puberte a dospelosti",
+          "sú to zhluky degenerujúcich a transformovaných T-lymfocytov",
+          "sú vytvorené z eozinofilných epitelových retikulárnych buniek typu VI",
+          "ich epitelové bunky obsahujú keratohyalín"
+        ],
+        "correct": [
+          3,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Lymfatický systém",
+          "number": 19,
+          "page": 136
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o lymfatickom systéme:",
+        "answers": [
+          "lymfatická uzlina patrí medzi opuzdrené lymfatické orgány",
+          "všetky sekundárne lymfatické orgány majú aferentné aj eferentné lymfatické cievy",
+          "parakortex lymfatickej ulziny je tvorený lymfatickými folikulmi",
+          "lymfatické folikuly s dendritickými bunkymi sú kľúčovou súčasťou kortexu lymfatickej uzliny"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Lymfatický systém",
+          "number": 20,
+          "page": 136
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o lymfatickom systéme:",
+        "answers": [
+          "impregnácia soľami striebra znázorní retikulárne väzivo ako jemnú strómu lymfatickej uzliny",
+          "lymfatická uzlina obsahuje iba eferentné lymfatické cievy",
+          "tonsilla palatina je pokrytá viacvrstvovým plochým nerohovatejúcim epitelom",
+          "tonzily sú súčasťou MALT – lymfatického tkaniva asociovaného so sliznicami"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Lymfatický systém",
+          "number": 21,
+          "page": 136
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o lymfatickom systéme:",
+        "answers": [
+          "lymfatická uzlina sa označuje aj ako lymfatický uzlík (nodulus lymphaticus)",
+          "lymfatické folikuly tvoria v sekundárnych lymfatických orgánoch B-dependentné zóny",
+          "tonzily patria medzi čiastočne opuzdrené lymfatické orgány",
+          "primárny lymfatický uzlík má svetlé germinatívne centrum"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Lymfatický systém",
+          "number": 22,
+          "page": 137
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o lymfatickom systéme:",
+        "answers": [
+          "sekundárny aktivovaný lymfatický uzlík má svetlé germinatívne centrum",
+          "MALT patrí medzi neopuzdrené súčasti lymfatického systému",
+          "tonsilla palatina je pokrytá viacradovým cylindrickým epitelom s riasinkami a pohárikovými bunkami",
+          "sinus marginalis sa nachádza priamo pod puzdrom lymfatickej uzliny a prijíma lymfu z aferentných lymfatických ciev"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Lymfatický systém",
+          "number": 23,
+          "page": 137
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o lymfatickom systéme:",
+        "answers": [
+          "primárne lymfatické uzlíky obsahujú B-lymfocyty, ktoré ešte neprišli do kontaktu s antigénom",
+          "parakortex lymfatickej uzliny je T-dependentná zóna, ktorá nie je organizovaná do podoby lymfatických uzlíkov",
+          "lymfatická uzlina predstavuje filter lymfy vmedzerený medzi aferentné a eferentné lymfatické cievy",
+          "tonzily sú jedinou súčasťou systému MALT"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Lymfatický systém",
+          "number": 24,
+          "page": 137
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o týmuse:",
+        "answers": [
+          "týmus je primárny lymfatický orgán",
+          "strómu týmusu tvorí retikulárne väzivo",
+          "kôra týmusu obsahuje lymfatické uzlíky",
+          "v týmuse získavajú T-lymfocyty imunokompetenciu"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Lymfatický systém",
+          "number": 25,
+          "page": 137
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o týmuse:",
+        "answers": [
+          "oporu pre T-lymfocyty zabezpečuje v týmuse retikulárny epitel",
+          "väzivové septá rozdeľujú parenchým týmusu na nepravé pseudolalôčiky",
+          "kôra týmusu obsahuje T-lymfocyty vo vývine, čo jej dodáva tmavý vzhľad v základnom farbení hematoxylínom a eozínom",
+          "v kôre týmusu pozorujeme Hassalove telieska"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Lymfatický systém",
+          "number": 26,
+          "page": 138
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o týmuse:",
+        "answers": [
+          "týmus obsahuje aferentné aj eferentné lymatické cievy",
+          "dozrievanie B-lymfocytov prebieha v týmuse",
+          "Hassalove telieska nájdeme v dreni týmusu",
+          "na reze týmusom pripomínajú eozinofilné Hassalove telieska vrstvy cibule"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Lymfatický systém",
+          "number": 27,
+          "page": 138
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o týmuse:",
+        "answers": [
+          "týmus dosahuje najväčšie rozmery v dospelosti",
+          "kôra týmusu je pri farbení hematoxylínom a eozínom svetlejšia",
+          "väzivové septá rozdeľujú týmus na pravé lalôčiky (lobuly)",
+          "počas maturácie sú T-lymfocyty v týmuse oddelené od krvi prostredníctvom hematotýmusovej bariéry"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Lymfatický systém",
+          "number": 28,
+          "page": 138
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o týmuse:",
+        "answers": [
+          "týmus obsahuje iba eferentné lymfatické cievy",
+          "Hassalove telieska sú výrazne eozinofilné štruktúry drene týmusu",
+          "involúcia týmusu s vekom spôsobí, že týmus nakoniec celkom zanikne",
+          "až 97 % naivných T-lymfocytov zaniká v procese pozitívnej selekcie v kôre týmusu"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Lymfatický systém",
+          "number": 29,
+          "page": 138
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o slezine:",
+        "answers": [
+          "v slezine rozlišujeme periférnu kôru a vnútornú dreň spoločnú pre viaceré pseudolalôčiky",
+          "biela pulpa sleziny je tvorená slezinovými lymfatickými uzlíkmi",
+          "PALS je súčasťou červenej pulpy sleziny",
+          "arteriola centralis je na reze slezinovými lymfatickými uzlíkmi umiestnená periférne"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Lymfatický systém",
+          "number": 30,
+          "page": 138
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o slezine:",
+        "answers": [
+          "strómu sleziny tvoria Billrothove povrazce červenej pulpy ako súčasť retikulárneho väziva",
+          "slezina obsahuje v červenej pulpe krvné kapiláry so súvislou výstelkou",
+          "trabekuly rozdeľujú slezinu na pravé laloky",
+          "súčasťou červenej pulpy sú všetky typy formovaných krvných elementov"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Lymfatický systém",
+          "number": 31,
+          "page": 139
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o slezine:",
+        "answers": [
+          "PALS bielej pulpy sleziny je T-dependentná zóna",
+          "slezinové lymfatické uzlíky sú súčasťou červenej pulpy sleziny",
+          "červená pulpa sleziny je tvorená retikulárnym epitelom",
+          "mikrocirkulácia sleziny je tvorená výlučne uzavretým obehom"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Lymfatický systém",
+          "number": 32,
+          "page": 139
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o slezine:",
+        "answers": [
+          "široké sínusoidy nájdeme typicky v červenej pulpe sleziny",
+          "v rámci uzavretého obehu sa krv z arteriolae penicillares vylieva medzi povrazce červenej pulpy",
+          "slezina je sekundárny lymfatický orgán, ktorého strómu tvorí retikulárne väzivo",
+          "slezina je najväčší solídny lymfatický orgán ľudského tela"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Lymfatický systém",
+          "number": 33,
+          "page": 139
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o slezine:",
+        "answers": [
+          "biela pulpa sleziny je tvorená výlučne primárnymi lymfatickými uzlíkmi",
+          "staré erytrocyty, ktoré nie sú schopné prejsť povrazcami červenej pulpy sleziny späť do sínusoíd, sú fagocytované makrofágmi",
+          "krvný obeh ľudskej sleziny je otvorený aj uzavretý, pričom otvorený prevažuje",
+          "slezina je jediný lymfatický orgán ľudského tela, kde je lymfatické tkanivo vždy asociované s artériami"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Lymfatický systém",
+          "number": 34,
+          "page": 139
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o lymfatickom systéme:",
+        "answers": [
+          "processus vermiformis je súčasťou MALT",
+          "väčšina lymfatických uzlíkov processus vermiformis je primárnych",
+          "germinatívne centrum je morfologický prejav aktivácie humorálnej adaptívnej imunity",
+          "MALT nájdeme aj v tráviacom či respiračným systéme, kde ich označujeme ako GALT, resp. BALT"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Lymfatický systém",
+          "number": 35,
+          "page": 139
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o lymfatickom systéme:",
+        "answers": [
+          "medzi primárne imunitné orgány patria týmus a kostná dreň",
+          "týmus je tvorený tmavšou periférnou kôrou a svetlejšou centrálnou dreňou",
+          "puzdro všetkých opuzdrených lymfatických orgánov je tvorené hustým kolagénovým väzivom, ktoré je neusporiadané",
+          "sekundárne lymfatické orgány neobsahujú lymfatické uzlíky"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Lymfatický systém",
+          "number": 36,
+          "page": 140
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o lymfatickom systéme:",
+        "answers": [
+          "PALS sleziny sa nachádza okolo sínusoíd",
+          "týmus je jediný lymfatický orgán, ktorého strómu netvorí väzivo, ale epitel",
+          "Peyerove plaky tenkého čreva sú súčasťou MALT alebo presnejšie, GALT",
+          "v germinatívnom centre nájdeme centroblasty aj centrocyty, čo má za následok svetlejšie sfarbenie centra lymfatického folikulu v H&E"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Lymfatický systém",
+          "number": 37,
+          "page": 140
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o lymfatickom systéme:",
+        "answers": [
+          "pri bežných farbeniach dokážeme spoľahlivo odlíšiť jednotlivé bunkové populácie v germinatívnom centre",
+          "PALS je T-dependentná zóna červenej pulpy sleziny",
+          "biela a červená pulpa sú pomenovania, ktoré vychádzajú z farbiteľnosti týchto súčastí sleziny pri použití hematoxylínu a eozínu",
+          "tonsilla palatina ako súčasť Waldeyerovho lymfatického okruhu je vystlaná viacvrstvovým plochým nerohovatejúcim epitelom"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Lymfatický systém",
+          "number": 38,
+          "page": 140
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o lymfatickom systéme:",
+        "answers": [
+          "strómu tonzíl tvorí retikulárny epitel",
+          "keďže sú tonzily v neustálom kontakte s vonkajším prostredím, obsahujú vždy minimálne jeden sekundárny lymfatický uzlík",
+          "červenú pulpu sleziny tvoria retikulárne väzivo, makrofágy, krvné cievy vrátane širokých sínusoíd a všetky formované krvné elementy s prevahou erytrocytov",
+          "parenchým týmusu je rozdelený väzivovými septami na pravé laloky"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Lymfatický systém",
+          "number": 39,
+          "page": 141
+        }
+      },
+      {
+        "question": "Ktoré faryngové vačky sa podieľajú na tvorbe lymfatických orgánov?",
+        "answers": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Lymfatický systém",
+          "number": 40,
+          "page": 141
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o vývoji sleziny sú pravdivé?",
+        "answers": [
+          "vyvíja sa z mezenchýmovej kondenzácie v bursa omentalis",
+          "akcesórne sleziny sa môžu vyvíjať v blízkosti hilu sleziny",
+          "je derivátom endodermy čreva",
+          "je derivátom mezodermy"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Lymfatický systém",
+          "number": 41,
+          "page": 141
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o vývoji lymfatických ciev sú pravdivé?",
+        "answers": [
+          "začínajú sa objavovať spolu s cievami",
+          "vznikajú procesmi vaskulogenézy a angiogenézy",
+          "vznikajú z mezenchymálnych prekurzorov",
+          "vznikajú z extraembryonálnej mezodermy"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Lymfatický systém",
+          "number": 42,
+          "page": 141
+        }
+      },
+      {
+        "question": "Ktorý prvok by pravdepodobne chýbal v prípade novorodenca, u ktorého je vrodený imunitný systém funkčný, ale adaptívny imunitný systém ešte nie je vyvinutý?",
+        "answers": [
+          "neporušená krycia epiderma",
+          "makrofágy",
+          "neutrofily",
+          "IgM"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Lymfatický systém",
+          "number": 43,
+          "page": 142
+        }
+      },
+      {
+        "question": "Ktorá z nasledujúcich zón lymfatických orgánov by sa vyvinula ako hypoplastická v prípade vývojovej poruchy zahŕňajúcej tretí faryngový vačok?",
+        "answers": [
+          "parakortex lymfatických uzlín",
+          "červená pulpa sleziny",
+          "PALS sleziny",
+          "dreň lymfatických uzlín",
+          "kôra lymfatických uzlín",
+          "plášťová zóna Malpighiho teliesok sleziny"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Lymfatický systém",
+          "number": 44,
+          "page": 142
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o vývine lymfatického systému:",
+        "answers": [
+          "retikulárny epitel týmusu sa vyvíja z prvej ektodermovej faryngovej brázdy",
+          "slezina sa vyvíja z mezenchýmových buniek lokalizovaných medzi vrstvami dorzálneho mezogastria",
+          "tonsilla palatina sa vyvíja z 2. endodermového faryngového vačku a okolitého mezenchýmu",
+          "lymfatické uzliny sú endodermového pôvodu"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Lymfatický systém",
+          "number": 45,
+          "page": 142
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o vývine lymfatického systému:",
+        "answers": [
+          "retikulárny epitel týmusu sa vyvíja z tretieho endodermového faryngového vačku",
+          "slezina má pôvod v endoderme predného čreva",
+          "tonsilla palatina sa vyvíja z 3. endodermového faryngového vačku a okolitého mezenchýmu",
+          "pri vývine týmusu zohrávajú dôležitú úlohu aj bunky neurálnej lišty"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Lymfatický systém",
+          "number": 46,
+          "page": 142
+        }
+      }
+    ]
+  }
+]

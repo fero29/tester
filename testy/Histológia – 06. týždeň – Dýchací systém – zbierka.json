@@ -1,0 +1,989 @@
+[
+  {
+    "title": "Histológia – 06. týždeň – Dýchací systém – zbierka",
+    "description": "Dýchacie cesty, priedušnica, bronchy, pľúca, pneumocyty a vývin dýchacieho systému. Otázky s výberom viacerých odpovedí zo zbierky Histológia a embryológia v otázkach (Miko, Klein, Juríková, UK 2025); kľúč podľa zbierky.",
+    "year": 2,
+    "category": "Histológia",
+    "sortOrder": 6.5,
+    "questions": [
+      {
+        "question": "Ktoré zložky dýchacej sústavy patria do jej dýchacej časti?",
+        "answers": [
+          "ductus alveolares",
+          "bronchioli terminales",
+          "bronchioli respiratorii",
+          "alveoli"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Respiračný systém",
+          "number": 1,
+          "page": 198
+        }
+      },
+      {
+        "question": "Ktoré štruktúry sa podieľajú na kondicionovaní (úprave) vzduchu?",
+        "answers": [
+          "chĺpky v nose",
+          "kyjakovité bunky",
+          "plexus cavernosus conchae",
+          "Bowmanove žľazy"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Respiračný systém",
+          "number": 2,
+          "page": 198
+        }
+      },
+      {
+        "question": "Ktoré bunkové populácie sa nachádzajú vo viacradovom epiteli vodiacej časti dýchacieho systému?",
+        "answers": [
+          "bazálne (kmeňové) bunky",
+          "kyjakovité bunky",
+          "prašné bunky",
+          "pohárikové bunky",
+          "bunky s mikroklkmi"
+        ],
+        "correct": [
+          0,
+          3,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Respiračný systém",
+          "number": 3,
+          "page": 198
+        }
+      },
+      {
+        "question": "Ktoré bunkové populácie sa nachádzajú v čuchovom epiteli?",
+        "answers": [
+          "receptorové bunky",
+          "pohárikové bunky",
+          "sustentakulárne (podporné) bunky",
+          "bunky s mikroklkmi"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Respiračný systém",
+          "number": 4,
+          "page": 198
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o stavbe dýchacích ciest sú pravdivé?",
+        "answers": [
+          "lamina propria bronchov obsahuje veľké množstvo seromucinóznych žliaz",
+          "všetky epitelové bunky trachey majú rovnaký tvar",
+          "epitel trachey je zložený z buniek, ktoré sa nachádzajú všetky na bazálnej membráne",
+          "alveolárne bunky typu II sú ploché bunky a spolu s endotelom krvných kapilár tvoria bariéru krv – vzduch"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Respiračný systém",
+          "number": 5,
+          "page": 199
+        }
+      },
+      {
+        "question": "Kde v dýchacích cestách môžeme nájsť za fyziologických podmienok viacvrstvový plochý epitel?",
+        "answers": [
+          "na carina tracheae",
+          "na nepravých hlasových väzoch",
+          "na jazykovej strane epiglotis",
+          "na vestibulum nasi",
+          "na bronchioloch",
+          "v čuchovej oblasti nosovej dutiny"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Respiračný systém",
+          "number": 6,
+          "page": 199
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o musculus trachealis sú pravdivé?",
+        "answers": [
+          "preklenuje kraniokaudálnu medzeru medzi dvoma chrupkami v tvare písmena C",
+          "je priečne pruhovaný kostrový sval",
+          "spája voľné konce chrupky v tvare písmena C v zadnej časti",
+          "spolu s chrupkami a väzivom dáva vzniknúť tunica fibromusculocartilaginea"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Respiračný systém",
+          "number": 7,
+          "page": 199
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich dvojíc súvisiacich s hrtanom zodpovedajú skutočnosti?",
+        "answers": [
+          "ventriculus Morgagni – musculus vocalis",
+          "nepravé hlasové väzy – slizničné žľazy",
+          "pravé hlasové väzy – conus elasticus",
+          "pravé hlasové väzy – Reinkeho priestor"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Respiračný systém",
+          "number": 8,
+          "page": 199
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o epiglotis sú pravdivé?",
+        "answers": [
+          "obsahuje hyalínovú chrupku",
+          "žľazy sa nachádzajú iba v hrtanovej oblasti",
+          "obsahuje priečne pruhovanú svalovinu",
+          "obsahuje elastickú chrupku"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Respiračný systém",
+          "number": 9,
+          "page": 200
+        }
+      },
+      {
+        "question": "Čo chýba v stene bronchiolov a, naopak, nachádza sa v stene bronchov?",
+        "answers": [
+          "hyalínová chrupka",
+          "pohárikové bunky",
+          "kyjakovité bunky",
+          "hladká svalovina"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Respiračný systém",
+          "number": 10,
+          "page": 200
+        }
+      },
+      {
+        "question": "Aká je úloha pneumocytov typu II?",
+        "answers": [
+          "produkujú pľúcny surfaktant",
+          "sú progenitorovými bunkami pre pneumocyty typu I",
+          "slúžia ako receptory",
+          "produkujú faktor proti atelektáze",
+          "vytvárajú efektívnu bariéru medzi krvou a vzduchom"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Respiračný systém",
+          "number": 11,
+          "page": 200
+        }
+      },
+      {
+        "question": "Aká je morfológia pneumocytov typu II?",
+        "answers": [
+          "obsahujú lamelárne telieska",
+          "sú to extrémne ploché bunky",
+          "majú tendenciu vyčnievať do alveolárneho priestoru",
+          "obsahujú mikroklky na apikálnom povrchu"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Respiračný systém",
+          "number": 12,
+          "page": 200
+        }
+      },
+      {
+        "question": "Kde v dýchacom systéme sa nachádza jednovrstvový kubický epitel?",
+        "answers": [
+          "čuchová oblasť nosovej dutiny",
+          "bronchy",
+          "respiračné bronchioly",
+          "terminálne bronchioly",
+          "nepravé hlasové väzy",
+          "alveolárne chodbičky"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Respiračný systém",
+          "number": 13,
+          "page": 201
+        }
+      },
+      {
+        "question": "Čo sú zložky bariéry krv – vzduch?",
+        "answers": [
+          "surfaktant",
+          "pneumocyt typu I",
+          "bazálna membrána tracheálneho typu",
+          "Kohnove alveolárne póry",
+          "splynuté bazálne laminy",
+          "pneumocyt typu II",
+          "endotelová bunka"
+        ],
+        "correct": [
+          0,
+          1,
+          4,
+          6
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Respiračný systém",
+          "number": 14,
+          "page": 201
+        }
+      },
+      {
+        "question": "Aké sú niektoré charakteristické znaky pľúc?",
+        "answers": [
+          "väčšina nervov nie je viditeľná pod svetelným mikroskopom",
+          "majú 2 paralelné krvné obehy (výživový a funkčný), ktoré čiastočne anastomozujú",
+          "ich vonkajší povrch je tvorený adventíciou",
+          "pľúcne lalôčiky sú oddelené väzivovými priehradkami",
+          "ich fenestrované krvné kapiláry uľahčujú difúziu dýchacích plynov"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Respiračný systém",
+          "number": 15,
+          "page": 201
+        }
+      },
+      {
+        "question": "Zastúpenie ktorej zložky steny dýchacích ciest relatívne stúpa s postupným vetvením tracheobronchiálneho stromu?",
+        "answers": [
+          "bunky s riasinkami",
+          "pohárikové bunky",
+          "chrupka",
+          "hladká svalovina",
+          "elastické vlákna",
+          "žľazy"
+        ],
+        "correct": [
+          3,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Respiračný systém",
+          "number": 16,
+          "page": 202
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o surfaktante sú pravdivé?",
+        "answers": [
+          "zabraňuje kolapsu alveol zvyšovaním povrchového napätia",
+          "jeho funkcia súvisí s krvnými kapilárami",
+          "je produktom pneumocytov typu I",
+          "pozostáva z bielkovín a fosfolipidov",
+          "jeho nadmerná produkcia môže spôsobiť syndróm respiračnej tiesne"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Respiračný systém",
+          "number": 17,
+          "page": 202
+        }
+      },
+      {
+        "question": "Čo je súčasťou interalveolárneho septa?",
+        "answers": [
+          "retikulárne vlákna",
+          "elastické vlákna",
+          "chrupka",
+          "endotelové bunky pľúcnych kapilár",
+          "pľúcny surfaktant",
+          "prašné bunky v krvných kapilárach"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Respiračný systém",
+          "number": 18,
+          "page": 202
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o prašných bunkách sú pravdivé?",
+        "answers": [
+          "sú to špecializované pľúcne neutrofily",
+          "sú odvodené od monocytov pochádzajúcich z kostnej drene",
+          "nazývajú sa aj alveolárne makrofágy",
+          "nazývajú sa aj Clarove (tiež označované Clara) bunky",
+          "sú to ploché alveolárne bunky"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Respiračný systém",
+          "number": 19,
+          "page": 202
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o pleure sú pravdivé?",
+        "answers": [
+          "epitelové bunky na jej povrchu obsahujú riasinky",
+          "je pokrytá jednovrstvovým plochým epitelom – mezotelom",
+          "viscerálna pleura lemuje vnútorné plochy hrudnej dutiny na oboch stranách mediastina",
+          "medzi dvoma pleurami je potenciálny priestor nazývaný pleurálna dutina"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Respiračný systém",
+          "number": 20,
+          "page": 203
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o respiračnom systéme:",
+        "answers": [
+          "epiglotis vystužuje elastická chrupka",
+          "jazykovú plochu epiglotis pokrýva viacvrstvový dlaždicový nerohovatejúci epitel",
+          "Reinkeho priestor je riedke väzivo pod nepravými hlasovými riasami",
+          "nepravé hlasové riasy obsahujú vo väzive seromucinózne žliazky"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Respiračný systém",
+          "number": 21,
+          "page": 203
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o respiračnom systéme:",
+        "answers": [
+          "epiglotis vystužuje hyalínová chrupka",
+          "hrtanovú plochu epiglotis pokrýva viacradový cylindrický epitel s riasinkami a pohárikovými bunkami",
+          "epiglotis obsahuje vo väzive seromucinózne žliazky",
+          "tonsilla laryngea je termín pre nahromadenie lymfatického tkaniva epiglotis"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Respiračný systém",
+          "number": 22,
+          "page": 203
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o respiračnom systéme:",
+        "answers": [
+          "plicae vocales obsahujú vo väzive najmä seromucinózne žliazky",
+          "hrtan je vystužený výlučne hyalínovou chrupkou",
+          "plicae vocales sú pokryté viacvrstvovým dlaždicovým nerohovatejúcim epitelom z dôvodu intenzívneho mechanického namáhania pri tvorbe hlasu",
+          "Reinkeho priestor je riedke väzivo pod plicae vocales"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Respiračný systém",
+          "number": 23,
+          "page": 203
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o respiračnom systéme:",
+        "answers": [
+          "chrupku, ktorá vystužuje epiglotis, dokážeme selektívne farebne odlíšiť napr. orceínom",
+          "hrtanovú plochu epiglotis v celom rozsahu pokrýva viacvrstvový dlaždicový nerohovatejúci epitel",
+          "tonsilla laryngea je nahromadenie lymfatického tkaniva v oblasti ventriculus laryngis",
+          "hrtan je celý vystlaný viacradovým cylindrickým epitelom s riasinkami a pohárikovými bunkami"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Respiračný systém",
+          "number": 24,
+          "page": 203
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o respiračnom systéme:",
+        "answers": [
+          "jazykovú plochu epiglotis pokrýva viacradový cylindrický epitel s riasinkami a pohárikovými bunkami",
+          "epiglotis je vystužená väzivovou chrupkou",
+          "plicae vocales obsahujú elastický väz označovaný ako ligamentum vocale",
+          "viacvrstvový dlaždicový epitel nerohovatejúci pokrýva jazykovú, ale aj časť hrtanovej plochy epiglotis"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Respiračný systém",
+          "number": 25,
+          "page": 204
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o respiračnom systéme:",
+        "answers": [
+          "priedušnicu vystužuje elastická chrupka",
+          "vo väzive lamina propria priedušnice môžeme nájsť lymfatické uzlíky ako súčasť BALT",
+          "chrupky vystužujúce priedušnicu majú tvar písmena C s otvorenými koncami smerujúcimi dorzálne",
+          "lamina propria sliznice priedušnice obsahuje zmiešané seromucinózne žliazky"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Respiračný systém",
+          "number": 26,
+          "page": 204
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o respiračnom systéme:",
+        "answers": [
+          "priedušnicu vystužuje hyalínová chrupka",
+          "lamina epithelialis priedušnice je tvorená viacvrstvovým dlaždicovým nerohovatejúcim epitelom",
+          "musculus trachealis v stene priedušnice je priečne pruhovaný kostrový sval",
+          "bazálna membrána epitelu priedušnice je viditeľná iba po použití špeciálnych farbív"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Respiračný systém",
+          "number": 27,
+          "page": 204
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o respiračnom systéme:",
+        "answers": [
+          "bazálna membrána epitelu priedušnice je hrubá 2 – 4 mikrometre, vďaka čomu ju vieme dobre odlíšiť aj pri bežnom farbení hematoxylínom a eozínom",
+          "žliazky v stene trachey sú čisto mucinózne",
+          "najpovrchovejšou vrstvou steny priedušnice je tunica adventitia",
+          "ligamenta anularia prepájajú susediace chrupky priedušnice navzájom"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Respiračný systém",
+          "number": 28,
+          "page": 204
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o respiračnom systéme:",
+        "answers": [
+          "ligamenta anularia prepájajú voľné konce jednotlivých chrupiek v priedušnici",
+          "paries membranaceus je označenie pre svalovo-väzivovú časť steny priedušnice",
+          "priedušnicu vystužuje väzivová chrupka",
+          "priedušnica je pokrytá serózou, ktorá ju pripája k okoliu"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Respiračný systém",
+          "number": 29,
+          "page": 205
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o respiračnom systéme:",
+        "answers": [
+          "priedušnica je vystlaná viacradovým cylindrickým epitelom s riasinkami a pohárikovými bunkami",
+          "prstence hyalínovej chrupky v stene priedušnice sú voľnými koncami obrátené ventrálne",
+          "podobne ako v hrtane, zabezpečujú výstuž priedušnice hyalínové aj elastické chrupky",
+          "musculus trachealis je hladký sval v stene priedušnice"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Respiračný systém",
+          "number": 30,
+          "page": 205
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o respiračnom systéme:",
+        "answers": [
+          "Clarove bunky sú súčasťou výstelky veľkých bronchov",
+          "bronchioly obsahujú v stene hyalínovú chrupku",
+          "bronchioly majú v porovnaní s bronchami relatívne viac elastických vlákien vzhľadom na hrúbku steny",
+          "bronchioly neobsahujú žliazky"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Respiračný systém",
+          "number": 31,
+          "page": 205
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o respiračnom systéme:",
+        "answers": [
+          "bronchioly na rozdiel od bronchov obsahujú vo väzive lymfatické uzlíky",
+          "terminálne bronchioly tvoria hranicu medzi vodiacou a respiračnou časťou dýchacieho systému",
+          "bronchioly majú spravidla na reze okrúhly lúmen",
+          "Clarove bunky za normálnych okolností produkujú surfaktant v pľúcnych alveolách"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Respiračný systém",
+          "number": 32,
+          "page": 205
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o respiračnom systéme:",
+        "answers": [
+          "všetky oddiely bronchiálneho stromu sú vystlané viacradovým cylindrickým epitelom s riasinkami a pohárikovými bunkami",
+          "malé bronchy majú, podobne ako trachea, v stene hyalínové chrupky tvaru písmena C",
+          "bronchy sú vystužené hyalínovou chrupkou, pričom bronchioly obsahujú chrupku elastickú",
+          "epitel dýchacieho systému sa smerom k periférii znižuje"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Respiračný systém",
+          "number": 33,
+          "page": 205
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o respiračnom systéme:",
+        "answers": [
+          "respiračné bronchioly obsahujú v stene žliazky, ale neobsahujú chrupku a lymfatické tkanivo",
+          "hyalínová chrupka v stene bronchov zabezpečuje, že posmrtne majú na reze bronchy skôr pravidelný lúmen",
+          "výmena dýchacích plynov môže prebiehať už od úrovne respiračných bronchiolov",
+          "posmrtný sťah hladkej svaloviny steny bronchiolov spôsobuje, že na reze majú nepravidelný lúmen"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Respiračný systém",
+          "number": 34,
+          "page": 206
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o respiračnom systéme:",
+        "answers": [
+          "väčšina oddielov dýchacieho systému obsahuje v stene vrstvu, kde nájdeme kombináciu hladkej svaloviny, vlákien väziva a chrupky",
+          "tunica fibromusculocartilaginea je súčasťou iba steny priedušnice",
+          "bronchy na povrchu pokrýva tunica adventitia",
+          "terminálne bronchioly sú súčasťou respiračnej časti dýchacieho systému"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Respiračný systém",
+          "number": 35,
+          "page": 206
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o respiračnom systéme:",
+        "answers": [
+          "bariéra krv – vzduch je tvorená pneumocytmi I. typu, kapilárami v interalveolárnych septách a ich splynutými bazálnymi laminami",
+          "makrofágy pľúcnych alveol označujeme ako prašné bunky alebo koniofágy",
+          "pľúcne alveoly sú, podobne ako zvyšok dýchacieho systému, vystlané viacradovým epitelom s riasinkami",
+          "Kohnove póry prepájajú, a tým vyrovnávajú tlak v susedných alveolách"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Respiračný systém",
+          "number": 36,
+          "page": 206
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o respiračnom systéme:",
+        "answers": [
+          "bariéru krv – vzduch tvoria pneumocyty typu I a pneumocyty typu II",
+          "interalveolárne septá obsahujú kapiláry so súvislou výstelkou",
+          "pľúcne alveoly vystiela viacvrstvový plochý epitel",
+          "pneumocyty typu II tvoria pľúcny surfaktant"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Respiračný systém",
+          "number": 37,
+          "page": 206
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o respiračnom systéme:",
+        "answers": [
+          "interalveolárne septá obsahujú kapiláry s fenestráciami",
+          "Kohnove póry sú súčasťou bariéry krv – vzduch",
+          "všetky súčasti bronchiálneho a alveolárneho stromu sú pokryté pleurou",
+          "bariéra krv – vzduch je hrubá okolo 0,6 mikrometra"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Respiračný systém",
+          "number": 38,
+          "page": 207
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o respiračnom systéme:",
+        "answers": [
+          "súčasťou respiračnej časti dýchacieho systému sú respiračné bronchioly, alveolárne chodbičky, alveolárne vačky a alveoly",
+          "interalveolárne septá obsahujú kapiláry s pórmi",
+          "jednovrstový plochý epitel alveol tvoria výlučne pneumocyty typu II",
+          "Clarove bunky produkujú sekrét, ktorý je zložením podobný ako surfaktant produkovaný pneumocytmi typu II"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Respiračný systém",
+          "number": 39,
+          "page": 207
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o respiračnom systéme:",
+        "answers": [
+          "Clarove bunky majú na povrchu riasinky",
+          "bariéra krv – vzduch je tvorená výlučne cytoplazmatickými membránami pneumocytov typu I a endotelových buniek kapilár",
+          "bariéra krv – vzduch má hrúbku okolo 5 – 6 mikrometrov",
+          "napriek tomu, že celé pľúca sú pokryté pleurou, jednotlivé oddiely bronchiálneho stromu sú k okoliu pripojené adventíciou"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Respiračný systém",
+          "number": 40,
+          "page": 207
+        }
+      },
+      {
+        "question": "Ktoré časti trachey sú endodermového pôvodu?",
+        "answers": [
+          "hyalínová chrupka v tvare písmena C",
+          "ligamenta annularia",
+          "poháriková bunka",
+          "žľazy trachey",
+          "endokrinné bunky DES",
+          "musculus trachealis"
+        ],
+        "correct": [
+          2,
+          3,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Respiračný systém",
+          "number": 41,
+          "page": 207
+        }
+      },
+      {
+        "question": "Ako by ste vysvetlili relatívne častý výskyt tracheoezofageálnych fistúl z embryologického hľadiska?",
+        "answers": [
+          "z vyčnievajúcej priedušnice vyrástol primitívny pažerák",
+          "nesprávne oddelenie pľúcneho púčika od pažeráka",
+          "pleuroperikardiálne záhyby sa nestretli a nevytvorili pleurálne dutiny",
+          "nemajú embryologické vysvetlenie, nejde o vývojovú chybu, ale o získanú chybu (napr. po infekcii)",
+          "predné črevo sa úplne nerozdelí na priedušnicu a pažerák"
+        ],
+        "correct": [
+          1,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Respiračný systém",
+          "number": 42,
+          "page": 208
+        }
+      },
+      {
+        "question": "Približne koľko delení primárneho bronchiálneho púčika sa uskutoční do 28. týždňa?",
+        "answers": [
+          "3",
+          "28",
+          "16",
+          "delenie sa začína až po 28. týždni"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Respiračný systém",
+          "number": 43,
+          "page": 208
+        }
+      },
+      {
+        "question": "Ktoré zložky dýchacieho systému sú ektodermového pôvodu?",
+        "answers": [
+          "musculus vocalis",
+          "endokrinné bunky DNES v bronchoch",
+          "autonómna inervácia trachey",
+          "čuchový orgán",
+          "parietálna pleura"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Respiračný systém",
+          "number": 44,
+          "page": 208
+        }
+      },
+      {
+        "question": "Nedonosené deti neprodukujú dostatočné množstvo pľúcneho surfaktantu. Čo by ste očakávali na histologickom preparáte pľúcneho tkaniva takéhoto dieťaťa?",
+        "answers": [
+          "skolabované alveoly",
+          "bronchiektázie (rozšírené dýchacie cesty)",
+          "zhrubnutá bariéra krv – vzduch",
+          "emfyzém (zväčšené priestory vyplnené vzduchom s deštrukciou alveol)"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Respiračný systém",
+          "number": 45,
+          "page": 208
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o vývine respiračného systému:",
+        "answers": [
+          "všetky súčasti tracheobronchiálneho stromu sa vyvíjajú z endodermy",
+          "vývin respiračného systému súvisí s vývinom predného čreva",
+          "konečným štádiom maturácie pľúc je pseudoglandulárne štádium",
+          "chrupky hrtanu sa vyvíjajú z mezenchýmu, ktorý je pôvodom z neurálnej lišty"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Respiračný systém",
+          "number": 46,
+          "page": 209
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o vývine respiračného systému:",
+        "answers": [
+          "maturácia pľuc prebieha v štyroch histologických štádiách",
+          "tracheoezofageálne septum rozdelí časť predného čreva na základ respiračného systému ventrálne a časti tráviacej rúry dorzálne",
+          "prvým štádiom vývinu respiračného systému je laryngotracheálny žliabok",
+          "epitel respiračného systému sa vyvíja z mezenchýmu, ktorý pochádza z mezodermy splanchnopleury"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Respiračný systém",
+          "number": 47,
+          "page": 209
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o vývine respiračného systému:",
+        "answers": [
+          "mezenchým pôvodom z mezodermy splanchnopleury je základom pre chrupku, svalovinu a väzivo v orgánoch respiračného systému",
+          "pri neúplnom oddelení základu priedušnice a pažeráka môžu vzniknúť rôzne typy tracheoezofageálnych fistúl",
+          "prvým histologickým štádiom maturácie pľúc je kanalikulárne štádium",
+          "bronchiálny strom vzniká z kraniálneho konca laryngotracheálneho divertikula"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Respiračný systém",
+          "number": 48,
+          "page": 209
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o vývine respiračného systému:",
+        "answers": [
+          "stav novorodenca, ktorého pľúca sa nachádzajú v pseudoglandulárnom štádiu, nie je zlučiteľný so životom",
+          "posledným štádiom maturácie pľúc je alveolárne štádium",
+          "respiračný systém sa začína vyvíjať až v 8. týždni po oplodnení",
+          "základ respiračného systému sa vyvíja v oblasti stredného čreva"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Respiračný systém",
+          "number": 49,
+          "page": 209
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o vývine respiračného systému:",
+        "answers": [
+          "pseudoglandulárne štádium maturácie pľúc sa histologicky podobá exokrinným žľazám",
+          "závažný a chronický oligohydramnion vedie k poruche vývinu pľúc, ktorej výsledkom je pľúcna hypoplázia",
+          "chrupky laryngu sa vyvíjajú z materiálu prvého a druhého žiabrového oblúka",
+          "respiračný systém sa začína vyvíjať v 4. týždni po oplodnení"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Respiračný systém",
+          "number": 50,
+          "page": 210
+        }
+      }
+    ]
+  }
+]

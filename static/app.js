@@ -470,6 +470,7 @@ function renderTestListItem(test, index) {
                 <div class="test-main-info">
                     <h3>${escapeHtml(test.title || 'Test ' + (index + 1))}</h3>
                     <p>${escapeHtml(test.description || '')}</p>
+                    ${test.studyMaterial ? `<a class="study-link" href="/api/assets/${escapeHtml(test.studyMaterial)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">📖 Vypracované zadanie na čítanie</a>` : ''}
                     <p><strong>${test.testType === 'vocabulary'
                         ? (test.vocabulary ? test.vocabulary.length : 0) + ' slovíčok'
                         : (test.questions ? test.questions.length : 0) + (test.testType === 'selfcheck' ? ' úloh na písanie' : ' otázok')}</strong></p>

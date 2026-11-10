@@ -1,0 +1,982 @@
+[
+  {
+    "title": "Histológia – 02. týždeň – Kardiovaskulárny systém – zbierka",
+    "description": "Stena ciev, artérie, vény, kapiláry, srdce a vývin srdca a ciev. Otázky s výberom viacerých odpovedí zo zbierky Histológia a embryológia v otázkach (Miko, Klein, Juríková, UK 2025); kľúč podľa zbierky.",
+    "year": 2,
+    "category": "Histológia",
+    "sortOrder": 2.5,
+    "questions": [
+      {
+        "question": "Ktoré tkanivo je najviac zastúpené v stenách arteriol?",
+        "answers": [
+          "elastické väzivo",
+          "husté kolagénové väzivo",
+          "svalové tkanivo",
+          "epitelové tkanivo"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kardiovaskulárny systém",
+          "number": 1,
+          "page": 119
+        }
+      },
+      {
+        "question": "Aké sú rôzne typy krvných kapilár?",
+        "answers": [
+          "kontinuálne",
+          "fenestrované",
+          "svalového typu",
+          "sínusoidy"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kardiovaskulárny systém",
+          "number": 2,
+          "page": 119
+        }
+      },
+      {
+        "question": "V ktorých orgánoch sa nachádzajú fenestrované krvné kapiláry?",
+        "answers": [
+          "v sliznici tenkého čreva",
+          "v mozgu",
+          "vo väčšine endokrinných žliaz",
+          "v kostrových svaloch"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kardiovaskulárny systém",
+          "number": 3,
+          "page": 119
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o chlopniach žíl sú pravdivé?",
+        "answers": [
+          "najčastejšie sa vyskytujú v tepnách dolných končatín",
+          "sú duplikatúrou tunica intima spolu s tunica media",
+          "sú pokryté endotelom",
+          "bránia spätnému toku krvi v končatinách"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kardiovaskulárny systém",
+          "number": 4,
+          "page": 119
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o pericytoch sú pravdivé?",
+        "answers": [
+          "obklopujú endotelové bunky",
+          "v mozgových krvných kapilárach pomáhajú vytvárať hematoencefalickú bariéru",
+          "sú prítomné v tunica media väčších tepien",
+          "vzájomne komunikujú pomocou nexov",
+          "majú vretenovitú morfológiu bez cytoplazmatických výbežkov"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kardiovaskulárny systém",
+          "number": 5,
+          "page": 120
+        }
+      },
+      {
+        "question": "Ako sa líši žila od tepny porovnateľnej veľkosti?",
+        "answers": [
+          "žila má hrubšiu tunica media",
+          "žila môže obsahovať chlopne",
+          "v žile sa častejšie nachádza krv",
+          "žila má pravidelnejší lúmen",
+          "žila nemusí obsahovať tunica intima",
+          "žila má zvyčajne väčšie zastúpenie hladkej svaloviny v tunica adventitia"
+        ],
+        "correct": [
+          1,
+          2,
+          5
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kardiovaskulárny systém",
+          "number": 6,
+          "page": 120
+        }
+      },
+      {
+        "question": "Ktoré tepny sú elastického typu?",
+        "answers": [
+          "arteria pudenda media",
+          "arteria mesenterica inferior",
+          "aorta",
+          "truncus pulmonalis"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kardiovaskulárny systém",
+          "number": 7,
+          "page": 120
+        }
+      },
+      {
+        "question": "Ako sa líšia lymfatické kapiláry od krvných kapilár?",
+        "answers": [
+          "začínajú sa slepo",
+          "majú zvyčajne menší priemer",
+          "erytrocyty sa tu nachádzajú, ale v menšom množstve",
+          "majú voľnejší endotel s väčšími fenestráciami"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kardiovaskulárny systém",
+          "number": 8,
+          "page": 120
+        }
+      },
+      {
+        "question": "Ako vieme selektívne vizualizovať typické štruktúry v tunica media aorty?",
+        "answers": [
+          "rezorcín-fuchsínom",
+          "azanom",
+          "HE",
+          "Sudanovou čiernou",
+          "orceínom"
+        ],
+        "correct": [
+          0,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kardiovaskulárny systém",
+          "number": 9,
+          "page": 121
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o vasa vasorum sú pravdivé?",
+        "answers": [
+          "nenachádzajú sa v tunica media tepien",
+          "sú v stene žíl hojnejšie ako v tepnách",
+          "slúžia na zásobovanie stien ciev kyslíkom a živinami",
+          "väčšie vasa vasorum môžu vo svojej stene obsahovať ďalšie vasa vasorum"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kardiovaskulárny systém",
+          "number": 10,
+          "page": 121
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o membrana elastica interna sú pravdivé?",
+        "answers": [
+          "tvorí hranicu medzi tunica media a tunica adventitia v mnohých tepnách",
+          "napriek svojmu názvu sa neskladá z elastických vlákien",
+          "je najvýraznejšia v svalových tepnách",
+          "v histologických preparátoch prebieha vlnovito"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kardiovaskulárny systém",
+          "number": 11,
+          "page": 121
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich všeobecných tvrdení o krvných kapilárach sú pravdivé?",
+        "answers": [
+          "ich tunica media je tvorená 2 až 5 vrstvami hladkých svalových buniek",
+          "ich stena môže obsahovať pericyty",
+          "sú vystlané plochými endotelovými bunkami a ich bazálnou laminou, ktorá môže byť súvislá alebo prerušovaná",
+          "ich endotel je zložený z kubických buniek a leží na bazálnej lamine"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kardiovaskulárny systém",
+          "number": 12,
+          "page": 121
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich všeobecných tvrdení o Purkyňových vláknach sú pravdivé?",
+        "answers": [
+          "nachádzajú sa v subendokardovom spojivovom tkanive",
+          "skladajú sa zo špecializovaných neurónov",
+          "špecializujú sa na šírenie akčného potenciálu",
+          "obsahujú veľa glykogénu, takže ich cytoplazma je na parafínových rezoch farbených H&E svetlá",
+          "nachádzajú sa v preparátoch predsiene srdca"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kardiovaskulárny systém",
+          "number": 13,
+          "page": 122
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o endoteli sú pravdivé?",
+        "answers": [
+          "nachádza sa aj v mozgových krvných kapilárach",
+          "endokard srdca je vystlaný kubickými endotelovými bunkami",
+          "tvorí najvnútornejšiu jednovrstvovú výstelku ciev a je uložený pozdĺžne v smere toku krvi",
+          "je významným zdrojom hormónov",
+          "nenachádza sa v lymfatických cievach"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kardiovaskulárny systém",
+          "number": 14,
+          "page": 122
+        }
+      },
+      {
+        "question": "Akým tkanivom je pokrytý epikard?",
+        "answers": [
+          "viacvrstvovým plochým epitelom",
+          "riedkym kolagénovým väzivom",
+          "jednovrstvovým plochým epitelom",
+          "hustým kolagénovým väzivom (kapsulou)"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kardiovaskulárny systém",
+          "number": 15,
+          "page": 122
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich bunkových spojení sú typickou štruktúrou interkalárnych diskov?",
+        "answers": [
+          "nexy",
+          "zonulae occludentes",
+          "fasciae adherentes",
+          "hemidezmozómy",
+          "dezmozómy"
+        ],
+        "correct": [
+          0,
+          2,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kardiovaskulárny systém",
+          "number": 16,
+          "page": 122
+        }
+      },
+      {
+        "question": "Ako sa nazývajú hormóny produkované myokardom?",
+        "answers": [
+          "atriálny natriuretický faktor",
+          "srdcový natriuretický peptid",
+          "antidiuretický hormón",
+          "mozgový natriuretický peptid"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kardiovaskulárny systém",
+          "number": 17,
+          "page": 123
+        }
+      },
+      {
+        "question": "V nasledujúcom výroku opravte slovo tak, aby bol tento výrok správny: Vaskulogenéza je fyziologický proces, pri ktorom sa krvné nové cievy tvoria z už existujúcich ciev vytvorených v predchádzajúcich štádiách.",
+        "answers": [
+          "vaskulogenéza → angiogenéza",
+          "fyziologický → vždy patologický",
+          "krvné → lymfatické",
+          "ciev → krvných ostrovčekov"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kardiovaskulárny systém",
+          "number": 18,
+          "page": 123
+        }
+      },
+      {
+        "question": "Ktoré z týchto dvojíc sú správne?",
+        "answers": [
+          "membrana elastica interna – svalová tepna",
+          "Purkyňove vlákna – nexy",
+          "perikardiálna dutina – mezotel",
+          "papilárne svaly – bunky hladkej svaloviny",
+          "tachykardia – nervus vagus"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kardiovaskulárny systém",
+          "number": 19,
+          "page": 123
+        }
+      },
+      {
+        "question": "Aké sú priemerné priemery rôznych ciev v dospelosti?",
+        "answers": [
+          "elastické tepny: 1 až 4 cm",
+          "krvné kapiláry: 50 až 150 µm",
+          "arterioly: 10 až 100 µm",
+          "svalové tepny: 0,1 až 10 mm"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kardiovaskulárny systém",
+          "number": 20,
+          "page": 123
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o srdci:",
+        "answers": [
+          "epikard je najpovrchovejšou vrstvou steny srdca",
+          "endotel je tá vrstva endokardu, ktorá je v priamom styku s krvou",
+          "najhrubšou vrstvou steny srdca je myokard",
+          "bunky prevodového systému srdca nájdeme v subendotelovej vrstve endokardu"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kardiovaskulárny systém",
+          "number": 21,
+          "page": 124
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o srdci:",
+        "answers": [
+          "myokard je tvorený vrstvami hladkej svaloviny",
+          "Purkyňove vlákna sú špecializované nervové vlákna prevodového systému srdca",
+          "epikard a viscerálny list perikardu sú totožné štruktúry",
+          "súčasťou epikardu je subepikardová vrstva s veľkým množstvom tukového väziva"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kardiovaskulárny systém",
+          "number": 22,
+          "page": 124
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o srdci:",
+        "answers": [
+          "Purkyňove vlákna sú modifikované kardiomyocyty prevodového systému srdca",
+          "perikard je serózna blana tvorená parietálnym a viscerálnym listom, medzi ktorými sa nachádza perikardová dutina",
+          "subepikardová vrstva obsahuje vetvy koronárnych artérií",
+          "endokard je vystlaný jednou vrstvou mezotelových buniek"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kardiovaskulárny systém",
+          "number": 23,
+          "page": 124
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o srdci:",
+        "answers": [
+          "najhrubšou vrstvou steny srdca je endokard",
+          "Purkyňove vlákna sú lokalizované v subendokardovej vrstve srdcových komôr",
+          "srdce má, podobne ako krvné cievy, tri základné vrstvy – endokard, myokard a epikard",
+          "kardiomyocyty pracovného myokardu sú za normálnych okolností vždy väčšie ako Purkyňove vlákna"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kardiovaskulárny systém",
+          "number": 24,
+          "page": 124
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o srdci:",
+        "answers": [
+          "subendotelovú vrstvu tvorí husté kolagénové väzivo",
+          "epikard je synonymom pre parietálny list perikardu",
+          "Purkyňove vlákna obsahujú myofibrily najmä v okolí jadra",
+          "srdcový skelet je tvorený prstencami hustého neusporiadaného kolagénového väziva"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kardiovaskulárny systém",
+          "number": 25,
+          "page": 124
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o artériách:",
+        "answers": [
+          "najhrubšou stenou artérií je tunica media",
+          "artérie svalového typu obsahujú v tunica media prevažne elastické membrány",
+          "príkladom tepny elastického typu je aorta",
+          "väčšina artérií v ľudskom tele je svalového typu"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kardiovaskulárny systém",
+          "number": 26,
+          "page": 125
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o artériách:",
+        "answers": [
+          "artérie majú na histologických rezoch spravidla pravidelný lúmen",
+          "fenestrované elastické membrány nájdeme napr. v aorte",
+          "tepny elastického typu sú najmä periférne tepny stredného a menšieho kalibru",
+          "membrana elastica interna svalových tepien je spravidla dobre vyvinutá"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kardiovaskulárny systém",
+          "number": 27,
+          "page": 125
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o artériách:",
+        "answers": [
+          "až 40 vrstiev buniek hladkej svaloviny pozorujeme v tunica media tepien svalového typu",
+          "tunica adventitia je pri tepnách najviac vyvinutou vrstvou",
+          "tepny elastického typu neobsahujú v stene vasa vasorum – všetky živiny a kyslík sú zabezpečované difúziou z cirkulujúcej krvi",
+          "membrana elastica interna arteriol je väčšinou dobre vyvinutá"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kardiovaskulárny systém",
+          "number": 28,
+          "page": 125
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o artériách:",
+        "answers": [
+          "tunica media arteriol je tvorená 1 – 5 vrstvami hladkých svalových buniek",
+          "subendotelová vrstva elastických artérií môže obsahovať aj hladké svalové bunky",
+          "tunica adventitia artérií elastického typu obsahuje vasa vasorum aj nervi vasorum",
+          "jediným rozdielom medzi tepnami svalového a elastického typu je štruktúra tunica media"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kardiovaskulárny systém",
+          "number": 29,
+          "page": 125
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o artériách:",
+        "answers": [
+          "endotel všetkých typov artérií je tvorený jednou vrstvou plochých buniek v priamom kontakte s krvou",
+          "všetky najväčšie tepny odstupujúce zo srdca sú tepny elastického typu",
+          "tepny majú spravidla nepravidelný kolabovaný lúmen",
+          "membrana elastica externa je najlepšie vyvinutá v arteriolách"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kardiovaskulárny systém",
+          "number": 30,
+          "page": 125
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o vénach:",
+        "answers": [
+          "najhrubšou vrstvou steny vén je tunica adventitia",
+          "postkapiláry sú najmenšie vény tvorené iba endotelom a pericytmi",
+          "v svalových venulách sú hladké svalové bunky postupne nahradené pericytmi",
+          "žilové chlopne sú duplikatúry tunica intima"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kardiovaskulárny systém",
+          "number": 31,
+          "page": 126
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o vénach:",
+        "answers": [
+          "pre vény malého kalibru je typická dobre odlíšiteľná lamina elastica interna",
+          "veľké žily obsahujú v tunica adventitia veľké množstvo hladkých svalových buniek v smere dlhej osi žily",
+          "žily majú na reze spravidla nepravidelný lúmen",
+          "najviac hladkej svaloviny v stene veľkých vén nájdeme v tunica media"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kardiovaskulárny systém",
+          "number": 32,
+          "page": 126
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o vénach:",
+        "answers": [
+          "stena žíl, na rozdiel od steny artérií, neobsahuje vasa vasorum",
+          "najhrubšou vrstvou steny vén je tunica intima",
+          "kolabovaný nepravidelný lúmen je jedným z hlavných znakov, vďaka ktorému na reze odlíšime vény od artérií",
+          "vasa vasorum steny vén sú v porovnaní s artériami početnejšie pretože krv cirkulujúca vo vénach je chudobná na kyslík a živiny"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kardiovaskulárny systém",
+          "number": 33,
+          "page": 126
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o vénach:",
+        "answers": [
+          "najhrubšou vrstvou steny vén je tunica media",
+          "venuly majú širší priesvit ako postkapiláry",
+          "v lúmene vén často pozorujeme erytrocyty",
+          "tunica adventitia je najlepšie odlíšiteľná v zberných venulách"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kardiovaskulárny systém",
+          "number": 34,
+          "page": 126
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o vénach:",
+        "answers": [
+          "žilové chlopne sú duplikatúry (výchlipky) tunica media",
+          "hladké svalové bunky steny vén dokážu produkovať všetky komponenty extracelulárneho matrixu",
+          "žilové chlopne sú najviac zastúpené v žilách dolných končatín",
+          "všetky žily v ľudskom tele bez výnimky sú vystlané plochými endotelovými bunkami"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kardiovaskulárny systém",
+          "number": 35,
+          "page": 127
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o krvných kapilárach:",
+        "answers": [
+          "sínusoidy sú kapiláry so súvislou výstelkou",
+          "kapiláry s fenestráciami bez diafragmy (kapiláry s pórmi) sa nachádzajú iba v glomeruloch obličkového telieska",
+          "kapiláry so súvislou výstelkou nájdeme napr. vo väzive alebo v kostrovej svalovine",
+          "fenestrované kapiláry sú lokalizované napr. v čreve alebo endokrinných orgánoch"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kardiovaskulárny systém",
+          "number": 36,
+          "page": 127
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o krvných kapilárach:",
+        "answers": [
+          "sínusoidy majú široký lúmen, fenestrácie, póry a nesúvislú bazálnu laminu",
+          "sínusoidy nájdeme napríklad v slezine, pečeni alebo kostnej dreni",
+          "jednotlivé typy kapilár vieme spoľahlivo odlíšiť svetelným mikroskopom",
+          "sínusoidy majú priemer okolo 7 mikrometrov"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kardiovaskulárny systém",
+          "number": 37,
+          "page": 127
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o krvných kapilárach:",
+        "answers": [
+          "kapiláry so súvislou výstelkou sa označujú aj ako somatické kapiláry",
+          "kapiláry s fenestráciami sa označujú aj ako viscerálne kapiláry",
+          "kapiláry sú rovnako ako ostatné krvné cievy tvorené troma vrstvami",
+          "pericyty okolo kapilár sú schopné kontrakcie"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kardiovaskulárny systém",
+          "number": 38,
+          "page": 127
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o krvných kapilárach:",
+        "answers": [
+          "kapiláry so súvislou výstelkou nájdeme napr. v adenohypofýze alebo kostnej dreni",
+          "sínusoidy majú v porovnaní s ostatnými typmi kapilár širší lúmen",
+          "šírka lúmenu je jediným znakom, ktorým sa sínusoidy líšia od ostatných typov kapilár",
+          "sínusoidy nájdeme v kostnej dreni či adenohypofýze"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kardiovaskulárny systém",
+          "number": 39,
+          "page": 127
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o krvných kapilárach:",
+        "answers": [
+          "kapiláry so súvislou výstelkou nájdeme v orgánoch s intenzívnou látkovou výmenou",
+          "všetky kapiláry majú priesvit okolo 40 mikrometrov",
+          "kapiláry nemajú vlastnú tunica media, jej funkciu nahrádzajú pericyty",
+          "pericyty dokážu ovplyvňovať permeabilitu kapilár"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kardiovaskulárny systém",
+          "number": 40,
+          "page": 128
+        }
+      },
+      {
+        "question": "Z akého tkaniva vznikajú prvé krvné ostrovčeky?",
+        "answers": [
+          "splanchnická mezoderma",
+          "bunky neurálnej lišty",
+          "extraembryonálny mezenchým",
+          "epiblast"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kardiovaskulárny systém",
+          "number": 41,
+          "page": 128
+        }
+      },
+      {
+        "question": "Aké sú prítoky sinus venosus počas embryonálneho vývoja?",
+        "answers": [
+          "vitelínová žila",
+          "dorzálna aorta",
+          "spoločná kardinálna žila (Cuvierov kanál)",
+          "pupočná žila"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kardiovaskulárny systém",
+          "number": 42,
+          "page": 128
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich dvojíc embryonálnych ciev a z nich vytvorených definitívnych ciev sú správne?",
+        "answers": [
+          "2. aortálny oblúk – maxilárna artéria",
+          "vitelínová tepna – celiakálny kmeň (truncus coeliacus)",
+          "pravá pupočná žila – pečeňové žily",
+          "4. oblúk ľavej aorty – ľavá pľúcna tepna"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kardiovaskulárny systém",
+          "number": 43,
+          "page": 128
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich udalostí sa dejú počas flexie srdcovej rúry?",
+        "answers": [
+          "primitívna predsieň sa pohybuje kraniálne a dorzálne",
+          "sinus venosus sa stáva súčasťou pravej komory",
+          "pravá a ľavá predsieň sa vyvíjajú symetricky",
+          "bulbus cordis sa naďalej rozširuje"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kardiovaskulárny systém",
+          "number": 44,
+          "page": 128
+        }
+      },
+      {
+        "question": "Ktoré štruktúry môžu byť nefunkčné pri defektoch predsieňového septa?",
+        "answers": [
+          "konotrunkálne hrebene",
+          "septum intermedium",
+          "septum primum",
+          "septum secundum"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kardiovaskulárny systém",
+          "number": 45,
+          "page": 129
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o vývine kardiovaskulárneho systému:",
+        "answers": [
+          "kardiovaskulárny systém sa začína vyvíjať v 5. týždni od odplodnenia",
+          "srdce sa najprv vyvíja ako dve endokardové srdcové rúry, ktoré zrastú a vytvoria jedinú srdcovú rúru",
+          "prvé krvné cievy sa vyvíjajú extraembryonálne v stene žĺtkového vačku",
+          "ductus venosus je spojka obchádzajúca pečeň medzi umbilikálnou žilou a dolnou dutou žilou"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kardiovaskulárny systém",
+          "number": 46,
+          "page": 129
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o vývine kardiovaskulárneho systému:",
+        "answers": [
+          "srdce začína tepať už 22. – 23. deň po oplodnení",
+          "dorzálne aorty vznikajú z intermediárnej mezodermy",
+          "prvé krvné cievy sa začínajú vyvíjať zo splanchnopleury laterálnej mezodermy",
+          "pravá vitelínová véna dáva základ portálnemu krvnému obehu pečene"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kardiovaskulárny systém",
+          "number": 47,
+          "page": 129
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o vývine kardiovaskulárneho systému:",
+        "answers": [
+          "bulbus cordis je časť primitívneho srdca, z ktorej sa vyvinú srdcové predsiene",
+          "kardinálne vény pritekajú do sinus venosus zo steny žĺtkového vačku",
+          "aortálny vak súvisí s výtokovou časťou primitívneho srdca",
+          "foramen primum dáva základ budúcemu foramen ovale"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kardiovaskulárny systém",
+          "number": 48,
+          "page": 129
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o vývine kardiovaskulárneho systému:",
+        "answers": [
+          "sinus venosus sa podieľa čiastočne na vývine srdcových predsiení",
+          "počas septácie srdca vzniká septum intermedium, ktoré dáva základ pre pravú a ľavú predsieň",
+          "septácia predsiení a komôr neprebieha zároveň – najprv sa rozdelia predsiene a až potom komory",
+          "súčasne so spojením septum primum a septum intermedium vzniká v septum primum apoptózou otvor, ktorý označujeme ako foramen secundum"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kardiovaskulárny systém",
+          "number": 49,
+          "page": 129
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o vývine kardiovaskulárneho systému:",
+        "answers": [
+          "foramen ovale patens (apertum) je vrodená vývinová chyba septácie komôr",
+          "cor sigmoideum vzniká ešte v štádiu párových endokardových srdcových rúr",
+          "bulbárne hrebene a hrebene v truncus arteriosus súvisia so vznikom budúcej aorty a truncus pulmonalis a na ich vzniku sa podieľajú bunky neurálnej lišty",
+          "septum aorticopulmonale má špirálovitý priebeh a preto ho označujeme aj ako septum spirale"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Kardiovaskulárny systém",
+          "number": 50,
+          "page": 130
+        }
+      }
+    ]
+  }
+]

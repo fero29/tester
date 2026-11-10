@@ -1,0 +1,976 @@
+[
+  {
+    "title": "Histológia – 04. týždeň – Tráviaci systém 2 – zbierka",
+    "description": "Slinné žľazy, pankreas, pečeň, žlčník, vývody a ich vývin. Otázky s výberom viacerých odpovedí zo zbierky Histológia a embryológia v otázkach (Miko, Klein, Juríková, UK 2025); kľúč podľa zbierky.",
+    "year": 2,
+    "category": "Histológia",
+    "sortOrder": 4.5,
+    "questions": [
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o Langerhansových ostrovčekoch sú pravdivé?",
+        "answers": [
+          "sú obklopené exokrinnými zložkami",
+          "sú avaskulárne",
+          "ich najčastejším typom buniek sú bunky B (β)",
+          "sú zložené z chromafinných buniek"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém II (žľazy asociované s GIT)",
+          "number": 1,
+          "page": 171
+        }
+      },
+      {
+        "question": "Čo môže hepatocyt uchovávať vo svojej cytoplazme?",
+        "answers": [
+          "vitamín A",
+          "vitamín D",
+          "železo (feritín)",
+          "glykogén"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém II (žľazy asociované s GIT)",
+          "number": 2,
+          "page": 171
+        }
+      },
+      {
+        "question": "Ktoré pojmy úzko súvisia s intrahepatálnymi žlčovodmi?",
+        "answers": [
+          "cholangiocyty",
+          "Heringov kanál",
+          "Rokitanského-Aschoffove sínusy",
+          "Disseho priestor",
+          "Kupfferova bunka"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém II (žľazy asociované s GIT)",
+          "number": 3,
+          "page": 171
+        }
+      },
+      {
+        "question": "Ktorá z nasledujúcich buniek je najviac podobná epitelovej bunke sliznice žlčníka?",
+        "answers": [
+          "Panethova bunka",
+          "hepatocyt",
+          "serózna bunka",
+          "enterocyt"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém II (žľazy asociované s GIT)",
+          "number": 4,
+          "page": 171
+        }
+      },
+      {
+        "question": "Ktorá z nasledujúcich žliaz je histologicky najpodobnejšia exokrinnému pankreasu?",
+        "answers": [
+          "Ebnerova žľaza",
+          "Webberova žľaza",
+          "podjazyková žľaza",
+          "pečeň",
+          "endokrinný pankreas"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém II (žľazy asociované s GIT)",
+          "number": 5,
+          "page": 172
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o exokrinnom pankrease sú pravdivé?",
+        "answers": [
+          "obsahuje aj centroacinózne bunky",
+          "jeho acinárne bunky obsahujú zymogénne granuly v apikálnej cytoplazme",
+          "má prúžkovaný intralobulárny kanál",
+          "má fenestrované krvné kapiláry",
+          "jeho aciny obsahujú serózne bunky"
+        ],
+        "correct": [
+          0,
+          1,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém II (žľazy asociované s GIT)",
+          "number": 6,
+          "page": 172
+        }
+      },
+      {
+        "question": "Ktoré z týchto dvojíc sú správne?",
+        "answers": [
+          "prúžkovaný vývod – príušná žľaza",
+          "perisinusoidálny priestor – Mallov priestor",
+          "tunica submucosa – žlčník",
+          "pečeňové sínusoidy – Kupfferove bunky",
+          "Itove (hviezdicovité) bunky – Disseho priestor"
+        ],
+        "correct": [
+          0,
+          3,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém II (žľazy asociované s GIT)",
+          "number": 7,
+          "page": 172
+        }
+      },
+      {
+        "question": "Ako sa nazýva bunka v žľaze tráviacej sústavy, ktorej produkt reguluje uvoľňovanie rastového hormónu z adenohypofýzy?",
+        "answers": [
+          "δ (D) bunka",
+          "hepatocyt",
+          "α (A) bunka",
+          "PP bunka"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém II (žľazy asociované s GIT)",
+          "number": 8,
+          "page": 172
+        }
+      },
+      {
+        "question": "Peptid C sa vylučuje zo sekrečných buniek spolu s inzulínom. Funkciu akých buniek hodnotíme pri meraní vylučovania peptidu C močom?",
+        "answers": [
+          "acinárne bunky pankreasu",
+          "enteroendokrinné bunky",
+          "α (A) bunky",
+          "β (B) bunky"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém II (žľazy asociované s GIT)",
+          "number": 9,
+          "page": 173
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich žliaz obsahujú serózne sekrečné bunky?",
+        "answers": [
+          "pankreas",
+          "podčeľustná žľaza",
+          "pečeň",
+          "príušná žľaza",
+          "podjazyková žľaza"
+        ],
+        "correct": [
+          0,
+          1,
+          3,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém II (žľazy asociované s GIT)",
+          "number": 10,
+          "page": 173
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o vývodoch tráviacich žliaz sú pravdivé?",
+        "answers": [
+          "centroacinózne bunky sú proximálnou časťou vývodov veľkých slinných žliaz",
+          "epitelové bunky prúžkovaných kanálikov obsahujú množstvo mitochondrií",
+          "cholangiocyty sú prítomné v intrahepatálnych aj extrahepatálnych žlčovodoch",
+          "intrahepatálne žlčové kapiláry sa nazývajú aj Disseho priestor"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém II (žľazy asociované s GIT)",
+          "number": 11,
+          "page": 173
+        }
+      },
+      {
+        "question": "Aké bunky môžete nájsť v pečeni?",
+        "answers": [
+          "hepatocyty",
+          "endotelové bunky",
+          "hviezdicovité (Itove) bunky",
+          "PP bunky",
+          "Kupfferove bunky",
+          "cholangiocyty"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          4,
+          5
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém II (žľazy asociované s GIT)",
+          "number": 12,
+          "page": 173
+        }
+      },
+      {
+        "question": "Ako sa nazýva bunka, ktorej produkt je zodpovedný za emulgáciu lipidov v tenkom čreve?",
+        "answers": [
+          "β (B) bunka",
+          "hviezdicovitá (Itova) bunka",
+          "acinárna bunka",
+          "hepatocyt",
+          "enterocyt"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém II (žľazy asociované s GIT)",
+          "number": 13,
+          "page": 174
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o stene žlčníka sú pravdivé?",
+        "answers": [
+          "jeho sliznica obsahuje početné serózne žľazy produkujúce žlč",
+          "nemá tunica submucosa",
+          "jeho sliznica vytvára vysoké riasy, ktoré sú pokryté vysokým jednovrstvovým cylindrickým epitelom s mikroklkmi",
+          "nemá tunica muscularis"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém II (žľazy asociované s GIT)",
+          "number": 14,
+          "page": 174
+        }
+      },
+      {
+        "question": "Ktorá štruktúra sa nachádza v strede portálneho laloku?",
+        "answers": [
+          "Mallov priestor (periportálny)",
+          "centrálna žila",
+          "portobiliárny priestor (portálne kanály)",
+          "sínusoida",
+          "portálna triáda"
+        ],
+        "correct": [
+          2,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém II (žľazy asociované s GIT)",
+          "number": 15,
+          "page": 174
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o Disseho priestore sú pravdivé?",
+        "answers": [
+          "jeho hranice sú tvorené bazálnymi povrchmi hepatocytov a bazálnymi povrchmi endotelových buniek",
+          "predstavuje bariéru medzi hepatocytmi a žlčovými kapilárami",
+          "obsahuje výbežky mikroklkov hepatocytov",
+          "obsahuje hviezdicovité (Itove) bunky"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém II (žľazy asociované s GIT)",
+          "number": 16,
+          "page": 174
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o Gianuzziho lunulách (seróznych polmesiacoch alebo Gianuzziho polmesiačikoch) sú pravdivé?",
+        "answers": [
+          "nachádzajú sa v čisto seróznych žľazách",
+          "sú artefaktom bežnej fixačnej metódy",
+          "sú to serózne bunky na distálnom konci mucinóznej tubuloalveolárnej sekrečnej jednotky niektorých slinných žliaz",
+          "sú to semilunárne bunky interkalárnych vývodov"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém II (žľazy asociované s GIT)",
+          "number": 17,
+          "page": 175
+        }
+      },
+      {
+        "question": "Aká je pravda o mucinogénnych granulách?",
+        "answers": [
+          "sú syntetizované a uložené v mucinóznych bunkách",
+          "nachádzajú sa v sekrečnej časti podčeľustnej žľazy",
+          "označujú sa aj ako zymogénne granuly",
+          "možno ich vizualizovať pomocou farbiva alciánovej modrej"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém II (žľazy asociované s GIT)",
+          "number": 18,
+          "page": 175
+        }
+      },
+      {
+        "question": "Na ktorej z nasledujúcich činností sa podieľajú prúžkované vývody veľkých slinných žliaz?",
+        "answers": [
+          "na vylučovaní HCO3-",
+          "na absorpcii Cl-",
+          "na reabsorpcii Na+",
+          "na vylučovaní IgA (sekrečná protilátka)"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém II (žľazy asociované s GIT)",
+          "number": 19,
+          "page": 175
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o klasickom pečeňovom lalôčiku (lobulus venae centralis) sú pravdivé?",
+        "answers": [
+          "obsahuje povrazce hepatocytov",
+          "má približne šesťuholníkový tvar",
+          "v mieste kontaktu troch lalokov je portálny kanál (portobiliárny priestor) s Heringovým kanálom",
+          "portálna žila je v jeho strede"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém II (žľazy asociované s GIT)",
+          "number": 20,
+          "page": 175
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o slinných žľazách:",
+        "answers": [
+          "prúžkované vývody majú silno bazofilnú cytoplazmu",
+          "glandula parotidea je čisto serózna žľaza",
+          "mucinózne tubuly prevažujú nad seróznymi acinmi v glandula sublingualis",
+          "glandula submandibularis je zmiešaná tubulo-acinózna žľaza s prevahou seróznych acinov"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém II (žľazy asociované s GIT)",
+          "number": 21,
+          "page": 176
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o slinných žľazách:",
+        "answers": [
+          "Gianuzziho lunuly pravdepodobne vznikajú ako artefakt pri histologickom spracovaní tkaniva podjazykovej žľazy",
+          "prúžkované vývody majú v bazálnom labyrinte veľké množstvo lyzozómov",
+          "vsunuté (interkalárne) vývody veľkých slinných žliaz sú vystlané kubickým epitelom",
+          "interlobárne vývody veľkých slinných žliaz sú vystlané viacvrstvovým cylindrickým epitelom"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém II (žľazy asociované s GIT)",
+          "number": 22,
+          "page": 176
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o slinných žľazách:",
+        "answers": [
+          "bazálny labyrint s množstvom mitochondrií je typickým znakom prúžkovaných vývodov na ultraštrukturálnej úrovni",
+          "glandula parotidea je zmiešaná seromucinózna žľaza",
+          "medzi bunkami parenchýmu glandula parotidea nájdeme aj veľký počet tukových buniek",
+          "prevaha mucinóznych tubulov glandula sublingualis spôsobuje, že pri farbení hematoxylínom a eozínom je žľaza prevažne tmavá bazofilná"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém II (žľazy asociované s GIT)",
+          "number": 23,
+          "page": 176
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o žlčníku:",
+        "answers": [
+          "žlčník má základnú stavbu steny totožnú so zvyškom tráviacej rúry",
+          "žlčník je vystlaný jednovrstvovým cylindrickým epitelom",
+          "Rokitanského-Aschoffove sínusy nájdeme v submukóze žlčníka",
+          "žlčník je po celom povrchu krytý serózou"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém II (žľazy asociované s GIT)",
+          "number": 24,
+          "page": 176
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o žlčníku:",
+        "answers": [
+          "základným rozdielom v stavbe steny žlčníka v porovnaní so zvyškom tráviacej rúry je, že žlčníku chýba lamina muscularis mucosae a submukóza",
+          "voľná plocha žlčníka je pokrytá serózou, zatiaľ čo plochu prirastenú k pečeni kryje adventícia",
+          "cholecystocyty vystielajúce žlčník majú na povrchu kinocílie",
+          "žlčník je vystlaný jednovrstvovým kubickým epitelom"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém II (žľazy asociované s GIT)",
+          "number": 25,
+          "page": 177
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o pankrease:",
+        "answers": [
+          "Pankreas, podobne ako glandula parotidea, obsahuje vsunuté (interkalárne) vývody",
+          "pankreas je čisto exokrinná žľaza",
+          "exokrinnú časť pankreasu tvoria serózne aciny a systém vývodov",
+          "pankreas neobsahuje prúžkované vývody"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém II (žľazy asociované s GIT)",
+          "number": 26,
+          "page": 177
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o pankrease:",
+        "answers": [
+          "B bunky sú umiestnené prevažne v centre Langerhansových ostrovčekov",
+          "všetky endokrinné bunky Langerhansových ostrovčekov dokážeme spoľahlivo odlíšiť pri farbení hematoxylínom a eozínom",
+          "serózne aciny sú zodpovedné za vylučovanie inzulínu a glukagónu",
+          "B bunky tvoria až 70 % všetkých buniek Langerhansových ostrovčekov"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém II (žľazy asociované s GIT)",
+          "number": 27,
+          "page": 177
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o pankrease:",
+        "answers": [
+          "pankreas obsahuje exokrinnú aj endokrinnú časť, a preto ho zaraďujeme medzi zmiešané seromucinózne žľazy",
+          "A bunky sú menej početné ako B bunky a nájdeme ich prevažne na periférii Langerhansových ostrovčekov",
+          "Langerhansove ostrovčeky pankreasu tvoria tráviace enzýmy",
+          "endokrinná časť pankreasu tvorí v porovnaní s exokrinnou časťou prevažnú časť parenchýmu pankreasu"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém II (žľazy asociované s GIT)",
+          "number": 28,
+          "page": 177
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o pankrease:",
+        "answers": [
+          "serózne aciny pankreasu sú tvorené A a B bunkami",
+          "vsunuté (interkalárne) vývody sa začínajú priamo v acinoch a sú tvorené centroacinóznymi bunkami",
+          "pankreas odlíšime od glandula parotidea najmä vďaka prítomnosti veľkého množstva tukových buniek medzi Langerhansovými ostrovčekmi",
+          "prúžkované vývody pankreasu druhotne upravujú zmes tráviacich enzýmov"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém II (žľazy asociované s GIT)",
+          "number": 29,
+          "page": 178
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o pankrease:",
+        "answers": [
+          "Langerhansove ostrovčeky pankreasu obsahujú 4 hlavné typy buniek – A, B, D a F (PP) bunky",
+          "farbenie hematoxylínom a eozínom farebne znázorní červené A bunky na periférii Langerhansových ostrovčekov",
+          "pankreas je čisto endokrinná žľaza",
+          "pri farbení hematoxylínom a eozínom sú Langerhansove ostrovčeky odlíšiteľné ako svetlejšie časti parenchýmu v prevažne tmavej bazofilnej exokrinnej časti"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém II (žľazy asociované s GIT)",
+          "number": 30,
+          "page": 178
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o pečeni:",
+        "answers": [
+          "pečeň produkuje okrem exokrinného sekrétu (žlče) aj viacero hormónov",
+          "canaliculi biliferi nemajú vlastnú epitelovú výstelku, sú tvorené iba susednými hepatocytmi",
+          "lobulus hepaticus classicus (starší názov lobulus venae centralis) je základnou morfologickou jednotkou parenchýmu pečene",
+          "trias hepatica obsahuje iba tri štruktúry – interlobulárny žlčovod, vénu a artériu"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém II (žľazy asociované s GIT)",
+          "number": 31,
+          "page": 178
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o pečeni:",
+        "answers": [
+          "okrem interlobulárnej vény, artérie a žlčovodu obsahuje portálna triáda aj ďalšie štruktúry – napr. lymafatické cievy či autonómne nervy",
+          "interlobulárny žlčovod odlíšime na reze od ciev najmä podľa výšky epitelovej výstelky",
+          "pečeň obsahuje medzi hepatocytmi kapiláry so súvislou výstelkou",
+          "Heringove kanáliky majú stenu tvorenú čiastočne z hepatocytov a čiastočne majú vlastnú výstelku tvorenú cholangiocytmi a kmeňovými bunkami"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém II (žľazy asociované s GIT)",
+          "number": 32,
+          "page": 178
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o pečeni:",
+        "answers": [
+          "trias hepatica obsahuje žlčové kapiláry",
+          "základná morfologická jednotka pečeňového parenchýmu má v strede centrálnu vénu a v uhloch portobiliárne priestory",
+          "pečeň je najväčšia žľaza ľudského tela",
+          "Disseho priestor je súčasťou portálnej triády"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém II (žľazy asociované s GIT)",
+          "number": 33,
+          "page": 179
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o pečeni:",
+        "answers": [
+          "portálny lalôčik má na reze tkanivom tvar šesťuholníka",
+          "v strede portálneho lalôčika sa nachádza portobiliárny priestor",
+          "základnou morfologickou jednotkou pečeňového parenchýmu je pečeňový acinus",
+          "Kupfferove bunky sú špecializované makrofágy pečene"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém II (žľazy asociované s GIT)",
+          "number": 34,
+          "page": 179
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o pečeni:",
+        "answers": [
+          "pečeňový acinus je základnou funkčnou jednotkou pečeňového parenchýmu",
+          "Kupfferove bunky sú zásobárňou vitamínu A",
+          "capusla fibrosa hepatis Glissoni je puzdro pečene tvorené hustým neusporiadaným kolagénovým väzivom",
+          "perisinusoidálny (Disseho) priestor nájdeme v strede portálnej triády"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém II (žľazy asociované s GIT)",
+          "number": 35,
+          "page": 179
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o pečeni:",
+        "answers": [
+          "Itova bunka sa nachádza v perisinusoidálnom priestore a slúži ako zásobáreň vitamínu A",
+          "portálny lalôčik má tvar trojuholníka",
+          "kapilárnu sieť v pečeni tvoria sínusoidy s nesúvislou výstelkou",
+          "súčasťou výstelky pečeňových sínusoíd sú aj Kupfferove bunky"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém II (žľazy asociované s GIT)",
+          "number": 36,
+          "page": 179
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o pečeni:",
+        "answers": [
+          "hepatocyt môže obsahovať dve bunkové jadrá",
+          "hepatocyt je polygonálna epitelová polarizovaná bunka",
+          "žlčový pól hepatocytu je obrátený do Disseho priestoru",
+          "hlavným exokrinným sekrétom pečene je angiotenzinogén"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém II (žľazy asociované s GIT)",
+          "number": 37,
+          "page": 179
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o pečeni:",
+        "answers": [
+          "pečeň má veľmi obmedzenú regeneračnú schopnosť",
+          "hepatocyt obsahuje vzhľadom na svoju vysokú metabolickú aktivitu všetky typické organely a množstvo inklúzií",
+          "cievny pól hepatocytu má na povrchu mikroklky orientované smerom do Disseho priestoru",
+          "portálna triáda sa nachádza v strede pečeňového acinu"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém II (žľazy asociované s GIT)",
+          "number": 38,
+          "page": 180
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o pečeni:",
+        "answers": [
+          "jemnú strómu pečene tvorí husté kolagénové väzivo",
+          "portálna triáda je súčasťou Disseho priestoru",
+          "látky, ktoré prechádzajú medzi hepatocytmi a krvou, musia prejsť cez Disseho priestor",
+          "venae centrales sú typom pečeňových sínusoíd"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém II (žľazy asociované s GIT)",
+          "number": 39,
+          "page": 180
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o pečeni:",
+        "answers": [
+          "hepatocyt je polygonálna bunka bez apikálnej a bazolaterálnej polarizácie",
+          "hepatocyt má vždy jedno centrálne uložené bunkové jadro",
+          "v trichrómovom farbení dokážeme u ľudí medzi jednotlivými klasickými lalôčikmi pečene dobre odlíšiť hrubé väzivové septá",
+          "rozdelenie pečene na pečeňové aciny pomáha funkčne rozdeliť okrsky parenchýmu z hľadiska dynamiky výmeny látok a dýchacích plynov"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém II (žľazy asociované s GIT)",
+          "number": 40,
+          "page": 180
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o vývoji príušnej žľazy sú pravdivé?",
+        "answers": [
+          "z epitelom vystlaného kanálikového spojenia medzi vyvíjajúcimi sa acinmi a ústnou dutinou vzniká Stensenov kanálik",
+          "vyvíja sa zo žliabkovitej invaginácie endodermy",
+          "jeho sekrečná časť pochádza z mezenchýmu",
+          "vyvíja sa zo žliabkovitej invaginácie ektodermy"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém II (žľazy asociované s GIT)",
+          "number": 41,
+          "page": 180
+        }
+      },
+      {
+        "question": "Ktoré anatomické časti definitívneho pankreasu sú odvodené od pôvodného ventrálneho pankreasu?",
+        "answers": [
+          "horná časť hlavy",
+          "spodná časť hlavy",
+          "uncinátny výbežok",
+          "chvost"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém II (žľazy asociované s GIT)",
+          "number": 42,
+          "page": 181
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o pôvode spojivového tkaniva pečene sú pravdivé?",
+        "answers": [
+          "pochádza z pečeňových povrazcov",
+          "pochádza z dorzálneho mezentéria",
+          "pochádza z ventrálneho mezentéria",
+          "pochádza z mezenchýmu mezodermy"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém II (žľazy asociované s GIT)",
+          "number": 43,
+          "page": 181
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o pečeňovom divertikule sú pravdivé?",
+        "answers": [
+          "pochádza z predného čreva",
+          "dáva vznik trámcom hepatoblastov",
+          "dáva vznik pečeňovým sínusoidám",
+          "neskôr sa vyvinie do pečeňovej platničky"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém II (žľazy asociované s GIT)",
+          "number": 44,
+          "page": 181
+        }
+      },
+      {
+        "question": "Ako možno vysvetliť prítomnosť akcesórneho pankreatického vývodu u približne 7 % populácie?",
+        "answers": [
+          "spoločný pankreatický púčik sa u týchto ľudí rozdelil na dve časti",
+          "primordiá pankreasu sú založené na dvoch miestach, ktoré sa nemusia úplne spojiť",
+          "dorzálny pankreatický púčik pretrvával a jeho duktálny systém dal vznik prídavnému pankreatickému vývodu",
+          "pretože sa u nich vyvinul pancreas anullare"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém II (žľazy asociované s GIT)",
+          "number": 45,
+          "page": 181
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o vývine tráviacich žliaz:",
+        "answers": [
+          "všetky bunkové populácie pečene sú pôvodom z endodermy predného čreva",
+          "väčšia časť pankreasu sa vyvíja z predného základu pankreasu",
+          "pancreas anulare vzniká pri rozdvojení predného základu pankreasu, ktorého časti sa otočia, každá z opačnej strany, okolo základu duodéna",
+          "Kupfferove bunky vznikajú z mezenchýmu v septum transversum"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém II (žľazy asociované s GIT)",
+          "number": 46,
+          "page": 182
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o vývine tráviacich žliaz:",
+        "answers": [
+          "kraniálna časť pečeňového divertikula dáva základ žlčníku",
+          "hepatocyty sú pôvodom z endodermy predného čreva",
+          "zo zadného základu pankreasu sa vytvorí časť hlavy, telo a chvost pankreasu",
+          "základ pankreasu vzniká v oblasti stredného čreva"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém II (žľazy asociované s GIT)",
+          "number": 47,
+          "page": 182
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o vývine tráviacich žliaz:",
+        "answers": [
+          "hepatocyty sú pôvodom z mezenchýmu septum transversum",
+          "pankreas sa vyvíja z jedného základu, ktorý vyrastá z predného čreva",
+          "kraniálna časť pečeňového divertikula dáva základ parenchýmu pečene",
+          "kaudálna časť pečeňového divertikula dáva základ žlčníka"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém II (žľazy asociované s GIT)",
+          "number": 48,
+          "page": 182
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o vývine tráviacich žliaz:",
+        "answers": [
+          "základ najväčšej tráviacej žľazy sa vyvíja v oblasti predného čreva",
+          "pancreas anulare je dôsledkom poruchy vývinu zadného základu pankreasu",
+          "väzivová stróma pečene je pôvodom z mezenchýmu v septum transversum",
+          "pancreas divisum je vrodená vývinová chyba, ktorá vzniká v dôsledku poruchy spojenia vývodov predného a zadného základu pankreasu"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém II (žľazy asociované s GIT)",
+          "number": 49,
+          "page": 182
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o vývine tráviacich žliaz:",
+        "answers": [
+          "hepatocyty majú rovnaký embryonálny pôvod ako Kupfferove bunky",
+          "septum transversum vplýva indukčne na vyvíjajúci sa základ pečene",
+          "processus uncinatus pankreasu sa vyvíja z dorzálneho základu pankreasu",
+          "glandula parotidea má ektodermový pôvod, pričom glandula submandibularis a sublingualis sú endodermového pôvodu"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Gastrointestinálny systém II (žľazy asociované s GIT)",
+          "number": 50,
+          "page": 183
+        }
+      }
+    ]
+  }
+]

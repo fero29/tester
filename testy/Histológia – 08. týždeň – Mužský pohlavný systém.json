@@ -1,0 +1,962 @@
+[
+  {
+    "title": "Histológia – 08. týždeň – Mužský pohlavný systém",
+    "description": "Semenník, nadsemenník, semenovod, prostata, semenné mechúriky, penis a ich vývin. Otázky s výberom viacerých odpovedí zo zbierky Histológia a embryológia v otázkach (Miko, Klein, Juríková, UK 2025); kľúč podľa zbierky.",
+    "year": 2,
+    "category": "Histológia",
+    "sortOrder": 8,
+    "questions": [
+      {
+        "question": "Ktoré bunky sa nachádzajú v semenotvorných kanálikoch?",
+        "answers": [
+          "Sertoliho bunky",
+          "Leydigove bunky",
+          "spermatogónie",
+          "spermatídy",
+          "bunky s riasinkami"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mužský pohlavný systém",
+          "number": 1,
+          "page": 226
+        }
+      },
+      {
+        "question": "Aké sú funkcie Sertoliho buniek?",
+        "answers": [
+          "vytvorenie hematotestikulárnej bariéry",
+          "produkcia androgénov",
+          "produkcia proteínu viažuceho androgény",
+          "fagocytóza prebytočnej cytoplazmy vo forme zvyškových Regaudových teliesok",
+          "pohyb morfologicky zrelých spermií smerom k rete testis pomocou riasiniek",
+          "fyzická podpora vyvíjajúcich sa buniek"
+        ],
+        "correct": [
+          0,
+          2,
+          3,
+          5
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mužský pohlavný systém",
+          "number": 2,
+          "page": 226
+        }
+      },
+      {
+        "question": "Aké sú ultraštrukturálne morfologické znaky Leydigových buniek?",
+        "answers": [
+          "obsahujú veľa granulovaného ER",
+          "majú mitochondrie tubulárneho typu",
+          "majú bazofilnú cytoplazmu",
+          "ich cytoplazma obsahuje kvapôčky lipidov viazané na membránu",
+          "obsahujú tyčinkovité kryštálové štruktúry nazývané corpora amylacea"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mužský pohlavný systém",
+          "number": 3,
+          "page": 226
+        }
+      },
+      {
+        "question": "Aké štruktúry sú súčasťou semenníkov?",
+        "answers": [
+          "tunica albuginea",
+          "tunica dartos",
+          "pampiniformný plexus",
+          "tubuli recti (rovné kanáliky)",
+          "Littrého žľazy"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mužský pohlavný systém",
+          "number": 4,
+          "page": 226
+        }
+      },
+      {
+        "question": "Ktoré udalosti prebiehajú v procese cytodiferenciácie spermií, nazývanom spermiogenéza?",
+        "answers": [
+          "fagocytóza akrozómu Sertoliho bunkami",
+          "vývoj axonemálneho komplexu",
+          "tvorba strednej časti s mitochondriami",
+          "kondenzácia bunkového jadra",
+          "dokončenie 2. meiotického delenia"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mužský pohlavný systém",
+          "number": 5,
+          "page": 227
+        }
+      },
+      {
+        "question": "Ktoré bunky semenotvorných kanálikov sa nachádzajú v ich adluminálnom priestore?",
+        "answers": [
+          "primárne spermatocyty",
+          "sekundárne spermatocyty",
+          "spermatogónie typu A",
+          "spermatogónie typu B"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mužský pohlavný systém",
+          "number": 6,
+          "page": 227
+        }
+      },
+      {
+        "question": "V ktorých štruktúrach sa nachádzajú Sertoliho bunky?",
+        "answers": [
+          "tubuli recti (rovné kanáliky)",
+          "rete testis",
+          "ductuli efferentes",
+          "tubuli seminiferi contorti"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mužský pohlavný systém",
+          "number": 7,
+          "page": 227
+        }
+      },
+      {
+        "question": "V ktorých orgánoch mužskej pohlavnej sústavy sa nachádza viacradový cylindrický epitel so stereocíliami?",
+        "answers": [
+          "ductuli efferentes",
+          "ductus epididymidis",
+          "ductus deferens",
+          "rete testis"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mužský pohlavný systém",
+          "number": 8,
+          "page": 227
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o vas deferens sú pravdivé?",
+        "answers": [
+          "tu dozrievajú a skladujú sa spermie",
+          "spojenie ductus deferens s vývodom semenného vačku vytvára ejakulačný vývod",
+          "tvorí súčasť semenného povrazca",
+          "jeho stredná vrstva v tunica muscularis externa je orientovaná pozdĺžne"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mužský pohlavný systém",
+          "number": 9,
+          "page": 228
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o vas deferens sú pravdivé?",
+        "answers": [
+          "vstupuje do brušnej dutiny cez inguinálny kanál",
+          "jeho vonkajšia vrstva je tunica serosa",
+          "v tunica muscularis je cirkulárna svalová vrstva vložená medzi dve pozdĺžne vrstvy",
+          "je vystlaný viacradovým cylindrickým epitelom so stereocíliami"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mužský pohlavný systém",
+          "number": 10,
+          "page": 228
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o semenných vačkoch sú pravdivé?",
+        "answers": [
+          "produkujú až 30 % objemu ejakulátu",
+          "ich epitelové bunky môžu obsahovať lipofuscínové granuly",
+          "sú to párové stočené tubulárne žľazy",
+          "ich sliznica tvorí zložité záhyby",
+          "vo vnútri sa nachádzajú konkrementy – corpora amylacea"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mužský pohlavný systém",
+          "number": 11,
+          "page": 228
+        }
+      },
+      {
+        "question": "Čo môže byť súčasťou prostaty?",
+        "answers": [
+          "hustá fibromuskulárna stróma",
+          "tubuloalveolárne žľazy",
+          "corpora amylacea",
+          "corpus cavernosum"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mužský pohlavný systém",
+          "number": 12,
+          "page": 228
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o penise sú pravdivé?",
+        "answers": [
+          "glans penis je distálnym pokračovaním corpora cavernosa",
+          "jeho koža je veľmi tenká a väčšinou voľne spojená s podkladovým väzivom",
+          "všetky jeho erektilné telieska sú pokryté tunica albuginea",
+          "Skeneho žľazy sa nachádzajú v blízkosti fossa navicularis"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mužský pohlavný systém",
+          "number": 13,
+          "page": 228
+        }
+      },
+      {
+        "question": "Ktoré bunky zárodočného epitelu semenotvorných kanálikov sú najväčšie?",
+        "answers": [
+          "spermatogónie",
+          "spermatídy",
+          "primárne spermatocyty",
+          "sekundárne spermatocyty"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mužský pohlavný systém",
+          "number": 14,
+          "page": 229
+        }
+      },
+      {
+        "question": "Aké štruktúry sa nachádzajú v penise?",
+        "answers": [
+          "3 erektilné telieska",
+          "serózne žľazy",
+          "nefenestrovaný endotel",
+          "Littrého žľazy"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mužský pohlavný systém",
+          "number": 15,
+          "page": 229
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o bulbouretrálnych žľazách (Cowperových žľazách) sú pravdivé?",
+        "answers": [
+          "ich sekrečná časť je vystlaná plochým epitelom",
+          "patria medzi prídavné pohlavné žľazy",
+          "sú umiestnené proximálne od membranóznej časti uretry",
+          "produkujú číru hlienovitú a zásaditú tekutinu",
+          "sú aktivizované najmä tesne pred ejakuláciou"
+        ],
+        "correct": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mužský pohlavný systém",
+          "number": 16,
+          "page": 229
+        }
+      },
+      {
+        "question": "Kde v mužskom reprodukčnom systéme možno pozorovať syncýtium?",
+        "answers": [
+          "v zárodočnom spermiogénnom epiteli",
+          "v žľazách prostaty",
+          "v corpus cavernosum penisu",
+          "v Littrého žľazách"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mužský pohlavný systém",
+          "number": 17,
+          "page": 229
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o prostate sú pravdivé?",
+        "answers": [
+          "je to stočená tubulárna žľaza",
+          "jej stróma je fibromuskulárna",
+          "produkuje testosterón",
+          "vytvára hlavnú časť semena (ejakulátu)",
+          "jej hlavnými produktmi sú fruktóza a kyselina citrónová"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mužský pohlavný systém",
+          "number": 18,
+          "page": 230
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o Leydigových bunkách sú pravdivé?",
+        "answers": [
+          "nachádzajú sa v intersticiálnom väzive medzi semenotvornými kanálikmi",
+          "syntetizujú a vylučujú mužské pohlavné hormóny",
+          "syntetizujú proteín viažuci androgény",
+          "nachádzajú sa v rete testis a tubuli recti"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mužský pohlavný systém",
+          "number": 19,
+          "page": 230
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o mužskom pohlavnom systéme:",
+        "answers": [
+          "zárodočný epitel semenotvorných kanálikov je rozdelený na dva kompartmenty",
+          "spermatídy sú lokalizované v bazálnom kompartmente semenotvorných kanálikov",
+          "Sertoliho bunky sú nevyhnutné pre správny priebeh spermatogenézy",
+          "testosterón produkujú Leydigove bunky v interstíciu semenníka"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mužský pohlavný systém",
+          "number": 20,
+          "page": 230
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o mužskom pohlavnom systéme:",
+        "answers": [
+          "Reinkeho kryštaloidy obsahuje intersticiálna bunka semenníka produkujúca androgény",
+          "medzibunkové spojenia medzi Sertoliho bunkami vytvárajú hematotestikulárnu bariéru",
+          "akrozóm je modifikovaný lyzozóm, nevyhnutný v procese oplodnenia",
+          "spermatída sa diferencuje zo spermatogónií typu B"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mužský pohlavný systém",
+          "number": 21,
+          "page": 230
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o mužskom pohlavnom systéme:",
+        "answers": [
+          "najväčšími bunkami spermiogénneho epitelu sú primárne spermatocyty",
+          "sekundárne spermatocyty sú v spermiogénnom epiteli početnejšie ako primárne spermatocyty",
+          "spermatohistogenéza prebieha skôr ako spermatocytogenéza",
+          "svetlá spermatogónia typu A sa ďalej diferencuje v rámci spermatocytogenézy na primárny spermatocyt"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mužský pohlavný systém",
+          "number": 22,
+          "page": 231
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o mužskom pohlavnom systéme:",
+        "answers": [
+          "tunica albuginea je tvorená hustým kolagénovým väzivom",
+          "adluminálny kompartment spermiogénneho epitelu obsahuje bunky, ktoré imunitný systém považuje za telu vlastné",
+          "jadro primárnych spermatocytov často obsahuje meiotické figúry",
+          "spermatídy sú najmenšie bunky spermiogénneho epitelu"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mužský pohlavný systém",
+          "number": 23,
+          "page": 231
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o mužskom pohlavnom systéme:",
+        "answers": [
+          "stočené semenotvorné kanáliky nadväzujú prostredníctvom tubuli recti na rete testis uložené v mediastinum testis",
+          "normálna spermatogenéza je závislá od prechodu spermatíd z bazálneho do adluminálneho kompartmentu",
+          "svetlá spermatogónia typu A má heterochromatické jadro",
+          "súčasťou spermatohistogenézy je diferenciácia primárnych spermatocytov na sekundárne spermatocyty"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mužský pohlavný systém",
+          "number": 24,
+          "page": 231
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o mužskom pohlavnom systéme:",
+        "answers": [
+          "ductus epididymidis je vystlaný viacradovým cylindrickým epitelom so stereocíliami",
+          "ductuli efferentes tvoria hlavu nadsemenníka a sú vystlané viacradovým epitelom",
+          "ductuli efferentes obsahujú cylindrické bunky s riasinkami",
+          "epitel ductus epididymidis na rozdiel od semenníka netvorí bariéru medzi krvou a nadsemenníkom"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mužský pohlavný systém",
+          "number": 25,
+          "page": 231
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o mužskom pohlavnom systéme:",
+        "answers": [
+          "najhrubšou vrstvou steny ductus deferens je svalovina",
+          "ductus deferens je vystlaný viacradovým cylindrickým epitelom s riasinkami",
+          "svalovina steny ductus deferens je usporiadaná do troch vrstiev",
+          "ductus deferens má hviezdicovitý lúmen, pretože jeho sliznica vytvára pozdĺžne riasy"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mužský pohlavný systém",
+          "number": 26,
+          "page": 232
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o mužskom pohlavnom systéme:",
+        "answers": [
+          "ductus epididymidis je vystlaný jednovrstvovým plochým epitelom",
+          "halo bunky sú bazálne bunky epitelu ductus epididymidis zodpovedné za regeneráciu",
+          "ductus epididymidis je na povrchu pokrytý serózou",
+          "hematoepididymálna bariéra zabezpečuj ochranu spermií pred nežiaducou imunitnou reakciou"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mužský pohlavný systém",
+          "number": 27,
+          "page": 232
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o mužskom pohlavnom systéme:",
+        "answers": [
+          "tubuli recti testis sú čiastočne vystlané Sertoliho bunkami",
+          "ductuli efferentes sú výlučne súčasťou extratestikulárnych vývodných pohlavných ciest",
+          "ductus epididymidis je pokrytý adventíciou, ktorá ho pripája k okoliu",
+          "ductuli efferentes majú nepravidelný „vrúbkovaný“ lúmen z dôvodu striedania nízkych kubických a vysokých cylindrických buniek"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mužský pohlavný systém",
+          "number": 28,
+          "page": 232
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o mužskom pohlavnom systéme:",
+        "answers": [
+          "ductus deferens má širší lúmen v porovnaní s lúmenom ductus epididymidis",
+          "ductus deferens pokrýva tunica adventitia",
+          "svalovina ductus deferens je usporiadaná do dvoch vrstiev",
+          "všetky epitelové bunky ductuli efferentes majú na povrchu riasinky"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mužský pohlavný systém",
+          "number": 29,
+          "page": 232
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o mužskom pohlavnom systéme:",
+        "answers": [
+          "glandula vesiculosa je vystlaná jednovrstvovým až dvojradovým cylindrickým epitelom",
+          "až 60 – 70 % objemu ejakulátu produkuje glandula vesiculosa",
+          "cylindrické sekrečné bunky epitelu glandula vesiculosa majú na povrchu stereocílie",
+          "cylindrické sekrečné bunky epitelu glandula vesiculosa hromadia v priebehu dospievania lipofuscín"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mužský pohlavný systém",
+          "number": 30,
+          "page": 232
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o mužskom pohlavnom systéme:",
+        "answers": [
+          "fibromuskulárna stróma prostaty je tvorená kolagénovým a elastickým väzivom s množstvom hladkej svaloviny",
+          "prostata obsahuje jednoduché tubulózne žľazy",
+          "corpora amylacea sú uložené v rámci fibromuskulárnej strómy prostaty",
+          "prostatou prechádza jeden zo segmentov uretry"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mužský pohlavný systém",
+          "number": 31,
+          "page": 233
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o mužskom pohlavnom systéme:",
+        "answers": [
+          "periférna zóna prostaty obsahuje hlavné žliazky a tvorí približne 70 % objemu žľazy",
+          "corpora amylacea nájdeme v lúmene žliazok prostaty",
+          "sekrét prostaty tvorí väčšinu objemu ejakulátu",
+          "fibromuskulárna stróma prostaty obsahujú priečne pruhovanú svalovinu"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mužský pohlavný systém",
+          "number": 32,
+          "page": 233
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o mužskom pohlavnom systéme:",
+        "answers": [
+          "prostata je najväčšia mužská prídavná pohlavná žľaza",
+          "periuretrálna zóna prostaty obsahuje hlavné žliazky",
+          "výška epitelových buniek žliazok prostaty je závislá na jej sekrečnej aktivite, avšak väčšinou je epitel dvojradový cylindrický",
+          "slizničné žliazky prostaty tesne naliehajú na močovú rúru"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mužský pohlavný systém",
+          "number": 33,
+          "page": 233
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o mužskom pohlavnom systéme:",
+        "answers": [
+          "corpora amylacea nájdeme v lúmene glandula vesiculosa",
+          "glandula vesiculosa je pokrytá adventíciou",
+          "svalovina glandula vesiculosa je tvorená vnútornou cirkulárnou a vonkajšou longitudinálnou vrstvou",
+          "prostata obsahuje 30 – 50 rozvetvených tubulo-alveolárnych žliazok"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mužský pohlavný systém",
+          "number": 34,
+          "page": 233
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o mužskom pohlavnom systéme:",
+        "answers": [
+          "penis obsahuje dve corpora cavernosa a jedno corpus spongiosum",
+          "kaverny corpora cavernosa sú vystlané fenestrovaným endotelom",
+          "stredom corpora cavernosa prebieha močová rúra",
+          "trabekuly corpora cavernosa obsahujú priečne pruhované svalové vlákna"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mužský pohlavný systém",
+          "number": 35,
+          "page": 234
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o mužskom pohlavnom systéme:",
+        "answers": [
+          "stredom corpus spongiosum prebieha močová rúra",
+          "trabekuly rozdeľujú corpora cavernosa na dutinky (kaverny) vystlané nefenestrovaným endotelom",
+          "tunica albuginea penisu je tvorená zmesou kolagénových, elastických vlákien a buniek hladkej svaloviny",
+          "tunica albuginea sa v penise nachádza iba okolo corpus spongiosum"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mužský pohlavný systém",
+          "number": 36,
+          "page": 234
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o mužskom pohlavnom systéme:",
+        "answers": [
+          "penis obsahuje dve corpora spongiosa a jedno corpus cavernosum",
+          "tunica albuginea okolo corpus spongiosum je tenšia v porovnaní s corpora cavernosa",
+          "kaverny corpora cavernosa vystielajú sínusoidné kapiláry",
+          "trabekuly corpora cavernosa vybiehajú z tunica albuginea"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mužský pohlavný systém",
+          "number": 37,
+          "page": 234
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o mužskom pohlavnom systéme:",
+        "answers": [
+          "von Ebnerove vankúšiky nájdeme v subendotelovej vrstve arteriol corpora cavernosa",
+          "uretra prebiehajúca v corpus spongiosum je vystlaná jedným typom epitelu",
+          "tunica albuginea sa nachádza v penise iba okolo corpora cavernosa",
+          "kaverny corpora cavernosa su vystlané viacvrstvovým dlaždicovým epitelom"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mužský pohlavný systém",
+          "number": 38,
+          "page": 234
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o mužskom pohlavnom systéme:",
+        "answers": [
+          "spermatohistogenéza prebieha najbližšie k lúmenu stočených semenotvorných kanálikov",
+          "správny priebeh spermatohistogenézy nie je závislý od kontaktu so Sertoliho bunkami",
+          "Leydigove bunky sa zúčastňujú tvorby hematotestikulárnej bariéry",
+          "tmavé spermatogónie typu A slúžia ako zásoba kmeňových buniek spermatogenézy"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mužský pohlavný systém",
+          "number": 39,
+          "page": 234
+        }
+      },
+      {
+        "question": "Aký je embryonálny pôvod fetálnych Leydigových buniek?",
+        "answers": [
+          "paramezonefrický vývod",
+          "semenníky",
+          "bunky neurálnej lišty",
+          "mezonefrické mezenchýmové bunky"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mužský pohlavný systém",
+          "number": 40,
+          "page": 235
+        }
+      },
+      {
+        "question": "Z akého tkaniva vzniká primordum budúcej prostaty v 10. týždni vývoja?",
+        "answers": [
+          "endoderma",
+          "intermediárna mezoderma",
+          "laterálna mezoderma",
+          "ektoderma"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mužský pohlavný systém",
+          "number": 41,
+          "page": 235
+        }
+      },
+      {
+        "question": "Z ktorého z nasledujúcich typov mezodermy sa vyvíjajú močová a pohlavná sústava?",
+        "answers": [
+          "intermediárna mezoderma",
+          "laterálna somatická mezoderma",
+          "laterálna splanchnická mezoderma",
+          "paraxiálna mezoderma"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mužský pohlavný systém",
+          "number": 42,
+          "page": 235
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o vývoji mužských vonkajších pohlavných orgánov sú pravdivé?",
+        "answers": [
+          "z falusu sa diferencuje penis",
+          "urogenitálne záhyby tvoria ventrálnu časť penisu (raphe penis)",
+          "splynuté labioskrotálne valy tvoria miešok",
+          "ich skorý vývoj sa značne líši od vývoja u žien"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mužský pohlavný systém",
+          "number": 43,
+          "page": 235
+        }
+      },
+      {
+        "question": "Kde vznikajú primordiálne zárodočné bunky, budúce spermatogónie?",
+        "answers": [
+          "v genitálnej lište",
+          "v dorzálnej endoderme žĺtkového vaku",
+          "v Müllerových kanálikoch",
+          "v kloake"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mužský pohlavný systém",
+          "number": 44,
+          "page": 235
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o vývine mužského pohlavného systému:",
+        "answers": [
+          "morfologické znaky embrya mužského pohlavia sa začínajú objavovať už v 4. týždni po oplodnení",
+          "chromozomálne pohlavie je dané v čase fertilizácie, keď je určené karyotypom spermie",
+          "na vývine vnútorných mužských pohlavných orgánov sa z veľkej časti podieľa paramezonefrický (Müllerov) vývod",
+          "do 7. týždna po oplodnení nevieme určiť pohlavie podľa morfologických znakov gonád – ide o štádium indiferentnej gonády"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mužský pohlavný systém",
+          "number": 45,
+          "page": 236
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o vývine mužského pohlavného systému:",
+        "answers": [
+          "prvopohlavné bunky sa diferencujú priamo v mezenchýme genitálnej lišty",
+          "normálna pohlavná diferenciácia mužského pohlavia je závislá od signalizácie dihydrotestosterónu a anti-Müllerovho hormónu",
+          "tubuli seminiferi contorti, tubuli recti, rete testis aj ductuli efferentes majú všetky spoločný embryonálny pôvod",
+          "ductus epididymidis sa vyvíja z paramezonefrického vývodu"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mužský pohlavný systém",
+          "number": 46,
+          "page": 236
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o vývine mužského pohlavného systému:",
+        "answers": [
+          "ductus deferens sa vyvíja z distálnej časti mezonefrického (Wolffovho) vývodu",
+          "kanáliky tvoriace hlavu, telo aj chvost nadsemenníka sa vyvíjajú z mezonefrického (Wolffovho) vývodu",
+          "pohlavný hrbolček na kraniálnom konci kloakovej membrány je základom pre penis",
+          "predlžovaním pohlavného hrbolčeka vzniká primordiálny falus"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mužský pohlavný systém",
+          "number": 47,
+          "page": 236
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o vývine mužského pohlavného systému:",
+        "answers": [
+          "semenotvorné povrazce sú základom pre tubuli seminiferi contorti, tubuli recti a rete testis",
+          "labioskrotálne valy sú základom pre glans penis a glans clitoridis",
+          "prvopohlavné bunky migrujú do genitálnej lišty zo žĺtkového vačku cez dorzálne mezentérium zadného čreva",
+          "z mezenchýmu genitálnej lišty sa vyvíjajú intersticiálne Leydigove bunky"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mužský pohlavný systém",
+          "number": 48,
+          "page": 236
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o vývine mužského pohlavného systému:",
+        "answers": [
+          "žľazy prostaty majú endodermový pôvod, pretože vyrastajú zo základu pre pars prostatica uretrae, ktorá sa vyvíja z časti urogenitálneho sínusu",
+          "semenotvorné povrazce sa vyvíjajú v oblasti pôvodného kortexu indiferentnej gonády",
+          "epispádia je vrodená vývinová chyba, pri ktorej sa vonkajšie ústie močovej rúry nachádza na ventrálnej strane penisu",
+          "hypospádia je najčastejšou vrodenou vývinovou chybou penisu"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Mužský pohlavný systém",
+          "number": 49,
+          "page": 237
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,158 @@
+[
+  {
+    "title": "Biochémia – 05. týždeň – Úlohy na písanie",
+    "description": "Úlohy na písanie vzorcov a reakcií z kariet „Tvorivé otázky“ (otvorené otázky kontrolných testov). Napíš riešenie na papier a porovnaj ho s ručne písanou ukážkou spolužiaka; ukážka nie je oficiálny kľúč.",
+    "testType": "selfcheck",
+    "year": 2,
+    "category": "Biochémia",
+    "sortOrder": 5.5,
+    "questions": [
+      {
+        "question": "Napíšte vzorec nukleotidu, ktorý je špecifickým donorom energie pre syntézu glykogénu.",
+        "solutionImages": [
+          "kreativne-s10.jpg",
+          "kreativne-s11.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu N: hľadaj úlohu č. 25. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "N",
+          "number": 25,
+          "page": 9,
+          "solutionPages": [
+            10,
+            11
+          ]
+        }
+      },
+      {
+        "question": "Napíšte vzorec zlúčeniny, ktorá vzniká pôsobením glykogénfosforylázy.",
+        "solutionImages": [
+          "kreativne-s13.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu U: hľadaj úlohu č. 26. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "U",
+          "number": 26,
+          "page": 12,
+          "solutionPages": [
+            13
+          ]
+        }
+      },
+      {
+        "question": "Napíšte reakciu, ktorá umožní uvoľňovanie glukózy do krvi po glykogenolýze v pečeni (aj názov enzýmu).",
+        "solutionImages": [
+          "kreativne-s19.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu D: hľadaj úlohu č. 30. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "D",
+          "number": 30,
+          "page": 18,
+          "solutionPages": [
+            19
+          ]
+        }
+      },
+      {
+        "question": "Napíšte reakciu tvorby UDP-glukózy (nukleotidy vo vzorcoch).",
+        "solutionImages": [
+          "kreativne-s21.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu E: hľadaj úlohu č. 25. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "E",
+          "number": 25,
+          "page": 20,
+          "solutionPages": [
+            21
+          ]
+        }
+      },
+      {
+        "question": "Napíšte spojenie dvoch glukózových jednotiek α-1,4-glykozidovou väzbou v molekule glykogénu.",
+        "solutionImages": [
+          "kreativne-s25.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu O: hľadaj úlohu č. 27. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "O",
+          "number": 27,
+          "page": 24,
+          "solutionPages": [
+            25
+          ]
+        }
+      },
+      {
+        "question": "Napíšte vzorec zlúčeniny, ktorá je bezprostredný substrát pre glykogénsyntázu.",
+        "solutionImages": [
+          "kreativne-s35.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu K: hľadaj úlohu č. 30. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "K",
+          "number": 30,
+          "page": 34,
+          "solutionPages": [
+            35
+          ]
+        }
+      },
+      {
+        "question": "Napíšte vzorec α-D-glukózy.",
+        "solutionImages": [
+          "kreativne-s37.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu ? (s. 36): hľadaj úlohu č. 25. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "? (s. 36)",
+          "number": 25,
+          "page": 36,
+          "solutionPages": [
+            37
+          ]
+        }
+      },
+      {
+        "question": "Napíšte vzorec galaktózy.",
+        "solutionImages": [
+          "kreativne-s39.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu B: hľadaj úlohu č. 27. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "B",
+          "number": 27,
+          "page": 38,
+          "solutionPages": [
+            39
+          ]
+        }
+      },
+      {
+        "question": "Napíšte vzorec ketohexózy, ktorá je zložkou sacharózy.",
+        "solutionImages": [
+          "kreativne-s41.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu L: hľadaj úlohu č. 26. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "L",
+          "number": 26,
+          "page": 40,
+          "solutionPages": [
+            41
+          ]
+        }
+      }
+    ]
+  }
+]

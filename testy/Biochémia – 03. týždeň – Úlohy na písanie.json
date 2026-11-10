@@ -1,0 +1,268 @@
+[
+  {
+    "title": "Biochémia – 03. týždeň – Úlohy na písanie",
+    "description": "Úlohy na písanie vzorcov a reakcií z kariet „Tvorivé otázky“ (otvorené otázky kontrolných testov). Napíš riešenie na papier a porovnaj ho s ručne písanou ukážkou spolužiaka; ukážka nie je oficiálny kľúč.",
+    "testType": "selfcheck",
+    "year": 2,
+    "category": "Biochémia",
+    "sortOrder": 3.5,
+    "questions": [
+      {
+        "question": "Napíšte vzorec fosfatidylinozitolbisfosfátu (PIP₂).",
+        "solutionImages": [
+          "kreativne-s02.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu T: hľadaj úlohu č. 27. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "T",
+          "number": 27,
+          "page": 1,
+          "solutionPages": [
+            2
+          ]
+        }
+      },
+      {
+        "question": "Napíšte vzorec aminokyseliny, ktorá ako súčasť bielkoviny môže byť fosforylovaná po aktivácii receptora pre inzulín.",
+        "solutionImages": [
+          "kreativne-s04.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu J: hľadaj úlohu č. 25. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "J",
+          "number": 25,
+          "page": 3,
+          "solutionPages": [
+            4
+          ]
+        }
+      },
+      {
+        "question": "Napíšte vzorec látky, ktorá je naviazaná na α-podjednotku G-proteínu v neaktívnom stave.",
+        "solutionImages": [
+          "kreativne-s04.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu J: hľadaj úlohu č. 26. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "J",
+          "number": 26,
+          "page": 3,
+          "solutionPages": [
+            4
+          ]
+        }
+      },
+      {
+        "question": "Napíšte vzorce druhých poslov, ktoré vznikajú štiepením fosfatidylinozitolbisfosfátu (PIP₂) fosfolipázou C.",
+        "solutionImages": [
+          "kreativne-s06.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu I: hľadaj úlohu č. 27. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "I",
+          "number": 27,
+          "page": 5,
+          "solutionPages": [
+            6
+          ]
+        }
+      },
+      {
+        "question": "Napíšte reakciu, ktorú katalyzuje guanylátcykláza (substrát skratkou, produkt vzorcom).",
+        "solutionImages": [
+          "kreativne-s06.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu I: hľadaj úlohu č. 28. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "I",
+          "number": 28,
+          "page": 5,
+          "solutionPages": [
+            6
+          ]
+        }
+      },
+      {
+        "question": "Napíšte vzorec druhého posla, ktorého tvorba je aktivovaná prostredníctvom glukagónu.",
+        "solutionImages": [
+          "kreativne-s13.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu U: hľadaj úlohu č. 25. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "U",
+          "number": 25,
+          "page": 12,
+          "solutionPages": [
+            13
+          ]
+        }
+      },
+      {
+        "question": "Napíšte reakciu, ktorú katalyzuje fosfolipáza C, ak jej substrátom je fosfatidylinozitolbisfosfát (PIP₂), substráty a produkty vzorcom.",
+        "solutionImages": [
+          "kreativne-s15.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu C: hľadaj úlohu č. 30. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "C",
+          "number": 30,
+          "page": 14,
+          "solutionPages": [
+            15
+          ]
+        }
+      },
+      {
+        "question": "Napíšte reakciu fosforylácie tyrozínu aktivitou tyrozínkinázy (nukleotidy skratkou).",
+        "solutionImages": [
+          "kreativne-s17.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu R: hľadaj úlohu č. 30. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "R",
+          "number": 30,
+          "page": 16,
+          "solutionPages": [
+            17
+          ]
+        }
+      },
+      {
+        "question": "Napíšte vzorec zlúčeniny, ktorá aktivuje proteínkinázu C (PKC).",
+        "solutionImages": [
+          "kreativne-s23.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu M: hľadaj úlohu č. 26. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "M",
+          "number": 26,
+          "page": 22,
+          "solutionPages": [
+            23
+          ]
+        }
+      },
+      {
+        "question": "Napíšte reakciu, ktorou vzniká cAMP, a uveďte názov enzýmu (substrát skratkou, produkt vzorcom).",
+        "solutionImages": [
+          "kreativne-s23.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu M: hľadaj úlohu č. 28. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "M",
+          "number": 28,
+          "page": 22,
+          "solutionPages": [
+            23
+          ]
+        }
+      },
+      {
+        "question": "Napíšte vzorce druhých poslov, ktoré vznikajú štiepením fosfatidylinozitolbisfosfátu (PIP₂) fosfolipázou C.",
+        "solutionImages": [
+          "kreativne-s25.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu O: hľadaj úlohu č. 26. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "O",
+          "number": 26,
+          "page": 24,
+          "solutionPages": [
+            25
+          ]
+        }
+      },
+      {
+        "question": "Napíšte vzorec zlúčeniny, ktorá aktivuje proteínkinázu A (PKA).",
+        "solutionImages": [
+          "kreativne-s27.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu P: hľadaj úlohu č. 26. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "P",
+          "number": 26,
+          "page": 26,
+          "solutionPages": [
+            27
+          ]
+        }
+      },
+      {
+        "question": "Napíšte vzorec druhého posla, ktorého tvorba je aktivovaná prostredníctvom glukagónu.",
+        "solutionImages": [
+          "kreativne-s29.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu H: hľadaj úlohu č. 27. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "H",
+          "number": 27,
+          "page": 28,
+          "solutionPages": [
+            29
+          ]
+        }
+      },
+      {
+        "question": "Napíšte vzorec fosfatidylinozitolbisfosfátu (PIP₂).",
+        "solutionImages": [
+          "kreativne-s33.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu F: hľadaj úlohu č. 26. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "F",
+          "number": 26,
+          "page": 32,
+          "solutionPages": [
+            33
+          ]
+        }
+      },
+      {
+        "question": "Napíšte vzorce a názvy aspoň dvoch aminokyselín nachádzajúcich sa v proteínoch, na ktoré môže proteínkináza naviazať fosfát z ATP fosfoesterovou väzbou.",
+        "solutionImages": [
+          "kreativne-s37.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu ? (s. 36): hľadaj úlohu č. 26. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "? (s. 36)",
+          "number": 26,
+          "page": 36,
+          "solutionPages": [
+            37
+          ]
+        }
+      },
+      {
+        "question": "Napíšte reakciu, ktorú aktivuje α-podjednotka Gs-proteínu (substrát vzorcom, produkt skratkou).",
+        "solutionImages": [
+          "kreativne-s37.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu ? (s. 36): hľadaj úlohu č. 30. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "? (s. 36)",
+          "number": 30,
+          "page": 36,
+          "solutionPages": [
+            37
+          ]
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,807 @@
+[
+  {
+    "title": "Histológia – zbierka – 5. Väzivo",
+    "description": "Bunky a vlákna väziva, amorfná hmota a typy väziva. Otázky s výberom viacerých odpovedí zo zbierky Histológia a embryológia v otázkach (Miko, Klein, Juríková, UK 2025); kľúč podľa zbierky.",
+    "year": 1,
+    "category": "Histológia",
+    "sortOrder": 15,
+    "questions": [
+      {
+        "question": "Čo je typické pre riedke kolagénové väzivo?",
+        "answers": [
+          "vo forme vrstvy lamina propria sa nachádza pod avaskulárnym epitelom",
+          "je bohaté na krvné a lymfatické cievy",
+          "tvorí vnútornú sieť vo väčšine lymfatických orgánov (napr. lymfatických uzlín)",
+          "vlákna prevažujú nad základnou amorfnou hmotou"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Väzivo",
+          "number": 1,
+          "page": 54
+        }
+      },
+      {
+        "question": "Čo je typické pre fibroblast?",
+        "answers": [
+          "je to vretenovitá bunka s väčším počtom výbežkov a vretenovitým jadrom",
+          "obsahuje granuly s heparínom a histamínom",
+          "ako hlavná väzivová bunka produkuje protilátky",
+          "ako hlavná väzivová bunka produkuje všetky zložky extracelulárneho matrixu",
+          "má veľké bledé vretenovité bunkové jadro a výrazné jadierko",
+          "je to fixná bunka väziva so svetlým bunkovým jadrom, výrazným jadierkom a bazofilnou cytoplazmou",
+          "je typická pre obsah mitochondrií tubulárneho typu",
+          "patrí do skupiny voľných (blúdivých) buniek väziva"
+        ],
+        "correct": [
+          0,
+          3,
+          4,
+          5
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Väzivo",
+          "number": 2,
+          "page": 54
+        }
+      },
+      {
+        "question": "Aký typ tkaniva nájdete v šľache?",
+        "answers": [
+          "retikulárne väzivo",
+          "(biele) tukové tkanivo",
+          "riedke kolagénové väzivo",
+          "husté kolagénové väzivo neusporiadané",
+          "husté kolagénové väzivo usporiadané"
+        ],
+        "correct": [
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Väzivo",
+          "number": 3,
+          "page": 54
+        }
+      },
+      {
+        "question": "Vlákna ktorého tkaniva sa selektívne farbia orceínom?",
+        "answers": [
+          "riedkeho kolagénového väziva so žírnymi bunkami",
+          "elastického väziva",
+          "retikulárneho väziva",
+          "tukového väziva",
+          "rôsolovitého väziva"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Väzivo",
+          "number": 4,
+          "page": 55
+        }
+      },
+      {
+        "question": "Čo je typické pre elastické vlákna?",
+        "answers": [
+          "sú produkované fibroblastami aj bunkami hladkého svalstva v cievach",
+          "tvoria elastické lamely (membrány) v stene aorty",
+          "dajú sa vizualizovať anilínovou modrou a vykazujú zvlnený priebeh",
+          "sú argyrofilné",
+          "obsahujú proteíny elastín, elaunín a oxytalan"
+        ],
+        "correct": [
+          0,
+          1,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Väzivo",
+          "number": 5,
+          "page": 55
+        }
+      },
+      {
+        "question": "Jadro ktorej bunky pripomína hodinový ciferník alebo vypletené koleso?",
+        "answers": [
+          "fibroblastu",
+          "plazmatickej bunky",
+          "žírnej bunky",
+          "multivakuolárneho adipocytu"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Väzivo",
+          "number": 6,
+          "page": 55
+        }
+      },
+      {
+        "question": "Aké sú rozdiely medzi bielym a hnedým tukovým väzivom?",
+        "answers": [
+          "veľkosť a počet tukových vakuol",
+          "schopnosť výroby tepla",
+          "hnedé sa špecializuje na skladovanie prebytočnej energie",
+          "iný celkový počet mitochondrií v bunkách jedného z nich"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Väzivo",
+          "number": 7,
+          "page": 55
+        }
+      },
+      {
+        "question": "Aký je rozdiel medzi hustým kolagénovým väzivom a rôsolovitým väzivom?",
+        "answers": [
+          "husté kolagénové väzivo sa v dospelom organizme vyskytuje hojnejšie",
+          "rôsolovité väzivo obsahuje viac základnej amorfnej hmoty s prevahou hyaluronátu",
+          "rôsolovité väzivo sa nedá farbiť trichrómovým farbivom",
+          "husté kolagénové väzivo obsahuje menej kolagénových vlákien"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Väzivo",
+          "number": 8,
+          "page": 56
+        }
+      },
+      {
+        "question": "Čo je pravda o hnedom tukovom väzive?",
+        "answers": [
+          "obsahuje multivakuolárne adipocyty s vysokým obsahom mitochondrií",
+          "môže vytvárať teplo",
+          "je bohato prekrvené",
+          "je tvorené bunkami, ktoré majú tvar pečatného prsteňa, pričom ploché bunkové jadro je vytlačené na perifériu v úzkom okraji cytoplazmy"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Väzivo",
+          "number": 9,
+          "page": 56
+        }
+      },
+      {
+        "question": "Ktoré z týchto dvojíc patria k sebe?",
+        "answers": [
+          "elastické väzivo – farbenie orceínom",
+          "retikulárne väzivo – farbenie trichrómom",
+          "tukové väzivo – farbenie Sudanom",
+          "husté kolagénové väzivo – impregnácia soľou striebra"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Väzivo",
+          "number": 10,
+          "page": 56
+        }
+      },
+      {
+        "question": "Ktoré tvrdenia o amorfnej hmote spojivového tkaniva sú pravdivé?",
+        "answers": [
+          "jej základom sú glykozaminoglykány a štrukturálne glykoproteíny",
+          "kyselina hyalurónová je nesulfátovaný glykozaminoglykán",
+          "fibronektín a laminín sú sulfátované glykozaminoglykány",
+          "vďaka svojim hydrofóbnym vlastnostiam obsahuje len minimum vody"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Väzivo",
+          "number": 11,
+          "page": 56
+        }
+      },
+      {
+        "question": "Ktoré tvrdenia o funkciách buniek spojivového tkaniva sú pravdivé?",
+        "answers": [
+          "degranulácia žírnych buniek je spojená s alergickými reakciami",
+          "plazmatické bunky majú bohatú bazofilnú cytoplazmu a ich funkciou je fagocytóza",
+          "makrofágy sa môžu spájať do obrovských viacjadrových buniek",
+          "univakuolárne adipocyty sú schopné generovať teplo",
+          "mŕtve neutrofily spoluvytvárajú hnis"
+        ],
+        "correct": [
+          0,
+          2,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Väzivo",
+          "number": 12,
+          "page": 57
+        }
+      },
+      {
+        "question": "V nasledujúcom tvrdení opravte slovo tak, aby bolo toto tvrdenie správne: Glykozaminoglykány nie sú súčasťou extracelulárneho matrixu riedkeho kolagénového väziva.",
+        "answers": [
+          "glykozaminoglykány → proteoglykány",
+          "nie sú → sú",
+          "riedkeho kolagénového → rôsolovitého",
+          "glykozaminoglykány (nie sú) → hyaluronát (nie je)"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Väzivo",
+          "number": 13,
+          "page": 57
+        }
+      },
+      {
+        "question": "Ktoré tvrdenia o molekule kolagénu sú pravdivé?",
+        "answers": [
+          "bielkovina kolagénu sa skladá z dvojitej špirály",
+          "obsahuje najmä aminokyseliny glycín a prolín",
+          "dlhodobý nedostatok vitamínu C vedie k jeho narušenej syntéze",
+          "hydroxylácia jeho aminokyselín sa za fyziologických okolností počas syntézy nevyskytuje",
+          "fibroblast je najbežnejšou bunkou, ktorá vytvára kolagén"
+        ],
+        "correct": [
+          1,
+          2,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Väzivo",
+          "number": 14,
+          "page": 57
+        }
+      },
+      {
+        "question": "Ktoré tvrdenia o kyseline hyalurónovej sú pravdivé?",
+        "answers": [
+          "je silne hydrofóbna (odpudzuje vodu)",
+          "hyaluronidáza – produkt invazívnych baktérií – znižuje viskozitu kyseliny hyalurónovej a uľahčuje prenikanie mikroorganizmov do tkaniva",
+          "je hojne sa vyskytujúca, napr. v sklovci, synoviálnej kĺbovej tekutine alebo Whartonovom rôsoli",
+          "je to len nesulfátový glykozaminoglykán základnej amorfnej hmoty spojivového tkaniva",
+          "je to polymér disacharidov"
+        ],
+        "correct": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Väzivo",
+          "number": 15,
+          "page": 57
+        }
+      },
+      {
+        "question": "Čo dokážu bunky spojivového tkaniva?",
+        "answers": [
+          "produkovať medzibunkový matrix",
+          "ukladať tuk",
+          "fagocytovať",
+          "poskytnúť imunologickú odpoveď",
+          "prenášať nervové impulzy"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Väzivo",
+          "number": 16,
+          "page": 58
+        }
+      },
+      {
+        "question": "Ktoré tvrdenia o žírnych bunkách sú pravdivé?",
+        "answers": [
+          "pochádzajú z krvných monocytov",
+          "sú to vretenovité až hviezdicovité bunky",
+          "obsahujú rozsiahle drsné endoplazmatické retikulum a Golgiho aparát",
+          "sú produkované v kostnej dreni",
+          "obsahujú jednu veľkú lipidovú kvapku, ktorá stláča bunkové jadro a cytoplazmu na perifériu bunky",
+          "ich cytoplazma je vyplnená množstvom granúl, ktoré obsahujú mediátory zápalovej reakcie",
+          "sú príbuzné, ale nie totožné s bazofilmi"
+        ],
+        "correct": [
+          3,
+          5,
+          6
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Väzivo",
+          "number": 17,
+          "page": 58
+        }
+      },
+      {
+        "question": "Ktoré tvrdenia o retikulárnom väzive sú pravdivé?",
+        "answers": [
+          "tvorí väzivový obal (capsula fibrosa) sleziny, obličiek a pečene",
+          "tvorí strómu krvotvornej kostnej drene",
+          "je charakterizované absenciou fagocytujúcich buniek",
+          "jeho retikulárne bunky vytvárajú a obklopujú retikulárne vlákna svojimi výbežkami",
+          "jeho retikulárne vlákna sú PAS negatívne štruktúry"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Väzivo",
+          "number": 18,
+          "page": 58
+        }
+      },
+      {
+        "question": "Ktoré všeobecné tvrdenia o väzive sú pravdivé?",
+        "answers": [
+          "patrí k rovnakému typu tkaniva ako kosť",
+          "vzniká ontogeneticky z mezenchýmu",
+          "na rozdiel od epitelu je avaskulárne",
+          "je zložené prevažne z buniek s veľmi malým množstvom extracelulárneho matrixu"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Väzivo",
+          "number": 19,
+          "page": 58
+        }
+      },
+      {
+        "question": "Aké látky sa nachádzajú v granulách žírnych buniek?",
+        "answers": [
+          "mucinogén",
+          "heparín",
+          "histamín",
+          "hemoglobín",
+          "protilátky",
+          "metaloproteinázy"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Väzivo",
+          "number": 20,
+          "page": 59
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o väzivách:",
+        "answers": [
+          "fibroblasty majú bazofilnú cytoplazmu",
+          "jadro, ktoré vzhľadom pripomína ciferník, nájdeme pri žírnych bunkách",
+          "plazmatické bunky vykazujú metachromáziu",
+          "fibrocyt je pokojová forma základnej bunky väziva vretenovitého tvaru, ktorá sa diferencuje z fibroblastu"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Väzivo",
+          "number": 21,
+          "page": 59
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o väzivách:",
+        "answers": [
+          "adipocyt s jednou veľkou tukovou vakuolou je typický pre hnedé tukové väzivo",
+          "retikulárna bunka predstavuje variant fibroblastu produkujúci kolagén typu III",
+          "netrasová termogenéza je typickou vlastnosťou unilokulárnych adipocytov",
+          "blúdivé bunky väziva spravidla pochádzajú z hematopoetickej kmeňovej bunky"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Väzivo",
+          "number": 22,
+          "page": 59
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o väzivách:",
+        "answers": [
+          "plazmatická bunka je efektorovou bunkou T-lymfocytov",
+          "metachromatické granuly žírnych buniek obsahujú histamín a heparín",
+          "fibroblast je hviezdicová bunka, ktorá produkuje všetky komponenty extracelulárneho matrixu riedkeho kolagénového väziva",
+          "fibroblast vykazuje typické znaky proteosynteticky vysoko aktívnej bunky – veľké euchromatické jadro, výrazné jadierko (jadierka) a bazofilnú cytoplazmu"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Väzivo",
+          "number": 23,
+          "page": 59
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o väzivách:",
+        "answers": [
+          "spravidla platí, že fixné bunky väziva sa diferencujú priamo z mezenchýmu a počas celého života ostávajú na svojom mieste vo väzive",
+          "medzi blúdivé bunky väziva patria adipocyty a myofibroblasty",
+          "všeobecne platí, že blúdivé bunky väziva majú prevažne imunitnú funkciu",
+          "fixné aj blúdivé bunky väziva sú polarizované podobne ako epitelové bunky"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Väzivo",
+          "number": 24,
+          "page": 60
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o väzivách:",
+        "answers": [
+          "fibroblast a fibrocyt sú morfologicky aj funkčne totožné",
+          "plazmatická bunka má oproti svojej materskej bunke (B-lymfocytu) nižší nukleocytoplazmatický pomer",
+          "makrofágy patria medzi fixné bunky väziva",
+          "pre fixné bunky väziva je typická recirkulácia medzi krvným riečiskom a interstíciom"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Väzivo",
+          "number": 25,
+          "page": 60
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o väzivách:",
+        "answers": [
+          "najčastejším typom kolagénu je kolagén typu I",
+          "kolagén typu III je dobre viditeľný pri bežnom farbení hematoxylínom a eozínom",
+          "elastické vlákna sú zložené z amorfného proteínu elastínu, ktorý obkolesujú mikrofibrily fibrilínu (oxytalanové vlákna)",
+          "retikulárne vlákna sú argyrofilné"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Väzivo",
+          "number": 26,
+          "page": 60
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o väzivách:",
+        "answers": [
+          "kolagén je najviac zastúpenou bielkovinou v ľudskom tele",
+          "kolagénové mikrofibrily sú tvorené trojzávitnicou tropokolagénu",
+          "na znázornenie elastických vlákien používame v histológii špeciálne farbiace techniky, napr. orceín alebo rezorcín-fuchsín",
+          "retikulárne vlákna vykazujú okrem argyrofílie aj PAS pozitivitu"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Väzivo",
+          "number": 27,
+          "page": 60
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o väzivách:",
+        "answers": [
+          "komponenty amorfnej hmoty sú dobre odlíšiteľné na úrovni svetelnej mikroskopie",
+          "amorfná hmota s vysokým obsahom kyseliny hyalurónovej je dobre hydratovaná",
+          "laminín je multiadhezívny glykoproteín, ktorý sprostredkúva adhéziu epitelových buniek na bazálnu laminu prostredníctvom väzby integrínov na kolagén typu IV",
+          "proteoglykány sú agregáty zložené z proteínového jadra, na ktoré sa kovalentne viažu sulfátované glykozaminoglykány"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Väzivo",
+          "number": 28,
+          "page": 61
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o väzivách:",
+        "answers": [
+          "amorfná hmota spolu s vláknitou zložkou tvoria extracelulárny matrix spojivových a podporných tkanív",
+          "kyselina hyalurónová je nesulfátovaný glykozaminoglykán, ktorý je bohato zastúpený v dobre hydratovaných väzivách",
+          "fibronektín patrí medzi vláknitú zložku extracelulárneho matrixu väziva",
+          "základnou funkciou multiadhezívnych štrukturálnych glykoproteínov je sprostredkovanie väzieb medzi epitelmi a súčasťami väziva"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Väzivo",
+          "number": 29,
+          "page": 61
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o väzivách:",
+        "answers": [
+          "amorfná hmota je pre vysoký obsah sacharidových zložiek PAS pozitívna",
+          "vláknitú zložku extracelulárneho matrixu väzív produkujú fibroblasty, zatiaľ čo amorfná hmota je produktom blúdivých buniek",
+          "dermatan sulfát je sulfátovaný glykozaminoglykán, ktorý nájdeme napríklad v podkožnom väzive",
+          "amorfná hmota je kľúčová v regulácii hydratácie väzív, a preto zásadne vplýva napr. na priebeh imunitných procesov vo väzive"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Väzivo",
+          "number": 30,
+          "page": 61
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o väzivách:",
+        "answers": [
+          "riedke kolagénové väzivo je zložené prevažne z buniek a amorfnej hmoty, väzivové vlákna sú menej početné",
+          "riedke kolagénové väzivo je kľúčovým miestom priebehu imunitných procesov v organizme",
+          "jednou z funkcií bohato prekrveného riedkeho kolagénového väziva je výživa výstelkových epitelov, ktoré sú takmer vždy bezcievne",
+          "riedke kolagénové väzivo obsahuje výlučne kolagénové vlákna"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Väzivo",
+          "number": 31,
+          "page": 61
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o väzivách:",
+        "answers": [
+          "fascia je typickým príkladom riedkeho kolagénového väziva",
+          "husté kolagénové väzivo obsahuje prevahu kolagénových vlákien na úkor buniek a amorfnej medzibunkovej hmoty",
+          "šľachy sú tvorené hustým kolagénovým väzivom neusporiadaným",
+          "typickým príkladom hustého kolagénového väziva usporiadaného sú ligamenty či aponeurózy"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Väzivo",
+          "number": 32,
+          "page": 62
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o väzivách:",
+        "answers": [
+          "husté kolagénové väzivo neusporiadané sa vyskytuje najmä na miestach, kde pôsobia vonkajšie sily v jednom smere",
+          "hrubé paralelné zväzky kolagénových vlákien obsahujúcich kolagén typu I s malým množstvom plochých fibrocytov pozorujeme v šľachách",
+          "husté kolagénové väzivo obsahuje viac buniek na úkor vlákien",
+          "stratum reticulare dermis je histologicky husté kolagénové väzivo neusporiadané"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Väzivo",
+          "number": 33,
+          "page": 62
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o väzivách:",
+        "answers": [
+          "napriek tomu, že ligamenty sú tvorené histologicky hustým kolagénovým väzivom usporiadaným, môžu obsahovať prímes elastických vlákien, napr. v ligamenta flava",
+          "špecifický typ fibrocytov v šľachách označujeme ako tendinocyty",
+          "na znázornenie kolagénových vlákien vo väzive sa bežne používajú trichrómové farbiace techniky",
+          "husté a riedke kolagénové väzivá sa líšia najmä zložením a množstvom amorfnej hmoty"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Väzivo",
+          "number": 34,
+          "page": 62
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o väzivách:",
+        "answers": [
+          "husté kolagénové väzivo obsahuje najmä kolagén typu III",
+          "väzivové puzdrá parenchýmových orgánov sú tvorené z hustého kolagénového väziva neusporiadaného",
+          "vlnitý priebeh zväzkov kolagénových vlákien v šľachách zabezpečuje určitú kapacitu pre natiahnutie",
+          "hrubé zväzky kolagénových vlákien obsahujúce kolagén typu I v šľachách, väzoch a aponeurózach sú vysoko odolné voči ťahu"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Väzivo",
+          "number": 35,
+          "page": 62
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o väzivách:",
+        "answers": [
+          "hnedé tukové väzivo slúži najmä ako zásobáreň energie",
+          "adipocyty sa môžu izolovane vyskytovať v rámci riedkeho kolagénového väziva, ak však predstavujú dominantný typ buniek, hovoríme o tukovom väzive",
+          "rôsolovité väzivo v pupočníku obsahuje vysoké množstvo kyseliny hyalurónovej",
+          "retikulárne väzivo tvorí jemnú podpornú strómu v sekundárnych lymfatických orgánoch"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Väzivo",
+          "number": 36,
+          "page": 63
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o väzivách:",
+        "answers": [
+          "retikulárne väzivo najlepšie znázorní farbenie trichróm",
+          "hnedé tukové väzivo je bohato vaskularizované",
+          "hnedé tukové väzivo je dôležité najmä u novorodencov pre svoju termoregulačnú funkciu",
+          "na špecifickú demonštráciu bieleho tukového väziva je najviac názorné základné farbenie hematoxylín-eozín"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Väzivo",
+          "number": 37,
+          "page": 63
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o väzivách:",
+        "answers": [
+          "všetky typy väzív obsahujú veľa buniek a málo vlákien",
+          "elastické väzivo tvorí väčšinu šliach a aponeuróz",
+          "okrem hnedého a bieleho odlišujeme aj béžové tukové väzivo",
+          "retikulárne väzivo je tvorené retikulárnymi bunkami a argyrofilnými retikulárnymi vláknami"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Väzivo",
+          "number": 38,
+          "page": 63
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o väzivách:",
+        "answers": [
+          "adipocyty v tukovom väzive tvoria vlastnú vonkajšiu laminu, ktorá je štrukturálne podobná bazálnej lamine epitelov",
+          "biele tukové väzivo neobsahuje krvné cievy",
+          "rôsolovité väzivo nájdeme napr. v pupočníku alebo v zubnej pulpe zubu pred prerezaním",
+          "rôsolovité väzivo má minimum amorfnej hmoty"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Väzivo",
+          "number": 39,
+          "page": 63
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o väzivách:",
+        "answers": [
+          "okrem zásobnej má biele tukové väzivo aj veľmi dôležitú endokrinnú funkciu",
+          "tuk sa pri spracovaní vzoriek bežnými technikami rozpúšťa, preto na vizualizáciu tukového väziva používame špeciálne metódy, napr. farbenie orceínom",
+          "biele tukové väzivo sa za určitých okolností dokáže meniť na hnedé, a naopak",
+          "retikulárne vlákna tvoria jemnú strómu, napr. okolo epitelových buniek kôry nadobličky"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Väzivo",
+          "number": 40,
+          "page": 64
+        }
+      }
+    ]
+  }
+]

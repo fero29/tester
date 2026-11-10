@@ -1,0 +1,789 @@
+[
+  {
+    "title": "Histológia – zbierka – 4. Žľazové epitely",
+    "description": "Exokrinné a endokrinné žľazy, typy sekrécie, tvar a vývody žliaz. Otázky s výberom viacerých odpovedí zo zbierky Histológia a embryológia v otázkach (Miko, Klein, Juríková, UK 2025); kľúč podľa zbierky.",
+    "year": 1,
+    "category": "Histológia",
+    "sortOrder": 14,
+    "questions": [
+      {
+        "question": "Ktorá exokrinná žľaza má tvar jednoduchej tubulóznej žľazy?",
+        "answers": [
+          "tá, ktorá sa nachádza v sliznici ilea",
+          "podčeľustná žľaza",
+          "laktujúca mliečna žľaza",
+          "mazová žľaza",
+          "ekrinná potná žľaza v koži"
+        ],
+        "correct": [
+          0,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Žľazové epitely",
+          "number": 1,
+          "page": 43
+        }
+      },
+      {
+        "question": "Aké typické organely okrem hladkého endoplazmatického retikula obsahujú adultné Leydigove bunky ?",
+        "answers": [
+          "početné voľné ribozómy",
+          "mitochondrie s tubulami",
+          "nepohyblivú primárnu riasinku",
+          "rozsiahlo vyvinutý Golgiho aparát",
+          "dobre viditeľnú bazofilnú cytoplazmu"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Žľazové epitely",
+          "number": 2,
+          "page": 43
+        }
+      },
+      {
+        "question": "Ktorý údaj je pravdivý v prípade holokrinnej sekrécie?",
+        "answers": [
+          "vyskytuje sa v endokrinných žľazách",
+          "vrcholová časť cytoplazmy sa počas sekrécie rozpadá",
+          "zahŕňa vylučovanie iónov chlóru",
+          "vyskytuje sa v mazových žľazách"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Žľazové epitely",
+          "number": 3,
+          "page": 43
+        }
+      },
+      {
+        "question": "Ktorý typ buniek je najlepšie charakterizovaný ako typ s bohatým výskytom drsného ER?",
+        "answers": [
+          "bunky vylučujúce hlien",
+          "bunky vylučujúce peptidy",
+          "bunky vylučujúce bielkoviny",
+          "bunky vylučujúce steroidy",
+          "bunky prenášajúce ióny"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Žľazové epitely",
+          "number": 4,
+          "page": 43
+        }
+      },
+      {
+        "question": "Čo je typické pre bunky s tubulárnymi mitochondriami?",
+        "answers": [
+          "vylučujú bielkoviny",
+          "nachádzajú sa v kôre nadobličiek",
+          "nachádzajú sa v interstíciu semenníkov",
+          "tieto mitochondrie sa nachádzajú medzi záhybmi bazálnej plazmatickej membrány",
+          "vylučujú steroidy"
+        ],
+        "correct": [
+          1,
+          2,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Žľazové epitely",
+          "number": 5,
+          "page": 44
+        }
+      },
+      {
+        "question": "Čo je typické pre žľazový epitel?",
+        "answers": [
+          "polárna orientácia (exokrinných) buniek",
+          "prítomnosť lamina basalis",
+          "nízka miera obnovy",
+          "vysoká bunkovosť",
+          "je odvodený z výstelkového/krycieho epitelu"
+        ],
+        "correct": [
+          0,
+          1,
+          3,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Žľazové epitely",
+          "number": 6,
+          "page": 44
+        }
+      },
+      {
+        "question": "Čo je typické pre mucinóznu bunku?",
+        "answers": [
+          "tvorí hustý sekrét s hydrofilným glykoproteínom",
+          "merokrinná sekrécia",
+          "jej príkladom je myoepitelová bunka",
+          "bazálny kompartment vykazuje značnú bazofíliu v dôsledku lokálnej akumulácie polyribozómov",
+          "typickým príkladom je poháriková bunka",
+          "jej apikálny pól je PAS pozitívny"
+        ],
+        "correct": [
+          0,
+          1,
+          4,
+          5
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Žľazové epitely",
+          "number": 7,
+          "page": 44
+        }
+      },
+      {
+        "question": "V nasledujúcom výroku opravte slovo tak, aby bol tento výrok správny: Endokrinné bunky často tvoria povrazce, popretkávané širokými kontinuálnymi krvnými kapilárami.",
+        "answers": [
+          "kontinuálnymi → fenestrovanými",
+          "endokrinné → exokrinné",
+          "často → len zriedkavo",
+          "povrazce → aciny"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Žľazové epitely",
+          "number": 8,
+          "page": 44
+        }
+      },
+      {
+        "question": "Ktoré z dvojice slov sú správne?",
+        "answers": [
+          "tubulus – mucinózne bunky",
+          "príušná žľaza – serózne bunky",
+          "mazová žľaza – holokrinná sekrécia",
+          "drsné ER – serózne bunky"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Žľazové epitely",
+          "number": 9,
+          "page": 45
+        }
+      },
+      {
+        "question": "Čo platí o myoepitelových bunkách?",
+        "answers": [
+          "sú to kontraktilné epitelové bunky, ktoré uľahčujú vylučovanie sekrétov z exokrinných žliaz",
+          "ležia tesne pod epitelovou lamina basalis",
+          "sú prítomné v sekrečnej časti a vývodoch mliečnej žľazy",
+          "štruktúrou sa podobajú epitelovým bunkám a zároveň kardiomyocytom",
+          "sú to nediferencované bunky, ktoré sú prekurzormi budúcich svalových vlákien"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Žľazové epitely",
+          "number": 10,
+          "page": 45
+        }
+      },
+      {
+        "question": "Ktoré štruktúry patria do systému intralobulárnych vývodov?",
+        "answers": [
+          "vsunuté kanály",
+          "hlavný vývod (napr. Whartonov vývod podčeľustnej žľazy)",
+          "prúžkovaný vývod",
+          "vývody, ktoré sa nepodieľajú na žiadnej ďalšej úprave sekrétu"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Žľazové epitely",
+          "number": 11,
+          "page": 45
+        }
+      },
+      {
+        "question": "Kde sa nachádza žľazový epitel usporiadaný do trámcov?",
+        "answers": [
+          "v štítnej žľaze",
+          "v adenohypofýze",
+          "v neurohypofýze",
+          "v kôre nadobličiek",
+          "v hrubom čreve, kde tvoria tubulózne žľazy"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Žľazové epitely",
+          "number": 12,
+          "page": 45
+        }
+      },
+      {
+        "question": "Čo je pravda o DNES (difúznom neuroendokrinnom systéme)?",
+        "answers": [
+          "jeho bunky sú schopné prijímať prekurzory monoamínov",
+          "nachádzajú sa v zhlukoch ako žľazy v lamina propria viacerých orgánov",
+          "jeho bunky produkujú biogénne amíny (napr. somatostatín)",
+          "jeho bunky sú rozmiestnené ako jednobunkové žľazy v epiteloch dýchacieho a GIT systému",
+          "jeho bunky sú pravidelne rozmiestnené v jadrách hypotalamu"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Žľazové epitely",
+          "number": 13,
+          "page": 46
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o žľazovom epiteli sú pravdivé?",
+        "answers": [
+          "sekrečné časti apokrinných potných žliaz sú obalené myoepitelovými bunkami",
+          "počas cyklu sekrécie v žľazách s holokrinnou sekréciou bunky uvoľňujú sekrečné granuly exocytózou",
+          "všetky tri hlavné slinné žľazy obsahujú serózne bunky",
+          "cytoplazma seróznej sekrečnej bunky je pri farbení hematoxylínom a eozínom bledoružová (eozinofilná)",
+          "mliečna žľaza je jednoduchá tubuloalveolárna žľaza",
+          "alveolus (acinus) je synonymum pre duktálnu časť exokrinného žľazového epitelu"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Žľazové epitely",
+          "number": 14,
+          "page": 46
+        }
+      },
+      {
+        "question": "Čo majú spoločné exokrinné a endokrinné žľazy?",
+        "answers": [
+          "obe sa vyvinuli z povrchového krycieho/výstelkového epitelu",
+          "obe majú svoju verziu systému vývodov",
+          "obe produkujú hormóny",
+          "ich bunky ležia na lamina basalis"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Žľazové epitely",
+          "number": 15,
+          "page": 46
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o seróznej bunke sú pravdivé?",
+        "answers": [
+          "má rovnaký tvar ako mucinózna bunka",
+          "okolo jadra sa hromadí drsné ER",
+          "obsahuje veľké množstvo zymogénnych sekrečných granúl",
+          "má okrúhle bunkové jadro"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Žľazové epitely",
+          "number": 16,
+          "page": 46
+        }
+      },
+      {
+        "question": "Čo je typické pre žľazový epitel?",
+        "answers": [
+          "je tvorený bunkami špecializovanými na produkciu tekutých sekrétov",
+          "nachádza sa v pankrease",
+          "vyprodukované látky sú uložené v bunkách vo forme váčkov – sekrečných granúl",
+          "má vždy priamy kontakt s povrchom tela alebo telesnou dutinou",
+          "nachádza sa v potnej žľaze"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Žľazové epitely",
+          "number": 17,
+          "page": 47
+        }
+      },
+      {
+        "question": "Čo sa vzťahuje na apokrinnú sekréciu?",
+        "answers": [
+          "sekrečný produkt sa hromadí vo vnútri dozrievajúcej bunky, ktorá zároveň podlieha programovanej bunkovej smrti",
+          "je najbežnejším mechanizmom sekrécie a deje sa napríklad v acinárnych bunkách pankreasu",
+          "sekrečný produkt sa uvoľňuje spolu s malým množstvom apikálnej cytoplazmy",
+          "môže sa vyskytovať v mliečnej žľaze alebo v ceruminóznych žľazách vonkajšieho zvukovodu"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Žľazové epitely",
+          "number": 18,
+          "page": 47
+        }
+      },
+      {
+        "question": "Identifikujte správny pár:",
+        "answers": [
+          "mazová žľaza – merokrinná sekrécia",
+          "tuková zložka produktu mliečnej žľazy – apokrinný sekrét",
+          "potná žľaza – holokrinná sekrécia",
+          "tubuloalveolárna žľaza – laktujúca mliečna žľaza"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Žľazové epitely",
+          "number": 19,
+          "page": 47
+        }
+      },
+      {
+        "question": "Ktoré bunkové populácie nie sú súčasťou mikroskopického obrazu gl. parotidea?",
+        "answers": [
+          "serózne bunky",
+          "adipocyty",
+          "myoepitelové bunky",
+          "epitelová kubická bunka prúžkovaného vývodu",
+          "β-bunky"
+        ],
+        "correct": [
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Žľazové epitely",
+          "number": 20,
+          "page": 47
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o žľazových epiteloch:",
+        "answers": [
+          "poháriková bunka je intraepitelová exokrinná jednobunková žľaza",
+          "veľké slinné žľazy patria medzi mnohobunkové endokrinné žľazy",
+          "sekréty mnohobunkových exokrinných žliaz označujeme ako hormóny",
+          "extraepitelové exokrinné žľazy sú vždy v kontakte s povrchom prostredníctvom jedného alebo viacerých vývodov"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Žľazové epitely",
+          "number": 21,
+          "page": 48
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o žľazových epiteloch:",
+        "answers": [
+          "glandula parotidea je čisto serózna zložená exokrinná žľaza",
+          "serózna bunka má typické znaky proteosynteticky aktívnej bunky – euchromatické jadro, tmavé výrazné jadierko a bazofilnú cytoplazmu",
+          "príkladom jednoduchej tubulóznej žľazy je Lieberkühnova krypta v hrubom čreve",
+          "glandula sublingualis je zložená tubuloacinózna žľaza s prevahou mucinóznych tubulov"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Žľazové epitely",
+          "number": 22,
+          "page": 48
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o žľazových epiteloch:",
+        "answers": [
+          "prúžkované vývody sú typom interkalárnych vývodov",
+          "mucín v pohárikových bunkách je dobre pozorovateľný pri farbení hematoxylínom a eozínom",
+          "serózne aciny majú na reze spravidla dobre viditeľný lúmen",
+          "mucinózne bunky vykazujú PAS pozitivitu"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Žľazové epitely",
+          "number": 23,
+          "page": 48
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o žľazových epiteloch:",
+        "answers": [
+          "každá exokrinná žľaza s rozvetvenými sekrečnými jednotkami je zároveň zložená žľaza s rozvetveným systémom vývodov",
+          "všetky typy vývodov exokrinných žliaz sú vystlané jednovrstvovým kubickým epitelom",
+          "alveoly sú sekrečné jednotky, pre ktoré je typický široký, dobre viditeľný lúmen",
+          "každá zložená exokrinná žľaza s rozvetveným systémom vývodov má zároveň rozvetvený systém sekrečných jednotiek"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Žľazové epitely",
+          "number": 24,
+          "page": 48
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o žľazových epiteloch:",
+        "answers": [
+          "interlobárne vývody veľkých slinných žliaz sú vystlané viacvrstvovým kubickým až cylindrickým epitelom",
+          "interkalárne vývody vyúsťujú na povrch tela alebo do lúmenu dutého orgánu",
+          "exokrinné žľazy vylučujú sekréty priamo do krvi",
+          "okolo sekrečný jednotiek mliečnej žľazy sa nachádzajú myoepitelové bunky, ktoré pomáhajú uvoľňovať sekrét"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Žľazové epitely",
+          "number": 25,
+          "page": 49
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o žľazových epiteloch:",
+        "answers": [
+          "apokrinný mechanizmus sekrécie pozorujeme v laktujúcej mliečnej žľaze",
+          "typickým znakom holokrinej sekrécie je vylučovanie sekrétu exocytózou",
+          "pri apokrinnom mechanizme sekrécie stráca bunka apikálnu časť cytoplazmy",
+          "príkladom holokrinne secernujúcej žľazy je glandula parotidea"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Žľazové epitely",
+          "number": 26,
+          "page": 49
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o žľazových epiteloch:",
+        "answers": [
+          "holokrinná sekrécia je charakteristická apoptózou sekrečných buniek",
+          "enzýmy pankreasu sú vylučované zo seróznych buniek merokrinným mechanizmom",
+          "pri ekrinnej sekrécii nedochádza k zmene tvaru buniek",
+          "látky tukovej povahy sú vylučované apokrinne, napr. mliečny tuk"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Žľazové epitely",
+          "number": 27,
+          "page": 49
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o žľazových epiteloch:",
+        "answers": [
+          "ekrinná sekrécia je typická pre potné žľazy",
+          "ak bunka zaniká a stáva sa súčasťou sekrétu, ide o holokrinnú sekréciu",
+          "rôznu výšku buniek v závislosti od fázy sekrécie pozorujeme pri apokrinnej sekrécii",
+          "mliečna žľaza vylučuje všetky komponenty materského mlieka apokrinným mechanizmom"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Žľazové epitely",
+          "number": 28,
+          "page": 49
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o žľazových epiteloch:",
+        "answers": [
+          "apokrinný, merokrinný a holokrinný sú mechanizmy vylučovania hormónov v endokrinných žľazách",
+          "dominantným typom sekrécie veľkých slinných žliaz je merokrinná sekrécia",
+          "autokrinná sekrécia znamená, že bunka produkuje látky pre vlastné potreby",
+          "vylučovanie a pôsobenie sekrétu iba v najbližšom okolí je typické pre parakrinnú sekréciu"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Žľazové epitely",
+          "number": 29,
+          "page": 49
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o žľazových epiteloch:",
+        "answers": [
+          "pohárikové bunky vylučujú mucín exocytózou, čiže apokrinne",
+          "ak jedna bunka vylučuje aj hormóny, aj exokrinné sekréty, ide homotypnú amfikrinnú sekréciu, napr. u hepatocytov",
+          "pankreas je heterotypná amfikrinná žľaza, pretože obsahuje samostatnú exokrinnú aj endokrinnú zložku",
+          "inzulín, rovnako ako pankreatické enzýmy, je vylučovaný holokrinne"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Žľazové epitely",
+          "number": 30,
+          "page": 50
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o žľazových epiteloch:",
+        "answers": [
+          "endokrinné žľazy vylučujú hormóny do systému vývodov",
+          "pankreas je čisto endokrinná žľaza",
+          "folikuly sú epitelové útvary typické pre štítnu žľazu",
+          "endokrinné žľazy vylučujú hormóny do interstícia a odtiaľ priamo do krvi"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Žľazové epitely",
+          "number": 31,
+          "page": 50
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o žľazových epiteloch:",
+        "answers": [
+          "epitelové bunky zona fasciculata kôry nadobličky majú penovitý vzhľad z dôvodu vysokého obsahu cholesterolu",
+          "epitelové trámce kôry nadobličky sú obkolesené bohatou sieťou krvných kapilár",
+          "zona glomerulosa je usporiadaná do trámcov, zatiaľ čo zona fasciculata je tvorená folikulmi",
+          "štítna žľaza patrí medzi exokrinné žľazy, pretože hormóny sú pred vylúčením skladované v dutine folikulov"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Žľazové epitely",
+          "number": 32,
+          "page": 50
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o žľazových epiteloch:",
+        "answers": [
+          "bunky DNES (difúzny neuroendokrinný systém) tvoria makroskopicky rozoznateľné endokrinné žľazy",
+          "endokrinné a exokrinné žľazy sa morfologicky líšia iba usporiadaním ich sekrečných jednotiek",
+          "endokrinné a exokrinné žľazové epitely majú vždy spoločný embryonálny pôvod",
+          "folikuly štítnej žľazy sú obklopené sieťou krvných kapilár s fenestráciami"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Žľazové epitely",
+          "number": 33,
+          "page": 50
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o žľazových epiteloch:",
+        "answers": [
+          "pre kôru nadobličky je typická prítomnosť prúžkovaných vývodov",
+          "exokrinné žľazové epitely si zachovávajú spojenie s krycím alebo výstelkovým epitelom, pričom endokrinné epitely toto spojenie druhotne stratili",
+          "endokrinné epitely, na rozdiel od exokrinných, nenasadajú na bazálnu membránu",
+          "všetky zóny kôry nadobličky majú bunky usporiadané do morfologicky totožných trámcov"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Žľazové epitely",
+          "number": 34,
+          "page": 51
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o žľazových epiteloch:",
+        "answers": [
+          "okrem žľazových epitelov pozorujeme endokrinnú sekréciu aj v iných typoch tkanív, napr. v srdci alebo v týmuse",
+          "kôra nadobličky je rozdelená septami na lalôčiky, v ktorých prebiehajú interlobulárne vývody",
+          "príkladom folikulárneho usporiadania endokrinných žľazových epitelov je kôra nadobličky",
+          "koloid je špecifická zásobná forma glukokortikoidov vo folikuloch zona fasciculata kôry nadobličky"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Žľazové epitely",
+          "number": 35,
+          "page": 51
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o žľazových epiteloch:",
+        "answers": [
+          "autokrinná sekrécia vyžaduje systém vývodov",
+          "epitelové bunky vývodov žliaz majú rovnakú morfológiu ako serózne bunky sekrečných oddielov",
+          "mucinózna bunka má veľké okrúhle euchromatické jadro",
+          "serózne bunky majú kubický alebo pyramídový tvar"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Žľazové epitely",
+          "number": 36,
+          "page": 51
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o žľazových epiteloch:",
+        "answers": [
+          "poháriková bunka je príkladom seróznej bunky",
+          "všetky mnohobunkové žľazy sú pomocou vývodu spojené s vonkajším prostredím",
+          "pohárikovú bunku nájdeme iba ako súčasť jednoduchých tubulóznych žliaz",
+          "ekrinné potné žľazy sú jednoduché stočené žľazy"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Žľazové epitely",
+          "number": 37,
+          "page": 51
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o žľazových epiteloch:",
+        "answers": [
+          "mazové žľazy majú stromčekovito sa vetviaci systém vývodov",
+          "kombináciu merokrinnej a apokrinnej sekrécie pozorujeme v mazových žľazách",
+          "serózne lunuly vznikajú ako artefakty pri histologickom spracovaní vzoriek",
+          "rozdielom medzi tubuloacinóznymi a čisto acinóznymi žľazami je najmä morfológia ich systému vývodov"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Žľazové epitely",
+          "number": 38,
+          "page": 52
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o žľazových epiteloch.",
+        "answers": [
+          "interkalárne vývody sú vystlané dvojvrstvovým kubickým epitelom",
+          "serózne bunky nie sú polarizované, na rozdiel od výstelkových epitelových buniek",
+          "sekrečné oddiely príušnej žľazy a exokrinnej časti pankreasu majú totožnú morfológiu",
+          "serózne bunky sú typické vylučovaním látok tukovej povahy"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Žľazové epitely",
+          "number": 39,
+          "page": 52
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o žľazových epiteloch:",
+        "answers": [
+          "mucín v pohárikových bunkách je PAS negatívny",
+          "aromatické žľazy využívajú výlučne ekrinný mechanizmus sekrécie",
+          "serózne aciny vylučujú sekréty priamo do krvi",
+          "parenchýmové bunky endokrinných žliaz sú obkolesené bohatou sieťou fenestrovaných krvných kapilár alebo sínusoíd"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Žľazové epitely",
+          "number": 40,
+          "page": 52
+        }
+      }
+    ]
+  }
+]

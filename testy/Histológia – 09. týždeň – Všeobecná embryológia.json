@@ -1,0 +1,791 @@
+[
+  {
+    "title": "Histológia – 09. týždeň – Všeobecná embryológia",
+    "description": "Kapacitácia spermií, implantácia, trojvrstvový zárodočný terč, vývin okolo 22. dňa a štruktúry počas gravidity. Otázky s výberom viacerých odpovedí zo zbierky Histológia a embryológia v otázkach (Miko, Klein, Juríková, UK 2025); kľúč podľa zbierky.",
+    "year": 2,
+    "category": "Histológia",
+    "sortOrder": 9.5,
+    "questions": [
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o trilaminárnom zárodočnom disku sú pravdivé?",
+        "answers": [
+          "je tvorený trofoblastom, epiblastom a hypoblastom",
+          "vzniká vo štvrtom týždni",
+          "všetky jeho zárodočné vrstvy pochádzajú z epiblastu",
+          "pozostáva z ektodermy, mezodermy a endodermy"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Všeobecná embryológia",
+          "number": 1,
+          "page": 291
+        }
+      },
+      {
+        "question": "Aké sú fyziologické úlohy žĺtkového vaku?",
+        "answers": [
+          "v 4. až 12. týždni zabezpečuje výživu vyvíjajúceho sa embrya",
+          "jeho extraembryonálna mezoderma je hlavným miestom krvotvorby",
+          "v jeho stene sa tvoria primordiálne zárodočné bunky",
+          "je zásobárňou odpadových produktov metabolizmu plodu"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Všeobecná embryológia",
+          "number": 2,
+          "page": 291
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o extraembryonálnych priestoroch sú pravdivé?",
+        "answers": [
+          "exocélomová cysta vzniká počas tvorby definitívneho žĺtkového vaku",
+          "amniová dutina zaniká počas fetálneho obdobia vývoja",
+          "žĺtkový vak je základom placenty a časti plodových obalov",
+          "choriová dutina vzniká rozdelením extraembryonálnej mezodermy na dve vrstvy"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Všeobecná embryológia",
+          "number": 3,
+          "page": 291
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o viacpočetnom tehotenstve sú pravdivé?",
+        "answers": [
+          "za normálnych okolností je približne 10 % ľudských tehotenstiev viacpočetných (zvyčajne dvojčatá)",
+          "siamské (spojené) dvojčatá sú dvojvaječné, takže môžu byť rôzneho pohlavia",
+          "jednovaječné dvojčatá vznikajú postzygotickým delením skorého embrya",
+          "jednovaječné dvojčatá môžu mať spoločnú placentu (monochoriálne) aj spoločnú plodovú dutinu (monoamniálne)"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Všeobecná embryológia",
+          "number": 4,
+          "page": 291
+        }
+      },
+      {
+        "question": "Čo je prvým osovým orgánom embrya?",
+        "answers": [
+          "notochordy",
+          "Heuserova membrána",
+          "neurálna rúra",
+          "primitívny uzol"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Všeobecná embryológia",
+          "number": 5,
+          "page": 292
+        }
+      },
+      {
+        "question": "Čo sa deje okolo 22. dňa vývoja?",
+        "answers": [
+          "notochordálna platnička sa oddeľuje od endodermy a vytvára notochordu",
+          "začína sa ohyb embrya",
+          "zadný neuropór sa uzatvára",
+          "vytvorí sa septum transversum",
+          "vzniká exocélomová cysta",
+          "začína sa migrácia kraniálnych buniek neurálnej lišty",
+          "objavujú sa terciárne bronchiálne púčiky"
+        ],
+        "correct": [
+          0,
+          1,
+          3,
+          5
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Všeobecná embryológia",
+          "number": 6,
+          "page": 292
+        }
+      },
+      {
+        "question": "Ktorá štruktúra nebola počas vývoja nikdy priamo spojená s primitívnym črevom?",
+        "answers": [
+          "neurálna rúra",
+          "alantois",
+          "ductus vitellinus",
+          "pronefros"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Všeobecná embryológia",
+          "number": 7,
+          "page": 292
+        }
+      },
+      {
+        "question": "Okolo 20. dňa sa dutina žĺtkového vaku dočasne spojí s amniovou dutinou. Ako sa nazýva tento otvor?",
+        "answers": [
+          "orofaryngeálna membrána",
+          "ductus omphaloentericus",
+          "neurenterický kanál",
+          "primitívna jamka"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Všeobecná embryológia",
+          "number": 8,
+          "page": 292
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o placentárnej bariére sú pravdivé?",
+        "answers": [
+          "mezenchým sa môže nachádzať medzi trofoblastom a endotelom vetiev pupočníkových ciev",
+          "trofoblast v zrelej placente pozostáva zo syncýtiotrofoblastu a neúplného cytotrofoblastu",
+          "je to polopriepustná vrstva fetálneho tkaniva, ktorá oddeľuje materskú krv od krvi plodu v placente",
+          "súvislý typ endotelu materských ciev zabraňuje infekcii plodu vírusom HIV"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Všeobecná embryológia",
+          "number": 9,
+          "page": 293
+        }
+      },
+      {
+        "question": "Ktoré štruktúry sú derivátmi povrchovej ektodermy?",
+        "answers": [
+          "vlasový folikul",
+          "enteroendokrinná bunka",
+          "Heringov kanál",
+          "sietnica"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Všeobecná embryológia",
+          "number": 10,
+          "page": 293
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o implantácii embrya sú pravdivé?",
+        "answers": [
+          "v dvoch tretinách prípadov sa implantuje na dorzálnom povrchu maternice",
+          "predchádza hatchingu embrya",
+          "abnormálna implantácia vo vajíčkovode následne spôsobuje vznik placenty praevia",
+          "vyskytuje sa približne desať dní po oplodnení",
+          "hneď po jej začiatku začne trofoblast produkovať ľudský choriový gonadotropín"
+        ],
+        "correct": [
+          0,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Všeobecná embryológia",
+          "number": 11,
+          "page": 293
+        }
+      },
+      {
+        "question": "Ktoré udalosti musia nastať tesne pred samotným oplodnením?",
+        "answers": [
+          "kapacitácia spermií",
+          "brázdovanie blastomér",
+          "hatching",
+          "kortikálna reakcia",
+          "akrozómová reakcia"
+        ],
+        "correct": [
+          0,
+          3,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Všeobecná embryológia",
+          "number": 12,
+          "page": 293
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich dvojíc „typické anatomické miesto – udalosť“ sú správne?",
+        "answers": [
+          "ampula vajíčkovodu – miesto oplodnenia",
+          "krčok maternice – tvorba placenty praevia",
+          "istmus vajíčkovodu – hatching",
+          "dolná predná stena maternice – implantácia"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Všeobecná embryológia",
+          "number": 13,
+          "page": 294
+        }
+      },
+      {
+        "question": "Aký je pôvod mezenchýmu v oblasti hlavy?",
+        "answers": [
+          "mezodermové bunky kardiogénnej zóny",
+          "bunky neurálnej lišty",
+          "cervikálne somity",
+          "somatopleurálny mezenchým"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Všeobecná embryológia",
+          "number": 14,
+          "page": 294
+        }
+      },
+      {
+        "question": "Nahraďte symbol $ správnym slovom v nasledujúcej vete: Vnútroembryonálny célom sa prvýkrát objavuje počas $ týždňa.",
+        "answers": [
+          "druhého",
+          "štvrtého",
+          "piateho",
+          "siedmeho"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Všeobecná embryológia",
+          "number": 15,
+          "page": 294
+        }
+      },
+      {
+        "question": "Čo možno povedať o kapacitácii spermií?",
+        "answers": [
+          "je to iný termín pre kortikálnu reakciu",
+          "počas tohto procesu sa uvoľňujú akrozomálne enzýmy",
+          "je to proces, ktorý prebieha v nadsemenníkoch a ejakulačných kanálikoch",
+          "sú to fyziologické zmeny, ktorými musia spermie prejsť, aby mali schopnosť preniknúť do oocytu a oplodniť ho",
+          "zahŕňa odstránenie cholesterolu z plazmatickej membrány spermie"
+        ],
+        "correct": [
+          3,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Všeobecná embryológia",
+          "number": 16,
+          "page": 294
+        }
+      },
+      {
+        "question": "Čo je to hatching?",
+        "answers": [
+          "iný termín pre pôrod",
+          "štiepenie zygoty",
+          "reakcia endometria po implantácii",
+          "odstránenie zona pellucida"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Všeobecná embryológia",
+          "number": 17,
+          "page": 295
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o žltom teliesku sú pravdivé?",
+        "answers": [
+          "granulóza-luteínové bunky sa nachádzajú prevažne v centrálnej časti žltého telieska v blízkosti krvnej zrazeniny",
+          "corpus luteum graviditatis je hlavným zdrojom progesterónu na začiatku tehotenstva",
+          "granulóza-luteínové bunky sú tmavšie a menšie ako bunky luteínu",
+          "pozostáva z dvoch typov buniek s endokrinnou funkciou téka – luteínových a granulóza-luteínových buniek"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Všeobecná embryológia",
+          "number": 18,
+          "page": 295
+        }
+      },
+      {
+        "question": "Aké sú zložky terciárneho choriového klku?",
+        "answers": [
+          "extraembryonálny mezenchým",
+          "materské kapiláry",
+          "syncýtiotrofoblast",
+          "cytotrofoblast",
+          "deciduálne bunky",
+          "Hofbauerove bunky"
+        ],
+        "correct": [
+          0,
+          2,
+          3,
+          5
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Všeobecná embryológia",
+          "number": 19,
+          "page": 295
+        }
+      },
+      {
+        "question": "Ktoré deje sú súčasťou deciduálnej reakcie?",
+        "answers": [
+          "diferenciácia fibroblastov na deciduálne bunky obsahujúce glykogén",
+          "zvýšenie sekrečných funkcií endometria",
+          "tvorba primárnych choriových klkov",
+          "prestavba materských špirálovitých artérií",
+          "prítomnosť veľkého počtu leukocytov"
+        ],
+        "correct": [
+          0,
+          1,
+          3,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Všeobecná embryológia",
+          "number": 20,
+          "page": 295
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o štruktúrach počas gravidity:",
+        "answers": [
+          "vývin corpus luteum korešponduje s folikulárnou fázou menštruačného cyklu",
+          "téka-luteínové bunky sú početnejšie v porovnaní s granulóza-luteínovými bunkami",
+          "corpus luteum graviditatis dorastá do rozmerov 2 – 5 cm",
+          "téka-luteínové bunky sú lokalizované na periférii žltého telieska"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Všeobecná embryológia",
+          "number": 21,
+          "page": 296
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o štruktúrach počas gravidity:",
+        "answers": [
+          "téka-luteínové bunky sú väčšie v porovnaní s granulóza-luteínovými",
+          "corpus luteum graviditatis produkuje prevažne progesterón a je nevyhnutné pre udržanie gravidity",
+          "konečným štádiom degenerácie corpus luteum je väzivové corpus albicans",
+          "téka-luteínové bunky majú veľkosť okolo 15 mikrometrov a syntetizujú prevažne androgény"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Všeobecná embryológia",
+          "number": 22,
+          "page": 296
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o štruktúrach počas gravidity:",
+        "answers": [
+          "granulóza-luteínové bunky vylučujú progesterón pod vplyvom luteinizačného hormónu",
+          "celé corpus luteum je obalené vonkajšou väzivovou vrstvou theca folliculi externa",
+          "luteolýza je podmienená stimuláciou žltého telieska vysokými hladinami hCG",
+          "granulóza-luteínové bunky sú okrúhle s rozmermi okolo 30 mikrometrov"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Všeobecná embryológia",
+          "number": 23,
+          "page": 296
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o štruktúrach počas gravidity:",
+        "answers": [
+          "decidua je názov pre myometrium steny maternice počas gravidity",
+          "deciduálna reakcia zahŕňa transformáciu stromálnych buniek endometria na deciduálne bunky",
+          "decidua parietalis sa podieľa na tvorbe placenty",
+          "v oblasti decidua basalis sa vyvíja chorion frondosum"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Všeobecná embryológia",
+          "number": 24,
+          "page": 296
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o štruktúrach počas gravidity:",
+        "answers": [
+          "deciduálna premena endometria zabezpečuje histiotrofné štádium vývinu raného embrya",
+          "súčasťou deciduálnej reakcie je zmnoženie ciev endometria a vznik tenkostenných sínusoidných kapilár",
+          "budúca placenta vznikne v oblasti decidua capsularis",
+          "deciduálne bunky majú euchromatické jadro a v cytoplazme obsahujú množstvo lipidov a glykogénu"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Všeobecná embryológia",
+          "number": 25,
+          "page": 296
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o štruktúrach počas gravidity:",
+        "answers": [
+          "časť deciduy, ktorá leží tesne pod zahniezdenou blastocystou, označujeme ako decidua marginalis",
+          "decidua basalis zohráva dôležitú úlohu pri vývine materskej časti placenty",
+          "deciduálna reakcia zahŕňa zvýšenú činnosť žliazok sliznice maternice",
+          "Arias Stellov fenomén je označenie pre zmeny v bunkovom jadre epitelových buniek žliazok sliznice maternice počas deciduálnej premeny"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Všeobecná embryológia",
+          "number": 26,
+          "page": 297
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o štruktúrach počas gravidity:",
+        "answers": [
+          "deciduálne bunky sa vyvíjajú z epitelových buniek endometriálnych žliazok",
+          "deciduálne bunky majú heterochromatické jadro a sú menšie ako stromálne bunky, z ktorých vznikli",
+          "deciduálna premena je nevyhnutná počas hemotrofného štádia vývinu embrya",
+          "decidua je názov pre endometrium steny maternice počas gravidity"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Všeobecná embryológia",
+          "number": 27,
+          "page": 297
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o štruktúrach počas gravidity:",
+        "answers": [
+          "chorion laeve sa vyvíja v oblasti decidua capsularis",
+          "deciduálne bunky vznikajú z endotelových buniek kapilár endometria",
+          "Arias Stellov fenomén predstavuje zmeny jadra deciduálnych buniek",
+          "deciduálna reakcia zahŕňa všetky vrstvy steny maternice"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Všeobecná embryológia",
+          "number": 28,
+          "page": 297
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o štruktúrach počas gravidity:",
+        "answers": [
+          "glandula mammaria lactans je tubulo-alveolárna žľaza",
+          "počas laktácie pribúda v mliečnej žľaze parenchým a redukuje sa stróma",
+          "ductus lactiferi sú označením pre intralobulárne vývody mliečnej žľazy",
+          "mliečna žľaza je špecifická tým, že obsahuje myoepitelové bunky aj okolo vývodov"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Všeobecná embryológia",
+          "number": 29,
+          "page": 297
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o štruktúrach počas gravidity:",
+        "answers": [
+          "prestavba neaktívnej mliečnej žľazy na laktujúcu mliečnu žľazu je pod vplyvom prolaktínu, estrogénu a placentárneho progesterónu",
+          "glandula mammaria lactans obsahuje iba vývody bez vyvinutých sekrečných jednotiek",
+          "sekrečné alveoly mliečnej žľazy sú tvorené galaktocytmi a myoepitelovými bunkami",
+          "stimulácia sekrécie a ejekcie mlieka počas laktácie je pod vplyvom oxytocínu"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Všeobecná embryológia",
+          "number": 30,
+          "page": 297
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o štruktúrach počas gravidity:",
+        "answers": [
+          "primárne choriové klky obsahujú krvné cievy",
+          "všetky typy choriových klkov sú pokryté syncýtiotrofoblastom",
+          "kmeňové klky vyrastajú z choriovej platničky",
+          "sekundárne choriové klky obsahujú mezenchým"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Všeobecná embryológia",
+          "number": 31,
+          "page": 298
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o štruktúrach počas gravidity:",
+        "answers": [
+          "fetálna časť placenty tvorí septá, ktoré ju rozdeľujú na kotyledóny",
+          "fetálnu časť placenty pokrýva amnión",
+          "choriové klky obsahujú špecializované makrofágy, ktoré označujeme ako Hofbauerove bunky",
+          "kmeňové klky vyrastajú z voľných klkov"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Všeobecná embryológia",
+          "number": 32,
+          "page": 298
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o štruktúrach počas gravidity:",
+        "answers": [
+          "intervilózny priestor obsahuje za normálnych podmienok fetálnu krv",
+          "placentárna bariéra je tvorená endotelom ciev plodu, bunkami trofoblastu, ich bazálnymi laminami a vrstvičkou mezenchýmu",
+          "cytotrofoblast je súčasťou placentárnej bariéry počas celej gravidity",
+          "bazálna platnička placenty vyrastá z choriovej platničky"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Všeobecná embryológia",
+          "number": 33,
+          "page": 298
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o štruktúrach počas gravidity:",
+        "answers": [
+          "intervilózny priestor obsahuje za normálnych okolností iba materskú krv",
+          "placentárne septá rozdeľujúce placentu na kotyledóny vyrastajú z bazálnej platničky",
+          "terciárne choriové klky obsahujú v mezenchýme krvné cievy plodu",
+          "sekundárny choriový klk je tvorený výlučne cytotrofoblastom a syncýtiotrofoblastom"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Všeobecná embryológia",
+          "number": 34,
+          "page": 298
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o štruktúrach počas gravidity:",
+        "answers": [
+          "úplne zrelý choriový klk obsahuje minimum mezenchýmu, pričom kapiláry plodu sú v tesnom kontakte so syncýtiotrofoblastom",
+          "pupočník sa upína do bazálnej platničky",
+          "mezenchým choriových klkov má pôvod v embryonálnej mezoderme",
+          "syncýtiotrofoblast je súčasťou placentárnej bariéry počas celej gravidity"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Všeobecná embryológia",
+          "number": 35,
+          "page": 298
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o štruktúrach počas gravidity:",
+        "answers": [
+          "pupočník obsahuje dve vény a jednu artériu",
+          "väzivo pupočníka obsahuje veľké množstvo kyseliny hyalurónovej a označujeme ho ako Whartonov rôsol",
+          "zrelý pupočník obsahuje za normálnych okolností vždy ductus omphaloentericus",
+          "prítomnosť črevnej kľučky v pupočníku je vždy považovaná za patologický jav"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Všeobecná embryológia",
+          "number": 36,
+          "page": 299
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o štruktúrach počas gravidity:",
+        "answers": [
+          "pupočník je pokrytý amniovým epitelom",
+          "pupočník obsahuje črevnú kľučku až do 3. trimestra",
+          "dve umbilikálne artérie obsahujú odkysličenú krv a umbilikálna véna obsahuje okysličenú krv",
+          "umbilikálne cievy sa vyvíjajú z alantoických ciev"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Všeobecná embryológia",
+          "number": 37,
+          "page": 299
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o štruktúrach počas gravidity:",
+        "answers": [
+          "vývin pupočníka úzko súvisí s ohýbaním trojvrstvového zárodočného štítu",
+          "v zrelom pupočníku pozorujeme extraembryonálny célom",
+          "biomechanické vlastnosti Whartonovho rôsolu chránia umbilikálne cievy pred priškrtením",
+          "počas ohýbania zárodku a vývinu pupočníka sa žĺtkový vačok mení na úzky kanálik – ductus omphaloentericus"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Všeobecná embryológia",
+          "number": 38,
+          "page": 299
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o štruktúrach počas gravidity:",
+        "answers": [
+          "pupočník sa upína do choriovej platničky",
+          "Whartonov rôsol sa vyvíja z extraembryonálneho mezenchýmu",
+          "väčšina mezenchýmu vo vyvíjajúcom sa pupočníku pochádza z materiálu zárodkového stvolu",
+          "zrelý pupočník má podobnú dĺžku ako donosený plod – okolo 50 cm"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Všeobecná embryológia",
+          "number": 39,
+          "page": 299
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o štruktúrach počas gravidity:",
+        "answers": [
+          "Whartonov rôsol je tvorený hustým kolagénovým väzivom",
+          "na povrchu pupočníka sa nachádza chorión",
+          "variabilnou súčasťou pupočníka, ktorú pozorujeme najmä v začiatkoch jeho vývinu, je ductus allantoicus (alantois)",
+          "prítomnosť črevnej kľučky v pupočníku počas 6. – 10. týždňa vývinu označujeme ako fyziologická herniácia"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Všeobecná embryológia",
+          "number": 40,
+          "page": 300
+        }
+      }
+    ]
+  }
+]

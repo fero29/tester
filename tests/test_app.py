@@ -187,3 +187,14 @@ def test_selfcheck_tests_and_assets(client, tmp_path):
     assert 'max-age=86400' in response.headers['Cache-Control']
     for name in ('missing.jpg', '..%2Fapp.py', 'x.json', '.hidden.jpg'):
         assert client.get(f'/api/assets/{name}').status_code == 404
+    (assets / 'zadanie.html').write_text('<p>study</p>')
+    page = client.get('/api/assets/zadanie.html')
+    assert page.data == b'<p>study</p>' and 'max-age=0' in page.headers['Cache-Control']
+    material = {'title': 'Angličtina', 'studyMaterial': 'zadanie.html#z1', 'questions': [{'question': 'Q', 'answers': ['a', 'b'], 'correct': 0}]}
+    for bad in ('../x.html', 'x.jpg', 'javascript:alert(1)', 5):
+        upload = client.post('/api/import', headers=headers, data={'file': (io.BytesIO(json.dumps({**material, 'studyMaterial': bad}).encode()), 'm.json')})
+        assert upload.status_code == 400
+    bad_image = {**good, 'questions': [{'question': 'X', 'solutionImages': ['zadanie.html']}]}
+    assert client.post('/api/import', headers=headers, data={'file': (io.BytesIO(json.dumps(bad_image).encode()), 'i.json')}).status_code == 400
+    upload = client.post('/api/import', headers=headers, data={'file': (io.BytesIO(json.dumps(material).encode()), 'm.json')})
+    assert upload.status_code == 200

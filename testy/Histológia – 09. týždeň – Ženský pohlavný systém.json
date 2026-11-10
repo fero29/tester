@@ -1,0 +1,990 @@
+[
+  {
+    "title": "Histológia – 09. týždeň – Ženský pohlavný systém",
+    "description": "Vaječník, folikuly, vajíčkovod, maternica, pošva, mliečna žľaza a ich vývin. Otázky s výberom viacerých odpovedí zo zbierky Histológia a embryológia v otázkach (Miko, Klein, Juríková, UK 2025); kľúč podľa zbierky.",
+    "year": 2,
+    "category": "Histológia",
+    "sortOrder": 9,
+    "questions": [
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o ovariálnych folikuloch sú pravdivé?",
+        "answers": [
+          "kôra aj dreň vaječníkov obsahujú ovariálne folikuly",
+          "sú to viacbunkové štruktúry obsahujúce primárne alebo sekundárne oocyty – podľa štádia dozrievania folikulov",
+          "sekundárny ovariálny folikul obsahuje sekundárny oocyt",
+          "primordiálne folikuly obsahujú cylindrické folikulárne bunky"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Ženský pohlavný systém",
+          "number": 1,
+          "page": 239
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o dreni vaječníka sú pravdivé?",
+        "answers": [
+          "pozostáva z riedkeho kolagénového väziva bohatého na cievy a nervy",
+          "pozostáva z viacerých vrstiev hladkého svalstva",
+          "s výnimkou primordiálnych folikulov sú v ňom prítomné všetky štádiá folikulov",
+          "môže obsahovať hilové bunky s endokrinnými funkciami"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Ženský pohlavný systém",
+          "number": 2,
+          "page": 239
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich štruktúr sú súčasťou terciárneho Graafovho folikulu?",
+        "answers": [
+          "cumulus oophorus",
+          "zona pellucida",
+          "antrum foliculi",
+          "téka-luteínové bunky",
+          "terciárny oocyt",
+          "granulózové bunky"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          5
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Ženský pohlavný systém",
+          "number": 3,
+          "page": 239
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o maternici sú pravdivé?",
+        "answers": [
+          "lamina propria endometria obsahuje množstvo fibroblastov",
+          "myometrium, ktoré pozostáva z viacerých vrstiev hladkého svalstva, je najhrubšou vrstvou steny maternice",
+          "jednoduché alveolárne žľazy sú lokalizované v lamina propria endometria",
+          "sliznica maternice je vystlaná viacradovým cylindrickým epitelom"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Ženský pohlavný systém",
+          "number": 4,
+          "page": 239
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o krčku maternice sú pravdivé?",
+        "answers": [
+          "epitel exocervixu je rovnaký ako epitel vagíny",
+          "hlien produkovaný epitelovými bunkami krčka maternice sa podieľa na zvlhčovaní pošvy",
+          "epitel endocervixu je rovnaký ako epitel dna a tela maternice",
+          "exocervix je vystlaný jednovrstvovým cylindrickým epitelom",
+          "sliznica krčka maternice neobsahuje žiadne žľazy"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Ženský pohlavný systém",
+          "number": 5,
+          "page": 240
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o vagíne sú pravdivé?",
+        "answers": [
+          "početné slizničné žľazy pošvy sú aktívne počas sexuálneho vzrušenia",
+          "stena obsahuje bohatú sieť tenkostenných žíl",
+          "epitelové bunky syntetizujú a hromadia glykogén",
+          "svalovina obsahuje priečne pruhované svalstvo",
+          "lamina epithelialis pozostáva z viacvrstvového plochého nerohovatejúceho epitelu"
+        ],
+        "correct": [
+          1,
+          2,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Ženský pohlavný systém",
+          "number": 6,
+          "page": 240
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o vajíčkovodoch sú pravdivé?",
+        "answers": [
+          "sliznica ampulárnej časti vajíčkovodu tvorí vysoké pozdĺžne záhyby",
+          "vonkajšia vrstva sa nazýva adventícia",
+          "najdlhšie slizničné záhyby sa nachádzajú v istme",
+          "ich lamina epithelialis obsahuje aj stĺpcovité bunky s kinocíliami"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Ženský pohlavný systém",
+          "number": 7,
+          "page": 240
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o ovariálnych folikuloch sú pravdivé?",
+        "answers": [
+          "prasknutie zrelého Graafovho folikulu vo vaječníku sa nazýva luteolýza",
+          "zona pellucida je extracelulárna hmota medzi folikulárnymi/granulózovými bunkami a tekálnymi bunkami vo vnútri folikulov",
+          "programovaný fyziologický zánik folikulov sa označuje ako folikulárna atrézia",
+          "ovulácia prebieha spolu s menštruačným krvácaním"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Ženský pohlavný systém",
+          "number": 8,
+          "page": 240
+        }
+      },
+      {
+        "question": "V ktorých častiach ženského pohlavného systému sa nachádzajú riasinky?",
+        "answers": [
+          "vo vajíčkovodoch",
+          "v maternici",
+          "vo vagíne",
+          "v Bartholiniho žľaze"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Ženský pohlavný systém",
+          "number": 9,
+          "page": 241
+        }
+      },
+      {
+        "question": "Akú úlohu zohráva produkcia glykogénu vo vaginálnom epiteli?",
+        "answers": [
+          "výživa spermií",
+          "aktivácia pohyblivosti spermií",
+          "metabolizuje sa na kyselinu mliečnu, ktorá zvyšuje kyslosť pošvy",
+          "alkalizácia vaginálneho prostredia"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Ženský pohlavný systém",
+          "number": 10,
+          "page": 241
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení najlepšie popisuje histologický rozdiel medzi pažerákom a pošvou?",
+        "answers": [
+          "pošva má podslizničné žľazy, zatiaľ čo pažerák nie",
+          "pošva má viacvrstvový plochý rohovatejúci epitel a pažerák má nerohovatejúci viacvrstvový plochý epitel",
+          "pažerák má podslizničné žľazy, zatiaľ čo pošva nie",
+          "pažerák má rozsiahlejšie cievne sínusoidy ako pošva"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Ženský pohlavný systém",
+          "number": 11,
+          "page": 241
+        }
+      },
+      {
+        "question": "Ako sa nazýva štruktúra v ženských vonkajších pohlavných orgánoch, ktorá má párové telieska corpora cavernosa?",
+        "answers": [
+          "mons pubis",
+          "veľké pysky",
+          "malé pysky",
+          "klitoris"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Ženský pohlavný systém",
+          "number": 12,
+          "page": 241
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o bazálnej vrstve endometria sú pravdivé?",
+        "answers": [
+          "je zásobovaná priamymi tepnami",
+          "obsahuje základy endometriálnych žliaz",
+          "počas menštruácie sa zachováva",
+          "po rýchlom poklese hormónov žltého telieska sa stáva ischemickou",
+          "susedí s myometriom"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Ženský pohlavný systém",
+          "number": 13,
+          "page": 242
+        }
+      },
+      {
+        "question": "V nasledujúcom výroku opravte slovo tak, aby bol tento výrok správny: Vývoj primárneho oocytu môže byť zastavený až na 50 rokov v zygoténnom štádiu profázy prvého meiotického delenia.",
+        "answers": [
+          "primárneho → primordiálneho",
+          "zygoténnom → diploténnom",
+          "profázy → metafázy",
+          "prvého → druhého"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Ženský pohlavný systém",
+          "number": 14,
+          "page": 242
+        }
+      },
+      {
+        "question": "Ktorá z nasledujúcich možností vhodne opisuje biologickú funkciu zona pellucida?",
+        "answers": [
+          "vylučovanie hormónov",
+          "selektívne vychytávanie bielkovín",
+          "prevencia polyspermie",
+          "kapacitácia spermií",
+          "priľnavosť spermií",
+          "prevencia včasnej implantácie embrya"
+        ],
+        "correct": [
+          2,
+          4,
+          5
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Ženský pohlavný systém",
+          "number": 15,
+          "page": 242
+        }
+      },
+      {
+        "question": "Ktorý z nasledujúcich nálezov sa očakáva pri makroskopickom a mikroskopickom vyšetrení vaječníka získaného od zdravej ženy počas jej reprodukčného života?",
+        "answers": [
+          "primordiálne folikuly",
+          "ostrovy endometriálneho tkaniva",
+          "kolagénová jazva",
+          "bohatá kapilárna sieť",
+          "povrchový kubický epitel",
+          "sekundárne lymfatické uzlíky"
+        ],
+        "correct": [
+          0,
+          2,
+          3,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Ženský pohlavný systém",
+          "number": 16,
+          "page": 242
+        }
+      },
+      {
+        "question": "Ktoré tepny sa nachádzajú v maternici?",
+        "answers": [
+          "aa. arcuatae",
+          "aa. radiales",
+          "aa. spirales",
+          "aa. centrales",
+          "eferentné"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Ženský pohlavný systém",
+          "number": 17,
+          "page": 243
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o vagíne sú pravdivé?",
+        "answers": [
+          "je vystlaná viacvrstvovým plochým rohovatejúcim epitelom",
+          "je bohato osídlená Lactobacillus acidophilus",
+          "má v stene hojné serózne a mucinózne žliazky",
+          "má v stene početné elastické vlákna"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Ženský pohlavný systém",
+          "number": 18,
+          "page": 243
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o žltom teliesku sú pravdivé?",
+        "answers": [
+          "je prítomný vo vaječníkoch v čase sekrečnej fázy endometria",
+          "tvorí sa vo vaječníku po ovulácii",
+          "je zvyškom bieleho telieska",
+          "produkuje progesterón",
+          "ak nedôjde k oplodneniu, zaniká na konci menštruačného cyklu"
+        ],
+        "correct": [
+          0,
+          1,
+          3,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Ženský pohlavný systém",
+          "number": 19,
+          "page": 243
+        }
+      },
+      {
+        "question": "Ako je proliferačná fáza endometria zosúladená s ovariálnym cyklom?",
+        "answers": [
+          "nasleduje po ovulácii",
+          "nasleduje po luteálnej fáze",
+          "približne sa prekrýva s folikulárnou fázou",
+          "vyskytuje sa počas tvorby bieleho telieska"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Ženský pohlavný systém",
+          "number": 20,
+          "page": 243
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o ženskom pohlavnom systéme:",
+        "answers": [
+          "vaječník je pokrytý povrchovým (v staršej literatúre: zárodočným) epitelom, z ktorého sa vyvíjajú gaméty",
+          "vývinové štádiá ovariálnych folikulov sa nachádzajú v dreni vaječníka",
+          "sekundárny ovariálny folikul obsahuje sekundárny oocyt",
+          "primordiálny ovariálny folikul je tvorený primárnym oocytom a jednou vrstvou plochých folikulových buniek"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Ženský pohlavný systém",
+          "number": 21,
+          "page": 244
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o ženskom pohlavnom systéme:",
+        "answers": [
+          "všetky štádiá ovariálnych folikulov s výnimkou Graafovho folikulu tesne pred ovuláciou obsahujú primárny oocyt",
+          "stróma vaječníka obsahuje špecializované fibroblasty a v oblasti hilu aj intersticiálne hilové bunky",
+          "všetky primordiálne folikuly obsahujú primárne oocyty, ktoré sú v profáze 1. fázy meiózy",
+          "oocyt má vo všetkých typoch ovariálnych folikulov rovnakú veľkosť"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Ženský pohlavný systém",
+          "number": 22,
+          "page": 244
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o ženskom pohlavnom systéme:",
+        "answers": [
+          "theca folliculi ako väzivové puzdro ovariálnych folikulov sa začína formovať v štádiu primárneho multilaminárneho folikulu",
+          "Graafov folikul je zrelá forma dominantného terciárneho ovariálneho folikulu v období ovulácie",
+          "všetky terciárne folikuly obsahujú sekundárne oocyty",
+          "zona pellucida pokrýva oocyt od štádia primordiálneho folikulu"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Ženský pohlavný systém",
+          "number": 23,
+          "page": 244
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o ženskom pohlavnom systéme:",
+        "answers": [
+          "tunica albuginea je väzivový obal vaječníka, ktorý sa nachádza pod povrchovým epitelom",
+          "vývin kohorty folikulov od štádia primordiálneho folikulu až po zrelý Graafov folikul prebieha počas luteálnej fázy ovariálneho cyklu",
+          "dreň vaječníka neobsahuje žiadne vývinové štádiá ovariálnych folikulov",
+          "atrézia folikulov je patologický proces, ktorý za normálnych podmienok nepozorujeme"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Ženský pohlavný systém",
+          "number": 24,
+          "page": 244
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o ženskom pohlavnom systéme:",
+        "answers": [
+          "folikulárne bunky obklopujúce oocyt od štádia primárneho multilaminárneho folikulu označujeme ako bunky granulózy",
+          "primárny oocyt v primordiálnom folikule má veľkosť okolo 130 mikrometrov",
+          "Graafov folikul obsahuje zrelé vajíčko, ktoré vzniklo dokončením 2. fázy meiózy",
+          "antrum folliculare je plne vyvinuté v štádiu terciárneho folikulu"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Ženský pohlavný systém",
+          "number": 25,
+          "page": 245
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o ženskom pohlavnom systéme:",
+        "answers": [
+          "v sekundárnom ovariálnom folikule sa začínajú formovať dutinky, ktoré neskôr splývajú a tvoria antrum folliculare",
+          "primárny oocyt v primordiálnom folikule má veľkosť okolo 25 – 30 mikrometrov",
+          "cumulus oophorus je štruktúra typická pre primárny unilaminárny folikul",
+          "primordiálne folikuly sú v kôre vaječníka najpočetnejšie"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Ženský pohlavný systém",
+          "number": 26,
+          "page": 245
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o ženskom pohlavnom systéme:",
+        "answers": [
+          "corona radiata je súbor buniek granulózy, ktoré priamo obklopujú oocyt",
+          "v každom cykle sa pod vplyvom FSH ďalej vyvíja iba jeden primordiálny folikul",
+          "atrézia folikulov je fyziologický proces, počas ktorého apoptózou zanikne behom života viac ako 99,9 % všetkých ovariálnych folikulov",
+          "vývoj kohorty ovariálnych folikulov je pod kontrolou toho istého hormónu adenohypofýzy, ktorý ovplyvňuje činnosť Sertoliho buniek semenotvorných kanálikov"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Ženský pohlavný systém",
+          "number": 27,
+          "page": 245
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o ženskom pohlavnom systéme:",
+        "answers": [
+          "zrelé vajíčko (ovum) vzniká iba v prípade oplodnenia",
+          "primárny unilaminárny folikul obsahuje primárny oocyt obkolesený jednou vrstvou kubických folikulárnych buniek",
+          "kohorta folikulov je súbor 6 – 12 folikulov, ktoré spoločne dozrievajú každý cyklus",
+          "cumulus oophorus je hrbolček vo vnútri sekundárneho folikulu"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Ženský pohlavný systém",
+          "number": 28,
+          "page": 245
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o ženskom pohlavnom systéme:",
+        "answers": [
+          "vajíčkovod je vystlaný jednovrstvovým cylindrickým epitelom s riasinkami",
+          "ako locus fecundationis (miesto oplodnenia) označujeme istmus vajíčkovodu",
+          "svalovina vajíčkovodu je usporiadaná do vnútornej cirkulárnej a vonkajšej longitudinálnej vrstvy",
+          "všetky bunky epitelu vajíčkovodu majú na povrchu riasinky"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Ženský pohlavný systém",
+          "number": 29,
+          "page": 246
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o ženskom pohlavnom systéme:",
+        "answers": [
+          "epitel vajíčkovodu obsahuje dve hlavné populácie buniek, ktoré dosahujú k lúmenu – bunky s riasinkami a sekrečné bunky s mikroklkmi",
+          "vajíčkovod je na povrchu pokrytý serózou",
+          "riasinky epitelu vajíčkovodu kmitajú výlučne smerom k maternici",
+          "ako locus fecundationis označujeme ampulu vajíčkovodu, pretože tu najčastejšie dochádza k oplodneniu"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Ženský pohlavný systém",
+          "number": 30,
+          "page": 246
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o ženskom pohlavnom systéme:",
+        "answers": [
+          "sliznica vajíčkovodu tvorí anastomozujúce riasy, ktoré sú najvýraznejšie vyvinuté v ampule",
+          "vajíčkovod pokrýva tunica adventitia",
+          "riasinky epitelu vajíčkovodu kmitajú v oboch smeroch a tým pomáhajú posúvať oocyt a rané embryo k maternici a spermie opačným smerom",
+          "svalovina vajíčkovodu je najhrubšia v ampule a smerom k maternici sa stenčuje"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Ženský pohlavný systém",
+          "number": 31,
+          "page": 246
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o ženskom pohlavnom systéme:",
+        "answers": [
+          "endometrium je sliznica maternice, ktorá je vystlaná jednovrstvovým cylindrickým epitelom",
+          "najhrubšou vrstvou steny maternice je perimetrium",
+          "hladké svalové bunky myometria počas gravidity podliehajú hypertrofii môžu sa zväčšiť až 10-násobne",
+          "proliferačná fáza meštruačného cyklu korešponduje s folikulárnou fázou ovariálneho cyklu"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Ženský pohlavný systém",
+          "number": 32,
+          "page": 246
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o ženskom pohlavnom systéme:",
+        "answers": [
+          "žliazky endometria v proliferačnej fáze majú pílovitý vzhľad",
+          "myometrium je najhrubšia vrstva steny maternice, tvorená hladkou svalovinou",
+          "stratum basale endometria podlieha výrazným morfologickým a funkčným zmenám počas menštruačného cyklu",
+          "sekrečná fáza menštruačného cyklu korešponduje s luteálnou fázou ovariálneho cyklu"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Ženský pohlavný systém",
+          "number": 33,
+          "page": 247
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o ženskom pohlavnom systéme:",
+        "answers": [
+          "žliazky endometria v proliferačnej fáze majú priamy priebeh",
+          "stratum functionale endometria podlieha počas menštruačného cyklu najvýraznejším morfologickým a funkčným zmenám",
+          "krčok maternice vystiela, podobne ako ostatné časti maternice, jeden typ epitelu",
+          "zona basalis zabezpečuje regeneráciu endometria počas nasledujúceho menšturačného cyklu"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Ženský pohlavný systém",
+          "number": 34,
+          "page": 247
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o ženskom pohlavnom systéme:",
+        "answers": [
+          "celý povrch maternice je pokrytý perimetriom čiže serózou",
+          "prvou fázou meštruačného cyklu je sekrečná fáza",
+          "počas gravidity podliehajú hladké svalové bunky myometria hypertrofii aj hyperplázii",
+          "endometrium obsahuje aj špeciálne Hamperlove bunky, ktoré majú dôležité imunitné funkcie"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Ženský pohlavný systém",
+          "number": 35,
+          "page": 247
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o ženskom pohlavnom systéme:",
+        "answers": [
+          "endometrium obsahuje, podobne ako epitel vajíčkovodu, sekrečné bunky aj bunky s riasinkami",
+          "endometrium obsahuje jednoduché tubulózne žliazky, ktoré podliehajú výrazným zmenám počas menšturačného cyklu",
+          "hladké svalové bunky myometria nepodliehajú počas gravidity výrazným zmenám",
+          "exocervix je vystlaný viacvrstovým dlaždicovým nerohovatejúcim epitelom"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Ženský pohlavný systém",
+          "number": 36,
+          "page": 247
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o ženskom pohlavnom systéme:",
+        "answers": [
+          "sliznica endocervixu neobsahuje žliazky",
+          "endocervix je vystlaný jednovrstvovým cylindrickým epitelom",
+          "cervix prekonáva rovnako výrazné morfologicko-funkčné zmeny počas menštruačného cyklu ako endometrium tela maternice",
+          "v sekrečnej fáze menštruačného cyklu podliehajú stromálne bunky predeciduálnej reakcii"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Ženský pohlavný systém",
+          "number": 37,
+          "page": 248
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o ženskom pohlavnom systéme:",
+        "answers": [
+          "v sekrečnej fáze menštruačného cyklu odlišujeme morfologicky dve vrstvy – stratum compactum a stratum spongiosum endometrii",
+          "sliznica exocervixu neobsahuje žliazky",
+          "meštruačná fáza endometriálneho cyklu nastáva v dôsledku poklesu hladiny progesterónu",
+          "endocervix aj exocervix sú vystlané rovnakým typom epitelu"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Ženský pohlavný systém",
+          "number": 38,
+          "page": 248
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o ženskom pohlavnom systéme:",
+        "answers": [
+          "sliznica vagíny obsahuje početné tubulo-alveolárne žliazky",
+          "epitel sliznice vagíny je jednovrstvový cylindrický",
+          "povrchové vrstvy epitelu vagíny obsahujú množstvo látok, ktoré dokážeme znázorniť PAS reakciou",
+          "vagína je na povrchu krytá adventíciou"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Ženský pohlavný systém",
+          "number": 39,
+          "page": 248
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o ženskom pohlavnom systéme:",
+        "answers": [
+          "tunica spongiosa steny vagíny obsahuje veľa elastických vlákien a množstvo tenkostenných žíl",
+          "svalovina steny vagíny je usporiadaná do vnútornej cirkulárnej a vonkajšej longitudinálnej vrstvy",
+          "epitel sliznice vagíny je mechanicky odolný viacvrstvový dlaždicový nerohovatejúci epitel",
+          "vagína je na povrchu krytá serózou"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Ženský pohlavný systém",
+          "number": 40,
+          "page": 248
+        }
+      },
+      {
+        "question": "Počas vývoja ženského reprodukčného systému mezonefrické kanáliky zanikajú. Ich zvyšky však môžu už ženy pretrvávať. V podobe ktorej štruktúry?",
+        "answers": [
+          "Bartholiniho cysta",
+          "Nabothova cysta",
+          "Gartnerova cysta",
+          "ovariálna cysta",
+          "epooforón"
+        ],
+        "correct": [
+          2,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Ženský pohlavný systém",
+          "number": 41,
+          "page": 249
+        }
+      },
+      {
+        "question": "Ktoré orgány pochádzajú z Müllerových kanálikov/vývodov?",
+        "answers": [
+          "vaječníky",
+          "vajíčkovody",
+          "maternica",
+          "kraniálna časť pošvy",
+          "kaudálna časť pošvy"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Ženský pohlavný systém",
+          "number": 42,
+          "page": 249
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o uretrálnych hrebeňoch u žien sú pravdivé?",
+        "answers": [
+          "vyvíjajú sa po oboch stranách močovej rúry",
+          "stretávajú sa pri genitálnom hrbole",
+          "vyvinú sa do veľkých pyskov",
+          "vyvinú sa do klitorisu"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Ženský pohlavný systém",
+          "number": 43,
+          "page": 249
+        }
+      },
+      {
+        "question": "Z akých štruktúr alebo tkanív vznikajú vaječníky?",
+        "answers": [
+          "intermediárna mezoderma zadnej steny tela",
+          "bunky zo steny žĺtkového vaku",
+          "urogenitálny sínus",
+          "célomový epitel"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Ženský pohlavný systém",
+          "number": 44,
+          "page": 249
+        }
+      },
+      {
+        "question": "Ktoré orgány pochádzajú z urogenitálneho sínusu?",
+        "answers": [
+          "epooforón",
+          "tekálne bunky",
+          "Bartholiho žľazy",
+          "kaudálna časť pošvy"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Ženský pohlavný systém",
+          "number": 45,
+          "page": 250
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o vývine ženského pohlavného systému:",
+        "answers": [
+          "folikulárne bunky ovariálnych folikulov sa vyvíjajú z mezenchýmu",
+          "pre správny vývin embrya ženského pohlavia je nevyhnutný SRY gén",
+          "na vývine vnútorných ženských pohlavných orgánov sa z veľkej časti podieľa paramezonefrický (Müllerov) vývod",
+          "mezonefrický (Wolffov) vývod je základom pre vývin vajíčkovodov a maternice"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Ženský pohlavný systém",
+          "number": 46,
+          "page": 250
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o vývine ženského pohlavného systému:",
+        "answers": [
+          "celá pošva je pôvodom z mezonefrického (Müllerovho) vývodu",
+          "bunky theca folliculi sú pôvodom z mezenchýmu genitálnej lišty",
+          "paramezonefrický (Müllerov) vývod je základom pre vajíčkovod, maternicu a kraniálnu časť pošvy",
+          "folikulárne bunky ovariálnych folikulov sa vyvíjajú z epitelových povrazcov pochádzajúcich z célomového epitelu"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Ženský pohlavný systém",
+          "number": 47,
+          "page": 250
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o vývine ženského pohlavného systému:",
+        "answers": [
+          "prvopohlavné bunky sa vyvíjajú rovnako ako folikulárne bunky z célomového epitelu",
+          "Müllerov hrbolček vzniká v mieste kontaktu uterovaginálneho kanála a panvovej časti urogenitálneho sínusu",
+          "pošva sa vyvíja z dvoch základov – časť zo splynutých Müllerových vývodov a časť zo sinus urogenitalis",
+          "vestibulum vaginae je pôvodom z urogenitálneho sínusu"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Ženský pohlavný systém",
+          "number": 48,
+          "page": 250
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o vývine ženského pohlavného systému:",
+        "answers": [
+          "labioskrotálne valy sú základom pre labia minora",
+          "uterus bicornis je vrodená vývinová chyba, ktorej podkladom je neúplne spojenie mezonefrických (Wolffových) vývodov",
+          "panvová a falická časť sinus urogenitalis dáva základ kraniálnej časti pošvy",
+          "vaječník sa vyvíja z indiferentnej gonády, ktorá sa začína diferencovať smerom k ženskému fenotypu od 7. týždňa po oplodnení"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Ženský pohlavný systém",
+          "number": 49,
+          "page": 251
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o vývine ženského pohlavného systému:",
+        "answers": [
+          "celá pošva je pôvodom z urogenitálneho sínusu",
+          "poruchou vývinu paramezonefrického (Müllerovho) vývodu môže vzniknúť raritná agenéza vajíčkovodov, maternice a kraniálnej časti pošvy, ktorú označujeme ako Mayerov-Rokitanského-Küsterov-Hauserov syndróm",
+          "prvopohlavné bunky sa diferencujú priamo v genitálnej lište",
+          "vaječník sa vyvíja z troch základov – prvopohlavných buniek, epitelových povrazcov z célomového epitelu a mezenchýmu genitálnej lišty"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Ženský pohlavný systém",
+          "number": 50,
+          "page": 251
+        }
+      }
+    ]
+  }
+]

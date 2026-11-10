@@ -1,0 +1,172 @@
+[
+  {
+    "title": "Biochémia – 06. týždeň – Úlohy na písanie",
+    "description": "Úlohy na písanie vzorcov a reakcií z kariet „Tvorivé otázky“ (otvorené otázky kontrolných testov). Napíš riešenie na papier a porovnaj ho s ručne písanou ukážkou spolužiaka; ukážka nie je oficiálny kľúč.",
+    "testType": "selfcheck",
+    "year": 2,
+    "category": "Biochémia",
+    "sortOrder": 6.5,
+    "questions": [
+      {
+        "question": "Napíšte prvú reakciu využitia glycerolu na glukoneogenézu, názov enzýmu, nukleotidy skratkou.",
+        "solutionImages": [
+          "kreativne-s08.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu A: hľadaj úlohu č. 28. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "A",
+          "number": 28,
+          "page": 7,
+          "solutionPages": [
+            8
+          ]
+        }
+      },
+      {
+        "question": "Napíšte reakciu glykolýzy (s názvom enzýmu), ktorá je inhibovaná po vyplavení glukagónu (nukleotidy skratkou).",
+        "solutionImages": [
+          "kreativne-s13.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu U: hľadaj úlohu č. 29. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "U",
+          "number": 29,
+          "page": 12,
+          "solutionPages": [
+            13
+          ]
+        }
+      },
+      {
+        "question": "Napíšte reakciu premeny fosfoenolpyruvátu v glukoneogenéze (s názvom enzýmu).",
+        "solutionImages": [
+          "kreativne-s17.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu R: hľadaj úlohu č. 28. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "R",
+          "number": 28,
+          "page": 16,
+          "solutionPages": [
+            17
+          ]
+        }
+      },
+      {
+        "question": "Napíšte vzorec prekurzora kyseliny oxaloctovej v glukoneogenéze.",
+        "solutionImages": [
+          "kreativne-s19.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu D: hľadaj úlohu č. 27. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "D",
+          "number": 27,
+          "page": 18,
+          "solutionPages": [
+            19
+          ]
+        }
+      },
+      {
+        "question": "Napíšte reakciu premeny fosfoenolpyruvátu v glukoneogenéze (s názvom enzýmu).",
+        "solutionImages": [
+          "kreativne-s29.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu H: hľadaj úlohu č. 28. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "H",
+          "number": 28,
+          "page": 28,
+          "solutionPages": [
+            29
+          ]
+        }
+      },
+      {
+        "question": "Napíšte reakciu katalyzovanú fosfofruktokinázou 2 (nukleotidy skratkou).",
+        "solutionImages": [
+          "kreativne-s31.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu G: hľadaj úlohu č. 26. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "G",
+          "number": 26,
+          "page": 30,
+          "solutionPages": [
+            31
+          ]
+        }
+      },
+      {
+        "question": "Napíšte vzorec substrátu pre fosfoenolpyruvátkarboxykinázu.",
+        "solutionImages": [
+          "kreativne-s33.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu F: hľadaj úlohu č. 27. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "F",
+          "number": 27,
+          "page": 32,
+          "solutionPages": [
+            33
+          ]
+        }
+      },
+      {
+        "question": "Napíšte reakciu katalyzovanú fosfofruktokinázou 2, nukleotidy skratkou.",
+        "solutionImages": [
+          "kreativne-s35.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu K: hľadaj úlohu č. 25. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "K",
+          "number": 25,
+          "page": 34,
+          "solutionPages": [
+            35
+          ]
+        }
+      },
+      {
+        "question": "Napíšte reakciu a názov enzýmu, ktorá umožňuje zapojenie laktátu do glukoneogenézy (koenzým skratkou).",
+        "solutionImages": [
+          "kreativne-s37.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu ? (s. 36): hľadaj úlohu č. 29. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "? (s. 36)",
+          "number": 29,
+          "page": 36,
+          "solutionPages": [
+            37
+          ]
+        }
+      },
+      {
+        "question": "Napíšte reakciu glykolýzy (s názvom enzýmu), ktorá je inhibovaná po vyplavení glukagónu (nukleotidy skratkou).",
+        "solutionImages": [
+          "kreativne-s41.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu L: hľadaj úlohu č. 29. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "L",
+          "number": 29,
+          "page": 40,
+          "solutionPages": [
+            41
+          ]
+        }
+      }
+    ]
+  }
+]

@@ -63,8 +63,10 @@ def validate_learning(question):
             raise StoreError('Zdroj musí byť platný HTTP alebo HTTPS odkaz.')
 
 
-# Solution images of self-check tasks live in <tests>/assets/ and are referenced by name.
-ASSET_NAME = re.compile(r'[A-Za-z0-9][A-Za-z0-9._-]{0,99}\.(?:jpg|png)')
+# Files in <tests>/assets/ referenced by name: solution images of self-check tasks
+# (.jpg/.png) and study pages (.html) linked from a test via `studyMaterial`.
+ASSET_NAME = re.compile(r'[A-Za-z0-9][A-Za-z0-9._-]{0,99}\.(?:jpg|png|html)')
+STUDY_MATERIAL = re.compile(r'[A-Za-z0-9][A-Za-z0-9._-]{0,99}\.html(?:#[A-Za-z0-9-]{1,40})?')
 
 
 def validate_tests(data):
@@ -83,6 +85,8 @@ def validate_tests(data):
             raise StoreError('Predchádzajúce názvy musia byť zoznam textov.')
         if 'sortOrder' in test and (type(test['sortOrder']) not in (int, float) or not math.isfinite(test['sortOrder'])):
             raise StoreError('Poradie testu musí byť konečné číslo.')
+        if 'studyMaterial' in test and not (isinstance(test['studyMaterial'], str) and STUDY_MATERIAL.fullmatch(test['studyMaterial'])):
+            raise StoreError('Materiál na čítanie musí byť názov HTML súboru z priečinka assets.')
         if test.get('testType') not in (None, 'vocabulary', 'selfcheck'):
             raise StoreError('Neznámy typ testu.')
         vocab = test.get('testType') == 'vocabulary'
@@ -101,7 +105,7 @@ def validate_tests(data):
                 if not isinstance(task, dict) or not isinstance(task.get('question'), str) or not task['question'].strip():
                     raise StoreError('Úloha musí mať zadanie.')
                 images = task.get('solutionImages', [])
-                if not isinstance(images, list) or len(images) > 5 or not all(isinstance(i, str) and ASSET_NAME.fullmatch(i) for i in images):
+                if not isinstance(images, list) or len(images) > 5 or not all(isinstance(i, str) and ASSET_NAME.fullmatch(i) and not i.endswith('.html') for i in images):
                     raise StoreError('Obrázky riešenia musia byť zoznam názvov súborov z priečinka assets.')
                 if not isinstance(task.get('solutionNote', ''), str):
                     raise StoreError('Poznámka k riešeniu musí byť text.')

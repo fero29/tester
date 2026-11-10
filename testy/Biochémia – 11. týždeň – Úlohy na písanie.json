@@ -1,0 +1,28 @@
+[
+  {
+    "title": "Biochémia – 11. týždeň – Úlohy na písanie",
+    "description": "Úlohy na písanie vzorcov a reakcií z kariet „Tvorivé otázky“ (otvorené otázky kontrolných testov). Napíš riešenie na papier a porovnaj ho s ručne písanou ukážkou spolužiaka; ukážka nie je oficiálny kľúč.",
+    "testType": "selfcheck",
+    "year": 2,
+    "category": "Biochémia",
+    "sortOrder": 11.5,
+    "questions": [
+      {
+        "question": "Napíšte reakciu tvorby karbamoylfosfátu pre syntézu močoviny, subcelulárnu lokalizáciu, nukleotidy skratkou.",
+        "solutionImages": [
+          "kreativne-s35.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu K: hľadaj úlohu č. 27. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "K",
+          "number": 27,
+          "page": 34,
+          "solutionPages": [
+            35
+          ]
+        }
+      }
+    ]
+  }
+]

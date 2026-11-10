@@ -1,0 +1,380 @@
+[
+  {
+    "title": "Biochémia – 07. týždeň – Úlohy na písanie",
+    "description": "Úlohy na písanie vzorcov a reakcií z kariet „Tvorivé otázky“ (otvorené otázky kontrolných testov). Napíš riešenie na papier a porovnaj ho s ručne písanou ukážkou spolužiaka; ukážka nie je oficiálny kľúč.",
+    "testType": "selfcheck",
+    "year": 2,
+    "category": "Biochémia",
+    "sortOrder": 7.5,
+    "questions": [
+      {
+        "question": "Napíšte vzorec alosterického aktivátora acetyl-CoA karboxylázy.",
+        "solutionImages": [
+          "kreativne-s02.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu T: hľadaj úlohu č. 26. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "T",
+          "number": 26,
+          "page": 1,
+          "solutionPages": [
+            2
+          ]
+        }
+      },
+      {
+        "question": "Napíšte reakciu vzniku acetoacetyl-CoA v procese tvorby ketolátok (aj názov enzýmu).",
+        "solutionImages": [
+          "kreativne-s02.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu T: hľadaj úlohu č. 30. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "T",
+          "number": 30,
+          "page": 1,
+          "solutionPages": [
+            2
+          ]
+        }
+      },
+      {
+        "question": "Napíšte reakciu, ktorou pri oxidácii VKK vzniká enoyl-CoA (koenzým skratkou).",
+        "solutionImages": [
+          "kreativne-s04.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu J: hľadaj úlohu č. 28. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "J",
+          "number": 28,
+          "page": 3,
+          "solutionPages": [
+            4
+          ]
+        }
+      },
+      {
+        "question": "Napíšte reakciu vzniku acetoacetátu v ketogenéze (uveďte názov enzýmu).",
+        "solutionImages": [
+          "kreativne-s06.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu I: hľadaj úlohu č. 29. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "I",
+          "number": 29,
+          "page": 5,
+          "solutionPages": [
+            6
+          ]
+        }
+      },
+      {
+        "question": "Napíšte vzorec zlúčeniny, ktorá vzniká reakciou acetoacetyl-CoA s ďalšou molekulou acetyl-CoA.",
+        "solutionImages": [
+          "kreativne-s08.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu A: hľadaj úlohu č. 27. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "A",
+          "number": 27,
+          "page": 7,
+          "solutionPages": [
+            8
+          ]
+        }
+      },
+      {
+        "question": "Napíšte reakciu tvorby malonyl-CoA a uveďte názov enzýmu a koenzýmu.",
+        "solutionImages": [
+          "kreativne-s08.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu A: hľadaj úlohu č. 29. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "A",
+          "number": 29,
+          "page": 7,
+          "solutionPages": [
+            8
+          ]
+        }
+      },
+      {
+        "question": "Napíšte reakciu a názov enzýmu syntézy VKK, ktorá vyžaduje biotín ako koenzým.",
+        "solutionImages": [
+          "kreativne-s13.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu U: hľadaj úlohu č. 28. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "U",
+          "number": 28,
+          "page": 12,
+          "solutionPages": [
+            13
+          ]
+        }
+      },
+      {
+        "question": "Napíšte vzorec alosterického aktivátora acetyl-CoA karboxylázy.",
+        "solutionImages": [
+          "kreativne-s15.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu C: hľadaj úlohu č. 26. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "C",
+          "number": 26,
+          "page": 14,
+          "solutionPages": [
+            15
+          ]
+        }
+      },
+      {
+        "question": "Napíšte vzorec látky, ktorá sa aktivitou jantaryl-CoA-transferázy premieňa na acetoacetyl-CoA.",
+        "solutionImages": [
+          "kreativne-s15.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu C: hľadaj úlohu č. 27. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "C",
+          "number": 27,
+          "page": 14,
+          "solutionPages": [
+            15
+          ]
+        }
+      },
+      {
+        "question": "Napíšte reakciu oxidácie VKK, ktorá umožní vznik 3 ATP.",
+        "solutionImages": [
+          "kreativne-s21.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu E: hľadaj úlohu č. 26. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "E",
+          "number": 26,
+          "page": 20,
+          "solutionPages": [
+            21
+          ]
+        }
+      },
+      {
+        "question": "Napíšte reakciu katalyzovanú hlavným regulačným enzýmom syntézy VKK (uveďte názov enzýmu a koenzýmu).",
+        "solutionImages": [
+          "kreativne-s23.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu M: hľadaj úlohu č. 29. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "M",
+          "number": 29,
+          "page": 22,
+          "solutionPages": [
+            23
+          ]
+        }
+      },
+      {
+        "question": "Napíšte reakciu vzniku acetoacetyl-CoA v procese tvorby ketolátok (aj názov enzýmu).",
+        "solutionImages": [
+          "kreativne-s25.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu O: hľadaj úlohu č. 28. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "O",
+          "number": 28,
+          "page": 24,
+          "solutionPages": [
+            25
+          ]
+        }
+      },
+      {
+        "question": "Napíšte vzorec látky, ktorá vzniká v Krebsovom cykle a využíva sa na aktiváciu kyseliny acetoctovej.",
+        "solutionImages": [
+          "kreativne-s27.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu P: hľadaj úlohu č. 27. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "P",
+          "number": 27,
+          "page": 26,
+          "solutionPages": [
+            27
+          ]
+        }
+      },
+      {
+        "question": "Napíšte reakciu β-oxidácie, v ktorej dochádza k adícii vody, a uveďte názov enzýmu.",
+        "solutionImages": [
+          "kreativne-s27.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu P: hľadaj úlohu č. 28. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "P",
+          "number": 28,
+          "page": 26,
+          "solutionPages": [
+            27
+          ]
+        }
+      },
+      {
+        "question": "Napíšte prvú reakciu, ktorá je podmienkou využitia kyseliny β-hydroxymaslovej pri … (koniec zadania na fotke chýba)",
+        "solutionImages": [
+          "kreativne-s27.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu P: hľadaj úlohu č. 30. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "P",
+          "number": 30,
+          "page": 26,
+          "solutionPages": [
+            27
+          ]
+        }
+      },
+      {
+        "question": "Napíšte reakciu β-oxidácie, v ktorej dochádza k adícii vody, a uveďte názov enzýmu.",
+        "solutionImages": [
+          "kreativne-s29.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu H: hľadaj úlohu č. 29. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "H",
+          "number": 29,
+          "page": 28,
+          "solutionPages": [
+            29
+          ]
+        }
+      },
+      {
+        "question": "Napíšte reakciu a názov enzýmu syntézy VKK, ktorá vyžaduje biotín ako koenzým.",
+        "solutionImages": [
+          "kreativne-s31.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu G: hľadaj úlohu č. 25. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "G",
+          "number": 25,
+          "page": 30,
+          "solutionPages": [
+            31
+          ]
+        }
+      },
+      {
+        "question": "Napíšte vzorec látky, ktorá vzniká v Krebsovom cykle a využíva sa na aktiváciu kyseliny acetoctovej.",
+        "solutionImages": [
+          "kreativne-s31.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu G: hľadaj úlohu č. 29. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "G",
+          "number": 29,
+          "page": 30,
+          "solutionPages": [
+            31
+          ]
+        }
+      },
+      {
+        "question": "Napíšte reakciu, ktorou pri využívaní ketolátok v extrahepatálnych tkanivách vzniká acetyl-CoA, a napíšte názov enzýmu.",
+        "solutionImages": [
+          "kreativne-s35.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu K: hľadaj úlohu č. 26. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "K",
+          "number": 26,
+          "page": 34,
+          "solutionPages": [
+            35
+          ]
+        }
+      },
+      {
+        "question": "Napíšte vzorec látky, ktorá je intermediátom citrátového cyklu a podieľa sa aj na vzniku acetoacetyl-CoA aktivitou CoA-transferázy.",
+        "solutionImages": [
+          "kreativne-s37.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu ? (s. 36): hľadaj úlohu č. 27. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "? (s. 36)",
+          "number": 27,
+          "page": 36,
+          "solutionPages": [
+            37
+          ]
+        }
+      },
+      {
+        "question": "Napíšte vzorec látky, z ktorej aktivitou tiolázy vzniká acetyl-CoA.",
+        "solutionImages": [
+          "kreativne-s39.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu B: hľadaj úlohu č. 26. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "B",
+          "number": 26,
+          "page": 38,
+          "solutionPages": [
+            39
+          ]
+        }
+      },
+      {
+        "question": "Napíšte vo vzorcoch reakciu vzniku β-hydroxybutyrátu v ketogenéze.",
+        "solutionImages": [
+          "kreativne-s39.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu B: hľadaj úlohu č. 29. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "B",
+          "number": 29,
+          "page": 38,
+          "solutionPages": [
+            39
+          ]
+        }
+      },
+      {
+        "question": "Napíšte reakciu tvorby zlúčeniny, ktorá je inhibítorom vstupu VKK do mitochondrie, uveďte názov enzýmu a koenzýmu.",
+        "solutionImages": [
+          "kreativne-s41.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu L: hľadaj úlohu č. 28. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "L",
+          "number": 28,
+          "page": 40,
+          "solutionPages": [
+            41
+          ]
+        }
+      }
+    ]
+  }
+]

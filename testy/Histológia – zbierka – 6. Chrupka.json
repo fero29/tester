@@ -1,0 +1,646 @@
+[
+  {
+    "title": "Histológia – zbierka – 6. Chrupka",
+    "description": "Typy chrupky, extracelulárny matrix, rast a regenerácia chrupky. Otázky s výberom viacerých odpovedí zo zbierky Histológia a embryológia v otázkach (Miko, Klein, Juríková, UK 2025); kľúč podľa zbierky.",
+    "year": 1,
+    "category": "Histológia",
+    "sortOrder": 16,
+    "questions": [
+      {
+        "question": "Ktoré molekuly tvoria organickú časť extracelulárnej amorfnej hmoty chrupky?",
+        "answers": [
+          "agrekán",
+          "heparín",
+          "chondroitín sulfát",
+          "hydroxyapatit"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Chrupka",
+          "number": 1,
+          "page": 66
+        }
+      },
+      {
+        "question": "Čo je typické pre hyalínovú chrupku?",
+        "answers": [
+          "periost",
+          "bazofilný teritoriálny matrix",
+          "absencia izogenetických skupín",
+          "kolagén typu III"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Chrupka",
+          "number": 2,
+          "page": 66
+        }
+      },
+      {
+        "question": "Ktoré tvrdenia o elastickej chrupke sú pravdivé?",
+        "answers": [
+          "nemá perichondrium",
+          "tvorí oporu epiglotis",
+          "chondrocyty sú usporiadané do väčších izogenetických skupín",
+          "s vekom nekalcifikuje",
+          "tvorí súčasť medzistavcovej platničky",
+          "možno ju selektívne farbiť orceínom"
+        ],
+        "correct": [
+          1,
+          3,
+          5
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Chrupka",
+          "number": 3,
+          "page": 66
+        }
+      },
+      {
+        "question": "Ktoré všeobecné tvrdenia o chrupke sú pravdivé?",
+        "answers": [
+          "je avaskulárna",
+          "vnútorné bunky prijímajú živiny difúziou",
+          "majú hojný, pružný, polotuhý extracelulárny matrix",
+          "zo všetkých typov je najbežnejšia elastická chrupka",
+          "má veľmi vysoký obrat svojho extracelulárneho matrixu",
+          "počas prenatálneho vývoja sa tvorí z kondenzovaného mezenchýmu"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          5
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Chrupka",
+          "number": 4,
+          "page": 66
+        }
+      },
+      {
+        "question": "Kde v tele sa nachádza väzivová chrupka?",
+        "answers": [
+          "discus interpubicus",
+          "nucleus pulposus disci intervertebralis",
+          "meniscus",
+          "cartilago cricoidea",
+          "symphysis manubriosternalis"
+        ],
+        "correct": [
+          0,
+          2,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Chrupka",
+          "number": 5,
+          "page": 67
+        }
+      },
+      {
+        "question": "Aká je úloha perichondria?",
+        "answers": [
+          "produkuje synoviálnu tekutinu na povrchu kĺbovej chrupky",
+          "je zdrojom buniek pre apozičný rast chrupky",
+          "zabraňuje nadmernému natiahnutiu chrupky",
+          "svojou avaskulárnou povahou izoluje chrupku od škodlivých látok",
+          "obklopuje kapsulárny matrix okolo lakún"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Chrupka",
+          "number": 6,
+          "page": 67
+        }
+      },
+      {
+        "question": "Ktoré tvrdenia o hyalínovej chrupke sú pravdivé?",
+        "answers": [
+          "je pružná vďaka väzbe vody na negatívne nabité glykozaminoglykánové reťazce",
+          "chondronektín podmieňuje prichytenie chondrocytov ku kolagénu medzibunkového matrixu",
+          "kapsulárna zóna okolo chondrocytov je bazofilnejšia ako okolitý matrix",
+          "v tomto type chrupky netvoria chondrocyty izogenetické skupiny",
+          "je pokrytá perichondriom s výnimkou kĺbov",
+          "jej chondrocyty sú usporiadané v reťazcoch medzi paralelnými zväzkami kolagénových vlákien"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Chrupka",
+          "number": 7,
+          "page": 67
+        }
+      },
+      {
+        "question": "Ktoré vlastnosti sú typické pre chondrocyty?",
+        "answers": [
+          "majú guľovitý tvar, často sploštený v miestach kontaktu",
+          "často obsahujú glykogénové granuly",
+          "sú prítomné v dutinách nazývaných lacunae",
+          "nachádzajú sa vo vnútornej vrstve perichondria",
+          "ako terminálne diferencované bunky nepodliehajú mitóze"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Chrupka",
+          "number": 8,
+          "page": 67
+        }
+      },
+      {
+        "question": "V nasledujúcom tvrdení opravte slovo tak, aby bolo toto tvrdenie správne: Ak bunky chrupky vyrastajú z chondrocytov vo vnútri chrupky, nazýva sa to apozičný rast.",
+        "answers": [
+          "chondrocytov → chondroblastov",
+          "bunky → glykozaminoglykány",
+          "apozičný → intersticiálny",
+          "apozičný → tumorózny"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Chrupka",
+          "number": 9,
+          "page": 68
+        }
+      },
+      {
+        "question": "Intenzívna bazofília kapsulárneho matrixu v hyalínovej chrupke je spôsobená najmä syntetickou aktivitou ktorej organely chondrocytov?",
+        "answers": [
+          "drsného ER",
+          "hladkého ER",
+          "Golgiho aparátu",
+          "mitochondrií"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Chrupka",
+          "number": 10,
+          "page": 68
+        }
+      },
+      {
+        "question": "Aké bunky sa nachádzajú v synoviálnej membráne?",
+        "answers": [
+          "fibrocyty",
+          "bunky s fagocytárnymi úlohami",
+          "chondroblasty",
+          "chondrocyty",
+          "sekrečné bunky podobné fibroblastom"
+        ],
+        "correct": [
+          0,
+          1,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Chrupka",
+          "number": 11,
+          "page": 68
+        }
+      },
+      {
+        "question": "Ktoré zóny kĺbovej chrupky možno identifikovať?",
+        "answers": [
+          "tangenciálna zóna",
+          "zóna apozičného rastu",
+          "zóna hypertrofie",
+          "kalcifikovaná zóna",
+          "perichondrálna zóna",
+          "hlboká (radiálna) zóna"
+        ],
+        "correct": [
+          0,
+          3,
+          5
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Chrupka",
+          "number": 12,
+          "page": 68
+        }
+      },
+      {
+        "question": "Kde v tele sa nachádza elastická chrupka?",
+        "answers": [
+          "ušnica",
+          "Eustachova trubica",
+          "nucleus pulposus disci intervertebralis",
+          "anulus fibrosus disci intervertebralis",
+          "epiglotis"
+        ],
+        "correct": [
+          0,
+          1,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Chrupka",
+          "number": 13,
+          "page": 69
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o perichondriu sú pravdivé?",
+        "answers": [
+          "je tvorené hustým kolagénovým väzivom",
+          "farbí sa viac bazofilne v dôsledku zvýšeného obsahu glykozaminoglykánov",
+          "je zdrojom krvných ciev dôležitých pre výživu avaskulárnej chrupky",
+          "je nevyhnutné pre rast a udržiavanie chrupky a obsahuje prekurzory chondroblastov"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Chrupka",
+          "number": 14,
+          "page": 69
+        }
+      },
+      {
+        "question": "Ktorý z krokov pri tvorbe chrupky je najskorší?",
+        "answers": [
+          "apozičný rast",
+          "histogenéza perichondria",
+          "intersticiálny rast",
+          "kondenzácia mezenchýmu"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Chrupka",
+          "number": 15,
+          "page": 69
+        }
+      },
+      {
+        "question": "V nasledujúcom tvrdení opravte slovo tak, aby bolo toto tvrdenie správne: Neschopnosť chrupky reagovať na poranenie je spôsobená avaskularitou chrupky, hypermobilitou chondrocytov a ich nízkou mierou obnovy.",
+        "answers": [
+          "neschopnosť → schopnosť",
+          "chondrocytov → chondroblastov",
+          "hypermobilitou → imobilitou",
+          "nízkou → vysokou"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Chrupka",
+          "number": 16,
+          "page": 69
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o kalcifikácii matrixu chrupky sú pravdivé?",
+        "answers": [
+          "ide vždy o patologický proces",
+          "je to jeden zo základných procesov intermembranóznej/dezmogénnej osifikácie",
+          "starnúca elastická chrupka má tendenciu časom kalcifikovať",
+          "po kalcifikácii je difúzia sťažená a chondrocyty odumierajú"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Chrupka",
+          "number": 17,
+          "page": 70
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich štruktúr sú typické pre hyalínovú chrupku?",
+        "answers": [
+          "izogenetické skupiny",
+          "žírne bunky",
+          "kapsulárny matrix",
+          "kolagén typu III",
+          "verzikán"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Chrupka",
+          "number": 18,
+          "page": 70
+        }
+      },
+      {
+        "question": "Na akom molekulárnom základe je založená schopnosť kĺbovej chrupky absorbovať nárazy?",
+        "answers": [
+          "väzba chondrocytov na kolagén typu II",
+          "tlmiaci účinok hydratovaných glykozaminoglykánov v matrixe",
+          "polykationická vlastnosť chondroitín sulfátu",
+          "zosieťovanie vlákien kolagénu typu I v perichondriu"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Chrupka",
+          "number": 19,
+          "page": 70
+        }
+      },
+      {
+        "question": "Ktoré z týchto dvojíc sú správne?",
+        "answers": [
+          "ušnica – orceín",
+          "hyalínová chrupka – agrekán",
+          "symphysis pubis – väzivová chrupka",
+          "kolagén typu VI – kapsulárny matrix"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Chrupka",
+          "number": 20,
+          "page": 70
+        }
+      },
+      {
+        "question": "Ktoré molekuly/štruktúry dodávajú chrupke pružnosť?",
+        "answers": [
+          "agrekán",
+          "molekula kolagénu typu III",
+          "molekula kolagénu typu IV",
+          "hyaluronan",
+          "chondrocyty v lakúnach",
+          "anchorín CII",
+          "metaloproteinázy z chondrocytov"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Chrupka",
+          "number": 21,
+          "page": 71
+        }
+      },
+      {
+        "question": "Ktoré glykozaminoglykány sa nachádzajú vo významnom množstve v chrupke?",
+        "answers": [
+          "kyselina hyalurónová",
+          "dermatan sulfát",
+          "heparín",
+          "chondroitín 6-sulfát",
+          "dekorín",
+          "keratan sulfát",
+          "chondroitín 4-sulfát",
+          "heparan sulfát"
+        ],
+        "correct": [
+          0,
+          3,
+          5,
+          6
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Chrupka",
+          "number": 22,
+          "page": 71
+        }
+      },
+      {
+        "question": "Ktoré sú typické znaky chrupky?",
+        "answers": [
+          "avaskulárny charakter",
+          "vysoká miera obnovy",
+          "puzdro z hustého väziva nazývané perichondrium (s výnimkou kĺbovej chrupky a väzivovej chrupky)",
+          "dominancia extracelulárneho matrixu",
+          "agrekán je typický proteoglykán",
+          "izogenetické skupiny",
+          "jednotné zloženie extracelulárneho matrixu",
+          "eozinofilný charakter extracelulárneho matrixu (v dôsledku sulfátovanej základnej amorfnej hmoty)"
+        ],
+        "correct": [
+          0,
+          2,
+          3,
+          4,
+          5
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Chrupka",
+          "number": 23,
+          "page": 71
+        }
+      },
+      {
+        "question": "Ktoré vrstvy sa nachádzajú v kĺbovej chrupke?",
+        "answers": [
+          "tangenciálna zóna",
+          "zárodočná zóna",
+          "prechodná zóna",
+          "vláknité perichondrium",
+          "hlboká (radiálna) zóna",
+          "zóna hypertrofie",
+          "kalcifikovaná zóna",
+          "tidemark – zvlnená, silne kalcifikovaná línia"
+        ],
+        "correct": [
+          0,
+          2,
+          4,
+          6,
+          7
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Chrupka",
+          "number": 24,
+          "page": 72
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o chrupke:",
+        "answers": [
+          "najčastejším typom chrupky v ľudskom tele je hyalínová chrupka",
+          "tkanivo chrupky je bohato prekrvené",
+          "pre extracelulárnu hmotu chrupky je typická prítomnosť kolagénu typu II",
+          "fibrily kolagénu typu II extracelulárnej hmoty chrupky vytvárajú odlíšiteľné zväzky, dobre pozorovateľné pri bežných farbeniach"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Chrupka",
+          "number": 25,
+          "page": 72
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o chrupke:",
+        "answers": [
+          "perichondrium je väzivová vrstva zabezpečujúca výživu chrupky",
+          "hyalínová chrupka vrátane kĺbovej je pokrytá perichondriom",
+          "elastická chrupka obsahuje v extracelulárnej hmote výlučne elastické vlákna",
+          "kolagén typu I je dominantným typom kolagénu vo väzivovej chrupke"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Chrupka",
+          "number": 26,
+          "page": 72
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o chrupke:",
+        "answers": [
+          "tvorba izogenetických skupín je najviac typická pre väzivovú chrupku",
+          "teritoriálny matrix je bazofilný z dôvodu vysokého obsahu kyslých sulfátovaných glykozamínoglykánov",
+          "stratum chondrogenicum perichondria umožňuje apozičný rast chrupky",
+          "podkladom ušnice a hrtanovej príchlopky je elastická chrupka"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Chrupka",
+          "number": 27,
+          "page": 72
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o chrupke:",
+        "answers": [
+          "kĺbová chrupka je vyživovaná zo synoviálnej tekutiny",
+          "väzivová chrupka obsahuje dobre odlíšiteľné zväzky kolagénových vlákien z kolagénu typu I",
+          "chondrocyty väzivovej chrupky sú uložené samostatne, alebo tvoria retiazky",
+          "väzivová chrupka je pokrytá dobre odlíšiteľným perichondriom"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Chrupka",
+          "number": 28,
+          "page": 73
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o chrupke:",
+        "answers": [
+          "elastická chrupka má oproti hyalínovej viac buniek a menej izogenetických skupín",
+          "hyalínová chrupka tvorí model budúcich kostí, ktoré osifikujú chondrogénne",
+          "izogenetické skupiny sú vždy tvorené jedinou dvojicou chondrocytov",
+          "chondroblasty, ktoré sa diferencujú v rámci perichondria, sú zodpovedné za intersticiálny rast chrupky"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Chrupka",
+          "number": 29,
+          "page": 73
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o chrupke:",
+        "answers": [
+          "interteritoriálny matrix chrupky je v porovnaní s teritoriálnym bazofilnejší",
+          "chrupka má výbornú regeneračnú schopnosť vďaka bohatej vaskularizácii",
+          "väzivová chrupka je štruktúrou na hranici medzi chrupkou a hustým kolagénovým väzivom",
+          "kolagénové fibrily kĺbovej chrupky majú v povrchových vrstvách arkádovitý priebeh"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Chrupka",
+          "number": 30,
+          "page": 73
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o chrupke:",
+        "answers": [
+          "kolagénové fibrily typu II sú v medzibunkovej hmote maskované, pretože ich veľkosť je pod úrovňou rozlíšiteľnosti svetelného mikroskopu",
+          "vďaka vysokej hydratácii medzibunkovej hmoty je chrupka odolná voči tlaku",
+          "chondrocyty chrupky sú uložené v lakúnach",
+          "chrupka a perichondrium sú morfologicky totožné, rozdielom je iba úroveň vaskularizácie"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Chrupka",
+          "number": 31,
+          "page": 73
+        }
+      }
+    ]
+  }
+]

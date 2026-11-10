@@ -1,0 +1,801 @@
+[
+  {
+    "title": "Histológia – zbierka – 10. Nervové tkanivo",
+    "description": "Neuróny, gliové bunky, myelínová pošva, synapsy a nerv. Otázky s výberom viacerých odpovedí zo zbierky Histológia a embryológia v otázkach (Miko, Klein, Juríková, UK 2025); kľúč podľa zbierky.",
+    "year": 1,
+    "category": "Histológia",
+    "sortOrder": 20,
+    "questions": [
+      {
+        "question": "Aké sú typy gliových buniek v CNS?",
+        "answers": [
+          "Bergmannove glie",
+          "satelitné bunky",
+          "pituicyty",
+          "astrogliové bunky",
+          "Schwannove bunky"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Nervové tkanivo",
+          "number": 1,
+          "page": 107
+        }
+      },
+      {
+        "question": "Ako sa nazýva gliová bunka, ktorá funguje ako fagocyt a pomáha chrániť neuróny CNS?",
+        "answers": [
+          "mikroglia",
+          "oligodendrocyt",
+          "Schwannova bunka",
+          "ependýmová bunka"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Nervové tkanivo",
+          "number": 2,
+          "page": 107
+        }
+      },
+      {
+        "question": "Doplňte dve prázdne miesta správnou možnosťou: Keď je neurón depolarizovaný, otvoria sa napäťové kanály membrány a umožnia vstup __________ do neurónu. Neurón sa hyperpolarizuje, keď sa otvoria napäťové kanály membrány, čím sa umožní výstup __________ z neurónu.",
+        "answers": [
+          "K+ ; Na+",
+          "Na+ ; K+",
+          "Mg2+ ; Ca2+",
+          "Ca2+ ; K+"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Nervové tkanivo",
+          "number": 3,
+          "page": 107
+        }
+      },
+      {
+        "question": "Čo znamená, ak je neurón hyperpolarizovaný?",
+        "answers": [
+          "stáva sa citlivejším na nové podnety",
+          "reaguje normálne, pretože je to jeho obdobie odpočinku",
+          "nedokáže reagovať na nové podnety",
+          "kladné ióny vstupujú do neurónu"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Nervové tkanivo",
+          "number": 4,
+          "page": 107
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich rôznych tvrdení o neurónoch sú pravdivé?",
+        "answers": [
+          "mnohé neuróny majú bazofilnú cytoplazmu v dôsledku svojej intenzívnej proteosyntetickej aktivity",
+          "neuróny majú euchromatické jadro a silno bazofilné jadierko",
+          "neuróny môžu obsahovať lipofuscínové granuly",
+          "bunkové jadro neurónu je veľké, okrúhle a svetlé",
+          "telo neurónu sa tiež nazýva axoplazma"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Nervové tkanivo",
+          "number": 5,
+          "page": 108
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o periférnom nerve sú pravdivé?",
+        "answers": [
+          "obsahuje bipolárne neuróny obklopené satelitnými bunkami",
+          "pozostáva zo zväzkov nervových vlákien (axónov), myelínových pošiev a väzivových obalov",
+          "obsahuje Schwannove bunky",
+          "obsahuje telá neurónov"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Nervové tkanivo",
+          "number": 6,
+          "page": 108
+        }
+      },
+      {
+        "question": "Čo obsahuje kôra mozočka?",
+        "answers": [
+          "pyramídové bunky",
+          "Purkyňove bunky",
+          "má tri vrstvy",
+          "Purkyňove vlákna",
+          "granulárne neuróny"
+        ],
+        "correct": [
+          1,
+          2,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Nervové tkanivo",
+          "number": 7,
+          "page": 108
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o Nisslových telieskach neurónov sú pravdivé?",
+        "answers": [
+          "zasahujú do axónového hrbolčeka",
+          "sú akumuláciou granulovaného ER",
+          "sú to výrazné cisterny Golgiho komplexu",
+          "môžu sa rozšíriť do dendritov"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Nervové tkanivo",
+          "number": 8,
+          "page": 108
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o dendritoch neurónov sú pravdivé?",
+        "answers": [
+          "prenášajú informácie smerom od svojej bunky (perikaryon)",
+          "v bipolárnych neurónoch musia byť aspoň dva",
+          "prenášajú informácie centripetálne",
+          "sú nemyelinizované",
+          "zvyčajne sa postupne zužujú",
+          "sú zakončené rozšíreným hrotom – „terminálnym gombíkom“",
+          "ich proximálne časti sú spravidla širšie ako axóny"
+        ],
+        "correct": [
+          2,
+          3,
+          4,
+          6
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Nervové tkanivo",
+          "number": 9,
+          "page": 109
+        }
+      },
+      {
+        "question": "Aká je úloha kinezínu v axonálnom transporte?",
+        "answers": [
+          "podieľa sa na retrográdnom transporte",
+          "je to mikrotubulárny proteínový motor",
+          "je dôležitý pri polymerizácii mikrotubulov",
+          "môže hydrolyzovať ATP",
+          "prenáša materiál na perifériu"
+        ],
+        "correct": [
+          1,
+          3,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Nervové tkanivo",
+          "number": 10,
+          "page": 109
+        }
+      },
+      {
+        "question": "Ktoré štruktúry úzko súvisia s myelínovou pošvou?",
+        "answers": [
+          "mezaxón",
+          "Schmidtove-Lantermanove zárezy",
+          "Ranvierove zárezy",
+          "Nisslova substancia",
+          "paranodálne jazyky"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Nervové tkanivo",
+          "number": 11,
+          "page": 109
+        }
+      },
+      {
+        "question": "Ktoré všeobecné tvrdenia o rôznych typoch neurónov sú pravdivé?",
+        "answers": [
+          "Purkyňove neuróny patria medzi najmenšie neuróny v CNS",
+          "multipolárny neurón sa nachádza v predných rohoch sivej hmoty miechy",
+          "pseudounipolárny neurón má jeden výbežok, ktorý sa rozdvojuje v blízkosti perikarya",
+          "veľké pyramídové neuróny sú hlavné senzorické neuróny"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Nervové tkanivo",
+          "number": 12,
+          "page": 109
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o oligodendrocytoch sú pravdivé?",
+        "answers": [
+          "tvoria myelínové pošvy v PNS",
+          "sú zodpovedné za fagocytózu",
+          "nachádzajú sa najmä v šedej hmote CNS",
+          "pochádzajú z hematopoetických kmeňových buniek",
+          "podieľajú sa na tvorbe hematoencefalickej bariéry",
+          "vytvárajú myelínové pošvy okolo viacerých axónov naraz"
+        ],
+        "correct": [
+          5
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Nervové tkanivo",
+          "number": 13,
+          "page": 110
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o protoplazmatických astrocytoch sú pravdivé?",
+        "answers": [
+          "nachádzajú sa najmä v bielej hmote CNS",
+          "pochádzajú z hematopoetických kmeňových buniek",
+          "podieľajú sa na tvorbe hematoencefalickej bariéry",
+          "poskytujú fyzickú a metabolickú podporu neurónom",
+          "vysielajú pedikle (cievne nožičky)",
+          "vytvárajú gliovú jazvu v mieste poškodenia neurónov"
+        ],
+        "correct": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Nervové tkanivo",
+          "number": 14,
+          "page": 110
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o mikroglii sú pravdivé?",
+        "answers": [
+          "pochádza z hematopoetických kmeňových buniek",
+          "podieľa sa na tvorbe hematoencefalickej bariéry",
+          "zodpovedá za fagocytózu",
+          "nachádza sa v dorzálnych koreňových gangliách"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Nervové tkanivo",
+          "number": 15,
+          "page": 110
+        }
+      },
+      {
+        "question": "V nasledujúcom výroku opravte slovo tak, aby bol tento výrok správny: Regenerácia axónu distálne od miesta poranenia sa nazýva anterográdna alebo Wallerova a nastáva v priebehu niekoľkých hodín po poranení.",
+        "answers": [
+          "regenerácia → degenerácia",
+          "axónu → dendritu",
+          "distálne → proximálne",
+          "anterográdna → retrográdna",
+          "hodín → dní"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Nervové tkanivo",
+          "number": 16,
+          "page": 110
+        }
+      },
+      {
+        "question": "Ktorá z nasledujúcich bunkových štruktúr umožňuje vznik (pôvod) bunkového výbežku, ktorý odvádza impulzy z bunkového tela?",
+        "answers": [
+          "Nisslova substancia",
+          "axónový hrbolček",
+          "centrozóm",
+          "axoplazma"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Nervové tkanivo",
+          "number": 17,
+          "page": 111
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o ependýmových bunkách sú pravdivé?",
+        "answers": [
+          "podieľajú sa na tvorbe mozgovomiechového moku",
+          "vystielajú cievy v mozgu",
+          "môžu mať riasinky",
+          "ležia na bazálnej membráne",
+          "podieľajú sa na tvorbe hematoencefalickej bariéry"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Nervové tkanivo",
+          "number": 18,
+          "page": 111
+        }
+      },
+      {
+        "question": "Aké sú funkcie rôznych typov gliových buniek?",
+        "answers": [
+          "oprava poškodených neurónov",
+          "fyzická podpora",
+          "odstraňovanie neurotransmiterov zo synaptických štrbín",
+          "syntéza neurotransmiterov",
+          "fagocytóza bunkových zvyškov"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Nervové tkanivo",
+          "number": 19,
+          "page": 111
+        }
+      },
+      {
+        "question": "Aké sú bežné excitačné neurotransmitery?",
+        "answers": [
+          "glutamát",
+          "serotonín",
+          "GABA (kyselina γ-aminobutyrová)",
+          "noradrenalín"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Nervové tkanivo",
+          "number": 20,
+          "page": 111
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o nervovom tkanive:",
+        "answers": [
+          "sivá hmota predstavuje nahromadenie tiel neurónov a buniek neuroglie",
+          "súčasťou centrálneho nervového systému sú hlavové nervy",
+          "nervové gangliá sú príkladom tiel neurónov umiestnených mimo centrálny nervový systém",
+          "miechové a väčšinu hlavových nervov zaraďujeme medzi periférne nervy"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Nervové tkanivo",
+          "number": 21,
+          "page": 112
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o nervovom tkanive:",
+        "answers": [
+          "endoneurium obaľuje každé jednotlivé nervové vlákno",
+          "jednotlivé periférne nervy obsahujú väčšinou iba jeden typ nervových vlákien",
+          "endoneurium je synonymom pre myelínovú pošvu",
+          "myelínové pošvy dokážeme znázorniť napr. impregnáciou OsO4"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Nervové tkanivo",
+          "number": 22,
+          "page": 112
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o nervovom tkanive:",
+        "answers": [
+          "neurofibrily najlepšie znázorníme základným histologickým farbením hematoxylín-eozín",
+          "myelínové pošvy impregnujeme do čierna metódou podľa Holmesa",
+          "endoneurium je jemné väzivo s prevahou retikulárnych vlákien",
+          "periférne nervy obsahujú telá neurónov"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Nervové tkanivo",
+          "number": 23,
+          "page": 112
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o nervovom tkanive:",
+        "answers": [
+          "súčasťou väčšiny periférnych nervov sú Schwannove bunky",
+          "myelinizované nervové vlákna periférneho nervu obaľuje pošva z astrocytov",
+          "nemyelinizované nervové vlákna umožňujú saltatórne vedenie vzruchu",
+          "jedna Schwannova bunka tvorí myelínovú pošvu iba okolo úseku jedného nervového vlákna"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Nervové tkanivo",
+          "number": 24,
+          "page": 112
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o nervovom tkanive:",
+        "answers": [
+          "periférny nerv obsahuje dendrity pseudounipolárnych neurónov spinálnych ganglií",
+          "väčšina vlákien v periférnom nerve nie je myelinizovaná",
+          "perineurium obaľuje zväzky nervových vlákien v periférnom nerve",
+          "periférne nervy majú vlastné cievne zásobenie a inerváciu v podobe vasa nervorum a nervi nervorum"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Nervové tkanivo",
+          "number": 25,
+          "page": 112
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o nervovom tkanive:",
+        "answers": [
+          "telo neurónu označujeme aj ako perikaryon alebo soma",
+          "alfa-motoneuróny predných rohov miechy zaraďujeme medzi pseudounipolárne neuróny",
+          "neuróny majú bazofilnú cytoplazmu v podobe Nisslovej substancie",
+          "Nisslova substancia sa nachádza v tele neurónu aj vo všetkých výbežkoch vrátane axónu"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Nervové tkanivo",
+          "number": 26,
+          "page": 113
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o nervovom tkanive:",
+        "answers": [
+          "najčastejším typom neurónov sú multipolárne neuróny",
+          "pseudounipolárne neuróny majú spoločný dendraxón, ktorý sa vetví do tvaru písmena T",
+          "axón možno identifikovať aj základným farbením hematoxylín a eozín v svetelnom mikroskope",
+          "pre axóny je typické, že neobsahujú Nisslovu substanciu"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Nervové tkanivo",
+          "number": 27,
+          "page": 113
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o nervovom tkanive:",
+        "answers": [
+          "tigroid dokážeme vizualizovať napr. pomocou luxolovej modrej",
+          "všetky neuróny ľudského tela bez výnimky majú axón",
+          "cytoplazmatickú membránu neurónu označujeme aj ako neurilema",
+          "neurofibrily znázorňujeme impregnáciou podľa Holmesa"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Nervové tkanivo",
+          "number": 28,
+          "page": 113
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o nervovom tkanive:",
+        "answers": [
+          "motoneuróny sú unipolárne neuróny hviezdicového tvaru s guľatým, svetlo sa farbiacim jadrom",
+          "príkladom neurónov, ktoré nemajú axón, sú amakrinné bunky sietnice",
+          "axón je centrifugálny, čiže odstredivý (eferentný) výbežok",
+          "ak neurón má axón, tak z jeho tela vychádza vždy jeden axón, ktorý sa v priebehu môže vetviť"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Nervové tkanivo",
+          "number": 29,
+          "page": 113
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o nervovom tkanive:",
+        "answers": [
+          "multipolárny neurón má jeden dendrit a viac axónov",
+          "unipolárny neurón má iba jeden výbežok",
+          "príkladom multipolárneho neurónu je Purkyňova bunka kôry mozočka",
+          "neurón ako dlho žijúca bunka môže v cytoplazme obsahovať lipofuscín"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Nervové tkanivo",
+          "number": 30,
+          "page": 113
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o nervovom tkanive:",
+        "answers": [
+          "mikroglia je súčasťou monocyto-makrofágového systému",
+          "astrocyty sú zodpovedné za myelinizáciu v centrálnom nervovom systéme",
+          "sivá hmota obsahuje protoplazmatické astrocyty",
+          "k neurogliám patria satelitné bunky okolo pseudounipolárnych neurónov spinálnych ganglií"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Nervové tkanivo",
+          "number": 31,
+          "page": 114
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o nervovom tkanive:",
+        "answers": [
+          "imunitné mikrogliové bunky dokážeme znázorniť impregnáciou podľa del Rio Hortegu",
+          "membrana limitans glialis perivascularis je termín pre súčasť hematoencefalickej bariéry tvorenej pediklami astrocytov a súvislými kapilárami",
+          "oligodendrocyty tvoria myelínovú pošvu okolo viacerých nervových vlákien",
+          "ependýmové bunky nasadajú na bazálnu membránu"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Nervové tkanivo",
+          "number": 32,
+          "page": 114
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o nervovom tkanive:",
+        "answers": [
+          "ependymocyty vystielajú centrálny kanál miechy a mozgové komory",
+          "fibrilárne astrocyty nájdeme v bielej hmote centrálnej nervovej sústavy",
+          "tanycyty sú špeciálnym typom ependýmových buniek, ktoré sú v kontakte s kapilárami mozgu",
+          "ependým je typ jednovrstvového kubického epitelu"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Nervové tkanivo",
+          "number": 33,
+          "page": 114
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o nervovom tkanive:",
+        "answers": [
+          "Golgiho impregnácia znázorňuje astrocyty do čierna",
+          "Schwannove bunky tvoria myelínové pošvy v centrálnej nervovej sústave",
+          "satelitné bunky vystielajú centrálny kanál miechy",
+          "výbežky astrocytov na povrchu centrálnej nervovej sústavy tvoria membrana limitans glialis superficialis"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Nervové tkanivo",
+          "number": 34,
+          "page": 114
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o nervovom tkanive:",
+        "answers": [
+          "mikrogliu znázorňujeme impregnáciou podľa Golgiho",
+          "neurogliové bunky sú oveľa menej početné v porovnaní s neurónmi",
+          "fibrilárne astrocyty zodpovedajú za myelinizáciu v centrálnej nervovej sústave",
+          "satelitné bunky patria medzi neurogliové bunky spinálnych ganglií"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Nervové tkanivo",
+          "number": 35,
+          "page": 114
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o nervovom tkanive:",
+        "answers": [
+          "myelinizované nervové vlákna prenášajú vzruch pomalšie ako nemyelinizované",
+          "Schwannove bunky tvoria okolo nemyelinizovaných nervových vlákien Schwannovu pošvu",
+          "Ranvierove zárezy nachádzame na nemyelinizovaných nervových vláknach",
+          "epineurium obaľuje celý nerv, perineurium obaľuje zväzky nervových vlákien a endoneurium obaľuje jednotlivé nervové vlákna"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Nervové tkanivo",
+          "number": 36,
+          "page": 115
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o nervovom tkanive:",
+        "answers": [
+          "nervové tkanivo má výbornú schopnosť regenerácie",
+          "za myelinizáciu v CNS aj PNS je zodpovedná rovnaká bunková populácia",
+          "myelinizované nervové vlákna dokážu vďaka skokovitému mechanizmu prenášať vzruch rýchlosťou 100 – 120 m/s",
+          "myelínové pošvy najlepšie znázorníme hematoxylínom a eozínom"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Nervové tkanivo",
+          "number": 37,
+          "page": 115
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o nervovom tkanive:",
+        "answers": [
+          "nervové vlákna v ľudskom tele môžu dosahovať dĺžku až niekoľkých desiatok metrov",
+          "Purkyňove neuróny patria medzi najväčšie bunky ľudského tela",
+          "Nisslova substancia je termín, ktorý používame výlučne pri opise alfa-motoneurónov v predných rohoch sivej hmoty miechy",
+          "neuróny nemajú bunkové jadro"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Nervové tkanivo",
+          "number": 38,
+          "page": 115
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o nervovom tkanive:",
+        "answers": [
+          "neuropil je súčasťou šedej hmoty mozgu",
+          "biela hmota CNS je tvorená výbežkami neurónov, ich obalmi a bunkami neuroglie",
+          "perineurium obsahuje epiteloidne usporiadané fibroblasty",
+          "periférny nervy obsahuje spravidla zmes senzitívnych a motorických nervových vlákien"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Nervové tkanivo",
+          "number": 39,
+          "page": 115
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o nervovom tkanive:",
+        "answers": [
+          "visceromotorické a viscerosenzitívne vlákna prebiehajú vždy samostatne mimo periférnych nervov zabezpečujúcich somatomotorickú a somatosenzitívnu inerváciu",
+          "epineurium obaľuje celý periférny nerv",
+          "schopnosť meniť synaptické zapojenie v neurónových sieťach označujeme pojmom plasticita",
+          "perineurium je tvorené elastickým väzivom"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Nervové tkanivo",
+          "number": 40,
+          "page": 116
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,190 @@
+[
+  {
+    "title": "Biochémia – Úlohy na písanie mimo týždňov (kreatín, klírens)",
+    "description": "Úlohy na písanie vzorcov a reakcií z kariet „Tvorivé otázky“ (otvorené otázky kontrolných testov). Napíš riešenie na papier a porovnaj ho s ručne písanou ukážkou spolužiaka; ukážka nie je oficiálny kľúč.",
+    "testType": "selfcheck",
+    "year": 2,
+    "category": "Biochémia",
+    "sortOrder": 13.5,
+    "questions": [
+      {
+        "question": "Napíšte reakciu, ktorú katalyzuje arginínglycíntransamidináza.",
+        "solutionImages": [
+          "kreativne-s04.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu J: hľadaj úlohu č. 29. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "J",
+          "number": 29,
+          "page": 3,
+          "solutionPages": [
+            4
+          ]
+        }
+      },
+      {
+        "question": "Napíšte reakciu katalyzovanú guanidínacetátmetyltransferázou (donor metylovej skupiny vo vzorci).",
+        "solutionImages": [
+          "kreativne-s06.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu I: hľadaj úlohu č. 30. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "I",
+          "number": 30,
+          "page": 5,
+          "solutionPages": [
+            6
+          ]
+        }
+      },
+      {
+        "question": "Napíšte vzorec látky, z ktorej vzniká kreatinín.",
+        "solutionImages": [
+          "kreativne-s10.jpg",
+          "kreativne-s11.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu N: hľadaj úlohu č. 26. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "N",
+          "number": 26,
+          "page": 9,
+          "solutionPages": [
+            10,
+            11
+          ]
+        }
+      },
+      {
+        "question": "Napíšte vzorec pre výpočet klírens kreatinínu. Uveďte jednotky a vysvetlite symboly.",
+        "solutionImages": [
+          "kreativne-s13.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu U: hľadaj úlohu č. 30. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "U",
+          "number": 30,
+          "page": 12,
+          "solutionPages": [
+            13
+          ]
+        }
+      },
+      {
+        "question": "Napíšte názov a vzorec látky potrebnej na metyláciu guanidínacetátu.",
+        "solutionImages": [
+          "kreativne-s19.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu D: hľadaj úlohu č. 25. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "D",
+          "number": 25,
+          "page": 18,
+          "solutionPages": [
+            19
+          ]
+        }
+      },
+      {
+        "question": "Napíšte vzorec a názov aminokyseliny, ktorá poskytuje guanidínovú skupinu pre syntézu kreatínu.",
+        "solutionImages": [
+          "kreativne-s21.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu E: hľadaj úlohu č. 28. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "E",
+          "number": 28,
+          "page": 20,
+          "solutionPages": [
+            21
+          ]
+        }
+      },
+      {
+        "question": "Napíšte reakciu vzniku kreatínu z guanidínacetátu, názov enzýmu a donor metylovej skupiny skratkou.",
+        "solutionImages": [
+          "kreativne-s23.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu M: hľadaj úlohu č. 30. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "M",
+          "number": 30,
+          "page": 22,
+          "solutionPages": [
+            23
+          ]
+        }
+      },
+      {
+        "question": "Napíšte vzorec pre výpočet klírens kreatinínu. Uveďte jednotky a vysvetlite symboly.",
+        "solutionImages": [
+          "kreativne-s25.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu O: hľadaj úlohu č. 29. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "O",
+          "number": 29,
+          "page": 24,
+          "solutionPages": [
+            25
+          ]
+        }
+      },
+      {
+        "question": "Napíšte vzorec látky, ktorá vzniká pri syntéze guanidínacetátu v obličke.",
+        "solutionImages": [
+          "kreativne-s29.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu H: hľadaj úlohu č. 26. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "H",
+          "number": 26,
+          "page": 28,
+          "solutionPages": [
+            29
+          ]
+        }
+      },
+      {
+        "question": "Napíšte reakciu bezprostrednej tvorby kreatínu a uveďte názov enzýmu.",
+        "solutionImages": [
+          "kreativne-s39.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu B: hľadaj úlohu č. 30. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "B",
+          "number": 30,
+          "page": 38,
+          "solutionPages": [
+            39
+          ]
+        }
+      },
+      {
+        "question": "Napíšte reakciu metylácie guanidínacetátu, uveďte názov enzýmu a donor metylovej skupiny vo vzorci.",
+        "solutionImages": [
+          "kreativne-s41.jpg"
+        ],
+        "solutionNote": "Ukážka riešenia variantu L: hľadaj úlohu č. 30. Ak na strane chýba, autor ukážky ju nevypracoval.",
+        "source": {
+          "file": "Kreatívne otázky.pdf",
+          "variant": "L",
+          "number": 30,
+          "page": 40,
+          "solutionPages": [
+            41
+          ]
+        }
+      }
+    ]
+  }
+]

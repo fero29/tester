@@ -1,0 +1,930 @@
+[
+  {
+    "title": "Histológia – 12. týždeň – Oko a ucho",
+    "description": "Očná guľa, sietnica, riasnaté teliesko, blanitý labyrint a vývin oka a ucha. Otázky s výberom viacerých odpovedí zo zbierky Histológia a embryológia v otázkach (Miko, Klein, Juríková, UK 2025); kľúč podľa zbierky.",
+    "year": 2,
+    "category": "Histológia",
+    "sortOrder": 12,
+    "questions": [
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o blanitom labyrinte sú pravdivé?",
+        "answers": [
+          "makuly sú zložené z vláskových buniek, ktoré majú pohyblivé kinocílie",
+          "otolity sú tvorené najmä uhličitanom vápenatým",
+          "sacculus a utriculus sú vystlané jednou vrstvou plochého epitelu",
+          "epitel labyrintu je endodermového pôvodu"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zmysly – oko a ucho",
+          "number": 1,
+          "page": 279
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o strednom uchu sú pravdivé?",
+        "answers": [
+          "vypĺňa ho endolymfa, ktorej zloženie je podobné intercelulárnej tekutine",
+          "komunikuje s dutinkami v processus mastoideus spánkovej kosti",
+          "komunikuje prostredníctvom Eustachovej trubice (tuba pharyngotympanica) s hltanom",
+          "predstavuje priestor pokrytý viacvrstvovým plochým epitelom, ktorý prechádza aj na tri stredoušné kostičky"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zmysly – oko a ucho",
+          "number": 2,
+          "page": 279
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o Cortiho orgáne sú pravdivé?",
+        "answers": [
+          "preteká ním tekutina – tzv. cortilymfa",
+          "obsahuje macula utriculi a macula sacculi",
+          "obsahuje špeciálne receptorové bunky – tzv. vláskové bunky",
+          "leží na bazilárnej membráne"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zmysly – oko a ucho",
+          "number": 3,
+          "page": 279
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o tela choroidea oka sú pravdivé?",
+        "answers": [
+          "obsahuje m. sphincter pupillae a tak sa zúčastňuje na mióze",
+          "je bohatá na melanocyty",
+          "pozostáva z vaskularizovaného riedkeho kolagénového väziva",
+          "tvorí strednú vrstvu v zadných 5/6 očnej gule"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zmysly – oko a ucho",
+          "number": 4,
+          "page": 279
+        }
+      },
+      {
+        "question": "Kde v štruktúrach oka a vnútorného ucha môžeme nájsť riasinky?",
+        "answers": [
+          "v Eustachovej trubuci",
+          "v epiteli vonkajšieho zvukovodu",
+          "v sietnici ako súčasť čapíka",
+          "na vláskových bunkách vnútorného ucha"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zmysly – oko a ucho",
+          "number": 5,
+          "page": 280
+        }
+      },
+      {
+        "question": "Ktoré z nasledovných tvrdení o čapíkoch sietnice sú pravdivé?",
+        "answers": [
+          "ich väčšina je koncentrovaná v macula lutea",
+          "skladajú sa z vnútorného a vonkajšieho segmentu",
+          "ide o špecializované dendrity bipolárnych neurónov",
+          "sú zodpovedné za skotopické videnie (za šera)"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zmysly – oko a ucho",
+          "number": 6,
+          "page": 280
+        }
+      },
+      {
+        "question": "Ako sa volajú gliové bunky sietnice oka?",
+        "answers": [
+          "amakrinné bunky",
+          "Müllerove bunky",
+          "Bergmannove glie",
+          "pinealocyty"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zmysly – oko a ucho",
+          "number": 7,
+          "page": 280
+        }
+      },
+      {
+        "question": "Kde by ste našli hyalocyty?",
+        "answers": [
+          "v prednej očnej komore",
+          "v sklovci",
+          "v pars plana riasnatého telieska",
+          "v arteria hyaloidea"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zmysly – oko a ucho",
+          "number": 8,
+          "page": 280
+        }
+      },
+      {
+        "question": "Čo je to Bruchova membrána?",
+        "answers": [
+          "najvnútornejšia vrstva cievovky oka",
+          "pentalaminárna štruktúra nachádzajúca sa medzi pigmentovým epitelom sietnice a fenestrovanými choroidálnymi kapilárami oka",
+          "bazálna membrána vnútorného epitelu (endotelu) rohovky",
+          "bazálna membrána šošovkových vlákien"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zmysly – oko a ucho",
+          "number": 9,
+          "page": 280
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich štruktúr sú histologické súčasti rohovky?",
+        "answers": [
+          "zonulárne vlákna",
+          "musculus ciliaris",
+          "Descemetova membrána",
+          "Bowmanova membrána"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zmysly – oko a ucho",
+          "number": 10,
+          "page": 281
+        }
+      },
+      {
+        "question": "Aké sú funkcie corpus ciliare (riasnatého telieska)?",
+        "answers": [
+          "produkcia komorového moku",
+          "mydriáza",
+          "mióza",
+          "akomodácia"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zmysly – oko a ucho",
+          "number": 11,
+          "page": 281
+        }
+      },
+      {
+        "question": "Čo platí o gangliových neurónoch sietnice?",
+        "answers": [
+          "sú v poradí tretím neurónom optickej dráhy",
+          "sú v poradí druhým neurónom optickej dráhy",
+          "ich axóny tvoria vlákna nervus opticus",
+          "sú bipolárne",
+          "vznikli z očnej plakódy"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zmysly – oko a ucho",
+          "number": 12,
+          "page": 281
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o šošovke sú pravdivé?",
+        "answers": [
+          "jej zadná plocha je pokrytá epitelom",
+          "jej puzdro je tvorené zvlášť hrubou bazálnou membránou epitelových šošovkových buniek",
+          "šošovkové vlákna sú tvorené jemnými kolagénovými vláknami",
+          "dokáže meniť svoju optickú mohutnosť vďaka svojej elasticite"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zmysly – oko a ucho",
+          "number": 13,
+          "page": 281
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o oku:",
+        "answers": [
+          "tunica fibrosa bulbi je najvnútornejšou vrstvou očnej gule",
+          "amakrinné bunky v sietnici sú jediné neuróny v ľudskom tele, ktoré nemajú axón",
+          "zadný epitel rohovky nasadá na Bowmanovu membránu",
+          "rohovka má bohaté cievne zásobenie"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zmysly – oko a ucho",
+          "number": 14,
+          "page": 281
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o oku:",
+        "answers": [
+          "predný epitel rohovky je viacvrstvový dlaždicový nerohovatejúci",
+          "epitel vráskovca a dúhovky je súčasťou uvey",
+          "optická časť sietnice je tvorená desiatimi typickými vrstvami",
+          "tyčinky a čapíky tvoria prvý neurón zrakovej dráhy"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zmysly – oko a ucho",
+          "number": 15,
+          "page": 282
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o oku:",
+        "answers": [
+          "tyčinky a čapíky sú súčasťou pars caeca retinae",
+          "závesný aparát upevňuje šošovku k vráskovcu, čo má význam pri akomodácii",
+          "zadný epitel rohovky je viacvrstvový plochý nerohovatejúci",
+          "skléra je tvorená prevažne hustým kolagénovým neusporiadaným väzivom"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zmysly – oko a ucho",
+          "number": 16,
+          "page": 282
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o oku:",
+        "answers": [
+          "dúhovka obsahuje dva hladké svaly – m. sphincter a m. dilatator pupillae",
+          "Schlemmov kanál je endotelom vystlaný drenážny systém komorového moku",
+          "Descemetova membrána je bazálna membrána zadného rohovkového epitelu",
+          "vráskovec má vzadu jednovrstvový epitel, ktorý je súčasťou slepej časti sietnice"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zmysly – oko a ucho",
+          "number": 17,
+          "page": 282
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o oku:",
+        "answers": [
+          "šošovku vpredu pokrýva jednovrstvový kubický epitel, ktorý je zdrojom šošovkových vlákien",
+          "Müllerove bunky sú gliové bunky, ktoré prebiehajú celou šírkou sietnice",
+          "bipolárne bunky tvoria tretí neurón zrakovej dráhy",
+          "amakrinné bunky sietnice majú rovnako ako iné multipolárne neuróny spravidla jeden axón a viacero dendritov"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zmysly – oko a ucho",
+          "number": 18,
+          "page": 282
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o oku:",
+        "answers": [
+          "hranicu medzi pars caeca a pars optica retinae tvorí predná očná komora",
+          "pigmentový epitel je najvnútornejšou vrstvou optickej časti sietnice",
+          "šošovkové vlákna sú prítomné iba na povrchu šošovky",
+          "choroidea obsahuje Bruchovu membránu, ktorá leží na hranici s optickou časťou sietnice"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zmysly – oko a ucho",
+          "number": 19,
+          "page": 282
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o oku:",
+        "answers": [
+          "predný aj zadný epitel rohovky je jednovrstvový plochý epitel",
+          "substantia propria (stróma) je najhrubšou vrstvou rohovky",
+          "predná hraničná vrstva dúhovky obsahuje fibroblasty a melanocyty",
+          "dúhovka má vpredu epitel, podobne ako rohovka"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zmysly – oko a ucho",
+          "number": 20,
+          "page": 283
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o oku:",
+        "answers": [
+          "dúhovka má vpredu namiesto epitelu prednú hraničnú vrstvu",
+          "corpus vitreum je súčasťou steny očnej gule",
+          "musculus dilatator pupillae je tvorený myoepitelovými bunkami",
+          "hranicou medzi slepou a zrakovou časťou sietnice je ora serrata"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zmysly – oko a ucho",
+          "number": 21,
+          "page": 283
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o oku:",
+        "answers": [
+          "stratum neurofibrarum zrakovej časti sietnice sa nachádza tesne pod pigmentovým epitelom",
+          "stratum plexiforme externum zrakovej časti sietnice tvoria synapsy medzi výbežkami svetlocitlivých buniek a bipolárnych buniek",
+          "komorový mok sa tvorí v oblasti pars plana vráskovca",
+          "stratum limitans internum zrakovej časti sietnice tvoria synapsy medzi gangliovými a bipolárnymi bunkami"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zmysly – oko a ucho",
+          "number": 22,
+          "page": 283
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o oku:",
+        "answers": [
+          "tyčinky sú zodpovedné za čiernobiele videnie",
+          "čapíky sú zodpovedné za farebné videnie a rozpoznávanie drobných detailov",
+          "spojovka očnej gule nadväzuje na rohovkový epitel",
+          "riedke kolagénové väzivo dúhovky neobsahuje krvné cievy"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zmysly – oko a ucho",
+          "number": 23,
+          "page": 283
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o uchu:",
+        "answers": [
+          "podkladom ušnice je elastická chrupka",
+          "celý vonkajší zvukovod je tvorený hyalínovou chrupkou",
+          "stratum cutaneum ušného bubienka je tvorená viacvrstvovým dlaždicovým rohovatejúcim epitelom",
+          "všetky vrstvy ušného bubienka majú spoločný embryonálny pôvod"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zmysly – oko a ucho",
+          "number": 24,
+          "page": 283
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o uchu:",
+        "answers": [
+          "stredoušnú dutinu tvoria tri sluchové kostičky a dva svaly",
+          "stredné ucho je spojené s vonkajším uchom pomocou Eustachovej trubice",
+          "stapes je pripojený do oválneho okienka",
+          "stredoušná dutina je vystlaná jednovrstvovým plochým až nízko kubickým epitelom"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zmysly – oko a ucho",
+          "number": 25,
+          "page": 284
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o uchu:",
+        "answers": [
+          "blanitý labyrint obsahuje výlučne Cortiho orgán, vestibulárny aparát je tvorený iba kostnou časťou",
+          "všetky senzorické útvary blanitého labyrintu obsahujú vláskové bunky",
+          "stria vascularis je jediný epitel v ľudskom tele, ktorý obsahuje krvné cievy",
+          "scala media je miestom uloženia vestibulárneho aparátu"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zmysly – oko a ucho",
+          "number": 26,
+          "page": 284
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o uchu:",
+        "answers": [
+          "Cortiho orgán obsahuje dva typy vláskových buniek – vonkajšie a vnútorné",
+          "cristae ampullares sú súčasťou Cortiho orgánu",
+          "Cortiho orgán leží na bazilárnej membráne",
+          "kostený labyrint sa nachádza vo vnútri blanitého labyrintu"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zmysly – oko a ucho",
+          "number": 27,
+          "page": 284
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o uchu:",
+        "answers": [
+          "scala media je súčasťou kosteného labyrintu",
+          "hranicou medzi scala media a scala vestibuli je bazilárna membrána",
+          "stria vascularis je viacradový epitel, ktorý sa podieľa na tvorbe endolymfy",
+          "tri canales semicirculares kosteného labyrintu obsahujú tri ductus semicirculares blanitého labyrintu"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zmysly – oko a ucho",
+          "number": 28,
+          "page": 284
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o uchu:",
+        "answers": [
+          "helicotrema je miesto prechodu scala tympani a scala vestibuli na vrchole kosteného slimáka",
+          "vlásky vonkajších vláskových buniek dosahujú do membrana tectoria",
+          "falangové bunky sú typom vláskových buniek Cortiho orgánu",
+          "všetky vláskové bunky majú na povrchu veľké množstvo pohyblivých kinocílií"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zmysly – oko a ucho",
+          "number": 29,
+          "page": 284
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o uchu:",
+        "answers": [
+          "cristae ampullares obsahujú vláskové bunky kryté kupulou",
+          "macula sacculi et utriculi nájdeme v Cortiho orgáne",
+          "otolitová membrána je súčasťou membrana tectoria Cortiho orgánu",
+          "celý blanitý labyrint vnútorného ucha je zodpovedný za polohocit a pohybocit"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zmysly – oko a ucho",
+          "number": 30,
+          "page": 285
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o uchu:",
+        "answers": [
+          "membrana vestibularis oddeľuje scala media od scala vestibuli",
+          "v kostnom labyrinte prúdi endolymfa",
+          "v blanitom labyrinte prúdi perilymfa",
+          "scala media má na priereze trojuholníkový tvar"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zmysly – oko a ucho",
+          "number": 31,
+          "page": 285
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o uchu:",
+        "answers": [
+          "vláskové bunky cristae ampullares majú okrem stereocílií na povrchu aj riasinku",
+          "vnútorné vláskové bunky Cortiho orgánu majú na povrchu stereocílie, pričom vonkajšie vláskové bunky majú kinocílie",
+          "v blanitom labyrinte prúdi endolymfa",
+          "v kostenom labyrinte prúdi perilymfa"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zmysly – oko a ucho",
+          "number": 32,
+          "page": 285
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o uchu:",
+        "answers": [
+          "stria vascularis je súčasťou vestibulárneho aparátu",
+          "ligamentum spirale je modifikovaný periost kostného labyrintu a je miestom vstrebávania endolymfy",
+          "okrem falangových a vláskových buniek obsahuje Cortiho orgán aj veľké množstvo ďalších buniek, napr. pilierové bunky, Claudiusove bunky atď.",
+          "vonkajšie, stredné aj vnútorné ucho majú spoločný embryonálny pôvod"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zmysly – oko a ucho",
+          "number": 33,
+          "page": 285
+        }
+      },
+      {
+        "question": "Ako sa volá zhrubnutie ektodermy ako reakcia na proliferáciu očnej stopky z diencefala v 4. týždni vývoja plodu?",
+        "answers": [
+          "očný pohárik",
+          "šošovková plakóda",
+          "otická plakóda",
+          "očný vačok"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zmysly – oko a ucho",
+          "number": 34,
+          "page": 286
+        }
+      },
+      {
+        "question": "Ktoré časti oka sú mezenchýmového pôvodu?",
+        "answers": [
+          "sietnica",
+          "šošovka",
+          "epitel rohovky",
+          "choroidea",
+          "väzivová stróma rohovky",
+          "sklovec"
+        ],
+        "correct": [
+          3,
+          4,
+          5
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zmysly – oko a ucho",
+          "number": 35,
+          "page": 286
+        }
+      },
+      {
+        "question": "Aké súčasti zostávajú v oku ako pozostatky arteria hyaloidea?",
+        "answers": [
+          "nervus opticus",
+          "slepá škvrna",
+          "canalis hyaloideus",
+          "arteria centralis retinae"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zmysly – oko a ucho",
+          "number": 36,
+          "page": 286
+        }
+      },
+      {
+        "question": "Z čoho vzniká ductus endolymphaticus?",
+        "answers": [
+          "z kondenzovaného mezenchýmu 1. faryngového oblúka",
+          "z otickej plakódy",
+          "z recessus tubotympanicus",
+          "z otocysty (sluchového vačku)",
+          "z prvej faryngovej brázdy"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zmysly – oko a ucho",
+          "number": 37,
+          "page": 286
+        }
+      },
+      {
+        "question": "Z čoho vzniká vonkajší zvukovod?",
+        "answers": [
+          "jeho epitel z povrchového ektodermu",
+          "z prvej faryngovej brázdy",
+          "z recessus tubotympanicus",
+          "z prvého faryngového vačku"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zmysly – oko a ucho",
+          "number": 38,
+          "page": 287
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o vývine oka:",
+        "answers": [
+          "sietnica je pôvodom z neuroektodermovej šošovkovej plakódy",
+          "na vývine väzivových súčastí oka sa výrazne podieľa ektomezenchým s účasťou buniek pôvodom z neurálnej lišty",
+          "pars caeca aj pars optica retinae majú spoločný embryonálny pôvod",
+          "očný pohárik je základom pre šošovku"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zmysly – oko a ucho",
+          "number": 39,
+          "page": 287
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o vývine oka:",
+        "answers": [
+          "fissura choroidea je štrbina, ktorá vyúsťuje do pôvodnej dutiny očného vačku",
+          "šošovka sa vyvíja z šošovkovej plakódy, pôvodom z povrchovej ektodermy",
+          "oko sa začína vyvíjať od 7. týždňa po oplodnení",
+          "musculus sphincter et dilatator pupilae vznikajú z ektomezenchýmu"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zmysly – oko a ucho",
+          "number": 40,
+          "page": 287
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o vývine oka:",
+        "answers": [
+          "očná stopka, ktorá na začiatku vývinu oka spája očný vačok s dutinou prosencefala, je základom zrakového nervu",
+          "sklovec (corpus vitreum) sa vyvíja z mezenchýmu v dutine očného pohárika",
+          "celá rohovka sa vyvíja z povrchovej ektodermy",
+          "neuroektodermového pôvodu je iba očný pohárik a jeho deriváty"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zmysly – oko a ucho",
+          "number": 41,
+          "page": 287
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o vývine oka:",
+        "answers": [
+          "základ oka sa začína vyvíjať od 4. týždňa po oplodnení",
+          "predný epitel je jedinou súčasťou rohovky, ktorá sa vyvíja z povrchovej ektodermy",
+          "zrenica vzniká ako zúžený kruhový vchod do očného pohárika",
+          "šošovka sa vyvíja z dvoch rôznych základov"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zmysly – oko a ucho",
+          "number": 42,
+          "page": 287
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o vývine oka:",
+        "answers": [
+          "šošovková plakóda vzniká z neuroektodermy očného pohárika",
+          "dutina očného vačku sa postupne premieňa na dutinu očného pohárika",
+          "arteria centralis retinae sa vyvíja z arteria hyaloidea",
+          "celá dúhovka aj vráskovec pochádzajú z neuroektodermy očného pohárika"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zmysly – oko a ucho",
+          "number": 43,
+          "page": 288
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o vývine ucha:",
+        "answers": [
+          "vonkajšie, stredné aj vnútorné ucho sú všetky pôvodom z neurálnej lišty",
+          "ušný bubienok (membrana tympani) sa vyvíja v mieste, kde na seba naliehajú 1. faryngová brázda a 1. faryngový vačok",
+          "ušnica vzniká zo šiestich hrbolčekov okolo okraja 1. faryngovej brázdy",
+          "ušná (sluchová) plakóda je základom pre vonkajší zvukovod"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zmysly – oko a ucho",
+          "number": 44,
+          "page": 288
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o vývine ucha:",
+        "answers": [
+          "ušná (sluchová) plakóda je základom blanitého labyrintu vnútorného ucha",
+          "stredoušná dutina a Eustachova trubica (tuba auditiva) sa vyvíjajú z recessus tubotympanicus",
+          "štruktúry stredného ucha sa vyvíjajú z otocysty",
+          "štruktúry stredného ucha sú derivátmi žiabrovej oblasti"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zmysly – oko a ucho",
+          "number": 45,
+          "page": 288
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o vývine ucha:",
+        "answers": [
+          "vláskové bunky sluchového aj rovnovážneho aparátu sú pôvodom z ektodermovej otocysty",
+          "blanitý labyrint vnútorného ucha sa začína vyvíjať od 4. týždňa po oplodnení",
+          "stredoušná dutina je pôvodom z prvého endodermového faryngového vačku",
+          "pri vývine vonkajšieho a stredného ucha sa prederaví membrana obturans medzi 1. faryngovou brázdou a 1. faryngovým vačkom"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zmysly – oko a ucho",
+          "number": 46,
+          "page": 288
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o vývine ucha:",
+        "answers": [
+          "ucho sa začína vyvíjať až od 8. týždňa po oplodnení",
+          "blanitý aj kostný labyrint sa vyvíjajú z ektodermovej otocysty",
+          "membrana obturans medzi 1. faryngovým vačkom a 1. faryngovou brázdou je základom pre ušný bubienok",
+          "ganglion vestibulocochleare pochádza rovnako ako vláskové bunky z otocysty"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zmysly – oko a ucho",
+          "number": 47,
+          "page": 289
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o vývine ucha:",
+        "answers": [
+          "maleus, incus a stapes sú všetky pôvodom z chrupky 1. faryngového oblúka",
+          "vývin celého vonkajšieho zvukovodu je ukončený ešte v embryonálnom období",
+          "pri poruche vývinu 1. žiabrového oblúka môže vzniknúť atrézia zvukovodu",
+          "ganglion vestibulocochleare pochádza z neuroektodermy neurálnej lišty"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Zmysly – oko a ucho",
+          "number": 48,
+          "page": 289
+        }
+      }
+    ]
+  }
+]

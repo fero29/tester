@@ -1,0 +1,790 @@
+[
+  {
+    "title": "Histológia – zbierka – 8. Krv",
+    "description": "Krvné elementy, krvný náter a krvotvorba. Otázky s výberom viacerých odpovedí zo zbierky Histológia a embryológia v otázkach (Miko, Klein, Juríková, UK 2025); kľúč podľa zbierky.",
+    "year": 1,
+    "category": "Histológia",
+    "sortOrder": 18,
+    "questions": [
+      {
+        "question": "Aká je priemerná veľkosť erytrocytov?",
+        "answers": [
+          "približne 15 µm",
+          "približne 7,5 µm",
+          "približne 35 µm",
+          "okolo 350 nm"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krv",
+          "number": 1,
+          "page": 85
+        }
+      },
+      {
+        "question": "Kde v krvi sa nachádza najväčšie percento prenášaného oxidu uhličitého?",
+        "answers": [
+          "viazané na hemoglobín erytrocytov ako karbamínová zlúčenina",
+          "viazané na albumín krvnej plazmy",
+          "voľne rozpustený CO2 v krvnej plazme",
+          "v plazme vo forme bikarbonátu"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krv",
+          "number": 2,
+          "page": 85
+        }
+      },
+      {
+        "question": "Ktoré bunky sú výsledkom myelopoézy?",
+        "answers": [
+          "megakaryocyty",
+          "retikulocyty",
+          "žírne bunky",
+          "NK bunky"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krv",
+          "number": 3,
+          "page": 85
+        }
+      },
+      {
+        "question": "Ktoré bunky sú výsledkom myelopoézy?",
+        "answers": [
+          "eozinofily",
+          "makrofágy",
+          "T-lymfocyty",
+          "monocyty",
+          "plazmatické bunky"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krv",
+          "number": 4,
+          "page": 85
+        }
+      },
+      {
+        "question": "Ktorý z leukocytov je vo všeobecnosti najväčší?",
+        "answers": [
+          "neutrofil",
+          "monocyt",
+          "bazofil",
+          "zrelý B-lymfocyt"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krv",
+          "number": 5,
+          "page": 86
+        }
+      },
+      {
+        "question": "Ktoré látky obsahujú špecifické granuly bazofilov?",
+        "answers": [
+          "hlavný zásaditý proteín (major basic protein)",
+          "histamín",
+          "heparín",
+          "proteolytické enzýmy"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krv",
+          "number": 6,
+          "page": 86
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o erytrocytoch sú pravdivé?",
+        "answers": [
+          "ich priemerná životnosť je 120 dní",
+          "sú schopné améboidného pohybu",
+          "obsahujú Fe2+",
+          "majú dezmínový cytoskelet",
+          "nemajú vyvinutý glykokalyx",
+          "ich koncentrácia je približne 5 miliónov v 1 µl krvi"
+        ],
+        "correct": [
+          0,
+          2,
+          5
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krv",
+          "number": 7,
+          "page": 86
+        }
+      },
+      {
+        "question": "Čo majú spoločné erytrocyt a trombocyt?",
+        "answers": [
+          "spoločné myeloidné progenitorové bunky",
+          "neobsahujú žiadne mitochondrie",
+          "prítomnosť molekuly aktínu",
+          "bikonkávny tvar"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krv",
+          "number": 8,
+          "page": 86
+        }
+      },
+      {
+        "question": "Ktoré z uvedených vývojových štádií erytrocytov je najmenej zrelé?",
+        "answers": [
+          "polychromatofilný normoblast/erytroblast",
+          "ortochromatický normoblast/erytroblast",
+          "retikulocyt",
+          "bazofilný normoblast/erytroblast"
+        ],
+        "correct": [
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krv",
+          "number": 9,
+          "page": 87
+        }
+      },
+      {
+        "question": "Ktorá z nasledujúcich buniek je najčastejšie zastúpená v periférnej krvi?",
+        "answers": [
+          "monocyty",
+          "trombocyty",
+          "eozinofily",
+          "neutrofily"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krv",
+          "number": 10,
+          "page": 87
+        }
+      },
+      {
+        "question": "V nasledujúcom výroku opravte slovo tak, aby bol tento výrok správny: Metamyelocyt je štádium, v ktorom možno jasne identifikovať neutrofilné, eozinofilné a bazofilné línie podľa prítomnosti početných azurofilných granúl.",
+        "answers": [
+          "metamyelocyt → promyelocyt",
+          "bazofilné → monocytové",
+          "azurofilné → špecifické",
+          "granuly → inklúzie"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krv",
+          "number": 11,
+          "page": 87
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o neutrofiloch sú pravdivé?",
+        "answers": [
+          "ich granuly obsahujú metaloproteinázy",
+          "môžu sa diferencovať na makrofágy",
+          "majú polymorfné jadro rozdelené na 1 – 5 segmentov (lalôčikov)",
+          "sú najpočetnejším typom leukocytov v krvi"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krv",
+          "number": 12,
+          "page": 87
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o neutrofiloch sú pravdivé?",
+        "answers": [
+          "tvoria 13–40 % všetkých leukocytov",
+          "tvoria 55–70 % leukocytov",
+          "sú vyvolané mikrobiálnym zápalom",
+          "stávajú sa mikrofágmi v tkanivách",
+          "ich špecifické granuly obsahujú histamín a heparín"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krv",
+          "number": 13,
+          "page": 88
+        }
+      },
+      {
+        "question": "Čo najpravdepodobnejšie odráža zvýšený diferenciálny počet lymfocytov?",
+        "answers": [
+          "skorý príznak arteriálneho krvácania",
+          "možný leukemický proces v kostnej dreni",
+          "supresiu kostnej drene",
+          "pokročilú infekciu HIV s prejavmi AIDS",
+          "prítomnosť vírusovej infekcie v tele"
+        ],
+        "correct": [
+          1,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krv",
+          "number": 14,
+          "page": 88
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o T-lymfocytoch sú správne?",
+        "answers": [
+          "podieľajú sa na získanej (špecifickej) bunkovej imunite",
+          "dozrievajú a získavajú imunokompetenciu v kostnej dreni",
+          "niektoré z nich môžu uchovávať informácie o antigéne, t. j. o infekcii mnoho rokov",
+          "väčšina meria 8 až 10 µm",
+          "oproti B-lymfocytom sa najlepšie rozlišujú identifikáciou povrchových CD markerov (cluster of differentiation markers)",
+          "sú o niečo väčšie ako B-lymfocyty",
+          "sú v periférnej krvi niekoľkonásobne početnejšie ako B-lymfocyty"
+        ],
+        "correct": [
+          0,
+          2,
+          3,
+          4,
+          6
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krv",
+          "number": 15,
+          "page": 88
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o bazofiloch sú správne?",
+        "answers": [
+          "sú najmenej početné zo všetkých leukocytov",
+          "ich euchromatín je uložený v jadre najmä centrálne",
+          "majú receptory pre protilátky IgE",
+          "neobsahujú azurofilné granuly"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krv",
+          "number": 16,
+          "page": 88
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o eozinofiloch sú správne?",
+        "answers": [
+          "tvoria 60–70 % leukocytov",
+          "množia sa u alergikov a pacientov s parazitárnymi ochoreniami",
+          "ich jadrá sú zvyčajne dvojlaločnaté",
+          "obsahujú MBP (hlavný zásaditý proteín)",
+          "ich sekrečné produkty znásobujú účinky histamínu na tkanivá"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krv",
+          "number": 17,
+          "page": 89
+        }
+      },
+      {
+        "question": "Koncentrácia ktorého hormónu sa zvyšuje v krvi športovca, ktorý trénuje vo vysokej nadmorskej výške?",
+        "answers": [
+          "trombopoetínu",
+          "tymopoetínu",
+          "erytropoetínu",
+          "somatostatínu"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krv",
+          "number": 18,
+          "page": 89
+        }
+      },
+      {
+        "question": "Ktoré z nasledujúcich tvrdení o erytrocytoch sú správne?",
+        "answers": [
+          "prežijú maximálne niekoľko hodín až dní",
+          "mitochondrie sú jediným typom organel prítomných v ich cytoplazme",
+          "nemôžu normálne prechádzať cez neporušenú cievnu stenu z krvného obehu do spojivového tkaniva",
+          "majú podobu bikonvexných diskov",
+          "majú priemer približne 6,2 – 8,2 µm"
+        ],
+        "correct": [
+          2,
+          4
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krv",
+          "number": 19,
+          "page": 89
+        }
+      },
+      {
+        "question": "Ktoré z týchto dvojíc sú správne?",
+        "answers": [
+          "hyaloméra – trombocyt",
+          "jadro v tvare fazule – monocyt",
+          "jadro – retikulocyt",
+          "krvotvorné kmeňové bunky – červená kostná dreň"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krv",
+          "number": 20,
+          "page": 89
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o krvi:",
+        "answers": [
+          "erytrocyt obsahuje všetky typické organely vrátane jadra",
+          "najpočetnejším formovaným krvným elementom sú erytrocyty",
+          "priemerný erytrocyt má rozmer zhruba 7,5 µm",
+          "typickým tvarom erytrocytu je bikonvexný disk"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krv",
+          "number": 21,
+          "page": 90
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o krvi:",
+        "answers": [
+          "erytrocyty žijú priemerne 120 dní",
+          "najtenší je erytrocyt v strede s hrúbkou približne iba 0,8 µm",
+          "normocyt je označenie erytrocytu obvyklej veľkosti okolo 7,5 µm",
+          "kyslý hemoglobín spôsobuje eozinofíliu cytoplazmy erytrocytu"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krv",
+          "number": 22,
+          "page": 90
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o krvi:",
+        "answers": [
+          "erytrocyt sa niekedy označuje aj ako histologické pravítko (česky měřítko)",
+          "súčasťou molekuly hemoglobínu sú spektrín a ankyrín",
+          "erytrocyty majú tvar bikonkávneho disku",
+          "najviac zastúpeným typom hemoglobínu u dospelých je hemoglobín typu F"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krv",
+          "number": 23,
+          "page": 90
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o krvi:",
+        "answers": [
+          "trombocyty obsahujú typické bunkové organely vrátane jadra",
+          "megakaryocyt je obrovská bunka kostnej drene, ktorej fragmenty označujeme ako trombocyty",
+          "trombocyty majú veľkosť okolo 12 µm",
+          "trombocyty obsahujú tmavšiu centrálnu granuloméru a svetlejšiu periférnu hyaloméru"
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krv",
+          "number": 24,
+          "page": 90
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o krvi:",
+        "answers": [
+          "veľkosť trombocytov je okolo 2 – 3 µm, čiže ide o najmenšie formované krvné elementy",
+          "granuloméra trombocytov obsahuje alfa granuly, v ktorých sa nachádzajú koagulačné faktory",
+          "trombocyty majú životnosť približne 10 dní",
+          "trombocyty sa v krvnom nátere vyskytujú jednotlivo, alebo môžu vytvárať zhluky"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krv",
+          "number": 25,
+          "page": 90
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o krvi:",
+        "answers": [
+          "najpočetnejším typom leukocytu je neutrofilný granulocyt",
+          "granulocyty označujeme aj ako polymorfonukleárne granulocyty",
+          "Arnethove triedy určujú priemerný počet segmentov jadra eozinofilných granulocytov",
+          "„palička“ je označenie pre staré neutrofilné granulocyty"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krv",
+          "number": 26,
+          "page": 91
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o krvi:",
+        "answers": [
+          "eozinofilný graulocyt obsahuje v krvnom nátere tehlovočervené špecifické granuly",
+          "špecifické granuly bazofilných granulocytov vykazujú metachromáziu",
+          "bazofilné granulocyty za normálnych okolností tvoria približne 30 % všetkých bielych krviniek",
+          "Barrovo teliesko je inaktivovaný chromozóm Y u mužov, ktorý môžeme pozorovať na niektorom zo segmentov neutrofilného granulocytu"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krv",
+          "number": 27,
+          "page": 91
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o krvi:",
+        "answers": [
+          "priemerný neutrofilný granulocyt má rozmer okolo 10 – 12 mikrometrov",
+          "neutrofilný granulocyt nemá v cytoplazme žiadne špecifické granuly",
+          "podľa farbiteľnosti azurofilných granúl rozdeľujeme granulocyty na neutrofilné, eozinofilné a bazofilné",
+          "60 – 70 % všetkých leukocytov tvoria neutrofilné granulocyty"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krv",
+          "number": 28,
+          "page": 91
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o krvi:",
+        "answers": [
+          "čím je neutrofilný granulocyt starší, tým viac má segmentované jadro",
+          "neutrofilné granulocyty tiež označujeme ako mikrofágy",
+          "eozinofilné granulocyty majú dvojlaločnaté okuliarovité jadro",
+          "jadro bazofilného granulocytu je tvorené 4 – 5 segmentami"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krv",
+          "number": 29,
+          "page": 91
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o krvi:",
+        "answers": [
+          "hlavnou funkciou eozinofilných granulocytov je boj proti parazitom, zúčastňujú sa však aj alergických reakcií",
+          "denzný kryštaloid je súčasťou špecifických granúl bazofilných granulocytov",
+          "iba okolo 0,5 – 1 % všetkých cirkulujúcich leukocytov pripadá na bazofilné granulocyty",
+          "najmenšími leukocytmi sú neutrofilné granulocyty"
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krv",
+          "number": 30,
+          "page": 92
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o krvi:",
+        "answers": [
+          "agranulocyty nemajú v cytoplazme žiadne granuly",
+          "typickým znakom agranulocytov je nesegmentované jadro, preto ich označujeme aj ako mononukleáry",
+          "najväčšími agranulocytmi sú monocyty",
+          "B- a T-lymfocyty dokážeme v bežnom krvnom nátere odlíšiť na základe morfológie jadra"
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krv",
+          "number": 31,
+          "page": 92
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o krvi:",
+        "answers": [
+          "monocyty sa v tkanivách diferencujú na makrofágy",
+          "monocyty majú veľkosť okolo 20 µm",
+          "až 90 % všetkých lymfocytov sú malé lymfocyty s veľkosťou 6 – 8 mikrometrov",
+          "lymfocyty majú nukleocytoplazmatický pomer 1 : 1"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krv",
+          "number": 32,
+          "page": 92
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o krvi:",
+        "answers": [
+          "farbiaca metóda používaná pri znázornení krvných náterov je farbenie podľa Pappenheima",
+          "monocyty majú centrálne uložené okrúhle bunkové jadro",
+          "monocyty cirkulujú v krvi iba 1 – 3 dni",
+          "lymfocyty sú po neutrofilných granulocytoch druhý najpočetnejší typ leukocytov v periférnej krvi"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krv",
+          "number": 33,
+          "page": 92
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o krvi:",
+        "answers": [
+          "jadro monocytov je excentricky uložené a má obličkovitý tvar",
+          "monocyty sú niekedy označované ako nahé jadrá",
+          "lymfocyty aj monocyty majú podobný nukleocytoplazmatický pomer",
+          "lymfocyty aj monocyty majú bazofilnú cytoplazmu"
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krv",
+          "number": 34,
+          "page": 92
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o krvi:",
+        "answers": [
+          "monocyty sa po prestupe do tkanív diferencujú na rôzne populácie ako súčasť monocytovo-makrofágového systému",
+          "monocyty obiehajú v krvi okolo 120 dní",
+          "monocyt je najväčší a najpočetnejší typ leukocytov v periférnej krvi",
+          "B-lymfocyty a T-lymfocyty dokážeme v bežnom krvnom nátere odlíšiť podľa farbiteľnosti ich CD markerov"
+        ],
+        "correct": [
+          0
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krv",
+          "number": 35,
+          "page": 93
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o krvi:",
+        "answers": [
+          "T-lymfocyty sa vyvíjajú v rámci myeloidnej línie",
+          "východiskovou populáciou všetkých formovaných krvných elementov je multipotentná hematopoetická kmeňová bunka",
+          "retikulocyt je nezrelá forma erytrocytu, ktorá ešte obsahuje jadro",
+          "polychromatofilný erytroblast sa farbí výlučne zásaditými farbivami"
+        ],
+        "correct": [
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krv",
+          "number": 36,
+          "page": 93
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o krvi:",
+        "answers": [
+          "všetky formované krvné elementy okrem lymfocytov sú súčasťou myeloidnej línie",
+          "mezoblastické obdobie krvotvorby je charakterizované extramedulárnou hematopoézou, ktorá sa začína v stene žĺtkového vačku",
+          "myeloidná progenitorová bunka je unipotentná",
+          "ortochromatický erytroblast má eozinofilnú cytoplazmu, podobne ako zrelé erytrocyty"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krv",
+          "number": 37,
+          "page": 93
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o krvi:",
+        "answers": [
+          "krvná plazma bez koagulačných faktorov sa označuje ako sérum",
+          "90 % krvnej plazmy tvorí voda",
+          "krvná plazma tvorí okolo 45 % objemu celej krvi",
+          "súčasťou krvnej plazmy sú formované krvné elementy"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krv",
+          "number": 38,
+          "page": 93
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o krvi:",
+        "answers": [
+          "u dospelých prebieha hematopoéza za každých okolností iba v kostnej dreni",
+          "všetky agranulocyty sa vyvíjajú z lymfoidnej línie, pričom všetky granulocyty pochádzajú z myeloidnej línie",
+          "bazofilný erytroblast má bunkové jadro",
+          "myeloblast sa diferencuje z promyelocytu"
+        ],
+        "correct": [
+          2
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krv",
+          "number": 39,
+          "page": 94
+        }
+      },
+      {
+        "question": "Vyberte správne tvrdenia o krvi:",
+        "answers": [
+          "krvotvorba prebieha od začiatku vnútromaternicového vývinu výlučne v kostnej dreni",
+          "extramedulárna krvotvorba prebieha v žltej kostnej dreni",
+          "prekurzorové bunky krvotvorby sú vždy viac diferencované ako progenitorové bunky",
+          "súčasťou trombopoézy sú megakaryoblast, promegakaryocyt a megakaryocyt"
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "source": {
+          "file": "Histologia_a_embryologia_v_otazkach_oprava2.pdf",
+          "chapter": "Krv",
+          "number": 40,
+          "page": 94
+        }
+      }
+    ]
+  }
+]
